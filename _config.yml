@@ -1,0 +1,12 @@
+title: Your Niche Review Site
+description: Professional product reviews & buying guides
+author: Your Name
+lang: en
+timezone: UTC
+
+theme: minima
+permalink: /:title/
+
+# 站点基础SEO
+seo:
+  type: BlogPosting
