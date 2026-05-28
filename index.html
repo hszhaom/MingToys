@@ -20,7 +20,7 @@ layout: default
     {% for post in paginator.posts %}
     <div class="post-card">
       {% if post.cover %}
-      <img class="card-img" src="{{ post.cover }}" alt="{{ post.title }}">
+      <img class="card-img" src="{{ site.baseurl }}{{ post.cover }}" alt="{{ post.title }}">
       {% endif %}
       <div class="card-content">
         <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>

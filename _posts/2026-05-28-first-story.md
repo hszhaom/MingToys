@@ -1,12 +1,12 @@
 ---
 title: All About Corgis:Personality, Traits & Why They Are So Popular
+cover: /assets/images/corgi-cover.jpg
 layout: post
-cover: /assets/images/corgi-cover.jpg  # 封面图路径
 ---
 
 Corgis are one of the most beloved dog breeds around the world. With their short legs, big round butt and cute appearance, they win the hearts of countless pet lovers easily.
 
-![Lovely Corgi](/assets/images/corgi-main.jpg)
+![Lovely Corgi]({{ site.baseurl }}/assets/images/corgi-main.jpg)
 
 #### Friendly and Outgoing Personality
 Corgis are smart, lively and extremely friendly. They get along well with adults, kids and other pets. They love interacting with people and always stay energetic during the day.
@@ -18,7 +18,7 @@ This breed has thick double coats, so they shed hair all year round, especially 
 
 Corgis need proper exercise every day. A short walk or simple outdoor games can help them release energy and stay healthy. Do not let them climb stairs too often, to protect their short legs and spine.
 
-![Corgi playing outside](/assets/images/corgi-play.jpg)
+![Corgi playing outside]({{ site.baseurl }}/assets/images/corgi-play.jpg)
 
 #### Is a Corgi Right for You?
 If you live in an apartment and have time to accompany your pet, corgis will be a wonderful choice. They are loyal companions and can bring lots of joy to your daily life.
