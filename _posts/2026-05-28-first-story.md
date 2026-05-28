@@ -1,5 +1,6 @@
 ---
 title: A Lovely Rescue Cat Finds a Warm Home
+layout: post
 cover: /assets/images/cat-rescue.jpg  # 封面图路径
 ---
 
