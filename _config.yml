@@ -1,12 +1,25 @@
-title: Your Niche Review Site
-description: Professional product reviews & buying guides
+# 站点基础配置
+title: Pet Dodo Stories
+description: Cute pet stories, rescue moments & lovely animal daily | 萌宠治愈故事站
 author: Your Name
-lang: en
-timezone: UTC
+# GitHub Pages 地址格式：https://用户名.github.io/仓库名/
+url: "https://hszhaom.github.io/MingToys/"
+baseurl: "/pet-dodo-site"
 
-theme: minima
-permalink: /:title/
+# 文章配置
+permalink: /posts/:year/:month/:day/:title/  # 文章永久链接格式
+paginate: 8                                 # 首页每页展示8篇文章
+paginate_path: "/page:num/"
 
-# 站点基础SEO
-seo:
-  type: BlogPosting
+# 开启标签、分类
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+
+# 排除不需要渲染的文件
+exclude:
+  - README.md
