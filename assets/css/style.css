@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
 }
 
-/* 头部导航 */
+/* 头部导航（带Logo） */
 header {
   background: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -27,12 +27,26 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.logo a {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #e63946;
+
+/* Logo 样式（PC+手机自适应） */
+.site-logo {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  color: inherit;
 }
+.logo-img {
+  height: 40px;
+  max-width: 150px;
+  object-fit: contain;
+}
+.site-title {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e63946;
+}
+
 .nav a {
   margin-left: 1.5rem;
   color: #555;
@@ -50,7 +64,7 @@ header {
   padding: 0 2rem;
 }
 
-/* 首页卡片流 (The Dodo 核心样式) */
+/* 首页卡片流 */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -153,4 +167,22 @@ footer {
   padding: 2rem;
   color: #999;
   font-size: 0.9rem;
+}
+
+/* 手机适配 */
+@media (max-width: 768px) {
+  .logo-img {
+    height: 32px;
+    max-width: 120px;
+  }
+  .site-title {
+    font-size: 16px;
+  }
+  .nav a {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }

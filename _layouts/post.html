@@ -3,12 +3,13 @@ layout: default
 ---
 <header>
   <div class="header-container">
-    <div class="logo">
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
+    <a class="site-logo" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }} Logo" class="logo-img">
+      <span class="site-title">{{ site.title }}</span>
+    </a>
     <div class="nav">
       <a href="{{ site.baseurl }}/">Home</a>
-      <a href="{{ site.baseurl }}/archive">Archive</a>
+      <a href="{{ site.baseurl }}/archive/">Archive</a>
     </div>
   </div>
 </header>

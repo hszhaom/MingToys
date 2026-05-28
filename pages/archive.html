@@ -1,17 +1,18 @@
 ---
 layout: default
-title: All Stories
+title: All Pet Stories
 permalink: /archive/
 ---
 
 <header>
   <div class="header-container">
-    <div class="logo">
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
+    <a class="site-logo" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }} Logo" class="logo-img">
+      <span class="site-title">{{ site.title }}</span>
+    </a>
     <div class="nav">
       <a href="{{ site.baseurl }}/">Home</a>
-      <a href="{{ site.baseurl }}/archive">Archive</a>
+      <a href="{{ site.baseurl }}/archive/">Archive</a>
     </div>
   </div>
 </header>
@@ -22,7 +23,7 @@ permalink: /archive/
     {% for post in site.posts %}
     <li style="margin: 1rem 0; padding-bottom: 1rem; border-bottom: 1px solid #eee;">
       <span style="color:#999;">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <a href="{{ post.url }}" style="margin-left: 1rem; font-size: 1.1rem; color:#e63946; text-decoration:none;">
+      <a href="{{ site.baseurl }}{{ post.url }}" style="margin-left: 1rem; font-size: 1.1rem; color:#e63946; text-decoration:none;">
         {{ post.title }}
       </a>
     </li>
