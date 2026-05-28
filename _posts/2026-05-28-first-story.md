@@ -1,7 +1,7 @@
 ---
 title: All About Corgis: Personality, Traits & Why They Are So Popular
-cover: /assets/images/corgi-cover.jpg
 layout: post
+cover: /assets/images/corgi-cover.jpg  # 封面图路径
 ---
 
 Corgis are one of the most beloved dog breeds around the world. With their short legs, big round butt and cute appearance, they win the hearts of countless pet lovers easily.
