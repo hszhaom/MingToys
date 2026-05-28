@@ -1,5 +1,5 @@
 ---
-title: All About Corgis: Personality, Traits & Why They Are So Popular
+title: All About Corgis:Personality, Traits & Why They Are So Popular
 layout: post
 cover: /assets/images/corgi-cover.jpg  # 封面图路径
 ---
