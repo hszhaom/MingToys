@@ -23,7 +23,7 @@ layout: default
       <div class="card-content">
         <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>
         <h3 class="card-title">
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
         </h3>
         <div class="card-excerpt">
           {{ post.excerpt | strip_html | truncate: 100 }}
