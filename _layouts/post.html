@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <div class="nav">
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/archive">Archive</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="post-page">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      Publish on: {{ page.date | date: "%B %d, %Y" }}
+    </div>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; {{ site.time | date: '%Y' }} {{ site.title }} | Powered by GitHub Pages & Jekyll
+</footer>
