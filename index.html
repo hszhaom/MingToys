@@ -4,13 +4,13 @@ layout: default
 
 <header>
   <div class="header-container">
-    <a class="site-logo" href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }} Logo" class="logo-img">
+    <a class="site-logo" href="{{ site.url }}/">
+      <img src="{{ site.url }}/assets/images/logo.png" alt="PetStorie Logo" class="logo-img">
       <span class="site-title">{{ site.title }}</span>
     </a>
     <div class="nav">
-      <a href="{{ site.baseurl }}/">Home</a>
-      <a href="{{ site.baseurl }}/archive/">Archive</a>
+      <a href="{{ site.url }}/">Home</a>
+      <a href="{{ site.url }}/archive/">Archive</a>
     </div>
   </div>
 </header>
@@ -20,12 +20,12 @@ layout: default
     {% for post in paginator.posts %}
     <div class="post-card">
       {% if post.cover %}
-      <img class="card-img" src="{{ site.baseurl }}{{ post.cover }}" alt="{{ post.title }}">
+      <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
       {% endif %}
       <div class="card-content">
         <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>
         <h3 class="card-title">
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
         </h3>
         <div class="card-excerpt">
           {{ post.excerpt | strip_html | truncate: 100 }}
@@ -38,14 +38,23 @@ layout: default
   <!-- 分页 -->
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Prev</a>
+      <a href="{{ site.url }}{{ paginator.previous_page_path }}">Prev</a>
     {% endif %}
     {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next</a>
+      <a href="{{ site.url }}{{ paginator.next_page_path }}">Next</a>
     {% endif %}
   </div>
 </div>
 
 <footer>
-  &copy; {{ site.time | date: '%Y' }} {{ site.title }} | Powered by PawPulse Stories
+  &copy; {{ site.time | date: '%Y' }} {{ site.title }} | All rights reserved
+  <span id="busuanzi_container_site_uv" style="margin: 0 1rem;">
+    Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+  <span id="busuanzi_container_site_pv">
+    Total Views: <span id="busuanzi_value_site_pv"></span>
+  </span>
 </footer>
+
+<!-- 访客统计脚本 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>

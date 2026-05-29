@@ -1,17 +1,17 @@
-# 站点基础配置
-title: PawPulse Stories
-description: Cute pet stories, rescue moments & lovely animal daily | 萌宠治愈故事站
-author: Ming Tian
-# GitHub Pages 地址格式：https://用户名.github.io/仓库名/
+# 站点基础信息
+title: PetStorie
+description: Pet Stories & Dog Breed Guides
+author: PetStorie
+
+# 域名配置（独立域名核心）
 url: "https://petstorie.com"
 baseurl: ""
 
 # 文章配置
-permalink: /posts/:year/:month/:day/:title/  # 文章永久链接格式
-paginate: 8                                 # 首页每页展示8篇文章
+permalink: /posts/:year/:month/:day/:title/
+paginate: 8
 paginate_path: "/page:num/"
 
-# 开启标签、分类
 defaults:
   - scope:
       path: ""
@@ -20,6 +20,5 @@ defaults:
       layout: post
       comments: false
 
-# 排除不需要渲染的文件
 exclude:
   - README.md

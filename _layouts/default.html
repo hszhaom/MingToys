@@ -3,15 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <!-- Favicon 小图标 -->
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/logo.png">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+
+  <!-- 页面标题 SEO -->
+  <title>
+    {% if page.title %}{{ page.title }} | PetStorie{% else %}PetStorie - Pet Stories & Dog Breed Guides{% endif %}
+  </title>
+
+  <!-- 描述、关键词 SEO -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}PetStorie shares warm pet stories, funny dog breed introductions and practical pet care tips for all animal lovers.{% endif %}">
+  <meta name="keywords" content="dog breed, pet stories, pet care, cute dogs, puppy guide, rescue pets">
+
+  <!-- 爬虫规则 + 规范链接（防重复内容） -->
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/logo.png">
+
+  <!-- 样式文件 -->
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
 </head>
 <body>
   {{ content }}
-
   <script data-goatcounter="https://hszhaom.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

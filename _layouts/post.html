@@ -3,13 +3,13 @@ layout: default
 ---
 <header>
   <div class="header-container">
-    <a class="site-logo" href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }} Logo" class="logo-img">
+    <a class="site-logo" href="{{ site.url }}/">
+      <img src="{{ site.url }}/assets/images/logo.png" alt="PetStorie Logo" class="logo-img">
       <span class="site-title">{{ site.title }}</span>
     </a>
     <div class="nav">
-      <a href="{{ site.baseurl }}/">Home</a>
-      <a href="{{ site.baseurl }}/archive/">Archive</a>
+      <a href="{{ site.url }}/">Home</a>
+      <a href="{{ site.url }}/archive/">Archive</a>
     </div>
   </div>
 </header>
@@ -19,6 +19,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
       Publish on: {{ page.date | date: "%B %d, %Y" }}
+      <span id="busuanzi_container_page_pv" style="margin-left: 1rem;">
+        Page Views: <span id="busuanzi_value_page_pv"></span>
+      </span>
     </div>
     <div class="post-content">
       {{ content }}
@@ -27,5 +30,38 @@ layout: default
 </div>
 
 <footer>
-  &copy; {{ site.time | date: '%Y' }} {{ site.title }} | Powered by PawPulse Stories
+  &copy; {{ site.time | date: '%Y' }} {{ site.title }} | All rights reserved
+  <span id="busuanzi_container_site_uv" style="margin: 0 1rem;">
+    Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+  <span id="busuanzi_container_site_pv">
+    Total Views: <span id="busuanzi_value_site_pv"></span>
+  </span>
 </footer>
+
+<!-- 访客统计脚本 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- Google 结构化数据 Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "image": "{{ site.url }}{{ page.cover }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+  "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+  "author": {
+    "@type": "Organization",
+    "name": "PetStorie"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PetStorie",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/logo.png"
+    }
+  }
+}
+</script>
