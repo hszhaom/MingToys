@@ -1,5 +1,5 @@
 ---
-title: Yorkshire Terriers: Sassy, Glamorous and Full of Personality
+title: Yorkshire Terriers:Sassy, Glamorous and Full of Personality
 description: Learn fun facts, daily habits and cute traits about Yorkshire Terriers, the glamorous little dog breed loved worldwide.
 cover: /assets/images/yorkie-cover.jpg
 layout: post
