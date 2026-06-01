@@ -9,7 +9,7 @@ baseurl: ""
 
 # 文章配置
 permalink: /posts/:year/:month/:day/:title/
-paginate: 8
+paginate: 9
 paginate_path: "/page:num/"
 
 defaults:
