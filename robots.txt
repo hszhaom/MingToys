@@ -1,0 +1,15 @@
+# petstorie.com Robots.txt
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Allow crawling images, articles and all resource folders
+Allow: /assets/
+Allow: /2026/
+
+# Block unnecessary crawler access (optional, clean rule)
+Disallow: /_posts/
+Disallow: /draft/
+
+# Submit sitemap to search engines
+Sitemap: https://petstorie.com/sitemap.xml
