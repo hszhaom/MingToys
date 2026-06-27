@@ -1,6 +1,6 @@
 ---
-title: French Bulldog Breed Guide: Temperament, Care, Health Issues and Owner Tips
-description: Learn whether a French Bulldog is right for you, including temperament, exercise needs, grooming, common health concerns, training tips, pros and cons, and apartment suitability.
+title: "French Bulldog Breed Guide: Temperament, Care, Health Issues and Owner Tips"
+description: "Learn whether a French Bulldog is right for you, including temperament, exercise needs, grooming, common health concerns, training tips, pros and cons, and apartment suitability."
 cover: /assets/images/frenchbulldog-cover.jpg
 layout: post
 ---
