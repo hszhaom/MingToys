@@ -1,0 +1,118 @@
+{
+  "purpose": "Generate high-resolution, vivid, breed-accurate dog images for PetStorie articles. Replace the existing placeholder JPG files while keeping the same filenames and article paths.",
+  "global_constraints": [
+    "Photorealistic natural dog photography, high resolution, sharp focus, detailed fur texture, lively expression.",
+    "Accurate breed appearance and typical body shape. Avoid mixed-breed ambiguity.",
+    "No text, no watermark, no logo, no signature, no visible brand marks, no collar tag text.",
+    "Avoid distorted anatomy, extra legs, missing paws, unnatural eyes, plastic-looking fur, over-smoothed skin, cartoon style, illustration style, painterly style, blurry image, heavy filters.",
+    "Use natural light and realistic environments. Keep the dog clearly visible and not hidden by props, people, or deep shadows.",
+    "Output JPG files and overwrite the listed target paths only after visual quality review."
+  ],
+  "assets": [
+    {
+      "path": "assets/images/icelandicsheepdog-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a vivid high-resolution portrait photo of an adult Icelandic Sheepdog. Scene/backdrop: windswept green Icelandic hillside with soft cloudy daylight. Subject: medium-small Nordic spitz dog with curled tail, thick double coat, pricked ears, friendly alert face, white markings and warm tan or sable coat. Style/medium: realistic professional dog photography. Composition/framing: vertical cover composition, full dog or upper body centered, clean background, enough room for card cropping. Lighting/mood: natural soft daylight, lively and warm. Constraints: breed-accurate, sharp fur detail, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/icelandicsheepdog-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult Icelandic Sheepdog standing outdoors, showing typical breed expression and body shape. Scene/backdrop: natural meadow path with distant cool northern landscape. Subject: curled tail over back, triangular upright ears, thick weatherproof coat, bright eyes, friendly spitz expression. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, dog in three-quarter view, entire body visible. Lighting/mood: clear natural light, sharp focus, detailed coat texture. Constraints: no text, no watermark, no logo, no anatomical distortion."
+    },
+    {
+      "path": "assets/images/icelandicsheepdog-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: a playful Icelandic Sheepdog trotting happily through grass. Scene/backdrop: open meadow with natural sky and soft wind. Subject: energetic Nordic spitz dog, curled tail, upright ears, thick coat moving naturally, cheerful expression. Style/medium: realistic action dog photography. Composition/framing: horizontal dynamic composition, motion visible but face and body sharp. Lighting/mood: bright natural daylight, joyful and lively. Constraints: no text, no watermark, no logo, no blur-heavy action smear."
+    },
+    {
+      "path": "assets/images/portuguesewaterdog-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a high-resolution portrait photo of an adult Portuguese Water Dog. Scene/backdrop: clean coastal dock or beach background with soft ocean light. Subject: athletic medium dog with curly or wavy black coat, expressive dark eyes, sturdy body, lively working-dog face. Style/medium: realistic professional dog photography. Composition/framing: vertical cover composition, upper body or full dog centered, clean readable silhouette. Lighting/mood: natural coastal daylight, vivid but realistic. Constraints: accurate Portuguese Water Dog traits, detailed curls, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/portuguesewaterdog-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult Portuguese Water Dog standing near water, showing typical athletic body and curly coat. Scene/backdrop: shoreline or dock, calm water in background. Subject: medium sturdy dog, curly black or black-and-white coat, broad head, alert friendly expression. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, three-quarter body view, dog clearly separated from background. Lighting/mood: natural daylight, sharp focus, rich fur texture. Constraints: no text, no watermark, no logo, no distorted curls or anatomy."
+    },
+    {
+      "path": "assets/images/portuguesewaterdog-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: a Portuguese Water Dog splashing or running along shallow water. Scene/backdrop: beach or lakeshore with clean natural surroundings. Subject: curly-coated athletic dog, joyful expression, water droplets, strong legs, lively movement. Style/medium: realistic action dog photography. Composition/framing: horizontal, dynamic but clear, dog face and body in focus. Lighting/mood: bright natural daylight, energetic and playful. Constraints: no text, no watermark, no logo, no unrealistic wave effects."
+    },
+    {
+      "path": "assets/images/spanishwaterdog-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a vivid high-resolution portrait photo of an adult Spanish Water Dog. Scene/backdrop: rustic countryside with warm natural light. Subject: medium rustic dog with woolly curly corded coat, rounded head, expressive eyes partly framed by curls, sturdy herding-dog body, brown or black coat. Style/medium: realistic dog photography. Composition/framing: vertical cover composition, dog centered, natural background with clean silhouette. Lighting/mood: warm daylight, approachable and lively. Constraints: accurate Spanish Water Dog coat texture, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/spanishwaterdog-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult Spanish Water Dog standing in a rustic farm or countryside setting. Scene/backdrop: dry grass, stone wall, or open field. Subject: woolly curly coat, sturdy medium body, natural untrimmed rustic look, attentive herding-dog expression. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, full body in three-quarter view. Lighting/mood: natural daylight, sharp fur texture, calm but alert. Constraints: no text, no watermark, no logo, no cartoon-like curls."
+    },
+    {
+      "path": "assets/images/spanishwaterdog-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: a Spanish Water Dog playing or running across a countryside field. Scene/backdrop: open rural field with warm natural light. Subject: medium curly woolly dog, lively eyes, rustic coat moving naturally, athletic herding movement. Style/medium: realistic action dog photography. Composition/framing: horizontal dynamic scene, body and face visible. Lighting/mood: bright outdoor daylight, cheerful and energetic. Constraints: no text, no watermark, no logo, no motion blur hiding breed features."
+    },
+    {
+      "path": "assets/images/irishwaterspaniel-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a high-resolution portrait photo of an adult Irish Water Spaniel. Scene/backdrop: lakeside reeds or woodland water edge with soft light. Subject: tall curly liver-brown spaniel, tight ringlet curls, distinctive smooth rat tail, long ears, topknot, intelligent slightly mischievous expression. Style/medium: realistic professional dog photography. Composition/framing: vertical cover composition, dog centered, upper body or full dog visible. Lighting/mood: soft natural light, vivid and elegant. Constraints: accurate Irish Water Spaniel traits, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/irishwaterspaniel-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult Irish Water Spaniel standing near a lake, showing typical curly liver coat and body shape. Scene/backdrop: calm water, reeds, natural wetland edge. Subject: liver-brown curls, long curly ears, rounded topknot, athletic spaniel body, smooth tapering tail visible if possible. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, full dog three-quarter view. Lighting/mood: natural daylight, crisp details, dignified but lively. Constraints: no text, no watermark, no logo, no generic poodle look."
+    },
+    {
+      "path": "assets/images/irishwaterspaniel-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: an Irish Water Spaniel retrieving or splashing near shallow water. Scene/backdrop: lakeshore with reeds and natural greenery. Subject: curly liver-brown water spaniel, energetic movement, long ears, topknot, wet curls with realistic water droplets. Style/medium: realistic action dog photography. Composition/framing: horizontal, dynamic but sharp, dog clearly recognizable. Lighting/mood: bright natural outdoor light, playful working-dog energy. Constraints: no text, no watermark, no logo, no distorted tail or limbs."
+    },
+    {
+      "path": "assets/images/wirehairedpointinggriffon-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a vivid high-resolution portrait photo of an adult Wirehaired Pointing Griffon. Scene/backdrop: natural field edge with soft hunting-dog atmosphere. Subject: medium rugged sporting dog with harsh wiry gray-brown coat, bushy eyebrows, beard, moustache, amber eyes, friendly weatherproof expression. Style/medium: realistic professional dog photography. Composition/framing: vertical cover composition, upper body or full dog centered, clear face detail. Lighting/mood: natural daylight, warm and lively. Constraints: accurate breed traits, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/wirehairedpointinggriffon-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult Wirehaired Pointing Griffon standing in tall grass, showing typical rugged body and facial furnishings. Scene/backdrop: field, brush, or upland trail. Subject: wiry gray and brown coat, beard and eyebrows, medium athletic frame, natural tail carriage, alert hunting-dog expression. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, full body three-quarter view. Lighting/mood: soft outdoor daylight, sharp coat detail. Constraints: no text, no watermark, no logo, no generic German pointer appearance."
+    },
+    {
+      "path": "assets/images/wirehairedpointinggriffon-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: a Wirehaired Pointing Griffon running through grass or playing outdoors. Scene/backdrop: open field with natural brush. Subject: rugged wiry-coated sporting dog, beard and eyebrows visible, lively expression, athletic stride. Style/medium: realistic action dog photography. Composition/framing: horizontal dynamic scene, face and coat texture clear. Lighting/mood: bright natural daylight, energetic and outdoorsy. Constraints: no text, no watermark, no logo, no excessive motion blur."
+    },
+    {
+      "path": "assets/images/germanwirehairedpointer-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a high-resolution portrait photo of an adult German Wirehaired Pointer. Scene/backdrop: open field or woodland edge with natural light. Subject: athletic medium-large hunting dog, liver-and-white ticked wiry coat, strong muzzle, beard, eyebrows, folded ears, focused intelligent expression. Style/medium: realistic professional dog photography. Composition/framing: vertical cover composition, dog centered, upper body or full dog visible. Lighting/mood: crisp natural daylight, vivid and confident. Constraints: accurate German Wirehaired Pointer traits, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/germanwirehairedpointer-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult German Wirehaired Pointer standing in a field, showing typical athletic body and wiry coat. Scene/backdrop: natural upland field or forest trail. Subject: liver-and-white ticked coat, wiry beard and eyebrows, muscular working-dog frame, folded ears, alert expression. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, full body three-quarter view. Lighting/mood: natural daylight, sharp detail, active sporting mood. Constraints: no text, no watermark, no logo, no smooth shorthaired pointer look."
+    },
+    {
+      "path": "assets/images/germanwirehairedpointer-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: a German Wirehaired Pointer running or pointing outdoors in a field. Scene/backdrop: grassland or brush with open sky. Subject: athletic liver-and-white wiry-coated pointer, beard and eyebrows visible, focused lively expression, strong stride. Style/medium: realistic action dog photography. Composition/framing: horizontal dynamic composition, dog clearly recognizable. Lighting/mood: bright natural daylight, energetic and sharp. Constraints: no text, no watermark, no logo, no distorted legs."
+    },
+    {
+      "path": "assets/images/weimaraner-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article cover. Primary request: a vivid high-resolution portrait photo of an adult Weimaraner. Scene/backdrop: clean natural park or field background with soft light. Subject: sleek athletic silver-gray dog, short smooth coat, pale amber or blue-gray eyes, long elegant muzzle, folded ears, alert affectionate expression. Style/medium: realistic professional dog photography. Composition/framing: vertical cover composition, upper body or full dog centered, clean silhouette. Lighting/mood: soft natural daylight, refined and lively. Constraints: accurate Weimaraner traits, no text, no watermark, no logo, no collar tag text."
+    },
+    {
+      "path": "assets/images/weimaraner-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article main image. Primary request: an adult Weimaraner standing outdoors, showing typical sleek athletic body and silver-gray coat. Scene/backdrop: open field, park trail, or woodland edge. Subject: smooth silver coat, lean muscular frame, folded ears, elegant head, bright attentive eyes. Style/medium: realistic high-resolution dog photography. Composition/framing: horizontal, full body three-quarter view. Lighting/mood: natural daylight, sharp focus, clean modern look. Constraints: no text, no watermark, no logo, no blue-tinted artificial color cast."
+    },
+    {
+      "path": "assets/images/weimaraner-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed article lifestyle image. Primary request: a Weimaraner running or playing outdoors with lively energy. Scene/backdrop: open park or grassy field. Subject: sleek silver-gray athletic dog, long legs, folded ears moving naturally, joyful focused expression. Style/medium: realistic action dog photography. Composition/framing: horizontal dynamic composition, dog face and body sharp. Lighting/mood: bright natural daylight, energetic and vivid. Constraints: no text, no watermark, no logo, no exaggerated muscles or distorted anatomy."
+    }
+  ]
+}
