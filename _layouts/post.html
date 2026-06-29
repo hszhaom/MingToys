@@ -47,10 +47,15 @@ layout: default
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "{{ page.title }}",
-  "image": "{{ site.url }}{{ page.cover }}",
+  "headline": {{ page.title | jsonify }},
+  "image": {{ site.url | append: page.cover | jsonify }},
   "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-  "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+  "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
+  },
+  "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
   "author": {
     "@type": "Organization",
     "name": "PetStorie"

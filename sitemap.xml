@@ -4,27 +4,33 @@ sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 首页 -->
+  <!-- Home -->
   <url>
-    <loc>https://petstorie.com/</loc>
+    <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- 归档页 -->
+
+  <!-- Archive -->
   <url>
-    <loc>https://petstorie.com/archive/</loc>
+    <loc>{{ site.url }}/archive/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  <!-- 所有文章 -->
+
+  <!-- Posts -->
   {% for post in site.posts %}
+  {% unless post.sitemap == false %}
+  {% unless post.canonical_url %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  {% endunless %}
+  {% endunless %}
   {% endfor %}
 </urlset>

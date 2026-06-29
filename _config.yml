@@ -1,16 +1,14 @@
-# 站点基础信息
+# Site basics
 title: PetStorie
-description: Pet Stories & Dog Breed Guides
+description: Dog breed guides covering temperament, care, grooming, health concerns, training tips, and owner fit.
 author: PetStorie
 
-# 域名配置（独立域名核心）
+# Domain
 url: "https://petstorie.com"
 baseurl: ""
 
-# 文章配置
+# Posts
 permalink: /posts/:year/:month/:day/:title/
-paginate: 9
-paginate_path: "/page:num/"
 
 defaults:
   - scope:

@@ -5,17 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- 页面标题 SEO -->
-  <title>
-    {% if page.title %}{{ page.title }} | PetStorie{% else %}PetStorie - Pet Stories & Dog Breed Guides{% endif %}
-  </title>
+  <title>{% if page.title %}{{ page.title | escape }} | PetStorie{% else %}PetStorie - Dog Breed Guides and Pet Care Tips{% endif %}</title>
 
   <!-- 描述、关键词 SEO -->
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}PetStorie shares warm pet stories, funny dog breed introductions and practical pet care tips for all animal lovers.{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <meta name="keywords" content="dog breed, pet stories, pet care, cute dogs, puppy guide, rescue pets">
 
   <!-- 爬虫规则 + 规范链接（防重复内容） -->
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/logo.png">

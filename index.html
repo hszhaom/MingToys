@@ -17,7 +17,7 @@ layout: default
 
 <div class="container">
   <div class="card-grid">
-    {% for post in paginator.posts %}
+    {% for post in site.posts limit:9 %}
     <div class="post-card">
       {% if post.cover %}
       <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
@@ -37,12 +37,7 @@ layout: default
 
   <!-- 分页 -->
   <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ site.url }}{{ paginator.previous_page_path }}">Prev</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ site.url }}{{ paginator.next_page_path }}">Next</a>
-    {% endif %}
+    <a href="{{ site.url }}/archive/">View all dog breed guides</a>
   </div>
 </div>
 
