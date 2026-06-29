@@ -1,6 +1,6 @@
 ---
-title: "Weimaraner: The Silver Velcro Athlete and Its Demands"
-description: "The Weimaraner is a sleek silver-gray gundog with extreme energy, a velcro-like attachment to its people, real separation anxiety, and serious bloat risk. Guide here."
+title: "Weimaraner Breed Guide: Temperament, Exercise, Health and Care"
+description: "The Weimaraner is a sleek silver-gray gundog with intense attachment, extreme exercise needs, separation anxiety risk, and bloat concerns."
 cover: /assets/images/weimaraner-cover.jpg
 layout: post
 ---

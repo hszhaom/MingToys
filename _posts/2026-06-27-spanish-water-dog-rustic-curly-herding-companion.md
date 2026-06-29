@@ -1,6 +1,6 @@
 ---
-title: "Spanish Water Dog: Rustic Corded Herder and Water Worker"
-description: "The Spanish Water Dog is a versatile herding and water breed with a corded coat that is never brushed, intense work drive, and wary loyalty. Care guide inside."
+title: "Spanish Water Dog Breed Guide: Temperament, Corded Coat, Exercise and Care"
+description: "The Spanish Water Dog is a rustic herding and water breed with a woolly corded coat, wary loyalty, strong work drive, and unusual grooming needs."
 cover: /assets/images/spanishwaterdog-cover.jpg
 layout: post
 ---
@@ -61,7 +61,7 @@ Beyond the coat, keep up with:
 - Teeth, brushed several times a week.
 - Skin checks during baths, when you can finally see down to it.
 
-![Spanish Water Dog with corded coat running and herding outdoors]({{ site.url }}/assets/images/spanishwaterdog-play.jpg)
+![Spanish Water Dog with a woolly corded coat running across a rural field]({{ site.url }}/assets/images/spanishwaterdog-play.jpg)
 
 ## Common Spanish Water Dog Health Issues
 

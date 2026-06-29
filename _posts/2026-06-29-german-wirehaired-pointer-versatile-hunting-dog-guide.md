@@ -1,6 +1,6 @@
 ---
-title: "German Wirehaired Pointer: The Versatile All-Terrain Hunting Dog"
-description: "The German Wirehaired Pointer is a driven, weatherproof-coated gundog built to point, track, and retrieve. Expect very high energy, loyalty, and a guarding streak."
+title: "German Wirehaired Pointer Breed Guide: Temperament, Exercise and Care"
+description: "The German Wirehaired Pointer is a driven all-terrain gundog with a wiry coat, high exercise needs, loyal nature, and serious hunting instinct."
 cover: /assets/images/germanwirehairedpointer-cover.jpg
 layout: post
 ---
@@ -60,7 +60,7 @@ Additional grooming for this breed:
 - Brush teeth several times a week.
 - Check the coat, feet, and beard for burrs and cuts after field outings.
 
-![German Wirehaired Pointer running and retrieving across rough terrain]({{ site.url }}/assets/images/germanwirehairedpointer-play.jpg)
+![German Wirehaired Pointer running across rough grassland with a focused hunting-dog expression]({{ site.url }}/assets/images/germanwirehairedpointer-play.jpg)
 
 ## Common German Wirehaired Pointer Health Issues
 

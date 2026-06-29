@@ -1,6 +1,6 @@
 ---
 title: "Finnish Spitz Breed Guide: The Singing Fox-Dog of the North"
-description: "The Finnish Spitz is a flame-red, fox-faced spitz famous for its musical bark and bird-hunting heritage. Barking, prey drive, double-coat care, and health explained."
+description: "The Finnish Spitz is a flame-red, fox-faced spitz known for its musical bark, prey drive, double coat, and lively northern hunting heritage."
 cover: /assets/images/finnishspitz-cover.jpg
 layout: post
 ---

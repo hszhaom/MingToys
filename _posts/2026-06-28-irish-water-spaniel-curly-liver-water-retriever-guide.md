@@ -1,6 +1,6 @@
 ---
-title: "Irish Water Spaniel: The Curly Liver-Coated Clown of the Water"
-description: "The Irish Water Spaniel is a tall, liver-curled water retriever with a topknot, rat tail, low-shedding coat, big stamina, and a famous sense of humor. Care guide here."
+title: "Irish Water Spaniel Breed Guide: Temperament, Grooming, Exercise and Care"
+description: "The Irish Water Spaniel is a liver-curled water retriever with a topknot, rat tail, comic personality, high stamina, and serious coat and ear care."
 cover: /assets/images/irishwaterspaniel-cover.jpg
 layout: post
 ---
@@ -60,7 +60,7 @@ Round out the routine with:
 - Teeth brushed several times weekly.
 - Skin inspections, as the breed can be allergy-prone.
 
-![Irish Water Spaniel swimming and retrieving with athletic energy]({{ site.url }}/assets/images/irishwaterspaniel-play.jpg)
+![Irish Water Spaniel splashing through shallow water with a retrieving dummy]({{ site.url }}/assets/images/irishwaterspaniel-play.jpg)
 
 ## Common Irish Water Spaniel Health Issues
 

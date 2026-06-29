@@ -1,6 +1,6 @@
 ---
-title: "Portuguese Water Dog: The Curly, Water-Loving Working Companion"
-description: "The Portuguese Water Dog is an athletic, low-shedding curly coat breed that craves swimming, brainwork, and family closeness. Full grooming and care guide inside."
+title: "Portuguese Water Dog Breed Guide: Temperament, Grooming, Exercise and Care"
+description: "The Portuguese Water Dog is an athletic curly-coated worker that thrives on swimming, training, family closeness, and regular coat care."
 cover: /assets/images/portuguesewaterdog-cover.jpg
 layout: post
 ---
@@ -9,7 +9,7 @@ The Portuguese Water Dog, or Cao de Agua, earned its keep on the fishing boats o
 
 If you are comparing curly-coated water breeds, the Portie's defining traits are its devotion and its appetite for activity. They bond hard to their families, follow their people room to room, and need a genuine outlet for body and brain every single day. Give them that, and they are biddable, joyful, and famously good company.
 
-![Adult Portuguese Water Dog with a curly black coat sitting alertly by the water]({{ site.url }}/assets/images/portuguesewaterdog-main.jpg)
+![Adult Portuguese Water Dog with a curly black coat standing alertly by the water]({{ site.url }}/assets/images/portuguesewaterdog-main.jpg)
 
 ## Portuguese Water Dog Quick Facts
 
@@ -60,7 +60,7 @@ Beyond coat care, stay on top of:
 - Teeth, brushed several times a week.
 - Skin folds and clip lines, watched for irritation after grooming.
 
-![Portuguese Water Dog swimming and retrieving, showing its athletic build]({{ site.url }}/assets/images/portuguesewaterdog-play.jpg)
+![Portuguese Water Dog splashing through shallow water, showing its athletic build]({{ site.url }}/assets/images/portuguesewaterdog-play.jpg)
 
 ## Common Portuguese Water Dog Health Issues
 

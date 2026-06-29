@@ -1,6 +1,6 @@
 ---
-title: "Icelandic Sheepdog: A Friendly Nordic Spitz for Active Family Homes"
-description: "The Icelandic Sheepdog is a small, vocal Nordic spitz with a weatherproof double coat, herding drive, and a sunny, people-loving personality. Care guide inside."
+title: "Icelandic Sheepdog Breed Guide: Temperament, Barking, Care and Exercise"
+description: "The Icelandic Sheepdog is a cheerful Nordic herder with a curled tail, vocal nature, thick double coat, and strong need for family activity."
 cover: /assets/images/icelandicsheepdog-cover.jpg
 layout: post
 ---

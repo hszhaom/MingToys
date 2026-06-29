@@ -1,6 +1,6 @@
 ---
-title: "Wirehaired Pointing Griffon: Rugged Bearded Gundog and Family Friend"
-description: "The Wirehaired Pointing Griffon is a versatile bearded gundog with a harsh weatherproof coat, deliberate hunting style, sensitive heart, and strong family bond."
+title: "Wirehaired Pointing Griffon Breed Guide: Temperament, Grooming and Care"
+description: "The Wirehaired Pointing Griffon is a rugged bearded gundog with a harsh coat, sensitive temperament, steady hunting style, and close family bond."
 cover: /assets/images/wirehairedpointinggriffon-cover.jpg
 layout: post
 ---
