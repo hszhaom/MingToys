@@ -73,7 +73,7 @@ If your Lab shows lameness, a distended or painful abdomen, sudden hind-end weak
 
 ## Feeding and Weight Control
 
-Few breeds need feeding discipline as much as the Labrador. This is a dog hardwired to eat, and studies have linked a common Lab gene to increased food obsession, so the begging, the counter-surfing, and the bottomless appetite are partly biological. Owners who feed by the begging eyes rather than by measured portions almost inevitably end up with an overweight Lab, and obesity in this breed accelerates hip and elbow problems and shortens lifespan.
+Feeding discipline matters more for the Labrador than for almost any other breed. This is a dog hardwired to eat, and studies have linked a common Lab gene to increased food obsession, so the begging, the counter-surfing, and the bottomless appetite are partly biological. Owners who feed by the begging eyes rather than by measured portions almost inevitably end up with an overweight Lab, and obesity in this breed accelerates hip and elbow problems and shortens lifespan.
 
 Defensive feeding strategies:
 

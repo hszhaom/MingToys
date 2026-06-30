@@ -88,7 +88,7 @@ Because this breed can have a sensitive digestive system, introduce any food cha
 
 ## Training Tips
 
-Few breeds are as rewarding to train. German Shepherds want to work with you and pick up commands fast, which means consistent, positive, structured training pays off enormously, while a lack of it produces a frustrated, pushy dog. Start early and keep the bar high; this is a dog that genuinely enjoys learning.
+Training is where this breed truly shines. German Shepherds want to work with you and pick up commands fast, which means consistent, positive, structured training pays off enormously, while a lack of it produces a frustrated, pushy dog. Start early and keep the bar high; this is a dog that genuinely enjoys learning.
 
 Practical priorities:
 

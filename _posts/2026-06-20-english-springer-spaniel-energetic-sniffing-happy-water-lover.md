@@ -88,7 +88,7 @@ Because Springers are so eager for food and praise, they can become persistent b
 
 ## Training Tips
 
-Few breeds are as fun to train as a Springer. They are quick, willing, and genuinely delighted by the process, which makes positive, reward-based methods both effective and enjoyable. The flip side is sensitivity: shout or jerk a leash and an eager Springer may simply wilt.
+Training a Springer is genuinely fun. They are quick, willing, and delighted by the process, which makes positive, reward-based methods both effective and enjoyable. The flip side is sensitivity: shout or jerk a leash and an eager Springer may simply wilt.
 
 Useful priorities:
 

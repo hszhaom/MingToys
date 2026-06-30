@@ -85,7 +85,7 @@ Keeping a working dog lean protects its joints and supports the stamina the bree
 
 ## Training Tips
 
-Few breeds are as rewarding to train as a Standard Schnauzer, and few will exploit a lazy trainer as gleefully. These dogs are highly intelligent and eager to work, which means they learn quickly, but they are also independent thinkers who respect consistency and lose interest in repetition. Positive, engaging, varied training brings out the best in them; nagging or harsh handling brings out the stubborn streak.
+A Standard Schnauzer is as rewarding to train as it is quick to exploit a lazy trainer. These dogs are highly intelligent and eager to work, which means they learn quickly, but they are also independent thinkers who respect consistency and lose interest in repetition. Positive, engaging, varied training brings out the best in them; nagging or harsh handling brings out the stubborn streak.
 
 What works with this breed:
 

@@ -5,7 +5,7 @@ cover: /assets/images/golden-cover.jpg
 layout: post
 ---
 
-Few breeds wear their heart so openly as the Golden Retriever. Bred in 19th-century Scotland to fetch downed waterfowl across rivers and marsh, the Golden still carries that working spirit under its glossy coat: a dog that wants a job, a ball, a lake, and above all the company of its people. This guide walks through what life with a Golden actually feels like day to day, from the constant tail-wag at the door to the tumbleweeds of golden fur you will be vacuuming twice a week.
+The Golden Retriever wears its heart in plain sight. Bred in 19th-century Scotland to fetch downed waterfowl across rivers and marsh, the Golden still carries that working spirit under its glossy coat: a dog that wants a job, a ball, a lake, and above all the company of its people. This guide walks through what life with a Golden actually feels like day to day, from the constant tail-wag at the door to the tumbleweeds of golden fur you will be vacuuming twice a week.
 
 Goldens routinely land near the top of America's most-popular-breed lists, and that popularity is earned. But "popular" and "easy" are not the same thing. A Golden is a big, athletic, mouthy, shedding sporting dog that needs hours of engagement a week. Knowing that before you fall for the puppy photos is the difference between a great match and a frustrated one.
 

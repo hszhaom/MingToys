@@ -84,7 +84,7 @@ Feeding habits that suit this breed:
 
 ## Training Tips
 
-Few breeds are as rewarding to train. Portuguese Water Dogs are quick studies that genuinely enjoy learning, and their fishing-boat heritage left them wired to take direction. Reward-based training brings out their best, while heavy-handed corrections only frustrate a sensitive, clever dog.
+Training is one of this breed's great pleasures. Portuguese Water Dogs are quick studies that genuinely enjoy learning, and their fishing-boat heritage left them wired to take direction. Reward-based training brings out their best, while heavy-handed corrections only frustrate a sensitive, clever dog.
 
 Strategies that work well:
 

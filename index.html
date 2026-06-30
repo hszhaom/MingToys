@@ -43,13 +43,7 @@ layout: default
 
 <footer>
   &copy; {{ site.time | date: '%Y' }} {{ site.title }} | All rights reserved
-  <span id="busuanzi_container_site_uv" style="margin: 0 1rem;">
-    Visitors: <span id="busuanzi_value_site_uv"></span>
-  </span>
-  <span id="busuanzi_container_site_pv">
-    Total Views: <span id="busuanzi_value_site_pv"></span>
+  <span data-gc-count="TOTAL" style="margin-left: 1rem;">
+    Visitors: <span class="gc-uv">…</span> · Total Views: <span class="gc-pv">…</span>
   </span>
 </footer>
-
-<!-- 访客统计脚本 -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -29,7 +29,7 @@ People often pick a Chihuahua expecting a quiet purse accessory and get a tiny w
 
 ## Chihuahua Temperament
 
-Few breeds are as devoted as a Chihuahua. They typically attach intensely to one person and want to be on a lap, in a hoodie, or underfoot for most of the day. That loyalty is the breed's greatest gift and the source of its quirks: jealousy, possessiveness, and a sharp suspicion of strangers if the dog hasn't been properly socialized.
+Devotion is the Chihuahua's whole personality. They typically attach intensely to one person and want to be on a lap, tucked in a hoodie, or underfoot for most of the day. That loyalty is the breed's greatest gift and the source of its quirks: jealousy, possessiveness, and a sharp suspicion of strangers if the dog hasn't been properly socialized.
 
 This is a genuine alert dog in a tiny shell. Chihuahuas notice every sound and visitor and will announce them at full volume. Unchecked, that watchfulness can curdle into yappiness and snappiness — the so-called "small dog syndrome" that comes not from the breed being mean but from owners letting a small dog get away with behavior they would never tolerate from a Labrador.
 

@@ -140,6 +140,6 @@ Less than you might guess. Moderate daily walks and some play keep an adult fit,
 
 ## Final Verdict
 
-The Great Dane is a singular dog, a gentle, affectionate giant that fills your home and your heart in equal measure. Few breeds combine such an imposing presence with such a soft, family-loving nature, and owners who are equipped for them tend to be devoted for life.
+The Great Dane is a singular dog, a gentle, affectionate giant that fills your home and your heart in equal measure. That mix of imposing presence and soft, family-loving nature is rare, and owners who are equipped for them tend to be devoted for life.
 
 But this is a breed that asks for honesty about cost, space, and mortality. The expense is real, the health risks are serious, and the years are too few. If you can provide what a giant needs and accept that its time with you will be precious and brief, a Great Dane can be an extraordinary companion. If those realities give you pause, that hesitation is worth listening to.
