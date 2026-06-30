@@ -1,6 +1,6 @@
 ---
 title: "Yorkshire Terrier Guide: Big Terrier Spirit in a Tiny Dog"
-description: "The Yorkshire Terrier blends a silky show coat with bold terrier grit. Learn about its feisty nature, demanding coat, dental and trachea health, and ideal owner."
+description: "The Yorkshire Terrier blends a silky show coat with bold terrier grit, demanding grooming, dental concerns, trachea risk, and a big-dog attitude."
 cover: /assets/images/yorkie-cover.jpg
 layout: post
 ---

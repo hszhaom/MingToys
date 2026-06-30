@@ -1,6 +1,6 @@
 ---
 title: "Border Collie Breed Guide: The Smartest Dog and What It Demands"
-description: "The Border Collie is widely called the smartest dog breed, with extreme exercise and mental needs plus a strong herding drive. See if you can keep up."
+description: "The Border Collie is widely called the smartest dog breed, with extreme exercise needs, intense mental demands, and a strong herding drive."
 cover: /assets/images/bordercollie-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ Border Collies are generally hardy, athletic dogs, but several inherited conditi
 
 Two genetic issues deserve special attention. Border Collies can carry the MDR1 gene mutation, which makes affected dogs sensitive to certain common drugs, so a simple DNA test and sharing the result with your vet is wise. The breed also has an above-average incidence of epilepsy, which typically appears in young to middle-aged dogs as seizures. Other concerns include certain neuronal storage diseases that responsible breeders screen against with DNA tests.
 
-This guide is educational and does not replace veterinary care. Because this breed hides discomfort behind its drive to keep working, watch for subtle changes, reluctance to move, altered gait, vision problems, or any seizure activity, and consult your veterinarian promptly when something seems off.
+Because this breed hides discomfort behind its drive to keep working, watch for subtle changes, reluctance to move, altered gait, vision problems, or any seizure activity, and consult your veterinarian promptly when something seems off.
 
 ## Feeding and Weight Control
 
@@ -94,7 +94,7 @@ Focus areas that matter most:
 
 - Provide a constructive job from the start; trick training, sports, and tasks satisfy the working drive.
 - Redirect herding behavior, circling, staring, heel-nipping, onto toys and games, never onto people.
-- Teach an "off switch": settling calmly on a mat is as valuable as any active skill.
+- Teach an "off switch": settling calmly on a mat matters as much as any active skill.
 - Manage noise and motion sensitivity early to head off chasing and reactivity.
 - Keep training varied and mentally challenging; repetition bores this breed quickly.
 

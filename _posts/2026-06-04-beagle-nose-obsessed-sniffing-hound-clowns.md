@@ -1,6 +1,6 @@
 ---
 title: "Beagle Guide: Life With a Nose-Obsessed, Merry Little Hound"
-description: "The Beagle is a scent-driven, food-obsessed hound that bays loudly, must stay leashed, and gains weight easily. Real talk on exercise, training, and health."
+description: "The Beagle is a scent-driven, food-obsessed hound that bays loudly, must stay leashed, gains weight easily, and needs patient training."
 cover: /assets/images/beagle-cover.jpg
 layout: post
 ---
@@ -66,7 +66,7 @@ Beagles are generally hardy and long-lived, but a handful of concerns deserve at
 
 When contacting a breeder, ask about hip and eye evaluations and whether epilepsy or MLS has shown up in their dogs. A breeder who is candid about the breed's specific risks is the one to trust.
 
-This overview is educational, not a substitute for veterinary advice. If your Beagle shows signs of back pain or wobbliness, a seizure, persistent ear trouble, or sudden weight changes, consult your veterinarian rather than waiting.
+If your Beagle shows signs of back pain or wobbliness, a seizure, persistent ear trouble, or sudden weight changes, consult your veterinarian rather than waiting.
 
 ## Feeding and Weight Control
 

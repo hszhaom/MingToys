@@ -1,6 +1,6 @@
 ---
 title: "Pembroke Welsh Corgi Guide: Big-Dog Brains on Short Cattle-Herding Legs"
-description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame. Learn their real exercise needs, heavy shedding, herding nips, and the back risks to manage."
+description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame, with real exercise needs, heavy shedding, herding nips, and back risks to manage."
 cover: /assets/images/corgi-cover.jpg
 layout: post
 ---

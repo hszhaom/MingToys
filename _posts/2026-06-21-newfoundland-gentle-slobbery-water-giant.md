@@ -1,6 +1,6 @@
 ---
 title: "Newfoundland Breed Guide: Living With a Gentle Water-Rescue Giant"
-description: "The Newfoundland is a 100–150 lb water-rescue giant with a thick coat, heavy drool, and a sweet, patient nature. Learn its grooming, health, and climate needs here."
+description: "The Newfoundland is a 100-150 lb water-rescue giant with a thick coat, heavy drool, sweet patience, climate limits, and giant-breed health needs."
 cover: /assets/images/newfoundland-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ Giant breeds live shorter lives and carry significant health risks, and the Newf
 
 When buying a puppy, insist on seeing hip, elbow, heart, and cystinuria clearances on the parents. A reputable breeder will have a board-certified cardiologist's evaluation and will talk frankly about what runs in their lines. Walk away from anyone who shrugs off these screenings or emphasizes only color or size.
 
-This article is educational and is not a substitute for veterinary care. Because bloat can kill within hours, learn its signs (a distended abdomen, unproductive retching, restlessness) and treat any suspicion as the emergency it is.
+Because bloat can kill within hours, learn its signs (a distended abdomen, unproductive retching, restlessness) and treat any suspicion as the emergency it is.
 
 ## Feeding and Weight Control
 

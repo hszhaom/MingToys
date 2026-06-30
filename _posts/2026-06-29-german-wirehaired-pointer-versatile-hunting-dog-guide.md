@@ -68,7 +68,7 @@ The German Wirehaired Pointer is generally a healthy, athletic breed, but respon
 
 A conscientious breeder screens hips, elbows, and eyes, can discuss the line's health history candidly, and selects for the stable temperament a powerful working breed demands. Because the breed's drive and protectiveness can be challenging, good breeders also match puppies thoughtfully to homes. Ask to see clearances and meet the parents before committing.
 
-This section is educational and not a replacement for veterinary care. A swollen, painful abdomen with unproductive retching signals possible bloat and demands emergency treatment; recurring ear trouble, sudden lameness, or vision changes also call for a prompt veterinary exam.
+A swollen, painful abdomen with unproductive retching signals possible bloat and demands emergency treatment; recurring ear trouble, sudden lameness, or vision changes also call for a prompt veterinary exam.
 
 ## Feeding and Weight Control
 

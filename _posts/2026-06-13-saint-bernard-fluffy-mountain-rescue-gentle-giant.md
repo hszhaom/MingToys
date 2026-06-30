@@ -64,7 +64,7 @@ Like other giants, the Saint Bernard's size brings serious health considerations
 
 Orthopedic problems are common given the breed's rapid growth and weight: hip and elbow dysplasia and osteoarthritis affect many Saints, so reputable breeders screen their breeding dogs. Heart disease, including dilated cardiomyopathy, also occurs in the breed, as do certain eye conditions like entropion and ectropion related to the loose facial skin. The dense coat and large body also make heatstroke a genuine, preventable danger.
 
-This article is educational and is not veterinary advice. Given the bloat risk, learn the signs now, a swollen or hard belly, unproductive retching, restlessness, and distress, and treat them as an emergency. Likewise, signs of overheating or lameness warrant prompt attention. Keeping the dog lean and cool prevents many of these problems from worsening.
+Given the bloat risk, learn the signs now, a swollen or hard belly, unproductive retching, restlessness, and distress, and treat them as an emergency. Likewise, signs of overheating or lameness warrant prompt attention. Keeping the dog lean and cool prevents many of these problems from worsening.
 
 ## Feeding and Weight Control
 

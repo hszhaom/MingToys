@@ -1,6 +1,6 @@
 ---
 title: "Caucasian Shepherd Dog Breed Guide: What Owning a Livestock Guardian Means"
-description: "The Caucasian Shepherd is a 100–170 lb livestock guardian with fierce territorial instinct and an independent mind. Why it suits experienced owners only, explained."
+description: "The Caucasian Shepherd is a 100-170 lb livestock guardian with fierce territorial instinct, an independent mind, and demands suited to experienced owners."
 cover: /assets/images/caucasianshepherd-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ Like most giant breeds, the Caucasian Shepherd faces orthopedic and size-related
 
 If you pursue a puppy, work only with a breeder who screens parents for hip and elbow health and who can discuss temperament and longevity in their lines without defensiveness. This is a breed where temperament stability is as important as physical health, so a breeder's honesty about both is essential. Be skeptical of anyone breeding purely for maximum size or "fierceness."
 
-This article is educational and not a replacement for veterinary advice. Given the bloat risk, learn the warning signs (a swollen abdomen, unproductive retching, sudden distress) and treat them as an immediate emergency, because hours matter.
+Given the bloat risk, learn the warning signs (a swollen abdomen, unproductive retching, sudden distress) and treat them as an immediate emergency, because hours matter.
 
 ## Feeding and Weight Control
 

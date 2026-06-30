@@ -1,11 +1,11 @@
 ---
 title: "Shiba Inu Guide: Japan's Bold, Cat-Like Dog With a Mind of Its Own"
-description: "Shiba Inus are clean, foxy, fiercely independent dogs with a strong prey drive and a dramatic scream. Learn their real training, shedding, and escape-risk realities."
+description: "Shiba Inus are clean, foxy, fiercely independent dogs with a strong prey drive, dramatic scream, heavy shedding, and escape-risk habits."
 cover: /assets/images/shiba-cover.jpg
 layout: post
 ---
 
-The Shiba Inu is Japan's most popular companion dog and the internet's favorite smirking face, but the meme massively undersells how independent this little dog really is. Originally bred to flush birds and small game in Japan's mountainous terrain, the Shiba is an ancient, primitive-type breed: alert, agile, confident, and famously self-possessed. People often describe living with one as more like sharing a home with a cat than a typical dog. This guide explains what that cat-like independence actually means for an owner.
+The Shiba Inu is Japan's most popular companion dog and the internet's favorite smirking face, but the meme massively undersells how independent this little dog really is. Originally bred to flush birds and small game in Japan's mountainous terrain, the Shiba is an ancient, primitive-type breed: alert, agile, confident, and famously self-possessed. People often describe living with one as more like sharing a home with a cat than a typical dog, and that cat-like streak affects almost every part of ownership.
 
 Shibas are compact, tidy, and strikingly handsome, with a fox-like face, curled tail, and dignified bearing. They are also stubborn, prone to "Shiba screams," wired with a serious prey drive, and notorious escape artists. None of that is a flaw if it's what you signed up for, and a disaster if it isn't.
 
@@ -68,7 +68,7 @@ Shibas are among the hardier, longer-lived breeds, often reaching their mid-teen
 
 Just as significant as physical disease, in practical terms, are the breed's behavioral risks: the prey drive and escape tendency genuinely endanger Shibas that get loose near roads or other animals. Choosing a breeder who screens for eye, knee, and hip health, and who raises well-socialized puppies, reduces both medical and behavioral problems.
 
-This overview is educational and not a replacement for your veterinarian, who should handle any actual diagnosis or treatment. See a vet promptly for persistent itching or skin infections, sudden lameness or knee popping, eye redness or pain, or any abrupt change in behavior or appetite.
+Your veterinarian should handle any actual diagnosis or treatment. See a vet promptly for persistent itching or skin infections, sudden lameness or knee popping, eye redness or pain, or any abrupt change in behavior or appetite.
 
 ## Feeding and Weight Control
 

@@ -68,7 +68,7 @@ The Wirehaired Pointing Griffon is generally a sturdy, healthy breed, but a few 
 
 A responsible breeder screens hips and eyes, discusses thyroid history, and can speak knowledgeably about the line's longevity and temperament. Because the breed values cooperative working ability, good breeders also select for the steady, biddable nature that defines it. Ask to see clearances and meet the parents; a breeder confident in their dogs will welcome the questions.
 
-This is general education, not veterinary advice. A distended or painful abdomen with unproductive retching is a bloat emergency requiring immediate care; persistent ear odor, unexplained lethargy with weight gain, or sudden lameness also call for a prompt veterinary visit.
+A distended or painful abdomen with unproductive retching is a bloat emergency requiring immediate care; persistent ear odor, unexplained lethargy with weight gain, or sudden lameness also call for a prompt veterinary visit.
 
 ## Feeding and Weight Control
 

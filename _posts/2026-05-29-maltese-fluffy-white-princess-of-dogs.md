@@ -1,6 +1,6 @@
 ---
 title: "Maltese Breed Guide: Silky Coat, Sweet Nature & Daily Care"
-description: "The Maltese is a gentle white toy breed with a flowing silky coat and velcro affection. Learn about grooming demands, tear stains, fragility, and the right home."
+description: "The Maltese is a gentle white toy breed with a flowing silky coat, close human bond, tear-stain issues, daily grooming needs, and a fragile build."
 cover: /assets/images/maltese-cover.jpg
 layout: post
 ---

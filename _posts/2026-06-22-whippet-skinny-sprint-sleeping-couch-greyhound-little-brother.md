@@ -1,6 +1,6 @@
 ---
 title: "Whippet Breed Guide: The 35 MPH Couch Potato Explained"
-description: "The Whippet is a sighthound that sprints at 35 mph, then sleeps all day on the sofa. Thin skin, low body fat, strong prey drive, and easy grooming explained for owners."
+description: "The Whippet is a quiet sighthound with explosive speed, thin skin, low body fat, strong prey drive, and easy grooming needs."
 cover: /assets/images/whippet-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ Whippets are, on the whole, a healthy and long-lived breed, often reaching 12 to
 
 A medically important quirk: like other sighthounds, Whippets have low body fat and a different metabolism, which makes them more sensitive to anesthesia. Always use a veterinarian familiar with sighthound protocols for any procedure. The breed can also carry inherited heart conditions and eye issues, and a small number carry the "bully whippet" myostatin gene that affects muscling. Reputable breeders test hearts and eyes and discuss the lines openly.
 
-This guide is informational and does not replace a veterinarian. Because of the anesthesia sensitivity and the ease of skin injury, it is worth choosing a vet who knows the breed and acting quickly on cuts that may need stitches.
+Because of the anesthesia sensitivity and the ease of skin injury, it is worth choosing a vet who knows the breed and acting quickly on cuts that may need stitches.
 
 ## Feeding and Weight Control
 

@@ -69,7 +69,7 @@ Beyond cancer, the breed is predisposed to hip and elbow dysplasia, and as a dee
 
 A conscientious breeder should show hip and elbow clearances from OFA or PennHIP, eye exams, and ideally be candid about how long their dogs have lived and what they died from. Walk away from anyone who waves off these questions or markets "rare" coat patterns over health.
 
-Please treat this section as background reading, not a diagnosis. Anytime your dog shows a swollen or hard belly with retching, sudden lameness, an unexplained lump, or a drop in energy or appetite, call your veterinarian promptly.
+Anytime your dog shows a swollen or hard belly with retching, sudden lameness, an unexplained lump, or a drop in energy or appetite, call your veterinarian promptly.
 
 ## Feeding and Weight Control
 

@@ -1,6 +1,6 @@
 ---
 title: "Toy Poodle Guide: Smart, Curly & Low-Shedding Companion"
-description: "The Toy Poodle is a brilliant, low-shedding little dog that thrives on training and company. Learn about grooming costs, sensitivity, health, and the ideal owner."
+description: "The Toy Poodle is a brilliant, low-shedding little dog that thrives on training and company, with grooming costs, sensitivity, and health risks to budget for."
 cover: /assets/images/toypoodle-cover.jpg
 layout: post
 ---
@@ -59,13 +59,13 @@ A handful of conditions are worth knowing. Luxating patella (slipping kneecaps) 
 
 Because they're so small, fragility and low blood sugar in young puppies are practical concerns too, and ear infections are common thanks to that hairy, low-airflow ear canal. None of this means a given dog will be sick, but it shapes the questions to ask a breeder and the things to watch as your dog ages.
 
-Please treat this section as general education, not medical advice. Your veterinarian is the one to assess your particular dog, and any seizure, sudden lameness, eye changes, recurring ear trouble, or signs of pain should prompt a call to the clinic rather than guesswork at home.
+Your veterinarian is the one to assess your particular dog. Any seizure, sudden lameness, eye changes, recurring ear trouble, or signs of pain should prompt a call to the clinic rather than guesswork at home.
 
 ## Feeding and Weight Control
 
 A Toy Poodle eats very little, so the priority is a quality small-breed food in carefully measured portions. At four to six pounds, this dog has almost no margin for extra weight — even a little excess strains the knees and hips and shows up fast — so judge condition by feeling for the ribs and checking for a waist, not by guesswork.
 
-Treats are invaluable for training such a food-motivated, clever breed, but they vanish into the daily calorie budget quickly at this size, so break them tiny and count them. Very young toy puppies can be prone to hypoglycemia and may need several small meals a day. If you're not certain what a healthy weight looks like, have your vet show you the target body condition and set portions from there.
+Treats help a lot with a food-motivated, clever breed, but they vanish into the daily calorie budget quickly at this size, so break them tiny and count them. Very young toy puppies can be prone to hypoglycemia and may need several small meals a day. If you're not certain what a healthy weight looks like, have your vet show you the target body condition and set portions from there.
 
 ## Training Tips
 

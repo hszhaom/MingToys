@@ -69,7 +69,7 @@ The Spanish Water Dog is a generally robust working breed, but several inherited
 
 Because DNA tests exist for several of these issues, ask any breeder for documented hip clearances, eye exams, and relevant genetic results for both parents. A careful breeder will also discuss temperament and socialization, since this reserved breed depends on a stable foundation. Be wary of anyone breeding for unusual color or coat texture at the expense of health and stable nerves.
 
-This information is educational and is not a substitute for veterinary care. Persistent skin flaking, weight gain with lethargy, vision changes, or a sudden shift in temperament are all reasons to consult your veterinarian promptly.
+Persistent skin flaking, weight gain with lethargy, vision changes, or a sudden shift in temperament are all reasons to consult your veterinarian promptly.
 
 ## Feeding and Weight Control
 

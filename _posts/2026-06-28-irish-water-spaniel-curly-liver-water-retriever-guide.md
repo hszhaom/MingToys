@@ -68,7 +68,7 @@ As a fairly rare breed with a limited gene pool, the Irish Water Spaniel benefit
 
 A few Irish Water Spaniels have shown unusual sensitivity to certain vaccines or drugs, so it is worth discussing the line's history with both your breeder and your veterinarian. A conscientious breeder will provide hip, elbow, and eye clearances for the parents and talk openly about longevity and any sensitivities in their dogs. Given the small population, finding such a breeder may take patience.
 
-This section is educational and does not replace veterinary advice. Recurrent ear odor or head-shaking, persistent itching, unexplained weight gain with sluggishness, or any sudden behavior change all warrant a professional exam.
+Recurrent ear odor or head-shaking, persistent itching, unexplained weight gain with sluggishness, or any sudden behavior change all warrant a professional exam.
 
 ## Feeding and Weight Control
 

@@ -1,6 +1,6 @@
 ---
 title: "Chihuahua Guide: Big Attitude, Tiny Body, Real Owner Tips"
-description: "The Chihuahua is the world's smallest dog with an outsized personality. Learn about their boldness, fragility, dental care, cold sensitivity, and lifelong loyalty."
+description: "The Chihuahua is the world's smallest dog with outsized confidence, real fragility, dental-care demands, cold sensitivity, and fierce lifelong loyalty."
 cover: /assets/images/chihuahua-cover.jpg
 layout: post
 ---

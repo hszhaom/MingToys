@@ -1,6 +1,6 @@
 ---
 title: "English Springer Spaniel Breed Guide: Personality, Care, and Real Owner Advice"
-description: "The English Springer Spaniel is a medium gundog with a busy nose, deep water love, and feathered ears that need regular cleaning. Energy, grooming, and health explained."
+description: "The English Springer Spaniel is a medium gundog with a busy nose, water-loving nature, feathered ears, daily exercise needs, and regular grooming."
 cover: /assets/images/springerspaniel-cover.jpg
 layout: post
 ---

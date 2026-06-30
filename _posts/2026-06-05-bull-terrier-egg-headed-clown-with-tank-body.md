@@ -68,7 +68,7 @@ The Bull Terrier has several breed-specific health concerns owners should know. 
 
 When choosing a breeder, ask for BAER hearing test results, cardiac clearances, and evidence of kidney screening (UPC testing) in the parents. A breeder who tests for deafness, heart, and kidney issues and discusses them openly is doing right by this breed.
 
-This information is educational and does not replace veterinary care. If your Bull Terrier shows increased thirst and urination, persistent skin trouble, exercise intolerance or fainting, or develops obsessive repetitive behaviors, have a veterinarian evaluate it.
+If your Bull Terrier shows increased thirst and urination, persistent skin trouble, exercise intolerance or fainting, or develops obsessive repetitive behaviors, have a veterinarian evaluate it.
 
 ## Feeding and Weight Control
 

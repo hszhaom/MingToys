@@ -1,6 +1,6 @@
 ---
 title: "Miniature Schnauzer: The Bearded Watchdog Who Thinks He's Big"
-description: "The Miniature Schnauzer pairs a wiry double coat and famous beard with terrier boldness and a real pancreatitis risk. Here's the grooming, diet, and training reality."
+description: "The Miniature Schnauzer pairs a wiry beard with terrier boldness, frequent barking, steady grooming, diet discipline, and pancreatitis risk."
 cover: /assets/images/minischnauzer-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ Other concerns owners should know:
 - Pancreatitis flare-ups, often triggered by a fatty meal or treat.
 - Diabetes and Cushing's disease, seen more often in middle-aged and older Minis.
 
-This section is educational and is not a substitute for veterinary care. If your Schnauzer suddenly refuses food, vomits repeatedly, hunches with a tender belly, strains to urinate, or seems lethargic, call your veterinarian promptly, because those can signal pancreatitis or a urinary blockage.
+Your vet should handle diagnosis and treatment. If your Schnauzer suddenly refuses food, vomits repeatedly, hunches with a tender belly, strains to urinate, or seems lethargic, call promptly, because those can signal pancreatitis or a urinary blockage.
 
 ## Feeding and Weight Control
 

@@ -1,6 +1,6 @@
 ---
 title: "Pomeranian Care Guide: Fluffy Coat, Bold Spirit & Health"
-description: "The Pomeranian is a tiny spitz with a fox face, a giant double coat, and fearless confidence. Learn about grooming, barking, knee and trachea health, and home fit."
+description: "The Pomeranian is a tiny spitz with a fox face, giant double coat, fearless confidence, frequent barking, and knee and trachea health risks."
 cover: /assets/images/pomeranian-cover.jpg
 layout: post
 ---
@@ -49,7 +49,7 @@ The Pomeranian's glory is its coat, and that coat is a commitment. Poms wear a d
 
 Pomeranians shed steadily, and they "blow" their undercoat heavily a couple of times a year, when daily brushing becomes necessary to manage the loose fluff. Resist any urge to shave a Pom down; the double coat insulates against both heat and cold, and shaving can damage regrowth and sometimes triggers a coat-loss condition. Bathe every few weeks and dry thoroughly to fluff the coat.
 
-The rest of the routine matters too: trim nails regularly, check the small ears, and — crucially for a toy breed — brush the teeth often to prevent the dental disease Poms are prone to. A neat trim around the feet and rear keeps things tidy between baths.
+The rest of the routine matters too: trim nails regularly, check the small ears, and brush the teeth often to help prevent the dental disease Poms are prone to. A neat trim around the feet and rear keeps things tidy between baths.
 
 ![Fluffy Pomeranian playing outdoors with a bright, confident expression]({{ site.url }}/assets/images/pomeranian-play.jpg)
 

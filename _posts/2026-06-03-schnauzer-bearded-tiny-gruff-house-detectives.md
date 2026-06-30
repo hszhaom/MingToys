@@ -1,6 +1,6 @@
 ---
 title: "Standard Schnauzer Guide: The Bearded, Brainy German Watchdog"
-description: "The Standard Schnauzer is a sharp, energetic working dog with a wiry low-shed beard, strong guarding instinct, and a mind that needs a job. Care and training explained."
+description: "The Standard Schnauzer is a sharp, energetic working dog with a wiry beard, guarding instinct, busy mind, and real training and grooming demands."
 cover: /assets/images/schnauzer-cover.jpg
 layout: post
 ---
@@ -36,7 +36,7 @@ The breed is generally very good with children in its own family, playful and pa
 
 ## Exercise Needs
 
-This is a high-energy working breed, and treating it like a couch companion is the fastest route to behavior problems. A Standard Schnauzer needs a real hour or more of activity every day, and crucially, that activity must engage the brain as well as the legs. A long walk is a fine start, but a dog this clever also needs problems to solve.
+This is a high-energy working breed, and treating it like a couch companion is the fastest route to behavior problems. A Standard Schnauzer needs a real hour or more of activity every day, and the work has to reach the brain as well as the legs. A long walk is a fine start, but a dog this clever also needs problems to solve.
 
 Productive outlets include:
 
@@ -68,7 +68,7 @@ The Standard Schnauzer is one of the healthier purebred dogs, but a few conditio
 
 When you talk with a breeder, ask to see hip and eye clearances on both parents and inquire whether heart problems have appeared in their lines. A breeder who tests and shares results candidly is doing right by the breed.
 
-The information here is educational and not a substitute for veterinary care. If your Schnauzer develops a chronic cough, exercise intolerance, fainting, persistent itching, or cloudiness in the eyes, have a veterinarian evaluate it promptly rather than waiting.
+If your Schnauzer develops a chronic cough, exercise intolerance, fainting, persistent itching, or cloudiness in the eyes, have a veterinarian evaluate it promptly rather than waiting.
 
 ## Feeding and Weight Control
 

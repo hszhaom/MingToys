@@ -1,11 +1,11 @@
 ---
 title: "Great Dane Breed Guide: Living with a Gentle Giant"
-description: "The Great Dane is a towering, affectionate giant with a short lifespan and high bloat risk. Learn the space, feeding, and health realities before you commit."
+description: "The Great Dane is a towering, affectionate giant with a short lifespan, high bloat risk, large-space needs, and expensive daily care."
 cover: /assets/images/greatdane-cover.jpg
 layout: post
 ---
 
-There is nothing subtle about a Great Dane. Standing on its hind legs, it can look you in the eye or tower over you, and yet most of them genuinely believe they are lap dogs and will attempt to prove it on your couch. The "Apollo of dogs" pairs an imposing, statuesque frame with one of the softest, most affectionate temperaments in the canine world. This guide explains what sharing your home, and a surprising amount of it, with a giant breed really involves.
+There is nothing subtle about a Great Dane. Standing on its hind legs, it can look you in the eye or tower over you, and yet most of them genuinely believe they are lap dogs and will attempt to prove it on your couch. The "Apollo of dogs" pairs an imposing, statuesque frame with one of the softest, most affectionate temperaments in the canine world. Sharing your home with one means giving up a surprising amount of that home.
 
 Originally bred in Germany to hunt wild boar and later to guard estates, the Great Dane has been refined over generations into a calm, dignified companion. The breed's size is the headline, but the part new owners underestimate is the package that comes with it: the cost, the logistics, the heartbreakingly short lifespan, and the very specific health risks that giant breeds carry. Going in clear about all of that is the kindest thing you can do for one of these dogs.
 
@@ -64,7 +64,7 @@ The hard truth about Great Danes is that their health concerns are serious and t
 
 Heart disease is the other major concern; dilated cardiomyopathy is notably common in the breed and can lead to heart failure or sudden death. Their rapid growth and weight also predispose them to orthopedic problems including hip dysplasia, osteoarthritis, and wobbler syndrome (a spinal condition affecting the neck). Like several large breeds, they have an elevated risk of bone cancer (osteosarcoma).
 
-This article is educational and is not a substitute for veterinary advice. Given the bloat risk in particular, learn the warning signs now: a distended or hard abdomen, unproductive retching, restlessness, drooling, and obvious distress. If you see them, get to an emergency vet immediately, because minutes matter.
+Given the bloat risk in particular, learn the warning signs now: a distended or hard abdomen, unproductive retching, restlessness, drooling, and obvious distress. If you see them, get to an emergency vet immediately, because minutes matter.
 
 ## Feeding and Weight Control
 

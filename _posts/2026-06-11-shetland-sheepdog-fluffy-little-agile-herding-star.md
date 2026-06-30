@@ -1,13 +1,13 @@
 ---
 title: "Shetland Sheepdog Breed Guide: Sheltie Personality, Care, and Health"
-description: "The Shetland Sheepdog is a small, brilliant herder that's quick to learn, quick to bark, and needs serious coat care. See if a Sheltie fits your household."
+description: "The Shetland Sheepdog is a small, brilliant herder that's quick to learn, quick to bark, sensitive by nature, and serious about coat care."
 cover: /assets/images/shetland-cover.jpg
 layout: post
 ---
 
 The Shetland Sheepdog looks like a Rough Collie shrunk down to fit a lap, and people often assume it acts like a miniature one. Spend a week with a Sheltie, though, and you meet a dog with its own distinct character: hyper-aware, eager to please, talkative to a fault, and so quick to learn that it sometimes trains its owners before they realize what is happening. This guide covers what daily life with one is genuinely like.
 
-The breed comes from the rugged Shetland Islands off Scotland, where small, hardy dogs herded sheep and ponies and kept birds out of crofts on a harsh landscape. That working past explains the Sheltie's watchfulness, its sensitivity to motion, and its endless interest in what every family member is doing. Before you fall for the flowing coat, it helps to be honest about the breed's two biggest realities: the barking and the brushing.
+The breed comes from the rugged Shetland Islands off Scotland, where small, hardy dogs herded sheep and ponies and kept birds out of crofts in rough weather. That working past explains the Sheltie's watchfulness, its sensitivity to motion, and its endless interest in what every family member is doing. Before you fall for the flowing coat, it helps to be honest about the breed's two biggest realities: the barking and the brushing.
 
 ![Adult Shetland Sheepdog sitting alertly, showing the full mane, fringed ears, and sable coat]({{ site.url }}/assets/images/shetland-main.jpg)
 
@@ -36,7 +36,7 @@ Then there is the herding brain at work. Shelties notice everything that moves, 
 
 ## Exercise Needs
 
-Shelties are athletic for their size and need more than a stroll around the block. Aim for around an hour a day combining a walk or two with active play and, crucially, mental work. This is a breed that excels at dog sports, and agility, rally, obedience, herding trials, and flyball all suit its quick feet and quicker mind.
+Shelties are athletic for their size and need more than a stroll around the block. Aim for around an hour a day combining a walk or two with active play and mental work. This is a breed that excels at dog sports, and agility, rally, obedience, herding trials, and flyball all suit its quick feet and quicker mind.
 
 Mental stimulation is not a nice extra here, it is half the job. A Sheltie that gets to solve puzzles, learn new tricks, or do a few short training drills each day is calmer and quieter than one that is only physically tired. Food puzzles, scent games, and "find it" hunts around the house are easy ways to tire out the brain on a rainy afternoon.
 
@@ -64,7 +64,7 @@ Shelties are generally healthy and long-lived, but several breed-specific concer
 
 The breed can also carry the MDR1 gene mutation, which makes some Shelties dangerously sensitive to certain common medications, including particular dewormers and anesthetics. A simple cheek-swab test tells you your dog's status, and it is information your veterinarian will be glad to have on file. Hip dysplasia, hypothyroidism, and a skin condition called dermatomyositis also appear in the breed.
 
-This article is educational and is not a substitute for veterinary care. If your Sheltie shows sudden vision trouble, an unusual reaction to a medication, persistent lethargy, or a major change in appetite or behavior, contact your veterinarian.
+If your Sheltie shows sudden vision trouble, an unusual reaction to a medication, persistent lethargy, or a major change in appetite or behavior, contact your veterinarian.
 
 ## Feeding and Weight Control
 

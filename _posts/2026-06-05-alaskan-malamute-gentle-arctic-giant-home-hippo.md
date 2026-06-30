@@ -1,6 +1,6 @@
 ---
 title: "Alaskan Malamute Guide: The Powerful, Plush Arctic Sled Dog"
-description: "The Alaskan Malamute is a heavy-shedding, strong-pulling arctic sled dog with high prey drive and heat sensitivity. Honest take on grooming, exercise, and health."
+description: "The Alaskan Malamute is a heavy-shedding, strong-pulling Arctic sled dog with high prey drive, heat sensitivity, and big exercise needs."
 cover: /assets/images/alaskan-cover.jpg
 layout: post
 ---
@@ -68,7 +68,7 @@ Malamutes are a fairly hardy breed, but several conditions deserve attention. As
 
 When talking with a breeder, ask about hip clearances, eye exams, and DNA testing for polyneuropathy and chondrodysplasia in the parents. A knowledgeable breeder who tests for the Malamute's specific issues is well worth seeking out.
 
-This section is educational and not a replacement for veterinary advice. If your Malamute shows a distended or painful abdomen with unproductive retching, sudden weakness or wobbliness, signs of overheating, or cloudy eyes, contact a veterinarian right away.
+Do not wait on serious symptoms. If your Malamute shows a distended or painful abdomen with unproductive retching, sudden weakness or wobbliness, signs of overheating, or cloudy eyes, contact a veterinarian right away.
 
 ## Feeding and Weight Control
 
@@ -113,7 +113,7 @@ A Malamute suits an experienced, active owner who lives in a cooler climate, enj
 
 It is a poor choice for first-time owners, hot climates, apartment living, homes with small pets the dog cannot be trusted around, or anyone wanting an easily trained, low-shedding, low-exercise companion. Underestimating this breed is the most common reason Malamutes end up in rescue.
 
-For comparison, read the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/), the [Labrador Retriever guide]({{ site.url }}/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/), or the [Bull Terrier guide]({{ site.url }}/posts/2026/06/05/bull-terrier-egg-headed-clown-with-tank-body/). Comparing the Malamute against a retriever and a terrier underscores just how much its arctic heritage shapes its grooming, climate, and training needs.
+For comparison, read the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/), the [Labrador Retriever guide]({{ site.url }}/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/), or the [Bull Terrier guide]({{ site.url }}/posts/2026/06/05/bull-terrier-egg-headed-clown-with-tank-body/). Put those breeds beside a Malamute and the arctic heritage becomes obvious in the coat, climate needs, and training style.
 
 ## Alaskan Malamute FAQ
 

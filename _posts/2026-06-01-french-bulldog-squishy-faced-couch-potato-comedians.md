@@ -69,7 +69,7 @@ There is no way to sugarcoat this: the French Bulldog is a high-health-risk bree
 
 Their compact, screw-tailed bodies also predispose them to spinal problems, including intervertebral disc disease (IVDD) and malformed vertebrae, which is why you should discourage repeated jumping on and off furniture. Add a tendency toward skin-fold dermatitis and allergies, eye conditions like cherry eye and corneal ulcers, and a high rate of cesarean births in breeding dogs, and you have a dog that can be expensive to keep healthy. Pet insurance is worth considering before you bring one home.
 
-A reminder in plain terms: this article is educational, not a substitute for your veterinarian. Because breathing trouble can escalate fast in this breed, learn the signs of heat distress and respiratory crisis, and get veterinary help immediately if your Frenchie struggles to breathe, collapses, or shows blue-tinged gums.
+Breathing trouble can escalate fast in this breed. Learn the signs of heat distress and respiratory crisis, and get veterinary help immediately if your Frenchie struggles to breathe, collapses, or shows blue-tinged gums.
 
 ## Feeding and Weight Control
 

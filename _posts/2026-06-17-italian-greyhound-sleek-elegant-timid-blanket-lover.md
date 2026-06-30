@@ -69,7 +69,7 @@ Dental disease is the other defining concern. IGs are highly prone to tartar bui
 
 A responsible breeder screens eyes, checks patellas, and is candid about dental and orthopedic history, choosing health and sound structure over an exaggeratedly fine or delicate build.
 
-Use this as general information, not a substitute for your veterinarian. If your IG cries out and favors a leg, develops bad breath or red gums, or shows sudden anxiety or vision trouble, arrange a prompt checkup.
+If your IG cries out and favors a leg, develops bad breath or red gums, or shows sudden anxiety or vision trouble, arrange a prompt checkup with your veterinarian.
 
 ## Feeding and Weight Control
 

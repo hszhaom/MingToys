@@ -68,7 +68,7 @@ Porties benefit from a dedicated community of breeders who have used DNA testing
 
 Because reliable DNA tests exist for several of these, a conscientious breeder can show you clear results for the parents and explain how the pairing avoids producing affected pups. Ask specifically about GM1 and JDCM status, hip and eye clearances, and the longevity of the line. Skipping these questions is the single biggest avoidable risk with this breed.
 
-Treat this as general education, not veterinary advice. Sudden weakness, fainting, exercise intolerance, vision changes, or unexplained collapse warrant a prompt veterinary visit rather than a wait-and-see approach.
+Sudden weakness, fainting, exercise intolerance, vision changes, or unexplained collapse warrant a prompt veterinary visit rather than a wait-and-see approach.
 
 ## Feeding and Weight Control
 

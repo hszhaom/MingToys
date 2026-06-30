@@ -7,7 +7,7 @@ layout: post
 
 The Papillon takes its name from the French word for butterfly, a nod to the large, fringed, upright ears that frame its delicate face like spread wings. Weighing just 5 to 10 pounds and standing 8 to 11 inches tall, it's one of the smallest of the toy breeds, yet it behaves nothing like a sleepy lap warmer. This is one of the oldest toy spaniels, a fixture in European royal courts for centuries, and behind the dainty looks sits a genuinely brilliant, energetic little working brain.
 
-This guide explains the surprising reality of Papillon ownership: a tiny dog that excels at dog sports, learns at lightning speed, and needs far more activity and mental work than its size suggests.
+A Papillon may be tiny, but it can excel at dog sports, learn at lightning speed, and need far more activity and mental work than its size suggests.
 
 ![Adult Papillon with large fringed butterfly ears and a flowing white-and-color coat]({{ site.url }}/assets/images/papillon-main.jpg)
 
@@ -72,7 +72,7 @@ Other concerns to watch:
 - Progressive retinal atrophy and other inherited eye conditions.
 - Hypoglycemia in very young or very small puppies.
 
-This section is educational and not a replacement for veterinary advice. Because Papillons hide discomfort and are easily injured, take any sudden limping, persistent coughing, reluctance to eat, or signs of pain seriously and consult your veterinarian.
+Because Papillons hide discomfort and are easily injured, take any sudden limping, persistent coughing, reluctance to eat, or signs of pain seriously and consult your veterinarian.
 
 ## Feeding and Weight Control
 

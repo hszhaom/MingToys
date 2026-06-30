@@ -1,6 +1,6 @@
 ---
 title: "Pug Guide: The Wrinkly, Snoring Little Companion Clown"
-description: "The Pug is a charming brachycephalic companion with breathing and heat risks, prominent eyes, deep facial folds, and a big appetite. Honest care and health guide."
+description: "The Pug is a charming brachycephalic companion with breathing and heat risks, prominent eyes, deep facial folds, and a serious appetite."
 cover: /assets/images/pug-cover.jpg
 layout: post
 ---
@@ -67,7 +67,7 @@ This is the part every prospective Pug owner must take seriously. As a brachycep
 
 When choosing a breeder, look for one breeding toward more open nostrils and better breathing, and ask about eye and hip evaluations. Be wary of anyone marketing extreme flat faces, since exaggerated features worsen the breed's health. Adopting from a Pug rescue is another good option.
 
-This overview is educational and not a substitute for veterinary care. If your Pug shows severe breathing difficulty, signs of overheating, a suddenly painful, cloudy, or bulging eye, or any neurological signs such as seizures, treat it as an emergency and contact a veterinarian immediately.
+If your Pug shows severe breathing difficulty, signs of overheating, a suddenly painful, cloudy, or bulging eye, or any neurological signs such as seizures, treat it as an emergency and contact a veterinarian immediately.
 
 ## Feeding and Weight Control
 

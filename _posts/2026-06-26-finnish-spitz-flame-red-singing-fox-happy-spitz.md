@@ -85,7 +85,7 @@ The Finnish Spitz is among the hardier, more naturally sound breeds, often livin
 
 When choosing a puppy, ask the breeder about hip and eye screening and about the general health and longevity of their lines. A breeder who answers these questions openly and screens appropriately is the one to trust; steer clear of anyone who brushes off health questions or fixates on coat color alone.
 
-This guide is educational and cannot diagnose or treat illness. Contact a veterinarian promptly for persistent limping, recurring ear trouble, eye changes, severe itching, appetite shifts, coughing, collapse, or any sudden change in behavior.
+Contact a veterinarian promptly for persistent limping, recurring ear trouble, eye changes, severe itching, appetite shifts, coughing, collapse, or any sudden change in behavior.
 
 ## Feeding and Weight Control
 

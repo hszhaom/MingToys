@@ -1,6 +1,6 @@
 ---
 title: "Rottweiler Breed Guide: Personality, Care, and Health for Owners"
-description: "The Rottweiler is a confident 80–135 lb guardian with a calm head, a clownish streak, and joint and bloat risks. See if this powerful breed fits your home."
+description: "The Rottweiler is a confident 80-135 lb guardian with a calm head, clownish streak, strong training needs, and serious joint and bloat risks."
 cover: /assets/images/rottweiler-cover.jpg
 layout: post
 ---

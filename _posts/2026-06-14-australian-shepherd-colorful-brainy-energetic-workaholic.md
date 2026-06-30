@@ -1,11 +1,11 @@
 ---
 title: "Australian Shepherd Breed Guide: Brains, Energy, and the Aussie Life"
-description: "The Australian Shepherd is a striking, high-drive herding dog that needs heavy exercise and a job. Learn about its merle coat, instincts, and health risks."
+description: "The Australian Shepherd is a striking, high-drive herding dog with a merle coat, strong instincts, heavy exercise needs, and real health risks."
 cover: /assets/images/australianshepherd-cover.jpg
 layout: post
 ---
 
-The Australian Shepherd is the dog that turns heads at the park, those marbled merle coats, the striking eyes that sometimes come in two different colors, the natural bobtail, and then promptly out-thinks half the dogs there. Behind the good looks is a serious working brain and a body built to run all day. The "Aussie" is one of America's most popular herding breeds, and also one of the most commonly underestimated. This guide explains what it really takes to keep one happy.
+The Australian Shepherd is the dog that turns heads at the park, those marbled merle coats, the striking eyes that sometimes come in two different colors, the natural bobtail, and then promptly out-thinks half the dogs there. Behind the good looks is a serious working brain and a body built to run all day. The "Aussie" is one of America's most popular herding breeds, and also one of the most commonly underestimated.
 
 Despite the name, the breed was developed in the American West, refined by ranchers to herd livestock across long days on big land. Everything about the Aussie reflects that: the stamina, the intelligence, the intense focus on movement, and the deep need to work alongside a person. Before the looks win you over, the honest question is whether your life can supply the hours of exercise and mental engagement this breed was built to expect.
 
@@ -70,7 +70,7 @@ Aussies are generally healthy, athletic dogs, but several inherited conditions r
 
 Two genetic issues deserve special attention. Like many herding breeds, Australian Shepherds frequently carry the MDR1 gene mutation, which makes affected dogs dangerously sensitive to certain common medications; a simple DNA test reveals your dog's status and is worth sharing with your vet. The breed also has an elevated incidence of epilepsy. Additionally, double-merle breeding (merle to merle) is associated with deafness and blindness, which is why ethical breeding practices are so important.
 
-This guide is educational and is not a substitute for veterinary care. Because this driven breed often masks discomfort, watch for subtle changes, reluctance to move, altered gait, vision trouble, or seizure activity, and contact your veterinarian when something seems wrong.
+Because this driven breed often masks discomfort, watch for subtle changes, reluctance to move, altered gait, vision trouble, or seizure activity, and contact your veterinarian when something seems wrong.
 
 ## Feeding and Weight Control
 

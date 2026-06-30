@@ -1,6 +1,6 @@
 ---
 title: "Boston Terrier 101: The Tuxedoed City Companion and Its Quirks"
-description: "The Boston Terrier is a friendly, low-shed apartment favorite, but its flat face brings breathing limits, heat sensitivity, and bulging-eye risks. Full guide here."
+description: "The Boston Terrier is a friendly, low-shed apartment favorite, but its flat face brings breathing limits, heat sensitivity, and bulging-eye risks."
 cover: /assets/images/bostonterrier-cover.jpg
 layout: post
 ---
@@ -72,7 +72,7 @@ Other concerns owners should know:
 - Deafness, which occurs in a portion of the breed, sometimes in one ear.
 - Sensitivity to anesthesia, which a vet experienced with flat-faced dogs will account for.
 
-This section is educational and not a substitute for veterinary care. Given the breathing and heat risks, treat heavy or distressed panting, blue-tinged gums, or signs of overheating as urgent, get the dog cool and to a vet, and have any eye injury or sudden squinting examined quickly.
+Given the breathing and heat risks, treat heavy or distressed panting, blue-tinged gums, or signs of overheating as urgent, get the dog cool and to a vet, and have any eye injury or sudden squinting examined quickly.
 
 ## Feeding and Weight Control
 

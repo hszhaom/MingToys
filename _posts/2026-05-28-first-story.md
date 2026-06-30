@@ -1,6 +1,6 @@
 ---
 title: "Corgi Guide: Herding Instincts, Care, and Living With Short Legs"
-description: "Corgis pair a herding-bred work ethic with a stocky, low-slung body. Learn about their bossy charm, heavy shedding, back health, and what daily life really takes."
+description: "Corgis pair a herding-bred work ethic with a stocky, low-slung body, bossy charm, heavy shedding, back-health concerns, and busy daily routines."
 cover: /assets/images/corgi-cover.jpg
 layout: post
 ---
@@ -59,7 +59,7 @@ The biggest breed-specific worry is the back. That long spine paired with short 
 
 Obesity deserves its own mention because it makes nearly everything else worse — Corgis are food-motivated and master beggars, and the weight piles on quietly. Eye conditions like progressive retinal atrophy are worth asking a breeder about as well.
 
-Consider this background reading, not a diagnosis. Your veterinarian is the right person to evaluate your individual dog, and any sudden back pain, dragging of the rear legs, reluctance to move, or loss of coordination is an urgent reason to call the clinic rather than wait.
+Your veterinarian is the right person to evaluate your individual dog. Sudden back pain, dragging of the rear legs, reluctance to move, or loss of coordination is an urgent reason to call the clinic rather than wait.
 
 ## Feeding and Weight Control
 

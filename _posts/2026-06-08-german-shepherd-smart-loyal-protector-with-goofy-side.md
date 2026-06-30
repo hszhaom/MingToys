@@ -1,6 +1,6 @@
 ---
 title: "German Shepherd Explained: Working Brains, Big Coat, and Real Health Risks"
-description: "German Shepherds are brilliant, loyal working dogs that shed constantly and need a job. Get the truth on hip dysplasia, exercise, and whether you can keep up."
+description: "German Shepherds are brilliant, loyal working dogs that shed constantly, need a job, and require planning around hip dysplasia and heavy exercise."
 cover: /assets/images/germanshepherd-cover.jpg
 layout: post
 ---
@@ -34,7 +34,7 @@ What truly sets the breed apart is its intelligence. German Shepherds are consis
 
 ## Exercise Needs
 
-This is a true working breed, and the exercise requirement is substantial. Plan on at least one to two hours of activity a day, and crucially, that activity must engage the mind as much as the body. A long run will tire a Shepherd's legs but leave its brain restless; obedience drills, fetch with rules, tracking, herding, agility, or scent work satisfy the dog far more completely.
+This is a true working breed, and the exercise requirement is substantial. Plan on at least one to two hours of activity a day, with work for the mind as well as the body. A long run will tire a Shepherd's legs but leave its brain restless; obedience drills, fetch with rules, tracking, herding, agility, or scent work satisfy the dog far more completely.
 
 A realistic week for a German Shepherd includes:
 
@@ -71,7 +71,7 @@ Other significant concerns:
 - Exocrine pancreatic insufficiency, a digestive enzyme deficiency the breed is prone to.
 - Allergies and recurrent skin or ear issues.
 
-This information is educational, not veterinary advice. Bloat in particular is an emergency: if your Shepherd has a swollen, hard abdomen, retches without producing anything, drools heavily, and seems distressed, get to an emergency vet immediately, as minutes count. Likewise, ask any breeder for hip, elbow, and degenerative myelopathy clearances before buying.
+Bloat in particular is an emergency. If your Shepherd has a swollen, hard abdomen, retches without producing anything, drools heavily, and seems distressed, get to an emergency vet immediately, as minutes count. Likewise, ask any breeder for hip, elbow, and degenerative myelopathy clearances before buying.
 
 ## Feeding and Weight Control
 

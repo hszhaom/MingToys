@@ -1,6 +1,6 @@
 ---
 title: "Shih Tzu Guide: Personality, Health & Owner Tips"
-description: "The Shih Tzu is a sweet, easygoing flat-faced companion bred for the lap. Learn about its mellow nature, heavy coat care, breathing limits, and the right home."
+description: "The Shih Tzu is a sweet, easygoing flat-faced companion bred for the lap, with a mellow nature, heavy coat care, heat limits, and breathing concerns."
 cover: /assets/images/shih-tzu-cover.jpg
 layout: post
 ---
@@ -73,7 +73,7 @@ Shih Tzus are intelligent and want to please, but the breed's stubborn streak me
 
 Housetraining is the classic Shih Tzu challenge. The combination of a small bladder, a stubborn streak, and a dislike of going out in bad weather makes it slower than with many breeds, so plan for extra consistency, a reliable routine, and patience — many owners find an indoor potty option helps on rainy days. Crate training and a steady schedule pay off here.
 
-Because the breed bonds so closely and dislikes being alone, it's worth teaching calm independence early with short departures so clinginess doesn't develop. Gentle, generous socialization keeps their naturally friendly temperament well-rounded. Overall, the Shih Tzu isn't difficult so much as it is its own dog, and a kind, consistent hand brings out its best.
+Because the breed bonds so closely and dislikes being alone, it's worth teaching calm independence early with short departures so clinginess doesn't develop. Gentle, generous socialization keeps their naturally friendly temperament well-rounded. The Shih Tzu is not difficult so much as very sure of itself, and a kind, consistent hand brings out its best.
 
 ## Pros and Cons of Shih Tzus
 

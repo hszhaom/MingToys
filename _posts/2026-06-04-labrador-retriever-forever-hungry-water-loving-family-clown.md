@@ -1,11 +1,11 @@
 ---
 title: "Labrador Retriever Guide: America's Water-Loving Family Favorite"
-description: "The Labrador Retriever is a high-energy, food-driven retriever that loves water, sheds heavily, and is prone to obesity and hip dysplasia. Care and training covered."
+description: "The Labrador Retriever is a high-energy, food-driven water lover that sheds heavily and needs firm management around obesity and hip dysplasia."
 cover: /assets/images/labrador-cover.jpg
 layout: post
 ---
 
-For decades the Labrador Retriever has been the most popular dog in America, and the reasons are easy to see: it is friendly, trainable, athletic, and tolerant enough to fit almost any active family. Originally developed in Newfoundland to help fishermen haul nets and retrieve fish from icy water, the Lab was refined in England into the consummate retrieving gundog. That heritage left it with a love of water, a soft "retrieving" mouth, a weatherproof double coat, and an off-the-charts food drive. This guide explains what living with a Lab actually requires, because beneath the easygoing reputation is a powerful, energetic working dog that needs real exercise and firm portion control.
+For decades the Labrador Retriever has been the most popular dog in America, and the reasons are easy to see: it is friendly, trainable, athletic, and tolerant enough to fit almost any active family. Originally developed in Newfoundland to help fishermen haul nets and retrieve fish from icy water, the Lab was refined in England into the consummate retrieving gundog. That heritage left it with a love of water, a soft "retrieving" mouth, a weatherproof double coat, and an off-the-charts food drive. Beneath the easygoing reputation is a powerful, energetic working dog that needs real exercise and firm portion control.
 
 The common myth is that a Lab is automatically a calm, low-effort family dog. The truth is that Labs are wonderful family dogs only when their substantial exercise and training needs are met; an under-exercised young Lab is a bouncing, mouthy, counter-surfing handful.
 
@@ -69,7 +69,7 @@ Labs are generally robust, but the breed carries several well-documented concern
 
 When choosing a breeder, ask to see hip and elbow clearances, eye certifications, and EIC and PRA test results on the parents. A breeder who screens for these and discusses them openly is doing the breed a real service.
 
-This is educational information, not veterinary advice. If your Lab shows lameness, a distended or painful abdomen, sudden hind-end weakness during exercise, repeated ear trouble, or rapid weight gain, see your veterinarian.
+If your Lab shows lameness, a distended or painful abdomen, sudden hind-end weakness during exercise, repeated ear trouble, or rapid weight gain, see your veterinarian.
 
 ## Feeding and Weight Control
 

@@ -1,11 +1,11 @@
 ---
 title: "Cavalier King Charles Spaniel Breed Guide: Care, Traits, and Health"
-description: "The Cavalier King Charles Spaniel is a sweet, adaptable lap spaniel that loves everyone but carries serious heart and neurological risks. See if it fits you."
+description: "The Cavalier King Charles Spaniel is a sweet, adaptable lap spaniel that loves people deeply but carries serious heart and neurological risks."
 cover: /assets/images/cavalier-cover.jpg
 layout: post
 ---
 
-If you want a dog that treats every human as a long-lost friend, the Cavalier King Charles Spaniel may already have won you over. These small, silky spaniels were bred for one job, to be a companion, and they take it seriously, curling into laps, trotting after you room to room, and gazing up with those famously soft, round eyes. This guide explains what living with a Cavalier is really like, including the health realities that every prospective owner needs to understand.
+If you want a dog that treats every human as a long-lost friend, the Cavalier King Charles Spaniel may already have won you over. These small, silky spaniels were bred for one job, to be a companion, and they take it seriously, curling into laps, trotting after you room to room, and gazing up with those famously soft, round eyes. The sweetness is real, but so are the health realities every prospective owner needs to understand.
 
 The breed traces back to the toy spaniels beloved by English royalty, painted into countless portraits beside kings and courtiers, and was later reconstructed in the 20th century into the slightly longer-muzzled dog we know today. That heritage as a purpose-bred lap dog shapes everything: the Cavalier is sweet, gentle, and unfailingly people-oriented. The honest counterweight is that it is also one of the breeds most affected by inherited disease, so loving the temperament means going in with eyes open.
 
@@ -64,11 +64,11 @@ This is where any honest Cavalier guide must slow down. The breed is wonderful, 
 
 The second major concern is syringomyelia, a painful neurological condition in which the skull is too small for the brain, causing fluid-filled cavities in the spinal cord. Signs include scratching at the neck and shoulder area (often without making contact), sensitivity around the head and neck, and yelping. The breed is also prone to ear infections, certain eye conditions, hip dysplasia, and patellar luxation (slipping kneecaps).
 
-This guide is educational and does not replace veterinary care. Because of the heart and neurological risks specifically, choosing a breeder who screens with cardiac and MRI evaluations matters enormously, and regular vet checkups that include listening to the heart are not optional for this breed. If your Cavalier develops a persistent cough, exercise intolerance, fainting, or relentless neck scratching, see a veterinarian promptly.
+Because of the heart and neurological risks specifically, choosing a breeder who screens with cardiac and MRI evaluations matters enormously, and regular vet checkups that include listening to the heart are not optional for this breed. If your Cavalier develops a persistent cough, exercise intolerance, fainting, or relentless neck scratching, see a veterinarian promptly.
 
 ## Feeding and Weight Control
 
-Keeping a Cavalier lean is one of the most valuable things you can do for its health, because every extra pound adds strain to a heart that may already be working hard. These are small dogs with modest calorie needs, and they are skilled, soulful beggars, so portion discipline matters.
+Keeping a Cavalier lean gives its heart less work to do. These are small dogs with modest calorie needs, and they are skilled, soulful beggars, so portion discipline matters.
 
 Helpful feeding practices:
 

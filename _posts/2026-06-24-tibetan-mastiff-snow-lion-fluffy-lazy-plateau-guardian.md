@@ -1,6 +1,6 @@
 ---
 title: "Tibetan Mastiff Breed Guide: The Lion-Maned Guardian Up Close"
-description: "The Tibetan Mastiff is a 70–150 lb ancient guardian with a lion-like mane, nocturnal alertness, and a fiercely independent mind. Care, barking, and health explained."
+description: "The Tibetan Mastiff is a 70-150 lb ancient guardian with a lion-like mane, nocturnal alertness, serious barking, and a fiercely independent mind."
 cover: /assets/images/tibetanmastiff-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ The Tibetan Mastiff is a relatively hardy ancient breed, but it carries several 
 
 If you seek a puppy, deal only with a breeder who screens for hips and elbows, tests for CIDN, and is candid about thyroid health and temperament in their lines. Temperament stability is critical in a guardian breed, so a breeder who discusses both the dogs' health and their character honestly is exactly who you want. Avoid anyone breeding only for an exaggerated mane or maximum size.
 
-This guide is educational and not a substitute for veterinary care. Because bloat can be fatal within hours, learn its signs (a distended belly, unproductive retching, restlessness and distress) and treat any suspicion as an emergency.
+Because bloat can be fatal within hours, learn its signs (a distended belly, unproductive retching, restlessness and distress) and treat any suspicion as an emergency.
 
 ## Feeding and Weight Control
 

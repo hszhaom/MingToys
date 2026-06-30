@@ -1,6 +1,6 @@
 ---
 title: "Japanese Chin Breed Guide: The Cat-Like Aristocrat of Toy Dogs"
-description: "The Japanese Chin is a quiet, cat-like toy companion bred for nobility, with a silky coat and a flat face that brings breathing and heat concerns. Care explained for owners."
+description: "The Japanese Chin is a quiet, cat-like toy companion with a silky coat, flat face, breathing risk, heat sensitivity, and gentle care needs."
 cover: /assets/images/japanesechin-cover.jpg
 layout: post
 ---
@@ -46,7 +46,7 @@ A comfortable routine looks like:
 - Mild mental engagement through simple games or training tricks.
 - Plenty of rest, which suits this low-key dog.
 
-The crucial limit is the flat face. Because Chins are brachycephalic, they cannot cool or breathe efficiently during heavy exertion or in heat, so vigorous exercise and warm weather are genuinely dangerous. Keep walks short, schedule them for cooler hours, and never push a Chin to keep up with an active lifestyle.
+The flat face is the limit. Because Chins are brachycephalic, they cannot cool or breathe efficiently during heavy exertion or in heat, so vigorous exercise and warm weather are genuinely dangerous. Keep walks short, schedule them for cooler hours, and never push a Chin to keep up with an active lifestyle.
 
 ## Grooming and Shedding
 
@@ -70,7 +70,7 @@ The Japanese Chin is generally long-lived for a purebred, often reaching 12 to 1
 
 When choosing a puppy, look for a breeder who screens for heart and eye health and patellar soundness and who breeds for moderate, functional faces rather than the most extreme flat profiles. A breeder who talks openly about breathing, eyes, and knees is a good sign; one who dismisses these concerns is not.
 
-This article is educational and does not replace veterinary advice. Because of the breathing and heat sensitivity, learn to recognize respiratory distress and overheating, and protect any eye injury as the urgent matter it can become.
+Because of the breathing and heat sensitivity, learn to recognize respiratory distress and overheating, and protect any eye injury as the urgent matter it can become.
 
 ## Feeding and Weight Control
 

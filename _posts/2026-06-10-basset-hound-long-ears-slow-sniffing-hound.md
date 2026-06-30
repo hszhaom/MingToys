@@ -7,7 +7,7 @@ layout: post
 
 Few dogs are as instantly recognizable as the Basset Hound: long, heavy ears that sweep the ground, a wrinkled brow, soulful droopy eyes, and a long body set low on short, powerful legs. Weighing a deceptively heavy 40 to 65 pounds despite standing only about 14 inches tall, the Basset was bred in France to track rabbits and hare at a slow, deliberate pace that hunters on foot could follow. That nose, second only to the Bloodhound's, and that easygoing temperament define everything about life with one.
 
-This guide explains what owning a Basset Hound is really like: the laid-back charm, the famous stubbornness, the surprisingly loud voice, and the specific health needs that come with those ears and that long, low frame.
+Owning a Basset Hound means living with laid-back charm, famous stubbornness, a surprisingly loud voice, and the specific health needs that come with those ears and that long, low frame.
 
 ![Adult Basset Hound with long droopy ears, wrinkled brow, and a low-slung body]({{ site.url }}/assets/images/bassethound-main.jpg)
 
@@ -72,7 +72,7 @@ Other notable concerns include:
 - Glaucoma and other eye conditions, partly linked to the loose lower lids.
 - Elbow and joint issues tied to the breed's heavy, low-slung conformation.
 
-This section is educational and does not replace veterinary advice. Bloat especially is an emergency: if your Basset has a swollen, tight belly, tries to vomit without success, and seems distressed, get to an emergency vet at once. Likewise, have recurring ear odor, head-shaking, squinting, or a cloudy eye checked promptly.
+Bloat especially is an emergency: if your Basset has a swollen, tight belly, tries to vomit without success, and seems distressed, get to an emergency vet at once. Likewise, have recurring ear odor, head-shaking, squinting, or a cloudy eye checked promptly.
 
 ## Feeding and Weight Control
 

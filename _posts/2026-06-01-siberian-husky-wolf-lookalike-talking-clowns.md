@@ -1,6 +1,6 @@
 ---
 title: "Siberian Husky Guide: The Beautiful, Howling Escape Artist of the Sled Team"
-description: "Siberian Huskies are athletic, vocal, escape-prone sled dogs with huge exercise needs and a strong prey drive. Here's the honest reality before you adopt one."
+description: "Siberian Huskies are athletic, vocal, escape-prone sled dogs with huge exercise needs, heavy shedding, strong prey drive, and a stubborn streak."
 cover: /assets/images/husky-cover.jpg
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Doberman Pinscher Guide: The Velcro Guardian Behind the Fierce Reputation"
-description: "Dobermans are brilliant, athletic guard dogs that are deeply devoted, almost clingy, at home. Learn their training needs and serious heart-health risks here."
+description: "Dobermans are brilliant, athletic guard dogs that bond deeply at home, demand steady training, and carry serious heart-health risks owners must plan for."
 cover: /assets/images/doberman-cover.jpg
 layout: post
 ---
@@ -69,7 +69,7 @@ Here is the part prospective owners must take seriously: the Doberman faces some
 
 Beyond the heart, the breed is predisposed to von Willebrand's disease (an inherited bleeding disorder with a DNA test available), cervical vertebral instability or "wobbler syndrome" affecting the neck and gait, hip dysplasia, hypothyroidism, and, as a deep-chested large breed, gastric dilatation-volvulus (bloat), a sudden life-threatening emergency. Choosing a breeder who tests hearts, thyroid, vWD, and hips is genuinely the best protection you have.
 
-This section is educational and not a substitute for veterinary care; your vet should guide screening, diagnosis, and treatment. Because heart disease and bloat can be sudden and fatal, get emergency help immediately if your Doberman collapses, struggles to breathe, has a swollen or hard abdomen with unproductive retching, or shows sudden weakness.
+Your vet should guide screening, diagnosis, and treatment. Because heart disease and bloat can be sudden and fatal, get emergency help immediately if your Doberman collapses, struggles to breathe, has a swollen or hard abdomen with unproductive retching, or shows sudden weakness.
 
 ## Feeding and Weight Control
 

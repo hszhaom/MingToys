@@ -68,7 +68,7 @@ The Weimaraner is generally a healthy, athletic breed, but two concerns stand ou
 
 Beyond physical health, separation anxiety is so prevalent that it deserves treatment as a genuine breed-welfare issue. A responsible breeder screens hips and eyes, discusses bloat and temperament openly, and helps match the high-need puppy to a suitable home. Ask for clearances, meet the parents, and talk frankly about the line's longevity and disposition.
 
-This information is educational and does not replace veterinary advice. A distended, painful abdomen with unproductive retching and restlessness is a bloat emergency requiring immediate care; sudden lameness, eye irritation, or escalating anxiety also warrant a prompt professional visit.
+A distended, painful abdomen with unproductive retching and restlessness is a bloat emergency requiring immediate care; sudden lameness, eye irritation, or escalating anxiety also warrant a prompt professional visit.
 
 ## Feeding and Weight Control
 

@@ -1,6 +1,6 @@
 ---
 title: "Dachshund Owner's Handbook: The Long-Backed Hound With a Lion's Heart"
-description: "The Dachshund's signature long spine carries a serious IVDD risk, a loud bark, and stubborn hound brains. Learn back-safe care, training, and feeding here."
+description: "The Dachshund's long spine brings serious IVDD risk, while its loud bark, stubborn hound brain, food drive, and bold nature shape daily care."
 cover: /assets/images/dachshund-cover.jpg
 layout: post
 ---
@@ -70,7 +70,7 @@ Other concerns worth knowing:
 - Patellar luxation and certain eye conditions in some lines.
 - Bloat is less common than in deep-chested giants but still possible.
 
-This section is educational and does not replace veterinary care. If your Dachshund suddenly yelps, refuses to jump or walk, shows a hunched back, drags its rear legs, or loses bladder control, treat it as an emergency and get to a vet immediately; fast treatment greatly improves the outcome for a herniated disc.
+Back symptoms deserve fast action. If your Dachshund suddenly yelps, refuses to jump or walk, shows a hunched back, drags its rear legs, or loses bladder control, treat it as an emergency and get to a vet immediately; fast treatment greatly improves the outcome for a herniated disc.
 
 ## Feeding and Weight Control
 

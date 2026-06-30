@@ -1,6 +1,6 @@
 ---
 title: "Scottish Terrier Guide: The Feisty, Dignified Little Scotsman"
-description: "The Scottish Terrier is a bold, independent terrier with a wiry coat, strong prey drive, and a stubborn streak. Grooming, exercise, health, and home fit explained."
+description: "The Scottish Terrier is a bold, independent terrier with a wiry coat, strong prey drive, stubborn streak, and health concerns that need steady management."
 cover: /assets/images/scottie-cover.jpg
 layout: post
 ---

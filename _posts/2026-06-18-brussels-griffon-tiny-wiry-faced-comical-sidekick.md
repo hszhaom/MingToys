@@ -95,7 +95,7 @@ Effective training approaches for the breed:
 - Socialize early to temper wariness of strangers and bigger dogs.
 - Channel their cleverness into tricks and games to prevent bored mischief.
 
-Their deep attachment makes separation anxiety a genuine risk, so building gradual, calm alone time from the start is one of the most valuable things you can teach a Griffon.
+Their deep attachment makes separation anxiety a genuine risk, so building gradual, calm alone time from the start should be part of training from day one.
 
 ## Pros and Cons of Brussels Griffons
 
