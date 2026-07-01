@@ -21,19 +21,42 @@ sitemap: false
   </url>
 
   <!-- Topic and utility pages -->
-  {% assign topic_pages = site.pages | where_exp: "item", "item.url != '/' and item.url != '/archive/'" %}
-  {% for topic_page in topic_pages %}
-  {% unless topic_page.sitemap == false %}
-  {% if topic_page.title and topic_page.url %}
   <url>
-    <loc>{{ site.url }}{{ topic_page.url }}</loc>
+    <loc>{{ site.url }}/small-dog-breeds/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  {% endif %}
-  {% endunless %}
-  {% endfor %}
+  <url>
+    <loc>{{ site.url }}/best-family-dogs/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/apartment-dog-breeds/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/low-shedding-dog-breeds/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/high-energy-working-dogs/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/large-dog-breeds/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Posts -->
   {% for post in site.posts %}
