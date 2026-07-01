@@ -4,30 +4,33 @@ title: "Dog Breed Guides for Real-Life Owners"
 description: "PetStorie publishes practical dog breed guides covering temperament, grooming, exercise, health concerns, training, and owner fit."
 ---
 
-<header>
-  <div class="header-container">
-    <a class="site-logo" href="{{ site.url }}/">
-      <img src="{{ site.url }}/assets/images/logo.png" alt="PetStorie Logo" class="logo-img">
-      <span class="site-title">{{ site.title }}</span>
-    </a>
-    <div class="nav">
-      <a href="{{ site.url }}/">Home</a>
-      <a href="{{ site.url }}/archive/">Archive</a>
-    </div>
-  </div>
-</header>
+{% include header.html %}
 
-<main class="container">
-  <section class="home-intro" aria-labelledby="home-title">
-    <p class="eyebrow">Practical dog breed guides</p>
-    <h1 id="home-title">Dog Breed Guides for Real-Life Owners</h1>
-    <p>
-      PetStorie helps future dog owners compare breeds by temperament, exercise needs,
-      grooming, health concerns, training style, and daily fit. The goal is simple:
-      choose a dog whose needs match the home you can actually provide.
-    </p>
+<main>
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Practical dog breed guides</p>
+        <h1 id="home-title">Find the Dog Breed That Fits Your Real Life</h1>
+        <p>
+          Compare temperament, grooming, exercise, health risks, training style, and day-to-day owner fit before you fall for a cute face.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-link" href="{{ site.url }}/best-family-dogs/">Compare family dogs</a>
+          <a class="secondary-link" href="{{ site.url }}/archive/">Browse all guides</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Popular starting points">
+        <span class="panel-label">Start here</span>
+        <a href="{{ site.url }}/small-dog-breeds/">Small dogs with big personalities</a>
+        <a href="{{ site.url }}/apartment-dog-breeds/">Apartment-friendly breeds</a>
+        <a href="{{ site.url }}/high-energy-working-dogs/">Smart working breeds</a>
+        <a href="{{ site.url }}/large-dog-breeds/">Large and giant breeds</a>
+      </div>
+    </div>
   </section>
 
+  <div class="container">
   <section class="topic-section" aria-labelledby="topic-title">
     <div class="section-heading">
       <h2 id="topic-title">Browse by Owner Need</h2>
@@ -88,6 +91,7 @@ description: "PetStorie publishes practical dog breed guides covering temperamen
 
   <div class="pagination">
     <a href="{{ site.url }}/archive/">View all dog breed guides</a>
+  </div>
   </div>
 </main>
 

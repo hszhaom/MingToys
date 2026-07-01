@@ -1,18 +1,7 @@
 ---
 layout: default
 ---
-<header>
-  <div class="header-container">
-    <a class="site-logo" href="{{ site.url }}/">
-      <img src="{{ site.url }}/assets/images/logo.png" alt="PetStorie Logo" class="logo-img">
-      <span class="site-title">{{ site.title }}</span>
-    </a>
-    <div class="nav">
-      <a href="{{ site.url }}/">Home</a>
-      <a href="{{ site.url }}/archive/">Archive</a>
-    </div>
-  </div>
-</header>
+{% include header.html %}
 
 <div class="container">
   <div class="post-page">
@@ -20,7 +9,7 @@ layout: default
     <div class="post-meta">
       Publish on: {{ page.date | date: "%B %d, %Y" }}
       <span data-gc-count="{{ page.url }}" style="margin-left: 1rem;">
-        Page Views: <span class="gc-pv">…</span>
+        Page Views: <span class="gc-pv">�?/span>
       </span>
     </div>
     <div class="post-content">
@@ -32,11 +21,11 @@ layout: default
 <footer>
   &copy; {{ site.time | date: '%Y' }} {{ site.title }} | All rights reserved
   <span data-gc-count="TOTAL" style="margin-left: 1rem;">
-    Visitors: <span class="gc-uv">…</span> · Total Views: <span class="gc-pv">…</span>
+    Visitors: <span class="gc-uv">�?/span> · Total Views: <span class="gc-pv">�?/span>
   </span>
 </footer>
 
-<!-- Google 结构化数据 Article -->
+<!-- Google 结构化数�?Article -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
