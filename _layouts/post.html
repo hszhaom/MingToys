@@ -9,7 +9,7 @@ layout: default
     <div class="post-meta">
       Publish on: {{ page.date | date: "%B %d, %Y" }}
       <span data-gc-count="{{ page.url }}" style="margin-left: 1rem;">
-        Page Views: <span class="gc-pv">â€?/span>
+        Page Views: <span class="gc-pv">-</span>
       </span>
     </div>
     <div class="post-content">
@@ -21,11 +21,11 @@ layout: default
 <footer>
   &copy; {{ site.time | date: '%Y' }} {{ site.title }} | All rights reserved
   <span data-gc-count="TOTAL" style="margin-left: 1rem;">
-    Visitors: <span class="gc-uv">â€?/span> Â· Total Views: <span class="gc-pv">â€?/span>
+    Visitors: <span class="gc-uv">-</span> | Total Views: <span class="gc-pv">-</span>
   </span>
 </footer>
 
-<!-- Google ç»“æž„åŒ–æ•°æ?Article -->
+<!-- Google structured data: Article -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
