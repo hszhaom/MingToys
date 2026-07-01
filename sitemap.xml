@@ -20,6 +20,21 @@ sitemap: false
     <priority>0.7</priority>
   </url>
 
+  <!-- Topic and utility pages -->
+  {% assign topic_pages = site.pages | where_exp: "item", "item.url != '/' and item.url != '/archive/'" %}
+  {% for topic_page in topic_pages %}
+  {% unless topic_page.sitemap == false %}
+  {% if topic_page.title and topic_page.url %}
+  <url>
+    <loc>{{ site.url }}{{ topic_page.url }}</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endif %}
+  {% endunless %}
+  {% endfor %}
+
   <!-- Posts -->
   {% for post in site.posts %}
   {% unless post.sitemap == false %}

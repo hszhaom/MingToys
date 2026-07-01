@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Dog Breed Guides for Real-Life Owners"
+description: "PetStorie publishes practical dog breed guides covering temperament, grooming, exercise, health concerns, training, and owner fit."
 ---
 
 <header>
@@ -15,35 +17,112 @@ layout: default
   </div>
 </header>
 
-<div class="container">
-  <div class="card-grid">
-    {% for post in site.posts limit:9 %}
-    <div class="post-card">
-      {% if post.cover %}
-      <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
-      {% endif %}
-      <div class="card-content">
-        <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>
-        <h3 class="card-title">
-          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-        </h3>
-        <div class="card-excerpt">
-          {{ post.excerpt | strip_html | truncate: 100 }}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
+<main class="container">
+  <section class="home-intro" aria-labelledby="home-title">
+    <p class="eyebrow">Practical dog breed guides</p>
+    <h1 id="home-title">Dog Breed Guides for Real-Life Owners</h1>
+    <p>
+      PetStorie helps future dog owners compare breeds by temperament, exercise needs,
+      grooming, health concerns, training style, and daily fit. The goal is simple:
+      choose a dog whose needs match the home you can actually provide.
+    </p>
+  </section>
 
-  <!-- 分页 -->
+  <section class="topic-section" aria-labelledby="topic-title">
+    <div class="section-heading">
+      <h2 id="topic-title">Browse by Owner Need</h2>
+      <p>Start with the situation you are trying to solve, then compare the individual breed guides.</p>
+    </div>
+    <div class="topic-grid">
+      <a class="topic-card" href="{{ site.url }}/small-dog-breeds/">
+        <span>Small Dog Breeds</span>
+        <p>Toy and small companions with big personalities, grooming needs, and fragility risks.</p>
+      </a>
+      <a class="topic-card" href="{{ site.url }}/best-family-dogs/">
+        <span>Best Family Dogs</span>
+        <p>Friendly breeds for active homes, children, and owners who want a steady companion.</p>
+      </a>
+      <a class="topic-card" href="{{ site.url }}/apartment-dog-breeds/">
+        <span>Apartment Dog Breeds</span>
+        <p>Dogs that can suit smaller spaces when their exercise, barking, and heat limits are managed.</p>
+      </a>
+      <a class="topic-card" href="{{ site.url }}/low-shedding-dog-breeds/">
+        <span>Low-Shedding Dog Breeds</span>
+        <p>Lower-shedding choices, plus the grooming trade-offs that often come with them.</p>
+      </a>
+      <a class="topic-card" href="{{ site.url }}/high-energy-working-dogs/">
+        <span>High-Energy Working Dogs</span>
+        <p>Smart, athletic breeds that need serious exercise, training, and mental work.</p>
+      </a>
+      <a class="topic-card" href="{{ site.url }}/large-dog-breeds/">
+        <span>Large Dog Breeds</span>
+        <p>Giant and powerful breeds with big costs, space needs, and health considerations.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="latest-section" aria-labelledby="latest-title">
+    <div class="section-heading">
+      <h2 id="latest-title">Latest Dog Breed Guides</h2>
+      <p>Recent breed profiles with practical notes on temperament, care, health, and owner fit.</p>
+    </div>
+    <div class="card-grid">
+      {% for post in site.posts limit:9 %}
+      <article class="post-card">
+        {% if post.cover %}
+        <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
+        {% endif %}
+        <div class="card-content">
+          <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>
+          <h3 class="card-title">
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <div class="card-excerpt">
+            {{ post.description | default: post.excerpt | strip_html | truncate: 150 }}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
   <div class="pagination">
     <a href="{{ site.url }}/archive/">View all dog breed guides</a>
   </div>
-</div>
+</main>
 
 <footer>
   &copy; {{ site.time | date: '%Y' }} {{ site.title }} | All rights reserved
   <span data-gc-count="TOTAL" style="margin-left: 1rem;">
-    Visitors: <span class="gc-uv">…</span> · Total Views: <span class="gc-pv">…</span>
+    Visitors: <span class="gc-uv">-</span> | Total Views: <span class="gc-pv">-</span>
   </span>
 </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": {{ site.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "publisher": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ site.url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/assets/images/logo.png"
+      }
+    }
+  ]
+}
+</script>

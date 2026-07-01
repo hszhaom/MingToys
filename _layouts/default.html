@@ -4,18 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 页面标题 SEO -->
+  <!-- Page title -->
   <title>{% if page.title %}{{ page.title | escape }} | PetStorie{% else %}PetStorie - Dog Breed Guides and Pet Care Tips{% endif %}</title>
 
-  <!-- 描述、关键词 SEO -->
+  <!-- Page description -->
   <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
-  <meta name="keywords" content="dog breed, pet stories, pet care, cute dogs, puppy guide, rescue pets">
 
-  <!-- 爬虫规则 + 规范链接（防重复内容） -->
+  <!-- Crawling and canonical URL -->
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
 
-  <!-- Open Graph (Facebook / LinkedIn / 微信等) -->
+  <!-- Open Graph -->
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
@@ -32,7 +31,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/logo.png">
 
-  <!-- 样式文件 -->
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
 </head>
 <body>
@@ -40,7 +39,7 @@
   <script data-goatcounter="https://hszhaom.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-  <!-- GoatCounter 可见访客计数（异步拉取，失败静默，不影响速度/收录） -->
+  <!-- GoatCounter visible visitor counts. Fail silently so it does not affect rendering. -->
   <script>
   (function () {
     var base = 'https://hszhaom.goatcounter.com/counter/';
