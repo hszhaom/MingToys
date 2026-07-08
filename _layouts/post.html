@@ -2,12 +2,16 @@
 layout: default
 ---
 {% include header.html %}
+{% assign modified_date = page.updated | default: page.date %}
 
 <div class="container">
   <div class="post-page">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
       Publish on: {{ page.date | date: "%B %d, %Y" }}
+      {% if page.updated %}
+      <span style="margin-left: 1rem;">Updated on: {{ modified_date | date: "%B %d, %Y" }}</span>
+      {% endif %}
       <span data-gc-count="{{ page.url }}" style="margin-left: 1rem;">
         Page Views: <span class="gc-pv">-</span>
       </span>
@@ -26,7 +30,7 @@ layout: default
   "headline": {{ page.title | jsonify }},
   "image": {{ site.url | append: page.cover | jsonify }},
   "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-  "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
+  "dateModified": "{{ modified_date | date: '%Y-%m-%d' }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"

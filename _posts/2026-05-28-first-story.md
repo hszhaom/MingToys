@@ -1,11 +1,12 @@
 ---
-title: "Pembroke vs Cardigan Welsh Corgi: Key Differences and Which to Choose"
+title: "Pembroke vs Cardigan Welsh Corgi Comparison: Key Differences and Which to Choose"
 description: "Pembroke vs Cardigan Welsh Corgi compared: tail, ears, size, colors, temperament, and shedding, so you can tell the two corgi breeds apart and pick the right one."
 cover: /assets/images/corgi-cover.jpg
 layout: post
+updated: "2026-07-08"
 ---
 
-Most people say "Corgi" as if it were one dog, but it is actually two separate breeds: the Pembroke Welsh Corgi and the Cardigan Welsh Corgi. They share the long body, short legs, and big-dog attitude, yet they differ in tail, ears, size, color, and even temperament. If you are trying to tell them apart, or deciding which one to bring home, this side-by-side comparison covers what actually sets them apart.
+Most people say "Corgi" as if it were one dog, but it is actually two separate breeds: the Pembroke Welsh Corgi and the Cardigan Welsh Corgi. If you want the shortest answer, look at the tail first. Cardigans have a long fox-like tail, while Pembrokes have little to no tail. From there, the two breeds also differ in ears, size, color range, temperament, and day-to-day owner fit.
 
 The quickest way to remember the difference is the tail: a Cardigan has a long, fox-like tail, while a Pembroke has almost none. From there the two breeds diverge in subtle but meaningful ways that change how they look and how they live with you.
 
@@ -15,18 +16,18 @@ The quickest way to remember the difference is the tail: a Cardigan has a long, 
 
 | Trait | Pembroke Welsh Corgi | Cardigan Welsh Corgi |
 |---|---|---|
-| Tail | Naturally bobbed or docked — very short | Long, full, fox-like brush |
+| Tail | Naturally bobbed or docked - very short | Long, full, fox-like brush |
 | Ears | Smaller, pointed, erect | Larger, more rounded, erect |
-| Size | About 24–30 lb, lighter build | About 25–38 lb, longer and heavier |
+| Size | About 24-30 lb, lighter build | About 25-38 lb, longer and heavier |
 | Body shape | Shorter back, straighter legs | Longer body, more curved front legs |
 | Coat colors | Red, sable, fawn, black & tan, with white | Wider range incl. brindle, blue merle, plus red and sable |
 | Temperament | Outgoing, friendly, bold | Devoted but more reserved with strangers |
 | Popularity | Very popular (the "royal" Corgi) | Rarer, older breed |
-| Lifespan | Around 12–13 years | Around 12–15 years |
+| Lifespan | Around 12-13 years | Around 12-15 years |
 
 ## Two Breeds, One Nickname
 
-Both Corgis come from Wales and were bred to herd cattle by nipping at their heels and ducking the kicks, but they have separate histories. The Cardigan is the older of the two, with roots in the Welsh county of Cardiganshire going back many centuries. The Pembroke developed later in Pembrokeshire and became the more fashionable dog, especially after the British royal family adopted it — Queen Elizabeth II kept Pembrokes throughout her life, cementing its image worldwide.
+Both Corgis come from Wales and were bred to herd cattle by nipping at their heels and ducking the kicks, but they have separate histories. The Cardigan is the older of the two, with roots in the Welsh county of Cardiganshire going back many centuries. The Pembroke developed later in Pembrokeshire and became the more fashionable dog, especially after the British royal family adopted it. Queen Elizabeth II kept Pembrokes throughout her life, cementing its image worldwide.
 
 For years the two were shown and bred together as a single type. It was only in 1934 that the UK Kennel Club officially recognized them as two distinct breeds. Despite the split, they were never really the same dog, and the differences are easy to spot once you know what to look for.
 
@@ -42,7 +43,7 @@ The **ears** are the second giveaway. Both stand erect, but the Cardigan's are n
 
 ## Temperament Differences
 
-In personality the two overlap heavily — both are clever, alert, vocal herding dogs with serious working drive — but there is a real difference in social style. The **Pembroke** tends to be the extrovert: outgoing, eager to greet, and quick to make friends, which is part of why it became the more popular pet. The **Cardigan** is usually a little more reserved and watchful, taking its time to warm up to strangers while being just as devoted to its own family.
+In personality the two overlap heavily - both are clever, alert, vocal herding dogs with serious working drive - but there is a real difference in social style. The **Pembroke** tends to be the extrovert: outgoing, eager to greet, and quick to make friends, which is part of why it became the more popular pet. The **Cardigan** is usually a little more reserved and watchful, taking its time to warm up to strangers while being just as devoted to its own family.
 
 That makes the Cardigan an excellent, slightly more discerning watchdog, and the Pembroke a more openly social companion. Neither is shy or aggressive when properly socialized; the difference is more like outgoing versus thoughtful. Both will herd children and pets, both will alarm-bark, and both want to be involved in everything you do.
 
@@ -51,12 +52,12 @@ That makes the Cardigan an excellent, slightly more discerning watchdog, and the
 Whichever Corgi you choose, the day-to-day care is broadly the same, because the traits that define the type apply to both:
 
 - **Heavy shedding** from a weatherproof double coat, with two big seasonal "coat blows" a year.
-- **A vocal, alert nature** — they bark to herd and to announce visitors.
+- **A vocal, alert nature** - they bark to herd and to announce visitors.
 - **Real exercise needs** of roughly an hour a day, plus mental work; these are not low-energy lap dogs.
 - **Back (IVDD) risk** from the long spine and short legs, so keeping them lean and limiting hard jumping matters for both.
 - **A strong herding instinct** that shows up as heel-nipping and household "management."
 
-For a full breakdown of exercise, grooming, feeding, training, and health — most of which applies to both breeds — see the in-depth [Pembroke Welsh Corgi guide]({{ site.url }}/posts/2026/06/01/pembroke-welsh-corgi-short-legged-royal-comedians/).
+For a full breakdown of exercise, grooming, feeding, training, and health that applies especially well to the more common pet corgi, see the in-depth [Pembroke Welsh Corgi guide]({{ site.url }}/posts/2026/06/01/pembroke-welsh-corgi-short-legged-royal-comedians/).
 
 ## Which Corgi Is Right for You?
 
@@ -66,7 +67,7 @@ Choose a **Cardigan** if you are drawn to the long tail, the broader color range
 
 Honestly, for most homes either Corgi will be a wonderful, hilarious, high-personality companion, and lifestyle fit matters far more than the breed label. Both demand the same commitment: daily exercise, constant fur, bark management, and lifelong attention to weight and back health.
 
-If you are still weighing your options, compare the Corgi's herding drive against the vocal, primitive [Finnish Spitz]({{ site.url }}/posts/2026/06/26/finnish-spitz-flame-red-singing-fox-happy-spitz/) or the pocket-sized, lap-loving [Chihuahua]({{ site.url }}/posts/2026/05/29/fun-facts-about-chihuahuas/) — both look nothing like a Corgi in temperament once you live with them.
+If you are still weighing your options, compare the Corgi's herding drive against the vocal, primitive [Finnish Spitz]({{ site.url }}/posts/2026/06/26/finnish-spitz-flame-red-singing-fox-happy-spitz/) or the pocket-sized, lap-loving [Chihuahua guide]({{ site.url }}/posts/2026/05/29/fun-facts-about-chihuahuas/). Both lead to very different daily life than a corgi.
 
 ## Pembroke vs Cardigan FAQ
 
