@@ -1,0 +1,246 @@
+---
+layout: default
+title: "Dog Breed Finder: Match Breeds to Your Real Life"
+description: "Use the PetStorie dog breed finder to compare dog breeds by apartment fit, family life, exercise needs, shedding, grooming, and owner experience."
+permalink: /dog-breed-finder/
+---
+
+{% include header.html %}
+
+<main class="container">
+  <article class="topic-page finder-tool">
+    <p class="eyebrow">Breed decision tool</p>
+    <h1>Dog Breed Finder</h1>
+    <p>
+      Start with the home, schedule, and tolerance you actually have. This finder favors practical owner fit over looks, trends, or
+      popularity.
+    </p>
+
+    <form class="breed-finder-form" id="breed-finder-form">
+      <div class="filter-grid">
+        <label class="finder-control">
+          <span>Home type</span>
+          <select id="home-type">
+            <option value="apartment">Apartment or small home</option>
+            <option value="house">House with some outdoor space</option>
+            <option value="rural">Rural property or large fenced land</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Dog experience</span>
+          <select id="experience">
+            <option value="first">First-time owner</option>
+            <option value="some">Some dog experience</option>
+            <option value="experienced">Experienced with strong breeds</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Children at home</span>
+          <select id="kids">
+            <option value="yes">Yes, family fit matters</option>
+            <option value="no">No children at home</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Daily exercise time</span>
+          <select id="exercise">
+            <option value="low">About 30 minutes</option>
+            <option value="medium">Around 1 hour</option>
+            <option value="high">2 hours or more</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Shedding tolerance</span>
+          <select id="shedding">
+            <option value="low">Low shedding preferred</option>
+            <option value="medium">Some shedding is fine</option>
+            <option value="high">Heavy shedding is okay</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Grooming tolerance</span>
+          <select id="grooming">
+            <option value="low">Low grooming only</option>
+            <option value="medium">Moderate grooming is fine</option>
+            <option value="high">High grooming is okay</option>
+          </select>
+        </label>
+      </div>
+    </form>
+
+    <section class="finder-results" aria-live="polite">
+      <h2>Best Matches</h2>
+      <div id="breed-results" class="result-grid"></div>
+    </section>
+
+    <h2>How to Read the Results</h2>
+    <p>
+      The score is a practical starting point, not a guarantee. A good breeder, rescue match, training plan, health history, and
+      individual dog temperament still matter. Use the result cards to open full breed guides before making a decision.
+    </p>
+  </article>
+</main>
+
+<script>
+(function () {
+  var breeds = [
+    {
+      name: "French Bulldog",
+      url: "{{ site.url }}/posts/2026/06/01/french-bulldog-squishy-faced-couch-potato-comedians/",
+      summary: "Compact, affectionate, apartment-friendly, but medically high-risk and heat-sensitive.",
+      home: "apartment",
+      experience: "some",
+      kids: "yes",
+      exercise: "low",
+      shedding: "medium",
+      grooming: "medium",
+      caution: "Avoid hot climates, long walks, and tight medical budgets."
+    },
+    {
+      name: "Golden Retriever",
+      url: "{{ site.url }}/posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/",
+      summary: "Friendly, trainable, family-centered sporting dog with heavy shedding and real exercise needs.",
+      home: "house",
+      experience: "first",
+      kids: "yes",
+      exercise: "high",
+      shedding: "high",
+      grooming: "medium",
+      caution: "Needs daily activity, brushing, and health screening awareness."
+    },
+    {
+      name: "Labrador Retriever",
+      url: "{{ site.url }}/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/",
+      summary: "Outgoing family favorite with high energy, heavy shedding, food drive, and obesity risk.",
+      home: "house",
+      experience: "first",
+      kids: "yes",
+      exercise: "high",
+      shedding: "high",
+      grooming: "medium",
+      caution: "Not low-effort during adolescence; portion control matters."
+    },
+    {
+      name: "Chihuahua",
+      url: "{{ site.url }}/posts/2026/05/29/fun-facts-about-chihuahuas/",
+      summary: "Tiny, loyal apartment companion with low exercise needs, fragility, and dental-care demands.",
+      home: "apartment",
+      experience: "first",
+      kids: "no",
+      exercise: "low",
+      shedding: "low",
+      grooming: "low",
+      caution: "Best with gentle handling and consistent socialization."
+    },
+    {
+      name: "Pembroke Welsh Corgi",
+      url: "{{ site.url }}/posts/2026/06/01/pembroke-welsh-corgi-short-legged-royal-comedians/",
+      summary: "Clever small herder with barking, shedding, exercise needs, and back-care concerns.",
+      home: "house",
+      experience: "some",
+      kids: "yes",
+      exercise: "medium",
+      shedding: "high",
+      grooming: "medium",
+      caution: "Needs weight control, bark management, and mental work."
+    },
+    {
+      name: "Cane Corso",
+      url: "{{ site.url }}/posts/2026/07/05/cane-corso-powerful-italian-guardian-breed-guide/",
+      summary: "Powerful Italian guardian for structured, experienced homes, not casual first-time ownership.",
+      home: "house",
+      experience: "experienced",
+      kids: "yes",
+      exercise: "medium",
+      shedding: "medium",
+      grooming: "low",
+      caution: "Requires socialization, training, and confident management."
+    },
+    {
+      name: "Kangal Dog",
+      url: "{{ site.url }}/posts/2026/07/08/kangal-dog-turkish-livestock-guardian-breed-guide/",
+      summary: "Serious Turkish livestock guardian for rural property and experienced owners.",
+      home: "rural",
+      experience: "experienced",
+      kids: "no",
+      exercise: "medium",
+      shedding: "medium",
+      grooming: "medium",
+      caution: "Not for apartments, dog parks, weak fencing, or casual ownership."
+    },
+    {
+      name: "Central Asian Shepherd Dog",
+      url: "{{ site.url }}/posts/2026/07/01/central-asian-shepherd-dog-independent-guardian-guide/",
+      summary: "Independent giant guardian with strong territory instincts and serious handling demands.",
+      home: "rural",
+      experience: "experienced",
+      kids: "no",
+      exercise: "medium",
+      shedding: "medium",
+      grooming: "medium",
+      caution: "Needs secure property, calm handling, and strict visitor management."
+    }
+  ];
+
+  var ranking = {
+    home: ["apartment", "house", "rural"],
+    experience: ["first", "some", "experienced"],
+    exercise: ["low", "medium", "high"],
+    shedding: ["low", "medium", "high"],
+    grooming: ["low", "medium", "high"]
+  };
+
+  function valueDistance(type, wanted, actual) {
+    var list = ranking[type];
+    return Math.abs(list.indexOf(wanted) - list.indexOf(actual));
+  }
+
+  function scoreBreed(breed, filters) {
+    var score = 100;
+    score -= valueDistance("home", filters.home, breed.home) * 22;
+    score -= valueDistance("experience", filters.experience, breed.experience) * 18;
+    score -= valueDistance("exercise", filters.exercise, breed.exercise) * 15;
+    score -= valueDistance("shedding", filters.shedding, breed.shedding) * 10;
+    score -= valueDistance("grooming", filters.grooming, breed.grooming) * 8;
+    if (filters.kids !== breed.kids) score -= 12;
+    return Math.max(18, Math.min(100, score));
+  }
+
+  function getFilters() {
+    return {
+      home: document.getElementById("home-type").value,
+      experience: document.getElementById("experience").value,
+      kids: document.getElementById("kids").value,
+      exercise: document.getElementById("exercise").value,
+      shedding: document.getElementById("shedding").value,
+      grooming: document.getElementById("grooming").value
+    };
+  }
+
+  function render() {
+    var filters = getFilters();
+    var results = breeds.map(function (breed) {
+      return Object.assign({}, breed, { score: scoreBreed(breed, filters) });
+    }).sort(function (a, b) {
+      return b.score - a.score;
+    }).slice(0, 5);
+
+    document.getElementById("breed-results").innerHTML = results.map(function (breed) {
+      return [
+        '<article class="breed-result">',
+        '<div class="result-head"><h3>' + breed.name + '</h3><span>' + breed.score + '/100</span></div>',
+        '<div class="score-bar"><span style="width:' + breed.score + '%"></span></div>',
+        '<p>' + breed.summary + '</p>',
+        '<p class="result-caution">' + breed.caution + '</p>',
+        '<a href="' + breed.url + '">Read the full guide</a>',
+        '</article>'
+      ].join("");
+    }).join("");
+  }
+
+  document.querySelectorAll("#breed-finder-form select").forEach(function (select) {
+    select.addEventListener("change", render);
+  });
+  render();
+})();
+</script>

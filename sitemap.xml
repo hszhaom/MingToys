@@ -28,6 +28,18 @@ sitemap: false
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>{{ site.url }}/dog-breed-finder/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/guardian-dog-breeds-compared/</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>{{ site.url }}/best-family-dogs/</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>weekly</changefreq>
@@ -94,7 +106,7 @@ sitemap: false
   {% unless post.canonical_url %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
+    <lastmod>{{ post.updated | default: post.date | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

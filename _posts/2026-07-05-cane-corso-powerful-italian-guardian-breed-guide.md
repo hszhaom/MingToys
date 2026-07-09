@@ -3,6 +3,7 @@ title: "Cane Corso Breed Guide: Temperament, Training, Care and Owner Fit"
 description: "The Cane Corso is a powerful Italian guardian with deep loyalty, serious training needs, short-coat care, and major health risks to understand."
 cover: /assets/images/canecorso-cover.jpg
 layout: post
+updated: "2026-07-09"
 ---
 
 The Cane Corso is an Italian mastiff built for power, nerve, and close partnership with its people. Its ancestors worked as farm guardians, catch dogs, and all-purpose protectors, and that history still shows in the modern breed: confident, muscular, watchful, and deeply bonded to the home it considers its own.
@@ -25,6 +26,17 @@ This is not just a big dog with a dramatic face. A good Cane Corso needs a stead
 | Common concerns | hip and elbow dysplasia, eyelid issues, bloat, heart concerns, obesity |
 | Best for | experienced owners wanting a serious companion guardian |
 | Not ideal for | passive owners, chaotic homes, or people who skip training |
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with excellent routine, training, and responsible handling. |
+| First-Time Owner Fit | 1/5 | Usually too powerful and protective for a beginner home. |
+| Family Fit | 3/5 | Can work in structured homes with respectful children and supervision. |
+| Exercise Demand | 4/5 | Needs steady walks, training, and controlled physical work. |
+| Grooming Difficulty | 1/5 | Short coat is easy, though drool, ears, nails, and teeth still matter. |
+| Training Difficulty | 4/5 | Smart and bonded, but guardian instincts require consistency. |
 
 ## Cane Corso Temperament
 

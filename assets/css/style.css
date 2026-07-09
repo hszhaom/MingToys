@@ -269,6 +269,143 @@ body {
   font-size: 0.96rem;
 }
 
+.finder-section {
+  margin-top: 3rem;
+}
+
+.decision-grid,
+.comparison-grid,
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.decision-card,
+.comparison-card,
+.breed-result {
+  display: block;
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(31, 41, 51, 0.05);
+}
+
+.decision-card:hover {
+  border-color: rgba(217, 54, 74, 0.5);
+  transform: translateY(-2px);
+}
+
+.decision-card-featured {
+  background: #fff7f2;
+  border-color: rgba(217, 54, 74, 0.28);
+}
+
+.decision-card span,
+.comparison-card h3,
+.breed-result h3 {
+  color: var(--ink);
+  font-size: 1.06rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.decision-card p,
+.comparison-card p,
+.breed-result p {
+  color: var(--muted);
+  font-size: 0.96rem;
+  margin-top: 0.5rem;
+}
+
+.breed-finder-form {
+  margin: 1.6rem 0 2rem;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.finder-control {
+  display: grid;
+  gap: 0.45rem;
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.finder-control select {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  padding: 0.65rem 0.75rem;
+  font: inherit;
+}
+
+.finder-results {
+  margin-top: 1.5rem;
+}
+
+.result-grid {
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+}
+
+.result-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.result-head span {
+  flex: 0 0 auto;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.score-bar {
+  height: 8px;
+  margin-top: 0.75rem;
+  border-radius: 999px;
+  background: #edf0ed;
+  overflow: hidden;
+}
+
+.score-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--brand);
+}
+
+.result-caution {
+  color: #7b3d22 !important;
+}
+
+.breed-result a {
+  display: inline-flex;
+  margin-top: 0.8rem;
+  color: var(--brand-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.breed-result a:hover {
+  text-decoration: underline;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -548,7 +685,9 @@ footer {
   }
 
   .topic-grid,
-  .card-grid {
+  .card-grid,
+  .decision-grid,
+  .comparison-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -582,7 +721,10 @@ footer {
   }
 
   .topic-grid,
-  .card-grid {
+  .card-grid,
+  .decision-grid,
+  .comparison-grid,
+  .filter-grid {
     grid-template-columns: 1fr;
   }
 
