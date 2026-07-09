@@ -1,0 +1,140 @@
+---
+layout: default
+title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
+description: "Estimate dog ownership costs by breed size, grooming needs, insurance choice, food quality, training, and routine care before choosing a dog."
+permalink: /dog-cost-calculator/
+faq_schema:
+  - question: "How accurate is this dog cost calculator?"
+    answer: "It is a planning estimate, not a quote. Real costs vary by location, veterinarian, breed, age, health, insurance, food, grooming, training, and emergencies."
+  - question: "Why do first-year dog costs feel higher?"
+    answer: "The first year often includes adoption or purchase fees, supplies, vaccinations, spay or neuter planning, training, and setup costs."
+  - question: "Should I budget for emergency vet care?"
+    answer: "Yes. Even healthy dogs can have accidents or sudden illness. Owners should plan savings or insurance and discuss health risks with a veterinarian."
+---
+
+{% include header.html %}
+
+<main class="container">
+  <article class="topic-page tool-page">
+    <p class="eyebrow">Budget planning tool</p>
+    <h1>Dog Cost Calculator</h1>
+    <p>
+      A dog can be affordable in daily life and still become expensive through grooming, food, training, insurance, or health
+      surprises. Use this calculator as a conservative planning tool before choosing a breed.
+    </p>
+
+    <form class="calculator-form" id="dog-cost-form">
+      <div class="filter-grid">
+        <label class="finder-control">
+          <span>Dog size</span>
+          <select id="cost-size">
+            <option value="small">Small dog</option>
+            <option value="medium">Medium dog</option>
+            <option value="large">Large dog</option>
+            <option value="giant">Giant dog</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Grooming level</span>
+          <select id="cost-grooming">
+            <option value="low">Low grooming</option>
+            <option value="medium">Moderate grooming</option>
+            <option value="high">Professional grooming often</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Food plan</span>
+          <select id="cost-food">
+            <option value="basic">Standard quality food</option>
+            <option value="premium">Premium food</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Insurance / emergency plan</span>
+          <select id="cost-insurance">
+            <option value="savings">Emergency savings only</option>
+            <option value="insurance">Pet insurance estimate</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Training support</span>
+          <select id="cost-training">
+            <option value="basic">Basic puppy or manners class</option>
+            <option value="extra">Extra training support</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Setup level</span>
+          <select id="cost-setup">
+            <option value="lean">Lean setup</option>
+            <option value="full">Full setup</option>
+          </select>
+        </label>
+      </div>
+    </form>
+
+    <section class="calculator-result" aria-live="polite">
+      <h2>Estimated Budget</h2>
+      <div class="cost-output">
+        <div>
+          <span>First-year estimate</span>
+          <strong id="first-year-cost">$0</strong>
+        </div>
+        <div>
+          <span>Monthly ongoing estimate</span>
+          <strong id="monthly-cost">$0</strong>
+        </div>
+      </div>
+      <p id="cost-note"></p>
+    </section>
+
+    <h2>Costs Owners Often Forget</h2>
+    <ul class="guide-list">
+      <li>Emergency vet visits, diagnostics, medication, and follow-up appointments.</li>
+      <li>Grooming tools or professional grooming for coats that mat easily.</li>
+      <li>Training support for adolescence, reactivity, fear, or household manners.</li>
+      <li>Boarding, pet sitting, dog walkers, travel gear, and replacement supplies.</li>
+    </ul>
+
+    <p>
+      Compare cost-sensitive breeds in the <a href="{{ site.url }}/dog-breeds/">dog breed data center</a>, then read full health
+      and grooming sections before committing.
+    </p>
+  </article>
+</main>
+
+<script>
+(function () {
+  var sizeMonthly = { small: 95, medium: 135, large: 185, giant: 255 };
+  var sizeSetup = { small: 420, medium: 520, large: 680, giant: 840 };
+  var groomingMonthly = { low: 15, medium: 55, high: 105 };
+  var foodMonthly = { basic: 0, premium: 55 };
+  var insuranceMonthly = { savings: 45, insurance: 85 };
+  var trainingFirstYear = { basic: 180, extra: 520 };
+  var setupExtra = { lean: 0, full: 260 };
+
+  function money(value) {
+    return "$" + Math.round(value).toLocaleString("en-US");
+  }
+
+  function calculate() {
+    var size = document.getElementById("cost-size").value;
+    var grooming = document.getElementById("cost-grooming").value;
+    var food = document.getElementById("cost-food").value;
+    var insurance = document.getElementById("cost-insurance").value;
+    var training = document.getElementById("cost-training").value;
+    var setup = document.getElementById("cost-setup").value;
+
+    var monthly = sizeMonthly[size] + groomingMonthly[grooming] + foodMonthly[food] + insuranceMonthly[insurance];
+    var firstYear = monthly * 12 + sizeSetup[size] + trainingFirstYear[training] + setupExtra[setup];
+    document.getElementById("monthly-cost").textContent = money(monthly);
+    document.getElementById("first-year-cost").textContent = money(firstYear);
+    document.getElementById("cost-note").textContent = "Use this as a planning range. Prices vary by city, clinic, breed, age, health, and owner choices.";
+  }
+
+  document.querySelectorAll("#dog-cost-form select").forEach(function (select) {
+    select.addEventListener("change", calculate);
+  });
+  calculate();
+})();
+</script>

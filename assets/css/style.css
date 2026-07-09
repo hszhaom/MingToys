@@ -210,7 +210,8 @@ body {
 }
 
 .topic-section,
-.latest-section {
+.latest-section,
+.creative-section {
   margin-top: 3rem;
 }
 
@@ -283,6 +284,150 @@ body {
 
 .decision-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.scenario-grid,
+.fit-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.scenario-card {
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-soft);
+}
+
+.scenario-card span {
+  display: block;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.scenario-card a {
+  display: inline-flex;
+  margin-top: 0.65rem;
+  color: var(--brand-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.fit-score-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(31, 41, 51, 0.06);
+}
+
+.fit-score-card img {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+  display: block;
+}
+
+.fit-card-body {
+  padding: 1rem;
+}
+
+.fit-card-body h2 {
+  margin-top: 0;
+  font-size: 1.35rem;
+}
+
+.fit-card-body a {
+  display: inline-flex;
+  margin-top: 0.9rem;
+  color: var(--brand-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.metric {
+  position: relative;
+  display: grid;
+  gap: 0.3rem;
+  margin: 0.72rem 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 750;
+}
+
+.metric::after {
+  content: "";
+  display: block;
+  height: 8px;
+  border-radius: 999px;
+  background: #edf0ed;
+}
+
+.metric b {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.metric-warn b {
+  background: var(--brand);
+}
+
+.calculator-result {
+  margin: 1.5rem 0;
+}
+
+.cost-output {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.cost-output div {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-soft);
+}
+
+.cost-output span {
+  display: block;
+  color: var(--muted);
+  font-weight: 750;
+  margin-bottom: 0.35rem;
+}
+
+.cost-output strong {
+  color: var(--brand-dark);
+  font-size: 1.7rem;
+}
+
+.checklist {
+  margin: 1rem 0 1.2rem 0;
+  list-style: none;
+}
+
+.checklist li {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.checklist input {
+  margin-top: 0.35rem;
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--brand);
 }
 
 .decision-card,
@@ -725,7 +870,10 @@ footer {
   .topic-grid,
   .card-grid,
   .decision-grid,
-  .comparison-grid {
+  .comparison-grid,
+  .scenario-grid,
+  .fit-card-grid,
+  .cost-output {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -762,6 +910,9 @@ footer {
   .card-grid,
   .decision-grid,
   .comparison-grid,
+  .scenario-grid,
+  .fit-card-grid,
+  .cost-output,
   .filter-grid {
     grid-template-columns: 1fr;
   }
