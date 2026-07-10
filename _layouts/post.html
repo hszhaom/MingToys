@@ -19,6 +19,17 @@ layout: default
     <div class="post-content">
       {{ content }}
     </div>
+    <aside class="editorial-note" aria-label="Editorial note">
+      <h2>About This Guide</h2>
+      <p>
+        Written and maintained by the PetStorie editorial team for informational dog breed research. We focus on practical owner
+        fit, care needs, temperament, grooming, training, and common health considerations.
+      </p>
+      <p>
+        Pet health and behavior can vary by individual dog. This guide is not a veterinary diagnosis or treatment plan. Ask a
+        veterinarian or qualified trainer about medical symptoms, behavior risks, diet changes, or breed-specific health concerns.
+      </p>
+    </aside>
   </div>
 </div>
 
@@ -38,14 +49,15 @@ layout: default
   "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
   "author": {
     "@type": "Organization",
-    "name": "PetStorie"
+    "name": "PetStorie Editorial Team",
+    "url": "{{ site.url }}/editorial-policy/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "PetStorie",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.url }}/assets/images/logo.png"
+      "url": "{{ site.url }}/assets/images/logo-192.png"
     }
   }
 }

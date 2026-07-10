@@ -3,6 +3,7 @@ title: "Yorkshire Terrier Guide: Big Terrier Spirit in a Tiny Dog"
 description: "The Yorkshire Terrier blends a silky show coat with bold terrier grit, demanding grooming, dental concerns, trachea risk, and a big-dog attitude."
 cover: /assets/images/yorkie-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Yorkshire Terrier is a study in contrasts: a glamorous, silky-coated lap dog that started life as a scrappy rat-catcher in the mills and mines of 19th-century England. That working-terrier past is still very much alive under the elegant exterior. Beneath the long, flowing blue-and-tan coat is a brave, energetic, opinionated little dog with the confidence of something far larger — the kind of dog that will happily take on a vacuum cleaner or stare down a Great Dane.
@@ -10,6 +11,18 @@ The Yorkshire Terrier is a study in contrasts: a glamorous, silky-coated lap dog
 People are drawn to the "Yorkie" for its beauty and portability, then discover a genuine terrier with terrier needs: the tenacity, the bark, and the busy mind. Knowing both sides — the lap dog and the ratter — is the key to living happily with one.
 
 ![Yorkshire Terrier with a long silky blue-and-tan coat and bright eyes]({{ site.url }}/assets/images/yorkie-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 4/5 | Strong small-space candidate when daily care and enrichment are handled. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 2/5 | Lower exercise needs, but still requires walks, play, weight control, and enrichment. |
+| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Yorkshire Terrier Quick Facts
 
@@ -52,6 +65,7 @@ Most pet owners wisely choose a short "puppy cut," which cuts the grooming load 
 The other grooming priorities are the same toy-breed essentials: brush the teeth often (dental disease is a major Yorkie issue), trim nails regularly, and check the small ears. The coat may shed little, but it's the breed's biggest ongoing time-and-money commitment.
 
 ![Yorkshire Terrier in a short puppy cut playing outdoors]({{ site.url }}/assets/images/yorkie-play.jpg)
+
 
 ## Common Yorkshire Terrier Health Issues
 

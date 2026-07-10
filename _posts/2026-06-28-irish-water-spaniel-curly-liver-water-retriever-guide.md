@@ -3,6 +3,7 @@ title: "Irish Water Spaniel Breed Guide: Temperament, Grooming, Exercise and Car
 description: "The Irish Water Spaniel is a liver-curled water retriever with a topknot, rat tail, comic personality, high stamina, and serious coat and ear care."
 cover: /assets/images/irishwaterspaniel-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Irish Water Spaniel is the tallest of the spaniels and one of the most unmistakable dogs in the field, with a coat of tight liver-colored curls, a curly "topknot" between the ears, and a smooth, tapering "rat tail" that gives the breed away at a glance. Bred in Ireland to retrieve waterfowl from cold lakes and rivers, it pairs serious working stamina with a mischievous, almost comedic personality that owners adore.
@@ -10,6 +11,18 @@ The Irish Water Spaniel is the tallest of the spaniels and one of the most unmis
 Within the family of curly water breeds, the Irish Water Spaniel is the clown: clever, playful, and endlessly entertaining, but also independent enough to do things its own way. The low-shedding coat appeals to many buyers, yet it asks for steady upkeep, and the dog behind it needs real exercise and a sense of humor from its human to match its own.
 
 ![Adult Irish Water Spaniel with liver curls, topknot, and rat tail standing by water]({{ site.url }}/assets/images/irishwaterspaniel-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
+| First-Time Owner Fit | 2/5 | Challenging for new owners unless they have strong support and training plans. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 5/5 | High-drive breed; under-exercise can quickly create behavior problems. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## Irish Water Spaniel Quick Facts
 
@@ -61,6 +74,7 @@ Round out the routine with:
 - Skin inspections, as the breed can be allergy-prone.
 
 ![Irish Water Spaniel splashing through shallow water with a retrieving dummy]({{ site.url }}/assets/images/irishwaterspaniel-play.jpg)
+
 
 ## Common Irish Water Spaniel Health Issues
 

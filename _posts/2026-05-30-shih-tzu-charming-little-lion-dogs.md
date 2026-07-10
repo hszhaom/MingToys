@@ -3,6 +3,7 @@ title: "Shih Tzu Guide: Personality, Health & Owner Tips"
 description: "The Shih Tzu is a sweet, easygoing flat-faced companion bred for the lap, with a mellow nature, heavy coat care, heat limits, and breathing concerns."
 cover: /assets/images/shih-tzu-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Shih Tzu was bred for one job above all: to be a companion. Developed centuries ago as a treasured lap dog of Chinese royalty, this "little lion dog" carries no herding drive, no hunting instinct, and no ambition beyond being near its people. The result is one of the most genuinely affectionate, easygoing small breeds you can own — a sturdy, friendly, flowing-coated dog that's as happy on the sofa as anywhere on earth.
@@ -10,6 +11,18 @@ The Shih Tzu was bred for one job above all: to be a companion. Developed centur
 That mellow charm is the draw, but the Shih Tzu comes with two real commitments: a demanding coat and a flat face that brings breathing and heat considerations. Understanding both is what separates a delightful companion from a stressed, matted, overheated one.
 
 ![Shih Tzu with a long flowing coat and a flat, friendly face]({{ site.url }}/assets/images/shih-tzu-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 4/5 | Strong small-space candidate when daily care and enrichment are handled. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 2/5 | Lower exercise needs, but still requires walks, play, weight control, and enrichment. |
+| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Shih Tzu Quick Facts
 
@@ -52,6 +65,7 @@ For this reason, most pet owners keep their Shih Tzu in a short, practical "pupp
 The face needs special attention that's unique to short-muzzled breeds. The hair around those large, prominent eyes must be kept trimmed or tied up so it doesn't scratch and irritate them, and the facial folds should be wiped clean and dry to prevent skin problems and staining. Add in frequent tooth brushing (dental disease is common in this small, crowded mouth), regular ear checks, and nail trims, and you have a breed whose grooming is a genuine, ongoing routine.
 
 ![Shih Tzu in a short puppy cut playing happily outdoors]({{ site.url }}/assets/images/shih-tzu-play.jpg)
+
 
 ## Common Shih Tzu Health Issues
 

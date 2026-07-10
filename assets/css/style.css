@@ -97,7 +97,7 @@ body {
 .home-hero {
   background:
     linear-gradient(90deg, rgba(245, 243, 239, 0.98), rgba(245, 243, 239, 0.72)),
-    url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1800&q=80");
+    url("/assets/images/home-hero.jpg");
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--line);
@@ -749,6 +749,27 @@ body {
 .post-content li,
 .guide-list li {
   margin: 0.38rem 0;
+}
+
+.editorial-note {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-soft);
+}
+
+.editorial-note h2 {
+  color: var(--ink);
+  font-size: 1.15rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+.editorial-note p {
+  color: var(--muted);
+  font-size: 0.96rem;
+  margin: 0.7rem 0 0;
 }
 
 .topic-page a,

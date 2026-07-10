@@ -3,6 +3,7 @@ title: "Havanese: Cuba's Silky, Sociable Companion Dog Explained"
 description: "The Havanese is Cuba's national dog: a small, sociable, trainable companion with a silky non-shedding coat that mats easily and a deep need for human company."
 cover: /assets/images/havanese-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Havanese is Cuba's only native breed and its national dog, a small bichon-type companion with a silky, flowing coat and a spring in its step that owners often describe as a happy little bounce. Bred for centuries purely to be a beloved family companion, the Havanese never had a job other than charming people, and it is extraordinarily good at exactly that.
@@ -10,6 +11,18 @@ The Havanese is Cuba's only native breed and its national dog, a small bichon-ty
 This is a dog that lives for human connection. Affectionate, clever, and endlessly sociable, the Havanese wants to be involved in family life from morning to night. That makes it a wonderful companion for the right home and a frustrated, lonely dog in a home where it is left to its own devices.
 
 ![Adult Havanese with a long silky coat and a bright, friendly expression]({{ site.url }}/assets/images/havanese-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 4/5 | Strong small-space candidate when daily care and enrichment are handled. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 2/5 | Lower exercise needs, but still requires walks, play, weight control, and enrichment. |
+| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Havanese Quick Facts
 
@@ -60,6 +73,7 @@ A realistic grooming routine looks like this:
 - Brush teeth regularly, as small breeds are prone to dental disease.
 
 ![Havanese playing outdoors with a long silky coat in cheerful motion]({{ site.url }}/assets/images/havanese-play.jpg)
+
 
 ## Common Havanese Health Issues
 

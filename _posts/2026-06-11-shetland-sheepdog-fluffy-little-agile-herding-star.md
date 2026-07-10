@@ -3,6 +3,7 @@ title: "Shetland Sheepdog Breed Guide: Sheltie Personality, Care, and Health"
 description: "The Shetland Sheepdog is a small, brilliant herder that's quick to learn, quick to bark, sensitive by nature, and serious about coat care."
 cover: /assets/images/shetland-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Shetland Sheepdog looks like a Rough Collie shrunk down to fit a lap, and people often assume it acts like a miniature one. Spend a week with a Sheltie, though, and you meet a dog with its own distinct character: hyper-aware, eager to please, talkative to a fault, and so quick to learn that it sometimes trains its owners before they realize what is happening. This guide covers what daily life with one is genuinely like.
@@ -10,6 +11,18 @@ The Shetland Sheepdog looks like a Rough Collie shrunk down to fit a lap, and pe
 The breed comes from the rugged Shetland Islands off Scotland, where small, hardy dogs herded sheep and ponies and kept birds out of crofts in rough weather. That working past explains the Sheltie's watchfulness, its sensitivity to motion, and its endless interest in what every family member is doing. Before you fall for the flowing coat, it helps to be honest about the breed's two biggest realities: the barking and the brushing.
 
 ![Adult Shetland Sheepdog sitting alertly, showing the full mane, fringed ears, and sable coat]({{ site.url }}/assets/images/shetland-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 3/5 | Workable for prepared owners who manage exercise, barking, and routine. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 4/5 | Good family potential for homes that meet exercise and training needs. |
+| Exercise Demand | 4/5 | Needs serious daily exercise, training games, and owner consistency. |
+| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Shetland Sheepdog Quick Facts
 
@@ -57,6 +70,7 @@ A realistic coat routine looks like this:
 Beyond the coat, check and clean ears, keep nails short, and brush teeth, since small breeds are prone to dental disease. A full bath every month or two keeps the coat fresh between brushings.
 
 ![Shetland Sheepdog running across a lawn with its coat flowing and ears pricked]({{ site.url }}/assets/images/shetland-play.jpg)
+
 
 ## Common Shetland Sheepdog Health Issues
 

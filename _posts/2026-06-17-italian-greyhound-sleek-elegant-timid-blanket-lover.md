@@ -3,6 +3,7 @@ title: "Italian Greyhound: The Delicate Sighthound Owner's Handbook"
 description: "The Italian Greyhound is a tiny, fragile sighthound: a fast, cuddly, cold-sensitive companion prone to leg fractures and dental disease that needs a gentle home."
 cover: /assets/images/italiangreyhound-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Italian Greyhound is a greyhound shrunk to the size of a cat, all slender legs, arched back, and big expressive eyes. Often called the "IG" or "Iggy," this ancient companion sighthound has spent centuries warming the laps of nobility, and it still divides its days between two passions: a few minutes of glorious zooming and many hours buried under a blanket.
@@ -10,6 +11,18 @@ The Italian Greyhound is a greyhound shrunk to the size of a cat, all slender le
 Behind that elegant, almost fragile beauty is a dog that needs real protection. Those fine legs break more easily than most owners expect, that thin coat offers little warmth, and that sensitive temperament can bruise under harsh handling. Understanding their delicacy is the heart of caring for one well.
 
 ![Adult Italian Greyhound with a slender build, arched back, and large eyes]({{ site.url }}/assets/images/italiangreyhound-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 4/5 | Strong small-space candidate when daily care and enrichment are handled. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 2/5 | Lower exercise needs, but still requires walks, play, weight control, and enrichment. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Italian Greyhound Quick Facts
 
@@ -60,6 +73,7 @@ A simple care routine looks like this:
 - Offer soft bedding and warm spots, which they will hunt out instinctively.
 
 ![Italian Greyhound sprinting outdoors, slender legs extended at full stretch]({{ site.url }}/assets/images/italiangreyhound-play.jpg)
+
 
 ## Common Italian Greyhound Health Issues
 

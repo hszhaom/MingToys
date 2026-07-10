@@ -3,7 +3,7 @@ title: "Pembroke vs Cardigan Welsh Corgi Comparison: Key Differences and Which t
 description: "Pembroke vs Cardigan Welsh Corgi compared: tail, ears, size, colors, temperament, and shedding, so you can tell the two corgi breeds apart and pick the right one."
 cover: /assets/images/corgi-cover.jpg
 layout: post
-updated: "2026-07-08"
+updated: "2026-07-10"
 ---
 
 Most people say "Corgi" as if it were one dog, but it is actually two separate breeds: the Pembroke Welsh Corgi and the Cardigan Welsh Corgi. If you want the shortest answer, look at the tail first. Cardigans have a long fox-like tail, while Pembrokes have little to no tail. From there, the two breeds also differ in ears, size, color range, temperament, and day-to-day owner fit.
@@ -11,6 +11,18 @@ Most people say "Corgi" as if it were one dog, but it is actually two separate b
 The quickest way to remember the difference is the tail: a Cardigan has a long, fox-like tail, while a Pembroke has almost none. From there the two breeds diverge in subtle but meaningful ways that change how they look and how they live with you.
 
 ![A Welsh Corgi standing alert, showing the classic short legs, long body, and upright ears shared by both Pembroke and Cardigan]({{ site.url }}/assets/images/corgi-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 3/5 | Workable for prepared owners who manage exercise, barking, and routine. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 3/5 | Moderate daily activity and mental work keep this dog easier to live with. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Pembroke vs Cardigan at a Glance
 
@@ -40,6 +52,7 @@ The **ears** are the second giveaway. Both stand erect, but the Cardigan's are n
 **Coat color** seals it. Cardigans come in a far wider palette, including brindle and the striking blue merle (mottled gray and black), alongside red, sable, and black. Pembrokes stick to red, sable, fawn, and black-and-tan, usually with white markings, and never come in merle.
 
 ![A Corgi trotting outdoors with a happy open-mouthed expression]({{ site.url }}/assets/images/corgi-play.jpg)
+
 
 ## Temperament Differences
 

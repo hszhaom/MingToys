@@ -3,6 +3,7 @@ title: "Spanish Water Dog Breed Guide: Temperament, Corded Coat, Exercise and Ca
 description: "The Spanish Water Dog is a rustic herding and water breed with a woolly corded coat, wary loyalty, strong work drive, and unusual grooming needs."
 cover: /assets/images/spanishwaterdog-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Spanish Water Dog, or Perro de Agua Espanol, is a true all-rounder from the Iberian Peninsula, a single dog that historically herded goats and sheep in the morning, hauled nets and retrieved gear from the water in the afternoon, and guarded the homestead at night. That triple job description produced a tireless, intensely focused breed wrapped in a distinctive woolly coat that grows into natural cords rather than the soft curls of its water-dog cousins.
@@ -10,6 +11,18 @@ The Spanish Water Dog, or Perro de Agua Espanol, is a true all-rounder from the 
 Among curly water breeds, the Spanish Water Dog stands apart for two reasons: it carries a genuine herding instinct, and its coat is managed completely differently from a Portuguese Water Dog's. Owners do not brush this breed. They let the wool felt into cords and trim it down once or twice a year. Understanding that, along with the dog's drive and reserve toward strangers, is the key to a good match.
 
 ![Adult Spanish Water Dog with a corded woolly coat standing alert in a rural setting]({{ site.url }}/assets/images/spanishwaterdog-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
+| First-Time Owner Fit | 2/5 | Challenging for new owners unless they have strong support and training plans. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 5/5 | High-drive breed; under-exercise can quickly create behavior problems. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## Spanish Water Dog Quick Facts
 
@@ -62,6 +75,7 @@ Beyond the coat, keep up with:
 - Skin checks during baths, when you can finally see down to it.
 
 ![Spanish Water Dog with a woolly corded coat running across a rural field]({{ site.url }}/assets/images/spanishwaterdog-play.jpg)
+
 
 ## Common Spanish Water Dog Health Issues
 

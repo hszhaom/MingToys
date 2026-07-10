@@ -3,6 +3,7 @@ title: "Whippet Breed Guide: The 35 MPH Couch Potato Explained"
 description: "The Whippet is a quiet sighthound with explosive speed, thin skin, low body fat, strong prey drive, and easy grooming needs."
 cover: /assets/images/whippet-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Whippet lives a delightful double life. For a few electric minutes a day it is among the fastest animals on four legs, capable of roughly 35 miles per hour and a turning radius that looks physically impossible. The rest of the time it is a quiet, blanket-burrowing homebody that wants nothing more than to be warm and pressed against you. Once you understand that rhythm, the Whippet becomes one of the easiest medium dogs to live with.
@@ -10,6 +11,18 @@ The Whippet lives a delightful double life. For a few electric minutes a day it 
 A descendant of the Greyhound bred down to a more practical size, the Whippet stands about 18 to 22 inches and weighs 25 to 40 pounds. The body is all function: a deep chest, a tucked waist, long legs, and a fine, short coat over very little fat. That elegant build shapes nearly everything about its care.
 
 ![Adult Whippet with a deep chest, tucked waist, and a calm, refined expression]({{ site.url }}/assets/images/whippet-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 4/5 | Strong small-space candidate when daily care and enrichment are handled. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 4/5 | Good family potential for homes that meet exercise and training needs. |
+| Exercise Demand | 3/5 | Moderate daily activity and mental work keep this dog easier to live with. |
+| Grooming Difficulty | 1/5 | Relatively simple coat care, though nails, ears, teeth, and shedding still matter. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Whippet Quick Facts
 
@@ -63,6 +76,7 @@ The brief routine:
 That last point is the real grooming-adjacent concern. A Whippet's skin is thin and the coat offers almost no padding, so they cut and tear surprisingly easily on fences, brush, or rough play. Many owners keep their Whippet in a soft coat or sweater outdoors in cold or harsh conditions, which protects both warmth and skin.
 
 ![Whippet at a full gallop in a fenced field, body fully extended in mid-stride]({{ site.url }}/assets/images/whippet-play.jpg)
+
 
 ## Common Whippet Health Issues
 

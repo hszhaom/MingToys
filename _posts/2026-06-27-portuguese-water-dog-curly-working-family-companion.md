@@ -3,6 +3,7 @@ title: "Portuguese Water Dog Breed Guide: Temperament, Grooming, Exercise and Ca
 description: "The Portuguese Water Dog is an athletic curly-coated worker that thrives on swimming, training, family closeness, and regular coat care."
 cover: /assets/images/portuguesewaterdog-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Portuguese Water Dog, or Cao de Agua, earned its keep on the fishing boats of Portugal's Algarve coast, diving for lost gear, herding fish into nets, and carrying messages between vessels. That heritage explains everything about the modern dog: a powerful swimmer with webbed feet, a tireless work drive, a quick problem-solving mind, and a coat built to dry quickly after a plunge. This is a medium athlete dressed in curls, not a decorative lapdog.
@@ -10,6 +11,18 @@ The Portuguese Water Dog, or Cao de Agua, earned its keep on the fishing boats o
 If you are comparing curly-coated water breeds, the Portie's defining traits are its devotion and its appetite for activity. They bond hard to their families, follow their people room to room, and need a genuine outlet for body and brain every single day. Give them that, and they are biddable, joyful, and famously good company.
 
 ![Adult Portuguese Water Dog with a curly black coat standing alertly by the water]({{ site.url }}/assets/images/portuguesewaterdog-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
+| First-Time Owner Fit | 2/5 | Challenging for new owners unless they have strong support and training plans. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 5/5 | High-drive breed; under-exercise can quickly create behavior problems. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## Portuguese Water Dog Quick Facts
 
@@ -61,6 +74,7 @@ Beyond coat care, stay on top of:
 - Skin folds and clip lines, watched for irritation after grooming.
 
 ![Portuguese Water Dog splashing through shallow water, showing its athletic build]({{ site.url }}/assets/images/portuguesewaterdog-play.jpg)
+
 
 ## Common Portuguese Water Dog Health Issues
 

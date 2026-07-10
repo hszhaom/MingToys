@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Page Not Found"
+description: "This PetStorie page could not be found. Start with dog breed guides, the breed finder, comparison pages, or puppy planning tools."
+permalink: /404.html
+---
+
+{% include header.html %}
+
+<main class="container">
+  <article class="topic-page">
+    <p class="eyebrow">404</p>
+    <h1>Page Not Found</h1>
+    <p>
+      This page may have moved, or the address may be typed incorrectly. Start with one of the main PetStorie tools below.
+    </p>
+
+    <div class="decision-grid">
+      <a class="decision-card decision-card-featured" href="{{ site.url }}/dog-breed-finder/">
+        <span>Dog Breed Finder</span>
+        <p>Answer practical questions and get breed matches based on your real home and schedule.</p>
+      </a>
+      <a class="decision-card" href="{{ site.url }}/dog-breeds/">
+        <span>Dog Breeds</span>
+        <p>Browse breed groups by size, energy, shedding, grooming, family fit, and owner experience.</p>
+      </a>
+      <a class="decision-card" href="{{ site.url }}/dog-breed-comparisons/">
+        <span>Breed Comparisons</span>
+        <p>Compare popular breeds side by side before choosing.</p>
+      </a>
+      <a class="decision-card" href="{{ site.url }}/puppy-checklist/">
+        <span>Puppy Checklist</span>
+        <p>Prepare supplies, first-week routines, vet planning, and safe home setup.</p>
+      </a>
+    </div>
+
+    <h2>Popular Starting Points</h2>
+    <ul class="guide-list">
+      <li><a href="{{ site.url }}/which-dog-should-i-get/">Which Dog Should I Get?</a></li>
+      <li><a href="{{ site.url }}/best-dogs-for-first-time-owners/">Best Dogs for First-Time Owners</a></li>
+      <li><a href="{{ site.url }}/labrador-vs-golden-retriever/">Labrador vs Golden Retriever</a></li>
+      <li><a href="{{ site.url }}/french-bulldog-vs-pug/">French Bulldog vs Pug</a></li>
+    </ul>
+  </article>
+</main>

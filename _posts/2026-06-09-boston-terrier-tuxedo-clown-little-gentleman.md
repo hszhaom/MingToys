@@ -3,6 +3,7 @@ title: "Boston Terrier 101: The Tuxedoed City Companion and Its Quirks"
 description: "The Boston Terrier is a friendly, low-shed apartment favorite, but its flat face brings breathing limits, heat sensitivity, and bulging-eye risks."
 cover: /assets/images/bostonterrier-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Boston Terrier earned the nickname "the American Gentleman" for its tidy, tuxedo-like markings and its polished manners. An American original developed in Boston in the late 1800s, it's a small, compact dog of roughly 12 to 25 pounds with a short muzzle, round dark eyes, and neat erect ears. Friendly, comical, and easy to live with, the Boston has become a favorite city dog, but its flat face brings a set of health considerations every owner needs to understand.
@@ -10,6 +11,18 @@ The Boston Terrier earned the nickname "the American Gentleman" for its tidy, tu
 This guide covers the genuinely lovable side of the breed alongside the brachycephalic realities, breathing, heat, and eyes, that shape how you exercise and care for one.
 
 ![Adult Boston Terrier with black-and-white tuxedo markings and large round eyes]({{ site.url }}/assets/images/bostonterrier-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 4/5 | Strong small-space candidate when daily care and enrichment are handled. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 2/5 | Lower exercise needs, but still requires walks, play, weight control, and enrichment. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 3/5 | Needs steady training, socialization, and realistic expectations. |
 
 ## Boston Terrier Quick Facts
 
@@ -60,6 +73,7 @@ Where the routine does need attention is the face and skin folds:
 Because Bostons have sensitive skin, avoid over-bathing and harsh products that can trigger flare-ups.
 
 ![Boston Terrier playing outdoors, tuxedo markings and bright eyes on display]({{ site.url }}/assets/images/bostonterrier-play.jpg)
+
 
 ## Common Boston Terrier Health Issues
 

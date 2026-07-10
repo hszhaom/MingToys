@@ -3,6 +3,7 @@ title: "English Cocker Spaniel: A Merry Sporting Companion Explained"
 description: "The English Cocker Spaniel is a medium sporting spaniel with a busy nose, silky low ears prone to infection, and a famously merry, people-loving outlook."
 cover: /assets/images/englishcocker-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The English Cocker Spaniel earned its reputation honestly: this is the breed the standard literally describes as "merry," and owners quickly learn why. Bred to flush and retrieve woodcock in the British field, the Cocker pairs a tireless, ground-sniffing work ethic with an affectionate, eager-to-belong personality that follows you from room to room.
@@ -10,6 +11,18 @@ The English Cocker Spaniel earned its reputation honestly: this is the breed the
 It is worth knowing from the start that this is the larger, more athletic cousin of the American Cocker Spaniel, with a longer muzzle, a flatter coat, and stronger field instincts. If you want a cheerful, biddable dog that still likes a job, the English Cocker is a compelling middle-sized choice, provided you stay on top of those gorgeous ears.
 
 ![Adult English Cocker Spaniel with long silky ears and an alert, merry expression]({{ site.url }}/assets/images/englishcocker-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
+| First-Time Owner Fit | 2/5 | Challenging for new owners unless they have strong support and training plans. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 5/5 | High-drive breed; under-exercise can quickly create behavior problems. |
+| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## English Cocker Spaniel Quick Facts
 
@@ -60,6 +73,7 @@ A sensible grooming routine looks like this:
 - Bathe roughly monthly or when muddy, drying the ear canals thoroughly afterward.
 
 ![English Cocker Spaniel running outdoors with ears flying and feathering in motion]({{ site.url }}/assets/images/englishcocker-play.jpg)
+
 
 ## Common English Cocker Spaniel Health Issues
 

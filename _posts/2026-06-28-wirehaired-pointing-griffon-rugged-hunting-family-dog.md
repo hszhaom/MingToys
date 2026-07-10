@@ -3,6 +3,7 @@ title: "Wirehaired Pointing Griffon Breed Guide: Temperament, Grooming and Care"
 description: "The Wirehaired Pointing Griffon is a rugged bearded gundog with a harsh coat, sensitive temperament, steady hunting style, and close family bond."
 cover: /assets/images/wirehairedpointinggriffon-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Wirehaired Pointing Griffon, sometimes called the Korthals Griffon after the man who developed it, was bred to be a thinking person's gundog: a close-working, methodical hunter that points, retrieves on land and from water, and does it all at a deliberate, trackable pace. The look is unmistakable, a steel-and-brown harsh coat, bushy eyebrows, and a full beard and mustache that earn the breed its "supreme gundog" reputation and a slightly comical, dignified expression.
@@ -10,6 +11,18 @@ The Wirehaired Pointing Griffon, sometimes called the Korthals Griffon after the
 Compared to the flashier, faster pointing breeds, the Griffon is prized for being biddable and people-focused, a hunting dog that genuinely wants to partner with its handler rather than range out of sight. That same trait makes it a warm, affectionate housemate, provided you can meet its substantial need for exercise and companionship. This is a sensitive dog that does not thrive when left out of family life.
 
 ![Adult Wirehaired Pointing Griffon with harsh coat, beard, and eyebrows standing in a field]({{ site.url }}/assets/images/wirehairedpointinggriffon-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
+| First-Time Owner Fit | 2/5 | Challenging for new owners unless they have strong support and training plans. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 5/5 | High-drive breed; under-exercise can quickly create behavior problems. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## Wirehaired Pointing Griffon Quick Facts
 
@@ -61,6 +74,7 @@ Other grooming priorities for this breed:
 - Check the beard, feet, and skin after field outings for burrs and debris.
 
 ![Wirehaired Pointing Griffon running through a field with its weatherproof coat]({{ site.url }}/assets/images/wirehairedpointinggriffon-play.jpg)
+
 
 ## Common Wirehaired Pointing Griffon Health Issues
 

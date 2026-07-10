@@ -3,6 +3,7 @@ title: "Scottish Terrier Guide: The Feisty, Dignified Little Scotsman"
 description: "The Scottish Terrier is a bold, independent terrier with a wiry coat, strong prey drive, stubborn streak, and health concerns that need steady management."
 cover: /assets/images/scottie-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 Short legs, a long head, bushy eyebrows, and an attitude several sizes larger than the body: that is the Scottish Terrier in a nutshell. Bred in the Scottish Highlands to dig fox, badger, and vermin out of rocky dens, the "Scottie" still carries the working terrier's grit. Owners describe a dog that is fiercely loyal to its person, polite but cool toward strangers, and convinced it is the boss of the household. This guide walks through what living with a Scottie actually involves, from the demanding wiry coat to the breed's well-known stubborn streak.
@@ -10,6 +11,18 @@ Short legs, a long head, bushy eyebrows, and an attitude several sizes larger th
 Before you fall for that famous silhouette, it helps to picture an ordinary Tuesday with this breed. A Scottie wants a job, a routine, and a chance to patrol the yard for squirrels. It does not want to be fussed over, dressed up, or asked to obey on command the way a Border Collie might.
 
 ![Black Scottish Terrier standing alert with its trademark long head and bushy eyebrows]({{ site.url }}/assets/images/scottie-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 3/5 | Workable for prepared owners who manage exercise, barking, and routine. |
+| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 3/5 | Moderate daily activity and mental work keep this dog easier to live with. |
+| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## Scottish Terrier Quick Facts
 
@@ -61,6 +74,7 @@ Between professional appointments, plan on:
 Budget for a groomer, or be ready to learn clipping and stripping yourself. The "wash and wear" Scottie is a myth.
 
 ![Scottish Terrier trotting across grass with its wiry beard and furnishings visible]({{ site.url }}/assets/images/scottie-play.jpg)
+
 
 ## Common Scottish Terrier Health Issues
 

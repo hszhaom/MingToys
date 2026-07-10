@@ -3,6 +3,7 @@ title: "Weimaraner Breed Guide: Temperament, Exercise, Health and Care"
 description: "The Weimaraner is a sleek silver-gray gundog with intense attachment, extreme exercise needs, separation anxiety risk, and bloat concerns."
 cover: /assets/images/weimaraner-cover.jpg
 layout: post
+updated: "2026-07-10"
 ---
 
 The Weimaraner is impossible to mistake: a tall, sleek, silver-gray dog with striking amber or blue-gray eyes and a regal, athletic outline that earned it the nickname "the Gray Ghost." Developed by German nobility in the 19th century to hunt big game and later refined into a versatile bird dog, the Weimaraner combines greyhound-like speed, pointer instinct, and a fierce need to be at its owner's side.
@@ -10,6 +11,18 @@ The Weimaraner is impossible to mistake: a tall, sleek, silver-gray dog with str
 What sets this breed apart from other gundogs is the intensity of its attachment. Weimaraners are the original "velcro dogs," shadowing their people from room to room and struggling, sometimes severely, when left alone. Pair that with a very high energy level and a deep-chested frame at real risk of bloat, and you have a breed that is magnificent for the right owner and overwhelming for the wrong one.
 
 ![Adult Weimaraner with a sleek silver-gray coat and amber eyes standing alertly outdoors]({{ site.url }}/assets/images/weimaraner-main.jpg)
+
+
+## Real-Life Fit Score
+
+| Fit Factor | Score | What It Means |
+|---|---|---|
+| Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
+| First-Time Owner Fit | 2/5 | Challenging for new owners unless they have strong support and training plans. |
+| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
+| Exercise Demand | 5/5 | High-drive breed; under-exercise can quickly create behavior problems. |
+| Grooming Difficulty | 3/5 | Moderate grooming or shedding; plan for regular brushing and basic upkeep. |
+| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
 
 ## Weimaraner Quick Facts
 
@@ -61,6 +74,7 @@ Keep up with these checks:
 - Inspect the eyes, as some Weimaraners are prone to entropion, an inward-rolling eyelid.
 
 ![Weimaraner running at full stride showing its athletic, muscular build]({{ site.url }}/assets/images/weimaraner-play.jpg)
+
 
 ## Common Weimaraner Health Issues
 
