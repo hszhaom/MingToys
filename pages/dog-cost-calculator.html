@@ -29,8 +29,18 @@ faq_schema:
     <form class="calculator-form" id="dog-cost-form">
       <div class="filter-grid">
         <label class="finder-control">
+          <span>Breed preset</span>
+          <select id="cost-breed">
+            <option value="">Choose a breed or use manual settings</option>
+            {% for breed in site.data.breeds %}
+            <option value="{{ breed.key }}">{{ breed.name }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="finder-control">
           <span>Dog size</span>
           <select id="cost-size">
+            <option value="toy">Toy dog</option>
             <option value="small">Small dog</option>
             <option value="medium">Medium dog</option>
             <option value="large">Large dog</option>
@@ -108,16 +118,55 @@ faq_schema:
 
 <script>
 (function () {
-  var sizeMonthly = { small: 95, medium: 135, large: 185, giant: 255 };
-  var sizeSetup = { small: 420, medium: 520, large: 680, giant: 840 };
+  var breedPresets = [
+    {% for breed in site.data.breeds %}
+    {
+      key: {{ breed.key | jsonify }},
+      name: {{ breed.name | jsonify }},
+      size: {{ breed.size | jsonify }},
+      grooming: {{ breed.grooming | jsonify }},
+      training: {{ breed.training | jsonify }},
+      healthRisk: {{ breed.health_risk | jsonify }},
+      costLevel: {{ breed.cost_level | jsonify }},
+      caution: {{ breed.caution | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  var sizeMonthly = { toy: 80, small: 95, medium: 135, large: 185, giant: 255 };
+  var sizeSetup = { toy: 360, small: 420, medium: 520, large: 680, giant: 840 };
   var groomingMonthly = { low: 15, medium: 55, high: 105 };
   var foodMonthly = { basic: 0, premium: 55 };
   var insuranceMonthly = { savings: 45, insurance: 85 };
   var trainingFirstYear = { basic: 180, extra: 520 };
   var setupExtra = { lean: 0, full: 260 };
+  var breedRiskMonthly = { low: 0, medium: 20, high: 55 };
+  var breedRiskSetup = { low: 0, medium: 120, high: 260 };
+
+  function getSelectedBreed() {
+    var key = document.getElementById("cost-breed").value;
+    return breedPresets.find(function (breed) {
+      return breed.key === key;
+    });
+  }
 
   function money(value) {
     return "$" + Math.round(value).toLocaleString("en-US");
+  }
+
+  function applyBreedPreset() {
+    var breed = getSelectedBreed();
+    if (!breed) return;
+
+    document.getElementById("cost-size").value = breed.size;
+    document.getElementById("cost-grooming").value = breed.grooming;
+    document.getElementById("cost-training").value = breed.training === "hard" ? "extra" : "basic";
+    document.getElementById("cost-insurance").value = breed.costLevel === "high" || breed.healthRisk === "high" ? "insurance" : "savings";
+    document.getElementById("cost-setup").value = breed.costLevel === "high" || breed.healthRisk === "high" ? "full" : "lean";
+    document.getElementById("cost-food").value = breed.size === "large" || breed.size === "giant" ? "premium" : "basic";
+    if (breed.costLevel === "high" || breed.healthRisk === "high") {
+      document.getElementById("cost-food").value = "premium";
+    }
   }
 
   function calculate() {
@@ -127,16 +176,28 @@ faq_schema:
     var insurance = document.getElementById("cost-insurance").value;
     var training = document.getElementById("cost-training").value;
     var setup = document.getElementById("cost-setup").value;
+    var breed = getSelectedBreed();
+    var riskLevel = breed ? breed.costLevel : "low";
+    var riskMonthly = breedRiskMonthly[riskLevel] || 0;
+    var riskFirstYear = breedRiskSetup[riskLevel] || 0;
 
-    var monthly = sizeMonthly[size] + groomingMonthly[grooming] + foodMonthly[food] + insuranceMonthly[insurance];
-    var firstYear = monthly * 12 + sizeSetup[size] + trainingFirstYear[training] + setupExtra[setup];
+    var monthly = sizeMonthly[size] + groomingMonthly[grooming] + foodMonthly[food] + insuranceMonthly[insurance] + riskMonthly;
+    var firstYear = monthly * 12 + sizeSetup[size] + trainingFirstYear[training] + setupExtra[setup] + riskFirstYear;
     document.getElementById("monthly-cost").textContent = money(monthly);
     document.getElementById("first-year-cost").textContent = money(firstYear);
-    document.getElementById("cost-note").textContent = "Use this as a planning range. Prices vary by city, clinic, breed, age, health, and owner choices.";
+    document.getElementById("cost-note").textContent = breed
+      ? "Preset: " + breed.name + ". " + breed.caution + " Use this as a planning range; local prices and individual health can change the budget."
+      : "Use this as a planning range. Prices vary by city, clinic, breed, age, health, and owner choices.";
   }
 
+  document.getElementById("cost-breed").addEventListener("change", function () {
+    applyBreedPreset();
+    calculate();
+  });
   document.querySelectorAll("#dog-cost-form select").forEach(function (select) {
-    select.addEventListener("change", calculate);
+    if (select.id !== "cost-breed") {
+      select.addEventListener("change", calculate);
+    }
   });
   calculate();
 })();

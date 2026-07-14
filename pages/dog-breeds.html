@@ -103,6 +103,37 @@ faq_schema:
       <li><a href="{{ site.url }}/posts/2026/06/01/shiba-inu-japanese-smirking-meme-dogs/">Shiba Inu Breed Guide</a></li>
     </ul>
 
+    <h2>All Dog Breed Profiles</h2>
+    <p>
+      This index uses the same breed data that powers the <a href="{{ site.url }}/dog-breed-finder/">Dog Breed Finder</a> and
+      <a href="{{ site.url }}/dog-cost-calculator/">Dog Cost Calculator</a>, so the main owner-fit signals stay consistent across
+      PetStorie.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Breed</th>
+          <th>Size</th>
+          <th>Home fit</th>
+          <th>Exercise</th>
+          <th>Grooming</th>
+          <th>Owner level</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for breed in site.data.breeds %}
+        <tr>
+          <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>
+          <td>{{ breed.size | replace: "-", " " | capitalize }}</td>
+          <td>{{ breed.home | replace: "-", " " | capitalize }}</td>
+          <td>{{ breed.exercise | capitalize }}</td>
+          <td>{{ breed.grooming | capitalize }}</td>
+          <td>{{ breed.experience | replace: "-", " " | capitalize }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
     <h2>Not Sure Where to Start?</h2>
     <p>
       Use <a href="{{ site.url }}/which-dog-should-i-get/">Which Dog Should I Get?</a> if you are still defining your needs,
