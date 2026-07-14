@@ -1,0 +1,65 @@
+{% assign rendered_count = 0 %}
+<table class="breed-data-table">
+  <thead>
+    <tr>
+      <th>Breed</th>
+      <th>Size</th>
+      <th>Exercise</th>
+      <th>Grooming</th>
+      <th>Owner level</th>
+      <th>Key caution</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for breed in site.data.breeds %}
+    {% assign show_breed = true %}
+    {% if include.home and breed.home != include.home %}
+      {% assign show_breed = false %}
+    {% endif %}
+    {% if include.experience and breed.experience != include.experience %}
+      {% assign show_breed = false %}
+    {% endif %}
+    {% if include.kids and breed.kids != include.kids %}
+      {% assign show_breed = false %}
+    {% endif %}
+    {% if include.exercise and breed.exercise != include.exercise %}
+      {% assign show_breed = false %}
+    {% endif %}
+    {% if include.shedding and breed.shedding != include.shedding %}
+      {% assign show_breed = false %}
+    {% endif %}
+    {% if include.grooming and breed.grooming != include.grooming %}
+      {% assign show_breed = false %}
+    {% endif %}
+    {% if include.experience_values %}
+      {% unless include.experience_values contains breed.experience %}
+        {% assign show_breed = false %}
+      {% endunless %}
+    {% endif %}
+    {% if include.size_values %}
+      {% unless include.size_values contains breed.size %}
+        {% assign show_breed = false %}
+      {% endunless %}
+    {% endif %}
+    {% if include.training_values %}
+      {% unless include.training_values contains breed.training %}
+        {% assign show_breed = false %}
+      {% endunless %}
+    {% endif %}
+    {% if show_breed %}
+    {% assign rendered_count = rendered_count | plus: 1 %}
+    <tr>
+      <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>
+      <td>{{ breed.size | replace: "-", " " | capitalize }}</td>
+      <td>{{ breed.exercise | capitalize }}</td>
+      <td>{{ breed.grooming | capitalize }}</td>
+      <td>{{ breed.experience | replace: "-", " " | capitalize }}</td>
+      <td>{{ breed.caution }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+{% if rendered_count == 0 %}
+<p>No matching breed profiles are available yet.</p>
+{% endif %}

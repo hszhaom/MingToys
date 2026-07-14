@@ -1,0 +1,205 @@
+---
+layout: default
+title: "Dog Breed Selector: Compare Breeds by Lifestyle, Cost and Care"
+description: "Use the PetStorie dog breed selector to compare two dog breeds by size, exercise, grooming, shedding, training, health risk, cost, and owner fit."
+permalink: /dog-breed-selector/
+web_application:
+  name: "Dog Breed Selector"
+  category: "LifestyleApplication"
+faq_schema:
+  - question: "How should I use a dog breed selector?"
+    answer: "Use it as a starting point. Compare the hardest parts of each breed, then read the full breed guide and consider the individual dog's temperament, health history, age, and training."
+  - question: "Can one dog breed be best for everyone?"
+    answer: "No. The right breed depends on your home, schedule, exercise time, grooming tolerance, budget, children, climate, and dog experience."
+  - question: "Should health risk affect breed choice?"
+    answer: "Yes. Health risk can affect cost, daily care, insurance decisions, and quality of life. Ask a veterinarian or responsible breeder about known breed concerns."
+---
+
+{% include header.html %}
+
+<main class="container">
+  <article class="topic-page selector-tool">
+    <p class="eyebrow">Breed decision workspace</p>
+    <h1>Dog Breed Selector</h1>
+    <p>
+      Use this page when you are choosing between two breeds or trying to narrow a long list. It compares practical owner-fit
+      signals from the PetStorie breed data set: size, exercise, grooming, shedding, training, health risk, cost, and home fit.
+    </p>
+
+    <form class="calculator-form" id="breed-selector-form">
+      <div class="filter-grid">
+        <label class="finder-control">
+          <span>First breed</span>
+          <select id="breed-a">
+            {% for breed in site.data.breeds %}
+            <option value="{{ breed.key }}"{% if breed.key == "labrador-retriever" %} selected{% endif %}>{{ breed.name }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Second breed</span>
+          <select id="breed-b">
+            {% for breed in site.data.breeds %}
+            <option value="{{ breed.key }}"{% if breed.key == "golden-retriever" %} selected{% endif %}>{{ breed.name }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Priority</span>
+          <select id="owner-priority">
+            <option value="first">Easier first dog</option>
+            <option value="apartment">Apartment fit</option>
+            <option value="family">Family fit</option>
+            <option value="low-shedding">Lower shedding</option>
+            <option value="active">High-energy partner</option>
+            <option value="guardian">Guardian-type dog</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Maximum grooming</span>
+          <select id="max-grooming">
+            <option value="high">High grooming is okay</option>
+            <option value="medium">Moderate grooming at most</option>
+            <option value="low">Low grooming only</option>
+          </select>
+        </label>
+      </div>
+    </form>
+
+    <section class="selector-output" aria-live="polite">
+      <h2>Side-by-Side Snapshot</h2>
+      <div id="selector-comparison"></div>
+      <h2>Priority Shortlist</h2>
+      <div id="selector-shortlist" class="result-grid"></div>
+    </section>
+
+    <h2>Use This With the Deeper Tools</h2>
+    <p>
+      If a breed still looks promising, open the full guide, then check the
+      <a href="{{ site.url }}/dog-cost-calculator/">Dog Cost Calculator</a> and
+      <a href="{{ site.url }}/dog-breed-finder/">Dog Breed Finder</a>. For broader browsing, use the
+      <a href="{{ site.url }}/dog-breeds/">Dog Breeds data center</a>.
+    </p>
+  </article>
+</main>
+
+<script>
+(function () {
+  var breeds = [
+    {% for breed in site.data.breeds %}
+    {
+      key: {{ breed.key | jsonify }},
+      name: {{ breed.name | jsonify }},
+      url: {{ site.url | append: breed.url | jsonify }},
+      summary: {{ breed.summary | jsonify }},
+      size: {{ breed.size | jsonify }},
+      home: {{ breed.home | jsonify }},
+      experience: {{ breed.experience | jsonify }},
+      kids: {{ breed.kids | jsonify }},
+      exercise: {{ breed.exercise | jsonify }},
+      shedding: {{ breed.shedding | jsonify }},
+      grooming: {{ breed.grooming | jsonify }},
+      training: {{ breed.training | jsonify }},
+      healthRisk: {{ breed.health_risk | jsonify }},
+      costLevel: {{ breed.cost_level | jsonify }},
+      caution: {{ breed.caution | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  var rank = { low: 1, medium: 2, high: 3, toy: 1, small: 2, large: 4, giant: 5, first: 1, some: 2, experienced: 3 };
+  var priorityRules = {
+    first: function (breed) { return breed.experience === "first" && breed.training !== "hard"; },
+    apartment: function (breed) { return breed.home === "apartment" && breed.exercise !== "high"; },
+    family: function (breed) { return breed.kids === "yes" && breed.experience !== "experienced"; },
+    "low-shedding": function (breed) { return breed.shedding === "low"; },
+    active: function (breed) { return breed.exercise === "high"; },
+    guardian: function (breed) { return breed.experience === "experienced" && (breed.training === "hard" || breed.home === "rural"); }
+  };
+
+  function byKey(key) {
+    return breeds.find(function (breed) {
+      return breed.key === key;
+    }) || breeds[0];
+  }
+
+  function label(value) {
+    return String(value || "").replace(/-/g, " ").replace(/\b\w/g, function (letter) {
+      return letter.toUpperCase();
+    });
+  }
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function row(labelText, aValue, bValue) {
+    return [
+      "<tr>",
+      "<th>" + escapeHtml(labelText) + "</th>",
+      "<td>" + escapeHtml(label(aValue)) + "</td>",
+      "<td>" + escapeHtml(label(bValue)) + "</td>",
+      "</tr>"
+    ].join("");
+  }
+
+  function renderComparison() {
+    var breedA = byKey(document.getElementById("breed-a").value);
+    var breedB = byKey(document.getElementById("breed-b").value);
+    document.getElementById("selector-comparison").innerHTML = [
+      '<table class="selector-compare-table">',
+      "<thead><tr><th>Trait</th><th>" + escapeHtml(breedA.name) + "</th><th>" + escapeHtml(breedB.name) + "</th></tr></thead>",
+      "<tbody>",
+      row("Size", breedA.size, breedB.size),
+      row("Home fit", breedA.home, breedB.home),
+      row("Owner level", breedA.experience, breedB.experience),
+      row("Exercise", breedA.exercise, breedB.exercise),
+      row("Shedding", breedA.shedding, breedB.shedding),
+      row("Grooming", breedA.grooming, breedB.grooming),
+      row("Training", breedA.training, breedB.training),
+      row("Health risk", breedA.healthRisk, breedB.healthRisk),
+      row("Cost level", breedA.costLevel, breedB.costLevel),
+      "<tr><th>Owner caution</th><td>" + escapeHtml(breedA.caution) + "</td><td>" + escapeHtml(breedB.caution) + "</td></tr>",
+      "<tr><th>Guide</th><td><a href=\"" + escapeHtml(breedA.url) + "\">Read guide</a></td><td><a href=\"" + escapeHtml(breedB.url) + "\">Read guide</a></td></tr>",
+      "</tbody></table>"
+    ].join("");
+  }
+
+  function renderShortlist() {
+    var priority = document.getElementById("owner-priority").value;
+    var maxGrooming = document.getElementById("max-grooming").value;
+    var maxGroomingScore = rank[maxGrooming] || 3;
+    var rule = priorityRules[priority] || priorityRules.first;
+    var matches = breeds.filter(function (breed) {
+      return rule(breed) && (rank[breed.grooming] || 3) <= maxGroomingScore;
+    }).slice(0, 8);
+
+    document.getElementById("selector-shortlist").innerHTML = matches.map(function (breed) {
+      return [
+        '<article class="breed-result">',
+        '<div class="result-head"><h3>' + escapeHtml(breed.name) + '</h3><span>' + escapeHtml(label(breed.costLevel)) + ' cost</span></div>',
+        '<p class="result-meta">Exercise: ' + escapeHtml(label(breed.exercise)) + ' | Grooming: ' + escapeHtml(label(breed.grooming)) + ' | Training: ' + escapeHtml(label(breed.training)) + '</p>',
+        '<p>' + escapeHtml(breed.summary) + '</p>',
+        '<p class="result-caution">' + escapeHtml(breed.caution) + '</p>',
+        '<a href="' + escapeHtml(breed.url) + '">Read the full guide</a>',
+        '</article>'
+      ].join("");
+    }).join("") || '<p>No breed profiles match this filter yet. Try allowing more grooming or choose another priority.</p>';
+  }
+
+  function render() {
+    renderComparison();
+    renderShortlist();
+  }
+
+  document.querySelectorAll("#breed-selector-form select").forEach(function (select) {
+    select.addEventListener("change", render);
+  });
+  render();
+})();
+</script>
