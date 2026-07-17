@@ -7,6 +7,15 @@ adsense: false
 web_application:
   name: "Dog Breed Finder"
   category: "LifestyleApplication"
+faq_schema:
+  - question: "How does the Dog Breed Finder choose matches?"
+    answer: "It compares your home, experience, children, exercise time, shedding tolerance, and grooming tolerance against PetStorie breed data. The score is a research starting point, not a guarantee."
+  - question: "Can a breed finder tell me the perfect dog?"
+    answer: "No. A breed finder can narrow the list, but individual temperament, age, health, breeder or rescue history, training, and your daily routine still matter."
+  - question: "Should first-time owners avoid high-drive breeds?"
+    answer: "Many high-drive or guardian breeds are difficult for first-time owners because mistakes can become safety, stress, or behavior problems. Read the full guide and talk to qualified professionals before choosing one."
+  - question: "What should I do after getting breed matches?"
+    answer: "Open the full breed guides, compare grooming and health sections, estimate costs, and meet real dogs when possible before making a final decision."
 ---
 
 {% include header.html %}
@@ -18,6 +27,24 @@ web_application:
     <p>
       Start with the home, schedule, and tolerance you actually have. This finder favors practical owner fit over looks, trends, or
       popularity.
+    </p>
+    <p>
+      A good dog match is less about finding the cutest breed and more about finding the dog whose hardest traits you can manage on
+      an ordinary weekday. Apartment noise, grooming bills, exercise needs, heat sensitivity, child supervision, and training
+      difficulty all matter before a puppy or rescue dog is already in your home.
+    </p>
+
+    <h2>Find Dog Breeds by Lifestyle, Not Just Looks</h2>
+    <p>
+      This dog breed finder compares your answers with PetStorie's breed data and returns stronger and weaker matches. The score
+      favors dogs that fit your home type, experience level, children, exercise time, shedding tolerance, and grooming tolerance.
+      It also adds caution when a first-time owner chooses a harder training breed or when a giant dog is squeezed into apartment
+      life.
+    </p>
+    <p>
+      The tool is intentionally conservative. A breed that scores lower may still be wonderful in the right home, but the lower
+      score is a prompt to read the full guide carefully. The best match is the breed whose needs you can meet consistently, not
+      just the breed whose personality sounds exciting.
     </p>
 
     <form class="breed-finder-form" id="breed-finder-form">
@@ -83,6 +110,57 @@ web_application:
     <p>
       The score is a practical starting point, not a guarantee. A good breeder, rescue match, training plan, health history, and
       individual dog temperament still matter. Use the result cards to open full breed guides before making a decision.
+    </p>
+    <p>
+      Look especially at the caution text on each card. That line usually names the issue owners underestimate: barking, heat,
+      grooming, weight control, prey drive, strength, anxiety, or exercise. If the caution already sounds difficult, the breed may
+      be a poor fit even if the overall score looks high.
+    </p>
+
+    <h2>What Each Filter Really Means</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Filter</th>
+          <th>Why It Matters</th>
+          <th>Common Mistake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Home type</td>
+          <td>Space, noise tolerance, stairs, heat, fencing, and neighbor pressure affect daily life.</td>
+          <td>Assuming small dogs are automatically apartment-friendly.</td>
+        </tr>
+        <tr>
+          <td>Owner experience</td>
+          <td>Some dogs need confident handling, early structure, and professional training support.</td>
+          <td>Choosing a strong or high-drive breed as a beginner challenge.</td>
+        </tr>
+        <tr>
+          <td>Children</td>
+          <td>Family fit depends on temperament, sturdiness, supervision, and household rules.</td>
+          <td>Expecting any friendly dog to tolerate rough handling.</td>
+        </tr>
+        <tr>
+          <td>Exercise time</td>
+          <td>Movement and mental work shape behavior, sleep, and frustration levels.</td>
+          <td>Counting weekend hikes while ignoring normal weekdays.</td>
+        </tr>
+        <tr>
+          <td>Shedding and grooming</td>
+          <td>Loose hair and coat care create different kinds of work.</td>
+          <td>Chasing low shedding without budgeting for grooming.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Best Next Steps After You Get Matches</h2>
+    <p>
+      Pick three breeds from the results and read their full guides in one sitting. Write down the hardest part of each breed, then
+      compare those hard parts directly. A low-shedding dog may need expensive grooming. A friendly family dog may shed heavily and
+      eat more than expected. A guardian breed may look calm at home but require serious visitor management, fencing, and public
+      handling skill.
     </p>
     <p>
       For broader research, browse the <a href="{{ site.url }}/dog-breeds/">dog breed data center</a> or use the
