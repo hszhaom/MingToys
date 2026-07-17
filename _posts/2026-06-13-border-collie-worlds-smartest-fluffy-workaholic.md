@@ -132,6 +132,12 @@ It is the wrong dog for a quiet, low-activity household, for someone away at wor
 
 For comparison, the gentle, low-drive [Cavalier King Charles Spaniel]({{ site.url }}/posts/2026/06/12/cavalier-king-charles-spaniel-regal-fluffy-cuddle-lover/) sits at the opposite end of the effort scale, the calm giant [Great Dane]({{ site.url }}/posts/2026/06/12/great-dane-gentle-giant-tall-silly-snuggle-buddy/) shows a very different kind of demand, and the mellow [Saint Bernard]({{ site.url }}/posts/2026/06/13/saint-bernard-fluffy-mountain-rescue-gentle-giant/) offers companionship without the relentless drive.
 
+## Owner Reality: Smart Is a Need, Not a Bonus
+
+The first 30 days with a Border Collie should include a plan for mental work, rest, and movement. This breed may learn the wrong thing as quickly as the right thing. If the dog discovers that staring, nipping, barking, or pacing controls the household, those habits can become hard to unwind.
+
+The common mistake is thinking intelligence makes the dog easier. Border Collies need owners who enjoy training details and can teach an off switch. Budget for classes, sport outlets, or structured coaching if you are new to high-drive dogs, and watch for stress as carefully as you watch for boredom.
+
 ## Border Collie FAQ
 
 ### Is the Border Collie really the smartest dog breed?
