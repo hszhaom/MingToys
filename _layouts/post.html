@@ -62,3 +62,48 @@ layout: default
   }
 }
 </script>
+
+{% unless page.faq_schema %}
+{% assign raw_faq_section = "" %}
+{% capture newline %}
+{% endcapture %}
+{% assign markdown_sections = page.content | split: "## " %}
+{% for markdown_section in markdown_sections %}
+  {% assign markdown_section_title = markdown_section | split: newline | first | strip %}
+  {% if markdown_section_title contains "FAQ" %}
+    {% assign raw_faq_section = markdown_section %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if raw_faq_section != "" %}
+<!-- Google structured data: FAQPage generated from post FAQ headings -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% assign faq_items = raw_faq_section | split: "### " %}
+    {% assign emitted_faq_item = false %}
+    {% for faq_item in faq_items offset: 1 %}
+      {% assign faq_lines = faq_item | split: newline %}
+      {% assign faq_question = faq_lines[0] | strip %}
+      {% assign faq_answer_block = faq_item | remove_first: faq_lines[0] | split: "## " | first | strip %}
+      {% assign faq_answer = faq_answer_block | markdownify | strip_html | replace: newline, " " | strip %}
+      {% if faq_question != "" and faq_answer != "" %}
+        {% if emitted_faq_item %},{% endif %}
+        {
+          "@type": "Question",
+          "name": {{ faq_question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ faq_answer | jsonify }}
+          }
+        }
+        {% assign emitted_faq_item = true %}
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endunless %}

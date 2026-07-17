@@ -1,0 +1,70 @@
+{
+  "purpose": "Generate final breed-accurate replacement images for the four newly added PetStorie breed articles. Keep filenames unchanged.",
+  "global_constraints": [
+    "Photorealistic natural dog photography, high resolution, sharp focus, accurate breed appearance.",
+    "No text, no watermark, no logo, no signature, no visible brand marks or collar tag text.",
+    "Avoid distorted anatomy, extra legs, missing paws, unnatural eyes, plastic fur, cartoon style, illustration style, blurry output, or heavy filters."
+  ],
+  "assets": [
+    {
+      "path": "assets/images/belgianmalinois-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Vertical professional photo of an adult Belgian Malinois in a clean outdoor training field, fawn coat, black mask, upright ears, lean athletic body, alert focused expression, natural daylight, sharp fur detail, no text, no watermark."
+    },
+    {
+      "path": "assets/images/belgianmalinois-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Horizontal full-body photo of an adult Belgian Malinois standing in three-quarter view on a field path, fawn coat, black mask, upright ears, athletic working-dog proportions, natural light, no text, no watermark."
+    },
+    {
+      "path": "assets/images/belgianmalinois-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Horizontal action photo of a Belgian Malinois running in a training field with focused working-dog energy, body and face sharp, natural outdoor light, no text, no watermark."
+    },
+    {
+      "path": "assets/images/keeshond-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Vertical professional portrait of an adult Keeshond, silver-gray plush double coat, curled tail, foxlike face, small upright ears, spectacle markings around eyes, friendly expression, natural park background, no text, no watermark."
+    },
+    {
+      "path": "assets/images/keeshond-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Horizontal full-body photo of an adult Keeshond standing outdoors, silver and black fluffy coat, curled tail over back, bright companion-spitz expression, natural daylight, no text, no watermark."
+    },
+    {
+      "path": "assets/images/keeshond-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Horizontal lifestyle photo of a Keeshond trotting through grass, fluffy silver coat moving naturally, curled tail, happy alert expression, sharp realistic dog photography, no text, no watermark."
+    },
+    {
+      "path": "assets/images/oldenglishsheepdog-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Vertical professional portrait of an adult Old English Sheepdog, large shaggy gray and white coat, gentle face partly covered by hair, sturdy herding-dog body, soft natural light, no text, no watermark."
+    },
+    {
+      "path": "assets/images/oldenglishsheepdog-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Horizontal full-body photo of an adult Old English Sheepdog standing in a grassy field, shaggy gray and white coat, broad body, gentle family-dog expression, realistic natural photography, no text, no watermark."
+    },
+    {
+      "path": "assets/images/oldenglishsheepdog-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Horizontal lifestyle photo of an Old English Sheepdog moving playfully across grass, shaggy coat flowing, large sturdy herding build, joyful expression, natural daylight, no text, no watermark."
+    },
+    {
+      "path": "assets/images/komondor-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Vertical professional portrait of an adult Komondor, large white corded coat, calm livestock guardian posture, strong body, natural rural pasture background, sharp realistic detail, no text, no watermark."
+    },
+    {
+      "path": "assets/images/komondor-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Horizontal full-body photo of an adult Komondor standing in pasture, long white cords, powerful livestock guardian build, calm watchful expression, natural daylight, no text, no watermark."
+    },
+    {
+      "path": "assets/images/komondor-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Horizontal lifestyle photo of a Komondor walking across open pasture, white corded coat moving naturally, calm guardian energy, full body visible and sharp, no text, no watermark."
+    }
+  ]
+}
