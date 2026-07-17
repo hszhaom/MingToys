@@ -8,7 +8,8 @@ layout: default
   <div class="post-page">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      Publish on: {{ page.date | date: "%B %d, %Y" }}
+      By <a href="{{ site.url }}/about/#petstorie-editorial-team">PetStorie Editorial Team</a>
+      <span style="margin-left: 1rem;">Published on: {{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.updated %}
       <span style="margin-left: 1rem;">Updated on: {{ modified_date | date: "%B %d, %Y" }}</span>
       {% endif %}
@@ -24,6 +25,11 @@ layout: default
       <p>
         Written and maintained by the PetStorie editorial team for informational dog breed research. We focus on practical owner
         fit, care needs, temperament, grooming, training, and common health considerations.
+      </p>
+      <p>
+        Breed facts and care notes are checked against source categories described in our
+        <a href="{{ site.url }}/data-sources/">data sources statement</a> and maintained under the
+        <a href="{{ site.url }}/editorial-policy/">editorial policy</a>.
       </p>
       <p>
         Pet health and behavior can vary by individual dog. This guide is not a veterinary diagnosis or treatment plan. Ask a
@@ -50,7 +56,7 @@ layout: default
   "author": {
     "@type": "Organization",
     "name": "PetStorie Editorial Team",
-    "url": "{{ site.url }}/editorial-policy/"
+    "url": "{{ site.url }}/about/#petstorie-editorial-team"
   },
   "publisher": {
     "@type": "Organization",
