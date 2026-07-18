@@ -1,0 +1,19 @@
+{% if page.faq_schema %}
+{% if include.embedded %}
+<section class="faq-panel embedded-faq" aria-labelledby="faq-title">
+{% else %}
+<section class="container schema-faq" aria-labelledby="faq-title">
+  <div class="topic-page faq-panel">
+{% endif %}
+    <h2 id="faq-title">FAQ</h2>
+    {% for item in page.faq_schema %}
+    <section class="faq-item">
+      <h3>{{ item.question }}</h3>
+      <p>{{ item.answer }}</p>
+    </section>
+    {% endfor %}
+{% unless include.embedded %}
+  </div>
+{% endunless %}
+</section>
+{% endif %}

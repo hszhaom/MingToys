@@ -1,0 +1,17 @@
+{% if page.sources %}
+<section class="source-list" aria-labelledby="sources-title">
+  <h2 id="sources-title">Sources and Further Reading</h2>
+  <p>
+    These references were used to check breed traits, care expectations, and health-screening context. They support general
+    research and do not replace advice from a veterinarian, qualified trainer, breeder, rescue, or shelter professional.
+  </p>
+  <ol>
+    {% for source in page.sources %}
+    <li>
+      <a href="{{ source.url }}" rel="noopener noreferrer">{{ source.organization }}: {{ source.title }}</a>
+      {% if source.accessed %}<span> (accessed {{ source.accessed | date: "%B %d, %Y" }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}

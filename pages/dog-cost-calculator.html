@@ -3,7 +3,21 @@ layout: default
 title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 description: "Estimate dog ownership costs by breed size, grooming needs, insurance choice, food quality, training, and routine care before choosing a dog."
 permalink: /dog-cost-calculator/
+updated: "2026-07-18"
 adsense: false
+sources:
+  - organization: "ASPCA"
+    title: "Cutting Pet Care Costs"
+    url: "https://www.aspca.org/pet-care/general-pet-care/cutting-pet-care-costs"
+    accessed: "2026-07-18"
+  - organization: "North American Pet Health Insurance Association"
+    title: "Industry Data"
+    url: "https://naphia.org/industry-data/"
+    accessed: "2026-07-18"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "CHIC Browse by Breed"
+    url: "https://ofa.org/chic-programs/browse-by-breed/"
+    accessed: "2026-07-18"
 web_application:
   name: "Dog Cost Calculator"
   category: "FinanceApplication"
@@ -18,6 +32,8 @@ faq_schema:
     answer: "Large and giant dogs, high-grooming coats, flat-faced breeds, and breeds with higher health risk often cost more because food, grooming, insurance, training, and veterinary planning can add up."
   - question: "Does this calculator include the purchase price of a dog?"
     answer: "No. It focuses on ownership planning after you choose a dog. Adoption fees, breeder prices, transport, and local licensing can vary widely and should be added separately."
+  - question: "Which country and currency does the calculator use?"
+    answer: "The baseline uses broad United States planning ranges in 2026 US dollars. Owners should replace the estimate with local veterinary, grooming, food, insurance, and training quotes."
 ---
 
 {% include header.html %}
@@ -34,6 +50,9 @@ faq_schema:
       The numbers are not meant to sell you a specific breed. They are meant to make the quiet costs visible before they become
       stressful: larger food bills, professional grooming, puppy classes, replacement gear, preventive care, emergency savings, and
       the extra margin that high-risk breeds may need.
+    </p>
+    <p class="method-note">
+      <strong>Baseline:</strong> United States planning ranges in 2026 US dollars. Results are broad estimates, not local quotes.
     </p>
 
     <h2>Estimate Dog Ownership Costs Before You Choose a Breed</h2>
@@ -122,6 +141,13 @@ faq_schema:
         </div>
       </div>
       <p id="cost-note"></p>
+      <h3>Estimated Monthly Breakdown</h3>
+      <table>
+        <thead>
+          <tr><th>Category</th><th>Planning Range</th></tr>
+        </thead>
+        <tbody id="cost-breakdown"></tbody>
+      </table>
     </section>
 
     <h2>Costs Owners Often Forget</h2>
@@ -194,6 +220,24 @@ faq_schema:
       the budget should have room for ordinary surprises.
     </p>
 
+    <h2>How the Calculator Builds the Range</h2>
+    <p>
+      The base-care range combines food at the selected size, routine preventive care, and ordinary replacement supplies. Grooming,
+      food upgrades, insurance or emergency savings, and a breed-risk reserve are added as separate monthly categories. The
+      first-year range adds equipment, training, and setup costs to twelve months of ongoing care.
+    </p>
+    <p>
+      The model does not include the purchase or adoption fee, licensing, travel, boarding, a specific emergency procedure, or the
+      price of treating a diagnosed condition. Breed presets only adjust broad planning categories from the PetStorie data set.
+      They do not predict that an individual dog will become ill.
+    </p>
+    <p>
+      Replace every category with local quotes before making a decision. Ask a clinic about routine visits and emergency access,
+      request an insurance quote for the exact breed and age, check food costs at the expected adult weight, and call a groomer if
+      the coat needs professional care. The displayed range stays wide because location and individual health create more variation
+      than a single national number can show honestly.
+    </p>
+
     <p>
       Compare cost-sensitive breeds in the <a href="{{ site.url }}/dog-breeds/">dog breed data center</a>, test lifestyle fit with
       the <a href="{{ site.url }}/dog-breed-finder/">Dog Breed Finder</a>, then read full health and grooming sections before
@@ -219,15 +263,15 @@ faq_schema:
     {% endfor %}
   ];
 
-  var sizeMonthly = { toy: 80, small: 95, medium: 135, large: 185, giant: 255 };
-  var sizeSetup = { toy: 360, small: 420, medium: 520, large: 680, giant: 840 };
-  var groomingMonthly = { low: 15, medium: 55, high: 105 };
-  var foodMonthly = { basic: 0, premium: 55 };
-  var insuranceMonthly = { savings: 45, insurance: 85 };
-  var trainingFirstYear = { basic: 180, extra: 520 };
-  var setupExtra = { lean: 0, full: 260 };
-  var breedRiskMonthly = { low: 0, medium: 20, high: 55 };
-  var breedRiskSetup = { low: 0, medium: 120, high: 260 };
+  var sizeMonthly = { toy: [55, 105], small: [70, 130], medium: [95, 175], large: [130, 240], giant: [180, 330] };
+  var sizeSetup = { toy: [250, 500], small: [300, 600], medium: [400, 750], large: [550, 1000], giant: [750, 1400] };
+  var groomingMonthly = { low: [10, 30], medium: [35, 80], high: [80, 160] };
+  var foodMonthly = { basic: [0, 0], premium: [25, 75] };
+  var insuranceMonthly = { savings: [40, 100], insurance: [55, 150] };
+  var trainingFirstYear = { basic: [150, 350], extra: [400, 900] };
+  var setupExtra = { lean: [0, 0], full: [150, 400] };
+  var breedRiskMonthly = { low: [0, 20], medium: [15, 50], high: [40, 110] };
+  var breedRiskSetup = { low: [0, 0], medium: [75, 250], high: [200, 600] };
 
   function getSelectedBreed() {
     var key = document.getElementById("cost-breed").value;
@@ -238,6 +282,33 @@ faq_schema:
 
   function money(value) {
     return "$" + Math.round(value).toLocaleString("en-US");
+  }
+
+  function addRanges(ranges) {
+    return ranges.reduce(function (total, range) {
+      return [total[0] + range[0], total[1] + range[1]];
+    }, [0, 0]);
+  }
+
+  function multiplyRange(range, factor) {
+    return [range[0] * factor, range[1] * factor];
+  }
+
+  function formatRange(range) {
+    return range[0] === range[1] ? money(range[0]) : money(range[0]) + "–" + money(range[1]);
+  }
+
+  function getRiskLevel(breed) {
+    if (!breed) return "low";
+    if (breed.healthRisk === "high" || breed.costLevel === "high") return "high";
+    if (breed.healthRisk === "medium" || breed.costLevel === "medium") return "medium";
+    return "low";
+  }
+
+  function renderBreakdown(parts) {
+    document.getElementById("cost-breakdown").innerHTML = parts.map(function (part) {
+      return "<tr><td>" + part.label + "</td><td>" + formatRange(part.range) + "</td></tr>";
+    }).join("");
   }
 
   function applyBreedPreset() {
@@ -263,14 +334,25 @@ faq_schema:
     var training = document.getElementById("cost-training").value;
     var setup = document.getElementById("cost-setup").value;
     var breed = getSelectedBreed();
-    var riskLevel = breed ? breed.costLevel : "low";
-    var riskMonthly = breedRiskMonthly[riskLevel] || 0;
-    var riskFirstYear = breedRiskSetup[riskLevel] || 0;
-
-    var monthly = sizeMonthly[size] + groomingMonthly[grooming] + foodMonthly[food] + insuranceMonthly[insurance] + riskMonthly;
-    var firstYear = monthly * 12 + sizeSetup[size] + trainingFirstYear[training] + setupExtra[setup] + riskFirstYear;
-    document.getElementById("monthly-cost").textContent = money(monthly);
-    document.getElementById("first-year-cost").textContent = money(firstYear);
+    var riskLevel = getRiskLevel(breed);
+    var monthlyParts = [
+      { label: "Base care by size", range: sizeMonthly[size] },
+      { label: "Grooming", range: groomingMonthly[grooming] },
+      { label: "Food-plan adjustment", range: foodMonthly[food] },
+      { label: "Insurance or emergency savings", range: insuranceMonthly[insurance] },
+      { label: "Breed-risk reserve", range: breedRiskMonthly[riskLevel] }
+    ];
+    var monthly = addRanges(monthlyParts.map(function (part) { return part.range; }));
+    var firstYear = addRanges([
+      multiplyRange(monthly, 12),
+      sizeSetup[size],
+      trainingFirstYear[training],
+      setupExtra[setup],
+      breedRiskSetup[riskLevel]
+    ]);
+    document.getElementById("monthly-cost").textContent = formatRange(monthly);
+    document.getElementById("first-year-cost").textContent = formatRange(firstYear);
+    renderBreakdown(monthlyParts);
     document.getElementById("cost-note").textContent = breed
       ? "Preset: " + breed.name + ". " + breed.caution + " Use this as a planning range; local prices and individual health can change the budget."
       : "Use this as a planning range. Prices vary by city, clinic, breed, age, health, and owner choices.";

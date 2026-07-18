@@ -4,203 +4,22 @@ sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Home -->
+  {% assign content_pages = site.pages | where: "layout", "default" %}
+  {% for item in content_pages %}
+  {% unless item.sitemap == false or item.canonical_url %}
   <url>
-    <loc>{{ site.url }}/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    {% if item.updated %}<lastmod>{{ item.updated | date: '%Y-%m-%d' }}</lastmod>{% endif %}
   </url>
+  {% endunless %}
+  {% endfor %}
 
-  <!-- Archive -->
-  <url>
-    <loc>{{ site.url }}/archive/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Topic and utility pages -->
-  <url>
-    <loc>{{ site.url }}/dog-breeds/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/which-dog-should-i-get/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/dog-breed-selector/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/small-dog-breeds/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/dog-breed-finder/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/guardian-dog-breeds-compared/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/dog-breed-comparisons/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/dog-fit-score-cards/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/dog-cost-calculator/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/puppy-checklist/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/best-dogs-for-first-time-owners/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/calm-dog-breeds-for-busy-owners/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/labrador-vs-golden-retriever/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/french-bulldog-vs-pug/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/cane-corso-vs-rottweiler/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/kangal-vs-great-pyrenees/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/shiba-inu-vs-corgi/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/best-family-dogs/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/apartment-dog-breeds/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/low-shedding-dog-breeds/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/high-energy-working-dogs/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/large-dog-breeds/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/about/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/editorial-policy/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/data-sources/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/privacy-policy/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/terms/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>{{ site.url }}/contact/</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Posts -->
   {% for post in site.posts %}
-  {% unless post.sitemap == false %}
-  {% unless post.canonical_url %}
+  {% unless post.sitemap == false or post.canonical_url %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.updated | default: post.date | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-  {% endunless %}
   {% endunless %}
   {% endfor %}
 </urlset>

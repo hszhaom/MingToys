@@ -368,6 +368,18 @@ body {
   font-weight: 750;
 }
 
+.metric span {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.metric small {
+  color: var(--ink);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .metric::after {
   content: "";
   display: block;
@@ -495,6 +507,43 @@ body {
 
 .faq-panel {
   margin-top: 1.25rem;
+}
+
+.embedded-faq,
+.source-list {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.embedded-faq > h2,
+.source-list > h2 {
+  color: var(--ink);
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.source-list p,
+.source-list li {
+  color: var(--muted);
+}
+
+.source-list ol {
+  margin: 1rem 0 0 1.4rem;
+}
+
+.source-list li {
+  margin: 0.55rem 0;
+}
+
+.source-list a {
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+
+.content-sources {
+  margin-top: -1rem;
 }
 
 .faq-item {
