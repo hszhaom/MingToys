@@ -3,7 +3,7 @@ title: "Pembroke Welsh Corgi Guide: Big-Dog Brains on Short Cattle-Herding Legs"
 description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame, with real exercise needs, heavy shedding, herding nips, and back risks to manage."
 cover: /assets/images/corgi-cover.jpg
 layout: post
-updated: "2026-07-10"
+updated: "2026-07-17"
 ---
 
 The Pembroke Welsh Corgi looks like a punchline, all ears and torso on stubby legs, but underestimate it at your peril. This is a genuine herding dog, bred in Wales to drive cattle by nipping at their heels and dodging the kicks that followed. That working history shaped everything about the breed: the quick mind, the loud opinionated bark, the surprising stamina, and yes, the instinct to herd whatever moves, including your children and your ankles. This guide covers what the royal-favorite Corgi is actually like to live with.
@@ -135,6 +135,20 @@ If you're comparing herders and companions, it's worth contrasting the Corgi wit
 The first month with a Pembroke Welsh Corgi often reveals how much dog is packed into that short frame. A Corgi may bark at routines, herd feet, chase movement, and learn household patterns faster than the owner expects. Give the dog legal jobs: food puzzles, short training sessions, polite leash work, and calm place training.
 
 The common mistake is treating a Corgi like a novelty small dog. The breed needs weight control, back-aware handling, and rules around jumping from furniture. A Corgi that is mentally bored and physically overfed can become noisy, pushy, and uncomfortable. Keep the body lean and the brain busy.
+
+## Space, Cost, and Family Q&A
+
+### Can a Pembroke Welsh Corgi live in an apartment?
+
+Yes, but the owner must manage barking, exercise, and stairs. Corgis are small enough for apartments, yet they are not lazy lap dogs. They notice hallway sounds, herd movement, and need daily work. A ground-floor or elevator building is easier than many stairs because the long back and short legs deserve protection.
+
+### How expensive is a Corgi to own?
+
+Costs are usually moderate, with a few watch points. Food is not extreme, but shedding tools, training, weight control, and veterinary planning for back, hip, eye, or skin concerns matter. The biggest hidden cost is letting a Corgi get overweight. Extra weight puts stress on the spine and turns an already sturdy little dog into a medical risk.
+
+### Are Corgis good family dogs?
+
+They can be good family dogs for households that like training. Corgis are bright, funny, and attached to their people, but herding behavior can show up as chasing, barking, or nipping at running children. Families with kids should teach calm play, reward polite behavior, and avoid letting the dog manage the household like a tiny livestock boss.
 
 ## Pembroke Welsh Corgi FAQ
 
