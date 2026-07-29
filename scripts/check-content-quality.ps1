@@ -35,6 +35,27 @@ foreach ($file in $monetized) {
   if ($sourceCount -lt 3) { $issues.Add("$($file.Name) has only $sourceCount sources.") }
   if ($faqCount -lt 3) { $issues.Add("$($file.Name) has only $faqCount FAQ items.") }
   if ($wordCount -lt $minimumWords) { $issues.Add("$($file.Name) has $wordCount words; expected at least $minimumWords.") }
+
+  if ($file.Directory.Name -eq '_posts') {
+    $legacyHeadingPattern = '(?m)^## (Real-Life Fit Score|Exercise Needs|Grooming and Shedding|Feeding and Weight Control|Training Tips|Final Verdict|Space, Cost, and Family Q&A)\s*$'
+    $legacyPhrasePattern = '(?i)\b(The first 30 days|The common mistake)\b'
+    $headings = [regex]::Matches($raw, '(?m)^##\s+(.+?)\s*$') | ForEach-Object {
+      $_.Groups[1].Value.Trim()
+    }
+    $decisionHeadings = $headings | Where-Object {
+      $_ -notmatch '(?i)(Quick Facts|Temperament|Common .+ Health Issues|Pros and Cons|Is .+ Right for You\?|FAQ)$'
+    }
+
+    if ($raw -match $legacyHeadingPattern) {
+      $issues.Add("$($file.Name) has a legacy shared-template heading: $($Matches[1]).")
+    }
+    if ($raw -match $legacyPhrasePattern) {
+      $issues.Add("$($file.Name) has a legacy shared-template phrase: $($Matches[1]).")
+    }
+    if ($decisionHeadings.Count -lt 3) {
+      $issues.Add("$($file.Name) has only $($decisionHeadings.Count) breed-specific decision sections; expected at least 3.")
+    }
+  }
 }
 
 $requiredTopicPages = @(
@@ -77,6 +98,20 @@ foreach ($imageRef in $imageRefs) {
   if (-not (Test-Path -LiteralPath $assetPath)) {
     $issues.Add("$($imageRef.File) references missing image $($imageRef.Reference).")
   }
+}
+
+$breedImageHashes = Get-ChildItem (Join-Path $root 'assets\images') -File | Where-Object {
+  $_.Name -match '-(cover|main|play)\.jpg$'
+} | ForEach-Object {
+  [pscustomobject]@{
+    Name = $_.Name
+    Hash = (Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash
+  }
+}
+
+$breedImageHashes | Group-Object Hash | Where-Object { $_.Count -gt 1 } | ForEach-Object {
+  $duplicates = ($_.Group.Name | Sort-Object) -join ', '
+  $issues.Add("Breed image files contain identical pixels: $duplicates.")
 }
 
 if ($issues.Count -gt 0) {

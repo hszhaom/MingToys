@@ -3,7 +3,13 @@ title: "Samoyed Guide: The Smiling Snow Dog and Its Famous Mountain of Fur"
 description: "Samoyeds are joyful, vocal Arctic dogs with a stunning white coat, relentless shedding, heavy grooming needs, heat limits, and real exercise demands."
 cover: /assets/images/samoyed-cover.jpg
 layout: post
-updated: "2026-07-10"
+updated: "2026-07-27"
+image_credits:
+  - asset: "samoyed-play.jpg"
+    creator: "Mihai Guzu"
+    license: "CC BY-SA 3.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    source_url: "https://commons.wikimedia.org/wiki/File:Balade_bounty_boheme_040508_044.jpg"
 ---
 
 The Samoyed is hard to forget: a cloud-white spitz with a dark-eyed face curved into the famous "Sammy smile," a tail flagged over the back, and a coat that looks like it belongs on a snow drift. Bred by the nomadic Samoyede people of Siberia to herd reindeer, haul sleds, and sleep piled with the family for warmth, this is an Arctic working dog through and through, friendly, hardy, and absolutely covered in fur. The beauty is real, and so is the daily work behind it.
@@ -76,7 +82,7 @@ Plan for serious grooming:
 
 A genuine perk: many people find Samoyed coat care meditative, and the shed undercoat can even be spun into yarn. But there is no version of this breed that is low-shedding or low-maintenance.
 
-![Samoyed bounding through an open field, white coat fluffing in motion, mouth open in the breed's classic smile]({{ site.url }}/assets/images/samoyed-play.jpg)
+![Samoyed running toward the camera on a shaded woodland trail]({{ site.url }}/assets/images/samoyed-play.jpg)
 
 
 ## Common Samoyed Health Issues

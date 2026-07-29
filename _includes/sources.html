@@ -15,3 +15,21 @@
   </ol>
 </section>
 {% endif %}
+{% if page.image_credits %}
+<section class="source-list" aria-labelledby="image-credits-title">
+  <h2 id="image-credits-title">Image Credits</h2>
+  <p>
+    The photographs below are hosted locally for page reliability. Each entry links to the original file page and its license.
+    Cropping and resizing do not change the underlying license.
+  </p>
+  <ol>
+    {% for image in page.image_credits %}
+    <li>
+      <a href="{{ image.source_url }}" rel="noopener noreferrer">{{ image.asset }}</a>
+      by {{ image.creator }},
+      {% if image.license_url %}<a href="{{ image.license_url }}" rel="noopener noreferrer">{{ image.license }}</a>{% else %}{{ image.license }}{% endif %}.
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}

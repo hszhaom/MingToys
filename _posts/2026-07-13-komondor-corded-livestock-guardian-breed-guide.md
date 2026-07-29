@@ -3,8 +3,24 @@ title: "Komondor Breed Guide: Corded Livestock Guardian Temperament and Care"
 description: "The Komondor is a large corded livestock guardian with strong territory instincts, unusual grooming needs, and serious owner responsibility."
 cover: /assets/images/komondor-cover.jpg
 layout: post
-updated: "2026-07-18"
+updated: "2026-07-28"
 adsense: true
+image_credits:
+  - asset: "komondor-cover.jpg"
+    creator: "Pets Adviser"
+    license: "CC BY 2.0"
+    license_url: "https://creativecommons.org/licenses/by/2.0/"
+    source_url: "https://commons.wikimedia.org/wiki/File:Komondor_-_GCH_Quintessential_Chauncey_12_(16415191968).jpg"
+  - asset: "komondor-main.jpg"
+    creator: "Kari"
+    license: "CC BY 2.5"
+    license_url: "https://creativecommons.org/licenses/by/2.5/"
+    source_url: "https://commons.wikimedia.org/wiki/File:Komondor_IMG_0329.JPG"
+  - asset: "komondor-play.jpg"
+    creator: "Sagaciousphil"
+    license: "CC BY-SA 3.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    source_url: "https://commons.wikimedia.org/wiki/File:Komondor_female.jpg"
 sources:
   - organization: "American Kennel Club"
     title: "Komondor"
@@ -58,7 +74,7 @@ A Komondor is not an easy large companion for ordinary suburban life. It needs s
 | Best for | Experienced rural owners who understand livestock guardians |
 | Not ideal for | First-time owners, dense neighborhoods, or people wanting easy grooming |
 
-## Real-Life Fit Score
+## Komondor Fit Is a Property and Purpose Test
 
 | Fit Factor | Score | What It Means |
 |---|---|---|
@@ -77,7 +93,7 @@ Puppies need early, careful socialization so they learn what normal life looks l
 
 As with other livestock guardians, independence is part of the job. A Komondor may decide for itself what needs attention. Owners must provide structure, fencing, and calm leadership before the dog becomes large and confident.
 
-## Exercise Needs
+## Secure Patrol Space, Not Dog-Park Time
 
 The Komondor is not a frantic athlete, but it needs daily movement and secure space. A bored guardian may bark, patrol obsessively, dig, challenge boundaries, or become difficult around visitors.
 
@@ -91,7 +107,7 @@ Useful routines include:
 
 Dog parks and loose public greetings are poor fits. The breed's job is to assess and guard, not to enjoy chaotic social scenes.
 
-## Grooming and Shedding
+## Cord Formation, Washing, and All-Day Drying
 
 The Komondor coat forms cords rather than being brushed like a normal long coat. This requires patient separation of cords, skin checks, debris removal, and very careful drying after bathing. Wet cords can take a long time to dry, and trapped moisture can lead to odor or skin problems.
 
@@ -103,7 +119,7 @@ Coat care includes:
 - Managing debris picked up outdoors.
 - Getting guidance from a breeder or groomer familiar with corded breeds.
 
-![Komondor walking across pasture with long white cords moving naturally]({{ site.url }}/assets/images/komondor-play.jpg)
+![Adult Komondor standing beside its handler with the full white coat visible]({{ site.url }}/assets/images/komondor-play.jpg)
 
 ## Common Komondor Health Issues
 
@@ -113,13 +129,13 @@ Bloat is an emergency risk in large deep-chested breeds. Warning signs may inclu
 
 Ask a veterinarian about body condition, joint health, ear care, parasite prevention, and any odor, sores, lameness, appetite change, or sudden behavior shift.
 
-## Feeding and Weight Control
+## Body Condition Hidden Under Cords
 
 Keep a Komondor lean. Extra weight strains joints, makes heat harder to tolerate, and can hide under the coat. Use measured meals and adjust food based on body condition, age, workload, and veterinary advice.
 
 Avoid pushing rapid puppy growth. Large guardians need steady development, not maximum size as quickly as possible.
 
-## Training Tips
+## Visitor Control and Cooperative Handling
 
 Training a Komondor means building control, trust, and safe routines. It is not about flashy obedience. The dog should learn leash manners, gates, handling, grooming cooperation, calm visitor rules, and recall in secure areas.
 
@@ -149,11 +165,11 @@ A Komondor may be right for you if you have secure rural property, livestock or 
 
 It is not a good match if you want an easy family giant, a dog-park companion, or a low-maintenance white dog. Compare it with the [Great Pyrenees guide]({{ site.url }}/posts/2026/06/17/great-pyrenees-fluffy-white-mountain-cloud-gentle-giant/), the [Kangal Dog guide]({{ site.url }}/posts/2026/07/08/kangal-dog-turkish-livestock-guardian-breed-guide/), and the [Central Asian Shepherd Dog guide]({{ site.url }}/posts/2026/07/01/central-asian-shepherd-dog-independent-guardian-guide/) before deciding.
 
-## Owner Reality: The Coat and the Territory Both Need Management
+## The Coat and the Territory Both Need Management
 
-The first 30 days should focus on fencing, visitor rules, handling, grooming education, and calm routines. A Komondor owner needs to understand both the dog under the cords and the coat itself.
+Before the Komondor begins treating the property as its own responsibility, establish locked gates, a visitor route, cooperative handling, and a separate secure area. Learn cord separation and drying from someone who has maintained the coat, because ordinary brushing advice does not apply.
 
-The common mistake is choosing the breed for its dramatic look. The coat is work, and the guardian temperament is responsibility. Budget for time, training help, secure property, and veterinary care.
+The dramatic cords attract attention while the guardian temperament carries the real risk. Ownership requires time, secure property, experienced training help, safe visitor management, and veterinary care that can inspect skin and body condition beneath the coat.
 
 ## The Two-Part Komondor Management Plan
 
@@ -169,7 +185,7 @@ Use locked exterior gates, a secure indoor area, and a clear arrival routine. Co
 
 The breed still carries livestock-guardian judgment even when purchased as a companion. Owners should examine local rules, insurance coverage, fencing, neighbor distance, and the amount of public handling the dog will face. A rural property with meaningful work can suit those traits. Dense social housing asks the dog and the owner to fight the breed's normal instincts every day.
 
-## Final Verdict
+## The Small Audience for a Komondor
 
 The Komondor is a remarkable corded livestock guardian for a narrow type of owner: experienced, realistic, and prepared for both territory management and unusual coat care.
 

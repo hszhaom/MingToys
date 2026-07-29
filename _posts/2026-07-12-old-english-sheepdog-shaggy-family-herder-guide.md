@@ -3,8 +3,24 @@ title: "Old English Sheepdog Breed Guide: Temperament, Grooming, Care and Family
 description: "The Old English Sheepdog is a large shaggy herder with comic charm, heavy grooming needs, moderate exercise, and a warm family nature."
 cover: /assets/images/oldenglishsheepdog-cover.jpg
 layout: post
-updated: "2026-07-18"
+updated: "2026-07-28"
 adsense: true
+image_credits:
+  - asset: "oldenglishsheepdog-cover.jpg"
+    creator: "Bobtailotake"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    source_url: "https://commons.wikimedia.org/wiki/File:Bobtail_otak%C3%A9_chien.jpg"
+  - asset: "oldenglishsheepdog-main.jpg"
+    creator: "Tomasina"
+    license: "CC BY-SA 3.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    source_url: "https://commons.wikimedia.org/wiki/File:Bobtail_in_Riga_5.JPG"
+  - asset: "oldenglishsheepdog-play.jpg"
+    creator: "Chris Phutully"
+    license: "CC BY 2.0"
+    license_url: "https://creativecommons.org/licenses/by/2.0/"
+    source_url: "https://commons.wikimedia.org/wiki/File:2013_Royal_Melbourne_Show_(9972660214).jpg"
 sources:
   - organization: "American Kennel Club"
     title: "Old English Sheepdog"
@@ -58,7 +74,7 @@ The coat is the honest starting point. An Old English Sheepdog is not a low-main
 | Best for | Families prepared for grooming and large-dog routines |
 | Not ideal for | Owners wanting low grooming or a tidy house |
 
-## Real-Life Fit Score
+## Old English Sheepdog Fit Is Mostly a Grooming Decision
 
 | Fit Factor | Score | What It Means |
 |---|---|---|
@@ -77,7 +93,7 @@ As a herding breed, the Old English Sheepdog may be watchful and opinionated. So
 
 This is not usually a hard-edged guardian, but it can have a big bark and a strong presence. Socialization helps the dog remain confident without becoming pushy or suspicious.
 
-## Exercise Needs
+## A Herding Dog With Moderate Adult Energy
 
 The breed needs moderate daily exercise. Most adults do well with walks, play, training, and family activity. Puppies should avoid excessive high-impact exercise while joints develop, and adults still need conditioning to stay lean under the coat.
 
@@ -91,7 +107,7 @@ Good outlets include:
 
 The breed can be goofy, but it still needs boundaries. A large adolescent Old English Sheepdog with no manners can knock people over by accident.
 
-## Grooming and Shedding
+## Full Coat, Puppy Cut, and the Real Time Cost
 
 Grooming is the make-or-break issue. The long double coat mats easily if it is not brushed thoroughly. Some owners keep the coat shorter for practical home care, while show-style coats require major maintenance.
 
@@ -103,7 +119,7 @@ Plan for:
 - Trimming around feet and sanitary areas as needed.
 - Professional grooming if the coat is beyond your skill or schedule.
 
-![Old English Sheepdog moving across grass with a shaggy coat and playful family-dog energy]({{ site.url }}/assets/images/oldenglishsheepdog-play.jpg)
+![Old English Sheepdog looking over a grooming table with its shaggy face and forelegs visible]({{ site.url }}/assets/images/oldenglishsheepdog-play.jpg)
 
 ## Common Old English Sheepdog Health Issues
 
@@ -111,13 +127,13 @@ Old English Sheepdogs can face hip dysplasia, eye conditions, thyroid disease, d
 
 Because the coat hides the body, owners must use their hands. Feel for ribs, skin irritation, mats, lumps, soreness, and changes in movement. If your dog limps, scratches constantly, develops odor, seems painful, or has eye or ear symptoms, talk with a veterinarian.
 
-## Feeding and Weight Control
+## Keep the Shaggy Frame Lean
 
 A shaggy coat can hide extra weight. Keep meals measured, limit high-calorie treats, and check body condition regularly. You should be able to feel the ribs without digging through fat under the coat.
 
 Large dogs benefit from steady growth as puppies and lean condition as adults. Ask a veterinarian about diet, joint health, and safe exercise if you are raising a puppy or managing an older dog.
 
-## Training Tips
+## Manners for a Large, Bouncy Dog
 
 Old English Sheepdogs are intelligent and social, but some have a playful stubborn streak. Reward-based training, consistency, and humor work better than frustration. Teach calm greetings early because size makes jumping a real problem.
 
@@ -147,11 +163,11 @@ An Old English Sheepdog may be right for you if you want a big, shaggy, affectio
 
 It is not a good fit if you dislike coat care, want a low-shedding home, or cannot afford grooming help. Compare it with the [Standard Schnauzer guide]({{ site.url }}/posts/2026/06/03/schnauzer-bearded-tiny-gruff-house-detectives/), the [Bernese Mountain Dog guide]({{ site.url }}/posts/2026/06/14/bernese-mountain-dog-fluffy-swiss-gentle-giant/), and the [Newfoundland guide]({{ site.url }}/posts/2026/06/21/newfoundland-gentle-slobbery-water-giant/) if you are considering large, high-maintenance companions.
 
-## Owner Reality: The Coat Is a Lifestyle
+## The Coat Is a Lifestyle
 
-The first 30 days should include brushing practice, foot handling, ear checks, nail care, and calm grooming sessions. Waiting until the dog is matted or enormous makes care stressful for everyone.
+Begin cooperative grooming while sessions are short and the dog is still easy to position. Practice section-by-section brushing, foot handling, ear checks, nail care, and standing on a stable surface. The first serious mat is too late to introduce the entire routine.
 
-The common mistake is choosing the breed for the look and hoping grooming will be easy. Budget for tools, time, and professional support. A well-kept Old English Sheepdog is charming; a neglected coat becomes painful.
+Buying the silhouette without pricing the coat creates a predictable welfare problem. Decide whether the dog will stay in full coat or a shorter practical trim, then budget the tools, time, drying space, and professional support. Mats tighten against the skin and cannot be treated as a cosmetic inconvenience.
 
 ## The Old English Sheepdog Workload at Home
 
@@ -167,7 +183,7 @@ An Old English Sheepdog may bump, lean, chase, or try to organize moving childre
 
 Measure the vehicle opening and think ahead to a senior dog that cannot jump. A ramp, non-slip surface, and cooperative handling practice make veterinary visits easier long before mobility changes. Large-dog medication, diagnostic imaging, boarding, and grooming usually cost more. Those later-life expenses belong in the decision made at puppy age.
 
-## Final Verdict
+## The Family That Can Maintain the Coat
 
 The Old English Sheepdog is a lovable, shaggy, funny family herder for owners who respect the coat commitment. It brings warmth and personality, but it also brings brushing, mess, and large-dog logistics.
 
