@@ -87,6 +87,123 @@ $nonDiscreteWidths = [regex]::Matches($fitCards, 'style="width:\s*(\d+)%"') | Wh
 }
 if ($nonDiscreteWidths.Count -gt 0) { $issues.Add('Fit Score Cards still contain non-discrete percentage widths.') }
 
+$guidancePath = Join-Path $root '_data\breed_owner_guidance.json'
+$guidanceRaw = [System.IO.File]::ReadAllText($guidancePath)
+$guidanceData = $guidanceRaw | ConvertFrom-Json
+$guidanceEntries = @($guidanceData.PSObject.Properties)
+$requiredGuidanceFields = @(
+  'breed',
+  'updated',
+  'owner_heading',
+  'owner_note',
+  'scenario_heading',
+  'apartment_label',
+  'apartment',
+  'house_label',
+  'house',
+  'first_time_label',
+  'first_time',
+  'experienced_label',
+  'experienced',
+  'myths_heading',
+  'tools_heading',
+  'tool_intro',
+  'cost_use',
+  'fit_use'
+)
+$guidanceParagraphOwners = @{}
+$guidanceHeadingOwners = @{}
+
+foreach ($entry in $guidanceEntries) {
+  foreach ($field in $requiredGuidanceFields) {
+    if ([string]::IsNullOrWhiteSpace([string]$entry.Value.$field)) {
+      $issues.Add("$($entry.Name) is missing owner-guidance field $field.")
+    }
+  }
+
+  if ([string]$entry.Value.updated -notmatch '^\d{4}-\d{2}-\d{2}$') {
+    $issues.Add("$($entry.Name) has an invalid owner-guidance updated date.")
+  }
+
+  $myths = @($entry.Value.myths)
+  if ($myths.Count -lt 2 -or $myths.Count -gt 3) {
+    $issues.Add("$($entry.Name) must have 2 or 3 breed misconceptions.")
+  }
+
+  $guidanceText = @(
+    $entry.Value.owner_note,
+    $entry.Value.apartment,
+    $entry.Value.house,
+    $entry.Value.first_time,
+    $entry.Value.experienced,
+    $entry.Value.tool_intro,
+    $entry.Value.cost_use,
+    $entry.Value.fit_use
+  )
+  foreach ($myth in $myths) {
+    if ([string]::IsNullOrWhiteSpace([string]$myth.claim) -or [string]::IsNullOrWhiteSpace([string]$myth.correction)) {
+      $issues.Add("$($entry.Name) has an incomplete breed misconception.")
+    }
+    $guidanceText += $myth.claim
+    $guidanceText += $myth.correction
+  }
+
+  $guidanceWordCount = [regex]::Matches(($guidanceText -join ' '), "[A-Za-z]+(?:['-][A-Za-z]+)*").Count
+  if ($guidanceWordCount -lt 250) {
+    $issues.Add("$($entry.Name) adds only $guidanceWordCount owner-guidance words; expected at least 250.")
+  }
+
+  foreach ($paragraph in $guidanceText) {
+    $normalized = ([regex]::Replace($paragraph.ToLowerInvariant(), '\s+', ' ')).Trim()
+    if ($guidanceParagraphOwners.ContainsKey($normalized)) {
+      $issues.Add("$($entry.Name) duplicates owner-guidance text from $($guidanceParagraphOwners[$normalized]).")
+    } else {
+      $guidanceParagraphOwners[$normalized] = $entry.Name
+    }
+  }
+
+  foreach ($heading in @(
+    $entry.Value.owner_heading,
+    $entry.Value.scenario_heading,
+    $entry.Value.apartment_label,
+    $entry.Value.house_label,
+    $entry.Value.first_time_label,
+    $entry.Value.experienced_label,
+    $entry.Value.myths_heading,
+    $entry.Value.tools_heading
+  )) {
+    $normalized = $heading.ToLowerInvariant().Trim()
+    if ($guidanceHeadingOwners.ContainsKey($normalized)) {
+      $issues.Add("$($entry.Name) duplicates an owner-guidance heading from $($guidanceHeadingOwners[$normalized]).")
+    } else {
+      $guidanceHeadingOwners[$normalized] = $entry.Name
+    }
+  }
+}
+
+$postSlugs = Get-ChildItem (Join-Path $root '_posts') -Filter '*.md' | ForEach-Object {
+  $_.BaseName -replace '^\d{4}-\d{2}-\d{2}-', ''
+}
+$guidanceSlugs = @($guidanceEntries.Name)
+foreach ($slug in $postSlugs) {
+  if ($slug -notin $guidanceSlugs) { $issues.Add("Post $slug has no owner-guidance data.") }
+}
+foreach ($slug in $guidanceSlugs) {
+  if ($slug -notin $postSlugs) { $issues.Add("Owner-guidance data $slug has no matching post.") }
+}
+
+if ($guidanceRaw -match '(?i)interview(?:ed|s)?\s+(?:with\s+)?(?:20|twenty)') {
+  $issues.Add('Owner-guidance data contains an unsupported interview claim.')
+}
+if ($guidanceRaw -match '(?i)\bthe overlooked\b') {
+  $issues.Add('Owner-guidance data contains the repeated AI-style phrase "the overlooked".')
+}
+
+$guidanceInclude = [System.IO.File]::ReadAllText((Join-Path $root '_includes\breed-owner-guidance.html'))
+if ($guidanceInclude -notmatch '/dog-cost-calculator/' -or $guidanceInclude -notmatch '/dog-fit-score-cards/') {
+  $issues.Add('Owner-guidance modules must link to both dog decision tools.')
+}
+
 $imageRefs = foreach ($file in Get-ChildItem (Join-Path $root '_posts'), (Join-Path $root 'pages') -File -Recurse) {
   $raw = [System.IO.File]::ReadAllText($file.FullName)
   foreach ($match in [regex]::Matches($raw, '/assets/images/[A-Za-z0-9._-]+')) {
@@ -119,4 +236,4 @@ if ($issues.Count -gt 0) {
   exit 1
 }
 
-Write-Host "Content quality checks passed for $($monetized.Count) monetized pages and posts."
+Write-Host "Content quality checks passed for $($monetized.Count) monetized pages and $($guidanceEntries.Count) owner-guidance entries."

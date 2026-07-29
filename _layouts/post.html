@@ -2,7 +2,9 @@
 layout: default
 ---
 {% include header.html %}
-{% assign modified_date = page.updated | default: page.date %}
+{% assign owner_guidance = site.data.breed_owner_guidance[page.slug] %}
+{% assign guidance_updated = owner_guidance.updated %}
+{% assign modified_date = guidance_updated | default: page.updated | default: page.date %}
 
 <div class="container">
   <div class="post-page">
@@ -19,6 +21,7 @@ layout: default
     </div>
     <div class="post-content">
       {{ content }}
+      {% include breed-owner-guidance.html guidance=owner_guidance %}
     </div>
     {% include faq.html embedded=true %}
     {% include sources.html %}
