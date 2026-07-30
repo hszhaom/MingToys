@@ -1,9 +1,9 @@
----
+﻿---
 title: "Labrador Retriever Guide: America's Water-Loving Family Favorite"
 description: "The Labrador Retriever is a high-energy, food-driven water lover that sheds heavily and needs firm management around obesity and hip dysplasia."
 cover: /assets/images/labrador-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -150,6 +150,18 @@ Because Labs mature slowly, patience through the long adolescence pays off. Keep
 | Loves water and outdoor activity | Strongly prone to obesity and overeating |
 | Versatile in sports and working roles | Hip and elbow dysplasia risk |
 | Sociable and adaptable companion | Slow to mature; long, mouthy adolescence |
+
+## Labrador Myths Created by Their Popularity
+
+### Labs are born trained family dogs
+
+They often bring social motivation and trainability, not finished manners. Mouthing, jumping, pulling, stealing, and destructive chewing are ordinary adolescent problems that require supervision and practice.
+
+### A heavy Labrador is naturally broad and healthy
+
+Body type varies, but excess weight still stresses joints and health. Feel the ribs, look for a waist, measure meals, and ask a veterinarian to score body condition rather than using other Labradors as the benchmark.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include large-dog food, ongoing training, walkers, durable equipment, swimming or activity access, insurance or savings, and damage prevention. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare daily exercise, food control, shedding, wet-dog tolerance, alone hours, child supervision, and ability to manage adult strength.
 
 ## Is a Labrador Retriever Right for You?
 

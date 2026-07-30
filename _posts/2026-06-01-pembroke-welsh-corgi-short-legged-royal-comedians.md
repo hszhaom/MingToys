@@ -1,9 +1,9 @@
----
+﻿---
 title: "Pembroke Welsh Corgi Guide: Big-Dog Brains on Short Cattle-Herding Legs"
 description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame, with real exercise needs, heavy shedding, herding nips, and back risks to manage."
 cover: /assets/images/corgi-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -152,6 +152,18 @@ The main challenge is their independence and self-assurance. They aren't stubbor
 | Affectionate and devoted to family | Loves to bark; can be noisy without training |
 | Surprisingly athletic and playful | Herding instinct leads to nipping at heels |
 | Excellent little watchdog | Too high-energy for those wanting a calm lap dog |
+
+## Corgi Myths That Ignore the Cattle Dog
+
+### Short legs mean low energy
+
+Pembrokes are athletic herding dogs in a compact body. They need daily activity and mental work, though repeated high-impact jumping and excessive exercise during growth are poor choices.
+
+### A round Corgi is just a normal Corgi shape
+
+Extra weight adds stress to the back and joints and can disappear visually under the coat. Feel the ribs and waist, measure food, and ask a veterinarian to assess body condition instead of judging from online photos.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to enter training, quality weight-controlled food, shedding tools, ramps or gates, dog walking, and a reserve for orthopedic or back care. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare barking, stairs, child movement, exercise time, shedding tolerance, and whether the household can enforce consistent rules.
 
 ## Is a Pembroke Welsh Corgi Right for You?
 

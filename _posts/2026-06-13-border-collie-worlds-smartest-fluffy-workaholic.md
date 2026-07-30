@@ -1,9 +1,9 @@
----
+﻿---
 title: "Border Collie Breed Guide: The Smartest Dog and What It Demands"
 description: "The Border Collie is widely called the smartest dog breed, with extreme exercise needs, intense mental demands, and a strong herding drive."
 cover: /assets/images/bordercollie-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -154,6 +154,18 @@ Because Border Collies are so quick and so sensitive, they reflect their owner's
 | Devoted, responsive, and eager to please | Strong herding instinct may target kids and pets |
 | Athletic, agile, and weather-hardy | Sensitive to noise and prone to overstimulation |
 | Manageable, weather-resistant coat | Poor fit for sedentary or frequently-absent owners |
+
+## Border Collie Myths Created by Intelligence Rankings
+
+### The smartest breed is the easiest breed to own
+
+Fast learning includes fears, routines, and unwanted chains. Sensitivity and motion focus can make ordinary homes harder. Intelligence increases the need for clear teaching; it does not reduce it.
+
+### A large yard will keep a Border Collie busy
+
+Most yards offer the same sights every day. The dog needs shared tasks, novelty, controlled movement, and rest. Unstructured access may strengthen barking or fixation instead.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include training, sport or scent activities, dog walking that matches the dog, secure equipment, injury reserves, and care during unavoidable rest periods. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare household motion, other pets, daily training time, apartment noise, rest skills, and whether the owner wants a working relationship every day.
 
 ## Is a Border Collie Right for You?
 

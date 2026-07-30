@@ -1,9 +1,9 @@
----
+﻿---
 title: "Pug Guide: The Wrinkly, Snoring Little Companion Clown"
 description: "The Pug is a charming brachycephalic companion with breathing and heat risks, prominent eyes, deep facial folds, and a serious appetite."
 cover: /assets/images/pug-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -150,6 +150,18 @@ Pugs are not high-drive working dogs and do not need to be; aim for a polite, so
 | Low exercise needs, easygoing indoors | Prominent eyes prone to injury |
 | Great with children and other pets | Daily wrinkle care needed to prevent infection |
 | Loving, devoted, people-oriented nature | Sheds a lot and gains weight very easily |
+
+## Pug Myths That Normalize Discomfort
+
+### Pugs are lazy and should avoid exercise
+
+They need controlled daily movement for weight, mobility, and enrichment. The answer is short, temperature-appropriate activity with careful recovery, not complete inactivity or strenuous heat exposure.
+
+### Snorting and snoring are always harmless
+
+Some noise is common, but struggling, poor sleep, collapse, blue or pale gums, and slow recovery require veterinary attention. Familiar sounds should not replace a functional breathing assessment.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include insurance or medical savings, eye and skin care, dental work, cooling, weight management, safe travel, and routine veterinary review. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare climate, stairs, veterinary access, grooming details, child handling, and comfort with health uncertainty alongside apartment fit.
 
 ## Is a Pug Right for You?
 

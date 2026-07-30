@@ -1,9 +1,9 @@
----
+﻿---
 title: "Old English Sheepdog Breed Guide: Temperament, Grooming, Care and Family Fit"
 description: "The Old English Sheepdog is a large shaggy herder with comic charm, heavy grooming needs, moderate exercise, and a warm family nature."
 cover: /assets/images/oldenglishsheepdog-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 image_credits:
   - asset: "oldenglishsheepdog-cover.jpg"
@@ -156,6 +156,18 @@ Training should not be saved for adolescence. By then, the dog is large, strong,
 | Moderate exercise needs for a big herder | Can be messy, hairy, and expensive to maintain |
 | Often warm with people | Size and enthusiasm need training |
 | Smart and responsive when engaged | Not ideal for tidy, low-maintenance homes |
+
+## Old English Sheepdog Myths Behind the Hair
+
+### The shaggy coat barely sheds and mostly looks after itself
+
+Loose hair, mats, debris, washing, and drying create substantial work. Even a short trim needs professional maintenance and regular brushing.
+
+### A nanny-dog reputation makes child supervision unnecessary
+
+Herding, size, excitement, pain, and child behavior still matter. Adults should supervise, teach respectful interaction, and give the dog a quiet escape area.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to compare full-coat grooming with a pet trim, then add large food, training, drying equipment, walkers, boarding, and medical reserves. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare grooming time, wet-weather cleanup, child movement, elevator or car access, exercise, and comfort handling a large adolescent.
 
 ## Is an Old English Sheepdog Right for You?
 

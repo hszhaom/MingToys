@@ -1,9 +1,9 @@
----
+﻿---
 title: "Golden Retriever Guide: Living With America's Favorite Family Dog"
 description: "What owning a Golden Retriever really means: relentless friendliness, heavy seasonal shedding, a swimmer's love of water, and real cancer and hip risks to plan for."
 cover: /assets/images/golden-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -150,6 +150,18 @@ The main "challenge" with Goldens is exuberance, not stubbornness. A young Golde
 | Versatile: family pet, service, sport, therapy | Prone to several cancers and joint problems |
 | Generally good with other dogs and pets | Dislikes long hours alone; can develop anxiety |
 | Loving, loyal, and endlessly people-oriented | Not a guard dog; greets everyone as a friend |
+
+## Golden Retriever Myths Built From Good Publicity
+
+### Every Golden is naturally gentle and child-safe
+
+Breed tendencies help, but puppies mouth, adolescents jump, and any large dog can knock down a child. Temperament, socialization, training, health, and adult supervision still decide whether interactions are safe.
+
+### A backyard gives a Golden enough exercise
+
+Most dogs do not exercise meaningfully alone in a yard. Goldens benefit from shared walking, retrieving, swimming, scent work, and training. The yard is a convenience; the owner remains the activity plan.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to enter large-dog food, training beyond puppy class, grooming tools, dog walking, insurance or savings, and screening-informed veterinary care. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare shedding, exercise time, child supervision, alone hours, and your ability to manage a strong social adolescent.
 
 ## Is a Golden Retriever Right for You?
 

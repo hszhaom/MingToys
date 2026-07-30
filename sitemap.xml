@@ -16,8 +16,7 @@ sitemap: false
 
   {% for post in site.posts %}
   {% unless post.sitemap == false or post.canonical_url %}
-  {% assign owner_guidance = site.data.breed_owner_guidance[post.slug] %}
-  {% assign post_modified = owner_guidance.updated | default: post.updated | default: post.date %}
+  {% assign post_modified = post.updated | default: post.date %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post_modified | date: '%Y-%m-%d' }}</lastmod>

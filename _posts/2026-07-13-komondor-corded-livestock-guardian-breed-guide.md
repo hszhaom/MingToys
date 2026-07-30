@@ -1,9 +1,9 @@
----
+﻿---
 title: "Komondor Breed Guide: Corded Livestock Guardian Temperament and Care"
 description: "The Komondor is a large corded livestock guardian with strong territory instincts, unusual grooming needs, and serious owner responsibility."
 cover: /assets/images/komondor-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 image_credits:
   - asset: "komondor-cover.jpg"
@@ -158,6 +158,18 @@ Harsh confrontation can damage trust and create conflict. Fair, consistent handl
 | Low loose shedding compared with many breeds | Corded coat is highly specialized |
 | Moderate exercise needs | Bathing and drying are difficult |
 | Deep bond with its own family or flock | Poor fit for apartments and dog parks |
+
+## Komondor Myths Created by the Corded Coat
+
+### No brushing means the coat is low maintenance
+
+Cords need separation, debris removal, careful washing, and complete drying. The process can consume most of a day. Skin must be checked beneath the coat.
+
+### Early socialization turns a Komondor into an easy social pet
+
+Socialization supports stable responses but does not erase livestock-guardian reserve and territory. Visitors, unfamiliar dogs, and boundaries still need lifelong management.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include fencing, gates, coat separation and drying, giant food and medication, training, transport, specialist boarding, insurance, and medical savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare livestock purpose, guardian experience, drying space, visitors, neighbors, climate, fencing, and access to breed-experienced support.
 
 ## Is a Komondor Right for You?
 

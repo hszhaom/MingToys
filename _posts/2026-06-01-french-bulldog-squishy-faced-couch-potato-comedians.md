@@ -1,9 +1,9 @@
----
+﻿---
 title: "French Bulldog Guide: The Charming, High-Maintenance Apartment Clown"
 description: "French Bulldogs are funny, low-energy companions, but their flat faces bring real breathing and heat risks. Here's the honest care, health, and cost picture."
 cover: /assets/images/frenchbulldog-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -151,6 +151,18 @@ The most common "failure" is simply expecting marathon focus from a breed wired 
 | Small, quiet, rarely a nuisance barker | Prone to IVDD and other spinal problems |
 | Easygoing with kids and other pets | Can be costly: vet bills and pet insurance add up |
 | Adaptable to low-key, indoor lifestyles | Poor swimmer; needs careful water supervision |
+
+## French Bulldog Myths That Become Vet Bills
+
+### Frenchies are healthy if they can run and play
+
+Enthusiasm does not prove comfortable breathing or a sound spine. Watch recovery time, sleep quality, heat tolerance, gait, and skin. Health screening and veterinary assessment provide more information than a short burst of play.
+
+### Low exercise means low ownership cost
+
+Food and walking may be modest, while insurance, airway assessment, allergy or skin care, spinal problems, and climate control can be substantial. This is often a low-mileage dog with a high contingency budget.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to add insurance quotes, skin and ear care, cooling, weight management, safe travel, and a substantial emergency reserve rather than using only food and routine visits. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you test climate, stair access, veterinary availability, alone time, and tolerance for health uncertainty alongside apartment suitability.
 
 ## Is a French Bulldog Right for You?
 

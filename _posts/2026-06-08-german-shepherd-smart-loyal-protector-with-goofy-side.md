@@ -1,9 +1,9 @@
----
+﻿---
 title: "German Shepherd Explained: Working Brains, Big Coat, and Real Health Risks"
 description: "German Shepherds are brilliant, loyal working dogs that shed constantly, need a job, and require planning around hip dysplasia and heavy exercise."
 cover: /assets/images/germanshepherd-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -150,6 +150,18 @@ A German Shepherd will read its handler closely, so calm, consistent leadership 
 | Versatile working and sport dog | Serious risk of hip/elbow dysplasia and DM |
 | Playful and affectionate at home | Requires committed socialization to avoid reactivity |
 | Confident, capable guardian | Too much dog for many first-time owners |
+
+## German Shepherd Myths That Create Liability
+
+### A German Shepherd naturally knows whom to protect against
+
+Dogs do not make reliable legal or moral judgments without careful control. Stable temperament, neutrality, and trained responses matter. Informal attempts to increase suspicion can create fear and unsafe behavior.
+
+### A large backyard meets the breed's needs
+
+Space does not teach leash manners, provide new scent information, or build cooperation. Shepherds need shared work, controlled exercise, social exposure, and rest in addition to safe outdoor access.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to add ongoing training, large-dog food, coat equipment, secure fencing, walkers, insurance checks, health screening discussions, and emergency savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare housing rules, visitor traffic, dog encounters, exercise time, public handling skill, shedding, and comfort with a watchful adolescent.
 
 ## Is a German Shepherd Right for You?
 

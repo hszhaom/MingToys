@@ -2,9 +2,7 @@
 layout: default
 ---
 {% include header.html %}
-{% assign owner_guidance = site.data.breed_owner_guidance[page.slug] %}
-{% assign guidance_updated = owner_guidance.updated %}
-{% assign modified_date = guidance_updated | default: page.updated | default: page.date %}
+{% assign modified_date = page.updated | default: page.date %}
 
 <div class="container">
   <div class="post-page">
@@ -15,21 +13,22 @@ layout: default
       {% if page.updated %}
       <span style="margin-left: 1rem;">Updated on: {{ modified_date | date: "%B %d, %Y" }}</span>
       {% endif %}
+      <span style="margin-left: 1rem;"><a href="{{ site.url }}/editorial-policy/">Editorial policy</a></span>
       <span data-gc-count="{{ page.url }}" style="margin-left: 1rem;">
         Page Views: <span class="gc-pv">-</span>
       </span>
     </div>
     <div class="post-content">
       {{ content }}
-      {% include breed-owner-guidance.html guidance=owner_guidance %}
     </div>
     {% include faq.html embedded=true %}
     {% include sources.html %}
     <aside class="editorial-note" aria-label="Editorial note">
       <h2>About This Guide</h2>
       <p>
-        Written and maintained by the PetStorie editorial team for informational dog breed research. We focus on practical owner
-        fit, care needs, temperament, grooming, training, and common health considerations.
+        Written and maintained by the PetStorie site owner under the PetStorie Editorial Team byline. Personal dog ownership
+        experience informs the practical lens, while breed facts and health cautions are checked against the source categories
+        described below.
       </p>
       <p>
         Breed facts and care notes are checked against source categories described in our
@@ -37,8 +36,9 @@ layout: default
         <a href="{{ site.url }}/editorial-policy/">editorial policy</a>.
       </p>
       <p>
-        Pet health and behavior can vary by individual dog. This guide is not a veterinary diagnosis or treatment plan. Ask a
-        veterinarian or qualified trainer about medical symptoms, behavior risks, diet changes, or breed-specific health concerns.
+        PetStorie does not claim veterinary or certified trainer review unless a page says so. Pet health and behavior can vary by
+        individual dog. This guide is not a veterinary diagnosis or treatment plan. Ask a veterinarian or qualified trainer about
+        medical symptoms, behavior risks, diet changes, or breed-specific health concerns.
       </p>
     </aside>
   </div>

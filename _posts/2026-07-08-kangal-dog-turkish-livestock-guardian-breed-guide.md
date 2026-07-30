@@ -1,9 +1,9 @@
----
+﻿---
 title: "Kangal Dog Breed Guide: Turkish Livestock Guardian Temperament and Care"
 description: "The Kangal Dog is a large Turkish livestock guardian with calm confidence, territorial instincts, dense short coat, and serious owner demands."
 cover: /assets/images/kangal-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "United Kennel Club"
@@ -150,6 +150,18 @@ If you are new to livestock guardians, work with a trainer or mentor who knows t
 | Dense coat is practical and not overly long | Seasonal shedding can be heavy |
 | Moderate exercise needs for a giant dog | Needs strong fencing and rural space |
 | Intelligent and self-reliant | Independent nature resists routine obedience expectations |
+
+## Kangal Myths Built for Social Media
+
+### A bite-force ranking tells you whether a Kangal is the best guardian
+
+Viral numbers are often poorly sourced and say little about stability, livestock judgment, health, or owner fit. Guardian quality cannot be reduced to one dramatic measurement.
+
+### Family socialization makes a Kangal a suburban pet
+
+Attachment to family can coexist with territory, barking, roaming, and suspicion of unfamiliar animals. Socialization does not remove the working purpose or need for suitable land.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include secure acreage fencing, gates, shelter, giant food and medication, livestock integration, transport, insurance, training support, and medical reserves. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare livestock purpose, acreage, predator context, neighbor distance, guardian experience, legal rules, and access to appropriate veterinary and backup care.
 
 ## Is a Kangal Dog Right for You?
 

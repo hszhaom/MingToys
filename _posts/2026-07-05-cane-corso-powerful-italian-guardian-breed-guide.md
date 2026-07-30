@@ -1,9 +1,9 @@
----
+﻿---
 title: "Cane Corso Breed Guide: Temperament, Training, Care and Owner Fit"
 description: "The Cane Corso is a powerful Italian guardian with deep loyalty, serious training needs, short-coat care, and major health risks to understand."
 cover: /assets/images/canecorso-cover.jpg
 layout: post
-updated: "2026-07-28"
+updated: "2026-07-30"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -146,6 +146,18 @@ The Corso is intelligent and often eager to work with a trusted person, but it a
 | Short coat is easy to maintain | Can be wary, territorial, or pushy if poorly raised |
 | Athletic and trainable for the right owner | Large-breed health risks can be costly |
 | Often affectionate and steady at home | Not ideal for homes with constant unmanaged visitors |
+
+## Cane Corso Myths That Encourage Risk
+
+### A Corso naturally knows when protection is needed
+
+Dogs do not make reliable legal judgments. Stable genetics, management, neutrality, and trained control matter. Encouraging suspicion can create liability rather than safety.
+
+### Mastiff size means a low-energy couch dog
+
+Corsos need daily physical and mental work, especially through adolescence. Exercise should protect growing joints, but inactivity and yard isolation are not suitable plans.
+
+For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include ongoing training, secure fencing, gates, insurance checks, large-dog food, capable boarding, muzzle conditioning, and medical savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare housing rules, visitors, public handling, guardian experience, children, other dogs, and access to qualified local support.
 
 ## Is a Cane Corso Right for You?
 
