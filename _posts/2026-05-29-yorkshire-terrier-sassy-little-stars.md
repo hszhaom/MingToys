@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Yorkshire Terrier Guide: Big Terrier Spirit in a Tiny Dog"
 description: "The Yorkshire Terrier blends a silky show coat with bold terrier grit, demanding grooming, dental concerns, trachea risk, and a big-dog attitude."
 cover: /assets/images/yorkie-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Yorkshire Terrier is a study in contrasts: a glamorous, silky-coated lap dog that started life as a scrappy rat-catcher in the mills and mines of 19th-century England. That working-terrier past is still very much alive under the elegant exterior. Beneath the long, flowing blue-and-tan coat is a brave, energetic, opinionated little dog with the confidence of something far larger — the kind of dog that will happily take on a vacuum cleaner or stare down a Great Dane.

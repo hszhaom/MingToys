@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Standard Schnauzer Guide: The Bearded, Brainy German Watchdog"
 description: "The Standard Schnauzer is a sharp, energetic working dog with a wiry beard, guarding instinct, busy mind, and real training and grooming demands."
 cover: /assets/images/schnauzer-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Standard Schnauzer is the original Schnauzer, the medium-sized German farm dog that the Miniature and Giant versions were later bred from. Picture a squarely built, muscular dog with that unmistakable bearded face, arched eyebrows, and a salt-and-pepper or solid black wiry coat. For centuries this breed earned its keep guarding farms, ratting in stables, and escorting carts to market, and that versatile working history still shapes the dog you bring home today: alert, clever, busy, and devoted to its family. This guide covers what owning one really demands, from the grooming reality of that wiry jacket to managing a watchful, high-energy mind.

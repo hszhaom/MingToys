@@ -8,7 +8,7 @@ layout: default
   <div class="post-page">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      By <a href="{{ site.url }}/about/#petstorie-editorial-team">PetStorie Editorial Team</a>
+      By <a href="{{ site.url }}{{ site.editor.profile_url }}">{{ site.editor.name }}</a>
       <span style="margin-left: 1rem;">Published on: {{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.updated %}
       <span style="margin-left: 1rem;">Updated on: {{ modified_date | date: "%B %d, %Y" }}</span>
@@ -26,9 +26,9 @@ layout: default
     <aside class="editorial-note" aria-label="Editorial note">
       <h2>About This Guide</h2>
       <p>
-        Written and maintained by the PetStorie site owner under the PetStorie Editorial Team byline. Personal dog ownership
-        experience informs the practical lens, while breed facts and health cautions are checked against the source categories
-        described below.
+        Written and maintained by {{ site.editor.name }}, PetStorie's {{ site.editor.role | downcase }}. First-hand owner context
+        appears only when a guide explicitly identifies it; breed facts and health cautions are checked against the sources listed
+        below.
       </p>
       <p>
         Breed facts and care notes are checked against source categories described in our
@@ -51,17 +51,24 @@ layout: default
   "@type": "Article",
   "headline": {{ page.title | jsonify }},
   "image": {{ site.url | append: page.cover | jsonify }},
-  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-  "dateModified": "{{ modified_date | date: '%Y-%m-%d' }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}"{% if page.updated %},
+  "dateModified": "{{ modified_date | date: '%Y-%m-%d' }}"{% endif %},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
   },
   "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
   "author": {
-    "@type": "Organization",
-    "name": "PetStorie Editorial Team",
-    "url": "{{ site.url }}/about/#petstorie-editorial-team"
+    "@type": "Person",
+    "@id": "{{ site.url }}{{ site.editor.profile_url }}",
+    "name": {{ site.editor.name | jsonify }},
+    "url": "{{ site.url }}{{ site.editor.profile_url }}",
+    "jobTitle": {{ site.editor.role | jsonify }},
+    "affiliation": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ site.url }}/"
+    }
   },
   "publisher": {
     "@type": "Organization",

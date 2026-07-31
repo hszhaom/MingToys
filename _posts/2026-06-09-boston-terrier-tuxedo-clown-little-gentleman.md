@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Boston Terrier 101: The Tuxedoed City Companion and Its Quirks"
 description: "The Boston Terrier is a friendly, low-shed apartment favorite, but its flat face brings breathing limits, heat sensitivity, and bulging-eye risks."
 cover: /assets/images/bostonterrier-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Boston Terrier earned the nickname "the American Gentleman" for its tidy, tuxedo-like markings and its polished manners. An American original developed in Boston in the late 1800s, it's a small, compact dog of roughly 12 to 25 pounds with a short muzzle, round dark eyes, and neat erect ears. Friendly, comical, and easy to live with, the Boston has become a favorite city dog, but its flat face brings a set of health considerations every owner needs to understand.

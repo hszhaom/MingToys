@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Shetland Sheepdog Breed Guide: Sheltie Personality, Care, and Health"
 description: "The Shetland Sheepdog is a small, brilliant herder that's quick to learn, quick to bark, sensitive by nature, and serious about coat care."
 cover: /assets/images/shetland-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Shetland Sheepdog looks like a Rough Collie shrunk down to fit a lap, and people often assume it acts like a miniature one. Spend a week with a Sheltie, though, and you meet a dog with its own distinct character: hyper-aware, eager to please, talkative to a fault, and so quick to learn that it sometimes trains its owners before they realize what is happening. This guide covers what daily life with one is genuinely like.

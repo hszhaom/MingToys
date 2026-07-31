@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Tibetan Mastiff Breed Guide: The Lion-Maned Guardian Up Close"
 description: "The Tibetan Mastiff is a 70-150 lb ancient guardian with a lion-like mane, nocturnal alertness, serious barking, and a fiercely independent mind."
 cover: /assets/images/tibetanmastiff-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Tibetan Mastiff looks like a creature out of legend, and in a sense it is. For thousands of years it guarded monasteries, villages, and herds across the high Himalayan plateau, working through bitter cold and long nights with no human directing it. The result is a dog of immense presence and dignity, crowned by a thick lion-like mane, that remains one of the most independent and primitive guardian breeds you can own.

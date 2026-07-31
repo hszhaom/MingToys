@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Chihuahua Guide: Big Attitude, Tiny Body, Real Owner Tips"
 description: "The Chihuahua is the world's smallest dog with outsized confidence, real fragility, dental-care demands, cold sensitivity, and fierce lifelong loyalty."
 cover: /assets/images/chihuahua-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Chihuahua is the smallest dog breed in the world, and it has clearly never been told. Behind those bat-like ears and apple-shaped head sits a fearless, fiercely loyal personality that bonds hard to one or two favorite people and treats anything larger than itself as a fair challenge. This is a true companion breed - opinionated, alert, and far more dog than its two-to-six pounds suggest.

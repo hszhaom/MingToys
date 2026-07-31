@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Spanish Water Dog Breed Guide: Temperament, Corded Coat, Exercise and Care"
 description: "The Spanish Water Dog is a rustic herding and water breed with a woolly corded coat, wary loyalty, strong work drive, and unusual grooming needs."
 cover: /assets/images/spanishwaterdog-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Spanish Water Dog, or Perro de Agua Espanol, is a true all-rounder from the Iberian Peninsula, a single dog that historically herded goats and sheep in the morning, hauled nets and retrieved gear from the water in the afternoon, and guarded the homestead at night. That triple job description produced a tireless, intensely focused breed wrapped in a distinctive woolly coat that grows into natural cords rather than the soft curls of its water-dog cousins.

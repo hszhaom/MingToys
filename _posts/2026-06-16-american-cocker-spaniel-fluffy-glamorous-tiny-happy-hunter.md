@@ -1,10 +1,10 @@
-﻿---
+---
 title: "American Cocker Spaniel: The Glamorous Companion, Demystified"
 description: "The American Cocker Spaniel is the smallest AKC sporting dog: a sweet, gentle companion with a lavish coat and long ears that demand serious grooming and care."
 cover: /assets/images/americancocker-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The American Cocker Spaniel is the dog most Americans picture when they hear "cocker": a compact spaniel with a domed head, big soulful eyes, and a flowing, glamorous coat that sweeps the ground. Developed in the United States from English Cocker stock and bred increasingly as a companion and show dog, the "American" is the smallest member of the AKC sporting group, and today it is far more lapdog than field dog.

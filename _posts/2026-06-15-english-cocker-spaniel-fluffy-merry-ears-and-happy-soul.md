@@ -1,10 +1,10 @@
-﻿---
+---
 title: "English Cocker Spaniel: A Merry Sporting Companion Explained"
 description: "The English Cocker Spaniel is a medium sporting spaniel with a busy nose, silky low ears prone to infection, and a famously merry, people-loving outlook."
 cover: /assets/images/englishcocker-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The English Cocker Spaniel earned its reputation honestly: this is the breed the standard literally describes as "merry," and owners quickly learn why. Bred to flush and retrieve woodcock in the British field, the Cocker pairs a tireless, ground-sniffing work ethic with an affectionate, eager-to-belong personality that follows you from room to room.

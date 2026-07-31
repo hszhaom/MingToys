@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Samoyed Guide: The Smiling Snow Dog and Its Famous Mountain of Fur"
 description: "Samoyeds are joyful, vocal Arctic dogs with a stunning white coat, relentless shedding, heavy grooming needs, heat limits, and real exercise demands."
 cover: /assets/images/samoyed-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 image_credits:
   - asset: "samoyed-play.jpg"
     creator: "Mihai Guzu"

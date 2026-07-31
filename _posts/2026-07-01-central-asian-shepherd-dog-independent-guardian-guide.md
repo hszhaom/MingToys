@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Central Asian Shepherd Dog Breed Guide: Temperament, Care and Ownership"
 description: "The Central Asian Shepherd Dog is a giant independent guardian with strong territory instincts, moderate exercise needs, and serious handling demands."
 cover: /assets/images/centralasianshepherd-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Central Asian Shepherd Dog is an ancient livestock guardian from the vast regions of Central Asia, where dogs had to survive harsh climates, protect flocks, and make decisions without constant human direction. The result is a large, self-assured, quiet, and fearless guardian with a strong sense of territory.

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "English Springer Spaniel Breed Guide: Personality, Care, and Real Owner Advice"
 description: "The English Springer Spaniel is a medium gundog with a busy nose, water-loving nature, feathered ears, daily exercise needs, and regular grooming."
 cover: /assets/images/springerspaniel-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Bred to flush and retrieve game birds for hunters on foot, the English Springer Spaniel still carries that working drive into modern living rooms. This is a dog that wags from the shoulders back, follows its nose into every hedge, and would happily wade into a cold pond in November if you let it. If you want a medium-sized companion that genuinely thrives on activity and human company, the Springer rewards you. If you want a calm dog that entertains itself, this is not the breed.

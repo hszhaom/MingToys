@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Australian Shepherd Breed Guide: Brains, Energy, and the Aussie Life"
 description: "The Australian Shepherd is a striking, high-drive herding dog with a merle coat, strong instincts, heavy exercise needs, and real health risks."
 cover: /assets/images/australianshepherd-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Australian Shepherd is the dog that turns heads at the park, those marbled merle coats, the striking eyes that sometimes come in two different colors, the natural bobtail, and then promptly out-thinks half the dogs there. Behind the good looks is a serious working brain and a body built to run all day. The "Aussie" is one of America's most popular herding breeds, and also one of the most commonly underestimated.

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Saint Bernard Breed Guide: The Alpine Gentle Giant at Home"
 description: "The Saint Bernard is a calm, devoted giant bred for alpine rescue, with heavy drooling, heat sensitivity, and bloat risk. See what this big sweetheart needs."
 cover: /assets/images/saintbernard-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Saint Bernard carries one of the most romantic backstories in the dog world: the heroic mountain rescuer of the snowy Swiss Alps, plodding through blizzards to find lost travelers. The real dog living in your house is just as endearing but a lot drippier. This is a massive, mellow, deeply affectionate giant that wants to be near its family, leans its considerable weight against you for affection, and leaves a trail of slobber wherever it goes. This guide covers what life with one truly involves.

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pembroke vs Cardigan Welsh Corgi Comparison: Key Differences and Which to Choose"
 description: "Pembroke vs Cardigan Welsh Corgi compared: tail, ears, size, colors, temperament, and shedding, so you can tell the two corgi breeds apart and pick the right one."
 cover: /assets/images/corgi-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Most people say "Corgi" as if it were one dog, but it is actually two separate breeds: the Pembroke Welsh Corgi and the Cardigan Welsh Corgi. If you want the shortest answer, look at the tail first. Cardigans have a long fox-like tail, while Pembrokes have little to no tail. From there, the two breeds also differ in ears, size, color range, temperament, and day-to-day owner fit.

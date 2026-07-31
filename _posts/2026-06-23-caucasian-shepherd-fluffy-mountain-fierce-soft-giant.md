@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Caucasian Shepherd Dog Breed Guide: What Owning a Livestock Guardian Means"
 description: "The Caucasian Shepherd is a 100-170 lb livestock guardian with fierce territorial instinct, an independent mind, and demands suited to experienced owners."
 cover: /assets/images/caucasianshepherd-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Caucasian Shepherd Dog, also called the Caucasian Ovcharka, was shaped over centuries in the mountains between the Black and Caspian Seas to do one job supremely well: stand alone against wolves, bears, and thieves to protect livestock. That history is not a quaint footnote. It is the entire personality of the dog, and it explains why this is a breed reserved for genuinely experienced, committed owners and never a casual choice.

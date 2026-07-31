@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Alaskan Malamute Guide: The Powerful, Plush Arctic Sled Dog"
 description: "The Alaskan Malamute is a heavy-shedding, strong-pulling Arctic sled dog with high prey drive, heat sensitivity, and big exercise needs."
 cover: /assets/images/alaskan-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Alaskan Malamute is the largest and oldest of the arctic sled dogs, bred by the Mahlemut people of Alaska to haul heavy freight across frozen distances. Everything about the breed reflects that job: a massive, powerfully built frame, a thick weatherproof double coat, tremendous strength, and the stamina to work all day in brutal cold. Affectionate, dignified, and famously friendly with people, the Malamute is often mistaken for a giant Husky, but it is a heavier, stronger, slower freight dog rather than a fast racer. This guide is an honest look at life with a Malamute, because the same traits that make it magnificent, its power, coat, and arctic instincts, make it a demanding dog that overwhelms many first-time owners.

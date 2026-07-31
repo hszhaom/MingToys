@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Japanese Chin Breed Guide: The Cat-Like Aristocrat of Toy Dogs"
 description: "The Japanese Chin is a quiet, cat-like toy companion with a silky coat, flat face, breathing risk, heat sensitivity, and gentle care needs."
 cover: /assets/images/japanesechin-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Japanese Chin spent centuries as the cherished lap dog of Japanese nobility and aristocracy, and it has never quite forgotten its royal station. Elegant, quiet, and famously cat-like, the Chin is a toy companion that asks for little beyond comfort and your company, returning both with a gentle, charming devotion. If you want a small dog with grace rather than gusto, this is one of the most distinctive choices in the toy group.

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Wirehaired Pointing Griffon Breed Guide: Temperament, Grooming and Care"
 description: "The Wirehaired Pointing Griffon is a rugged bearded gundog with a harsh coat, sensitive temperament, steady hunting style, and close family bond."
 cover: /assets/images/wirehairedpointinggriffon-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Wirehaired Pointing Griffon, sometimes called the Korthals Griffon after the man who developed it, was bred to be a thinking person's gundog: a close-working, methodical hunter that points, retrieves on land and from water, and does it all at a deliberate, trackable pace. The look is unmistakable, a steel-and-brown harsh coat, bushy eyebrows, and a full beard and mustache that earn the breed its "supreme gundog" reputation and a slightly comical, dignified expression.

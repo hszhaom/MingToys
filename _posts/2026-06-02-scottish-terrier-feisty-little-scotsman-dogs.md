@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Scottish Terrier Guide: The Feisty, Dignified Little Scotsman"
 description: "The Scottish Terrier is a bold, independent terrier with a wiry coat, strong prey drive, stubborn streak, and health concerns that need steady management."
 cover: /assets/images/scottie-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Short legs, a long head, bushy eyebrows, and an attitude several sizes larger than the body: that is the Scottish Terrier in a nutshell. Bred in the Scottish Highlands to dig fox, badger, and vermin out of rocky dens, the "Scottie" still carries the working terrier's grit. Owners describe a dog that is fiercely loyal to its person, polite but cool toward strangers, and convinced it is the boss of the household. This guide walks through what living with a Scottie actually involves, from the demanding wiry coat to the breed's well-known stubborn streak.

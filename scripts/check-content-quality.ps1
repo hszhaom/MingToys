@@ -20,12 +20,15 @@ $adsenseInclude = [System.IO.File]::ReadAllText((Join-Path $root '_includes\adse
 if ($adsenseInclude -match 'page\.layout\s*==\s*["'']post') {
   $issues.Add('AdSense still loads automatically for every post layout.')
 }
+if ($adsenseInclude -notmatch 'site\.adsense_enabled') {
+  $issues.Add('AdSense include is missing the site-wide pause switch.')
+}
 
-$monetized = Get-ChildItem (Join-Path $root '_posts'), (Join-Path $root 'pages') -File -Recurse | Where-Object {
+$adEligible = Get-ChildItem (Join-Path $root '_posts'), (Join-Path $root 'pages') -File -Recurse | Where-Object {
   [System.IO.File]::ReadAllText($_.FullName) -match '(?m)^adsense:\s*true\s*$'
 }
 
-foreach ($file in $monetized) {
+foreach ($file in $adEligible) {
   $raw = [System.IO.File]::ReadAllText($file.FullName)
   $sourceCount = [regex]::Matches($raw, '(?m)^  - organization:').Count
   $faqCount = [regex]::Matches($raw, '(?m)^  - question:').Count
@@ -79,7 +82,7 @@ $sitemap = [System.IO.File]::ReadAllText((Join-Path $root 'sitemap.xml'))
 if ($sitemap -match 'site\.time') { $issues.Add('sitemap.xml still uses site.time for lastmod.') }
 
 $firstStory = [System.IO.File]::ReadAllText((Join-Path $root '_posts\2026-05-28-first-story.md'))
-if ($firstStory -match '(?m)^sitemap:\s*false\s*$') { $issues.Add('The Corgi comparison is still excluded from the sitemap.') }
+if ($firstStory -notmatch '(?m)^noindex:\s*true\s*$') { $issues.Add('The unverified Corgi comparison must remain noindex until it is upgraded.') }
 
 $fitCards = [System.IO.File]::ReadAllText((Join-Path $root 'pages\dog-fit-score-cards.html'))
 $nonDiscreteWidths = [regex]::Matches($fitCards, 'style="width:\s*(\d+)%"') | Where-Object {
@@ -109,9 +112,6 @@ foreach ($file in $postFiles) {
   if ($raw -notmatch '/dog-cost-calculator/' -or $raw -notmatch '/dog-fit-score-cards/') {
     $issues.Add("$($file.Name) must link directly to both dog decision tools.")
   }
-  if ($raw -notmatch '(?m)^updated:\s*["'']?\d{4}-\d{2}-\d{2}["'']?\s*$') {
-    $issues.Add("$($file.Name) is missing a page-level updated date.")
-  }
   if ($raw -match $unsupportedInterviewPattern) {
     $issues.Add("$($file.Name) contains an unsupported interview claim.")
   }
@@ -121,12 +121,28 @@ foreach ($file in $postFiles) {
 
   $hasSources = $raw -match '(?m)^sources:\s*$'
   $hasAds = $raw -match '(?m)^adsense:\s*true\s*$'
-  if (-not $hasSources -and $raw -notmatch '(?m)^adsense:\s*false\s*$') {
-    $issues.Add("$($file.Name) has no sources and must keep AdSense disabled.")
+  $hasNoindex = $raw -match '(?m)^noindex:\s*true\s*$'
+  $hasUpdated = $raw -match '(?m)^updated:\s*["'']?\d{4}-\d{2}-\d{2}["'']?\s*$'
+  if (-not $hasSources) {
+    if ($raw -notmatch '(?m)^adsense:\s*false\s*$') {
+      $issues.Add("$($file.Name) has no sources and must keep AdSense disabled.")
+    }
+    if (-not $hasNoindex) {
+      $issues.Add("$($file.Name) has no sources and must remain noindex until it is upgraded.")
+    }
+    if ($hasUpdated) {
+      $issues.Add("$($file.Name) has no sources but still exposes a misleading updated date.")
+    }
+  } elseif (-not $hasUpdated) {
+    $issues.Add("$($file.Name) has page-level sources but no updated date.")
   }
   if ($hasAds -and -not $hasSources) {
     $issues.Add("$($file.Name) enables AdSense without page-level sources.")
   }
+}
+
+if ($sitemap -notmatch 'post\.noindex' -or $sitemap -notmatch 'item\.noindex') {
+  $issues.Add('sitemap.xml does not exclude noindex pages.')
 }
 
 $retiredGuidancePath = Join-Path $root '_data\breed_owner_guidance.json'
@@ -173,4 +189,4 @@ if ($issues.Count -gt 0) {
   exit 1
 }
 
-Write-Host "Content quality checks passed for $($monetized.Count) monetized pages and $($postFiles.Count) directly maintained articles."
+Write-Host "Content quality checks passed for $($adEligible.Count) AdSense-eligible pages and $($postFiles.Count) directly maintained articles."

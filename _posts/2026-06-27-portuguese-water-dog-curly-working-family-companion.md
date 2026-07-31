@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Portuguese Water Dog Breed Guide: Temperament, Grooming, Exercise and Care"
 description: "The Portuguese Water Dog is an athletic curly-coated worker that thrives on swimming, training, family closeness, and regular coat care."
 cover: /assets/images/portuguesewaterdog-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Portuguese Water Dog, or Cao de Agua, earned its keep on the fishing boats of Portugal's Algarve coast, diving for lost gear, herding fish into nets, and carrying messages between vessels. That heritage explains everything about the modern dog: a powerful swimmer with webbed feet, a tireless work drive, a quick problem-solving mind, and a coat built to dry quickly after a plunge. This is a medium athlete dressed in curls, not a decorative lapdog.

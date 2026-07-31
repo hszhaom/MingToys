@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Toy Poodle Guide: Smart, Curly & Low-Shedding Companion"
 description: "The Toy Poodle is a brilliant, low-shedding little dog that thrives on training and company, with grooming costs, sensitivity, and health risks to budget for."
 cover: /assets/images/toypoodle-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Toy Poodle is what you get when you shrink one of the smartest dog breeds in the world down to a few pounds without losing a drop of the intelligence. The same curly, low-shedding coat and quick, eager mind that made the larger Poodles legendary water retrievers and circus performers are all here, packed into a dog small enough for a city apartment. The result is a companion that is far more capable — and far more demanding of your engagement — than its cute, fluffy looks suggest.

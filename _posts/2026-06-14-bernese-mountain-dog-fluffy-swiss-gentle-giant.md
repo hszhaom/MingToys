@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Bernese Mountain Dog: The Gentle Swiss Giant Owner's Guide"
 description: "The Bernese Mountain Dog is a giant tricolor Swiss working dog with a heavy double coat, a famously short lifespan, and a tender, people-bonded heart."
 cover: /assets/images/bernesemountaindog-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Few dogs look as unmistakable as a Bernese Mountain Dog: a glossy black body, rust markings on the legs and cheeks, and a crisp white blaze running up the muzzle and chest. Bred in the farmlands around Bern, Switzerland, these dogs once pulled milk carts and watched over cattle, and that working-farm heritage still shows in their calm strength and devotion to the family they live with.

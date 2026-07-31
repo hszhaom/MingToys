@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Great Dane Breed Guide: Living with a Gentle Giant"
 description: "The Great Dane is a towering, affectionate giant with a short lifespan, high bloat risk, large-space needs, and expensive daily care."
 cover: /assets/images/greatdane-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 There is nothing subtle about a Great Dane. Standing on its hind legs, it can look you in the eye or tower over you, and yet most of them genuinely believe they are lap dogs and will attempt to prove it on your couch. The "Apollo of dogs" pairs an imposing, statuesque frame with one of the softest, most affectionate temperaments in the canine world. Sharing your home with one means giving up a surprising amount of that home.

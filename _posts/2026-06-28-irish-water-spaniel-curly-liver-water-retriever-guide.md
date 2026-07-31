@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Irish Water Spaniel Breed Guide: Temperament, Grooming, Exercise and Care"
 description: "The Irish Water Spaniel is a liver-curled water retriever with a topknot, rat tail, comic personality, high stamina, and serious coat and ear care."
 cover: /assets/images/irishwaterspaniel-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Irish Water Spaniel is the tallest of the spaniels and one of the most unmistakable dogs in the field, with a coat of tight liver-colored curls, a curly "topknot" between the ears, and a smooth, tapering "rat tail" that gives the breed away at a glance. Bred in Ireland to retrieve waterfowl from cold lakes and rivers, it pairs serious working stamina with a mischievous, almost comedic personality that owners adore.

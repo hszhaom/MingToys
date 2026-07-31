@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Finnish Spitz Breed Guide: The Singing Fox-Dog of the North"
 description: "The Finnish Spitz is a flame-red, fox-faced spitz known for its musical bark, prey drive, double coat, and lively northern hunting heritage."
 cover: /assets/images/finnishspitz-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Finland's national dog is a flash of flame-red fur with the face of a fox and the voice of an opera singer. Bred to hunt game birds by locating them, then "yodeling" to signal the hunter while the bird stayed transfixed, the Finnish Spitz is defined by its remarkable, musical bark. Anyone considering this breed should fall in love with that voice first, because it is not optional, it is the dog.

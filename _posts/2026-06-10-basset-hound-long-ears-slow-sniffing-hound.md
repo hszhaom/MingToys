@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Basset Hound Owner Guide: The Low-Slung Scent Hound With a Big Voice"
 description: "Basset Hounds are gentle, stubborn scent hounds with droopy ears, a loud bay, and real risks of ear infections, obesity, and back strain. Here's the care reality."
 cover: /assets/images/bassethound-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Few dogs are as instantly recognizable as the Basset Hound: long, heavy ears that sweep the ground, a wrinkled brow, soulful droopy eyes, and a long body set low on short, powerful legs. Weighing a deceptively heavy 40 to 65 pounds despite standing only about 14 inches tall, the Basset was bred in France to track rabbits and hare at a slow, deliberate pace that hunters on foot could follow. That nose, second only to the Bloodhound's, and that easygoing temperament define everything about life with one.

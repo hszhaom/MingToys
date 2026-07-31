@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Italian Greyhound: The Delicate Sighthound Owner's Handbook"
 description: "The Italian Greyhound is a tiny, fragile sighthound: a fast, cuddly, cold-sensitive companion prone to leg fractures and dental disease that needs a gentle home."
 cover: /assets/images/italiangreyhound-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Italian Greyhound is a greyhound shrunk to the size of a cat, all slender legs, arched back, and big expressive eyes. Often called the "IG" or "Iggy," this ancient companion sighthound has spent centuries warming the laps of nobility, and it still divides its days between two passions: a few minutes of glorious zooming and many hours buried under a blanket.

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Brussels Griffon: The Comical Velcro Toy Dog, Up Close"
 description: "The Brussels Griffon is a tiny, human-faced toy dog: clownish, intensely bonded, and Velcro-clingy, with a flat-faced version prone to breathing and eye issues."
 cover: /assets/images/brusselsgriffon-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Brussels Griffon has one of the most human faces in dogdom: large dark eyes, a pushed-in nose, and a whiskery beard that gives the rough-coated variety a permanently bemused, almost philosophical expression. Once a scrappy ratter riding alongside Belgian coachmen, this Belgian toy breed reinvented itself as a devoted companion, and it brings the same big-dog personality it always had, just packed into a five-to-twelve-pound frame.

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pomeranian Care Guide: Fluffy Coat, Bold Spirit & Health"
 description: "The Pomeranian is a tiny spitz with a fox face, giant double coat, fearless confidence, frequent barking, and knee and trachea health risks."
 cover: /assets/images/pomeranian-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Pomeranian looks like a pocket-sized fox wearing a cloud, and it behaves like a dog ten times its weight. This is a true spitz — descended from much larger Arctic sled dogs and bred down to a few showy pounds — which is why a Pom carries itself with such cocky, alert, big-dog confidence despite tipping the scales at three to seven pounds. The plush double coat and bright, foxy face are the breed's calling card, but the personality is what keeps owners hooked.

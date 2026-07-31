@@ -117,11 +117,10 @@ faq_schema:
       <li><a href="{{ site.url }}/posts/2026/06/01/shiba-inu-japanese-smirking-meme-dogs/">Shiba Inu Breed Guide</a></li>
     </ul>
 
-    <h2>All Dog Breed Profiles</h2>
+    <h2>Source-Reviewed Breed Profiles</h2>
     <p>
-      This index uses the same breed data that powers the <a href="{{ site.url }}/dog-breed-finder/">Dog Breed Finder</a> and
-      <a href="{{ site.url }}/dog-cost-calculator/">Dog Cost Calculator</a>, so the main owner-fit signals stay consistent across
-      PetStorie.
+      The table below lists guides that are currently in the source-reviewed collection. The planning tools use the same editorial
+      data labels, but their outputs are starting points, not a substitute for reading a full guide or meeting real dogs.
     </p>
     <table>
       <thead>
@@ -136,6 +135,8 @@ faq_schema:
       </thead>
       <tbody>
         {% for breed in site.data.breeds %}
+        {% assign breed_post = site.posts | where: "url", breed.url | first %}
+        {% unless breed_post.noindex %}
         <tr>
           <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>
           <td>{{ breed.size | replace: "-", " " | capitalize }}</td>
@@ -144,6 +145,7 @@ faq_schema:
           <td>{{ breed.grooming | capitalize }}</td>
           <td>{{ breed.experience | replace: "-", " " | capitalize }}</td>
         </tr>
+        {% endunless %}
         {% endfor %}
       </tbody>
     </table>

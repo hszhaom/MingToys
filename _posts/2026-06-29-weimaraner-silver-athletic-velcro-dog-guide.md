@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Weimaraner Breed Guide: Temperament, Exercise, Health and Care"
 description: "The Weimaraner is a sleek silver-gray gundog with intense attachment, extreme exercise needs, separation anxiety risk, and bloat concerns."
 cover: /assets/images/weimaraner-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Weimaraner is impossible to mistake: a tall, sleek, silver-gray dog with striking amber or blue-gray eyes and a regal, athletic outline that earned it the nickname "the Gray Ghost." Developed by German nobility in the 19th century to hunt big game and later refined into a versatile bird dog, the Weimaraner combines greyhound-like speed, pointer instinct, and a fierce need to be at its owner's side.

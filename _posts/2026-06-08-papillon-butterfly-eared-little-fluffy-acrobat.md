@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Papillon Guide: The Butterfly-Eared Toy Dog With an Athlete's Brain"
 description: "Don't mistake the Papillon for a lap dog. This toy breed is an agility champion, brilliant and busy, with fragile bones and a need for real exercise."
 cover: /assets/images/papillon-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Papillon takes its name from the French word for butterfly, a nod to the large, fringed, upright ears that frame its delicate face like spread wings. Weighing just 5 to 10 pounds and standing 8 to 11 inches tall, it's one of the smallest of the toy breeds, yet it behaves nothing like a sleepy lap warmer. This is one of the oldest toy spaniels, a fixture in European royal courts for centuries, and behind the dainty looks sits a genuinely brilliant, energetic little working brain.

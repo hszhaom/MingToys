@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Icelandic Sheepdog Breed Guide: Temperament, Barking, Care and Exercise"
 description: "The Icelandic Sheepdog is a cheerful Nordic herder with a curled tail, vocal nature, thick double coat, and strong need for family activity."
 cover: /assets/images/icelandicsheepdog-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Icelandic Sheepdog is Iceland's only native breed, a compact spitz that spent centuries trotting across volcanic pastures to gather sheep and ponies. You will recognize one by the foxy face, pricked triangular ears, and a plumed tail that curls tightly over the back. Underneath that cheerful exterior is a working farm dog that thinks for itself, talks a lot, and wants to be wherever its people are.

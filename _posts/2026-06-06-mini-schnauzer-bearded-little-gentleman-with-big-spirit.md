@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Miniature Schnauzer: The Bearded Watchdog Who Thinks He's Big"
 description: "The Miniature Schnauzer pairs a wiry beard with terrier boldness, frequent barking, steady grooming, diet discipline, and pancreatitis risk."
 cover: /assets/images/minischnauzer-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Miniature Schnauzer is a compact terrier with a square build, bushy eyebrows, and the unmistakable beard that gives the breed its dignified, slightly opinionated look. Standing roughly 12 to 14 inches at the shoulder and weighing about 11 to 20 pounds, this is a small dog with the wiring of a much larger working terrier. Bred down from the Standard Schnauzer to keep barns and homesteads free of rats, the Mini kept the courage and the bark, which is exactly what surprises first-time owners.

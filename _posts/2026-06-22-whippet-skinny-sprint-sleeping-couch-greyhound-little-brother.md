@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Whippet Breed Guide: The 35 MPH Couch Potato Explained"
 description: "The Whippet is a quiet sighthound with explosive speed, thin skin, low body fat, strong prey drive, and easy grooming needs."
 cover: /assets/images/whippet-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Whippet lives a delightful double life. For a few electric minutes a day it is among the fastest animals on four legs, capable of roughly 35 miles per hour and a turning radius that looks physically impossible. The rest of the time it is a quiet, blanket-burrowing homebody that wants nothing more than to be warm and pressed against you. Once you understand that rhythm, the Whippet becomes one of the easiest medium dogs to live with.

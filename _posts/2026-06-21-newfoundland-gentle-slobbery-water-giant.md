@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Newfoundland Breed Guide: Living With a Gentle Water-Rescue Giant"
 description: "The Newfoundland is a 100-150 lb water-rescue giant with a thick coat, heavy drool, sweet patience, climate limits, and giant-breed health needs."
 cover: /assets/images/newfoundland-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Few dogs carry a reputation as tender as the Newfoundland's. Bred by fishermen on Canada's Atlantic coast to haul nets, pull carts, and pluck drowning sailors from cold water, the "Newfie" combines enormous physical power with one of the softest temperaments in the dog world. This is a working giant designed for cold and water, and understanding both of those facts is the key to keeping one happy.

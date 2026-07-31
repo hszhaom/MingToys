@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Shih Tzu Guide: Personality, Health & Owner Tips"
 description: "The Shih Tzu is a sweet, easygoing flat-faced companion bred for the lap, with a mellow nature, heavy coat care, heat limits, and breathing concerns."
 cover: /assets/images/shih-tzu-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Shih Tzu was bred for one job above all: to be a companion. Developed centuries ago as a treasured lap dog of Chinese royalty, this "little lion dog" carries no herding drive, no hunting instinct, and no ambition beyond being near its people. The result is one of the most genuinely affectionate, easygoing small breeds you can own — a sturdy, friendly, flowing-coated dog that's as happy on the sofa as anywhere on earth.

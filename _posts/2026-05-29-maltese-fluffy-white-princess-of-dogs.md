@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Maltese Breed Guide: Silky Coat, Sweet Nature & Daily Care"
 description: "The Maltese is a gentle white toy breed with a flowing silky coat, close human bond, tear-stain issues, daily grooming needs, and a fragile build."
 cover: /assets/images/maltese-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 Few dogs look as elegant as a Maltese gliding across a room in a floor-length white coat. Yet under all that glamour is a playful, gentle, and slightly mischievous little companion that has been bred purely for human company for thousands of years. This is one of the oldest toy breeds in the world, and it shows in how completely the Maltese has tuned itself to being by your side.

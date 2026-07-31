@@ -6,7 +6,7 @@ sitemap: false
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign content_pages = site.pages | where: "layout", "default" %}
   {% for item in content_pages %}
-  {% unless item.sitemap == false or item.canonical_url %}
+  {% unless item.sitemap == false or item.canonical_url or item.noindex %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
     {% if item.updated %}<lastmod>{{ item.updated | date: '%Y-%m-%d' }}</lastmod>{% endif %}
@@ -15,11 +15,10 @@ sitemap: false
   {% endfor %}
 
   {% for post in site.posts %}
-  {% unless post.sitemap == false or post.canonical_url %}
-  {% assign post_modified = post.updated | default: post.date %}
+  {% unless post.sitemap == false or post.canonical_url or post.noindex %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    <lastmod>{{ post_modified | date: '%Y-%m-%d' }}</lastmod>
+    {% if post.updated %}<lastmod>{{ post.updated | date: '%Y-%m-%d' }}</lastmod>{% endif %}
   </url>
   {% endunless %}
   {% endfor %}

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Cavalier King Charles Spaniel Breed Guide: Care, Traits, and Health"
 description: "The Cavalier King Charles Spaniel is a sweet, adaptable lap spaniel that loves people deeply but carries serious heart and neurological risks."
 cover: /assets/images/cavalier-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 If you want a dog that treats every human as a long-lost friend, the Cavalier King Charles Spaniel may already have won you over. These small, silky spaniels were bred for one job, to be a companion, and they take it seriously, curling into laps, trotting after you room to room, and gazing up with those famously soft, round eyes. The sweetness is real, but so are the health realities every prospective owner needs to understand.

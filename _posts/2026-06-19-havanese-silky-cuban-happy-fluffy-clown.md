@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Havanese: Cuba's Silky, Sociable Companion Dog Explained"
 description: "The Havanese is Cuba's national dog: a small, sociable, trainable companion with a silky non-shedding coat that mats easily and a deep need for human company."
 cover: /assets/images/havanese-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The Havanese is Cuba's only native breed and its national dog, a small bichon-type companion with a silky, flowing coat and a cheerful spring in its step. Bred for centuries to be a family companion, it has long been prized for close involvement with people.

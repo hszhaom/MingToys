@@ -1,10 +1,10 @@
-﻿---
+---
 title: "German Wirehaired Pointer Breed Guide: Temperament, Exercise and Care"
 description: "The German Wirehaired Pointer is a driven all-terrain gundog with a wiry coat, high exercise needs, loyal nature, and serious hunting instinct."
 cover: /assets/images/germanwirehairedpointer-cover.jpg
 layout: post
 adsense: false
-updated: "2026-07-30"
+noindex: true
 ---
 
 The German Wirehaired Pointer, or Deutsch Drahthaar, was engineered in late-1800s Germany to be the complete hunting machine: a single dog that could point birds, track wounded game, and retrieve from icy water, all while shrugging off thorns, cold, and rough terrain thanks to a tough, weatherproof coat. The result is a powerful, square-built gundog with a determined expression, a sharp nose, and a work ethic that rarely quits.
