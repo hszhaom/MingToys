@@ -21,6 +21,16 @@ layout: default
     <div class="post-content">
       {{ content }}
     </div>
+    {% if page.owner_context %}
+    <aside class="editorial-note" aria-label="First-hand editorial context">
+      <h2>First-Hand Context</h2>
+      <p>{{ page.owner_context }}</p>
+      <p>
+        This is limited personal context, not veterinary or training expertise. Breed-wide health, behavior, and safety statements
+        in this guide are supported by the page-level sources and should not be read as a guarantee about an individual dog.
+      </p>
+    </aside>
+    {% endif %}
     {% include faq.html embedded=true %}
     {% include sources.html %}
     <aside class="editorial-note" aria-label="Editorial note">

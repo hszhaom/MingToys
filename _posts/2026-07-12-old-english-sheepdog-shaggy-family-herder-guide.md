@@ -3,7 +3,7 @@ title: "Old English Sheepdog Breed Guide: Temperament, Grooming, Care and Family
 description: "The Old English Sheepdog is a large shaggy herder with comic charm, heavy grooming needs, moderate exercise, and a warm family nature."
 cover: /assets/images/oldenglishsheepdog-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
 image_credits:
   - asset: "oldenglishsheepdog-cover.jpg"
@@ -53,7 +53,7 @@ faq_schema:
     answer: "Usually they are easier in homes with more space. Apartment life can be difficult because of size, coat care, and activity needs."
 ---
 
-The Old English Sheepdog is instantly recognizable: large, shaggy, rolling in movement, and often full of clownish charm. Behind the famous coat is a real herding dog with strength, brains, and a people-loving personality that can make it a memorable family companion.
+The Old English Sheepdog asks a buyer to decide about grooming before falling in love with the silhouette. A full coat changes the schedule for brushing, bathing, drying, cleaning around the eyes and feet, and finding help when the job gets ahead of you. The dog behind the hair is a large, friendly herding breed, not a decorative object that happens to need a trim.
 
 The coat is the honest starting point. An Old English Sheepdog is not a low-maintenance large dog. Grooming, mat prevention, bathing, drying, and trimming around eyes and feet can take serious time or money. If that commitment is realistic, the breed offers warmth, humor, and a big-hearted presence.
 
@@ -167,7 +167,7 @@ Loose hair, mats, debris, washing, and drying create substantial work. Even a sh
 
 Herding, size, excitement, pain, and child behavior still matter. Adults should supervise, teach respectful interaction, and give the dog a quiet escape area.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to compare full-coat grooming with a pet trim, then add large food, training, drying equipment, walkers, boarding, and medical reserves. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare grooming time, wet-weather cleanup, child movement, elevator or car access, exercise, and comfort handling a large adolescent.
+Run two versions in the [dog cost calculator]({{ site.url }}/dog-cost-calculator/): one for a maintained full coat and one for a shorter pet trim. Add large-dog food, training, drying equipment, walking help, boarding, and medical savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) then bring the living arrangement into view: grooming time, wet-weather cleanup, child movement, elevator or car access, exercise, and confidence handling a large adolescent.
 
 ## Is an Old English Sheepdog Right for You?
 

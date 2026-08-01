@@ -3,7 +3,7 @@ title: "Pug Guide: The Wrinkly, Snoring Little Companion Clown"
 description: "The Pug is a charming brachycephalic companion with breathing and heat risks, prominent eyes, deep facial folds, and a serious appetite."
 cover: /assets/images/pug-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -37,7 +37,7 @@ faq_schema:
     answer: "The main concerns are breathing problems (BOAS), heat sensitivity, eye injuries and disorders, skin-fold infections, and obesity, plus some risk of spinal issues and Pug Dog Encephalitis. Choosing a breeder who prioritizes healthier breathing helps reduce these risks."
 ---
 
-Few dogs wear their personality as openly as the Pug. That round, wrinkled face, the big dark eyes, the curled tail, and the comically expressive repertoire of snorts and snuffles add up to a companion bred for one purpose only: keeping people company. Originating in ancient China as a lapdog for emperors, the Pug has spent centuries perfecting the art of charming humans, and it shows. Pugs are affectionate, even-tempered, sociable little clowns that want nothing more than to be near their people. But that adorable flat face comes with serious health responsibilities, and a good owner needs to understand them. This guide covers the real joys and the genuine medical realities of living with a Pug.
+The Pug is often sold by its expression: large eyes, wrinkles, comic noises, and a compact body that wants to be close to its people. Those qualities do make it an engaging companion. They also mean the owner has to watch heat, body weight, eyes, skin folds, and breathing function with more care than the small size suggests.
 
 The single most important fact about the breed is that the Pug is brachycephalic, meaning its skull is short and its face is flat. That flat face creates the cute looks and the charming snore, but it also causes real breathing limitations and a dangerous sensitivity to heat that shape nearly every aspect of the dog's care.
 
@@ -161,7 +161,7 @@ They need controlled daily movement for weight, mobility, and enrichment. The an
 
 Some noise is common, but struggling, poor sleep, collapse, blue or pale gums, and slow recovery require veterinary attention. Familiar sounds should not replace a functional breathing assessment.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include insurance or medical savings, eye and skin care, dental work, cooling, weight management, safe travel, and routine veterinary review. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare climate, stairs, veterinary access, grooming details, child handling, and comfort with health uncertainty alongside apartment fit.
+Build a Pug estimate in the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) around insurance or medical savings, eye and skin-fold care, dental work, cooling, weight management, and safe travel. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) put apartment appeal in perspective by weighing climate, veterinary access, stairs, child handling, and the household's ability to live responsibly with health uncertainty.
 
 ## Is a Pug Right for You?
 

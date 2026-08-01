@@ -4,6 +4,7 @@ description: "The Toy Poodle is a brilliant, low-shedding little dog that thrive
 cover: /assets/images/toypoodle-cover.jpg
 layout: post
 adsense: false
+owner_context: "ming.zhao has personally cared for Toy Poodles for around two years."
 noindex: true
 ---
 

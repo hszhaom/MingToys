@@ -3,8 +3,9 @@ title: "Pembroke Welsh Corgi Guide: Big-Dog Brains on Short Cattle-Herding Legs"
 description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame, with real exercise needs, heavy shedding, herding nips, and back risks to manage."
 cover: /assets/images/corgi-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
+owner_context: "ming.zhao has personally cared for Pembroke Welsh Corgis for around four years."
 sources:
   - organization: "American Kennel Club"
     title: "Pembroke Welsh Corgi"
@@ -37,7 +38,7 @@ faq_schema:
     answer: "Not necessarily. They do well in apartments or small homes as long as they get daily walks, play, and mental work. It's the activity, not the square footage, that keeps a Corgi balanced."
 ---
 
-The Pembroke Welsh Corgi looks like a punchline, all ears and torso on stubby legs, but underestimate it at your peril. This is a genuine herding dog, bred in Wales to drive cattle by nipping at their heels and dodging the kicks that followed. That working history shaped everything about the breed: the quick mind, the loud opinionated bark, the surprising stamina, and yes, the instinct to herd whatever moves, including your children and your ankles. This guide covers what the royal-favorite Corgi is actually like to live with.
+A Pembroke Welsh Corgi may be low to the floor, but it is not a low-demand dog. The breed was developed to move cattle, and that job still shows up as barking at movement, nipping at fast feet, an appetite for activity, and a firm opinion about household rules. The practical question is not whether a Corgi fits in a small home; it is whether the people in that home want to manage a small herding dog every day.
 
 Corgis have become internet royalty for their sploots and bread-loaf silhouettes, and Queen Elizabeth II famously kept dozens over her lifetime. But the meme image hides a sharp, energetic working dog packed into a small body. A Corgi that doesn't get enough mental and physical work will happily reorganize your household according to its own herding agenda.
 
@@ -163,7 +164,7 @@ Pembrokes are athletic herding dogs in a compact body. They need daily activity 
 
 Extra weight adds stress to the back and joints and can disappear visually under the coat. Feel the ribs and waist, measure food, and ask a veterinarian to assess body condition instead of judging from online photos.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to enter training, quality weight-controlled food, shedding tools, ramps or gates, dog walking, and a reserve for orthopedic or back care. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare barking, stairs, child movement, exercise time, shedding tolerance, and whether the household can enforce consistent rules.
+Put a Corgi household into the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) with weight-controlled food, training, shedding tools, gates or ramps where needed, walking help, and money reserved for routine and unexpected care. On the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/), be candid about shared-wall noise, stairs, fast-moving children, and whether everyone will follow the same rules around barking, food, and heel-nipping.
 
 ## Is a Pembroke Welsh Corgi Right for You?
 

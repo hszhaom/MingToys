@@ -3,7 +3,7 @@ title: "Great Pyrenees: Living With the White Mountain Guardian"
 description: "The Great Pyrenees is a massive white livestock guardian: calm and gentle at home, fiercely independent, a notorious night barker, and a heavy seasonal shedder."
 cover: /assets/images/greatpyrenees-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
 image_credits:
   - asset: "greatpyrenees-cover.jpg"
@@ -49,7 +49,7 @@ faq_schema:
     answer: "Often not. Their independence, stubbornness, barking, size, and guardian instincts make them challenging for inexperienced owners. They suit people who understand and want a livestock-guardian temperament."
 ---
 
-A Great Pyrenees looks like a snowdrift come to life: a vast white dog, often topping a hundred pounds, with a weatherproof coat and a serene, almost regal stillness. For centuries these dogs guarded sheep flocks alone in the high meadows of the Pyrenees Mountains between France and Spain, and that legacy shapes everything about them, from their deep, patient calm to their stubborn independence and their around-the-clock instinct to patrol and protect.
+A Great Pyrenees can be quiet beside its family and very loud when it decides the property needs guarding. That difference surprises people who choose the breed for its serene appearance. Its livestock-guardian history shapes night barking, independent decisions, visitor caution, fencing needs, and the kind of neighborhood where ownership can stay comfortable for everyone.
 
 This is not a dog you train so much as a dog you partner with. Understanding the livestock-guardian mindset is the key to a happy life together, because a Pyr does not think like a retriever or a herder. It thinks like a guardian who has made its own decisions for a very long time.
 
@@ -174,7 +174,7 @@ The soft family manner can look similar, but the guardian's independence, territ
 
 Training and management can reduce triggers and improve coming indoors, but alerting after dark is deeply rooted. Location and neighbor tolerance remain part of the ownership decision.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include giant food and medication, fencing, gates, coat tools, training, insurance checks, cooling, capable boarding, and emergency transport. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare neighbor distance, night noise, livestock purpose, visitors, fencing, climate, and comfort living with independent decisions.
+The [dog cost calculator]({{ site.url }}/dog-cost-calculator/) should include giant-breed food and medication, fencing, gates, coat tools, training, cooling, capable boarding, and emergency transport. Use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) to look beyond the acreage: neighbor distance, night noise, livestock purpose, visitors, fencing, climate, and comfort with a dog that will sometimes make an independent decision.
 
 ## Is a Great Pyrenees Right for You?
 

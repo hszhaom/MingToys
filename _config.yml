@@ -1,13 +1,13 @@
 # Site basics
 title: PetStorie
 description: Dog breed guides covering temperament, care, grooming, health concerns, training tips, and owner fit.
-author: Ming Zhao
+author: ming.zhao
 owner_type: Personal website
 contact_email: zhaoming990@gmail.com
 repository_url: "https://github.com/hszhaom/MingToys"
 adsense_enabled: false
 editor:
-  name: "Ming Zhao"
+  name: "ming.zhao"
   role: "Founder and Editor"
   location: "Hong Kong"
   profile_url: "/about/#ming-zhao"

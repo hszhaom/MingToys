@@ -3,7 +3,7 @@ title: "Border Collie Breed Guide: The Smartest Dog and What It Demands"
 description: "The Border Collie is widely called the smartest dog breed, with extreme exercise needs, intense mental demands, and a strong herding drive."
 cover: /assets/images/bordercollie-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -37,7 +37,7 @@ faq_schema:
     answer: "They can be vocal, especially when excited, under-stimulated, or reacting to movement. A well-exercised, mentally engaged dog barks far less. Their alertness and noise sensitivity mean training a \"quiet\" cue is useful for most owners."
 ---
 
-The Border Collie is routinely called the most intelligent dog breed in the world, and that intelligence is exactly why it is also one of the most misunderstood. People see the famous frisbee champions and trial-winning sheepdogs and want one, then discover that the brilliance comes with a price: a dog that needs a job, thinks faster than you do, and will absolutely create its own work if you fail to provide it. This guide is about whether you can realistically meet that bar.
+A Border Collie is a rewarding match for someone who wants to plan activity, training, recovery, and calm as part of daily life. It is a poor match for someone who wants a clever dog to entertain itself. Intelligence in this breed can look like focused cooperation, but without useful outlets it can also turn into movement chasing, noise sensitivity, and a dog that has never learned how to settle.
 
 Bred along the rugged border between Scotland and England to gather and move sheep across vast hills, the Border Collie is a working dog first and a pet second, and its instincts run deep. The hallmark "eye," the crouch-and-stalk, the obsessive focus on movement, these are not quirks to train out but the core of the breed. Living happily with one means understanding that you are taking on a tireless, problem-solving athlete that was built to work all day.
 
@@ -165,7 +165,7 @@ Fast learning includes fears, routines, and unwanted chains. Sensitivity and mot
 
 Most yards offer the same sights every day. The dog needs shared tasks, novelty, controlled movement, and rest. Unstructured access may strengthen barking or fixation instead.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include training, sport or scent activities, dog walking that matches the dog, secure equipment, injury reserves, and care during unavoidable rest periods. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare household motion, other pets, daily training time, apartment noise, rest skills, and whether the owner wants a working relationship every day.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to price the relationship, not only the supplies: coaching, sport or scent activities, walking that suits the dog, secure equipment, injury savings, and care during forced rest. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can reveal a mismatch early by comparing household motion, other pets, training time, apartment noise, rest skills, and whether the owner genuinely wants a working partnership every day.
 
 ## Is a Border Collie Right for You?
 

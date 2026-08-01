@@ -16,6 +16,52 @@ function Get-BodyWordCount {
   return [regex]::Matches($plain, "[A-Za-z]+(?:['-][A-Za-z]+)*").Count
 }
 
+function Get-FirstBodyParagraph {
+  param([string]$Raw)
+
+  $body = [regex]::Replace($Raw, '(?s)\A---\s*.*?\s*---\s*', '').Trim()
+  foreach ($block in [regex]::Split($body, '\r?\n\s*\r?\n')) {
+    $plain = [regex]::Replace($block, '(?m)^#{1,6}\s+.*$|!\[[^\]]*\]\([^\)]*\)|\|.*\||\{\{.*?\}\}', ' ')
+    $words = [regex]::Matches($plain, "[A-Za-z]+(?:['-][A-Za-z]+)*")
+    if ($words.Count -ge 12) {
+      return (($words | Select-Object -First 24 | ForEach-Object { $_.Value.ToLowerInvariant() }) -join ' ')
+    }
+  }
+
+  return $null
+}
+
+function Get-InternalContentLinks {
+  param([string]$Raw)
+
+  $excluded = @(
+    '/dog-cost-calculator/',
+    '/dog-fit-score-cards/',
+    '/about/',
+    '/contact/',
+    '/editorial-policy/',
+    '/data-sources/'
+  )
+
+  return @(
+    [regex]::Matches($Raw, '\]\(\{\{\s*site\.url\s*\}\}(/[^\s\)]+)') |
+      ForEach-Object { $_.Groups[1].Value } |
+      Where-Object { $_ -notin $excluded } |
+      Select-Object -Unique
+  )
+}
+
+function Get-CustomDecisionHeadings {
+  param([string]$Raw)
+
+  $standardHeadingPattern = '(?i)(Quick Facts|Temperament|Common .+ Health Issues|Pros and Cons|Is .+ Right for You\?|FAQ)$'
+  return @(
+    [regex]::Matches($Raw, '(?m)^##\s+(.+?)\s*$') |
+      ForEach-Object { $_.Groups[1].Value.Trim() } |
+      Where-Object { $_ -notmatch $standardHeadingPattern }
+  )
+}
+
 $adsenseInclude = [System.IO.File]::ReadAllText((Join-Path $root '_includes\adsense.html'))
 if ($adsenseInclude -match 'page\.layout\s*==\s*["'']post') {
   $issues.Add('AdSense still loads automatically for every post layout.')
@@ -24,8 +70,77 @@ if ($adsenseInclude -notmatch 'site\.adsense_enabled') {
   $issues.Add('AdSense include is missing the site-wide pause switch.')
 }
 
+$faqInclude = [System.IO.File]::ReadAllText((Join-Path $root '_includes\faq.html'))
+$defaultLayout = [System.IO.File]::ReadAllText((Join-Path $root '_layouts\default.html'))
+if ($faqInclude -notmatch 'page\.faq_schema') {
+  $issues.Add('Visible FAQs must render from page.faq_schema.')
+}
+if ($defaultLayout -notmatch '"@type": "FAQPage"' -or $defaultLayout -notmatch 'page\.faq_schema') {
+  $issues.Add('FAQ JSON-LD must render from the same page.faq_schema data as visible FAQs.')
+}
+
 $adEligible = Get-ChildItem (Join-Path $root '_posts'), (Join-Path $root 'pages') -File -Recurse | Where-Object {
   [System.IO.File]::ReadAllText($_.FullName) -match '(?m)^adsense:\s*true\s*$'
+}
+
+$sourceReviewedPosts = @(
+  Get-ChildItem (Join-Path $root '_posts') -Filter '*.md' | Where-Object {
+    $raw = [System.IO.File]::ReadAllText($_.FullName)
+    $raw -match '(?m)^sources:\s*$' -and $raw -notmatch '(?m)^noindex:\s*true\s*$'
+  }
+)
+
+$openingSignatures = @{}
+foreach ($file in $sourceReviewedPosts) {
+  $raw = [System.IO.File]::ReadAllText($file.FullName)
+  $opening = Get-FirstBodyParagraph $raw
+  if ([string]::IsNullOrWhiteSpace($opening)) {
+    $issues.Add("$($file.Name) has no usable opening paragraph.")
+  } elseif ($openingSignatures.ContainsKey($opening)) {
+    $issues.Add("$($file.Name) repeats the opening used by $($openingSignatures[$opening]).")
+  } else {
+    $openingSignatures[$opening] = $file.Name
+  }
+
+  $headings = @([regex]::Matches($raw, '(?m)^##\s+(.+?)\s*$') | ForEach-Object { $_.Groups[1].Value.Trim() })
+  $duplicateHeadings = $headings | Group-Object { $_.ToLowerInvariant() } | Where-Object { $_.Count -gt 1 }
+  foreach ($duplicate in $duplicateHeadings) {
+    $issues.Add("$($file.Name) repeats H2 heading '$($duplicate.Group[0])'.")
+  }
+
+  $customHeadings = Get-CustomDecisionHeadings $raw
+  if ($customHeadings.Count -lt 3) {
+    $issues.Add("$($file.Name) has only $($customHeadings.Count) breed-specific decision sections; expected at least 3.")
+  }
+
+  $internalContentLinks = Get-InternalContentLinks $raw
+  if ($internalContentLinks.Count -lt 2) {
+    $issues.Add("$($file.Name) has only $($internalContentLinks.Count) related internal content links; expected at least 2.")
+  }
+
+  $faqQuestions = [regex]::Matches($raw, '(?m)^  - question:\s*').Count
+  $faqAnswers = [regex]::Matches($raw, '(?m)^    answer:\s*').Count
+  if ($faqQuestions -lt 3 -or $faqQuestions -ne $faqAnswers) {
+    $issues.Add("$($file.Name) has inconsistent faq_schema question/answer data.")
+  }
+  if ($raw -match '(?m)^##\s+FAQ\s*$') {
+    $issues.Add("$($file.Name) duplicates FAQ content outside faq_schema.")
+  }
+
+  $stockPhrases = @(
+    @{ Label = 'not just'; Pattern = '(?i)\bnot just\b'; Maximum = 2 },
+    @{ Label = 'rather than'; Pattern = '(?i)\brather than\b'; Maximum = 8 },
+    @{ Label = 'the reality is'; Pattern = '(?i)\bthe reality is\b'; Maximum = 1 },
+    @{ Label = 'when it comes to'; Pattern = '(?i)\bwhen it comes to\b'; Maximum = 1 },
+    @{ Label = 'it is important to'; Pattern = '(?i)\bit is important to\b'; Maximum = 1 },
+    @{ Label = 'ordinary week'; Pattern = '(?i)\ban ordinary week\b'; Maximum = 0 }
+  )
+  foreach ($phrase in $stockPhrases) {
+    $count = [regex]::Matches($raw, $phrase.Pattern).Count
+    if ($count -gt $phrase.Maximum) {
+      $issues.Add("$($file.Name) uses '$($phrase.Label)' $count times; maximum is $($phrase.Maximum).")
+    }
+  }
 }
 
 foreach ($file in $adEligible) {
@@ -45,9 +160,7 @@ foreach ($file in $adEligible) {
     $headings = [regex]::Matches($raw, '(?m)^##\s+(.+?)\s*$') | ForEach-Object {
       $_.Groups[1].Value.Trim()
     }
-    $decisionHeadings = $headings | Where-Object {
-      $_ -notmatch '(?i)(Quick Facts|Temperament|Common .+ Health Issues|Pros and Cons|Is .+ Right for You\?|FAQ)$'
-    }
+    $decisionHeadings = Get-CustomDecisionHeadings $raw
 
     if ($raw -match $legacyHeadingPattern) {
       $issues.Add("$($file.Name) has a legacy shared-template heading: $($Matches[1]).")
@@ -61,20 +174,30 @@ foreach ($file in $adEligible) {
   }
 }
 
-$requiredTopicPages = @(
+$requiredEditorialPages = @(
   'calm-dog-breeds-for-busy-owners.html',
   'best-dogs-for-first-time-owners.html',
   'low-shedding-dog-breeds.html',
   'apartment-dog-breeds.html',
   'small-dog-breeds.html',
-  'best-family-dogs.html'
+  'best-family-dogs.html',
+  'dog-breeds.html',
+  'dog-breed-comparisons.html',
+  'which-dog-should-i-get.html',
+  'high-energy-working-dogs.html',
+  'large-dog-breeds.html',
+  'guardian-dog-breeds-compared.html',
+  'dog-cost-calculator.html'
 )
 
-foreach ($name in $requiredTopicPages) {
+foreach ($name in $requiredEditorialPages) {
   $path = Join-Path $root "pages\$name"
   $raw = [System.IO.File]::ReadAllText($path)
   $wordCount = Get-BodyWordCount $raw '.html'
   if ($raw -notmatch '(?m)^adsense:\s*false\s*$') { $issues.Add("$name must keep AdSense disabled.") }
+  if ($raw -match '(?m)^noindex:\s*true\s*$') { $issues.Add("$name is a core editorial page and must remain indexable.") }
+  if ($raw -notmatch '(?m)^sources:\s*$') { $issues.Add("$name must list page-level sources.") }
+  if ([regex]::Matches($raw, '(?m)^  - question:').Count -lt 3) { $issues.Add("$name must include at least 3 visible FAQ items.") }
   if ($wordCount -lt 900) { $issues.Add("$name has $wordCount words; expected at least 900.") }
 }
 
@@ -99,9 +222,7 @@ foreach ($file in $postFiles) {
   $headings = [regex]::Matches($raw, '(?m)^##\s+(.+?)\s*$') | ForEach-Object {
     $_.Groups[1].Value.Trim()
   }
-  $decisionHeadings = $headings | Where-Object {
-    $_ -notmatch '(?i)(Quick Facts|Temperament|Common .+ Health Issues|Pros and Cons|Is .+ Right for You\?|FAQ)$'
-  }
+  $decisionHeadings = Get-CustomDecisionHeadings $raw
 
   if ($raw -match $legacyHeadingPattern) {
     $issues.Add("$($file.Name) has a legacy shared-template heading: $($Matches[1]).")
@@ -189,4 +310,4 @@ if ($issues.Count -gt 0) {
   exit 1
 }
 
-Write-Host "Content quality checks passed for $($adEligible.Count) AdSense-eligible pages and $($postFiles.Count) directly maintained articles."
+Write-Host "Content quality checks passed for $($sourceReviewedPosts.Count) source-reviewed indexable posts, $($adEligible.Count) AdSense-eligible pages, and $($postFiles.Count) directly maintained articles."

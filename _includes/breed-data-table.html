@@ -13,6 +13,7 @@
   <tbody>
     {% for breed in site.data.breeds %}
     {% assign show_breed = true %}
+    {% assign breed_post = site.posts | where: "url", breed.url | first %}
     {% if include.home and breed.home != include.home %}
       {% assign show_breed = false %}
     {% endif %}
@@ -46,7 +47,7 @@
         {% assign show_breed = false %}
       {% endunless %}
     {% endif %}
-    {% if show_breed %}
+    {% if show_breed and breed_post.noindex != true %}
     {% assign rendered_count = rendered_count | plus: 1 %}
     <tr>
       <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>

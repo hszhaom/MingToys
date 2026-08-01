@@ -3,8 +3,9 @@ title: "Shiba Inu Guide: Japan's Bold, Cat-Like Dog With a Mind of Its Own"
 description: "Shiba Inus are clean, foxy, fiercely independent dogs with a strong prey drive, dramatic scream, heavy shedding, and escape-risk habits."
 cover: /assets/images/shiba-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
+owner_context: "ming.zhao has personally cared for Shiba Inus for around six years."
 sources:
   - organization: "American Kennel Club"
     title: "Shiba Inu"
@@ -37,7 +38,7 @@ faq_schema:
     answer: "No, not in the conventional sense. They're smart but stubborn and selectively obedient. They respond to patient, reward-based, respectful training and resist heavy-handed methods. Expect a partner, not a pushover."
 ---
 
-The Shiba Inu is Japan's most popular companion dog and the internet's favorite smirking face, but the meme massively undersells how independent this little dog really is. Originally bred to flush birds and small game in Japan's mountainous terrain, the Shiba is an ancient, primitive-type breed: alert, agile, confident, and famously self-possessed. People often describe living with one as more like sharing a home with a cat than a typical dog, and that cat-like streak affects almost every part of ownership.
+The Shiba Inu is compact, tidy, photogenic, and often much less cooperative than prospective owners expect. Its hunting background and independent streak matter more than the online "cat-like" shorthand suggests. A Shiba can be deeply attached to its people while still resisting handling, ignoring recall, or treating an open door as an opportunity worth taking.
 
 Shibas are compact, tidy, and strikingly handsome, with a fox-like face, curled tail, and dignified bearing. They are also stubborn, prone to "Shiba screams," wired with a serious prey drive, and notorious escape artists. None of that is a flaw if it's what you signed up for, and a disaster if it isn't.
 
@@ -162,7 +163,7 @@ The comparison captures independence and cleanliness but hides canine needs such
 
 Individual reliability varies, and prey drive or sudden movement can override a practiced recall. Secure areas and long lines offer freedom without gambling on traffic, wildlife, or an open horizon.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to add secure harnesses and gates, training for handling and reactivity, shedding tools, safe boarding, and a medical reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare recall expectations, visitor routines, other pets, handling patience, shared spaces, and the household's comfort with an independent dog.
+For a Shiba, the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) should include a secure harness and gates, handling or behavior coaching where needed, shedding tools, boarding that can respect the dog's limits, and a medical reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) make the temperament question concrete: evaluate recall expectations, visitor habits, other pets, shared entrances, and how patiently the household responds when affection and cooperation arrive on the dog's terms.
 
 ## Is a Shiba Inu Right for You?
 

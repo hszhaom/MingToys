@@ -4,6 +4,7 @@ description: "The Boston Terrier is a friendly, low-shed apartment favorite, but
 cover: /assets/images/bostonterrier-cover.jpg
 layout: post
 adsense: false
+owner_context: "ming.zhao has personally cared for Boston Terriers for around three years."
 noindex: true
 ---
 

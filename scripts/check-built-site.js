@@ -36,13 +36,13 @@ checkPage("apartment-dog-breeds/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("dog-cost-calculator/index.html", { ads: 0, faq: 1, sources: 1 });
 
 const aboutPage = read("about/index.html");
-if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "Ming Zhao"')) {
-  throw new Error("The About page is missing the named Person schema for Ming Zhao.");
+if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "ming.zhao"')) {
+  throw new Error("The About page is missing the named Person schema for ming.zhao.");
 }
 
 const reviewedPost = read("posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/index.html");
-if (!reviewedPost.includes('"author": {\n    "@type": "Person"') || !reviewedPost.includes('"name": "Ming Zhao"')) {
-  throw new Error("Reviewed articles must retain the named Ming Zhao author schema.");
+if (!reviewedPost.includes('"author": {\n    "@type": "Person"') || !reviewedPost.includes('"name": "ming.zhao"')) {
+  throw new Error("Reviewed articles must retain the named ming.zhao author schema.");
 }
 
 function walk(directory) {
@@ -120,6 +120,23 @@ for (const postFile of postFiles) {
 const sitemap = read("sitemap.xml");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 if (new Set(urls).size !== urls.length) throw new Error("Sitemap contains duplicate URLs.");
+
+const pageFiles = fs.readdirSync(path.join(root, "pages")).filter((file) => file.endsWith(".html"));
+for (const pageFile of pageFiles) {
+  const source = fs.readFileSync(path.join(root, "pages", pageFile), "utf8");
+  const permalinkMatch = source.match(/^permalink:\s*([^\r\n]+)$/m);
+  const isNoindex = /^noindex:\s*true\s*$/m.test(source);
+  if (!permalinkMatch || !isNoindex) continue;
+
+  const permalink = permalinkMatch[1].trim();
+  const pageUrl = `https://petstorie.com${permalink}`;
+  const relativePath = `${permalink.replace(/^\//, "").replace(/\/$/, "")}/index.html`;
+  const html = read(relativePath);
+  if (!html.includes('name="robots" content="noindex, follow"')) {
+    throw new Error(`${pageFile} is marked noindex but does not render the correct robots meta tag.`);
+  }
+  if (urls.includes(pageUrl)) throw new Error(`${pageFile} is noindex but still appears in the sitemap.`);
+}
 
 for (const postFile of postFiles) {
   const [, year, month, day, slug] = postFile.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);

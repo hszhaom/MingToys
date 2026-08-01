@@ -3,7 +3,7 @@ title: "German Shepherd Explained: Working Brains, Big Coat, and Real Health Ris
 description: "German Shepherds are brilliant, loyal working dogs that shed constantly, need a job, and require planning around hip dysplasia and heavy exercise."
 cover: /assets/images/germanshepherd-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -33,7 +33,7 @@ faq_schema:
     answer: "The breed bonds intensely and likes to stay near its people, earning the \"Velcro dog\" label. Building gradual, positive alone-time as a puppy helps prevent separation anxiety later."
 ---
 
-The German Shepherd is one of the world's most capable working dogs, the breed behind countless police K9s, service dogs, and search-and-rescue teams. Males typically stand 24 to 26 inches and weigh 65 to 90 pounds, with females a bit smaller, all carried on a powerful, athletic frame with that signature alert expression. Developed in Germany to herd and guard flocks, the breed was bred above all for intelligence, drive, and trainability, and that heritage defines everything about owning one.
+A German Shepherd brings a great deal of attention into a household, much of it welcome and some of it demanding. The dog notices visitors, loose routines, tension on the leash, and changes in the environment. Its intelligence and loyalty can be exceptional, but living well with one requires early socialization, public control, daily work, and a clear plan for a large dog that may be powerful before it is mature.
 
 This guide is honest about both sides of the German Shepherd: the extraordinary loyalty and brainpower that make them legendary, and the demanding exercise, heavy shedding, and serious health predispositions that make them a poor impulse purchase.
 
@@ -161,7 +161,7 @@ Dogs do not make reliable legal or moral judgments without careful control. Stab
 
 Space does not teach leash manners, provide new scent information, or build cooperation. Shepherds need shared work, controlled exercise, social exposure, and rest in addition to safe outdoor access.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to add ongoing training, large-dog food, coat equipment, secure fencing, walkers, insurance checks, health screening discussions, and emergency savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare housing rules, visitor traffic, dog encounters, exercise time, public handling skill, shedding, and comfort with a watchful adolescent.
+The [dog cost calculator]({{ site.url }}/dog-cost-calculator/) should include ongoing training, large-dog food, coat equipment, secure fencing, walking support, insurance research, and emergency savings. Then use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) to pressure-test housing rules, visitor traffic, dog encounters, handling skill in public, shedding, and the patience to guide a watchful adolescent toward neutral behavior.
 
 ## Is a German Shepherd Right for You?
 

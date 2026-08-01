@@ -3,7 +3,7 @@ title: "Kangal Dog Breed Guide: Turkish Livestock Guardian Temperament and Care"
 description: "The Kangal Dog is a large Turkish livestock guardian with calm confidence, territorial instincts, dense short coat, and serious owner demands."
 cover: /assets/images/kangal-cover.jpg
 layout: post
-updated: "2026-07-30"
+updated: "2026-07-31"
 adsense: true
 sources:
   - organization: "United Kennel Club"
@@ -37,7 +37,7 @@ faq_schema:
     answer: "No. The breed needs space, secure fencing, and a setting where its guardian instincts can be managed responsibly."
 ---
 
-The Kangal Dog is a powerful Turkish livestock guardian developed to protect sheep and goats from predators across open country. It is famous for its pale fawn coat, dark mask, curled tail, calm watchfulness, and the ability to move with surprising speed when a real threat appears.
+A Kangal Dog belongs in a very small set of homes. The question is not whether someone likes big, calm-looking guardians; it is whether there is a genuine working purpose, secure property, distance from neighbors, and experience making responsible decisions for an independent giant dog. Without that foundation, the breed's impressive character can create more management than companionship.
 
 This breed is not a casual backyard status symbol. A Kangal is first and foremost a working guardian, shaped to think independently, patrol territory, and bond deeply with the animals or family under its care. Owners who understand that heritage may admire the breed's steadiness. Owners who expect easy obedience or instant friendliness with strangers will struggle.
 
@@ -161,7 +161,7 @@ Viral numbers are often poorly sourced and say little about stability, livestock
 
 Attachment to family can coexist with territory, barking, roaming, and suspicion of unfamiliar animals. Socialization does not remove the working purpose or need for suitable land.
 
-For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include secure acreage fencing, gates, shelter, giant food and medication, livestock integration, transport, insurance, training support, and medical reserves. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare livestock purpose, acreage, predator context, neighbor distance, guardian experience, legal rules, and access to appropriate veterinary and backup care.
+In the [dog cost calculator]({{ site.url }}/dog-cost-calculator/), start with secure acreage fencing, gates, shelter, giant-dog food and medication, livestock integration, transport, insurance, training support, and a serious medical reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can then test the non-negotiables: livestock purpose, acreage, predator context, neighbor distance, guardian experience, local rules, and access to veterinary and backup care that can actually handle the dog.
 
 ## Is a Kangal Dog Right for You?
 
