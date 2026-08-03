@@ -50,7 +50,9 @@ faq_schema:
           <span>First breed</span>
           <select id="breed-a">
             {% for breed in site.data.breeds %}
+            {% if breed.publication_status == "published" %}
             <option value="{{ breed.key }}"{% if breed.key == "labrador-retriever" %} selected{% endif %}>{{ breed.name }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </label>
@@ -58,7 +60,9 @@ faq_schema:
           <span>Second breed</span>
           <select id="breed-b">
             {% for breed in site.data.breeds %}
+            {% if breed.publication_status == "published" %}
             <option value="{{ breed.key }}"{% if breed.key == "golden-retriever" %} selected{% endif %}>{{ breed.name }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </label>
@@ -161,6 +165,7 @@ faq_schema:
 (function () {
   var breeds = [
     {% for breed in site.data.breeds %}
+    {% if breed.publication_status == "published" %}
     {
       key: {{ breed.key | jsonify }},
       name: {{ breed.name | jsonify }},
@@ -178,6 +183,7 @@ faq_schema:
       costLevel: {{ breed.cost_level | jsonify }},
       caution: {{ breed.caution | jsonify }}
     }{% unless forloop.last %},{% endunless %}
+    {% endif %}
     {% endfor %}
   ];
 

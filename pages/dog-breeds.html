@@ -152,12 +152,50 @@ faq_schema:
       <li><a href="{{ site.url }}/posts/2026/06/01/shiba-inu-japanese-smirking-meme-dogs/">Shiba Inu Breed Guide</a></li>
     </ul>
 
-    <h2>Source-Reviewed Breed Profiles</h2>
+    <h2>Find a Source-Reviewed Breed Guide</h2>
     <p>
-      The table below lists guides that are currently in the source-reviewed collection. The planning tools use the same editorial
-      data labels, but their outputs are starting points, not a substitute for reading a full guide or meeting real dogs.
+      Search by breed name or common alternative name, then narrow the published collection by the practical pressure points that
+      tend to decide a match. Results only include guides that have passed PetStorie's current source, FAQ, image, and internal-link
+      checks. Breeds still in editorial review are intentionally not shown here.
     </p>
-    <table>
+    <form class="breed-directory-controls" id="breed-directory-controls">
+      <label class="finder-control directory-search-control" for="breed-directory-search">
+        Search published breeds
+        <input id="breed-directory-search" type="search" autocomplete="off" placeholder="Try Labrador, GSD, or Poodle">
+      </label>
+      <label class="finder-control" for="breed-directory-size">
+        Size
+        <select id="breed-directory-size">
+          <option value="">Any size</option>
+          <option value="toy">Toy</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          <option value="giant">Giant</option>
+        </select>
+      </label>
+      <label class="finder-control" for="breed-directory-energy">
+        Daily exercise
+        <select id="breed-directory-energy">
+          <option value="">Any exercise level</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </label>
+      <label class="finder-control" for="breed-directory-grooming">
+        Grooming
+        <select id="breed-directory-grooming">
+          <option value="">Any grooming level</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </label>
+      <button class="directory-reset" type="reset" aria-label="Clear breed directory filters" title="Clear filters">&times;</button>
+    </form>
+    <p class="directory-results" id="breed-directory-results" aria-live="polite"></p>
+    <table id="breed-directory-table">
       <thead>
         <tr>
           <th>Breed</th>
@@ -171,8 +209,14 @@ faq_schema:
       <tbody>
         {% for breed in site.data.breeds %}
         {% assign breed_post = site.posts | where: "url", breed.url | first %}
-        {% unless breed_post.noindex %}
-        <tr>
+        {% assign breed_is_published = false %}
+        {% if breed.publication_status == "published" and breed_post %}
+          {% assign breed_is_published = true %}
+        {% elsif breed.publication_status == nil and breed_post and breed_post.noindex != true %}
+          {% assign breed_is_published = true %}
+        {% endif %}
+        {% if breed_is_published %}
+        <tr class="breed-directory-row" data-search="{{ breed.name }} {{ breed.aliases | join: ' ' }}" data-size="{{ breed.size }}" data-exercise="{{ breed.exercise }}" data-grooming="{{ breed.grooming }}">
           <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>
           <td>{{ breed.size | replace: "-", " " | capitalize }}</td>
           <td>{{ breed.home | replace: "-", " " | capitalize }}</td>
@@ -180,7 +224,7 @@ faq_schema:
           <td>{{ breed.grooming | capitalize }}</td>
           <td>{{ breed.experience | replace: "-", " " | capitalize }}</td>
         </tr>
-        {% endunless %}
+        {% endif %}
         {% endfor %}
       </tbody>
     </table>
@@ -218,3 +262,36 @@ faq_schema:
     </p>
   </article>
 </main>
+
+<script>
+(function () {
+  var controls = document.getElementById('breed-directory-controls');
+  var search = document.getElementById('breed-directory-search');
+  var size = document.getElementById('breed-directory-size');
+  var energy = document.getElementById('breed-directory-energy');
+  var grooming = document.getElementById('breed-directory-grooming');
+  var output = document.getElementById('breed-directory-results');
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.breed-directory-row'));
+
+  function updateResults() {
+    var query = search.value.trim().toLowerCase();
+    var shown = 0;
+    rows.forEach(function (row) {
+      var matches = (!query || row.dataset.search.toLowerCase().indexOf(query) !== -1) &&
+        (!size.value || row.dataset.size === size.value) &&
+        (!energy.value || row.dataset.exercise === energy.value) &&
+        (!grooming.value || row.dataset.grooming === grooming.value);
+      row.hidden = !matches;
+      if (matches) shown += 1;
+    });
+    output.textContent = shown + (shown === 1 ? ' published guide matches your filters.' : ' published guides match your filters.');
+  }
+
+  controls.addEventListener('input', updateResults);
+  controls.addEventListener('change', updateResults);
+  controls.addEventListener('reset', function () {
+    window.setTimeout(updateResults, 0);
+  });
+  updateResults();
+}());
+</script>

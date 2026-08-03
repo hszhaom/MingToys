@@ -127,24 +127,6 @@
     {% include faq.html %}
   {% endunless %}
   {% include site_footer.html %}
-  <script data-goatcounter="https://hszhaom.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
-  <!-- GoatCounter visible visitor counts. Fail silently so it does not affect rendering. -->
-  <script>
-  (function () {
-    var base = 'https://hszhaom.goatcounter.com/counter/';
-    document.querySelectorAll('[data-gc-count]').forEach(function (el) {
-      var path = el.getAttribute('data-gc-count');
-      var url = base + (path === 'TOTAL' ? 'TOTAL' : encodeURIComponent(path)) + '.json';
-      fetch(url).then(function (r) { return r.json(); }).then(function (d) {
-        var pv = el.querySelector('.gc-pv'), uv = el.querySelector('.gc-uv');
-        if (pv) pv.textContent = d.count;
-        if (uv) uv.textContent = d.count_unique;
-      }).catch(function () {});
-    });
-  })();
-  </script>
   <script>
   (function () {
     document.querySelectorAll('img').forEach(function (img) {

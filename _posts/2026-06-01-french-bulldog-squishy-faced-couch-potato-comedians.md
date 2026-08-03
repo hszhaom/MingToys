@@ -35,6 +35,38 @@ faq_schema:
     answer: "Most cannot swim safely. Their heavy, front-loaded build and flat face make them prone to sinking, so they should always wear a life vest and be supervised closely around any water, including backyard pools."
   - question: "Are French Bulldogs hard to potty train?"
     answer: "They can be slower than average to fully house-train, largely due to their stubborn streak. Consistency, a fixed schedule, and generous rewards for outdoor success get most Frenchies there with patience."
+toc:
+- id: french-bulldog-quick-facts
+  title: French Bulldog Quick Facts
+- id: french-bulldog-fit-depends-on-climate-and-healthcare
+  title: French Bulldog Fit Depends on Climate and Healthcare
+- id: french-bulldog-temperament
+  title: French Bulldog Temperament
+- id: short-exercise-without-heat-stress
+  title: Short Exercise Without Heat Stress
+- id: skin-folds-ears-and-weekly-coat-care
+  title: Skin Folds, Ears, and Weekly Coat Care
+- id: common-french-bulldog-health-issues
+  title: Common French Bulldog Health Issues
+- id: weight-control-protects-breathing
+  title: Weight Control Protects Breathing
+- id: house-training-and-calm-daily-manners
+  title: House Training and Calm Daily Manners
+- id: pros-and-cons-of-french-bulldogs
+  title: Pros and Cons of French Bulldogs
+- id: french-bulldog-myths-that-become-vet-bills
+  title: French Bulldog Myths That Become Vet Bills
+- id: is-a-french-bulldog-right-for-you
+  title: Is a French Bulldog Right for You?
+- id: the-first-month-with-a-frenchie
+  title: The First Month With a Frenchie
+- id: apartment-size-is-the-easy-part
+  title: Apartment Size Is the Easy Part
+- id: a-french-bulldog-home-safety-plan
+  title: A French Bulldog Home-Safety Plan
+- id: who-can-responsibly-live-with-a-frenchie
+  title: Who Can Responsibly Live With a Frenchie
+
 ---
 
 French Bulldogs make a fast first impression: small enough for city life, funny without trying, and determined to be in the middle of whatever their people are doing. The decision takes longer than the first impression. Their flat-faced build can affect breathing, heat tolerance, travel, sleep, and the size of the medical reserve a household needs to keep.

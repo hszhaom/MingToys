@@ -35,6 +35,36 @@ faq_schema:
     answer: "Bad things, behaviorally. A bored Border Collie may bark obsessively, chew destructively, dig, chase shadows or lights, or develop compulsive habits. These are signs of an unmet need for work, and they are the most common reason the breed ends up rehomed."
   - question: "Do Border Collies bark a lot?"
     answer: "They can be vocal, especially when excited, under-stimulated, or reacting to movement. A well-exercised, mentally engaged dog barks far less. Their alertness and noise sensitivity mean training a \"quiet\" cue is useful for most owners."
+toc:
+- id: border-collie-fit-is-about-off-switch-training
+  title: Border Collie Fit Is About Off-Switch Training
+- id: border-collie-quick-facts
+  title: Border Collie Quick Facts
+- id: border-collie-temperament
+  title: Border Collie Temperament
+- id: structured-work-beats-endless-ball-throwing
+  title: Structured Work Beats Endless Ball Throwing
+- id: coat-type-changes-the-brushing-routine
+  title: Coat Type Changes the Brushing Routine
+- id: common-border-collie-health-issues
+  title: Common Border Collie Health Issues
+- id: fuel-for-work-without-losing-a-lean-waist
+  title: Fuel for Work Without Losing a Lean Waist
+- id: teach-rest-as-deliberately-as-motion
+  title: Teach Rest as Deliberately as Motion
+- id: pros-and-cons-of-border-collies
+  title: Pros and Cons of Border Collies
+- id: border-collie-myths-created-by-intelligence-rankings
+  title: Border Collie Myths Created by Intelligence Rankings
+- id: is-a-border-collie-right-for-you
+  title: Is a Border Collie Right for You?
+- id: smart-is-a-need-not-a-bonus
+  title: Smart Is a Need, Not a Bonus
+- id: teaching-a-border-collie-to-stop-working
+  title: Teaching a Border Collie to Stop Working
+- id: who-should-actually-choose-a-border-collie
+  title: Who Should Actually Choose a Border Collie
+
 ---
 
 A Border Collie is a rewarding match for someone who wants to plan activity, training, recovery, and calm as part of daily life. It is a poor match for someone who wants a clever dog to entertain itself. Intelligence in this breed can look like focused cooperation, but without useful outlets it can also turn into movement chasing, noise sensitivity, and a dog that has never learned how to settle.

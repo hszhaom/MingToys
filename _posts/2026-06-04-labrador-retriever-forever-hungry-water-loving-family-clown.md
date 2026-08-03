@@ -35,6 +35,38 @@ faq_schema:
     answer: "Very. They are intelligent, eager to please, and highly food-motivated, which is why they dominate service and field work. The main training tasks are managing youthful energy, jumping, and mouthing during their long adolescence."
   - question: "What health problems are common in Labs?"
     answer: "Watch for obesity, hip and elbow dysplasia, exercise-induced collapse, certain inherited eye disorders, ear infections, and some risk of bloat. Buying from a breeder who screens hips, elbows, eyes, and EIC reduces the odds considerably."
+toc:
+- id: labrador-retriever-quick-facts
+  title: Labrador Retriever Quick Facts
+- id: labrador-fit-changes-during-adolescence
+  title: Labrador Fit Changes During Adolescence
+- id: labrador-retriever-temperament
+  title: Labrador Retriever Temperament
+- id: retrieving-swimming-and-joint-safe-activity
+  title: Retrieving, Swimming, and Joint-Safe Activity
+- id: the-short-coat-still-fills-a-vacuum
+  title: The Short Coat Still Fills a Vacuum
+- id: common-labrador-retriever-health-issues
+  title: Common Labrador Retriever Health Issues
+- id: a-labrador-kitchen-needs-rules
+  title: A Labrador Kitchen Needs Rules
+- id: build-manners-before-adult-strength-arrives
+  title: Build Manners Before Adult Strength Arrives
+- id: pros-and-cons-of-labrador-retrievers
+  title: Pros and Cons of Labrador Retrievers
+- id: labrador-myths-created-by-their-popularity
+  title: Labrador Myths Created by Their Popularity
+- id: is-a-labrador-retriever-right-for-you
+  title: Is a Labrador Retriever Right for You?
+- id: food-drive-shapes-the-household
+  title: Food Drive Shapes the Household
+- id: a-labrador-needs-more-than-a-yard
+  title: A Labrador Needs More Than a Yard
+- id: the-labrador-mess-and-manners-check
+  title: The Labrador Mess and Manners Check
+- id: the-family-routine-that-suits-a-labrador
+  title: The Family Routine That Suits a Labrador
+
 ---
 
 A Labrador Retriever can make a busy family feel more active and more organized, or make the kitchen, car, and entryway feel permanently chaotic. The breed's friendliness and trainability are genuine, yet the same dog may raid food, drag in water, pull hard as an adolescent, and stay energetic long after the puppy stage. A good Labrador plan covers portion control and manners as deliberately as fetch.

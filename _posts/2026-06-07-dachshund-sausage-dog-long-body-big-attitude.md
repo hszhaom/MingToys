@@ -35,6 +35,38 @@ faq_schema:
     answer: "Moderate daily walks plus nose games are plenty. Keep it flat and low-impact to protect the spine, and avoid stairs and big leaps. A fit, lean Dachshund is a healthier Dachshund."
   - question: "What's the difference between the coat types?"
     answer: "Smooth coats are wash-and-go, longhaired coats need regular brushing to prevent tangles, and wirehaired coats have a beard and harsh coat that benefits from occasional hand-stripping. Temperament is fairly similar across all three."
+toc:
+- id: dachshund-fit-starts-with-the-floor-plan
+  title: Dachshund Fit Starts With the Floor Plan
+- id: dachshund-quick-facts
+  title: Dachshund Quick Facts
+- id: dachshund-temperament
+  title: Dachshund Temperament
+- id: low-impact-exercise-for-a-long-back
+  title: Low-Impact Exercise for a Long Back
+- id: coat-care-varies-by-dachshund-type
+  title: Coat Care Varies by Dachshund Type
+- id: common-dachshund-health-issues
+  title: Common Dachshund Health Issues
+- id: weight-control-is-spine-care
+  title: Weight Control Is Spine Care
+- id: hound-independence-and-house-training
+  title: Hound Independence and House Training
+- id: pros-and-cons-of-dachshunds
+  title: Pros and Cons of Dachshunds
+- id: dachshund-myths-that-are-hard-on-the-back
+  title: Dachshund Myths That Are Hard on the Back
+- id: is-a-dachshund-right-for-you
+  title: Is a Dachshund Right for You?
+- id: protect-the-back-before-there-is-a-problem
+  title: Protect the Back Before There Is a Problem
+- id: apartment-friendly-does-not-mean-injury-proof
+  title: Apartment-Friendly Does Not Mean Injury-Proof
+- id: designing-a-back-friendly-dachshund-home
+  title: Designing a Back-Friendly Dachshund Home
+- id: the-home-setup-a-dachshund-deserves
+  title: The Home Setup a Dachshund Deserves
+
 ---
 
 A Dachshund makes people smile before they understand the daily setup it requires. The long body and short legs are inseparable from a life of controlled jumping, sensible weight, and thought about stairs, furniture, and rough play. Add a determined hound temperament, and the result is a small dog that needs clear safety rules rather than indulgence.

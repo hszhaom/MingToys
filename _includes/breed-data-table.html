@@ -47,7 +47,7 @@
         {% assign show_breed = false %}
       {% endunless %}
     {% endif %}
-    {% if show_breed and breed_post.noindex != true %}
+    {% if show_breed and breed.publication_status == "published" and breed_post and breed_post.noindex != true %}
     {% assign rendered_count = rendered_count | plus: 1 %}
     <tr>
       <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>

@@ -75,7 +75,9 @@ faq_schema:
           <select id="cost-breed">
             <option value="">Choose a breed or use manual settings</option>
             {% for breed in site.data.breeds %}
+            {% if breed.publication_status == "published" %}
             <option value="{{ breed.key }}">{{ breed.name }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </label>
@@ -254,6 +256,7 @@ faq_schema:
 (function () {
   var breedPresets = [
     {% for breed in site.data.breeds %}
+    {% if breed.publication_status == "published" %}
     {
       key: {{ breed.key | jsonify }},
       name: {{ breed.name | jsonify }},
@@ -264,6 +267,7 @@ faq_schema:
       costLevel: {{ breed.cost_level | jsonify }},
       caution: {{ breed.caution | jsonify }}
     }{% unless forloop.last %},{% endunless %}
+    {% endif %}
     {% endfor %}
   ];
 

@@ -35,6 +35,36 @@ faq_schema:
     answer: "Typically about 8 to 10 years, shorter than many breeds their size deserve, largely because of their elevated cancer rate. Keeping the dog lean, screening for joint and heart issues, and staying on top of veterinary checkups all support a longer, healthier life."
   - question: "Do Rottweilers shed and drool a lot?"
     answer: "They shed moderately year-round and heavily during seasonal coat changes. Drool is usually modest compared with giant breeds, though some individuals slobber after drinking or in anticipation of food."
+toc:
+- id: rottweiler-fit-begins-with-housing-and-insurance
+  title: Rottweiler Fit Begins With Housing and Insurance
+- id: rottweiler-quick-facts
+  title: Rottweiler Quick Facts
+- id: rottweiler-temperament
+  title: Rottweiler Temperament
+- id: strength-endurance-and-joint-safe-work
+  title: Strength, Endurance, and Joint-Safe Work
+- id: short-coat-heavy-seasonal-shed
+  title: Short Coat, Heavy Seasonal Shed
+- id: common-rottweiler-health-issues
+  title: Common Rottweiler Health Issues
+- id: slow-growth-and-a-lean-adult-frame
+  title: Slow Growth and a Lean Adult Frame
+- id: public-manners-before-guardian-work
+  title: Public Manners Before Guardian Work
+- id: pros-and-cons-of-rottweilers
+  title: Pros and Cons of Rottweilers
+- id: rottweiler-myths-that-harm-both-dog-and-owner
+  title: Rottweiler Myths That Harm Both Dog and Owner
+- id: is-a-rottweiler-right-for-you
+  title: Is a Rottweiler Right for You?
+- id: manners-are-not-optional
+  title: Manners Are Not Optional
+- id: ownership-checks-before-a-rottweiler-comes-home
+  title: Ownership Checks Before a Rottweiler Comes Home
+- id: who-should-take-on-a-rottweiler
+  title: Who Should Take On a Rottweiler
+
 ---
 
 A Rottweiler affects more than the household's walking schedule. Before the dog comes home, check lease terms, insurance rules, access to qualified training, vehicle space, visitor management, and the ability of every adult to handle a powerful dog calmly. A stable Rottweiler can be affectionate and surprisingly playful; treating its size and guardian reputation casually is where avoidable problems begin.

@@ -47,6 +47,36 @@ faq_schema:
     answer: "Yes. They shed steadily year-round and \"blow\" their thick undercoat heavily once or twice a year. Weekly brushing, with daily sessions during the big sheds, keeps it somewhat under control."
   - question: "Is the Great Pyrenees a good first dog?"
     answer: "Often not. Their independence, stubbornness, barking, size, and guardian instincts make them challenging for inexperienced owners. They suit people who understand and want a livestock-guardian temperament."
+toc:
+- id: great-pyrenees-fit-starts-with-neighbor-distance
+  title: Great Pyrenees Fit Starts With Neighbor Distance
+- id: great-pyrenees-quick-facts
+  title: Great Pyrenees Quick Facts
+- id: great-pyrenees-temperament
+  title: Great Pyrenees Temperament
+- id: patrols-and-walks-not-marathon-miles
+  title: Patrols and Walks, Not Marathon Miles
+- id: white-drifts-in-the-house-are-normal
+  title: White Drifts in the House Are Normal
+- id: common-great-pyrenees-health-issues
+  title: Common Great Pyrenees Health Issues
+- id: giant-breed-growth-and-body-condition
+  title: Giant-Breed Growth and Body Condition
+- id: cooperation-over-repetition
+  title: Cooperation Over Repetition
+- id: pros-and-cons-of-great-pyrenees-dogs
+  title: Pros and Cons of Great Pyrenees Dogs
+- id: great-pyrenees-myths-that-create-neighborhood-conflict
+  title: Great Pyrenees Myths That Create Neighborhood Conflict
+- id: is-a-great-pyrenees-right-for-you
+  title: Is a Great Pyrenees Right for You?
+- id: gentle-does-not-mean-easy
+  title: Gentle Does Not Mean Easy
+- id: the-great-pyrenees-neighbor-and-property-check
+  title: The Great Pyrenees Neighbor and Property Check
+- id: the-home-a-great-pyrenees-needs
+  title: The Home a Great Pyrenees Needs
+
 ---
 
 A Great Pyrenees can be quiet beside its family and very loud when it decides the property needs guarding. That difference surprises people who choose the breed for its serene appearance. Its livestock-guardian history shapes night barking, independent decisions, visitor caution, fencing needs, and the kind of neighborhood where ownership can stay comfortable for everyone.

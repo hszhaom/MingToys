@@ -36,6 +36,38 @@ faq_schema:
     answer: "They can be, for an active first-timer willing to train consistently and manage barking and weight. They are smart and eager, but their energy and opinions mean a fully hands-off owner may struggle."
   - question: "Do Corgis need a big yard?"
     answer: "Not necessarily. They do well in apartments or small homes as long as they get daily walks, play, and mental work. It's the activity, not the square footage, that keeps a Corgi balanced."
+toc:
+- id: corgi-fit-is-about-noise-stairs-and-routine
+  title: Corgi Fit Is About Noise, Stairs, and Routine
+- id: pembroke-welsh-corgi-quick-facts
+  title: Pembroke Welsh Corgi Quick Facts
+- id: pembroke-welsh-corgi-temperament
+  title: Pembroke Welsh Corgi Temperament
+- id: herding-dog-exercise-on-short-legs
+  title: Herding-Dog Exercise on Short Legs
+- id: the-double-coat-is-not-low-maintenance
+  title: The Double Coat Is Not Low-Maintenance
+- id: common-pembroke-welsh-corgi-health-issues
+  title: Common Pembroke Welsh Corgi Health Issues
+- id: a-lean-waist-protects-the-back-and-joints
+  title: A Lean Waist Protects the Back and Joints
+- id: channeling-barking-and-heel-nipping
+  title: Channeling Barking and Heel-Nipping
+- id: pros-and-cons-of-pembroke-welsh-corgis
+  title: Pros and Cons of Pembroke Welsh Corgis
+- id: corgi-myths-that-ignore-the-cattle-dog
+  title: Corgi Myths That Ignore the Cattle Dog
+- id: is-a-pembroke-welsh-corgi-right-for-you
+  title: Is a Pembroke Welsh Corgi Right for You?
+- id: small-herding-dog-big-opinions
+  title: Small Herding Dog, Big Opinions
+- id: small-body-herding-dog-household
+  title: Small Body, Herding-Dog Household
+- id: corgi-proofing-an-ordinary-home
+  title: Corgi-Proofing an Ordinary Home
+- id: who-should-choose-a-pembroke-welsh-corgi
+  title: Who Should Choose a Pembroke Welsh Corgi
+
 ---
 
 A Pembroke Welsh Corgi may be low to the floor, but it is not a low-demand dog. The breed was developed to move cattle, and that job still shows up as barking at movement, nipping at fast feet, an appetite for activity, and a firm opinion about household rules. The practical question is not whether a Corgi fits in a small home; it is whether the people in that home want to manage a small herding dog every day.

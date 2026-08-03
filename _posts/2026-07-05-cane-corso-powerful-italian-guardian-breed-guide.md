@@ -31,6 +31,36 @@ faq_schema:
     answer: "They shed moderately. Weekly brushing handles most coat care, with extra brushing during seasonal shedding."
   - question: "What health problems should Cane Corso owners watch for?"
     answer: "Hip and elbow dysplasia, eyelid issues, heart concerns, obesity, and bloat are important risks. Work with a responsible breeder and a veterinarian, especially during growth."
+toc:
+- id: cane-corso-quick-facts
+  title: Cane Corso Quick Facts
+- id: cane-corso-fit-begins-with-legal-and-housing-checks
+  title: Cane Corso Fit Begins With Legal and Housing Checks
+- id: cane-corso-temperament
+  title: Cane Corso Temperament
+- id: daily-work-without-overloading-young-joints
+  title: Daily Work Without Overloading Young Joints
+- id: low-coat-work-high-body-handling-need
+  title: Low Coat Work, High Body-Handling Need
+- id: common-cane-corso-health-issues
+  title: Common Cane Corso Health Issues
+- id: keep-a-powerful-frame-lean
+  title: Keep a Powerful Frame Lean
+- id: neutrality-visitor-rules-and-leash-control
+  title: Neutrality, Visitor Rules, and Leash Control
+- id: pros-and-cons-of-cane-corsos
+  title: Pros and Cons of Cane Corsos
+- id: cane-corso-myths-that-encourage-risk
+  title: Cane Corso Myths That Encourage Risk
+- id: is-a-cane-corso-right-for-you
+  title: Is a Cane Corso Right for You?
+- id: serious-dogs-need-quiet-structure
+  title: Serious Dogs Need Quiet Structure
+- id: the-cane-corso-property-and-visitor-plan
+  title: The Cane Corso Property and Visitor Plan
+- id: who-is-ready-for-a-cane-corso
+  title: Who Is Ready for a Cane Corso
+
 ---
 
 The Cane Corso is a large guardian breed whose first owner decision is usually logistical, not romantic. Can the home meet local rules, welcome visitors with a repeatable plan, safely transport and handle a heavy dog, and get help from a trainer before bad habits have weight behind them? Its close bond with family is meaningful, but it does not remove the responsibility to create calm, neutral public behavior.

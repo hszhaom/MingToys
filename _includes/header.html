@@ -4,12 +4,30 @@
       <img src="{{ site.url }}/assets/images/logo-192.png" alt="PetStorie Logo" class="logo-img" width="42" height="42">
       <span class="site-title">{{ site.title }}</span>
     </a>
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="{{ site.url }}/dog-breeds/">Breed Guides</a>
+    <button class="site-menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" title="Open navigation">
+      <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
+      <a href="{{ site.url }}/dog-breeds/">Dog Breeds</a>
       <a href="{{ site.url }}/which-dog-should-i-get/">Choose a Dog</a>
       <a href="{{ site.url }}/dog-breed-comparisons/">Compare Breeds</a>
-      <a href="{{ site.url }}/dog-cost-calculator/">Costs &amp; Resources</a>
-      <a href="{{ site.url }}/archive/">All Guides</a>
+      <a href="{{ site.url }}/training-behavior/">Training &amp; Behavior</a>
+      <a href="{{ site.url }}/home-routines/">Home &amp; Routines</a>
+      <a href="{{ site.url }}/dog-cost-calculator/">Costs &amp; Research</a>
     </nav>
   </div>
 </header>
+<script>
+(function () {
+  var toggle = document.querySelector('.site-menu-toggle');
+  var navigation = document.getElementById('primary-navigation');
+  if (!toggle || !navigation) return;
+  document.documentElement.classList.add('js-nav');
+  toggle.addEventListener('click', function () {
+    var open = navigation.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('title', open ? 'Close navigation' : 'Open navigation');
+  });
+}());
+</script>

@@ -51,6 +51,36 @@ faq_schema:
     answer: "Most need moderate daily exercise, play, and training. They are not usually extreme athletes, but they are not inactive."
   - question: "Can Old English Sheepdogs live in apartments?"
     answer: "Usually they are easier in homes with more space. Apartment life can be difficult because of size, coat care, and activity needs."
+toc:
+- id: old-english-sheepdog-quick-facts
+  title: Old English Sheepdog Quick Facts
+- id: old-english-sheepdog-fit-is-mostly-a-grooming-decision
+  title: Old English Sheepdog Fit Is Mostly a Grooming Decision
+- id: old-english-sheepdog-temperament
+  title: Old English Sheepdog Temperament
+- id: a-herding-dog-with-moderate-adult-energy
+  title: A Herding Dog With Moderate Adult Energy
+- id: full-coat-puppy-cut-and-the-real-time-cost
+  title: Full Coat, Puppy Cut, and the Real Time Cost
+- id: common-old-english-sheepdog-health-issues
+  title: Common Old English Sheepdog Health Issues
+- id: keep-the-shaggy-frame-lean
+  title: Keep the Shaggy Frame Lean
+- id: manners-for-a-large-bouncy-dog
+  title: Manners for a Large, Bouncy Dog
+- id: pros-and-cons-of-old-english-sheepdogs
+  title: Pros and Cons of Old English Sheepdogs
+- id: old-english-sheepdog-myths-behind-the-hair
+  title: Old English Sheepdog Myths Behind the Hair
+- id: is-an-old-english-sheepdog-right-for-you
+  title: Is an Old English Sheepdog Right for You?
+- id: the-coat-is-a-lifestyle
+  title: The Coat Is a Lifestyle
+- id: the-old-english-sheepdog-workload-at-home
+  title: The Old English Sheepdog Workload at Home
+- id: the-family-that-can-maintain-the-coat
+  title: The Family That Can Maintain the Coat
+
 ---
 
 The Old English Sheepdog asks a buyer to decide about grooming before falling in love with the silhouette. A full coat changes the schedule for brushing, bathing, drying, cleaning around the eyes and feet, and finding help when the job gets ahead of you. The dog behind the hair is a large, friendly herding breed, not a decorative object that happens to need a trim.

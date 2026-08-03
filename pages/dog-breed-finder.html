@@ -189,6 +189,7 @@ faq_schema:
 (function () {
   var breeds = [
     {% for breed in site.data.breeds %}
+    {% if breed.publication_status == "published" %}
     {
       key: {{ breed.key | jsonify }},
       name: {{ breed.name | jsonify }},
@@ -206,6 +207,7 @@ faq_schema:
       costLevel: {{ breed.cost_level | jsonify }},
       caution: {{ breed.caution | jsonify }}
     }{% unless forloop.last %},{% endunless %}
+    {% endif %}
     {% endfor %}
   ];
 

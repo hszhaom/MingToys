@@ -6,6 +6,13 @@ layout: default
 
 <div class="container">
   <div class="post-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.url }}/">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ site.url }}/dog-breeds/">Dog Breeds</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ page.title }}</span>
+    </nav>
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
       By <a href="{{ site.url }}{{ site.editor.profile_url }}">{{ site.editor.name }}</a>
@@ -14,10 +21,8 @@ layout: default
       <span style="margin-left: 1rem;">Updated on: {{ modified_date | date: "%B %d, %Y" }}</span>
       {% endif %}
       <span style="margin-left: 1rem;"><a href="{{ site.url }}/editorial-policy/">Editorial policy</a></span>
-      <span data-gc-count="{{ page.url }}" style="margin-left: 1rem;">
-        Page Views: <span class="gc-pv">-</span>
-      </span>
     </div>
+    {% include post-toc.html %}
     <div class="post-content">
       {{ content }}
     </div>

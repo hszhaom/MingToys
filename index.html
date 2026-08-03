@@ -32,6 +32,33 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
   </section>
 
   <div class="container">
+  <section class="latest-section" aria-labelledby="latest-title">
+    <div class="section-heading">
+      <p class="eyebrow">Latest editorial guides</p>
+      <h2 id="latest-title">Source-Reviewed Dog Breed Guides</h2>
+      <p>Start with the breed itself: practical guides about daily routines, owner trade-offs, health planning, and the homes each dog can realistically fit.</p>
+    </div>
+    <div class="card-grid">
+      {% assign reviewed_posts = site.posts | where_exp: "post", "post.noindex != true" %}
+      {% for post in reviewed_posts limit:9 %}
+      <article class="post-card">
+        {% if post.cover %}
+        <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
+        {% endif %}
+        <div class="card-content">
+          <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>
+          <h3 class="card-title">
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <div class="card-excerpt">
+            {{ post.description | default: post.excerpt | strip_html | truncate: 150 }}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
   <section class="finder-section" aria-labelledby="finder-title">
     <div class="section-heading">
       <p class="eyebrow">Planning tools</p>
@@ -118,32 +145,6 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
         <span>Large Dog Breeds</span>
         <p>Giant and powerful breeds with big costs, space needs, and health considerations.</p>
       </a>
-    </div>
-  </section>
-
-  <section class="latest-section" aria-labelledby="latest-title">
-    <div class="section-heading">
-      <h2 id="latest-title">Source-Reviewed Dog Breed Guides</h2>
-      <p>Guides currently reviewed for source transparency, practical owner fit, and clear health-advice boundaries.</p>
-    </div>
-    <div class="card-grid">
-      {% assign reviewed_posts = site.posts | where_exp: "post", "post.noindex != true" %}
-      {% for post in reviewed_posts limit:9 %}
-      <article class="post-card">
-        {% if post.cover %}
-        <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
-        {% endif %}
-        <div class="card-content">
-          <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>
-          <h3 class="card-title">
-            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-          </h3>
-          <div class="card-excerpt">
-            {{ post.description | default: post.excerpt | strip_html | truncate: 150 }}
-          </div>
-        </div>
-      </article>
-      {% endfor %}
     </div>
   </section>
 

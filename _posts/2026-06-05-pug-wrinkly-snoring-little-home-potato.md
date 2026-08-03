@@ -35,6 +35,38 @@ faq_schema:
     answer: "Pugs love food and gain weight easily, and obesity is especially harmful in this breed because it worsens the already-limited breathing and stresses the joints and spine. Measured meals, limited treats, and regular weight checks are essential."
   - question: "What health problems are common in Pugs?"
     answer: "The main concerns are breathing problems (BOAS), heat sensitivity, eye injuries and disorders, skin-fold infections, and obesity, plus some risk of spinal issues and Pug Dog Encephalitis. Choosing a breeder who prioritizes healthier breathing helps reduce these risks."
+toc:
+- id: pug-fit-is-mostly-a-climate-and-health-question
+  title: Pug Fit Is Mostly a Climate and Health Question
+- id: pug-quick-facts
+  title: Pug Quick Facts
+- id: pug-temperament
+  title: Pug Temperament
+- id: safe-movement-for-a-flat-faced-dog
+  title: Safe Movement for a Flat-Faced Dog
+- id: wrinkles-eyes-nails-and-shedding
+  title: Wrinkles, Eyes, Nails, and Shedding
+- id: common-pug-health-issues
+  title: Common Pug Health Issues
+- id: every-extra-pound-makes-breathing-harder
+  title: Every Extra Pound Makes Breathing Harder
+- id: house-training-a-food-motivated-companion
+  title: House Training a Food-Motivated Companion
+- id: pros-and-cons-of-pugs
+  title: Pros and Cons of Pugs
+- id: pug-myths-that-normalize-discomfort
+  title: Pug Myths That Normalize Discomfort
+- id: is-a-pug-right-for-you
+  title: Is a Pug Right for You?
+- id: cute-habits-need-firm-limits
+  title: Cute Habits Need Firm Limits
+- id: apartment-size-is-not-the-limiting-factor
+  title: Apartment Size Is Not the Limiting Factor
+- id: heat-weight-and-daily-pug-comfort
+  title: Heat, Weight, and Daily Pug Comfort
+- id: who-can-give-a-pug-a-safe-daily-life
+  title: Who Can Give a Pug a Safe Daily Life
+
 ---
 
 The Pug is often sold by its expression: large eyes, wrinkles, comic noises, and a compact body that wants to be close to its people. Those qualities do make it an engaging companion. They also mean the owner has to watch heat, body weight, eyes, skin folds, and breathing function with more care than the small size suggests.

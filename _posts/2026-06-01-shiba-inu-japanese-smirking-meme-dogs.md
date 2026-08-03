@@ -36,6 +36,38 @@ faq_schema:
     answer: "In their own cat-like way. They're loyal and bonded to their families but often prefer being near you rather than constantly cuddled. If you want a dog that worships and clings to you, the Shiba's independent affection may feel reserved."
   - question: "Are Shiba Inus easy to train?"
     answer: "No, not in the conventional sense. They're smart but stubborn and selectively obedient. They respond to patient, reward-based, respectful training and resist heavy-handed methods. Expect a partner, not a pushover."
+toc:
+- id: shiba-fit-depends-on-containment-and-consent
+  title: Shiba Fit Depends on Containment and Consent
+- id: shiba-inu-quick-facts
+  title: Shiba Inu Quick Facts
+- id: shiba-inu-temperament
+  title: Shiba Inu Temperament
+- id: exercise-without-gambling-on-recall
+  title: Exercise Without Gambling on Recall
+- id: seasonal-coat-blow-and-cooperative-handling
+  title: Seasonal Coat Blow and Cooperative Handling
+- id: common-shiba-inu-health-issues
+  title: Common Shiba Inu Health Issues
+- id: keeping-a-compact-shiba-lean
+  title: Keeping a Compact Shiba Lean
+- id: build-trust-before-asking-for-compliance
+  title: Build Trust Before Asking for Compliance
+- id: pros-and-cons-of-shiba-inus
+  title: Pros and Cons of Shiba Inus
+- id: shiba-inu-myths-built-by-internet-personality
+  title: Shiba Inu Myths Built by Internet Personality
+- id: is-a-shiba-inu-right-for-you
+  title: Is a Shiba Inu Right for You?
+- id: independence-is-not-a-training-plan
+  title: Independence Is Not a Training Plan
+- id: containment-costs-and-family-boundaries
+  title: Containment, Costs, and Family Boundaries
+- id: the-shiba-inu-management-checklist
+  title: The Shiba Inu Management Checklist
+- id: the-household-a-shiba-inu-can-live-with
+  title: The Household a Shiba Inu Can Live With
+
 ---
 
 The Shiba Inu is compact, tidy, photogenic, and often much less cooperative than prospective owners expect. Its hunting background and independent streak matter more than the online "cat-like" shorthand suggests. A Shiba can be deeply attached to its people while still resisting handling, ignoring recall, or treating an open door as an opportunity worth taking.

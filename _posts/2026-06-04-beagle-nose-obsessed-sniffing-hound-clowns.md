@@ -35,6 +35,38 @@ faq_schema:
     answer: "They are smart but stubborn and easily distracted by scent. Food-based reward training works well for basic manners, but expect house-training and reliable recall to take patience. They are not a precision-obedience breed."
   - question: "What health problems do Beagles have?"
     answer: "Watch for obesity, recurring ear infections, back problems (IVDD), hip dysplasia, epilepsy, and the inherited Musladin-Lueke syndrome in some lines. Routine ear care and weight management prevent many of the most common issues."
+toc:
+- id: beagle-fit-depends-on-noise-and-nose-management
+  title: Beagle Fit Depends on Noise and Nose Management
+- id: beagle-quick-facts
+  title: Beagle Quick Facts
+- id: beagle-temperament
+  title: Beagle Temperament
+- id: let-the-nose-work-safely
+  title: Let the Nose Work Safely
+- id: easy-coat-high-inspection-ears
+  title: Easy Coat, High-Inspection Ears
+- id: common-beagle-health-issues
+  title: Common Beagle Health Issues
+- id: food-security-is-part-of-weight-control
+  title: Food Security Is Part of Weight Control
+- id: training-with-scent-instead-of-against-it
+  title: Training With Scent Instead of Against It
+- id: pros-and-cons-of-beagles
+  title: Pros and Cons of Beagles
+- id: beagle-myths-that-let-the-nose-win
+  title: Beagle Myths That Let the Nose Win
+- id: is-a-beagle-right-for-you
+  title: Is a Beagle Right for You?
+- id: the-nose-runs-the-calendar
+  title: The Nose Runs the Calendar
+- id: shared-walls-secure-food-and-family-routines
+  title: Shared Walls, Secure Food, and Family Routines
+- id: living-with-a-nose-that-makes-decisions
+  title: Living With a Nose That Makes Decisions
+- id: the-home-that-makes-beagle-life-work
+  title: The Home That Makes Beagle Life Work
+
 ---
 
 A Beagle's nose changes the ordinary household decisions that a companion-dog buyer may never consider. Food cannot be left on a counter, a gate cannot be treated casually, and a walk needs time for safe sniffing instead of a rushed march around the block. The breed is cheerful, social, and often excellent with families, but its scent hound brain is not waiting for permission to follow an interesting smell.

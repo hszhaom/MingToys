@@ -31,6 +31,38 @@ faq_schema:
     answer: "They can be, but only for a committed first-timer ready to put in serious training and exercise. Their intelligence and drive overwhelm many casual owners, which is why so many land in rescue."
   - question: "Why is my German Shepherd so clingy?"
     answer: "The breed bonds intensely and likes to stay near its people, earning the \"Velcro dog\" label. Building gradual, positive alone-time as a puppy helps prevent separation anxiety later."
+toc:
+- id: german-shepherd-fit-depends-on-public-control
+  title: German Shepherd Fit Depends on Public Control
+- id: german-shepherd-quick-facts
+  title: German Shepherd Quick Facts
+- id: german-shepherd-temperament
+  title: German Shepherd Temperament
+- id: physical-work-is-only-half-the-job
+  title: Physical Work Is Only Half the Job
+- id: managing-the-year-round-undercoat
+  title: Managing the Year-Round Undercoat
+- id: common-german-shepherd-health-issues
+  title: Common German Shepherd Health Issues
+- id: growth-rate-weight-and-digestive-routine
+  title: Growth Rate, Weight, and Digestive Routine
+- id: neutrality-before-protection
+  title: Neutrality Before Protection
+- id: pros-and-cons-of-german-shepherds
+  title: Pros and Cons of German Shepherds
+- id: german-shepherd-myths-that-create-liability
+  title: German Shepherd Myths That Create Liability
+- id: is-a-german-shepherd-right-for-you
+  title: Is a German Shepherd Right for You?
+- id: a-shepherd-notices-everything
+  title: A Shepherd Notices Everything
+- id: space-matters-less-than-management
+  title: Space Matters Less Than Management
+- id: managing-a-german-shepherd-beyond-the-backyard
+  title: Managing a German Shepherd Beyond the Backyard
+- id: who-is-ready-for-a-german-shepherd
+  title: Who Is Ready for a German Shepherd
+
 ---
 
 A German Shepherd brings a great deal of attention into a household, much of it welcome and some of it demanding. The dog notices visitors, loose routines, tension on the leash, and changes in the environment. Its intelligence and loyalty can be exceptional, but living well with one requires early socialization, public control, daily work, and a clear plan for a large dog that may be powerful before it is mature.

@@ -36,6 +36,38 @@ faq_schema:
     answer: "Cancer is the standout concern; Goldens have an elevated lifetime cancer risk compared with many breeds. Hip and elbow dysplasia are also common. Choosing a breeder who health-tests and tracks longevity is the best lever you have to improve the odds."
   - question: "Are Golden Retrievers easy to train?"
     answer: "Among the easiest. Their intelligence and desire to please make them quick learners with reward-based methods, which is why they excel as service and competition dogs. The work is less about overcoming stubbornness and more about managing youthful energy."
+toc:
+- id: golden-retriever-quick-facts
+  title: Golden Retriever Quick Facts
+- id: the-golden-retriever-s-weekly-workload
+  title: The Golden Retriever's Weekly Workload
+- id: golden-retriever-temperament
+  title: Golden Retriever Temperament
+- id: managing-golden-energy-through-adolescence
+  title: Managing Golden Energy Through Adolescence
+- id: mud-water-and-the-golden-coat
+  title: Mud, Water, and the Golden Coat
+- id: common-golden-retriever-health-issues
+  title: Common Golden Retriever Health Issues
+- id: keeping-a-food-motivated-golden-lean
+  title: Keeping a Food-Motivated Golden Lean
+- id: teaching-calm-greetings-and-reliable-recall
+  title: Teaching Calm Greetings and Reliable Recall
+- id: pros-and-cons-of-golden-retrievers
+  title: Pros and Cons of Golden Retrievers
+- id: golden-retriever-myths-built-from-good-publicity
+  title: Golden Retriever Myths Built From Good Publicity
+- id: is-a-golden-retriever-right-for-you
+  title: Is a Golden Retriever Right for You?
+- id: the-hardest-part-is-consistency
+  title: The Hardest Part Is Consistency
+- id: three-golden-retriever-decisions-families-miss
+  title: Three Golden Retriever Decisions Families Miss
+- id: the-golden-retriever-household-test
+  title: The Golden Retriever Household Test
+- id: the-home-that-usually-suits-a-golden
+  title: The Home That Usually Suits a Golden
+
 ---
 
 Choosing a Golden Retriever means choosing a large sporting dog that expects to be included in the day. It will notice the leash, the tennis ball, the lake, the kitchen counter, and the person who has been gone too long. The cheerful face is real, but so are the wet towels, adolescent jumping, and golden fur in places no vacuum seems to reach.

@@ -51,6 +51,36 @@ faq_schema:
     answer: "A stable Malinois should be clear-headed and controllable, but poor breeding, weak socialization, frustration, or mishandling can create serious behavior problems."
   - question: "Can a Belgian Malinois live in an apartment?"
     answer: "It is rarely a good fit. Only a very prepared handler with daily outlets, training, and management should consider it."
+toc:
+- id: belgian-malinois-quick-facts
+  title: Belgian Malinois Quick Facts
+- id: malinois-fit-depends-on-the-handler-s-calendar
+  title: Malinois Fit Depends on the Handler's Calendar
+- id: belgian-malinois-temperament
+  title: Belgian Malinois Temperament
+- id: training-volume-matters-more-than-step-count
+  title: Training Volume Matters More Than Step Count
+- id: easy-coat-demanding-daily-schedule
+  title: Easy Coat, Demanding Daily Schedule
+- id: common-belgian-malinois-health-issues
+  title: Common Belgian Malinois Health Issues
+- id: fueling-work-without-masking-stress
+  title: Fueling Work Without Masking Stress
+- id: precision-recovery-and-an-off-switch
+  title: Precision, Recovery, and an Off Switch
+- id: pros-and-cons-of-belgian-malinois
+  title: Pros and Cons of Belgian Malinois
+- id: malinois-myths-that-produce-over-aroused-pets
+  title: Malinois Myths That Produce Over-Aroused Pets
+- id: is-a-belgian-malinois-right-for-you
+  title: Is a Belgian Malinois Right for You?
+- id: the-dog-needs-a-job-before-it-finds-one
+  title: The Dog Needs a Job Before It Finds One
+- id: a-weekday-schedule-for-a-belgian-malinois
+  title: A Weekday Schedule for a Belgian Malinois
+- id: the-handler-a-malinois-requires
+  title: The Handler a Malinois Requires
+
 ---
 
 The Belgian Malinois is not difficult because it needs one spectacular workout. It is difficult because the household has to manage drive, movement, training, rest, visitors, and backup care with unusual consistency. A dog bred to learn fast can learn excellent habits or rehearse chaotic ones with equal speed, so a prospective owner needs a schedule before the dog arrives.

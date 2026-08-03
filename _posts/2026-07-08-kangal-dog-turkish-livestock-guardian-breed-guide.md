@@ -35,6 +35,36 @@ faq_schema:
     answer: "Yes. Their dense double coat sheds moderately most of the year and more heavily during seasonal coat changes."
   - question: "Can a Kangal Dog live in an apartment?"
     answer: "No. The breed needs space, secure fencing, and a setting where its guardian instincts can be managed responsibly."
+toc:
+- id: kangal-dog-quick-facts
+  title: Kangal Dog Quick Facts
+- id: kangal-fit-is-a-property-question
+  title: Kangal Fit Is a Property Question
+- id: kangal-dog-temperament
+  title: Kangal Dog Temperament
+- id: purposeful-patrols-on-secure-land
+  title: Purposeful Patrols on Secure Land
+- id: seasonal-undercoat-and-outdoor-debris
+  title: Seasonal Undercoat and Outdoor Debris
+- id: common-kangal-dog-health-issues
+  title: Common Kangal Dog Health Issues
+- id: giant-dog-nutrition-without-rapid-growth
+  title: Giant-Dog Nutrition Without Rapid Growth
+- id: management-before-obedience
+  title: Management Before Obedience
+- id: pros-and-cons-of-kangal-dogs
+  title: Pros and Cons of Kangal Dogs
+- id: kangal-myths-built-for-social-media
+  title: Kangal Myths Built for Social Media
+- id: is-a-kangal-dog-right-for-you
+  title: Is a Kangal Dog Right for You?
+- id: the-property-is-part-of-the-breed
+  title: The Property Is Part of the Breed
+- id: questions-that-separate-a-working-home-from-a-pet-home
+  title: Questions That Separate a Working Home From a Pet Home
+- id: a-narrow-but-legitimate-kangal-home
+  title: A Narrow but Legitimate Kangal Home
+
 ---
 
 A Kangal Dog belongs in a very small set of homes. The question is not whether someone likes big, calm-looking guardians; it is whether there is a genuine working purpose, secure property, distance from neighbors, and experience making responsible decisions for an independent giant dog. Without that foundation, the breed's impressive character can create more management than companionship.

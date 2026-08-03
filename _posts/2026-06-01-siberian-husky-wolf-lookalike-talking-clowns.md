@@ -35,6 +35,38 @@ faq_schema:
     answer: "Generally not. Their independence, escape skills, prey drive, and exercise demands overwhelm many novices. They suit experienced, very active owners who understand and plan for the breed's challenges."
   - question: "Do Huskies tolerate hot weather?"
     answer: "Poorly. Their thick double coat is built for cold, and they overheat easily. In warm climates, exercise them in cool hours, provide shade and water, and never push hard activity in the heat."
+toc:
+- id: a-husky-fit-test-starts-with-the-fence
+  title: A Husky Fit Test Starts With the Fence
+- id: siberian-husky-quick-facts
+  title: Siberian Husky Quick Facts
+- id: siberian-husky-temperament
+  title: Siberian Husky Temperament
+- id: daily-distance-weather-and-mental-work
+  title: Daily Distance, Weather, and Mental Work
+- id: living-through-a-husky-coat-blow
+  title: Living Through a Husky Coat Blow
+- id: common-siberian-husky-health-issues
+  title: Common Siberian Husky Health Issues
+- id: fueling-activity-without-adding-weight
+  title: Fueling Activity Without Adding Weight
+- id: recall-management-not-wishful-thinking
+  title: Recall Management, Not Wishful Thinking
+- id: pros-and-cons-of-siberian-huskies
+  title: Pros and Cons of Siberian Huskies
+- id: husky-myths-that-open-gates
+  title: Husky Myths That Open Gates
+- id: is-a-siberian-husky-right-for-you
+  title: Is a Siberian Husky Right for You?
+- id: freedom-has-to-be-designed
+  title: Freedom Has to Be Designed
+- id: a-husky-home-is-built-around-containment
+  title: A Husky Home Is Built Around Containment
+- id: building-a-husky-safe-routine
+  title: Building a Husky-Safe Routine
+- id: the-owner-who-can-keep-a-husky-safe
+  title: The Owner Who Can Keep a Husky Safe
+
 ---
 
 The Siberian Husky is easy to admire from a distance and difficult to improvise around at home. A secure fence, a long-term exercise plan, tolerance for vocalizing, and realistic off-leash expectations matter more than blue eyes or a wolf-like coat. The right Husky home is prepared for a dog that keeps moving, thinking, and testing the weak point in a routine.

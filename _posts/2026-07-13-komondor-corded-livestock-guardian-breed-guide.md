@@ -51,6 +51,36 @@ faq_schema:
     answer: "No. The breed needs secure space and a setting where guardian instincts can be managed responsibly."
   - question: "Are Komondors aggressive?"
     answer: "A stable Komondor should be controlled and discerning, but it is naturally protective. Poor socialization, weak containment, or careless handling can create serious risk."
+toc:
+- id: komondor-quick-facts
+  title: Komondor Quick Facts
+- id: komondor-fit-is-a-property-and-purpose-test
+  title: Komondor Fit Is a Property and Purpose Test
+- id: komondor-temperament
+  title: Komondor Temperament
+- id: secure-patrol-space-not-dog-park-time
+  title: Secure Patrol Space, Not Dog-Park Time
+- id: cord-formation-washing-and-all-day-drying
+  title: Cord Formation, Washing, and All-Day Drying
+- id: common-komondor-health-issues
+  title: Common Komondor Health Issues
+- id: body-condition-hidden-under-cords
+  title: Body Condition Hidden Under Cords
+- id: visitor-control-and-cooperative-handling
+  title: Visitor Control and Cooperative Handling
+- id: pros-and-cons-of-komondors
+  title: Pros and Cons of Komondors
+- id: komondor-myths-created-by-the-corded-coat
+  title: Komondor Myths Created by the Corded Coat
+- id: is-a-komondor-right-for-you
+  title: Is a Komondor Right for You?
+- id: the-coat-and-the-territory-both-need-management
+  title: The Coat and the Territory Both Need Management
+- id: the-two-part-komondor-management-plan
+  title: The Two-Part Komondor Management Plan
+- id: the-small-audience-for-a-komondor
+  title: The Small Audience for a Komondor
+
 ---
 
 A Komondor is a guardian first and an unusual-looking dog second. Its cords need specialized maintenance, yet the larger issue is an adult that was developed to assess territory and strangers independently. A buyer has to solve for secure property, visitor protocols, drying space, and experienced support before the coat becomes a conversation piece.

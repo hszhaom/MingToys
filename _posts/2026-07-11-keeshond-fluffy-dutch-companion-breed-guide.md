@@ -51,6 +51,36 @@ faq_schema:
     answer: "Most need moderate daily exercise, training, and play. They are not extreme athletes, but they are not couch decorations."
   - question: "Can a Keeshond live in an apartment?"
     answer: "Possibly, if barking is managed and the dog gets daily walks and attention. Noise-sensitive buildings may be difficult."
+toc:
+- id: keeshond-quick-facts
+  title: Keeshond Quick Facts
+- id: keeshond-fit-depends-on-company-and-noise
+  title: Keeshond Fit Depends on Company and Noise
+- id: keeshond-temperament
+  title: Keeshond Temperament
+- id: moderate-exercise-with-plenty-of-social-time
+  title: Moderate Exercise With Plenty of Social Time
+- id: line-brushing-the-plush-double-coat
+  title: Line-Brushing the Plush Double Coat
+- id: common-keeshond-health-issues
+  title: Common Keeshond Health Issues
+- id: watching-weight-under-a-dense-coat
+  title: Watching Weight Under a Dense Coat
+- id: reward-quiet-behavior-before-barking-becomes-habit
+  title: Reward Quiet Behavior Before Barking Becomes Habit
+- id: pros-and-cons-of-keeshonden
+  title: Pros and Cons of Keeshonden
+- id: keeshond-myths-hidden-in-the-plush-coat
+  title: Keeshond Myths Hidden in the Plush Coat
+- id: is-a-keeshond-right-for-you
+  title: Is a Keeshond Right for You?
+- id: friendly-does-not-mean-effortless
+  title: Friendly Does Not Mean Effortless
+- id: where-keeshond-ownership-gets-difficult
+  title: Where Keeshond Ownership Gets Difficult
+- id: a-good-keeshond-home
+  title: A Good Keeshond Home
+
 ---
 
 A Keeshond can be an excellent companion for a home that wants a sociable, involved dog and does not expect a quiet, wash-and-go pet. This is a watchdog-shaped spitz with a dense coat and an interest in household activity. The affectionate reputation is deserved, but the owner still needs a plan for alert barking, brushing, warm weather, and time spent with people.

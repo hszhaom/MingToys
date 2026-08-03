@@ -187,7 +187,9 @@ $requiredEditorialPages = @(
   'high-energy-working-dogs.html',
   'large-dog-breeds.html',
   'guardian-dog-breeds-compared.html',
-  'dog-cost-calculator.html'
+  'dog-cost-calculator.html',
+  'training-behavior.html',
+  'home-routines.html'
 )
 
 foreach ($name in $requiredEditorialPages) {
@@ -214,6 +216,94 @@ $nonDiscreteWidths = [regex]::Matches($fitCards, 'style="width:\s*(\d+)%"') | Wh
 if ($nonDiscreteWidths.Count -gt 0) { $issues.Add('Fit Score Cards still contain non-discrete percentage widths.') }
 
 $postFiles = Get-ChildItem (Join-Path $root '_posts') -Filter '*.md'
+$postByUrl = @{}
+foreach ($file in $postFiles) {
+  if ($file.BaseName -match '^(\d{4})-(\d{2})-(\d{2})-(.+)$') {
+    $postByUrl["/posts/$($Matches[1])/$($Matches[2])/$($Matches[3])/$($Matches[4])/"] = [System.IO.File]::ReadAllText($file.FullName)
+  }
+}
+
+if (-not (Get-Command ruby -ErrorAction SilentlyContinue)) {
+  $issues.Add('Ruby is required to validate the Jekyll breed catalog.')
+} else {
+  $catalogPath = Join-Path $root '_data\breeds.yml'
+  $catalogJson = & ruby -ryaml -rjson -e 'puts JSON.generate(YAML.load_file(ARGV[0]))' $catalogPath
+  if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($catalogJson)) {
+    $issues.Add('Could not parse _data/breeds.yml as YAML.')
+  } else {
+    try {
+      $catalog = $catalogJson | ConvertFrom-Json
+      $requiredBreedFields = @(
+        'key', 'name', 'aliases', 'group', 'origin', 'breed_standard_url', 'publication_status', 'image_prefix', 'url',
+        'summary', 'size', 'home', 'experience', 'kids', 'exercise', 'shedding', 'grooming', 'training', 'health_risk',
+        'cost_level', 'caution', 'image'
+      )
+      $allowedStatuses = @('published', 'in_review', 'planned')
+
+      if (@($catalog).Count -ne 279) {
+        $issues.Add("Breed catalog has $(@($catalog).Count) entries; expected exactly 279.")
+      }
+
+      $duplicateKeys = @($catalog | Group-Object key | Where-Object { $_.Count -gt 1 })
+      foreach ($duplicate in $duplicateKeys) {
+        $issues.Add("Breed catalog repeats key '$($duplicate.Name)'.")
+      }
+      $duplicateUrls = @($catalog | Group-Object url | Where-Object { $_.Count -gt 1 })
+      foreach ($duplicate in $duplicateUrls) {
+        $issues.Add("Breed catalog repeats URL '$($duplicate.Name)'.")
+      }
+
+      foreach ($breed in $catalog) {
+        foreach ($field in $requiredBreedFields) {
+          $value = $breed.$field
+          if ($null -eq $value -or ($field -ne 'aliases' -and [string]::IsNullOrWhiteSpace([string]$value))) {
+            $issues.Add("Breed catalog entry '$($breed.key)' is missing '$field'.")
+          }
+        }
+        if ($breed.publication_status -notin $allowedStatuses) {
+          $issues.Add("Breed catalog entry '$($breed.key)' has invalid publication status '$($breed.publication_status)'.")
+        }
+        if ([string]$breed.breed_standard_url -notmatch '^https://') {
+          $issues.Add("Breed catalog entry '$($breed.key)' needs an HTTPS official breed-standard URL.")
+        }
+
+        $postRaw = $postByUrl[[string]$breed.url]
+        if ($breed.publication_status -eq 'published') {
+          if ([string]::IsNullOrWhiteSpace($postRaw)) {
+            $issues.Add("Published breed '$($breed.key)' has no matching post for $($breed.url).")
+            continue
+          }
+          if ($postRaw -match '(?m)^noindex:\s*true\s*$') {
+            $issues.Add("Published breed '$($breed.key)' still has noindex enabled.")
+          }
+          if ($postRaw -notmatch '(?m)^sources:\s*$') {
+            $issues.Add("Published breed '$($breed.key)' has no page-level sources.")
+          }
+          if ([regex]::Matches($postRaw, '(?m)^  - question:\s*').Count -lt 3) {
+            $issues.Add("Published breed '$($breed.key)' has fewer than 3 FAQ items.")
+          }
+          foreach ($variant in @('cover', 'main', 'play')) {
+            $assetPath = Join-Path $root "assets\images\$($breed.image_prefix)-$variant.jpg"
+            if (-not (Test-Path -LiteralPath $assetPath)) {
+              $issues.Add("Published breed '$($breed.key)' is missing $variant image $($breed.image_prefix)-$variant.jpg.")
+            }
+          }
+        } elseif ($breed.publication_status -eq 'in_review') {
+          if ([string]::IsNullOrWhiteSpace($postRaw)) {
+            $issues.Add("In-review breed '$($breed.key)' has no matching post for $($breed.url).")
+          } elseif ($postRaw -notmatch '(?m)^noindex:\s*true\s*$') {
+            $issues.Add("In-review breed '$($breed.key)' must remain noindex until it passes editorial checks.")
+          }
+        } elseif (-not [string]::IsNullOrWhiteSpace($postRaw) -and $postRaw -notmatch '(?m)^noindex:\s*true\s*$') {
+          $issues.Add("Planned breed '$($breed.key)' has a public post but is not marked published.")
+        }
+      }
+    } catch {
+      $issues.Add("Could not validate _data/breeds.yml: $($_.Exception.Message)")
+    }
+  }
+}
+
 $legacyHeadingPattern = '(?m)^## (Real-Life Fit Score|Exercise Needs|Grooming and Shedding|Feeding and Weight Control|Training Tips|Final Verdict|Space, Cost, and Family Q&A)\s*$'
 $unsupportedInterviewPattern = '(?i)\b(based on (?:interviews|conversations)|interviewed|we spoke (?:with|to)|we asked)\b'
 
