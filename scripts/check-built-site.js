@@ -88,17 +88,20 @@ for (const postFile of postFiles) {
   const expectedAds = 0;
   const updatedMatch = source.match(/^updated:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m);
   const hasSources = /^sources:\s*$/m.test(source);
-  const expectsNoindex = !hasSources;
+  const expectsNoindex = /^noindex:\s*true\s*$/m.test(source);
 
   if (moduleCount !== 0) throw new Error(`${relativePath} still renders centralized owner guidance.`);
   if (adCount !== expectedAds) throw new Error(`${relativePath} has ${adCount} AdSense scripts; expected ${expectedAds}.`);
+  if (!hasSources && !expectsNoindex) {
+    throw new Error(`${postFile} is indexable without page-level sources.`);
+  }
   if (expectsNoindex && !html.includes('name="robots" content="noindex, follow"')) {
-    throw new Error(`${relativePath} must expose noindex while it has no page-level sources.`);
+    throw new Error(`${relativePath} must expose noindex while it remains in editorial review.`);
   }
   if (!expectsNoindex && !html.includes('name="robots" content="index, follow"')) {
     throw new Error(`${relativePath} should remain indexable after its source review.`);
   }
-  if (expectsNoindex && updatedMatch) throw new Error(`${postFile} exposes an updated date before source review.`);
+  if (!hasSources && updatedMatch) throw new Error(`${postFile} exposes an updated date before source review.`);
   if (!expectsNoindex && !updatedMatch) throw new Error(`${postFile} has sources but no page-level updated date.`);
   if (!source.includes("/dog-cost-calculator/") || !source.includes("/dog-fit-score-cards/")) {
     throw new Error(`${postFile} does not link directly to both dog decision tools.`);
@@ -144,8 +147,10 @@ for (const postFile of postFiles) {
   const updatedMatch = source.match(/^updated:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m);
   const postUrl = `https://petstorie.com/posts/${year}/${month}/${day}/${slug}/`;
   const hasSources = /^sources:\s*$/m.test(source);
-  if (!hasSources && urls.includes(postUrl)) throw new Error(`${postFile} is noindex but still appears in the sitemap.`);
-  if (hasSources) {
+  const isNoindex = /^noindex:\s*true\s*$/m.test(source);
+  if (isNoindex && urls.includes(postUrl)) throw new Error(`${postFile} is noindex but still appears in the sitemap.`);
+  if (!isNoindex) {
+    if (!hasSources) throw new Error(`${postFile} is indexable without page-level sources.`);
     const expected = `<loc>${postUrl}</loc>\n    <lastmod>${updatedMatch[1]}</lastmod>`;
     if (!sitemap.includes(expected)) throw new Error(`Sitemap lastmod is incorrect for ${postFile}.`);
   }

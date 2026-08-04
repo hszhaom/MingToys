@@ -86,7 +86,7 @@ $adEligible = Get-ChildItem (Join-Path $root '_posts'), (Join-Path $root 'pages'
 $sourceReviewedPosts = @(
   Get-ChildItem (Join-Path $root '_posts') -Filter '*.md' | Where-Object {
     $raw = [System.IO.File]::ReadAllText($_.FullName)
-    $raw -match '(?m)^sources:\s*$' -and $raw -notmatch '(?m)^noindex:\s*true\s*$'
+    $raw -match '(?m)^sources:\s*$'
   }
 )
 
@@ -293,6 +293,43 @@ if (-not (Get-Command ruby -ErrorAction SilentlyContinue)) {
             $issues.Add("In-review breed '$($breed.key)' has no matching post for $($breed.url).")
           } elseif ($postRaw -notmatch '(?m)^noindex:\s*true\s*$') {
             $issues.Add("In-review breed '$($breed.key)' must remain noindex until it passes editorial checks.")
+          } elseif ($null -ne $breed.review_batch) {
+            $sourceCount = [regex]::Matches($postRaw, '(?m)^  - organization:').Count
+            $faqCount = [regex]::Matches($postRaw, '(?m)^  - question:').Count
+            $wordCount = Get-BodyWordCount $postRaw '.md'
+            $decisionHeadings = Get-CustomDecisionHeadings $postRaw
+            $internalContentLinks = Get-InternalContentLinks $postRaw
+
+            if ($postRaw -notmatch '(?m)^updated:\s*["'']?\d{4}-\d{2}-\d{2}["'']?\s*$') {
+              $issues.Add("In-review breed '$($breed.key)' has no verified updated date.")
+            }
+            if ($sourceCount -lt 3) {
+              $issues.Add("In-review breed '$($breed.key)' has only $sourceCount sources; expected at least 3.")
+            }
+            if ($faqCount -lt 3) {
+              $issues.Add("In-review breed '$($breed.key)' has only $faqCount FAQ items; expected at least 3.")
+            }
+            if ($wordCount -lt 900) {
+              $issues.Add("In-review breed '$($breed.key)' has $wordCount words; expected at least 900.")
+            }
+            if ($decisionHeadings.Count -lt 3) {
+              $issues.Add("In-review breed '$($breed.key)' has only $($decisionHeadings.Count) breed-specific decision sections; expected at least 3.")
+            }
+            if ($internalContentLinks.Count -lt 2) {
+              $issues.Add("In-review breed '$($breed.key)' has only $($internalContentLinks.Count) related internal content links; expected at least 2.")
+            }
+            if ($postRaw -match '(?m)^## .+ FAQ\s*$') {
+              $issues.Add("In-review breed '$($breed.key)' duplicates FAQ content outside faq_schema.")
+            }
+            if ($postRaw.IndexOf([char]0x9225) -ge 0 -or $postRaw.IndexOf([char]0xFFFD) -ge 0) {
+              $issues.Add("In-review breed '$($breed.key)' contains an encoding error.")
+            }
+            foreach ($variant in @('cover', 'main', 'play')) {
+              $assetPath = Join-Path $root "assets\images\$($breed.image_prefix)-$variant.jpg"
+              if (-not (Test-Path -LiteralPath $assetPath)) {
+                $issues.Add("In-review breed '$($breed.key)' is missing $variant image $($breed.image_prefix)-$variant.jpg.")
+              }
+            }
           }
         } elseif (-not [string]::IsNullOrWhiteSpace($postRaw) -and $postRaw -notmatch '(?m)^noindex:\s*true\s*$') {
           $issues.Add("Planned breed '$($breed.key)' has a public post but is not marked published.")
@@ -400,4 +437,4 @@ if ($issues.Count -gt 0) {
   exit 1
 }
 
-Write-Host "Content quality checks passed for $($sourceReviewedPosts.Count) source-reviewed indexable posts, $($adEligible.Count) AdSense-eligible pages, and $($postFiles.Count) directly maintained articles."
+Write-Host "Content quality checks passed for $($sourceReviewedPosts.Count) source-reviewed articles, $($adEligible.Count) AdSense-eligible pages, and $($postFiles.Count) directly maintained articles."

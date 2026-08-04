@@ -234,6 +234,7 @@
   origin: RUSSIA
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: samoyed
 - key: shiba-inu
   name: Shiba Inu
@@ -305,6 +306,7 @@
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: doberman
 - key: scottish-terrier
   name: Scottish Terrier
@@ -493,6 +495,7 @@
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: minischnauzer
 - key: dachshund
   name: Dachshund
@@ -586,6 +589,7 @@
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: bostonterrier
 - key: basset-hound
   name: Basset Hound
@@ -609,6 +613,7 @@
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: bassethound
 - key: rottweiler
   name: Rottweiler
@@ -680,6 +685,7 @@
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: cavalier
 - key: great-dane
   name: Great Dane
@@ -703,6 +709,7 @@
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: greatdane
 - key: border-collie
   name: Border Collie
@@ -772,6 +779,7 @@
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: australianshepherd
 - key: bernese-mountain-dog
   name: Bernese Mountain Dog
@@ -795,6 +803,7 @@
   origin: SWITZERLAND
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: bernesemountaindog
 - key: english-cocker-spaniel
   name: English Cocker Spaniel
@@ -1004,6 +1013,7 @@
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
   publication_status: in_review
+  review_batch: 1
   image_prefix: whippet
 - key: caucasian-shepherd
   name: Caucasian Shepherd Dog
