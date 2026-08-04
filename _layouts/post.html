@@ -16,10 +16,12 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
       By <a href="{{ site.url }}{{ site.editor.profile_url }}">{{ site.editor.name }}</a>
+      {% unless page.noindex %}
       <span style="margin-left: 1rem;">Published on: {{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.updated %}
       <span style="margin-left: 1rem;">Updated on: {{ modified_date | date: "%B %d, %Y" }}</span>
       {% endif %}
+      {% endunless %}
       <span style="margin-left: 1rem;"><a href="{{ site.url }}/editorial-policy/">Editorial policy</a></span>
     </div>
     {% include post-toc.html %}

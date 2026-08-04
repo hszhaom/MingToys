@@ -4,7 +4,7 @@ title: "Dog Breeds: Compare Temperament, Care Needs and Real-Life Fit"
 description: "Browse dog breeds by size, energy, shedding, family fit, apartment fit, grooming needs, and owner experience before choosing a dog."
 permalink: /dog-breeds/
 adsense: false
-updated: "2026-07-31"
+updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"
     title: "Dog Breeds"
@@ -31,6 +31,7 @@ faq_schema:
 
 <main class="container">
   <article class="topic-page">
+    {% assign catalog_total = site.data.breeds | size %}
     <p class="eyebrow">Breed data center</p>
     <h1>Dog Breeds</h1>
     <p>
@@ -229,6 +230,49 @@ faq_schema:
       </tbody>
     </table>
 
+    <h2>Complete {{ catalog_total }}-Breed Research Archive</h2>
+    <p>
+      This archive lists every purebred dog currently tracked by PetStorie, including records that are still undergoing editorial
+      research. It is useful for checking a recognized breed name, origin, and group before beginning deeper research. Only rows
+      marked "Full guide available" link to an article; the remaining records are intentionally not linked until their source,
+      image, and content review is complete.
+    </p>
+    <form class="breed-directory-controls" id="breed-research-controls">
+      <label class="finder-control directory-search-control" for="breed-research-search">
+        Search all {{ catalog_total }} breeds
+        <input id="breed-research-search" type="search" autocomplete="off" placeholder="Try Akita, Keeshond, or Whippet">
+      </label>
+      <button class="directory-reset" type="reset" aria-label="Clear complete breed archive search" title="Clear search">&times;</button>
+    </form>
+    <p class="directory-results" id="breed-research-results" aria-live="polite"></p>
+    <table id="breed-research-table">
+      <thead>
+        <tr>
+          <th>Breed</th>
+          <th>Recognition group</th>
+          <th>Origin</th>
+          <th>Guide status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for breed in site.data.breeds %}
+        {% assign archive_post = site.posts | where: "url", breed.url | first %}
+        {% assign archive_is_published = false %}
+        {% if breed.publication_status == "published" and archive_post %}
+          {% assign archive_is_published = true %}
+        {% elsif breed.publication_status == nil and archive_post and archive_post.noindex != true %}
+          {% assign archive_is_published = true %}
+        {% endif %}
+        <tr class="breed-research-row" data-search="{{ breed.name }} {{ breed.aliases | join: ' ' }} {{ breed.origin }} {{ breed.group }}">
+          <td>{% if archive_is_published %}<a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a>{% else %}{{ breed.name }}{% endif %}</td>
+          <td>{{ breed.group }}</td>
+          <td>{{ breed.origin }}</td>
+          <td>{% if archive_is_published %}Full guide available{% elsif breed.publication_status == "in_review" %}Editorial review{% else %}Catalog record{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
     <h2>Not Sure Where to Start?</h2>
     <p>
       Use <a href="{{ site.url }}/which-dog-should-i-get/">Which Dog Should I Get?</a> if you are still defining your needs,
@@ -272,6 +316,10 @@ faq_schema:
   var grooming = document.getElementById('breed-directory-grooming');
   var output = document.getElementById('breed-directory-results');
   var rows = Array.prototype.slice.call(document.querySelectorAll('.breed-directory-row'));
+  var archiveControls = document.getElementById('breed-research-controls');
+  var archiveSearch = document.getElementById('breed-research-search');
+  var archiveOutput = document.getElementById('breed-research-results');
+  var archiveRows = Array.prototype.slice.call(document.querySelectorAll('.breed-research-row'));
 
   function updateResults() {
     var query = search.value.trim().toLowerCase();
@@ -292,6 +340,23 @@ faq_schema:
   controls.addEventListener('reset', function () {
     window.setTimeout(updateResults, 0);
   });
+
+  function updateArchiveResults() {
+    var query = archiveSearch.value.trim().toLowerCase();
+    var shown = 0;
+    archiveRows.forEach(function (row) {
+      var matches = !query || row.dataset.search.toLowerCase().indexOf(query) !== -1;
+      row.hidden = !matches;
+      if (matches) shown += 1;
+    });
+    archiveOutput.textContent = shown + (shown === 1 ? ' breed record matches your search.' : ' breed records match your search.');
+  }
+
+  archiveControls.addEventListener('input', updateArchiveResults);
+  archiveControls.addEventListener('reset', function () {
+    window.setTimeout(updateArchiveResults, 0);
+  });
   updateResults();
+  updateArchiveResults();
 }());
 </script>

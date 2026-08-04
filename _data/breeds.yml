@@ -233,7 +233,7 @@
   group: FCI Group 5 - Spitz and primitive types
   origin: RUSSIA
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: samoyed
 - key: shiba-inu
@@ -588,7 +588,7 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: bostonterrier
 - key: basset-hound

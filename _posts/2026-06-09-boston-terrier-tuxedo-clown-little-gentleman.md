@@ -5,7 +5,6 @@ cover: /assets/images/bostonterrier-cover.jpg
 layout: post
 adsense: false
 owner_context: "ming.zhao has personally cared for Boston Terriers for around three years."
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"

@@ -35,6 +35,15 @@ checkPage("labrador-vs-golden-retriever/index.html", { ads: 0, faq: 1, sources: 
 checkPage("apartment-dog-breeds/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("dog-cost-calculator/index.html", { ads: 0, faq: 1, sources: 1 });
 
+const breedDirectory = read("dog-breeds/index.html");
+const researchRows = count(breedDirectory, 'class="breed-research-row"');
+if (researchRows !== 279) {
+  throw new Error(`The complete breed archive has ${researchRows} records; expected 279.`);
+}
+if (breedDirectory.includes('href="https://petstorie.com/posts/2026/08/03/akita-breed-guide/"')) {
+  throw new Error("The complete breed archive must not link to a planned guide.");
+}
+
 const aboutPage = read("about/index.html");
 if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "ming.zhao"')) {
   throw new Error("The About page is missing the named Person schema for ming.zhao.");
@@ -98,8 +107,14 @@ for (const postFile of postFiles) {
   if (expectsNoindex && !html.includes('name="robots" content="noindex, follow"')) {
     throw new Error(`${relativePath} must expose noindex while it remains in editorial review.`);
   }
+  if (expectsNoindex && html.includes("Published on:")) {
+    throw new Error(`${relativePath} exposes a publication date before editorial release.`);
+  }
   if (!expectsNoindex && !html.includes('name="robots" content="index, follow"')) {
     throw new Error(`${relativePath} should remain indexable after its source review.`);
+  }
+  if (!expectsNoindex && !html.includes("Published on:")) {
+    throw new Error(`${relativePath} is indexable but does not expose its publication date.`);
   }
   if (!hasSources && updatedMatch) throw new Error(`${postFile} exposes an updated date before source review.`);
   if (!expectsNoindex && !updatedMatch) throw new Error(`${postFile} has sources but no page-level updated date.`);
