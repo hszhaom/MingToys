@@ -4,7 +4,6 @@ description: "The Australian Shepherd is a striking, high-drive herding dog with
 cover: /assets/images/australianshepherd-cover.jpg
 layout: post
 adsense: false
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"

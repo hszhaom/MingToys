@@ -20,7 +20,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: MEXICO
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 2
   image_prefix: chihuahua
 - key: maltese
   name: Maltese
@@ -89,7 +90,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 2
   image_prefix: toypoodle
 - key: yorkshire-terrier
   name: Yorkshire Terrier
@@ -305,7 +307,7 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: doberman
 - key: scottish-terrier
@@ -494,7 +496,7 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: minischnauzer
 - key: dachshund
@@ -612,7 +614,7 @@
   group: FCI Group 6 - Scent hounds and related breeds
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: bassethound
 - key: rottweiler
@@ -684,7 +686,7 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: cavalier
 - key: great-dane
@@ -708,7 +710,7 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: greatdane
 - key: border-collie
@@ -778,7 +780,7 @@
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: australianshepherd
 - key: bernese-mountain-dog
@@ -802,7 +804,7 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: SWITZERLAND
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: bernesemountaindog
 - key: english-cocker-spaniel
@@ -1012,7 +1014,7 @@
   group: FCI Group 10 - Sighthounds
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
   review_batch: 1
   image_prefix: whippet
 - key: caucasian-shepherd

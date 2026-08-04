@@ -4,7 +4,6 @@ description: "Basset Hounds are gentle, stubborn scent hounds with droopy ears, 
 cover: /assets/images/bassethound-cover.jpg
 layout: post
 adsense: false
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"

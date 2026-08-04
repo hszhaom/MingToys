@@ -4,7 +4,6 @@ description: "The Miniature Schnauzer pairs a wiry beard with terrier boldness, 
 cover: /assets/images/minischnauzer-cover.jpg
 layout: post
 adsense: false
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"

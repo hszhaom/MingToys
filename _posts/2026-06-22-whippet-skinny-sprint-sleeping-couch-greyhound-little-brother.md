@@ -4,7 +4,6 @@ description: "The Whippet is a quiet sighthound with explosive speed, thin skin,
 cover: /assets/images/whippet-cover.jpg
 layout: post
 adsense: false
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"

@@ -4,7 +4,6 @@ description: "The Great Dane is a towering, affectionate giant with a short life
 cover: /assets/images/greatdane-cover.jpg
 layout: post
 adsense: false
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"

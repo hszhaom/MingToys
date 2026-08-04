@@ -4,7 +4,6 @@ description: "The Bernese Mountain Dog is a giant tricolor Swiss working dog wit
 cover: /assets/images/bernesemountaindog-cover.jpg
 layout: post
 adsense: false
-noindex: true
 updated: "2026-08-04"
 sources:
   - organization: "American Kennel Club"
