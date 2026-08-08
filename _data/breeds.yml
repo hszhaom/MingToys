@@ -2227,26 +2227,25 @@
   image: "/assets/images/bichon-a-poil-frise-cover.jpg"
 - key: billy
   name: Billy
-  aliases: []
+  aliases: [Billy Hound]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BILLY-25.html
   publication_status: planned
   image_prefix: billy
   url: "/posts/2026/08/03/billy-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Tall French scent hound with speed, endurance, and a need for secure outdoor work, patient scent-hound handling, and a rural or quiet active home.
+  size: large
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: low
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: A short coat and elegant outline do not make this hound low effort; plan for containment, long walks, hound noise, transport, and a credible backup handler.
   image: "/assets/images/billy-cover.jpg"
 - key: black-and-tan-coonhound
   name: Black And Tan Coonhound
@@ -2294,95 +2293,91 @@
   image: "/assets/images/bolognese-cover.jpg"
 - key: border-terrier
   name: Border Terrier
-  aliases: []
+  aliases: [Border Terrier]
   group: FCI Group 3 - Terriers
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/BORDER-TERRIER-10.html
   publication_status: planned
   image_prefix: border-terrier
   url: "/posts/2026/08/03/border-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Compact British terrier with a practical coat, a lively chase instinct, and a need for daily exercise, calm bark training, and grooming that respects the harsh outer coat.
+  size: small
+  home: apartment
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Small size does not erase terrier drive; plan for secure walking, careful introductions to small animals, age-appropriate family rules, and a realistic stripping or trimming routine.
   image: "/assets/images/border-terrier-cover.jpg"
 - key: bosanski-ostrodlaki-gonic-barak
   name: Bosanski Ostrodlaki Gonic-barak
-  aliases: []
+  aliases: [Bosnian Coarse-haired Hound, Barak]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: BOSNIA AND HERZEGOVINA Country of patronage of the breed FCI
   breed_standard_url: https://www.fci.be/en/nomenclature/BOSNIAN-BROKEN-HAIRED-HOUND-CALLED-BARAK-155.html
   publication_status: planned
   image_prefix: bosanski-ostrodlaki-gonic-barak
   url: "/posts/2026/08/03/bosanski-ostrodlaki-gonic-barak-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Rough-coated Balkan scent hound with endurance, a working nose, and a need for secure routes, outdoor purpose, patient training, and reliable containment.
+  size: medium
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: "Rarity and a rustic coat should not obscure the hound commitment: choose only with secure containment, outdoor time, sourcing evidence, and realistic recall expectations."
   image: "/assets/images/bosanski-ostrodlaki-gonic-barak-cover.jpg"
 - key: bouvier-des-ardennes
   name: Bouvier Des Ardennes
-  aliases: []
+  aliases: [Bouvier des Ardennes]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: BELGIUM
   breed_standard_url: https://www.fci.be/en/nomenclature/BOUVIER-DES-ARDENNES-171.html
   publication_status: planned
   image_prefix: bouvier-des-ardennes
   url: "/posts/2026/08/03/bouvier-des-ardennes-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Rustic Belgian cattle dog with a quick mind, strong daily activity needs, and a requirement for training, weather-ready coat care, and family routines that direct herding energy.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A working cattle dog needs more than a garden; plan for lead skills, controlled play, social recovery, grooming, and a weekday schedule that offers meaningful activity.
   image: "/assets/images/bouvier-des-ardennes-cover.jpg"
 - key: bouvier-des-flandres-vlaamse-koehond
   name: Bouvier Des Flandres-vlaamse Koehond
-  aliases: []
+  aliases: [Bouvier des Flandres, Vlaamse Koehond]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: BELGIUM, FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BOUVIER-DES-FLANDRES-191.html
   publication_status: planned
   image_prefix: bouvier-des-flandres-vlaamse-koehond
   url: "/posts/2026/08/03/bouvier-des-flandres-vlaamse-koehond-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Powerful, bearded Belgian farm dog with a steady working temperament, a demanding coat, and a need for structured training, grooming, secure exercise, and adult handling.
+  size: large
+  home: house
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: high
+  grooming: high
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: This large, coated working dog needs real logistics for grooming, visitors, transport, adolescent strength, and household consistency, not just a spacious yard.
   image: "/assets/images/bouvier-des-flandres-vlaamse-koehond-cover.jpg"
 - key: bracco-italiano
   name: Bracco Italiano
