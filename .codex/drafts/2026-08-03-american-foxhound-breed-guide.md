@@ -104,4 +104,3 @@ The American Foxhound succeeds where its working instincts are treated as inform
 ## The American Foxhound Decision
 
 This is a dog for a life with miles, smells, and structure. The coat is simple; the routine is not. For an owner who values outdoor work and can manage a hound honestly, the breed can be an engaging, good-natured companion. Without that fit, the same instincts become a daily mismatch.
-
