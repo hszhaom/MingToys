@@ -1567,26 +1567,25 @@
   image: "/assets/images/akita-cover.jpg"
 - key: alpenlandische-dachsbracke
   name: Alpenlandische Dachsbracke
-  aliases: []
+  aliases: [Alpine Dachsbracke]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: AUSTRIA
   breed_standard_url: https://www.fci.be/en/nomenclature/ALPINE-DACHSBRACKE-254.html
   publication_status: planned
   image_prefix: alpenlandische-dachsbracke
   url: "/posts/2026/08/03/alpenlandische-dachsbracke-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Low-set Austrian scent hound that needs secure routes, a practical outdoor routine, and owners who respect a nose-led working style.
+  size: medium
+  home: rural
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Short legs do not make this a low-activity dog; plan for scent work, secure containment, and thoughtful conditioning.
   image: "/assets/images/alpenlandische-dachsbracke-cover.jpg"
 - key: american-akita
   name: American Akita
@@ -1597,19 +1596,18 @@
   publication_status: planned
   image_prefix: american-akita
   url: "/posts/2026/08/03/american-akita-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Powerful, independent spitz that needs calm visitor routines, responsible dog introductions, heavy-shed preparation, and experienced handling.
+  size: large
+  home: house
+  experience: experienced
+  kids: some
+  exercise: medium
+  shedding: high
+  grooming: high
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Choose only with a secure home, clear boundaries, and a realistic plan for strangers, other dogs, and seasonal coat blow.
   image: "/assets/images/american-akita-cover.jpg"
 - key: american-foxhound
   name: American Foxhound
@@ -1664,111 +1662,106 @@
   publication_status: planned
   image_prefix: american-water-spaniel
   url: "/posts/2026/08/03/american-water-spaniel-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Compact American gundog with a lively retriever brain, water-loving exercise needs, and a coat that benefits from steady maintenance.
+  size: medium
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Needs regular outdoor work and a taught settle; do not choose it only because it is smaller than many retrievers.
   image: "/assets/images/american-water-spaniel-cover.jpg"
 - key: anglo-francais-de-petite-venerie
   name: Anglo-francais De Petite Venerie
-  aliases: []
+  aliases: [Anglo-Francais de Petite Venerie]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/MEDIUM-SIZED-ANGLO-FRENCH-HOUND-325.html
   publication_status: planned
   image_prefix: anglo-francais-de-petite-venerie
   url: "/posts/2026/08/03/anglo-francais-de-petite-venerie-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: French pack hound built for scent and endurance, best suited to secure rural routines, patient recall management, and noise-tolerant homes.
+  size: large
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: A working hound's voice, chase drive, and need for daily mileage make this a poor fit for casual urban dog ownership.
   image: "/assets/images/anglo-francais-de-petite-venerie-cover.jpg"
 - key: anjing-kintamani-bali
   name: Anjing Kintamani-bali
-  aliases: []
+  aliases: [Kintamani Dog, Kintamani-Bali Dog]
   group: FCI Group 5 - Spitz and primitive types
   origin: INDONESIA
   breed_standard_url: https://www.fci.be/en/nomenclature/KINTAMANI-BALI-DOG-362.html
   publication_status: planned
   image_prefix: anjing-kintamani-bali
   url: "/posts/2026/08/03/anjing-kintamani-bali-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Alert Indonesian spitz that benefits from early socialization, secure boundaries, heat-aware exercise, and patient work on independence and barking.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Rare outside its home region; prioritize transparent breeder records, careful socialization, and a plan for alert vocal behavior.
   image: "/assets/images/anjing-kintamani-bali-cover.jpg"
 - key: appenzeller-sennenhund
   name: Appenzeller Sennenhund
-  aliases: []
+  aliases: [Appenzell Cattle Dog]
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: SWITZERLAND
   breed_standard_url: https://www.fci.be/en/nomenclature/APPENZELL-CATTLE-DOG-46.html
   publication_status: planned
   image_prefix: appenzeller-sennenhund
   url: "/posts/2026/08/03/appenzeller-sennenhund-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Fast, alert Swiss cattle dog that needs a daily job, calm visitor training, and an owner who can direct its herding energy.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Avoid a sedentary or chaotic home; barking, chasing, and over-arousal need early management.
   image: "/assets/images/appenzeller-sennenhund-cover.jpg"
 - key: ariegeois
   name: Ariegeois
-  aliases: []
+  aliases: [Ariege Hound]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/ARIEGEOIS-20.html
   publication_status: planned
   image_prefix: ariegeois
   url: "/posts/2026/08/03/ariegeois-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: French scent hound with endurance, a determined nose, and a need for secure containment rather than casual off-leash freedom.
+  size: medium
+  home: rural
+  experience: some
+  kids: some
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: The short coat is simple, but recall, vocal behavior, scent work, and safe containment are substantial daily commitments.
   image: "/assets/images/ariegeois-cover.jpg"
 - key: australian-cattle-dog
   name: Australian Cattle Dog
@@ -1784,7 +1777,7 @@
   size: pending
   home: pending
   experience: pending
-  kids: pending
+  kids: 'yes'
   exercise: pending
   shedding: pending
   grooming: pending
