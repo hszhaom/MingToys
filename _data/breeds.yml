@@ -2601,118 +2601,113 @@
   image: "/assets/images/broholmer-cover.jpg"
 - key: buldogue-campeiro
   name: Buldogue Campeiro
-  aliases: []
+  aliases: [Brazilian Campeiro Bulldog]
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: BRAZIL
   breed_standard_url: https://www.fci.be/en/nomenclature/BRAZILIAN-CAMPEIRO-BULLDOG-374.html
   publication_status: planned
   image_prefix: buldogue-campeiro
   url: "/posts/2026/08/03/buldogue-campeiro-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Brazilian farm bulldog with a strong, substantial build, a need for early training and visitor management, and a home that can handle a powerful adult responsibly.
+  size: large
+  home: house
+  experience: experienced
+  kids: some
+  exercise: medium
+  shedding: medium
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Strength and a farm-dog history make secure gates, lead skills, calm visitor routines, and a realistic large-dog budget essential from the start.
   image: "/assets/images/buldogue-campeiro-cover.jpg"
 - key: bulldog
   name: Bulldog
-  aliases: []
+  aliases: [English Bulldog]
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/BULLDOG-149.html
   publication_status: planned
   image_prefix: bulldog
   url: "/posts/2026/08/03/bulldog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Compact British companion bulldog with a low-key activity profile but significant heat, breathing, skin-fold, weight, and veterinary planning considerations.
+  size: medium
+  home: apartment
+  experience: some
+  kids: some
+  exercise: low
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: high
+  cost_level: high
+  caution: Do not choose by appearance alone; the home needs cooling, careful exercise timing, weight management, qualified veterinary access, and funds for potentially higher care needs.
   image: "/assets/images/bulldog-cover.jpg"
 - key: bullmastiff
   name: Bullmastiff
-  aliases: []
+  aliases: [Bullmastiff]
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/BULLMASTIFF-157.html
   publication_status: planned
   image_prefix: bullmastiff
   url: "/posts/2026/08/03/bullmastiff-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Giant British mastiff-type guardian with strength, a close family nature, and a need for early manners, visitor protocols, careful body management, and substantial resources.
+  size: giant
+  home: house
+  experience: experienced
+  kids: some
+  exercise: medium
+  shedding: medium
+  grooming: low
+  training: hard
+  health_risk: high
+  cost_level: high
+  caution: Giant size makes lead control, transport, visitor routines, food, medication, boarding, and emergency plans central to responsible ownership.
   image: "/assets/images/bullmastiff-cover.jpg"
 - key: ca-de-bestiar
   name: Ca De Bestiar
-  aliases: []
+  aliases: [Majorca Shepherd Dog, Perro de Pastor Mallorquin]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: SPAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/MAJORCA-SHEPHERD-DOG-321.html
   publication_status: planned
   image_prefix: ca-de-bestiar
   url: "/posts/2026/08/03/ca-de-bestiar-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large Majorcan shepherd dog with alert working instincts, a need for serious daily activity, controlled social exposure, secure boundaries, and experienced adult handling.
+  size: large
+  home: house
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: This alert herding dog needs structure beyond a garden; visitors, gates, children, wildlife, and public handling must be managed deliberately.
   image: "/assets/images/ca-de-bestiar-cover.jpg"
 - key: cairn-terrier
   name: Cairn Terrier
-  aliases: []
+  aliases: [Cairn Terrier]
   group: FCI Group 3 - Terriers
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/CAIRN-TERRIER-4.html
   publication_status: planned
   image_prefix: cairn-terrier
   url: "/posts/2026/08/03/cairn-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small Scottish terrier with a weather-resistant coat, a lively chase instinct, and a need for daily exercise, secure walking, bark training, and practical grooming.
+  size: small
+  home: apartment
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Small size should not hide terrier drive; plan for a secure lead, calm noise habits, careful handling around small animals, and appropriate coat maintenance.
   image: "/assets/images/cairn-terrier-cover.jpg"
 - key: canaan-dog
   name: Canaan Dog
