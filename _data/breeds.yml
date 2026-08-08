@@ -1985,49 +1985,47 @@
   image: "/assets/images/basset-artesien-normand-cover.jpg"
 - key: basset-bleu-de-gascogne
   name: Basset Bleu De Gascogne
-  aliases: []
+  aliases: [Blue Gascony Basset]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BLUE-GASCONY-BASSET-35.html
   publication_status: planned
   image_prefix: basset-bleu-de-gascogne
   url: "/posts/2026/08/03/basset-bleu-de-gascogne-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Low-set French scent hound with a strong nose, a potential hound voice, and a need for secure routes, weight management, and patient recall work.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: medium
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Short legs do not remove scent-hound needs; plan for secure fencing, long-line safety, sensible stairs, and routine activity.
   image: "/assets/images/basset-bleu-de-gascogne-cover.jpg"
 - key: basset-fauve-de-bretagne
   name: Basset Fauve De Bretagne
-  aliases: []
+  aliases: [Fawn Brittany Basset]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BASSET-FAUVE-DE-BRETAGNE-36.html
   publication_status: planned
   image_prefix: basset-fauve-de-bretagne
   url: "/posts/2026/08/03/basset-fauve-de-bretagne-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Rustic French scent hound that needs daily sniffing, secure containment, a practical coat routine, and a family willing to manage a hound's curiosity.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: medium
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: A friendly low-set hound still needs safe recall management, careful body conditioning, and a daily outdoor routine.
   image: "/assets/images/basset-fauve-de-bretagne-cover.jpg"
 - key: bayerischer-gebirgsschweisshund
   name: Bayerischer Gebirgsschweisshund
@@ -2077,26 +2075,25 @@
   image: "/assets/images/beagle-harrier-cover.jpg"
 - key: bearded-collie
   name: Bearded Collie
-  aliases: []
+  aliases: [Beardie]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/BEARDED-COLLIE-271.html
   publication_status: planned
   image_prefix: bearded-collie
   url: "/posts/2026/08/03/bearded-collie-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Upbeat, athletic herding dog with a long coat, a social nature, and a need for real exercise, consistent training, and committed grooming.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: high
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Needs brushing that reaches the skin, weather-aware coat care, and management of jumping, barking, and herding excitement.
   image: "/assets/images/bearded-collie-cover.jpg"
 - key: bedlington-terrier
   name: Bedlington Terrier
@@ -2107,42 +2104,40 @@
   publication_status: planned
   image_prefix: bedlington-terrier
   url: "/posts/2026/08/03/bedlington-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Lively small terrier with a distinctive curly coat, a real chase instinct, and grooming needs that demand regular professional and home care.
+  size: toy
+  home: apartment
+  experience: some
+  kids: some
+  exercise: medium
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Small size does not erase terrier drive; plan for grooming, calm handling, dental care, and safe management around moving animals.
   image: "/assets/images/bedlington-terrier-cover.jpg"
 - key: berger-blanc-suisse
   name: Berger Blanc Suisse
-  aliases: []
+  aliases: [White Swiss Shepherd Dog]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: SWITZERLAND
   breed_standard_url: https://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html
   publication_status: planned
   image_prefix: berger-blanc-suisse
   url: "/posts/2026/08/03/berger-blanc-suisse-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Sensitive, trainable Swiss shepherd dog that needs exercise, close family involvement, gentle training, seasonal coat care, and careful social exposure.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Avoid leaving a sensitive shepherd to manage constant noise or isolation; build visitor, lead, and recovery routines early.
   image: "/assets/images/berger-blanc-suisse-cover.jpg"
 - key: berger-de-beauce
   name: Berger De Beauce
@@ -2215,26 +2210,25 @@
   image: "/assets/images/berger-de-picardie-cover.jpg"
 - key: bichon-a-poil-frise
   name: Bichon A Poil Frise
-  aliases: []
+  aliases: [Bichon Frise]
   group: FCI Group 9 - Companion and Toy Dogs
   origin: BELGIUM, FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BICHON-FRISE-215.html
   publication_status: planned
   image_prefix: bichon-a-poil-frise
   url: "/posts/2026/08/03/bichon-a-poil-frise-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small companion dog with a cheerful social style, low visible shedding, high grooming needs, and a preference for gentle handling and company.
+  size: toy
+  home: apartment
+  experience: first
+  kids: some
+  exercise: low
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Low shedding means the coat needs regular brushing and trimming; plan for dental care, time alone, and small-dog safety.
   image: "/assets/images/bichon-a-poil-frise-cover.jpg"
 - key: billy
   name: Billy
@@ -2261,26 +2255,25 @@
   image: "/assets/images/billy-cover.jpg"
 - key: black-and-tan-coonhound
   name: Black And Tan Coonhound
-  aliases: []
+  aliases: [Black and Tan Coonhound]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/BLACK-AND-TAN-COONHOUND-300.html
   publication_status: planned
   image_prefix: black-and-tan-coonhound
   url: "/posts/2026/08/03/black-and-tan-coonhound-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large American scent hound with endurance, a carrying voice, scent-led recall limits, and a need for secure outdoor activity and tolerant neighbors.
+  size: large
+  home: rural
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Requires safe containment, noise-tolerant housing, strong lead handling, and a daily outlet for a hound's nose and stamina.
   image: "/assets/images/black-and-tan-coonhound-cover.jpg"
 - key: bolognese
   name: Bolognese
@@ -2291,19 +2284,18 @@
   publication_status: planned
   image_prefix: bolognese
   url: "/posts/2026/08/03/bolognese-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Gentle Italian companion dog with a low-shedding coat, high grooming commitment, close attachment, and a need for careful alone-time training.
+  size: toy
+  home: apartment
+  experience: first
+  kids: some
+  exercise: low
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Plan for regular coat care, dental checks, gentle handling, and a gradual routine for time alone rather than constant companionship.
   image: "/assets/images/bolognese-cover.jpg"
 - key: border-terrier
   name: Border Terrier
@@ -2813,26 +2805,25 @@
   image: "/assets/images/cane-da-pastore-abruzzese-maremmano-cover.jpg"
 - key: cane-da-pastore-bergamasco
   name: Cane Da Pastore Bergamasco
-  aliases: []
+  aliases: [Bergamasco Shepherd Dog]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: ITALY
   breed_standard_url: https://www.fci.be/en/nomenclature/BERGAMASCO-SHEPHERD-DOG-194.html
   publication_status: planned
   image_prefix: cane-da-pastore-bergamasco
   url: "/posts/2026/08/03/cane-da-pastore-bergamasco-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large Italian herding dog with a distinctive flocked coat, practical working instincts, and a need for educated coat care, training, and family involvement.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Do not treat the flocked coat as self-maintaining; learn the correct coat routine and provide activity beyond a fenced garden.
   image: "/assets/images/cane-da-pastore-bergamasco-cover.jpg"
 - key: ceskoslovensky-vlciak
   name: Ceskoslovensky Vlciak

@@ -93,7 +93,7 @@ The second myth is that a long run solves every hound behavior. Exercise matters
 
 The third myth is that a friendly pack hound will love every dog it meets. Social ability does not eliminate the need for safe introductions or distance from unknown dogs.
 
-Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to budget for secure fencing, training, tracking equipment, boarding, parasite prevention, and an emergency reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) help compare neighborhood density, tolerance for noise, hiking time, property security, small pets, and leash-management experience. For another scent-driven hound in a smaller frame, compare the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) and notice how scale does not remove the nose-first decision-making.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to budget for secure fencing, training, tracking equipment, boarding, parasite prevention, and an emergency reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) help compare neighborhood density, tolerance for noise, hiking time, property security, small pets, and leash-management experience. For another scent-driven hound in a smaller frame, compare the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) and notice how scale does not remove the nose-first decision-making. The [Basset Hound guide]({{ site.url }}/posts/2026/06/10/basset-hound-long-ears-slow-sniffing-hound/) is a useful contrast in pace and body shape, while still illustrating why containment and hound noise belong in the initial decision.
 
 ## Is an American Foxhound Right for You?
 

@@ -5,6 +5,11 @@ if (-not $?) {
   exit 1
 }
 
+& (Join-Path $PSScriptRoot "check-draft-breed-guides.ps1")
+if (-not $?) {
+  exit 1
+}
+
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
   Write-Host "Node.js is not installed. Install Node.js before checking interactive tools."
   exit 1
