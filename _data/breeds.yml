@@ -2029,49 +2029,47 @@
   image: "/assets/images/basset-fauve-de-bretagne-cover.jpg"
 - key: bayerischer-gebirgsschweisshund
   name: Bayerischer Gebirgsschweisshund
-  aliases: []
+  aliases: [Bavarian Mountain Scent Hound]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/BAVARIAN-MOUNTAIN-SCENT-HOUND-217.html
   publication_status: planned
   image_prefix: bayerischer-gebirgsschweisshund
   url: "/posts/2026/08/03/bayerischer-gebirgsschweisshund-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Purpose-bred German tracking hound with a serious nose, quiet concentration, and a need for secure rural exercise, patient handling, and careful sourcing.
+  size: medium
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: low
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: This is not an off-leash suburban pet; plan for secure scent work, patient recall management, and a schedule built around meaningful outdoor activity.
   image: "/assets/images/bayerischer-gebirgsschweisshund-cover.jpg"
 - key: beagle-harrier
   name: Beagle-harrier
-  aliases: []
+  aliases: [Beagle Harrier]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BEAGLE-HARRIER-290.html
   publication_status: planned
   image_prefix: beagle-harrier
   url: "/posts/2026/08/03/beagle-harrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Athletic French pack hound with a sociable nature, strong scent drive, and a need for secure walking, daily activity, and realistic noise management.
+  size: medium
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: A friendly hound still needs secure containment, lead skills, a plan for vocal behavior, and adults who will not rely on casual off-leash recall.
   image: "/assets/images/beagle-harrier-cover.jpg"
 - key: bearded-collie
   name: Bearded Collie
@@ -2141,72 +2139,69 @@
   image: "/assets/images/berger-blanc-suisse-cover.jpg"
 - key: berger-de-beauce
   name: Berger De Beauce
-  aliases: []
+  aliases: [Beauceron]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BEAUCE-SHEEPDOG-44.html
   publication_status: planned
   image_prefix: berger-de-beauce
   url: "/posts/2026/08/03/berger-de-beauce-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Powerful French herding dog with an alert mind, physical presence, and a need for structured training, visitor management, and an active, experienced home.
+  size: large
+  home: house
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Do not choose this large working dog for a casual yard routine; adolescence, visitor protocols, strength, and public handling need an adult plan from day one.
   image: "/assets/images/berger-de-beauce-cover.jpg"
 - key: berger-de-brie
   name: Berger De Brie
-  aliases: []
+  aliases: [Briard]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BRIARD-113.html
   publication_status: planned
   image_prefix: berger-de-brie
   url: "/posts/2026/08/03/berger-de-brie-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large French herding dog with a long coat, strong attachment to family, and a need for regular grooming, training, and calm management of visitors and daily activity.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: high
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: The coat, size, and watchful herding nature all need weekly attention; plan for skin-level brushing, social exposure, and practical large-dog handling.
   image: "/assets/images/berger-de-brie-cover.jpg"
 - key: berger-de-picardie
   name: Berger De Picardie
-  aliases: []
+  aliases: [Berger Picard, Picardy Shepherd]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/PICARDY-SHEEPDOG-176.html
   publication_status: planned
   image_prefix: berger-de-picardie
   url: "/posts/2026/08/03/berger-de-picardie-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Rustic French herding dog with an athletic, thoughtful temperament and a need for everyday training, companionship, secure exercise, and low-drama routines.
+  size: large
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: "A wiry coat and easygoing appearance should not hide the working-dog commitment: plan for ongoing training, social recovery, fences, and a real weekday routine."
   image: "/assets/images/berger-de-picardie-cover.jpg"
 - key: bichon-a-poil-frise
   name: Bichon A Poil Frise
