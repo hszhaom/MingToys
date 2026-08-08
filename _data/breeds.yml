@@ -1831,26 +1831,25 @@
   image: "/assets/images/australian-silky-terrier-cover.jpg"
 - key: australian-stumpy-tail-cattle-dog
   name: Australian Stumpy Tail Cattle Dog
-  aliases: []
+  aliases: [Stumpy Tail Cattle Dog]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: AUSTRALIA
   breed_standard_url: https://www.fci.be/en/nomenclature/AUSTRALIAN-STUMPY-TAIL-CATTLE-DOG-351.html
   publication_status: planned
   image_prefix: australian-stumpy-tail-cattle-dog
   url: "/posts/2026/08/03/australian-stumpy-tail-cattle-dog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Alert, athletic Australian cattle dog that needs structured activity, careful movement management, and a home prepared for an intense working temperament.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Needs clear boundaries around chasing, barking, visitors, and livestock; a yard is helpful but never a substitute for training.
   image: "/assets/images/australian-stumpy-tail-cattle-dog-cover.jpg"
 - key: australian-terrier
   name: Australian Terrier
@@ -1861,19 +1860,18 @@
   publication_status: planned
   image_prefix: australian-terrier
   url: "/posts/2026/08/03/australian-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small Australian terrier with a sturdy body, alert voice, prey drive, and a wiry coat that needs regular but practical maintenance.
+  size: toy
+  home: apartment
+  experience: some
+  kids: some
+  exercise: medium
+  shedding: low
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Requires barking boundaries, careful handling, dental planning, and realistic management around small pets or wildlife.
   image: "/assets/images/australian-terrier-cover.jpg"
 - key: azawakh
   name: Azawakh
@@ -1884,19 +1882,18 @@
   publication_status: planned
   image_prefix: azawakh
   url: "/posts/2026/08/03/azawakh-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Tall, reserved West African sighthound that needs secure running space, gentle socialization, warm resting conditions, and respect for its independence.
+  size: large
+  home: house
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: low
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Needs escape-proof fencing, careful cold-weather planning, thoughtful stranger introductions, and an owner comfortable with an independent sighthound.
   image: "/assets/images/azawakh-cover.jpg"
 - key: aidi-chien-de-montagne-de-l-atlas
   name: Aidi (chien De Montagne De L'atlas)
