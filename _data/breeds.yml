@@ -2381,118 +2381,113 @@
   image: "/assets/images/bouvier-des-flandres-vlaamse-koehond-cover.jpg"
 - key: bracco-italiano
   name: Bracco Italiano
-  aliases: []
+  aliases: [Italian Pointer]
   group: FCI Group 7 - Pointing Dogs
   origin: ITALY
   breed_standard_url: https://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-202.html
   publication_status: planned
   image_prefix: bracco-italiano
   url: "/posts/2026/08/03/bracco-italiano-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large Italian pointing dog with an affectionate working style, a need for daily field-like exercise, careful body management, and close involvement with its people.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: This is an athletic, substantial sporting dog; plan for age-appropriate exercise, secure recall work, ear and skin checks, and enough daily contact to prevent boredom.
   image: "/assets/images/bracco-italiano-cover.jpg"
 - key: brandlbracke-vieraugl
   name: Brandlbracke - (vieraugl)
-  aliases: []
+  aliases: [Austrian Black and Tan Hound, Brandlbracke, Vieraugl]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: AUSTRIA
   breed_standard_url: https://www.fci.be/en/nomenclature/AUSTRIAN-BLACK-AND-TAN-HOUND-63.html
   publication_status: planned
   image_prefix: brandlbracke-vieraugl
   url: "/posts/2026/08/03/brandlbracke-vieraugl-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Austrian scent hound with endurance, a carrying voice, and a need for secure outdoor activity, scent-led work, and owners who understand that recall has limits.
+  size: medium
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: low
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Treat this as a serious hound rather than a simple short-coated pet; secure containment, wildlife safety, neighbour noise, and long-line skills must be in place.
   image: "/assets/images/brandlbracke-vieraugl-cover.jpg"
 - key: braque-d-auvergne
   name: Braque D'auvergne
-  aliases: []
+  aliases: [Auvergne Pointer]
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/AUVERGNE-POINTER-180.html
   publication_status: planned
   image_prefix: braque-d-auvergne
   url: "/posts/2026/08/03/braque-d-auvergne-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: French pointing dog with a close working style, daily exercise needs, and a need for training that balances outdoor drive with calm behaviour in the house.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A gentle sporting-dog reputation does not remove the need for a daily field-like outlet, lead work, recall management, ear checks, and a real workday routine.
   image: "/assets/images/braque-d-auvergne-cover.jpg"
 - key: braque-de-l-ariege
   name: Braque De L'ariege
-  aliases: []
+  aliases: [Ariege Pointer]
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/ARIEGE-POINTING-DOG-177.html
   publication_status: planned
   image_prefix: braque-de-l-ariege
   url: "/posts/2026/08/03/braque-de-l-ariege-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Tall French pointing dog with stamina, an attentive nature, and a need for daily movement, cooperative training, secure exercise, and close family involvement.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Do not choose this athletic pointer for an occasional weekend outing; plan for dependable daily exercise, handling practice, transport, and sensible large-dog costs.
   image: "/assets/images/braque-de-l-ariege-cover.jpg"
 - key: braque-du-bourbonnais
   name: Braque Du Bourbonnais
-  aliases: []
+  aliases: [Bourbonnais Pointer]
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BOURBONNAIS-POINTING-DOG-179.html
   publication_status: planned
   image_prefix: braque-du-bourbonnais
   url: "/posts/2026/08/03/braque-du-bourbonnais-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Compact French pointing dog with an active, people-oriented style and a need for regular outdoor work, cooperative training, and a home that values a sporting routine.
+  size: medium
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A medium frame does not make this sporting dog low energy; plan for secure exercise, training, field-like enrichment, health records, and a calm indoor routine.
   image: "/assets/images/braque-du-bourbonnais-cover.jpg"
 - key: braque-francais-type-gascogne
   name: Braque Francais - Type Gascogne
