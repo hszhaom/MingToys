@@ -28,6 +28,16 @@ layout: default
     <div class="post-content">
       {{ content }}
     </div>
+    {% if page.ai_images %}
+    <aside class="editorial-note" aria-label="Image disclosure">
+      <h2>Image Note</h2>
+      <p>
+        Images in this guide are AI-assisted editorial illustrations of general breed appearance and care settings. They are not
+        photographs of the editor's dogs, evidence about an individual dog's health or behavior, or a substitute for the sources
+        listed below.
+      </p>
+    </aside>
+    {% endif %}
     {% if page.owner_context %}
     <aside class="editorial-note" aria-label="First-hand editorial context">
       <h2>First-Hand Context</h2>

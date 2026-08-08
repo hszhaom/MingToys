@@ -44,7 +44,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: CENTRAL MEDITERRANEAN BASIN Country of patronage of the breed ITALY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 3
   image_prefix: maltese
 - key: pomeranian
   name: Pomeranian
@@ -67,7 +68,8 @@
   group: FCI Group 5 - Spitz and primitive types
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 3
   image_prefix: pomeranian
 - key: toy-poodle
   name: Toy Poodle
@@ -114,7 +116,8 @@
   group: FCI Group 3 - Terriers
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 4
   image_prefix: yorkie
 - key: shih-tzu
   name: Shih Tzu
@@ -138,7 +141,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: Tibet (China) Country of patronage of the breed GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 4
   image_prefix: shih-tzu
 - key: golden-retriever
   name: Golden Retriever
@@ -331,7 +335,8 @@
   group: FCI Group 3 - Terriers
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 5
   image_prefix: scottie
 - key: standard-schnauzer
   name: Standard Schnauzer
@@ -354,7 +359,8 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 5
   image_prefix: schnauzer
 - key: beagle
   name: Beagle
@@ -425,7 +431,8 @@
   group: FCI Group 5 - Spitz and primitive types
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 6
   image_prefix: alaskan
 - key: bull-terrier
   name: Bull Terrier
@@ -448,7 +455,8 @@
   group: FCI Group 3 - Terriers
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 6
   image_prefix: bullterrier
 - key: pug
   name: Pug
@@ -567,7 +575,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: BELGIUM, FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 7
   image_prefix: papillon
 - key: boston-terrier
   name: Boston Terrier
@@ -662,7 +671,8 @@
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 7
   image_prefix: shetland
 - key: cavalier-king-charles-spaniel
   name: Cavalier King Charles Spaniel
@@ -757,7 +767,8 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: SWITZERLAND
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 8
   image_prefix: saintbernard
 - key: australian-shepherd
   name: Australian Shepherd
@@ -828,7 +839,8 @@
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 8
   image_prefix: englishcocker
 - key: american-cocker-spaniel
   name: American Cocker Spaniel
@@ -851,7 +863,8 @@
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: UNITED STATES OF AMERICA
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 9
   image_prefix: americancocker
 - key: great-pyrenees
   name: Great Pyrenees
@@ -898,7 +911,8 @@
   group: FCI Group 10 - Sighthounds
   origin: ITALY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 9
   image_prefix: italiangreyhound
 - key: brussels-griffon
   name: Brussels Griffon
@@ -922,7 +936,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: BELGIUM
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 10
   image_prefix: brusselsgriffon
 - key: havanese
   name: Havanese
@@ -945,7 +960,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: CUBA
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 10
   image_prefix: havanese
 - key: english-springer-spaniel
   name: English Springer Spaniel
@@ -968,7 +984,8 @@
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 11
   image_prefix: springerspaniel
 - key: newfoundland
   name: Newfoundland
@@ -991,7 +1008,8 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: CANADA Country of patronage of the breed FCI
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 11
   image_prefix: newfoundland
 - key: whippet
   name: Whippet
@@ -1039,7 +1057,8 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: RUSSIAN FEDERATION
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: caucasianshepherd
 - key: tibetan-mastiff
   name: Tibetan Mastiff
@@ -1062,7 +1081,8 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: TIBET (CHINA)
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: tibetanmastiff
 - key: japanese-chin
   name: Japanese Chin
@@ -1086,7 +1106,8 @@
   group: FCI Group 9 - Companion and Toy Dogs
   origin: JAPAN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: japanesechin
 - key: finnish-spitz
   name: Finnish Spitz
@@ -1109,7 +1130,8 @@
   group: FCI Group 5 - Spitz and primitive types
   origin: FINLAND
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: finnishspitz
 - key: icelandic-sheepdog
   name: Icelandic Sheepdog
@@ -1132,7 +1154,8 @@
   group: FCI Group 5 - Spitz and primitive types
   origin: ICELAND
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: icelandicsheepdog
 - key: portuguese-water-dog
   name: Portuguese Water Dog
@@ -1155,7 +1178,8 @@
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: PORTUGAL
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: portuguesewaterdog
 - key: spanish-water-dog
   name: Spanish Water Dog
@@ -1178,7 +1202,8 @@
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: SPAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: spanishwaterdog
 - key: irish-water-spaniel
   name: Irish Water Spaniel
@@ -1201,7 +1226,8 @@
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: IRELAND
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: irishwaterspaniel
 - key: wirehaired-pointing-griffon
   name: Wirehaired Pointing Griffon
@@ -1225,7 +1251,8 @@
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: wirehairedpointinggriffon
 - key: german-wirehaired-pointer
   name: German Wirehaired Pointer
@@ -1248,7 +1275,8 @@
   group: FCI Group 7 - Pointing Dogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 12
   image_prefix: germanwirehairedpointer
 - key: weimaraner
   name: Weimaraner
@@ -1272,7 +1300,8 @@
   group: FCI Group 7 - Pointing Dogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 13
   image_prefix: weimaraner
 - key: central-asian-shepherd
   name: Central Asian Shepherd Dog
@@ -1296,7 +1325,8 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: RUSSIAN FEDERATION
   breed_standard_url: https://www.fci.be/en/nomenclature/
-  publication_status: in_review
+  publication_status: published
+  review_batch: 13
   image_prefix: centralasianshepherd
 - key: cane-corso
   name: Cane Corso
@@ -1450,22 +1480,22 @@
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: GERMANY
   breed_standard_url: https://www.fci.be/en/nomenclature/AFFENPINSCHER-186.html
-  publication_status: planned
+  publication_status: published
+  review_batch: 15
   image_prefix: affenpinscher
   url: "/posts/2026/08/03/affenpinscher-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small wiry terrier companion with alert barking, light shedding, dental care, and confident household manners.
+  size: toy
+  home: apartment
+  experience: first
+  kids: 'some'
+  exercise: medium
+  shedding: low
+  grooming: medium
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Small body still needs careful handling, dental care, and consistent terrier boundaries.
   image: "/assets/images/affenpinscher-cover.jpg"
 - key: afghan-hound
   name: Afghan Hound
@@ -1473,22 +1503,22 @@
   group: FCI Group 10 - Sighthounds
   origin: AFGHANISTAN Country of patronage of the breed GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/AFGHAN-HOUND-228.html
-  publication_status: planned
+  publication_status: published
+  review_batch: 15
   image_prefix: afghan-hound
   url: "/posts/2026/08/03/afghan-hound-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Independent sighthound with secure running needs, intense coat care, chase instinct, and calm indoor habits.
+  size: large
+  home: house
+  experience: experienced
+  kids: 'some'
+  exercise: high
+  shedding: medium
+  grooming: high
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Requires secure fencing, careful off-leash management, and a serious grooming routine.
   image: "/assets/images/afghan-hound-cover.jpg"
 - key: airedale-terrier
   name: Airedale Terrier
@@ -1496,22 +1526,22 @@
   group: FCI Group 3 - Terriers
   origin: GREAT BRITAIN
   breed_standard_url: https://www.fci.be/en/nomenclature/AIREDALE-TERRIER-7.html
-  publication_status: planned
+  publication_status: published
+  review_batch: 15
   image_prefix: airedale-terrier
   url: "/posts/2026/08/03/airedale-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large clever terrier with daily work needs, prey drive, wiry coat care, and demanding adolescent manners.
+  size: large
+  home: house
+  experience: some
+  kids: 'some'
+  exercise: high
+  shedding: low
+  grooming: medium
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Needs structured activity, impulse control, secure fencing, and regular terrier-coat maintenance.
   image: "/assets/images/airedale-terrier-cover.jpg"
 - key: akita
   name: Akita
@@ -1522,19 +1552,18 @@
   publication_status: planned
   image_prefix: akita
   url: "/posts/2026/08/03/akita-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Powerful Japanese spitz with deep family loyalty, dog-selective tendencies, dense seasonal shedding, and serious visitor management.
+  size: large
+  home: house
+  experience: experienced
+  kids: 'some'
+  exercise: medium
+  shedding: high
+  grooming: high
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Needs controlled introductions, secure boundaries, and realistic management around unfamiliar dogs and visitors.
   image: "/assets/images/akita-cover.jpg"
 - key: alpenlandische-dachsbracke
   name: Alpenlandische Dachsbracke
@@ -1591,19 +1620,18 @@
   publication_status: planned
   image_prefix: american-foxhound
   url: "/posts/2026/08/03/american-foxhound-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Athletic American scent hound with major exercise needs, a carrying hound voice, scent-led recall limits, and secure-fence requirements.
+  size: large
+  home: rural
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Needs noise-tolerant housing, secure containment, and a daily outlet for scent work and endurance.
   image: "/assets/images/american-foxhound-cover.jpg"
 - key: american-staffordshire-terrier
   name: American Staffordshire Terrier
@@ -1614,19 +1642,18 @@
   publication_status: planned
   image_prefix: american-staffordshire-terrier
   url: "/posts/2026/08/03/american-staffordshire-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Strong people-oriented terrier needing early manners, realistic dog introductions, housing-rule checks, and consistent family supervision.
+  size: medium
+  home: house
+  experience: some
+  kids: 'some'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Confirm local housing and insurance rules, then build calm leash skills and visitor routines before adolescence.
   image: "/assets/images/american-staffordshire-terrier-cover.jpg"
 - key: american-water-spaniel
   name: American Water Spaniel

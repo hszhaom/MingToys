@@ -4,25 +4,50 @@ description: "The Scottish Terrier is a bold, independent terrier with a wiry co
 cover: /assets/images/scottie-cover.jpg
 layout: post
 adsense: false
-noindex: true
+updated: "2026-08-08"
+sources:
+  - organization: "American Kennel Club"
+    title: "Scottish Terrier Dog Breed Information"
+    url: "https://www.akc.org/dog-breeds/scottish-terrier/"
+    accessed: "2026-08-08"
+  - organization: "Federation Cynologique Internationale"
+    title: "Scottish Terrier Breed Standard No. 73"
+    url: "https://www.fci.be/en/nomenclature/SCOTTISH-TERRIER-73.html"
+    accessed: "2026-08-08"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "Canine Health Information Center Program Overview"
+    url: "https://ofa.org/chic-programs/"
+    accessed: "2026-08-08"
+faq_schema:
+  - question: "Are Scottish Terriers good family dogs?"
+    answer: "They can be, in the right family. A Scottie often does best with older children who understand that this dog is not a toy. It is loyal and protective of its household but may have a low tolerance for rough handling, so young children need close supervision."
+  - question: "Do Scottish Terriers get along with other pets?"
+    answer: "Often warily. Same-sex dog aggression is common, and the strong prey drive makes cats, rabbits, and pocket pets a real concern, especially with an adult Scottie raised without them. Early socialization helps, but careful introductions and management are wise."
+  - question: "How much grooming does a Scottie really need?"
+    answer: "A lot more than people expect. Plan on brushing several times a week and a professional clip or hand-strip every six to eight weeks. The wiry double coat mats and softens without this upkeep, so a Scottie is not a low-maintenance dog despite its modest shedding."
+  - question: "Are Scottish Terriers easy to train?"
+    answer: "They are intelligent but stubborn, so \"easy\" is the wrong word. Reward-based, short sessions work; heavy-handed methods do not. Expect a polite companion rather than an instantly obedient one, and prioritize recall and impulse control given the prey drive."
+  - question: "Do Scottish Terriers bark a lot?"
+    answer: "Many do. The breed is alert and territorial, quick to announce visitors, passersby, and anything suspicious. With training you can manage the barking, but a naturally vocal watchdog tendency comes with the breed."
+  - question: "What health problems are Scotties prone to?"
+    answer: "Watch for von Willebrand disease (a bleeding disorder), the harmless but startling \"Scottie cramp,\" jaw problems in puppies, and an elevated risk of bladder cancer. Any blood in the urine or persistent straining warrants a vet visit."
 ---
 
-Short legs, a long head, bushy eyebrows, and an attitude several sizes larger than the body: that is the Scottish Terrier in a nutshell. Bred in the Scottish Highlands to dig fox, badger, and vermin out of rocky dens, the "Scottie" still carries the working terrier's grit. Owners describe a dog that is fiercely loyal to its person, polite but cool toward strangers, and convinced it is the boss of the household. This guide walks through what living with a Scottie actually involves, from the demanding wiry coat to the breed's well-known stubborn streak.
+A Scottish Terrier is a compact dog with a working terrier's priorities. Its short legs do not cancel the urge to investigate, dig, chase, and announce unfamiliar activity. The breed can suit an apartment or a house, but the household needs a safe outlet for prey drive, clear visitor rules, and a grooming plan before the distinctive silhouette becomes the main consideration.
 
-Before you fall for that famous silhouette, it helps to picture an ordinary Tuesday with this breed. A Scottie wants a job, a routine, and a chance to patrol the yard for squirrels. It does not want to be fussed over, dressed up, or asked to obey on command the way a Border Collie might.
+The Scottie is affectionate without being endlessly compliant. It often prefers a predictable relationship to constant handling and may negotiate a cue it finds uninteresting. Owners who enjoy an independent dog and can keep rules consistent usually get more from the breed than owners looking for a small, eager-to-please lapdog.
 
 ![Black Scottish Terrier standing alert with its trademark long head and bushy eyebrows]({{ site.url }}/assets/images/scottie-main.jpg)
 
 
-## Scottish Terrier Fit in an Ordinary Week
-| Fit Factor | Score | What It Means |
+## What a Scottish Terrier Asks of a Household
+| Daily constraint | Score | What it changes |
 |---|---|---|
-| Apartment Fit | 3/5 | Workable for prepared owners who manage exercise, barking, and routine. |
-| First-Time Owner Fit | 3/5 | Possible for prepared first-time owners who research the breed honestly. |
-| Family Fit | 3/5 | Can suit the right family when children, space, and routines are managed. |
-| Exercise Demand | 3/5 | Moderate daily activity and mental work keep this dog easier to live with. |
-| Grooming Difficulty | 4/5 | High grooming or shedding load; brushing and professional help may be needed. |
-| Training Difficulty | 4/5 | Can be stubborn, intense, or independent; structure matters. |
+| Prey-drive management | 5/5 | Squirrels, cats, and small pets require fencing, leash habits, and realistic recall expectations. |
+| Visitor and noise plan | 4/5 | A territorial terrier needs a taught response to doors, windows, and unfamiliar dogs. |
+| Coat method | 4/5 | Hand-stripping preserves a harsher jacket; clipping is simpler but still requires a regular groomer. |
+| Family handling | 4/5 | Older, respectful children are usually easier to match than toddlers who cannot read a dog's boundaries. |
+| First-dog margin | 3/5 | Training is possible for a beginner, but independence and persistence punish inconsistent rules. |
 
 ## Scottish Terrier Quick Facts
 
@@ -41,7 +66,7 @@ Before you fall for that famous silhouette, it helps to picture an ordinary Tues
 
 ## Scottish Terrier Temperament
 
-If you want a dog that thinks for itself, the Scottie delivers. This is a one-person or one-family dog at heart, deeply attached to its inner circle and reserved, sometimes downright aloof, with everyone else. Many Scotties bond hardest with a single household member and follow that person from room to room while still refusing to be a clingy lapdog. They are affectionate on their own terms, which is part of the charm and part of the challenge.
+If you want a dog that thinks for itself, the Scottie delivers. It can be deeply attached to its household while remaining reserved with visitors and unwilling to perform affection on demand. That is not the same as a dog that cannot bond; it is a dog whose trust is usually built through predictable handling and shared routines.
 
 That independence comes with a strong sense of self-importance. Scotties can be territorial, quick to sound the alarm at the door, and feisty toward strange dogs, especially dogs of the same sex. The prey drive that once made them efficient ratters never fully switched off, so squirrels, cats, and rabbits will trigger an instant chase. Early, ongoing socialization softens the edges, but you should never expect a Scottie to be the friendly dog-park type. It is a serious little dog with serious opinions, and most owners come to love it precisely for that.
 
@@ -158,32 +183,6 @@ A Scottie suits an owner who genuinely enjoys an independent, opinionated dog an
 It is a poor match for someone hoping for a soft, biddable lapdog, a reliable off-leash hiking partner, or a dog that warmly greets every stranger. It also frustrates owners who dislike grooming bills or expect a small dog to be effortless.
 
 For comparison, read the [Siberian Husky guide]({{ site.url }}/posts/2026/06/01/siberian-husky-wolf-lookalike-talking-clowns/), the [Doberman Pinscher guide]({{ site.url }}/posts/2026/06/02/doberman-pinscher-sleek-bodyguard-with-a-soft-heart/), or the [Standard Schnauzer guide]({{ site.url }}/posts/2026/06/03/schnauzer-bearded-tiny-gruff-house-detectives/). Looking at several terrier-adjacent breeds side by side makes the Scottie's particular mix of independence, grooming load, and prey drive easier to judge.
-
-## Scottish Terrier FAQ
-
-### Are Scottish Terriers good family dogs?
-
-They can be, in the right family. A Scottie does best with older children who understand that this dog is not a toy. It is loyal and protective of its household but has a low tolerance for rough handling, so homes with toddlers need close supervision.
-
-### Do Scottish Terriers get along with other pets?
-
-Often warily. Same-sex dog aggression is common, and the strong prey drive makes cats, rabbits, and pocket pets a real concern, especially with an adult Scottie raised without them. Early socialization helps, but careful introductions and management are wise.
-
-### How much grooming does a Scottie really need?
-
-A lot more than people expect. Plan on brushing several times a week and a professional clip or hand-strip every six to eight weeks. The wiry double coat mats and softens without this upkeep, so a Scottie is not a low-maintenance dog despite its modest shedding.
-
-### Are Scottish Terriers easy to train?
-
-They are intelligent but stubborn, so "easy" is the wrong word. Reward-based, short sessions work; heavy-handed methods do not. Expect a polite companion rather than an instantly obedient one, and prioritize recall and impulse control given the prey drive.
-
-### Do Scottish Terriers bark a lot?
-
-Many do. The breed is alert and territorial, quick to announce visitors, passersby, and anything suspicious. With training you can manage the barking, but a naturally vocal watchdog tendency comes with the breed.
-
-### What health problems are Scotties prone to?
-
-Watch for von Willebrand disease (a bleeding disorder), the harmless but startling "Scottie cramp," jaw problems in puppies, and an elevated risk of bladder cancer. Any blood in the urine or persistent straining warrants a vet visit.
 
 ## The Scottish Terrier Decision
 The Scottish Terrier is a dog of strong character: dignified, brave, loyal, and stubborn in equal measure. It will not flatter you with obedience or smother you with affection, but it will bond hard, guard its home with conviction, and bring decades of personality into a compact, dapper package. The catch is the grooming commitment and the independent mind, both of which demand a patient, realistic owner.

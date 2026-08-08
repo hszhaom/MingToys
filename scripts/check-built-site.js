@@ -30,7 +30,7 @@ function checkPage(relativePath, expected) {
 
 checkPage("index.html", { ads: 0, faq: 0, sources: 0 });
 checkPage("posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/index.html", { ads: 0, faq: 1, sources: 1 });
-checkPage("posts/2026/06/08/papillon-butterfly-eared-little-fluffy-acrobat/index.html", { ads: 0, faq: 0, sources: 0 });
+checkPage("posts/2026/06/08/papillon-butterfly-eared-little-fluffy-acrobat/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("labrador-vs-golden-retriever/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("apartment-dog-breeds/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("dog-cost-calculator/index.html", { ads: 0, faq: 1, sources: 1 });

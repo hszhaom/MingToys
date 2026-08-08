@@ -4,7 +4,33 @@ description: "The Tibetan Mastiff is a 70-150 lb ancient guardian with a lion-li
 cover: /assets/images/tibetanmastiff-cover.jpg
 layout: post
 adsense: false
-noindex: true
+updated: "2026-08-08"
+sources:
+  - organization: "American Kennel Club"
+    title: "Tibetan Mastiff Dog Breed Information"
+    url: "https://www.akc.org/dog-breeds/tibetan-mastiff/"
+    accessed: "2026-08-08"
+  - organization: "Federation Cynologique Internationale"
+    title: "Tibetan Mastiff Breed Standard No. 230"
+    url: "https://www.fci.be/Nomenclature/Standards/230g02-en.pdf"
+    accessed: "2026-08-08"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "Canine Health Information Center Program Overview"
+    url: "https://ofa.org/chic-programs/"
+    accessed: "2026-08-08"
+faq_schema:
+  - question: "Are Tibetan Mastiffs good for first-time owners?"
+    answer: "Generally no. Their strong independence, guarding instincts, and resistance to training make them a demanding breed best handled by experienced owners who understand primitive guardian dogs."
+  - question: "Do Tibetan Mastiffs bark a lot at night?"
+    answer: "Many do. They were bred as nocturnal guardians and will patrol and bark at night-time sounds. Most owners bring them indoors overnight, and the breed is a poor choice where neighbors are close."
+  - question: "How much do Tibetan Mastiffs shed?"
+    answer: "Less than expected for most of the year, then enormously during a single annual coat blow, usually in spring, when the entire undercoat sheds out over several weeks of daily brushing."
+  - question: "Do Tibetan Mastiffs need a lot of exercise?"
+    answer: "No. Moderate daily walks plus a secure space to patrol satisfy this calm, energy-conserving breed. Just keep activity to cooler hours, since the heavy coat makes heat dangerous."
+  - question: "Are Tibetan Mastiffs aggressive?"
+    answer: "They are territorial and wary of strangers rather than indiscriminately aggressive. With thorough early socialization and a confident owner, that protectiveness can be kept measured, but the instinct is strong and must be managed."
+  - question: "What health problems should owners watch for?"
+    answer: "Hip and elbow dysplasia, the inherited nerve disorder CIDN, hypothyroidism, and bloat are the main concerns. Choose a breeder who screens hips and elbows and DNA-tests for CIDN."
 ---
 
 The Tibetan Mastiff looks like a creature out of legend, and in a sense it is. For thousands of years it guarded monasteries, villages, and herds across the high Himalayan plateau, working through bitter cold and long nights with no human directing it. The result is a dog of immense presence and dignity, crowned by a thick lion-like mane, that remains one of the most independent and primitive guardian breeds you can own.
@@ -14,7 +40,7 @@ This is a large to giant dog, with males commonly weighing 90 to 150 pounds and 
 ![Adult Tibetan Mastiff with a thick lion-like mane and a calm, dignified expression]({{ site.url }}/assets/images/tibetanmastiff-main.jpg)
 
 
-## Tibetan Mastiff Fit in an Ordinary Week
+## Night Noise, Boundaries, and Visitor Management
 | Fit Factor | Score | What It Means |
 |---|---|---|
 | Apartment Fit | 1/5 | Poor apartment fit; space, noise, size, or management needs can be difficult. |
@@ -161,32 +187,6 @@ The Tibetan Mastiff suits an experienced owner with a secure, spacious property,
 It is a poor fit for first-time owners, for apartments or homes with neighbors nearby (the night barking alone can end the relationship), and for anyone hoping for an eager, trainable family pet. Underestimate the independence, the noise, or the security needs, and both you and the dog will struggle.
 
 If you are comparing guardians, look at the [Caucasian Shepherd Dog]({{ site.url }}/posts/2026/06/23/caucasian-shepherd-fluffy-mountain-fierce-soft-giant/) for an even more intense livestock guardian, the gentle [Newfoundland]({{ site.url }}/posts/2026/06/21/newfoundland-gentle-slobbery-water-giant/) for a softer giant, or the quiet little [Japanese Chin]({{ site.url }}/posts/2026/06/25/japanese-chin-fluffy-lap-royal-japanese-companion/) at the opposite end of the size and temperament spectrum.
-
-## Tibetan Mastiff FAQ
-
-### Are Tibetan Mastiffs good for first-time owners?
-
-Generally no. Their strong independence, guarding instincts, and resistance to training make them a demanding breed best handled by experienced owners who understand primitive guardian dogs.
-
-### Do Tibetan Mastiffs bark a lot at night?
-
-Many do. They were bred as nocturnal guardians and will patrol and bark at night-time sounds. Most owners bring them indoors overnight, and the breed is a poor choice where neighbors are close.
-
-### How much do Tibetan Mastiffs shed?
-
-Less than expected for most of the year, then enormously during a single annual coat blow, usually in spring, when the entire undercoat sheds out over several weeks of daily brushing.
-
-### Do Tibetan Mastiffs need a lot of exercise?
-
-No. Moderate daily walks plus a secure space to patrol satisfy this calm, energy-conserving breed. Just keep activity to cooler hours, since the heavy coat makes heat dangerous.
-
-### Are Tibetan Mastiffs aggressive?
-
-They are territorial and wary of strangers rather than indiscriminately aggressive. With thorough early socialization and a confident owner, that protectiveness can be kept measured, but the instinct is strong and must be managed.
-
-### What health problems should owners watch for?
-
-Hip and elbow dysplasia, the inherited nerve disorder CIDN, hypothyroidism, and bloat are the main concerns. Choose a breeder who screens hips and elbows and DNA-tests for CIDN.
 
 ## The Tibetan Mastiff Decision
 The Tibetan Mastiff is a breed apart, ancient, dignified, fiercely loyal, and utterly its own dog. For the experienced owner with the right property and realistic expectations, it offers a guardianship and a presence that few breeds can match.

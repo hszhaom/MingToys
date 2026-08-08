@@ -4,7 +4,33 @@ description: "The Spanish Water Dog is a rustic herding and water breed with a w
 cover: /assets/images/spanishwaterdog-cover.jpg
 layout: post
 adsense: false
-noindex: true
+updated: "2026-08-08"
+sources:
+  - organization: "American Kennel Club"
+    title: "Spanish Water Dog Dog Breed Information"
+    url: "https://www.akc.org/dog-breeds/spanish-water-dog/"
+    accessed: "2026-08-08"
+  - organization: "Federation Cynologique Internationale"
+    title: "Spanish Water Dog Breed Standard No. 336"
+    url: "https://www.fci.be/Nomenclature/Standards/336g08-en.pdf"
+    accessed: "2026-08-08"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "Canine Health Information Center Program Overview"
+    url: "https://ofa.org/chic-programs/"
+    accessed: "2026-08-08"
+faq_schema:
+  - question: "Do you brush a Spanish Water Dog?"
+    answer: "No. This is the breed's defining grooming rule. The wool is left to cord naturally and is never brushed or combed. The coat is shorn down once or twice a year and otherwise managed by separating the cords and bathing carefully."
+  - question: "Are Spanish Water Dogs good with strangers?"
+    answer: "By nature they are reserved and watchful with unfamiliar people, a holdover from their guarding role. Early and ongoing socialization is essential to raise a confident, well-mannered adult rather than a shy or reactive one."
+  - question: "How much exercise does a Spanish Water Dog need?"
+    answer: "Plan on one to two hours daily that combines physical exertion with mental work. Herding games, swimming, agility, and training sessions all suit the breed far better than a plain walk alone."
+  - question: "Are Spanish Water Dogs good family dogs?"
+    answer: "They can be excellent with their own family, affectionate and devoted, but their herding instinct and high needs make them best for active, experienced homes. Supervise them around young children to discourage herding nips."
+  - question: "Does a Spanish Water Dog shed?"
+    answer: "Very little hair ends up around the house because the coat cords rather than dropping loose. That low shedding comes with a specialized coat-management routine instead, not a wash-and-go convenience."
+  - question: "What health issues affect Spanish Water Dogs?"
+    answer: "Ask breeders about hip dysplasia, progressive retinal atrophy, congenital hypothyroidism, and exfoliative dermatosis. Documented hip, eye, and DNA testing on both parents is the mark of a responsible breeder."
 ---
 
 The Spanish Water Dog, or Perro de Agua Espanol, is a true all-rounder from the Iberian Peninsula, a single dog that historically herded goats and sheep in the morning, hauled nets and retrieved gear from the water in the afternoon, and guarded the homestead at night. That triple job description produced a tireless, intensely focused breed wrapped in a distinctive woolly coat that grows into natural cords rather than the soft curls of its water-dog cousins.
@@ -14,7 +40,7 @@ Among curly water breeds, the Spanish Water Dog stands apart for two reasons: it
 ![Adult Spanish Water Dog with a corded woolly coat standing alert in a rural setting]({{ site.url }}/assets/images/spanishwaterdog-main.jpg)
 
 
-## Spanish Water Dog Fit in an Ordinary Week
+## Coat Rules and Stranger Awareness
 | Fit Factor | Score | What It Means |
 |---|---|---|
 | Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
@@ -158,32 +184,6 @@ This breed suits a committed, experienced owner who wants a versatile working pa
 It is the wrong choice for a hands-off household, a first-time owner expecting an easy dog, or anyone who pictured a soft, brushable coat. The reserve toward strangers and the need for work are not quirks to ignore; they shape daily life with this breed.
 
 For comparison, read the curlier [Portuguese Water Dog guide]({{ site.url }}/posts/2026/06/27/portuguese-water-dog-curly-working-family-companion/), the birdy [English Springer Spaniel guide]({{ site.url }}/posts/2026/06/20/english-springer-spaniel-energetic-sniffing-happy-water-lover/), or the high-drive [Australian Shepherd guide]({{ site.url }}/posts/2026/06/14/australian-shepherd-colorful-brainy-energetic-workaholic/). Setting working breeds side by side clarifies real differences in coat care, sociability, and intensity.
-
-## Spanish Water Dog FAQ
-
-### Do you brush a Spanish Water Dog?
-
-No. This is the breed's defining grooming rule. The wool is left to cord naturally and is never brushed or combed. The coat is shorn down once or twice a year and otherwise managed by separating the cords and bathing carefully.
-
-### Are Spanish Water Dogs good with strangers?
-
-By nature they are reserved and watchful with unfamiliar people, a holdover from their guarding role. Early and ongoing socialization is essential to raise a confident, well-mannered adult rather than a shy or reactive one.
-
-### How much exercise does a Spanish Water Dog need?
-
-Plan on one to two hours daily that combines physical exertion with mental work. Herding games, swimming, agility, and training sessions all suit the breed far better than a plain walk alone.
-
-### Are Spanish Water Dogs good family dogs?
-
-They can be excellent with their own family, affectionate and devoted, but their herding instinct and high needs make them best for active, experienced homes. Supervise them around young children to discourage herding nips.
-
-### Does a Spanish Water Dog shed?
-
-Very little hair ends up around the house because the coat cords rather than dropping loose. That low shedding comes with a specialized coat-management routine instead, not a wash-and-go convenience.
-
-### What health issues affect Spanish Water Dogs?
-
-Ask breeders about hip dysplasia, progressive retinal atrophy, congenital hypothyroidism, and exfoliative dermatosis. Documented hip, eye, and DNA testing on both parents is the mark of a responsible breeder.
 
 ## The Spanish Water Dog Decision
 The Spanish Water Dog is a rugged, brilliant, and intensely loyal breed for owners who want a working partner rather than a passenger. Meet its needs for exercise, mental work, socialization, and that one-of-a-kind corded coat, and you gain a devoted companion capable of nearly any task you set it.

@@ -4,7 +4,33 @@ description: "The Irish Water Spaniel is a liver-curled water retriever with a t
 cover: /assets/images/irishwaterspaniel-cover.jpg
 layout: post
 adsense: false
-noindex: true
+updated: "2026-08-08"
+sources:
+  - organization: "American Kennel Club"
+    title: "Irish Water Spaniel Dog Breed Information"
+    url: "https://www.akc.org/dog-breeds/irish-water-spaniel/"
+    accessed: "2026-08-08"
+  - organization: "Federation Cynologique Internationale"
+    title: "Irish Water Spaniel Breed Standard No. 124"
+    url: "https://www.fci.be/Nomenclature/Standards/124g08-en.pdf"
+    accessed: "2026-08-08"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "Canine Health Information Center Program Overview"
+    url: "https://ofa.org/chic-programs/"
+    accessed: "2026-08-08"
+faq_schema:
+  - question: "Are Irish Water Spaniels hypoallergenic?"
+    answer: "No dog is fully hypoallergenic, but the breed's low-shedding curly coat sheds little loose hair, which some allergy-aware households tolerate better. Meet the breed in person before deciding, since individual reactions vary."
+  - question: "Why do Irish Water Spaniels get ear infections?"
+    answer: "Their long, heavily feathered drop ears trap moisture and debris, especially after the swimming the breed loves. Drying and checking the ears after every swim, plus a regular cleaning routine, is the best way to prevent recurring infections."
+  - question: "How much exercise does an Irish Water Spaniel need?"
+    answer: "Plan on one to two hours of vigorous daily activity, ideally including swimming and retrieving. They also need mental work; a clever, under-exercised dog of this breed becomes bored and mischievous."
+  - question: "Are Irish Water Spaniels easy to train?"
+    answer: "They are intelligent but independent, so training is more of a collaboration than with biddable breeds. Short, varied, reward-based sessions and a good recall make the most of their abilities; harsh methods backfire."
+  - question: "Do Irish Water Spaniels shed a lot?"
+    answer: "Not much loose hair, since the curly coat is low-shedding. The trade-off is regular brushing and periodic trims to keep the curls from matting, so low shedding does not mean low effort."
+  - question: "What health problems affect the breed?"
+    answer: "Ask breeders about hip and elbow dysplasia and eye conditions, and be aware of the breed's tendency toward ear infections, skin allergies, hypothyroidism, and occasional drug sensitivities. Documented clearances from a reputable breeder matter, especially in a rare breed."
 ---
 
 The Irish Water Spaniel is the tallest of the spaniels and one of the most unmistakable dogs in the field, with a coat of tight liver-colored curls, a curly "topknot" between the ears, and a smooth, tapering "rat tail" that gives the breed away at a glance. Bred in Ireland to retrieve waterfowl from cold lakes and rivers, it pairs serious working stamina with a mischievous, almost comedic personality that owners adore.
@@ -14,7 +40,7 @@ Within the family of curly water breeds, the Irish Water Spaniel is the clown: c
 ![Adult Irish Water Spaniel with liver curls, topknot, and rat tail standing by water]({{ site.url }}/assets/images/irishwaterspaniel-main.jpg)
 
 
-## Irish Water Spaniel Fit in an Ordinary Week
+## Field Work, Wet Coats, and Spacious Routines
 | Fit Factor | Score | What It Means |
 |---|---|---|
 | Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
@@ -47,7 +73,7 @@ There is a thoughtful independence here too. As working retrievers expected to m
 
 They are typically good with children and other dogs when raised alongside them, though their exuberance suits active households better than quiet ones.
 
-## How a Irish Water Spaniel Uses Its Energy
+## How an Irish Water Spaniel Uses Its Energy
 A working retriever's stamina demands real outlets. Irish Water Spaniels need vigorous daily exercise, and like the rest of their family they are happiest in the water. Swimming and water retrieves are ideal, exercising the body hard while satisfying deep instinct. On dry land they need running, hiking, and energetic games to stay balanced.
 
 A satisfying routine for this breed often features:
@@ -59,7 +85,7 @@ A satisfying routine for this breed often features:
 
 Match the workload to age and fitness. Hold off on repetitive high-impact exercise for growing puppies, and use swimming as a joint-friendly option for older dogs. The dense coat insulates well in cold water but can lead to overheating in summer, so plan vigorous sessions for cooler hours and offer plenty of water.
 
-## Coat Care in a Irish Water Spaniel Home
+## Coat Care in an Irish Water Spaniel Home
 The Irish Water Spaniel's double-layered curly coat is low-shedding, which many owners prize, but those tight curls mat easily and need regular attention. Brush and comb through the coat every week or so, working down to the skin in the areas that felt fastest: behind the ears, under the legs, and around the neck. Most owners also have the coat trimmed and tidied every couple of months to keep it manageable and free of mats.
 
 The breed's long, heavily feathered drop ears are a standing concern. They trap moisture and debris, and this breed is genuinely prone to ear infections, so the ears need drying and checking after every swim and a regular cleaning routine year-round. The hairless rat tail and face, by contrast, need almost no coat care at all.
@@ -82,7 +108,7 @@ A few Irish Water Spaniels have shown unusual sensitivity to certain vaccines or
 
 Recurrent ear odor or head-shaking, persistent itching, unexplained weight gain with sluggishness, or any sudden behavior change all warrant a professional exam.
 
-## Meals and Body Condition for a Irish Water Spaniel
+## Meals and Body Condition for an Irish Water Spaniel
 Keeping an Irish Water Spaniel trim protects the joints this athletic breed relies on and supports the stamina its work demands. The curly coat can disguise a thickening waistline, so judge condition by feel: ribs easily found under a thin layer, with a clear tuck behind the ribcage.
 
 Feeding habits suited to this breed:
@@ -157,32 +183,6 @@ This breed fits an active, outdoorsy owner who enjoys water sports, hands-on tra
 It is a poor match for a sedentary home, an owner unwilling to keep up with grooming and ear maintenance, or someone wanting a strictly obedient, low-key companion. The independence and the energy are central to the breed, not problems to eliminate.
 
 For comparison, read the curlier [Portuguese Water Dog guide]({{ site.url }}/posts/2026/06/27/portuguese-water-dog-curly-working-family-companion/), the birdy [English Springer Spaniel guide]({{ site.url }}/posts/2026/06/20/english-springer-spaniel-energetic-sniffing-happy-water-lover/), or the easygoing [Labrador Retriever guide]({{ site.url }}/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/). Comparing retrievers reveals real gaps in coat care, biddability, and energy.
-
-## Irish Water Spaniel FAQ
-
-### Are Irish Water Spaniels hypoallergenic?
-
-No dog is fully hypoallergenic, but the breed's low-shedding curly coat sheds little loose hair, which some allergy-aware households tolerate better. Meet the breed in person before deciding, since individual reactions vary.
-
-### Why do Irish Water Spaniels get ear infections?
-
-Their long, heavily feathered drop ears trap moisture and debris, especially after the swimming the breed loves. Drying and checking the ears after every swim, plus a regular cleaning routine, is the best way to prevent recurring infections.
-
-### How much exercise does an Irish Water Spaniel need?
-
-Plan on one to two hours of vigorous daily activity, ideally including swimming and retrieving. They also need mental work; a clever, under-exercised dog of this breed becomes bored and mischievous.
-
-### Are Irish Water Spaniels easy to train?
-
-They are intelligent but independent, so training is more of a collaboration than with biddable breeds. Short, varied, reward-based sessions and a good recall make the most of their abilities; harsh methods backfire.
-
-### Do Irish Water Spaniels shed a lot?
-
-Not much loose hair, since the curly coat is low-shedding. The trade-off is regular brushing and periodic trims to keep the curls from matting, so low shedding does not mean low effort.
-
-### What health problems affect the breed?
-
-Ask breeders about hip and elbow dysplasia and eye conditions, and be aware of the breed's tendency toward ear infections, skin allergies, hypothyroidism, and occasional drug sensitivities. Documented clearances from a reputable breeder matter, especially in a rare breed.
 
 ## The Irish Water Spaniel Decision
 The Irish Water Spaniel is a rare, characterful, hardworking retriever for owners who want athleticism wrapped in genuine comedy. Give it the exercise, water, training, and grooming it needs, and you gain a devoted, endlessly entertaining companion that will keep you laughing for years.

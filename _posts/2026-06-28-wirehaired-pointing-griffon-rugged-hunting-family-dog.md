@@ -4,7 +4,33 @@ description: "The Wirehaired Pointing Griffon is a rugged bearded gundog with a 
 cover: /assets/images/wirehairedpointinggriffon-cover.jpg
 layout: post
 adsense: false
-noindex: true
+updated: "2026-08-08"
+sources:
+  - organization: "American Kennel Club"
+    title: "Wirehaired Pointing Griffon Dog Breed Information"
+    url: "https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/"
+    accessed: "2026-08-08"
+  - organization: "Federation Cynologique Internationale"
+    title: "Korthals Griffon Breed Standard No. 107"
+    url: "https://www.fci.be/Nomenclature/Standards/107g07-en.pdf"
+    accessed: "2026-08-08"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "Canine Health Information Center Program Overview"
+    url: "https://ofa.org/chic-programs/"
+    accessed: "2026-08-08"
+faq_schema:
+  - question: "Are Wirehaired Pointing Griffons good family dogs?"
+    answer: "Yes, they are among the more family-friendly pointing breeds. They are gentle, affectionate, and typically patient with children, and they bond deeply to the household, though their energy suits active families best."
+  - question: "Do Wirehaired Pointing Griffons shed a lot?"
+    answer: "Relatively little, thanks to the harsh wiry coat. They still need weekly brushing and benefit from hand-stripping a couple of times a year to keep the coat weatherproof, so low shedding does not mean no grooming."
+  - question: "How much exercise does a Wirehaired Pointing Griffon need?"
+    answer: "Plan on one to two hours of vigorous activity daily. Field work, off-leash running where safe, retrieving, swimming, and scent games all suit the breed and keep it calm and content at home."
+  - question: "Are Wirehaired Pointing Griffons easy to train?"
+    answer: "Yes, very. Their biddable, handler-focused nature makes them quick learners, but they are sensitive and need gentle, positive methods. Harsh corrections damage their confidence and slow progress."
+  - question: "Do Wirehaired Pointing Griffons get separation anxiety?"
+    answer: "They can. The breed bonds intensely and dislikes being left alone for long stretches, which can lead to anxiety and destructive behavior. Gradual alone-time training and enough daily exercise help considerably."
+  - question: "What health problems should owners watch for?"
+    answer: "Ask breeders about hip dysplasia, eye conditions, and thyroid history, stay vigilant about the ear infections drop-eared breeds are prone to, and learn the warning signs of bloat in this deep-chested dog."
 ---
 
 The Wirehaired Pointing Griffon, sometimes called the Korthals Griffon after the man who developed it, was bred to be a thinking person's gundog: a close-working, methodical hunter that points, retrieves on land and from water, and does it all at a deliberate, trackable pace. The look is unmistakable, a steel-and-brown harsh coat, bushy eyebrows, and a full beard and mustache that earn the breed its "supreme gundog" reputation and a slightly comical, dignified expression.
@@ -14,7 +40,7 @@ Compared to the flashier, faster pointing breeds, the Griffon is prized for bein
 ![Adult Wirehaired Pointing Griffon with harsh coat, beard, and eyebrows standing in a field]({{ site.url }}/assets/images/wirehairedpointinggriffon-main.jpg)
 
 
-## Wirehaired Pointing Griffon Fit in an Ordinary Week
+## A Gundog That Brings the Outdoors Indoors
 | Fit Factor | Score | What It Means |
 |---|---|---|
 | Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
@@ -157,32 +183,6 @@ This breed suits an active, outdoorsy owner who wants a hunting partner or athle
 It is the wrong fit for a sedentary household or one where the dog would spend long days alone. The breed's exercise needs and its deep attachment to its people are not negotiable, and ignoring either leads to an unhappy, restless dog.
 
 For comparison, read the more intense [German Wirehaired Pointer guide]({{ site.url }}/posts/2026/06/29/german-wirehaired-pointer-versatile-hunting-dog-guide/), the birdy [English Springer Spaniel guide]({{ site.url }}/posts/2026/06/20/english-springer-spaniel-energetic-sniffing-happy-water-lover/), or the scent-driven [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/). Comparing gundogs and scent hounds clarifies real differences in drive, trainability, and grooming.
-
-## Wirehaired Pointing Griffon FAQ
-
-### Are Wirehaired Pointing Griffons good family dogs?
-
-Yes, they are among the more family-friendly pointing breeds. They are gentle, affectionate, and typically patient with children, and they bond deeply to the household, though their energy suits active families best.
-
-### Do Wirehaired Pointing Griffons shed a lot?
-
-Relatively little, thanks to the harsh wiry coat. They still need weekly brushing and benefit from hand-stripping a couple of times a year to keep the coat weatherproof, so low shedding does not mean no grooming.
-
-### How much exercise does a Wirehaired Pointing Griffon need?
-
-Plan on one to two hours of vigorous activity daily. Field work, off-leash running where safe, retrieving, swimming, and scent games all suit the breed and keep it calm and content at home.
-
-### Are Wirehaired Pointing Griffons easy to train?
-
-Yes, very. Their biddable, handler-focused nature makes them quick learners, but they are sensitive and need gentle, positive methods. Harsh corrections damage their confidence and slow progress.
-
-### Do Wirehaired Pointing Griffons get separation anxiety?
-
-They can. The breed bonds intensely and dislikes being left alone for long stretches, which can lead to anxiety and destructive behavior. Gradual alone-time training and enough daily exercise help considerably.
-
-### What health problems should owners watch for?
-
-Ask breeders about hip dysplasia, eye conditions, and thyroid history, stay vigilant about the ear infections drop-eared breeds are prone to, and learn the warning signs of bloat in this deep-chested dog.
 
 ## The Wirehaired Pointing Griffon Decision
 The Wirehaired Pointing Griffon is a versatile, affectionate, eager-to-please gundog that doubles as a wonderful family companion for the right home. Give it the exercise, gentle training, and close companionship it craves, and you gain a devoted partner equally at home in the field and on the couch beside you.

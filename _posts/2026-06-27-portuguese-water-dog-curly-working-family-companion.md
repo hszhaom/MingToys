@@ -4,7 +4,33 @@ description: "The Portuguese Water Dog is an athletic curly-coated worker that t
 cover: /assets/images/portuguesewaterdog-cover.jpg
 layout: post
 adsense: false
-noindex: true
+updated: "2026-08-08"
+sources:
+  - organization: "American Kennel Club"
+    title: "Portuguese Water Dog Dog Breed Information"
+    url: "https://www.akc.org/dog-breeds/portuguese-water-dog/"
+    accessed: "2026-08-08"
+  - organization: "Federation Cynologique Internationale"
+    title: "Portuguese Water Dog Breed Standard No. 37"
+    url: "https://www.fci.be/Nomenclature/Standards/037g08-en.pdf"
+    accessed: "2026-08-08"
+  - organization: "Orthopedic Foundation for Animals"
+    title: "Canine Health Information Center Program Overview"
+    url: "https://ofa.org/chic-programs/"
+    accessed: "2026-08-08"
+faq_schema:
+  - question: "Are Portuguese Water Dogs hypoallergenic?"
+    answer: "No dog is truly hypoallergenic, but the Portie's low-shedding, single coat produces less loose hair and dander than many breeds, which some allergy-aware families tolerate better. Spend time around the breed before committing."
+  - question: "Do Portuguese Water Dogs need to swim?"
+    answer: "They do not strictly require it, but swimming is the ideal outlet for a breed designed to work in water. If you cannot offer swimming, you must replace it with equally vigorous land exercise and mental work to keep them balanced."
+  - question: "How much grooming does a Portuguese Water Dog need?"
+    answer: "A lot. Brush thoroughly every two to three days to prevent matting and budget for a professional clip every six to eight weeks. The low-shedding coat trades shed hair for hands-on upkeep."
+  - question: "Are Portuguese Water Dogs easy to train?"
+    answer: "Yes, they are among the more trainable breeds, intelligent and eager when motivated with rewards. Their mouthiness and bursts of adolescent independence call for patience and consistency."
+  - question: "Are Portuguese Water Dogs good with kids?"
+    answer: "Generally very good. They are playful and affectionate with children, though their exuberance and size mean interactions with small kids should be supervised so no one gets bowled over."
+  - question: "What health tests should a breeder have done?"
+    answer: "Look for hip clearances, eye exams, and DNA testing for PRA, GM1 storage disease, and juvenile dilated cardiomyopathy. A reputable breeder will share these results without hesitation."
 ---
 
 The Portuguese Water Dog, or Cao de Agua, earned its keep on the fishing boats of Portugal's Algarve coast, diving for lost gear, herding fish into nets, and carrying messages between vessels. That heritage explains everything about the modern dog: a powerful swimmer with webbed feet, a tireless work drive, a quick problem-solving mind, and a coat built to dry quickly after a plunge. This is a medium athlete dressed in curls, not a decorative lapdog.
@@ -14,7 +40,7 @@ If you are comparing curly-coated water breeds, the Portie's defining traits are
 ![Adult Portuguese Water Dog with a curly black coat standing alertly by the water]({{ site.url }}/assets/images/portuguesewaterdog-main.jpg)
 
 
-## Portuguese Water Dog Fit in an Ordinary Week
+## A Water Dog Schedule Beyond the Pool
 | Fit Factor | Score | What It Means |
 |---|---|---|
 | Apartment Fit | 2/5 | Possible only with committed exercise, training, and careful neighbor management. |
@@ -157,32 +183,6 @@ A Portie thrives with an active, hands-on owner who can offer daily vigorous exe
 The fit falters if you are away from home most days, prefer a calm low-drive dog, or hoped a non-shedding coat would also be low-effort. The curls demand work, and the dog demands company and activity.
 
 For comparison, read the rustic [Spanish Water Dog guide]({{ site.url }}/posts/2026/06/27/spanish-water-dog-rustic-curly-herding-companion/), the giant-sized [Newfoundland guide]({{ site.url }}/posts/2026/06/21/newfoundland-gentle-slobbery-water-giant/), or the easygoing [Labrador Retriever guide]({{ site.url }}/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/). Comparing water breeds side by side exposes real differences in grooming, shedding, and intensity.
-
-## Portuguese Water Dog FAQ
-
-### Are Portuguese Water Dogs hypoallergenic?
-
-No dog is truly hypoallergenic, but the Portie's low-shedding, single coat produces less loose hair and dander than many breeds, which some allergy-aware families tolerate better. Spend time around the breed before committing.
-
-### Do Portuguese Water Dogs need to swim?
-
-They do not strictly require it, but swimming is the ideal outlet for a breed designed to work in water. If you cannot offer swimming, you must replace it with equally vigorous land exercise and mental work to keep them balanced.
-
-### How much grooming does a Portuguese Water Dog need?
-
-A lot. Brush thoroughly every two to three days to prevent matting and budget for a professional clip every six to eight weeks. The low-shedding coat trades shed hair for hands-on upkeep.
-
-### Are Portuguese Water Dogs easy to train?
-
-Yes, they are among the more trainable breeds, intelligent and eager when motivated with rewards. Their mouthiness and bursts of adolescent independence call for patience and consistency.
-
-### Are Portuguese Water Dogs good with kids?
-
-Generally very good. They are playful and affectionate with children, though their exuberance and size mean interactions with small kids should be supervised so no one gets bowled over.
-
-### What health tests should a breeder have done?
-
-Look for hip clearances, eye exams, and DNA testing for PRA, GM1 storage disease, and juvenile dilated cardiomyopathy. A reputable breeder will share these results without hesitation.
 
 ## The Portuguese Water Dog Decision
 The Portuguese Water Dog is a brilliant, athletic, deeply devoted companion for the right home, a dog that wants to swim, train, and stay close all day long. For owners who match its energy and embrace the grooming, it rewards the effort with intelligence, loyalty, and a sense of humor few breeds can match.
