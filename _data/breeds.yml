@@ -1897,49 +1897,47 @@
   image: "/assets/images/azawakh-cover.jpg"
 - key: aidi-chien-de-montagne-de-l-atlas
   name: Aidi (chien De Montagne De L'atlas)
-  aliases: []
+  aliases: [Atlas Mountain Dog]
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: MOROCCO
   breed_standard_url: https://www.fci.be/en/nomenclature/ATLAS-MOUNTAIN-DOG-AIDI-247.html
   publication_status: planned
   image_prefix: aidi-chien-de-montagne-de-l-atlas
   url: "/posts/2026/08/03/aidi-chien-de-montagne-de-l-atlas-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Alert Moroccan mountain dog that needs secure territory management, thoughtful stranger introductions, a substantial outdoor routine, and patient training.
+  size: large
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Guardian instincts and a rare-breed sourcing challenge make this best for owners who can verify history and manage visitors calmly.
   image: "/assets/images/aidi-chien-de-montagne-de-l-atlas-cover.jpg"
 - key: barbet
   name: Barbet
-  aliases: []
+  aliases: [French Water Dog]
   group: FCI Group 8 - Retrievers - Flushing Dogs - Water Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/FRENCH-WATER-DOG-105.html
   publication_status: planned
   image_prefix: barbet
   url: "/posts/2026/08/03/barbet-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Friendly French water dog that needs regular outdoor work, wet-coat care, grooming discipline, and a family routine that includes training.
+  size: medium
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Low visible shedding does not reduce grooming; plan for brushing, drying, professional care, and a real outlet for a water-dog brain.
   image: "/assets/images/barbet-cover.jpg"
 - key: basenji
   name: Basenji
@@ -1950,42 +1948,40 @@
   publication_status: planned
   image_prefix: basenji
   url: "/posts/2026/08/03/basenji-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Clever, independent Central African hunting dog that needs escape-proof containment, patient training, scent-safe exercise, and informed health screening.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: low
+  grooming: low
+  training: hard
+  health_risk: medium
+  cost_level: medium
+  caution: Quiet is not the same as easy; plan for climbing, chase drive, food management, and a dog that may not work for social pressure.
   image: "/assets/images/basenji-cover.jpg"
 - key: basset-artesien-normand
   name: Basset Artesien Normand
-  aliases: []
+  aliases: [Norman Artesien Basset]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/NORMAN-ARTESIEN-BASSET-34.html
   publication_status: planned
   image_prefix: basset-artesien-normand
   url: "/posts/2026/08/03/basset-artesien-normand-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Low-set French scent hound that needs secure sniffing opportunities, sensible body conditioning, patient recall work, and practical home access.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: medium
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Short legs do not mean no exercise; manage stairs, weight, scent drive, and long-line safety with the individual dog in mind.
   image: "/assets/images/basset-artesien-normand-cover.jpg"
 - key: basset-bleu-de-gascogne
   name: Basset Bleu De Gascogne
