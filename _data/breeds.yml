@@ -2491,118 +2491,113 @@
   image: "/assets/images/braque-du-bourbonnais-cover.jpg"
 - key: braque-francais-type-gascogne
   name: Braque Francais - Type Gascogne
-  aliases: []
+  aliases: [French Pointing Dog Gascogne Type]
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html
   publication_status: planned
   image_prefix: braque-francais-type-gascogne
   url: "/posts/2026/08/03/braque-francais-type-gascogne-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Larger French pointing dog with a steady sporting routine, a need for daily outdoor work, cooperative training, and household space for a substantial active companion.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A generous frame and calm appearance do not remove sporting needs; plan for safe exercise, recall foundations, large-dog transport, and consistent family routines.
   image: "/assets/images/braque-francais-type-gascogne-cover.jpg"
 - key: braque-francais-type-pyrenees
   name: Braque Francais - Type Pyrenees
-  aliases: []
+  aliases: [French Pointing Dog Pyrenean Type]
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html
   publication_status: planned
   image_prefix: braque-francais-type-pyrenees
   url: "/posts/2026/08/03/braque-francais-type-pyrenees-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: More compact French pointing dog with an active, people-oriented style, a need for reliable outdoor work, training, and a home that supports calm recovery.
+  size: medium
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A smaller pointing-dog frame is not a low-energy shortcut; plan for daily exercise, lead work, secure recall practice, and a dependable weekday schedule.
   image: "/assets/images/braque-francais-type-pyrenees-cover.jpg"
 - key: braque-saint-germain
   name: Braque Saint-germain
-  aliases: []
+  aliases: [Saint-Germain Pointer]
   group: FCI Group 7 - Pointing Dogs
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/SAINT-GERMAIN-POINTER-115.html
   publication_status: planned
   image_prefix: braque-saint-germain
   url: "/posts/2026/08/03/braque-saint-germain-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Elegant French pointing dog with a social, active style and a need for field-like exercise, gentle training, secure handling, and close daily family involvement.
+  size: large
+  home: house
+  experience: some
+  kids: 'yes'
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A light build and gentle look should not hide the sporting commitment; choose only with practical exercise time, safe transport, and calm recovery at home.
   image: "/assets/images/braque-saint-germain-cover.jpg"
 - key: briquet-griffon-vendeen
   name: Briquet Griffon Vendeen
-  aliases: []
+  aliases: [Briquet Griffon Vendeen]
   group: FCI Group 6 - Scent hounds and related breeds
   origin: FRANCE
   breed_standard_url: https://www.fci.be/en/nomenclature/BRIQUET-GRIFFON-VENDEEN-19.html
   publication_status: planned
   image_prefix: briquet-griffon-vendeen
   url: "/posts/2026/08/03/briquet-griffon-vendeen-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Medium French scent hound with stamina, a rough coat, and a need for secure outdoor exploration, patient recall management, grooming, and active household routines.
+  size: medium
+  home: house
+  experience: some
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: hard
+  health_risk: medium
+  cost_level: high
+  caution: Do not treat the rough coat or medium size as low effort; this hound needs secure containment, scent outlets, a plan for voice, and regular coat checks.
   image: "/assets/images/briquet-griffon-vendeen-cover.jpg"
 - key: broholmer
   name: Broholmer
-  aliases: []
+  aliases: [Broholmer]
   group: FCI Group 2 - Pinscher and Schnauzer - Molossoid and Swiss Mountain and Cattledogs
   origin: DENMARK
   breed_standard_url: https://www.fci.be/en/nomenclature/BROHOLMER-315.html
   publication_status: planned
   image_prefix: broholmer
   url: "/posts/2026/08/03/broholmer-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Giant Danish mastiff-type companion with a calm but powerful presence, a need for mature training, visitor routines, careful body management, and significant large-dog logistics.
+  size: giant
+  home: house
+  experience: experienced
+  kids: some
+  exercise: medium
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: high
+  cost_level: high
+  caution: Giant size changes every decision around transport, floors, visitors, food, medication, insurance, and emergency care, even when the individual dog is calm.
   image: "/assets/images/broholmer-cover.jpg"
 - key: buldogue-campeiro
   name: Buldogue Campeiro
