@@ -1765,72 +1765,69 @@
   image: "/assets/images/ariegeois-cover.jpg"
 - key: australian-cattle-dog
   name: Australian Cattle Dog
-  aliases: []
+  aliases: [Blue Heeler, Red Heeler]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: AUSTRALIA
   breed_standard_url: https://www.fci.be/en/nomenclature/AUSTRALIAN-CATTLE-DOG-287.html
   publication_status: planned
   image_prefix: australian-cattle-dog
   url: "/posts/2026/08/03/australian-cattle-dog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
+  summary: Intensely practical Australian herding dog that needs daily training, a clear off switch, and early management of chasing and alert behavior.
+  size: medium
+  home: house
+  experience: some
   kids: 'yes'
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Needs work beyond physical exercise; prepare for herding behavior, intense focus, and a long adolescent training period.
   image: "/assets/images/australian-cattle-dog-cover.jpg"
 - key: australian-kelpie
   name: Australian Kelpie
-  aliases: []
+  aliases: [Kelpie]
   group: FCI Group 1 - Sheepdogs and Cattledogs (except Swiss Cattledogs)
   origin: AUSTRALIA
   breed_standard_url: https://www.fci.be/en/nomenclature/AUSTRALIAN-KELPIE-293.html
   publication_status: planned
   image_prefix: australian-kelpie
   url: "/posts/2026/08/03/australian-kelpie-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: High-drive Australian herding dog that needs real daily work, thoughtful recovery, and an owner prepared for exceptional mental and physical demands.
+  size: medium
+  home: rural
+  experience: experienced
+  kids: some
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: A large yard is not a job; choose this breed only when daily training, safe outlets, and calm recovery are built into life.
   image: "/assets/images/australian-kelpie-cover.jpg"
 - key: australian-silky-terrier
   name: Australian Silky Terrier
-  aliases: []
+  aliases: [Silky Terrier]
   group: FCI Group 3 - Terriers
   origin: AUSTRALIA
   breed_standard_url: https://www.fci.be/en/nomenclature/AUSTRALIAN-SILKY-TERRIER-236.html
   publication_status: planned
   image_prefix: australian-silky-terrier
   url: "/posts/2026/08/03/australian-silky-terrier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small, bright terrier that combines a silky coat with real prey drive, alert barking, dental-care needs, and a preference for respectful handling.
+  size: toy
+  home: apartment
+  experience: some
+  kids: some
+  exercise: medium
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Small size does not remove the need for bark training, careful handling, grooming, and realistic management around small animals.
   image: "/assets/images/australian-silky-terrier-cover.jpg"
 - key: australian-stumpy-tail-cattle-dog
   name: Australian Stumpy Tail Cattle Dog
