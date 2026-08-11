@@ -971,6 +971,80 @@ body {
   text-decoration: underline;
 }
 
+.author-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 172px;
+  gap: 2rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.author-profile h1 {
+  margin-bottom: 0.5rem;
+}
+
+.author-role {
+  color: var(--accent) !important;
+  font-size: 1rem !important;
+  font-weight: 800;
+  margin-bottom: 0.9rem;
+}
+
+.author-lead {
+  max-width: 640px;
+  color: #34404b !important;
+  font-size: 1.12rem !important;
+}
+
+.author-profile-mark {
+  display: grid;
+  justify-items: center;
+  gap: 0.65rem;
+  padding: 1rem;
+  border-left: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.author-profile-mark img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+.author-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+
+.author-facts div {
+  min-width: 0;
+  padding-left: 0.85rem;
+  border-left: 3px solid var(--accent);
+}
+
+.author-facts strong,
+.author-facts span {
+  display: block;
+}
+
+.author-facts strong {
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.author-facts span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
 .pagination {
   text-align: center;
   margin: 3rem 0;
@@ -1104,6 +1178,10 @@ footer {
   .cost-output {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .author-profile {
+    grid-template-columns: minmax(0, 1fr) 148px;
+  }
 }
 
 @media (min-width: 981px) and (max-width: 1180px) {
@@ -1205,6 +1283,31 @@ footer {
   .cost-output,
   .filter-grid {
     grid-template-columns: 1fr;
+  }
+
+  .author-profile,
+  .author-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .author-profile {
+    gap: 1.25rem;
+  }
+
+  .author-profile-mark {
+    justify-items: start;
+    grid-template-columns: 68px minmax(0, 1fr);
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.9rem 0 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
+    text-align: left;
+  }
+
+  .author-profile-mark img {
+    width: 62px;
+    height: 62px;
   }
 
   .breed-directory-controls {
