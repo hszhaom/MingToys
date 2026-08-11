@@ -1,0 +1,214 @@
+{
+  "assets": [
+    {
+      "path": "assets/images/aidi-chien-de-montagne-de-l-atlas-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult Aidi, also called Chien de l'Atlas, shown accurately as a lean medium-large Moroccan livestock guardian. Scene/backdrop: rocky Atlas Mountain foothills at soft morning light. Subject: short-to-medium rough weather-resistant coat in fawn with dark shading, triangular ears, athletic square outline, attentive calm expression. Composition/framing: vertical portrait with the full dog or upper body centered and enough clean space for a card crop. Constraints: authentic canine anatomy and breed features, realistic dog photography, no text, watermark, logo, readable collar tag, extra limbs, or mixed-breed look."
+    },
+    {
+      "path": "assets/images/aidi-chien-de-montagne-de-l-atlas-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: a full-body adult Aidi standing in a three-quarter view on a dry mountain trail. Subject: agile medium-large Moroccan guardian dog, rough fawn or brindle coat with darker face shading, upright triangular ears, strong but not heavy build. Lighting: clear natural daylight. Constraints: sharp coat detail, dog entirely visible, no text, watermark, logo, distorted anatomy, or generic shepherd-dog appearance."
+    },
+    {
+      "path": "assets/images/aidi-chien-de-montagne-de-l-atlas-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an adult Aidi moving briskly across open rocky pasture, alert but not aggressive. Subject: agile rough-coated Atlas Mountain dog with triangular ears and a natural working gait. Scene: uncluttered highland grass and stone, natural daylight. Constraints: full recognizable dog, realistic action photography, no text, watermark, logo, blur hiding the face, extra limbs, or costume."
+    },
+    {
+      "path": "assets/images/akita-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult Japanese Akita shown as a large, dignified spitz. Scene/backdrop: quiet Japanese garden in natural overcast daylight. Subject: broad head, small dark eyes, erect ears, curled tail, dense double coat, red-fawn coat with clear white urajiro markings. Composition/framing: vertical cover, full dog or upper body centered. Constraints: accurate Japanese Akita rather than American Akita, natural dog photography, no text, watermark, logo, artificial blue eyes, distorted anatomy, or mixed-breed appearance."
+    },
+    {
+      "path": "assets/images/akita-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: an adult Japanese Akita standing in a calm three-quarter full-body pose on a leaf-strewn garden path. Subject: substantial compact spitz build, erect ears, curled tail, dense red-fawn coat with white urajiro markings, reserved expression. Lighting: soft natural daylight. Constraints: breed-accurate Japanese Akita, no text, watermark, logo, oversized mastiff build, blue eyes, or anatomy errors."
+    },
+    {
+      "path": "assets/images/akita-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an adult Japanese Akita walking with steady focus through a quiet woodland clearing. Subject: red-fawn Japanese Akita with upright ears, curled tail, thick double coat and balanced heavy-boned movement. Lighting: cool natural morning light. Constraints: realistic action photography, clear full dog, no text, watermark, logo, exaggerated smile, or distorted legs."
+    },
+    {
+      "path": "assets/images/alpenlandische-dachsbracke-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult Alpine Dachsbracke, accurately shown as a sturdy short-legged scent hound. Scene/backdrop: alpine forest edge with soft daylight. Subject: elongated body without caricature, deep chest, drop ears, short smooth dark deer-red or black-and-tan coat, alert hound expression. Composition/framing: vertical cover with a clear readable silhouette. Constraints: realistic dog photography, no text, watermark, logo, overly long dachshund proportions, extra limbs, or generic beagle appearance."
+    },
+    {
+      "path": "assets/images/alpenlandische-dachsbracke-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: a full-body adult Alpine Dachsbracke on a wooded mountain trail, nose lifted as if working a scent. Subject: compact long-bodied, short-legged Austrian scent hound, drop ears, dark deer-red or black-and-tan smooth coat, solid practical build. Lighting: clean natural daylight. Constraints: breed-accurate, no text, watermark, logo, distorted back or legs, or costume."
+    },
+    {
+      "path": "assets/images/alpenlandische-dachsbracke-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an Alpine Dachsbracke trotting with a purposeful natural gait through low forest grass. Subject: short-legged scent hound with drop ears and smooth dark red coat, fully recognizable in motion. Lighting: bright woodland daylight. Constraints: no text, watermark, logo, heavy motion blur, anatomy errors, or generic dachshund look."
+    },
+    {
+      "path": "assets/images/american-akita-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult American Akita, large and powerful but calm, in a winter park. Subject: heavy-boned spitz body, broad bear-like head, erect ears, curled tail, thick double coat, dark mask and pinto or brindle markings. Composition/framing: vertical portrait, full dog or upper body centered. Constraints: accurate American Akita distinct from Japanese Akita, natural professional dog photography, no text, watermark, logo, exaggerated aggression, extra limbs, or mixed-breed appearance."
+    },
+    {
+      "path": "assets/images/american-akita-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: full-body adult American Akita standing in three-quarter view outdoors. Subject: large powerful compact spitz, broad head, erect ears, curled tail, thick black-and-white pinto double coat, balanced weight and composed expression. Scene: natural snowy grass or clean woodland edge. Constraints: realistic light, clear dog anatomy, no text, watermark, logo, or Japanese Akita styling."
+    },
+    {
+      "path": "assets/images/american-akita-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an American Akita walking steadily beside a natural trail, showing controlled movement and a high curled tail. Subject: large thick-coated pinto Akita with erect ears and broad head. Lighting: crisp outdoor daylight. Constraints: full dog in focus, no text, watermark, logo, excessive aggression, distorted legs, or harness branding."
+    },
+    {
+      "path": "assets/images/american-foxhound-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult American Foxhound, clearly a tall athletic tri-color scent hound. Scene/backdrop: open Virginia meadow at early daylight. Subject: long clean legs, lean body, broad drop ears, short tricolor coat, expressive hound face. Composition/framing: vertical cover with enough room around the full dog. Constraints: natural editorial dog photography, no text, watermark, logo, heavy coonhound build, distorted anatomy, or costume."
+    },
+    {
+      "path": "assets/images/american-foxhound-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: a full-body adult American Foxhound standing in three-quarter view in an open field. Subject: tall lean athletic hound, long drop ears, tricolor short coat, deep chest and long legs. Lighting: clear gentle daylight. Constraints: breed-accurate silhouette, no text, watermark, logo, extra limbs, or generic beagle proportions."
+    },
+    {
+      "path": "assets/images/american-foxhound-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an American Foxhound running across a grassy field with an athletic, ground-covering stride. Subject: tall tri-color scent hound with long ears naturally moving, full body visible. Lighting: bright natural daylight. Constraints: sharp recognizable dog, no text, watermark, logo, motion blur obscuring features, or distorted limbs."
+    },
+    {
+      "path": "assets/images/american-staffordshire-terrier-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: a confident adult American Staffordshire Terrier in a simple city park. Subject: medium muscular compact body, broad head, rose or half-pricked ears, short glossy blue or brindle coat, kind attentive eyes. Composition/framing: vertical portrait with full dog or upper body centered. Constraints: realistic dog photography, calm non-threatening expression, no text, watermark, logo, cropped ears, exaggerated muscles, extra limbs, or generic bully breed ambiguity."
+    },
+    {
+      "path": "assets/images/american-staffordshire-terrier-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: full-body adult American Staffordshire Terrier standing in a natural three-quarter pose on grass. Subject: compact, athletic and visibly muscled but proportionate, short brindle coat, broad head, natural rose ears, friendly focused expression. Lighting: soft daylight. Constraints: no text, watermark, logo, cropped ears, snarling, costume, distorted anatomy, or oversized bodybuilder look."
+    },
+    {
+      "path": "assets/images/american-staffordshire-terrier-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an American Staffordshire Terrier carrying a plain ball across a clean fenced grass field. Subject: compact athletic dog with natural ears and a short brindle coat, playful focused expression. Lighting: bright natural daylight. Constraints: recognizable full dog, no text, watermark, logo, visible brand names, aggressive scene, or distorted legs."
+    },
+    {
+      "path": "assets/images/american-water-spaniel-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult American Water Spaniel in a quiet Midwestern lakeside setting. Subject: medium compact sporting dog with dense curly or wavy dark brown coat, floppy ears, expressive eyes, slightly feathered tail. Composition/framing: vertical portrait with clear coat texture. Constraints: breed-accurate, realistic dog photography, no text, watermark, logo, generic poodle styling, distorted curls, or extra limbs."
+    },
+    {
+      "path": "assets/images/american-water-spaniel-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: a full-body adult American Water Spaniel standing near reeds at a lake edge. Subject: medium sturdy sporting spaniel, dark brown wavy-curly coat, drop ears, alert soft expression, naturally feathered tail. Lighting: calm outdoor daylight. Constraints: no text, watermark, logo, generic cocker spaniel look, or anatomy distortion."
+    },
+    {
+      "path": "assets/images/american-water-spaniel-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an American Water Spaniel retrieving in shallow freshwater at a natural lakeshore. Subject: medium brown curly-coated spaniel with wet but distinct coat texture and floppy ears, energetic but clear movement. Constraints: realistic action photo, no text, watermark, logo, excessive splash hiding the dog, or distorted limbs."
+    },
+    {
+      "path": "assets/images/anglo-francais-de-petite-venerie-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult Anglo-Francais de Petite Venerie, a medium French pack hound, on a woodland edge. Subject: balanced athletic build, long drop ears, tri-color short coat, intelligent scent-hound expression. Composition/framing: vertical full-dog cover with a clean natural background. Constraints: accurate French hound rather than a beagle, photorealistic dog photography, no text, watermark, logo, distorted limbs, or costume."
+    },
+    {
+      "path": "assets/images/anglo-francais-de-petite-venerie-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: a full-body adult Anglo-Francais de Petite Venerie moving along a French forest path. Subject: medium lean tri-color pack hound with long drop ears, clear short coat pattern, athletic moderate build. Lighting: natural soft daylight. Constraints: no text, watermark, logo, extra limbs, or generic beagle appearance."
+    },
+    {
+      "path": "assets/images/anglo-francais-de-petite-venerie-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an Anglo-Francais de Petite Venerie trotting with its nose close to a leafy woodland path. Subject: fit medium tri-color French hound, long ears and clear full-body silhouette. Lighting: bright natural daylight. Constraints: realistic lifestyle photo, no text, watermark, logo, blur hiding the face, or anatomy errors."
+    },
+    {
+      "path": "assets/images/anjing-kintamani-bali-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult Kintamani-Bali Dog in a calm volcanic highland garden. Subject: medium Indonesian spitz-type dog, erect ears, wedge-shaped head, curled tail, medium double coat, mostly white coat with a warm cream ear patch. Composition/framing: vertical portrait, full dog or upper body centered. Constraints: breed-accurate natural dog photography, no text, watermark, logo, tropical costume, blue eyes, extra limbs, or generic husky appearance."
+    },
+    {
+      "path": "assets/images/anjing-kintamani-bali-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: full-body adult Kintamani-Bali Dog standing on a green Bali highland path. Subject: medium white spitz-type dog with upright ears, curled tail, wedge head, moderate double coat and an alert friendly expression. Lighting: natural cloudy tropical daylight. Constraints: no text, watermark, logo, husky markings, distorted tail, or mixed-breed appearance."
+    },
+    {
+      "path": "assets/images/anjing-kintamani-bali-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: a Kintamani-Bali Dog running lightly across a natural green highland lawn. Subject: medium white spitz-type dog with upright ears and curled tail, fully visible, coat moving naturally. Lighting: bright natural daylight. Constraints: no text, watermark, logo, tropical props, heavy motion blur, or anatomy errors."
+    },
+    {
+      "path": "assets/images/appenzeller-sennenhund-cover.jpg",
+      "api_size": "1024x1536",
+      "width": 1600,
+      "height": 1885,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide cover. Primary request: an adult Appenzeller Sennenhund in a Swiss pasture under soft daylight. Subject: medium athletic tricolor Swiss mountain dog with black coat, symmetrical white blaze and chest, rich rust points, triangular folded ears, tightly curled tail. Composition/framing: vertical cover with a clean full-dog silhouette. Constraints: realistic photography, correct Appenzeller markings and curled tail, no text, watermark, logo, oversized Bernese coat, or anatomy distortion."
+    },
+    {
+      "path": "assets/images/appenzeller-sennenhund-main.jpg",
+      "api_size": "1536x1024",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide main photo. Primary request: a full-body adult Appenzeller Sennenhund standing in a three-quarter pose on a mountain meadow. Subject: medium athletic tricolor Swiss cattle dog, short glossy black coat, white blaze and chest, rust points, folded ears, curled tail. Lighting: clean alpine daylight. Constraints: no text, watermark, logo, long Bernese-style coat, or distorted anatomy."
+    },
+    {
+      "path": "assets/images/appenzeller-sennenhund-play.jpg",
+      "api_size": "1536x1024",
+      "width": 1600,
+      "height": 1200,
+      "prompt": "Use case: photorealistic-natural. Asset type: dog breed guide lifestyle photo. Primary request: an Appenzeller Sennenhund trotting energetically through a mountain meadow. Subject: medium tricolor Swiss dog with folded ears and distinctly curled tail, clear full-body movement. Lighting: bright natural daylight. Constraints: realistic action photo, no text, watermark, logo, heavy blur, extra limbs, or long-coated Bernese appearance."
+    }
+  ]
+}

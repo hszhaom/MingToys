@@ -3,3 +3,6 @@ _site/
 .sass-cache/
 .tmp/
 reports/
+.env
+.env.*
+!.env.example
