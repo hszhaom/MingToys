@@ -84,7 +84,7 @@ Another says heavy shedding is the only hard part of ownership. Coat work is vis
 
 The last is that physical strength calls for harsh handling. Clear boundaries and reward-based training are safer than confrontation. Seek a qualified trainer early if you are uncertain about behavior, visitors, or introductions.
 
-Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to plan for equipment, training, grooming tools, boarding, possible housing requirements, and emergency savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) help assess visitor traffic, common-area encounters, other dogs, child ages, and your tolerance for a high-shed large breed. Compare this guide with the [Akita guide]({{ site.url }}/posts/2026/08/03/akita-breed-guide/) and the [Cane Corso guide]({{ site.url }}/posts/2026/07/05/cane-corso-powerful-italian-guardian-breed-guide/) for management questions, not for simplistic labels.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to plan for equipment, training, grooming tools, boarding, possible housing requirements, and emergency savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) help assess visitor traffic, common-area encounters, other dogs, child ages, and your tolerance for a high-shed large breed. Compare this guide with the [Shiba Inu guide]({{ site.url }}/posts/2026/06/01/shiba-inu-japanese-smirking-meme-dogs/) and the [Cane Corso guide]({{ site.url }}/posts/2026/07/05/cane-corso-powerful-italian-guardian-breed-guide/) for management questions, not for simplistic labels.
 
 ## The American Akita Decision
 

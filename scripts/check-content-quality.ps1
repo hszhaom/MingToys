@@ -291,9 +291,20 @@ if (-not (Get-Command ruby -ErrorAction SilentlyContinue)) {
         } elseif ($breed.publication_status -eq 'in_review') {
           if ([string]::IsNullOrWhiteSpace($postRaw)) {
             $issues.Add("In-review breed '$($breed.key)' has no matching post for $($breed.url).")
-          } elseif ($postRaw -notmatch '(?m)^noindex:\s*true\s*$') {
-            $issues.Add("In-review breed '$($breed.key)' must remain noindex until it passes editorial checks.")
-          } elseif ($null -ne $breed.review_batch) {
+          } else {
+            if ($postRaw -notmatch '(?m)^noindex:\s*true\s*$') {
+              $issues.Add("In-review breed '$($breed.key)' must remain noindex until it passes editorial checks.")
+            }
+            if ($postRaw -notmatch '(?m)^adsense:\s*false\s*$') {
+              $issues.Add("In-review breed '$($breed.key)' must keep AdSense disabled until publication.")
+            }
+            if ($postRaw -notmatch '(?m)^sitemap:\s*false\s*$') {
+              $issues.Add("In-review breed '$($breed.key)' must stay out of the sitemap until publication.")
+            }
+            if ([string]::IsNullOrWhiteSpace([string]$breed.review_batch)) {
+              $issues.Add("In-review breed '$($breed.key)' is missing its review batch identifier.")
+            }
+
             $sourceCount = [regex]::Matches($postRaw, '(?m)^  - organization:').Count
             $faqCount = [regex]::Matches($postRaw, '(?m)^  - question:').Count
             $wordCount = Get-BodyWordCount $postRaw '.md'

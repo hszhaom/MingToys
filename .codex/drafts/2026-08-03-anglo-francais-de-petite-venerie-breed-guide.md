@@ -78,7 +78,7 @@ Second, a large rural property does not create a reliable off-leash dog. It give
 
 Third, sociability with other hounds does not mean every dog park or public greeting is a good idea. Calm, neutral behavior is often the safer target.
 
-Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to account for fencing, long-line equipment, training, travel, parasite prevention, and emergency care. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help assess noise tolerance, safe outdoor access, the presence of small pets, and the time available for purposeful walks. Compare the [American Foxhound guide]({{ site.url }}/posts/2026/08/03/american-foxhound-breed-guide/) and the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) for other examples of how scent affects daily decisions.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to account for fencing, long-line equipment, training, travel, parasite prevention, and emergency care. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help assess noise tolerance, safe outdoor access, the presence of small pets, and the time available for purposeful walks. Compare the [Basset Hound guide]({{ site.url }}/posts/2026/06/10/basset-hound-long-ears-slow-sniffing-hound/) and the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) for other examples of how scent affects daily decisions.
 
 ## Boarding and Travel Need a Trial Run
 

@@ -2718,19 +2718,18 @@
   publication_status: planned
   image_prefix: canaan-dog
   url: "/posts/2026/08/03/canaan-dog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Medium alert desert dog that suits owners who can manage independence, barking, and secure boundaries.
+  size: medium
+  home: house
+  experience: some
+  kids: caution
+  exercise: moderate
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Plan for alert barking, escape prevention, selective social behavior, and recall management.
   image: "/assets/images/canaan-dog-cover.jpg"
 - key: canadian-eskimo-dog
   name: Canadian Eskimo Dog
@@ -2741,19 +2740,18 @@
   publication_status: planned
   image_prefix: canadian-eskimo-dog
   url: "/posts/2026/08/03/canadian-eskimo-dog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Powerful northern working dog requiring substantial activity, climate planning, secure containment, and experienced handling.
+  size: large
+  home: house
+  experience: experienced
+  kids: caution
+  exercise: high
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Do not underestimate heat management, pulling strength, vocal behavior, or daily workload.
   image: "/assets/images/canadian-eskimo-dog-cover.jpg"
 - key: cane-da-pastore-abruzzese-maremmano
   name: Cane Da Pastore Abruzzese Maremmano
@@ -2764,19 +2762,18 @@
   publication_status: planned
   image_prefix: cane-da-pastore-abruzzese-maremmano
   url: "/posts/2026/08/03/cane-da-pastore-abruzzese-maremmano-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large Italian livestock guardian that needs secure boundaries, visitor management, coat care, and a purposeful daily role.
+  size: large
+  home: house
+  experience: experienced
+  kids: caution
+  exercise: moderate
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A quiet suburban setting may be difficult because guardian barking and territorial decisions need active management.
   image: "/assets/images/cane-da-pastore-abruzzese-maremmano-cover.jpg"
 - key: cane-da-pastore-bergamasco
   name: Cane Da Pastore Bergamasco
@@ -2809,19 +2806,18 @@
   publication_status: planned
   image_prefix: ceskoslovensky-vlciak
   url: "/posts/2026/08/03/ceskoslovensky-vlciak-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Athletic independent working dog requiring serious training, secure containment, prey management, and an experienced home.
+  size: large
+  home: house
+  experience: experienced
+  kids: caution
+  exercise: high
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Do not choose for appearance alone; plan for recall limits, escape behavior, alone-time needs, and public handling.
   image: "/assets/images/ceskoslovensky-vlciak-cover.jpg"
 - key: cesky-fousek
   name: Cesky Fousek
@@ -2832,19 +2828,18 @@
   publication_status: planned
   image_prefix: cesky-fousek
   url: "/posts/2026/08/03/cesky-fousek-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Medium versatile pointing dog for active owners who can provide scent work, recall training, outdoor time, and coat care.
+  size: medium
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Plan for hunting drive, muddy equipment, small-animal management, adolescent intensity, and safe off-leash practice.
   image: "/assets/images/cesky-fousek-cover.jpg"
 - key: cesky-terier
   name: Cesky Terier
@@ -2855,19 +2850,18 @@
   publication_status: planned
   image_prefix: cesky-terier
   url: "/posts/2026/08/03/cesky-terier-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small Czech terrier with a softer household style, practical coat care, and a persistent instinct to investigate.
+  size: small
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: moderate
+  shedding: low
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Small size does not remove terrier drive; plan for secure walks, grooming, and careful introductions to small animals.
   image: "/assets/images/cesky-terier-cover.jpg"
 - key: chart-polski
   name: Chart Polski
@@ -2878,19 +2872,18 @@
   publication_status: planned
   image_prefix: chart-polski
   url: "/posts/2026/08/03/chart-polski-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large Polish sighthound with speed, visual prey drive, a quiet home style, and a need for safe running space.
+  size: large
+  home: house
+  experience: some
+  kids: caution
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Do not rely on neighborhood off-leash areas; secure fencing and prey-aware handling are essential.
   image: "/assets/images/chart-polski-cover.jpg"
 - key: chesapeake-bay-retriever
   name: Chesapeake Bay Retriever
@@ -2901,19 +2894,18 @@
   publication_status: planned
   image_prefix: chesapeake-bay-retriever
   url: "/posts/2026/08/03/chesapeake-bay-retriever-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Athletic water retriever with a strong work ethic, weather-resistant coat, and need for structured training and recovery.
+  size: large
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Plan for water access or substitutes, adolescent intensity, mouthiness, coat drying, and safe retrieving rules.
   image: "/assets/images/chesapeake-bay-retriever-cover.jpg"
 - key: chien-d-artois
   name: Chien D'artois
@@ -2924,19 +2916,18 @@
   publication_status: planned
   image_prefix: chien-d-artois
   url: "/posts/2026/08/03/chien-d-artois-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Medium French scent hound that needs secure walking, purposeful tracking, patient recall work, and family routines built around its nose.
+  size: medium
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: A scent-led dog needs secure containment and realistic expectations about off-leash reliability.
   image: "/assets/images/chien-d-artois-cover.jpg"
 - key: chien-de-berger-des-pyrenees-a-face-rase
   name: Chien De Berger Des Pyrenees A Face Rase
@@ -2947,19 +2938,18 @@
   publication_status: planned
   image_prefix: chien-de-berger-des-pyrenees-a-face-rase
   url: "/posts/2026/08/03/chien-de-berger-des-pyrenees-a-face-rase-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small French herding dog with a smooth-faced coat, sharp attention to movement, and a need for structured daily work.
+  size: small
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Small size does not remove herding intensity, alert barking, or the need for calm family management.
   image: "/assets/images/chien-de-berger-des-pyrenees-a-face-rase-cover.jpg"
 - key: chien-de-berger-des-pyrenees-a-poil-long
   name: Chien De Berger Des Pyrenees A Poil Long
@@ -2970,19 +2960,18 @@
   publication_status: planned
   image_prefix: chien-de-berger-des-pyrenees-a-poil-long
   url: "/posts/2026/08/03/chien-de-berger-des-pyrenees-a-poil-long-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small long-haired Pyrenean herding dog that combines high awareness with a coat, noise, and activity routine owners must plan for.
+  size: small
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: high
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Prepare for coat inspections, alert behavior, movement sensitivity, and a real daily outlet beyond short walks.
   image: "/assets/images/chien-de-berger-des-pyrenees-a-poil-long-cover.jpg"
 - key: chien-de-saint-hubert
   name: Chien De Saint Hubert
@@ -2993,19 +2982,18 @@
   publication_status: planned
   image_prefix: chien-de-saint-hubert
   url: "/posts/2026/08/03/chien-de-saint-hubert-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large Bloodhound-type scent hound with extraordinary tracking focus, drooling and ear-care needs, and a demanding recall plan.
+  size: large
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: medium
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Secure fencing, scent management, transport, loose skin and ear care, and realistic cleanup expectations are essential.
   image: "/assets/images/chien-de-saint-hubert-cover.jpg"
 - key: chinese-crested-dog
   name: Chinese Crested Dog
@@ -3016,19 +3004,18 @@
   publication_status: planned
   image_prefix: chinese-crested-dog
   url: "/posts/2026/08/03/chinese-crested-dog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small companion breed whose skin or coat, teeth, temperature comfort, and fragile body change everyday household planning.
+  size: small
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: moderate
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Protect from rough handling, sun and cold exposure, stair falls, dental neglect, and long unsupervised periods.
   image: "/assets/images/chinese-crested-dog-cover.jpg"
 - key: chodsky-pes
   name: Chodsky Pes
@@ -3039,19 +3026,18 @@
   publication_status: planned
   image_prefix: chodsky-pes
   url: "/posts/2026/08/03/chodsky-pes-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Medium Czech herding dog with a responsive working style, substantial coat, and need for daily movement, training, and family involvement.
+  size: medium
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Plan for alert barking, coat shedding, mental work, and a dog that notices household movement.
   image: "/assets/images/chodsky-pes-cover.jpg"
 - key: chow-chow
   name: Chow Chow
@@ -3062,19 +3048,18 @@
   publication_status: planned
   image_prefix: chow-chow
   url: "/posts/2026/08/03/chow-chow-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Independent Chinese spitz breed with a dense coat, reserved social style, and need for respectful handling and visitor structure.
+  size: medium
+  home: house
+  experience: experienced
+  kids: caution
+  exercise: moderate
+  shedding: high
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Do not expect universal stranger friendliness; plan for coat, heat, handling, and calm introductions from puppyhood.
   image: "/assets/images/chow-chow-cover.jpg"
 - key: cimarron-uruguayo
   name: Cimarron Uruguayo
@@ -3085,19 +3070,18 @@
   publication_status: planned
   image_prefix: cimarron-uruguayo
   url: "/posts/2026/08/03/cimarron-uruguayo-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Strong Uruguayan working dog with guardian instincts, confidence, and a need for secure boundaries and experienced handling.
+  size: large
+  home: house
+  experience: experienced
+  kids: caution
+  exercise: moderate
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Plan for visitors, gates, public handling, social development, and the consequences of adult strength.
   image: "/assets/images/cimarron-uruguayo-cover.jpg"
 - key: ciobanesc-romanesc-carpatin
   name: Ciobanesc Romanesc Carpatin
@@ -3200,19 +3184,18 @@
   publication_status: planned
   image_prefix: cirneco-dell-etna
   url: "/posts/2026/08/03/cirneco-dell-etna-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Lean Sicilian primitive hound with speed, a sensitive social style, and a need for safe exercise and warm home routines.
+  size: medium
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: high
+  shedding: low
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Protect from unsafe off-leash situations, cold exposure, rough handling, and unplanned chase opportunities.
   image: "/assets/images/cirneco-dell-etna-cover.jpg"
 - key: clumber-spaniel
   name: Clumber Spaniel
@@ -3223,19 +3206,18 @@
   publication_status: planned
   image_prefix: clumber-spaniel
   url: "/posts/2026/08/03/clumber-spaniel-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Heavy-built British flushing spaniel with a gentle home style, substantial coat, drool, and a need for measured outdoor work.
+  size: large
+  home: house
+  experience: some
+  kids: yes
+  exercise: moderate
+  shedding: high
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Plan for body condition, ear and coat care, mud, drool, transport, and gradual exercise.
   image: "/assets/images/clumber-spaniel-cover.jpg"
 - key: collie-rough
   name: Collie Rough
@@ -3246,19 +3228,18 @@
   publication_status: planned
   image_prefix: collie-rough
   url: "/posts/2026/08/03/collie-rough-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Long-coated Scottish herding dog with strong family attachment, alert communication, and a need for movement and coat care.
+  size: large
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: high
+  grooming: high
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Prepare for shedding, barking, movement sensitivity, grooming time, and a dog that needs useful family involvement.
   image: "/assets/images/collie-rough-cover.jpg"
 - key: collie-smooth
   name: Collie Smooth
@@ -3269,19 +3250,18 @@
   publication_status: planned
   image_prefix: collie-smooth
   url: "/posts/2026/08/03/collie-smooth-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Smooth-coated Scottish herding dog with strong family awareness, alert communication, and a need for daily work without heavy coat maintenance.
+  size: large
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: The easier coat does not remove herding sensitivity, barking, or the need for thoughtful family routines.
   image: "/assets/images/collie-smooth-cover.jpg"
 - key: continental-bulldog
   name: Continental Bulldog
@@ -3292,19 +3272,18 @@
   publication_status: planned
   image_prefix: continental-bulldog
   url: "/posts/2026/08/03/continental-bulldog-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Medium bulldog-type companion with a sturdier athletic profile, close family habits, and a need for sensible heat and body management.
+  size: medium
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: moderate
+  shedding: medium
+  grooming: low
+  training: moderate
+  health_risk: medium
+  cost_level: medium
+  caution: Evaluate breathing, heat tolerance, weight, skin, and household handling instead of assuming every individual has the same capacity.
   image: "/assets/images/continental-bulldog-cover.jpg"
 - key: coton-de-tulear
   name: Coton De Tulear
@@ -3315,19 +3294,18 @@
   publication_status: planned
   image_prefix: coton-de-tulear
   url: "/posts/2026/08/03/coton-de-tulear-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Small Madagascar companion dog with a cotton-like coat, close attachment to people, and a need for grooming and separation training.
+  size: small
+  home: apartment
+  experience: some
+  kids: caution
+  exercise: moderate
+  shedding: low
+  grooming: high
+  training: moderate
+  health_risk: low
+  cost_level: medium
+  caution: Plan for coat mats, dental care, gentle child handling, and a dog that should not be left to develop separation distress.
   image: "/assets/images/coton-de-tulear-cover.jpg"
 - key: crnogorski-planinski-gonic
   name: Crnogorski Planinski Gonic
@@ -3361,19 +3339,18 @@
   publication_status: planned
   image_prefix: curly-coated-retriever
   url: "/posts/2026/08/03/curly-coated-retriever-breed-guide/"
-  summary: Editorial guide planned; this breed is not published or included in site
-    tools yet.
-  size: pending
-  home: pending
-  experience: pending
-  kids: pending
-  exercise: pending
-  shedding: pending
-  grooming: pending
-  training: pending
-  health_risk: pending
-  cost_level: pending
-  caution: Editorial review required before publication.
+  summary: Large athletic retriever with a distinctive curly coat, an independent streak, and a need for serious outdoor work and calm recovery.
+  size: large
+  home: house
+  experience: some
+  kids: yes
+  exercise: high
+  shedding: low
+  grooming: moderate
+  training: moderate
+  health_risk: medium
+  cost_level: high
+  caution: Plan for secure activity, adolescent energy, retrieving rules, coat care, and a dog that may be more reserved than a typical retriever.
   image: "/assets/images/curly-coated-retriever-cover.jpg"
 - key: cao-da-serra-da-estrela
   name: Cao Da Serra Da Estrela

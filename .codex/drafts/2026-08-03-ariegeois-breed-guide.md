@@ -78,7 +78,7 @@ Second, good recall practice does not make any scent hound safe loose near roads
 
 Third, a rural home does not remove the need for daily engagement. A bored hound can become just as frustrated behind a large fence as it can in a small garden.
 
-Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to plan for secure containment, long-line equipment, training, parasite prevention, travel, and an emergency fund. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare your outdoor time, neighborhood density, tolerance for noise, other pets, and experience managing a dog on scent. For another scent-led decision, compare the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) with the [American Foxhound guide]({{ site.url }}/posts/2026/08/03/american-foxhound-breed-guide/) when it is published.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to plan for secure containment, long-line equipment, training, parasite prevention, travel, and an emergency fund. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help you compare your outdoor time, neighborhood density, tolerance for noise, other pets, and experience managing a dog on scent. For another scent-led decision, compare the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) with the [Basset Hound guide]({{ site.url }}/posts/2026/06/10/basset-hound-long-ears-slow-sniffing-hound/) when choosing how much tracking behavior your household can manage.
 
 ## Practice the Emergency Routine Before You Need It
 

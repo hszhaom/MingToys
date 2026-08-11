@@ -78,7 +78,7 @@ The second is believing affection creates safe off-leash recall. A dog can be at
 
 The third is treating a rural setting as automatic freedom. Open land can be more dangerous, not less, when wildlife, roads, and unmarked boundaries are involved.
 
-Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include secure fencing, tracking equipment, training, parasite prevention, and an emergency reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help compare your access to safe routes, tolerance for a scent-led dog, household activity level, and confidence with long-line handling. For another hound decision, read the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) and the [American Foxhound guide]({{ site.url }}/posts/2026/08/03/american-foxhound-breed-guide/) when it is published; neither breed's size removes the need for scent management.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to include secure fencing, tracking equipment, training, parasite prevention, and an emergency reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can help compare your access to safe routes, tolerance for a scent-led dog, household activity level, and confidence with long-line handling. For another hound decision, read the [Beagle guide]({{ site.url }}/posts/2026/06/04/beagle-nose-obsessed-sniffing-hound-clowns/) and the [Dachshund guide]({{ site.url }}/posts/2026/06/07/dachshund-sausage-dog-long-body-big-attitude/) when comparing scent management; neither breed's size removes the need for secure handling.
 
 ## The Alpine Dachsbracke Decision
 

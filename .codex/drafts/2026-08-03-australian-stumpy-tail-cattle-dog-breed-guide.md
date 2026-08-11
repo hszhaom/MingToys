@@ -82,7 +82,7 @@ The second is that the breed's alertness makes it a natural guard dog. Alert bar
 
 The third is that a dog with a short coat has low maintenance. Coat care is easy; daily structure is the work.
 
-Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to plan for training, secure equipment, enrichment, travel, and an emergency fund. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) help compare your work hours, household movement, visitor traffic, children, and access to safe exercise. Read the [Australian Cattle Dog guide]({{ site.url }}/posts/2026/08/03/australian-cattle-dog-breed-guide/) when it is published and the [Australian Shepherd guide]({{ site.url }}/posts/2026/06/14/australian-shepherd-colorful-brainy-energetic-workaholic/) to compare working-dog management rather than appearances.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) to plan for training, secure equipment, enrichment, travel, and an emergency fund. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) help compare your work hours, household movement, visitor traffic, children, and access to safe exercise. Read the [Australian Shepherd guide]({{ site.url }}/posts/2026/06/14/australian-shepherd-colorful-brainy-energetic-workaholic/) and the [Border Collie guide]({{ site.url }}/posts/2026/06/13/border-collie-worlds-smartest-fluffy-workaholic/) to compare working-dog management rather than appearances.
 
 ## The Stumpy Tail Cattle Dog Decision
 

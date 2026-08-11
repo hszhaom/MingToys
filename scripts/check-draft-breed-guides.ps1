@@ -63,6 +63,13 @@ if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($catalogJson)) {
 $catalog = $catalogJson | ConvertFrom-Json
 $openingSignatures = @{}
 $drafts = Get-ChildItem -LiteralPath $draftDirectory -Filter '*.md' -File
+$publishedPostUrls = @{}
+
+Get-ChildItem -LiteralPath (Join-Path $root '_posts') -Filter '*.md' -File | ForEach-Object {
+  if ($_.BaseName -match '^(\d{4})-(\d{2})-(\d{2})-(.+)$') {
+    $publishedPostUrls["/posts/$($Matches[1])/$($Matches[2])/$($Matches[3])/$($Matches[4])/"] = $true
+  }
+}
 
 foreach ($draft in $drafts) {
   $raw = [System.IO.File]::ReadAllText($draft.FullName)
@@ -113,6 +120,11 @@ foreach ($draft in $drafts) {
   if ($wordCount -lt 900) { $issues.Add("$name has $wordCount effective English words; expected at least 900.") }
   if ($decisionHeadings.Count -lt 3) { $issues.Add("$name has only $($decisionHeadings.Count) breed-specific decision sections; expected at least 3.") }
   if ($internalLinks.Count -lt 2) { $issues.Add("$name has only $($internalLinks.Count) related internal content links; expected at least 2.") }
+  foreach ($internalLink in $internalLinks | Where-Object { $_ -like '/posts/*' }) {
+    if (-not $publishedPostUrls.ContainsKey($internalLink)) {
+      $issues.Add("$name links to unpublished or missing article $internalLink.")
+    }
+  }
   if ($raw -notmatch '/dog-cost-calculator/' -or $raw -notmatch '/dog-fit-score-cards/') { $issues.Add("$name must link directly to both dog decision tools.") }
   if ($raw -match '(?i)\b(based on (?:interviews|conversations)|interviewed|we spoke (?:with|to)|we asked)\b') { $issues.Add("$name contains an unsupported interview claim.") }
   if ($raw -match '(?i)\bthe overlooked\b') { $issues.Add("$name contains the repeated AI-style phrase 'the overlooked'.") }
