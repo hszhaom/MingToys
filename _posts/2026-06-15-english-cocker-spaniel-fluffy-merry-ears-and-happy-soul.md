@@ -37,7 +37,7 @@ An English Cocker Spaniel can be a cheerful family companion, but the field-bred
 
 English and American Cockers are separate breeds, not interchangeable coat and size options. The English type is generally the more athletic field partner, so the right match depends on whether the owner wants to train, retrieve, explore, and manage a dog that follows scent rather than simply enjoy a friendly spaniel at home.
 
-![Adult English Cocker Spaniel with long silky ears and an alert, merry expression]({{ site.url }}/assets/images/englishcocker-main.jpg)
+![Adult English Cocker Spaniel with long silky ears and an alert, merry expression]({{ site.url }}/assets/images/englishcocker-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What an English Cocker Spaniel Asks of a Household
@@ -95,7 +95,7 @@ A sensible grooming routine looks like this:
 - Keep nails trimmed and brush teeth several times a week.
 - Bathe roughly monthly or when muddy, drying the ear canals thoroughly afterward.
 
-![English Cocker Spaniel running outdoors with ears flying and feathering in motion]({{ site.url }}/assets/images/englishcocker-play.jpg)
+![English Cocker Spaniel running outdoors with ears flying and feathering in motion]({{ site.url }}/assets/images/englishcocker-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common English Cocker Spaniel Health Issues

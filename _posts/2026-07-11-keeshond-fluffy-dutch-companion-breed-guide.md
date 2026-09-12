@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Keeshond Breed Guide: Temperament, Grooming, Care and Family Fit"
 description: "The Keeshond is a friendly Dutch spitz companion with a plush coat, alert voice, medium exercise needs, and strong family attachment."
 cover: /assets/images/keeshond-cover.jpg
@@ -87,7 +87,7 @@ A Keeshond can be an excellent companion for a home that wants a sociable, invol
 
 The honest trade-off is coat and noise. A Keeshond is not a silent decorative fluff ball. It sheds, alerts, watches windows, and needs regular brushing. For owners who enjoy a social, medium-sized companion and can manage the coat, the breed can be warm, funny, and deeply rewarding.
 
-![Adult Keeshond standing with a silver-gray plush coat, curled tail, and bright foxlike expression]({{ site.url }}/assets/images/keeshond-main.jpg)
+![Adult Keeshond standing with a silver-gray plush coat, curled tail, and bright foxlike expression]({{ site.url }}/assets/images/keeshond-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Keeshond Quick Facts
 
@@ -143,7 +143,7 @@ The Keeshond coat is the largest daily commitment. It has a dense undercoat and 
 
 Do not shave the coat as a casual shortcut. It can affect insulation and regrowth. Instead, use proper brushing tools, keep mats from forming, and ask a groomer familiar with double-coated spitz breeds if you need help.
 
-![Keeshond standing beside its handler at an outdoor dog show]({{ site.url }}/assets/images/keeshond-play.jpg)
+![Keeshond standing beside its handler at an outdoor dog show]({{ site.url }}/assets/images/keeshond-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Keeshond Health Issues
 

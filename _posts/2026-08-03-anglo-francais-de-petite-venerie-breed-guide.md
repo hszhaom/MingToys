@@ -33,7 +33,7 @@ faq_schema:
 
 The Anglo-Francais de Petite Venerie is a French pack hound whose name can mislead English-speaking readers. “Petite venerie” describes the traditional hunt, not a small companion dog. Daily life with this breed is shaped by endurance, scent, company, and a voice that may carry well beyond a garden fence. It suits a person who wants to organize life around an active hound, not someone attracted mainly by a rare name or a short coat.
 
-![Anglo-Francais de Petite Venerie standing in open countryside]({{ site.url }}/assets/images/anglo-francais-de-petite-venerie-main.jpg)
+![Anglo-Francais de Petite Venerie standing in open countryside]({{ site.url }}/assets/images/anglo-francais-de-petite-venerie-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Pack Hound Habits Change the Household
 

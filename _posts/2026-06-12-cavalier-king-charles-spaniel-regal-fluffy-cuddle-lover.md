@@ -37,7 +37,7 @@ The Cavalier King Charles Spaniel has an unusually strong pull toward people. Th
 
 The larger decision is health preparation. This is a breed where a puppy's sweet disposition cannot replace careful questions about documented testing, family history, insurance or savings, and a veterinarian who can help the owner respond to changes. Kindness toward the breed includes taking those choices seriously.
 
-![Adult Cavalier King Charles Spaniel sitting calmly, showing the long feathered ears and Blenheim chestnut-and-white markings]({{ site.url }}/assets/images/cavalier-main.jpg)
+![Adult Cavalier King Charles Spaniel sitting calmly, showing the long feathered ears and Blenheim chestnut-and-white markings]({{ site.url }}/assets/images/cavalier-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Cavalier Fit: Close Company and Health Planning
@@ -92,7 +92,7 @@ A sensible grooming routine includes:
 
 Cavaliers shed moderately year-round. They are not hypoallergenic, but routine brushing keeps the loose hair in check. Many owners keep the coat natural; some trim the foot feathering for tidiness.
 
-![Cavalier King Charles Spaniel trotting happily across grass with ears bouncing]({{ site.url }}/assets/images/cavalier-play.jpg)
+![Cavalier King Charles Spaniel trotting happily across grass with ears bouncing]({{ site.url }}/assets/images/cavalier-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Cavalier King Charles Spaniel Health Issues

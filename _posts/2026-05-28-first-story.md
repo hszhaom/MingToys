@@ -11,7 +11,7 @@ Most people say "Corgi" as if it were one dog, but it is actually two separate b
 
 The quickest way to remember the difference is the tail: a Cardigan has a long, fox-like tail, while a Pembroke has almost none. From there the two breeds diverge in subtle but meaningful ways that change how they look and how they live with you.
 
-![A Welsh Corgi standing alert, showing the classic short legs, long body, and upright ears shared by both Pembroke and Cardigan]({{ site.url }}/assets/images/corgi-main.jpg)
+![A Welsh Corgi standing alert, showing the classic short legs, long body, and upright ears shared by both Pembroke and Cardigan]({{ site.url }}/assets/images/corgi-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## Pembroke and Cardigan Welsh Corgis Fit in an Ordinary Week
@@ -51,7 +51,7 @@ The **ears** are the second giveaway. Both stand erect, but the Cardigan's are n
 
 **Coat color** seals it. Cardigans come in a far wider palette, including brindle and the striking blue merle (mottled gray and black), alongside red, sable, and black. Pembrokes stick to red, sable, fawn, and black-and-tan, usually with white markings, and never come in merle.
 
-![A Corgi trotting outdoors with a happy open-mouthed expression]({{ site.url }}/assets/images/corgi-play.jpg)
+![A Corgi trotting outdoors with a happy open-mouthed expression]({{ site.url }}/assets/images/corgi-play.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## Temperament Differences

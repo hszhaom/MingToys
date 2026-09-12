@@ -37,7 +37,7 @@ A Shih Tzu can be a relaxed companion in a small home, but the low exercise requ
 
 The flat face is the most important decision boundary. Some Shih Tzus cope comfortably with ordinary activity, while others have more obvious breathing or heat limitations. A buyer should assess the individual dog, ask direct health questions, and choose routines that leave plenty of margin rather than testing the dog's tolerance.
 
-![Shih Tzu with a long flowing coat and a flat, friendly face]({{ site.url }}/assets/images/shih-tzu-main.jpg)
+![Shih Tzu with a long flowing coat and a flat, friendly face]({{ site.url }}/assets/images/shih-tzu-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## What a Shih Tzu Asks of a Household
@@ -87,7 +87,7 @@ For this reason, most pet owners keep their Shih Tzu in a short, practical "pupp
 
 The face needs special attention that's unique to short-muzzled breeds. The hair around those large, prominent eyes must be kept trimmed or tied up so it doesn't scratch and irritate them, and the facial folds should be wiped clean and dry to prevent skin problems and staining. Add in frequent tooth brushing (dental disease is common in this small, crowded mouth), regular ear checks, and nail trims, and you have a breed whose grooming is a genuine, ongoing routine.
 
-![Shih Tzu in a short puppy cut playing happily outdoors]({{ site.url }}/assets/images/shih-tzu-play.jpg)
+![Shih Tzu in a short puppy cut playing happily outdoors]({{ site.url }}/assets/images/shih-tzu-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
 ## Common Shih Tzu Health Issues

@@ -37,7 +37,7 @@ The Great Dane is large enough to turn minor household details into logistics. A
 
 The best first step is to measure the home and price the ordinary supplies. A Dane does not require an estate to be content, but it does need safe traction, room to turn and rest, transport that works, and adults who can manage a giant adolescent. Health planning, particularly around urgent abdominal symptoms, belongs in the decision from the start.
 
-![Adult Great Dane standing tall in profile, showing its long legs, deep chest, and elegant head]({{ site.url }}/assets/images/greatdane-main.jpg)
+![Adult Great Dane standing tall in profile, showing its long legs, deep chest, and elegant head]({{ site.url }}/assets/images/greatdane-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Great Dane Fit: Measure the House First
@@ -92,7 +92,7 @@ The basics still apply, just on a larger scale:
 
 Be ready for drool. Danes are not the sloppiest of the giants, but the loose flews mean strings of slobber after drinking or eating, and a "slobber towel" by the water bowl is a common household fixture.
 
-![Great Dane bounding playfully across a yard with its long legs in mid-stride]({{ site.url }}/assets/images/greatdane-play.jpg)
+![Great Dane bounding playfully across a yard with its long legs in mid-stride]({{ site.url }}/assets/images/greatdane-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Great Dane Health Issues

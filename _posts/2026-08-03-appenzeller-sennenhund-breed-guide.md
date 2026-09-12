@@ -33,7 +33,7 @@ faq_schema:
 
 The Appenzeller Sennenhund is an athletic Swiss cattle dog with a quick mind, an alert voice, and little patience for an empty routine. It can be an excellent partner for someone who likes training and can provide a job every day. It can also become loud, chasey, and hard to settle when its energy is treated as a problem to tire out once a week. The right decision is about whether your household can give direction to a working dog, not whether you have a garden.
 
-![Appenzeller Sennenhund with a tricolor coat standing on a trail]({{ site.url }}/assets/images/appenzeller-sennenhund-main.jpg)
+![Appenzeller Sennenhund with a tricolor coat standing on a trail]({{ site.url }}/assets/images/appenzeller-sennenhund-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## A Cattle Dog Needs More Than Distance
 

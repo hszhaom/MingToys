@@ -37,7 +37,7 @@ Finland's national dog is a flash of flame-red fur with the face of a fox and th
 
 The Finnish Spitz is a medium spitz, standing roughly 15 to 20 inches and weighing about 20 to 35 pounds, with a glorious golden-red double coat, pricked ears, and a plumed tail curled over the back. It is lively, bright, and intensely loyal to its family, an outdoor-minded companion with the independence typical of the spitz breeds.
 
-![Adult Finnish Spitz with a flame-red coat, fox-like face, and pricked ears]({{ site.url }}/assets/images/finnishspitz-main.jpg)
+![Adult Finnish Spitz with a flame-red coat, fox-like face, and pricked ears]({{ site.url }}/assets/images/finnishspitz-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## A Vocal Spitz in a Shared-Neighborhood Home
@@ -114,7 +114,7 @@ A practical grooming routine:
 
 The coat needs little trimming and is one of the easier double coats to maintain between sheds, so the main commitment is simply weathering those two big annual molts.
 
-![Finnish Spitz bounding across a grassy field, plumed tail curled over its back]({{ site.url }}/assets/images/finnishspitz-play.jpg)
+![Finnish Spitz bounding across a grassy field, plumed tail curled over its back]({{ site.url }}/assets/images/finnishspitz-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Finnish Spitz Health Issues

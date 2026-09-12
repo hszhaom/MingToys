@@ -37,7 +37,7 @@ The Wirehaired Pointing Griffon, sometimes called the Korthals Griffon after the
 
 Compared to the flashier, faster pointing breeds, the Griffon is prized for being biddable and people-focused, a hunting dog that genuinely wants to partner with its handler rather than range out of sight. That same trait makes it a warm, affectionate housemate, provided you can meet its substantial need for exercise and companionship. This is a sensitive dog that does not thrive when left out of family life.
 
-![Adult Wirehaired Pointing Griffon with harsh coat, beard, and eyebrows standing in a field]({{ site.url }}/assets/images/wirehairedpointinggriffon-main.jpg)
+![Adult Wirehaired Pointing Griffon with harsh coat, beard, and eyebrows standing in a field]({{ site.url }}/assets/images/wirehairedpointinggriffon-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## A Gundog That Brings the Outdoors Indoors
@@ -97,7 +97,7 @@ Other grooming priorities for this breed:
 - Brush teeth several times a week.
 - Check the beard, feet, and skin after field outings for burrs and debris.
 
-![Wirehaired Pointing Griffon running through a field with its weatherproof coat]({{ site.url }}/assets/images/wirehairedpointinggriffon-play.jpg)
+![Wirehaired Pointing Griffon running through a field with its weatherproof coat]({{ site.url }}/assets/images/wirehairedpointinggriffon-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Wirehaired Pointing Griffon Health Issues

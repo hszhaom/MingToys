@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Golden Retriever Guide: Living With America's Favorite Family Dog"
 description: "What owning a Golden Retriever really means: relentless friendliness, heavy seasonal shedding, a swimmer's love of water, and real cancer and hip risks to plan for."
 cover: /assets/images/golden-cover.jpg
@@ -74,7 +74,7 @@ Choosing a Golden Retriever means choosing a large sporting dog that expects to 
 
 Goldens routinely land near the top of America's most-popular-breed lists, and that popularity is earned. But "popular" and "easy" are not the same thing. A Golden is a big, athletic, mouthy, shedding sporting dog that needs hours of engagement a week. Knowing that before you fall for the puppy photos is the difference between a great match and a frustrated one.
 
-![Adult Golden Retriever with the breed's broad head, soft eyes, and feathered golden coat]({{ site.url }}/assets/images/golden-main.jpg)
+![Adult Golden Retriever with the breed's broad head, soft eyes, and feathered golden coat]({{ site.url }}/assets/images/golden-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 ## Golden Retriever Quick Facts
 
@@ -137,7 +137,7 @@ A workable grooming routine includes:
 - Bathing every month or two, no more, to protect the coat's natural oils.
 - Never shaving a Golden down; the double coat insulates against both heat and cold and regrows poorly.
 
-![Golden Retriever mid-stride outdoors, feathered tail flagging, clearly enjoying movement]({{ site.url }}/assets/images/golden-play.jpg)
+![Golden Retriever mid-stride outdoors, feathered tail flagging, clearly enjoying movement]({{ site.url }}/assets/images/golden-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 ## Common Golden Retriever Health Issues
 

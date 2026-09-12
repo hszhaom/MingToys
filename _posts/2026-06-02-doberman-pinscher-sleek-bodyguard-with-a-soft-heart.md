@@ -37,7 +37,7 @@ The Doberman Pinscher is a powerful, alert dog that notices a great deal about i
 
 The difficult part is not finding activities. It is teaching an intelligent guardian when nothing needs to happen. A Doberman that practises quiet recovery, polite greetings, and time alone is far easier to live with than one trained only to stay busy. The breed also deserves serious pre-purchase health questions, including family history and cardiac screening.
 
-![Adult Doberman Pinscher with a sleek black-and-tan coat, muscular athletic build, and an alert, intelligent gaze]({{ site.url }}/assets/images/doberman-main.jpg)
+![Adult Doberman Pinscher with a sleek black-and-tan coat, muscular athletic build, and an alert, intelligent gaze]({{ site.url }}/assets/images/doberman-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Before a Doberman Comes Home: Structure Beats a Big Yard
@@ -97,7 +97,7 @@ A simple routine covers it:
 - Routine ear checks and dental care.
 - Cold-weather awareness: that thin coat offers little insulation, so many Dobermans need a coat in winter and shouldn't live outdoors.
 
-![Doberman Pinscher in athletic motion outdoors, muscles defined, moving with the breed's signature power and grace]({{ site.url }}/assets/images/doberman-play.jpg)
+![Doberman Pinscher in athletic motion outdoors, muscles defined, moving with the breed's signature power and grace]({{ site.url }}/assets/images/doberman-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Doberman Pinscher Health Issues

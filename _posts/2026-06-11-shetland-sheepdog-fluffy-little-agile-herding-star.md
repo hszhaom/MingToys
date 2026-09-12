@@ -37,7 +37,7 @@ A Shetland Sheepdog is often a better fit for a person who enjoys teaching than 
 
 The coat and noise level are the practical commitments. A Sheltie can live in an apartment or a house when exercise and quiet routines are planned, but a home with constant sudden noise, no daily training time, or no tolerance for brushing may find the breed harder than its modest size suggests.
 
-![Adult Shetland Sheepdog sitting alertly, showing the full mane, fringed ears, and sable coat]({{ site.url }}/assets/images/shetland-main.jpg)
+![Adult Shetland Sheepdog sitting alertly, showing the full mane, fringed ears, and sable coat]({{ site.url }}/assets/images/shetland-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Shetland Sheepdog Asks of a Household
@@ -92,7 +92,7 @@ A realistic coat routine looks like this:
 
 Beyond the coat, check and clean ears, keep nails short, and brush teeth, since small breeds are prone to dental disease. A full bath every month or two keeps the coat fresh between brushings.
 
-![Shetland Sheepdog running across a lawn with its coat flowing and ears pricked]({{ site.url }}/assets/images/shetland-play.jpg)
+![Shetland Sheepdog running across a lawn with its coat flowing and ears pricked]({{ site.url }}/assets/images/shetland-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Shetland Sheepdog Health Issues

@@ -37,7 +37,7 @@ A Newfoundland is a gentle giant with an unusually practical relationship to wat
 
 Swimming is an activity, not proof that every individual is a safe swimmer. The dog still needs supervision, a way out of the water, cool-weather or climate-controlled rest, and joint-conscious exercise while growing. A family also needs enough space for a giant dog to move without turning every hallway into a collision zone.
 
-![Adult Newfoundland with a thick black coat and a calm, soulful expression]({{ site.url }}/assets/images/newfoundland-main.jpg)
+![Adult Newfoundland with a thick black coat and a calm, soulful expression]({{ site.url }}/assets/images/newfoundland-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Newfoundland Asks of a Household
@@ -98,7 +98,7 @@ Your grooming reality:
 
 Be honest with yourself about the drool. After a Newfie drinks, shakes its head, or sees food, ropes of saliva fly, and they land on walls, floors, and guests. People who cannot live with that should choose a different breed.
 
-![Newfoundland wading happily through shallow water, completely in its element]({{ site.url }}/assets/images/newfoundland-play.jpg)
+![Newfoundland wading happily through shallow water, completely in its element]({{ site.url }}/assets/images/newfoundland-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Newfoundland Health Issues

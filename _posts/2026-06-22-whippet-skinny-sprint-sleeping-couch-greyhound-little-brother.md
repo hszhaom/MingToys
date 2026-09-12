@@ -37,7 +37,7 @@ The Whippet is often quiet indoors, but its calm home manner should not be confu
 
 For the right home, that rhythm is appealing: a safe chance to sprint, a sensible walk, then a dog happy to curl up under a blanket. The practical requirements are a secure lead or enclosed run, protection from cold, gentle handling of thin skin, and honest planning around cats or other small animals.
 
-![Adult Whippet with a deep chest, tucked waist, and a calm, refined expression]({{ site.url }}/assets/images/whippet-main.jpg)
+![Adult Whippet with a deep chest, tucked waist, and a calm, refined expression]({{ site.url }}/assets/images/whippet-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Whippet Fit: A Secure Run and a Warm Sofa
@@ -98,7 +98,7 @@ The brief routine:
 
 That last point is the real grooming-adjacent concern. A Whippet's skin is thin and the coat offers almost no padding, so they cut and tear surprisingly easily on fences, brush, or rough play. Many owners keep their Whippet in a soft coat or sweater outdoors in cold or harsh conditions, which protects both warmth and skin.
 
-![Whippet at a full gallop in a fenced field, body fully extended in mid-stride]({{ site.url }}/assets/images/whippet-play.jpg)
+![Whippet at a full gallop in a fenced field, body fully extended in mid-stride]({{ site.url }}/assets/images/whippet-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Whippet Health Issues

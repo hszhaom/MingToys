@@ -37,7 +37,7 @@ An American Cocker Spaniel can be an exceptionally gentle companion, but its sho
 
 The American type is more compact and coat-heavy than the English Cocker. That distinction matters for grooming and exercise expectations. A family that wants a friendly dog with moderate activity may fit well, provided it treats coat and ear care as routine rather than an occasional appointment.
 
-![Adult American Cocker Spaniel with a flowing coat, domed head, and soft expression]({{ site.url }}/assets/images/americancocker-main.jpg)
+![Adult American Cocker Spaniel with a flowing coat, domed head, and soft expression]({{ site.url }}/assets/images/americancocker-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What an American Cocker Spaniel Asks of a Household
@@ -97,7 +97,7 @@ A realistic grooming routine looks like this:
 
 Many pet owners keep their cocker in a shorter "puppy cut," which dramatically reduces daily upkeep while preserving the breed's charm.
 
-![American Cocker Spaniel playing outdoors with feathered coat and ears in motion]({{ site.url }}/assets/images/americancocker-play.jpg)
+![American Cocker Spaniel playing outdoors with feathered coat and ears in motion]({{ site.url }}/assets/images/americancocker-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common American Cocker Spaniel Health Issues

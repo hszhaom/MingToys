@@ -37,7 +37,7 @@ The Bernese Mountain Dog is often chosen for a calm expression and family-friend
 
 This dog can be a lovely companion for a household that has room for a large, close-bonded dog and accepts the grooming and medical planning involved. A buyer should be ready to ask direct health questions, make a realistic emergency plan, and build a daily routine around cool-weather walks rather than a mountain-dog fantasy.
 
-![Adult Bernese Mountain Dog with classic tricolor coat and white chest blaze]({{ site.url }}/assets/images/bernesemountaindog-main.jpg)
+![Adult Bernese Mountain Dog with classic tricolor coat and white chest blaze]({{ site.url }}/assets/images/bernesemountaindog-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Bernese Fit: Room, Cool Weather, and a Health Budget
@@ -95,7 +95,7 @@ A practical grooming routine looks like this:
 - Bathe every couple of months or when muddy, drying thoroughly down to the skin.
 - Brush teeth several times a week to support long-term dental health.
 
-![Bernese Mountain Dog trotting outdoors in cool weather, coat in motion]({{ site.url }}/assets/images/bernesemountaindog-play.jpg)
+![Bernese Mountain Dog trotting outdoors in cool weather, coat in motion]({{ site.url }}/assets/images/bernesemountaindog-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Bernese Mountain Dog Health Issues

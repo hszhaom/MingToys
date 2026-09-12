@@ -34,7 +34,7 @@ faq_schema:
 
 An Airedale Terrier is a large, clever terrier for a household that wants an active project, not a background pet. The breed can be affectionate and funny with its family, yet it also brings strong opinions, a busy mind, prey interest, and enough physical confidence to make poor manners inconvenient. The best match is an owner who enjoys training and can provide varied work every day.
 
-![Adult Airedale Terrier with a wiry tan and black coat standing outdoors]({{ site.url }}/assets/images/airedale-terrier-main.jpg)
+![Adult Airedale Terrier with a wiry tan and black coat standing outdoors]({{ site.url }}/assets/images/airedale-terrier-main.jpg){: width="1672" height="941" loading="lazy" decoding="async" }
 
 ## The Airedale Needs a Job With Edges
 

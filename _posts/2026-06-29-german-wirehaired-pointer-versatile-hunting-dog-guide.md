@@ -37,7 +37,7 @@ The German Wirehaired Pointer, or Deutsch Drahthaar, was engineered in late-1800
 
 Among versatile hunting breeds, the German Wirehaired Pointer stands out for its intensity and its protective streak. Unlike some gundogs that greet everyone as a friend, the GWP tends to be devoted to its own family and aloof or watchful with strangers. That loyalty makes it a superb partner for an experienced, active owner and a poor choice for anyone unprepared for a high-drive dog with a mind and stamina to match.
 
-![Adult German Wirehaired Pointer with a harsh weatherproof coat standing alert in a field]({{ site.url }}/assets/images/germanwirehairedpointer-main.jpg)
+![Adult German Wirehaired Pointer with a harsh weatherproof coat standing alert in a field]({{ site.url }}/assets/images/germanwirehairedpointer-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## Working Drive Does Not Switch Off at the Door
@@ -97,7 +97,7 @@ Additional grooming for this breed:
 - Brush teeth several times a week.
 - Check the coat, feet, and beard for burrs and cuts after field outings.
 
-![German Wirehaired Pointer running across rough grassland with a focused hunting-dog expression]({{ site.url }}/assets/images/germanwirehairedpointer-play.jpg)
+![German Wirehaired Pointer running across rough grassland with a focused hunting-dog expression]({{ site.url }}/assets/images/germanwirehairedpointer-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common German Wirehaired Pointer Health Issues

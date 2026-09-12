@@ -37,7 +37,7 @@ An Alaskan Malamute makes its needs obvious in physical ways: a strong dog on th
 
 The key distinction from a typical family companion is management, not affection. A Malamute may be friendly with people while still being difficult around small animals, prone to escape when bored, and unable to exercise safely in midday heat. Those are daily logistics, especially for an apartment, a warm climate, or a home with other pets.
 
-![Gray and white Alaskan Malamute standing powerfully with its plush double coat and plumed tail]({{ site.url }}/assets/images/alaskan-main.jpg)
+![Gray and white Alaskan Malamute standing powerfully with its plush double coat and plumed tail]({{ site.url }}/assets/images/alaskan-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What an Alaskan Malamute Asks of a Household
@@ -96,7 +96,7 @@ Realistic grooming commitment:
 
 The coat is largely self-cleaning and odor-resistant, which is a small mercy, but the volume of shed hair is relentless. A serious vacuum and consistent brushing are non-negotiable for Malamute owners.
 
-![Alaskan Malamute pulling enthusiastically on a snowy trail with its thick coat fluffed against the cold]({{ site.url }}/assets/images/alaskan-play.jpg)
+![Alaskan Malamute pulling enthusiastically on a snowy trail with its thick coat fluffed against the cold]({{ site.url }}/assets/images/alaskan-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Alaskan Malamute Health Issues

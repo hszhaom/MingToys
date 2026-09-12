@@ -38,7 +38,7 @@ The Boston Terrier often fits the city-dog picture: compact, social, short-coate
 
 That changes the home routine. Reliable cooling, short walks at sensible times, careful weight management, and quick attention to eye discomfort are part of responsible ownership. The breed can be a warm, comic companion, but it should never be selected on the assumption that a small dog is automatically an easy dog.
 
-![Adult Boston Terrier with black-and-white tuxedo markings and large round eyes]({{ site.url }}/assets/images/bostonterrier-main.jpg)
+![Adult Boston Terrier with black-and-white tuxedo markings and large round eyes]({{ site.url }}/assets/images/bostonterrier-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Boston Terrier Fit: Climate Is Part of the Floor Plan
@@ -96,7 +96,7 @@ Where the routine does need attention is the face and skin folds:
 
 Because Bostons have sensitive skin, avoid over-bathing and harsh products that can trigger flare-ups.
 
-![Boston Terrier playing outdoors, tuxedo markings and bright eyes on display]({{ site.url }}/assets/images/bostonterrier-play.jpg)
+![Boston Terrier playing outdoors, tuxedo markings and bright eyes on display]({{ site.url }}/assets/images/bostonterrier-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Boston Terrier Health Issues

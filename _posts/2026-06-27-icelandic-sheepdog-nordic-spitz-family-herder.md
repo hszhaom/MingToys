@@ -37,7 +37,7 @@ The Icelandic Sheepdog is Iceland's only native breed, a compact spitz that spen
 
 If you are weighing this breed against other herders, the honest starting point is noise and companionship. Icelandic Sheepdogs were bred to bark at hawks circling overhead and to alert shepherds to anything unusual, so a quiet, indifferent dog is not what you get. What you get instead is a bright, affectionate partner that thrives on inclusion and struggles when left alone for long stretches.
 
-![Adult Icelandic Sheepdog with pricked ears and curled tail standing in a grassy field]({{ site.url }}/assets/images/icelandicsheepdog-main.jpg)
+![Adult Icelandic Sheepdog with pricked ears and curled tail standing in a grassy field]({{ site.url }}/assets/images/icelandicsheepdog-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## Barking, Company, and the Home Herd
@@ -97,7 +97,7 @@ Round out grooming with these checks:
 - Brush teeth regularly to prevent tartar.
 - Check between the toes and pads after countryside walks.
 
-![Icelandic Sheepdog running and playing outdoors with an open, happy expression]({{ site.url }}/assets/images/icelandicsheepdog-play.jpg)
+![Icelandic Sheepdog running and playing outdoors with an open, happy expression]({{ site.url }}/assets/images/icelandicsheepdog-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Icelandic Sheepdog Health Issues

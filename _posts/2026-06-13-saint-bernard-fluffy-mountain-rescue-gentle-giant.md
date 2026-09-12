@@ -37,7 +37,7 @@ A Saint Bernard is a calm giant, but calm does not make a giant dog logistically
 
 The breed's gentle reputation can be useful in a family, yet a 140-pound dog can still knock over a child, block a hallway, or become difficult to move when ill. A suitable home needs enough room for the dog to settle without taking over every passage, plus adults who will teach calm greetings and safe handling from puppyhood.
 
-![Adult Saint Bernard sitting calmly outdoors, showing the broad head, soulful expression, and dense red-and-white coat]({{ site.url }}/assets/images/saintbernard-main.jpg)
+![Adult Saint Bernard sitting calmly outdoors, showing the broad head, soulful expression, and dense red-and-white coat]({{ site.url }}/assets/images/saintbernard-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Saint Bernard Asks of a Household
@@ -92,7 +92,7 @@ A practical care routine includes:
 
 Be fully prepared for drool. The loose flews mean strings of slobber after every drink and meal, and a vigorous head shake can decorate your walls and ceiling. Slobber towels in every room are a Saint Bernard owner's standard equipment.
 
-![Saint Bernard ambling across a grassy field with a relaxed, happy gait]({{ site.url }}/assets/images/saintbernard-play.jpg)
+![Saint Bernard ambling across a grassy field with a relaxed, happy gait]({{ site.url }}/assets/images/saintbernard-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Saint Bernard Health Issues

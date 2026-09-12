@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Komondor Breed Guide: Corded Livestock Guardian Temperament and Care"
 description: "The Komondor is a large corded livestock guardian with strong territory instincts, unusual grooming needs, and serious owner responsibility."
 cover: /assets/images/komondor-cover.jpg
@@ -87,7 +87,7 @@ A Komondor is a guardian first and an unusual-looking dog second. Its cords need
 
 A Komondor is not an easy large companion for ordinary suburban life. It needs secure space, careful socialization, visitor management, and owners who understand guardian instincts. The coat also requires a type of care that is completely different from ordinary brushing.
 
-![Adult Komondor standing outdoors with a white corded coat and calm livestock guardian posture]({{ site.url }}/assets/images/komondor-main.jpg)
+![Adult Komondor standing outdoors with a white corded coat and calm livestock guardian posture]({{ site.url }}/assets/images/komondor-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Komondor Quick Facts
 
@@ -149,7 +149,7 @@ Coat care includes:
 - Managing debris picked up outdoors.
 - Getting guidance from a breeder or groomer familiar with corded breeds.
 
-![Adult Komondor standing beside its handler with the full white coat visible]({{ site.url }}/assets/images/komondor-play.jpg)
+![Adult Komondor standing beside its handler with the full white coat visible]({{ site.url }}/assets/images/komondor-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Komondor Health Issues
 

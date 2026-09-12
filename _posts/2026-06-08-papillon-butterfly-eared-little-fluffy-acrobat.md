@@ -37,7 +37,7 @@ A Papillon fits easily in a small home, but it does not thrive on being treated 
 
 The coat is simpler than its fringed ears suggest, while the daily engagement can be more demanding than a typical lap-dog expectation. This is a practical choice for someone who wants to train and interact with a compact dog, not for someone seeking a dog that is content to be carried through the day.
 
-![Adult Papillon with large fringed butterfly ears and a flowing white-and-color coat]({{ site.url }}/assets/images/papillon-main.jpg)
+![Adult Papillon with large fringed butterfly ears and a flowing white-and-color coat]({{ site.url }}/assets/images/papillon-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Papillon Asks of a Household
@@ -95,7 +95,7 @@ Care essentials:
 
 There's no clipping or professional grooming strictly required, which makes the Papillon lower-maintenance than many similarly glamorous breeds.
 
-![Papillon mid-stride outdoors, ear fringes and plumed tail catching the breeze]({{ site.url }}/assets/images/papillon-play.jpg)
+![Papillon mid-stride outdoors, ear fringes and plumed tail catching the breeze]({{ site.url }}/assets/images/papillon-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Papillon Health Issues

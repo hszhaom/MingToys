@@ -37,7 +37,7 @@ The Japanese Chin spent centuries as the cherished lap dog of Japanese nobility 
 
 Physically, the Chin is tiny, typically weighing 7 to 11 pounds, with a flowing silky coat, a broad flat face, and large, wide-set dark eyes that give it a perpetually surprised, soulful look. That flat (brachycephalic) face is the source of much of the breed's charm and also of its most important health considerations, so it deserves an owner's full attention.
 
-![Adult Japanese Chin with a silky coat, flat face, and large expressive dark eyes]({{ site.url }}/assets/images/japanesechin-main.jpg)
+![Adult Japanese Chin with a silky coat, flat face, and large expressive dark eyes]({{ site.url }}/assets/images/japanesechin-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Furniture, Heat, and Gentle Household Rules
@@ -99,7 +99,7 @@ A simple grooming routine:
 
 Two grooming-adjacent priorities deserve special note. Those large, slightly protruding eyes need regular gentle cleaning and protection from injury, and the facial folds should be kept dry to prevent irritation. Dental care is equally important; the Chin's small, crowded mouth makes routine tooth care a real health measure, not a luxury.
 
-![Japanese Chin trotting lightly across a sunny floor, silky coat flowing]({{ site.url }}/assets/images/japanesechin-play.jpg)
+![Japanese Chin trotting lightly across a sunny floor, silky coat flowing]({{ site.url }}/assets/images/japanesechin-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Japanese Chin Health Issues

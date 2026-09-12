@@ -38,7 +38,7 @@ The Toy Poodle suits a household that wants a small dog involved in the day, not
 
 The decision turns on routine more than square footage. An apartment can work well when hallway noise, toilet breaks, grooming appointments, and mental work are planned. A busy home can be harder if the dog is passed from lap to lap without learning to settle independently. This guide focuses on those practical trade-offs rather than treating the breed as a low-maintenance version of a larger Poodle.
 
-![Apricot Toy Poodle with a curly coat and an alert, intelligent expression]({{ site.url }}/assets/images/toypoodle-main.jpg)
+![Apricot Toy Poodle with a curly coat and an alert, intelligent expression]({{ site.url }}/assets/images/toypoodle-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## What a Toy Poodle Asks of a Household
@@ -88,7 +88,7 @@ Plan to brush and comb thoroughly several times a week to stay ahead of mats, an
 
 Don't overlook the details Poodles are prone to. The hair in their ears can trap moisture and lead to infections, so ears need regular checking and cleaning. Teeth need frequent brushing, and the hair around the eyes and feet usually needs trimming to keep the dog comfortable and clean.
 
-![Toy Poodle in a short puppy clip playing happily outdoors]({{ site.url }}/assets/images/toypoodle-play.jpg)
+![Toy Poodle in a short puppy clip playing happily outdoors]({{ site.url }}/assets/images/toypoodle-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
 ## Common Toy Poodle Health Issues

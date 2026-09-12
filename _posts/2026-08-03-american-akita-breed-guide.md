@@ -33,7 +33,7 @@ faq_schema:
 
 The American Akita is a substantial, independent spitz whose appeal can hide the amount of adult decision-making it needs. A calm expression does not mean a dog will enjoy crowded greetings, loose boundaries, or spontaneous interactions with every person and dog it meets. The strongest homes for the breed are predictable: people control doors, visitors, food, gates, and walks before the dog has to make any of those decisions for itself.
 
-![American Akita with a broad head and dense double coat standing outside]({{ site.url }}/assets/images/american-akita-main.jpg)
+![American Akita with a broad head and dense double coat standing outside]({{ site.url }}/assets/images/american-akita-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Reserve Is Not a Problem to Train Away
 

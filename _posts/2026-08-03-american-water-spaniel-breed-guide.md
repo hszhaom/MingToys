@@ -33,7 +33,7 @@ faq_schema:
 
 The American Water Spaniel is a compact sporting dog, not a small version of a low-maintenance lap dog. Its size can work for many homes, but the daily rhythm still needs training, movement, retrieval games, and enough recovery time for the dog to settle indoors. The best match is an owner who likes giving a dog a job and can handle a coat that gets wet, muddy, and tangled if it is treated as an afterthought.
 
-![American Water Spaniel with a curly brown coat near a lakeshore]({{ site.url }}/assets/images/american-water-spaniel-main.jpg)
+![American Water Spaniel with a curly brown coat near a lakeshore]({{ site.url }}/assets/images/american-water-spaniel-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## The Small Sporting Dog Question
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Labrador Retriever Guide: America's Water-Loving Family Favorite"
 description: "The Labrador Retriever is a high-energy, food-driven water lover that sheds heavily and needs firm management around obesity and hip dysplasia."
 cover: /assets/images/labrador-cover.jpg
@@ -73,7 +73,7 @@ A Labrador Retriever can make a busy family feel more active and more organized,
 
 The common myth is that a Lab is automatically a calm, low-effort family dog. The truth is that Labs are wonderful family dogs only when their substantial exercise and training needs are met; an under-exercised young Lab is a bouncing, mouthy, counter-surfing handful.
 
-![Yellow Labrador Retriever sitting attentively with a soft, friendly expression]({{ site.url }}/assets/images/labrador-main.jpg)
+![Yellow Labrador Retriever sitting attentively with a soft, friendly expression]({{ site.url }}/assets/images/labrador-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 ## Labrador Retriever Quick Facts
 
@@ -136,7 +136,7 @@ Practical grooming routine:
 
 Beyond the shedding, the Lab is genuinely easy to groom; there is no clipping or stripping involved. Just buy a good vacuum and a lint roller.
 
-![Black Labrador Retriever bounding out of the water carrying a toy]({{ site.url }}/assets/images/labrador-play.jpg)
+![Black Labrador Retriever bounding out of the water carrying a toy]({{ site.url }}/assets/images/labrador-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 ## Common Labrador Retriever Health Issues
 

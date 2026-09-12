@@ -35,7 +35,7 @@ faq_schema:
 
 An Akita can be a devoted, calm companion in the right household, but it is not a large plush dog that will happily adapt to every social situation. The breed is powerful, reserved with strangers, often selective with other dogs, and capable of making decisions without waiting for approval. A good Akita home is organized around predictable boundaries: doors, visitors, walks, food, resting space, and introductions all need an adult plan.
 
-![Adult Akita with a dense coat and curled tail standing calmly outdoors]({{ site.url }}/assets/images/akita-main.jpg)
+![Adult Akita with a dense coat and curled tail standing calmly outdoors]({{ site.url }}/assets/images/akita-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## The Akita Is a Boundary Dog
 

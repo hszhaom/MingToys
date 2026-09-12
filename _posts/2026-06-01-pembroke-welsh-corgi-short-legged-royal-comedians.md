@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Pembroke Welsh Corgi Guide: Big-Dog Brains on Short Cattle-Herding Legs"
 description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame, with real exercise needs, heavy shedding, herding nips, and back risks to manage."
 cover: /assets/images/corgi-cover.jpg
@@ -74,7 +74,7 @@ A Pembroke Welsh Corgi may be low to the floor, but it is not a low-demand dog. 
 
 Corgis have become internet royalty for their sploots and bread-loaf silhouettes, and Queen Elizabeth II famously kept dozens over her lifetime. But the meme image hides a sharp, energetic working dog packed into a small body. A Corgi that doesn't get enough mental and physical work will happily reorganize your household according to its own herding agenda.
 
-![Adult Pembroke Welsh Corgi with large erect ears, a fox-like face, and a long low body on short legs]({{ site.url }}/assets/images/corgi-main.jpg)
+![Adult Pembroke Welsh Corgi with large erect ears, a fox-like face, and a long low body on short legs]({{ site.url }}/assets/images/corgi-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## Corgi Fit Is About Noise, Stairs, and Routine
@@ -138,7 +138,7 @@ A practical grooming plan:
 - Check ears and keep teeth clean as part of routine care.
 - Never shave the double coat; it regulates temperature and protects the skin.
 
-![Pembroke Welsh Corgi running flat-out across grass, ears pinned and short legs blurring]({{ site.url }}/assets/images/corgi-play.jpg)
+![Pembroke Welsh Corgi running flat-out across grass, ears pinned and short legs blurring]({{ site.url }}/assets/images/corgi-play.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## Common Pembroke Welsh Corgi Health Issues

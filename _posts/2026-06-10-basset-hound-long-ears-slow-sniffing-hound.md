@@ -37,7 +37,7 @@ The Basset Hound looks slow, but its nose can make an ordinary walk feel like a 
 
 The breed can suit people who enjoy patient walks and a relaxed companion at home. It is not a good match for anyone expecting reliable off-leash obedience or a silent apartment neighbor. Ramps, a secure boundary, measured meals, and regular ear checks make more difference than a large garden alone.
 
-![Adult Basset Hound with long droopy ears, wrinkled brow, and a low-slung body]({{ site.url }}/assets/images/bassethound-main.jpg)
+![Adult Basset Hound with long droopy ears, wrinkled brow, and a low-slung body]({{ site.url }}/assets/images/bassethound-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Basset Fit: A Nose Sets the Schedule
@@ -95,7 +95,7 @@ A breed-specific care list looks like:
 
 Those signature ears are charming but functional liabilities: dragging on the ground and blocking airflow, they need consistent attention to stay healthy.
 
-![Basset Hound walking outdoors, long ears swinging and nose to the ground]({{ site.url }}/assets/images/bassethound-play.jpg)
+![Basset Hound walking outdoors, long ears swinging and nose to the ground]({{ site.url }}/assets/images/bassethound-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Basset Hound Health Issues

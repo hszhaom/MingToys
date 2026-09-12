@@ -37,7 +37,7 @@ The Australian Shepherd is not a decorative version of a farm dog. It is a brigh
 
 More exercise is not always the answer. An Aussie that only learns to expect bigger outings can become fitter without becoming easier to live with. The better routine combines physical activity with skills such as waiting, settling, recall, and switching off around children, bicycles, and visitors.
 
-![Adult Australian Shepherd standing alert outdoors, showing the blue merle coat, copper points, and bright watchful eyes]({{ site.url }}/assets/images/australianshepherd-main.jpg)
+![Adult Australian Shepherd standing alert outdoors, showing the blue merle coat, copper points, and bright watchful eyes]({{ site.url }}/assets/images/australianshepherd-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Aussie Fit: Work Needs a Place in the Day
@@ -98,7 +98,7 @@ A sensible coat routine includes:
 
 Aussies shed year-round and heavily in season, so expect fur around the house. Never shave the double coat, which protects against both heat and cold. A note on the merle coat: breeding two merle dogs together can produce serious health defects, which is one reason buying from a responsible breeder matters.
 
-![Australian Shepherd leaping to catch a toy in mid-air, coat flying]({{ site.url }}/assets/images/australianshepherd-play.jpg)
+![Australian Shepherd leaping to catch a toy in mid-air, coat flying]({{ site.url }}/assets/images/australianshepherd-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Australian Shepherd Health Issues

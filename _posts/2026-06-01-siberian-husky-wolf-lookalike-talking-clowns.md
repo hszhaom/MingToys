@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Siberian Husky Guide: The Beautiful, Howling Escape Artist of the Sled Team"
 description: "Siberian Huskies are athletic, vocal, escape-prone sled dogs with huge exercise needs, heavy shedding, strong prey drive, and a stubborn streak."
 cover: /assets/images/husky-cover.jpg
@@ -73,7 +73,7 @@ The Siberian Husky is easy to admire from a distance and difficult to improvise 
 
 Bred by the Chukchi people of Siberia to pull light loads over vast frozen distances on minimal food, the Husky is athletic, friendly, and astonishingly enduring. They are wonderful dogs for the right, very committed owner, and a common sight in shelters precisely because so many owners underestimate them. Knowing the real breed is the whole game.
 
-![Adult Siberian Husky with a thick wolf-gray coat, striking eyes, and an alert, friendly expression]({{ site.url }}/assets/images/husky-main.jpg)
+![Adult Siberian Husky with a thick wolf-gray coat, striking eyes, and an alert, friendly expression]({{ site.url }}/assets/images/husky-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## A Husky Fit Test Starts With the Fence
@@ -137,7 +137,7 @@ A practical plan:
 - Keep nails trimmed and check ears and feet, especially after outdoor work.
 - Never shave the double coat; it insulates against both cold and heat.
 
-![Siberian Husky sprinting across open ground, coat rippling, clearly built for endurance and speed]({{ site.url }}/assets/images/husky-play.jpg)
+![Siberian Husky sprinting across open ground, coat rippling, clearly built for endurance and speed]({{ site.url }}/assets/images/husky-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
 ## Common Siberian Husky Health Issues

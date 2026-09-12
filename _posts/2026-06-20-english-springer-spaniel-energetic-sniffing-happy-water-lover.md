@@ -37,7 +37,7 @@ An English Springer Spaniel is a medium-sized dog with a working nose and a stro
 
 Field and bench lines can differ in intensity and coat, so a prospective owner should ask which type they are meeting. Regardless of line, the household needs an ear-care routine, a safe outlet for water and scent work, and a plan for companionship during workdays.
 
-![Adult English Springer Spaniel with feathered ears and an alert, friendly expression]({{ site.url }}/assets/images/springerspaniel-main.jpg)
+![Adult English Springer Spaniel with feathered ears and an alert, friendly expression]({{ site.url }}/assets/images/springerspaniel-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What an English Springer Spaniel Asks of a Household
@@ -98,7 +98,7 @@ A practical grooming routine includes:
 
 Those heavy, low-hanging ears are the single biggest grooming concern. They block airflow to the ear canal, and a Springer that swims often is a prime candidate for recurring ear infections unless you dry and check the ears as routine maintenance.
 
-![English Springer Spaniel mid-stride outdoors, ears flying, clearly enjoying the chase]({{ site.url }}/assets/images/springerspaniel-play.jpg)
+![English Springer Spaniel mid-stride outdoors, ears flying, clearly enjoying the chase]({{ site.url }}/assets/images/springerspaniel-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common English Springer Spaniel Health Issues

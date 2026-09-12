@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beagle Guide: Life With a Nose-Obsessed, Merry Little Hound"
 description: "The Beagle is a scent-driven, food-obsessed hound that bays loudly, must stay leashed, gains weight easily, and needs patient training."
 cover: /assets/images/beagle-cover.jpg
@@ -73,7 +73,7 @@ A Beagle's nose changes the ordinary household decisions that a companion-dog bu
 
 The most important thing to understand before you bring one home is that a Beagle's nose runs the show. When a scent catches its attention, your voice essentially disappears, which shapes everything from training to where this dog can safely be off-leash.
 
-![Tricolor Beagle with floppy ears and a soft, friendly expression nose to the ground]({{ site.url }}/assets/images/beagle-main.jpg)
+![Tricolor Beagle with floppy ears and a soft, friendly expression nose to the ground]({{ site.url }}/assets/images/beagle-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Beagle Fit Depends on Noise and Nose Management
@@ -134,7 +134,7 @@ The real grooming attention goes to two spots:
 
 Beyond that, the Beagle is genuinely low-maintenance in the grooming department, one of the breed's real advantages for busy households.
 
-![Beagle running across a field with ears flying and nose working the ground]({{ site.url }}/assets/images/beagle-play.jpg)
+![Beagle running across a field with ears flying and nose working the ground]({{ site.url }}/assets/images/beagle-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Beagle Health Issues

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Pug Guide: The Wrinkly, Snoring Little Companion Clown"
 description: "The Pug is a charming brachycephalic companion with breathing and heat risks, prominent eyes, deep facial folds, and a serious appetite."
 cover: /assets/images/pug-cover.jpg
@@ -73,7 +73,7 @@ The Pug is often sold by its expression: large eyes, wrinkles, comic noises, and
 
 The single most important fact about the breed is that the Pug is brachycephalic, meaning its skull is short and its face is flat. That flat face creates the cute looks and the charming snore, but it also causes real breathing limitations and a dangerous sensitivity to heat that shape nearly every aspect of the dog's care.
 
-![Fawn Pug with a wrinkled face, dark round eyes, and a curled tail looking up at the camera]({{ site.url }}/assets/images/pug-main.jpg)
+![Fawn Pug with a wrinkled face, dark round eyes, and a curled tail looking up at the camera]({{ site.url }}/assets/images/pug-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Pug Fit Is Mostly a Climate and Health Question
@@ -135,7 +135,7 @@ Where the Pug needs special, ongoing attention is the face. Those charming wrink
 
 So while the Pug's coat is low-effort, the wrinkles and eyes turn grooming into a daily habit rather than a weekly one.
 
-![Fawn Pug trotting across grass with its curled tail and stocky little body]({{ site.url }}/assets/images/pug-play.jpg)
+![Fawn Pug trotting across grass with its curled tail and stocky little body]({{ site.url }}/assets/images/pug-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Pug Health Issues

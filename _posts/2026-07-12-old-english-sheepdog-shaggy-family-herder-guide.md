@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Old English Sheepdog Breed Guide: Temperament, Grooming, Care and Family Fit"
 description: "The Old English Sheepdog is a large shaggy herder with comic charm, heavy grooming needs, moderate exercise, and a warm family nature."
 cover: /assets/images/oldenglishsheepdog-cover.jpg
@@ -87,7 +87,7 @@ The Old English Sheepdog asks a buyer to decide about grooming before falling in
 
 The coat is the honest starting point. An Old English Sheepdog is not a low-maintenance large dog. Grooming, mat prevention, bathing, drying, and trimming around eyes and feet can take serious time or money. If that commitment is realistic, the breed offers warmth, humor, and a big-hearted presence.
 
-![Adult Old English Sheepdog standing with a shaggy gray and white coat and gentle expression]({{ site.url }}/assets/images/oldenglishsheepdog-main.jpg)
+![Adult Old English Sheepdog standing with a shaggy gray and white coat and gentle expression]({{ site.url }}/assets/images/oldenglishsheepdog-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Old English Sheepdog Quick Facts
 
@@ -149,7 +149,7 @@ Plan for:
 - Trimming around feet and sanitary areas as needed.
 - Professional grooming if the coat is beyond your skill or schedule.
 
-![Old English Sheepdog looking over a grooming table with its shaggy face and forelegs visible]({{ site.url }}/assets/images/oldenglishsheepdog-play.jpg)
+![Old English Sheepdog looking over a grooming table with its shaggy face and forelegs visible]({{ site.url }}/assets/images/oldenglishsheepdog-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Old English Sheepdog Health Issues
 

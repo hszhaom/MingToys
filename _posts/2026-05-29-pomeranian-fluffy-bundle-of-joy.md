@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Pomeranian Care Guide: Fluffy Coat, Bold Spirit & Health"
 description: "The Pomeranian is a tiny spitz with a fox face, giant double coat, fearless confidence, frequent barking, and knee and trachea health risks."
 cover: /assets/images/pomeranian-cover.jpg
@@ -37,7 +37,7 @@ A Pomeranian may be physically small, but it changes the sound and rhythm of a h
 
 The right home does not need a large yard. It needs a noise plan, time to brush through the undercoat, reliable limits around furniture and unfamiliar dogs, and a realistic strategy for hot weather. That is the practical side of living with an alert toy spitz.
 
-![Orange Pomeranian with a thick double coat and a fox-like face]({{ site.url }}/assets/images/pomeranian-main.jpg)
+![Orange Pomeranian with a thick double coat and a fox-like face]({{ site.url }}/assets/images/pomeranian-main.jpg){: width="1773" height="2092" loading="lazy" decoding="async" }
 
 
 ## What a Pomeranian Asks of a Household
@@ -87,7 +87,7 @@ Pomeranians shed steadily, and they "blow" their undercoat heavily a couple of t
 
 The rest of the routine matters too: trim nails regularly, check the small ears, and brush the teeth often to help prevent the dental disease Poms are prone to. A neat trim around the feet and rear keeps things tidy between baths.
 
-![Fluffy Pomeranian playing outdoors with a bright, confident expression]({{ site.url }}/assets/images/pomeranian-play.jpg)
+![Fluffy Pomeranian playing outdoors with a bright, confident expression]({{ site.url }}/assets/images/pomeranian-play.jpg){: width="1773" height="2092" loading="lazy" decoding="async" }
 
 
 ## Common Pomeranian Health Issues

@@ -33,7 +33,7 @@ faq_schema:
 
 The Aidi, also called the Atlas Mountain Dog, is a Moroccan mountain dog whose alertness and territorial awareness need to be treated as a management responsibility, not as a dramatic selling point. A striking rare breed can be tempting, but the sensible choice starts with visitor routines, secure boundaries, sourcing records, and an honest look at how the dog will live in a modern household.
 
-![Aidi Atlas Mountain Dog standing on a rocky countryside path]({{ site.url }}/assets/images/aidi-chien-de-montagne-de-l-atlas-main.jpg)
+![Aidi Atlas Mountain Dog standing on a rocky countryside path]({{ site.url }}/assets/images/aidi-chien-de-montagne-de-l-atlas-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## A Guardian-Type Dog Needs Predictable Decisions
 

@@ -33,7 +33,7 @@ faq_schema:
 
 The Alpine Dachsbracke, also called the Alpenlandische Dachsbracke, is a short-legged hunting hound with a working dog's priorities. Its compact outline can tempt people to compare it with a casual small companion, but that is the wrong starting point. This breed was developed to follow scent over difficult ground. The useful question is whether your life has room for secure outdoor work, patient leash handling, and a dog whose nose can become more important than the conversation at the other end of the leash.
 
-![Alpine Dachsbracke standing on a woodland path]({{ site.url }}/assets/images/alpenlandische-dachsbracke-main.jpg)
+![Alpine Dachsbracke standing on a woodland path]({{ site.url }}/assets/images/alpenlandische-dachsbracke-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## A Working Hound in a Low Frame
 

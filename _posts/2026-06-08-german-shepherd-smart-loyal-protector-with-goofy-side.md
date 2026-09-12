@@ -1,4 +1,4 @@
-﻿---
+---
 title: "German Shepherd Explained: Working Brains, Big Coat, and Real Health Risks"
 description: "German Shepherds are brilliant, loyal working dogs that shed constantly, need a job, and require planning around hip dysplasia and heavy exercise."
 cover: /assets/images/germanshepherd-cover.jpg
@@ -69,7 +69,7 @@ A German Shepherd brings a great deal of attention into a household, much of it 
 
 This guide is honest about both sides of the German Shepherd: the extraordinary loyalty and brainpower that make them legendary, and the demanding exercise, heavy shedding, and serious health predispositions that make them a poor impulse purchase.
 
-![Adult German Shepherd standing alert with erect ears and a black-and-tan saddle coat]({{ site.url }}/assets/images/germanshepherd-main.jpg)
+![Adult German Shepherd standing alert with erect ears and a black-and-tan saddle coat]({{ site.url }}/assets/images/germanshepherd-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## German Shepherd Fit Depends on Public Control
@@ -131,7 +131,7 @@ Managing it takes consistent work:
 
 The upside is that the coat is otherwise low-maintenance and doesn't mat much. But anyone who can't tolerate constant shedding should think hard before choosing this breed.
 
-![German Shepherd running across open ground, coat and tail flowing]({{ site.url }}/assets/images/germanshepherd-play.jpg)
+![German Shepherd running across open ground, coat and tail flowing]({{ site.url }}/assets/images/germanshepherd-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common German Shepherd Health Issues

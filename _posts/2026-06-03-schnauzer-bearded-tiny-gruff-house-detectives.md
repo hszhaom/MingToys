@@ -37,7 +37,7 @@ The Standard Schnauzer is a medium-sized working dog, not simply a larger versio
 
 The useful question is not whether the Schnauzer looks manageable next to a giant breed. It is whether the owner can provide purposeful activity, teach a calm response to visitors, and tolerate a beard that needs cleaning after meals and drinks. Without that structure, intelligence turns into noise, patrolling, or self-appointed household jobs.
 
-![Salt-and-pepper Standard Schnauzer with its bearded face and arched eyebrows]({{ site.url }}/assets/images/schnauzer-main.jpg)
+![Salt-and-pepper Standard Schnauzer with its bearded face and arched eyebrows]({{ site.url }}/assets/images/schnauzer-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Standard Schnauzer Asks of a Household
@@ -96,7 +96,7 @@ Between grooming sessions, plan on:
 
 That glorious beard is a magnet for grime, so be ready for a damp, slightly messy face after every meal and drink. The low-shedding coat is a genuine perk for allergy-conscious homes, but it is earned through steady grooming, not avoided.
 
-![Standard Schnauzer trotting outdoors showing its compact, square working build]({{ site.url }}/assets/images/schnauzer-play.jpg)
+![Standard Schnauzer trotting outdoors showing its compact, square working build]({{ site.url }}/assets/images/schnauzer-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Standard Schnauzer Health Issues

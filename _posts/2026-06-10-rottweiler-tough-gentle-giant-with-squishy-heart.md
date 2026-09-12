@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Rottweiler Breed Guide: Personality, Care, and Health for Owners"
 description: "The Rottweiler is a confident 80-135 lb guardian with a calm head, clownish streak, strong training needs, and serious joint and bloat risks."
 cover: /assets/images/rottweiler-cover.jpg
@@ -71,7 +71,7 @@ A Rottweiler affects more than the household's walking schedule. Before the dog 
 
 Rottweilers descend from Roman cattle-driving dogs that later worked as drovers and cart-pullers in the German town of Rottweil. That history shows up in how they move and think: deliberate, strong, and quietly watchful rather than frantic. Before you commit, the honest question is whether your home can give a powerful, intelligent guardian the structure, training, and companionship it needs to be its best self.
 
-![Adult Rottweiler standing in profile, showing the broad chest and black-and-tan markings typical of the breed]({{ site.url }}/assets/images/rottweiler-main.jpg)
+![Adult Rottweiler standing in profile, showing the broad chest and black-and-tan markings typical of the breed]({{ site.url }}/assets/images/rottweiler-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Rottweiler Fit Begins With Housing and Insurance
@@ -128,7 +128,7 @@ Routine care should also include:
 - Wiping facial folds and the muzzle after meals or drooly drinks.
 - Bathing every couple of months or when genuinely dirty.
 
-![Rottweiler trotting across grass with an open, happy expression]({{ site.url }}/assets/images/rottweiler-play.jpg)
+![Rottweiler trotting across grass with an open, happy expression]({{ site.url }}/assets/images/rottweiler-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Rottweiler Health Issues

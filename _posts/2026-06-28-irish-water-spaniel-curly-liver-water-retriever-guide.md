@@ -37,7 +37,7 @@ The Irish Water Spaniel is the tallest of the spaniels and one of the most unmis
 
 Within the family of curly water breeds, the Irish Water Spaniel is the clown: clever, playful, and endlessly entertaining, but also independent enough to do things its own way. The low-shedding coat appeals to many buyers, yet it asks for steady upkeep, and the dog behind it needs real exercise and a sense of humor from its human to match its own.
 
-![Adult Irish Water Spaniel with liver curls, topknot, and rat tail standing by water]({{ site.url }}/assets/images/irishwaterspaniel-main.jpg)
+![Adult Irish Water Spaniel with liver curls, topknot, and rat tail standing by water]({{ site.url }}/assets/images/irishwaterspaniel-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## Field Work, Wet Coats, and Spacious Routines
@@ -97,7 +97,7 @@ Round out the routine with:
 - Teeth brushed several times weekly.
 - Skin inspections, as the breed can be allergy-prone.
 
-![Irish Water Spaniel splashing through shallow water with a retrieving dummy]({{ site.url }}/assets/images/irishwaterspaniel-play.jpg)
+![Irish Water Spaniel splashing through shallow water with a retrieving dummy]({{ site.url }}/assets/images/irishwaterspaniel-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Irish Water Spaniel Health Issues

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Belgian Malinois Breed Guide: Temperament, Training, Care and Owner Fit"
 description: "The Belgian Malinois is an intense working shepherd with elite trainability, high exercise needs, low coat care, and serious owner demands."
 cover: /assets/images/belgianmalinois-cover.jpg
@@ -87,7 +87,7 @@ The Belgian Malinois is not difficult because it needs one spectacular workout. 
 
 That same intensity is why the breed is a poor casual pet for most households. A Malinois that has no job, no structure, and no outlet can become loud, mouthy, reactive, destructive, or impossible to relax around. This guide looks at the breed honestly: brilliant, loyal, athletic, and rewarding for the right owner, but demanding every single day.
 
-![Adult Belgian Malinois standing alert with a fawn coat, black mask, and athletic working-dog build]({{ site.url }}/assets/images/belgianmalinois-main.jpg)
+![Adult Belgian Malinois standing alert with a fawn coat, black mask, and athletic working-dog build]({{ site.url }}/assets/images/belgianmalinois-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Belgian Malinois Quick Facts
 
@@ -143,7 +143,7 @@ The Belgian Malinois has a short, practical double coat. Routine grooming is eas
 
 The coat is not the expensive part of Malinois ownership. The real cost is time, training, equipment, enrichment, secure management, and sometimes professional help from trainers who understand high-drive working dogs.
 
-![Belgian Malinois fully extended while clearing an agility jump]({{ site.url }}/assets/images/belgianmalinois-play.jpg)
+![Belgian Malinois fully extended while clearing an agility jump]({{ site.url }}/assets/images/belgianmalinois-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Belgian Malinois Health Issues
 

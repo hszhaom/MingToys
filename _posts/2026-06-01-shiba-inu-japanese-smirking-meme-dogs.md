@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shiba Inu Guide: Japan's Bold, Cat-Like Dog With a Mind of Its Own"
 description: "Shiba Inus are clean, foxy, fiercely independent dogs with a strong prey drive, dramatic scream, heavy shedding, and escape-risk habits."
 cover: /assets/images/shiba-cover.jpg
@@ -74,7 +74,7 @@ The Shiba Inu is compact, tidy, photogenic, and often much less cooperative than
 
 Shibas are compact, tidy, and strikingly handsome, with a fox-like face, curled tail, and dignified bearing. They are also stubborn, prone to "Shiba screams," wired with a serious prey drive, and notorious escape artists. None of that is a flaw if it's what you signed up for, and a disaster if it isn't.
 
-![Adult Shiba Inu with a fox-like red coat, sharp upright ears, curled tail, and an alert, confident expression]({{ site.url }}/assets/images/shiba-main.jpg)
+![Adult Shiba Inu with a fox-like red coat, sharp upright ears, curled tail, and an alert, confident expression]({{ site.url }}/assets/images/shiba-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## Shiba Fit Depends on Containment and Consent
@@ -137,7 +137,7 @@ But twice a year, brace yourself. During seasonal coat blows in spring and fall,
 - Routine nail trims, ear checks, and dental care.
 - No shaving; the double coat protects against heat and cold.
 
-![Shiba Inu trotting confidently outdoors, curled tail up and ears forward, surveying its surroundings]({{ site.url }}/assets/images/shiba-play.jpg)
+![Shiba Inu trotting confidently outdoors, curled tail up and ears forward, surveying its surroundings]({{ site.url }}/assets/images/shiba-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
 ## Common Shiba Inu Health Issues

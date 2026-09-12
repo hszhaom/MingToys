@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Kangal Dog Breed Guide: Turkish Livestock Guardian Temperament and Care"
 description: "The Kangal Dog is a large Turkish livestock guardian with calm confidence, territorial instincts, dense short coat, and serious owner demands."
 cover: /assets/images/kangal-cover.jpg
@@ -71,7 +71,7 @@ A Kangal Dog belongs in a very small set of homes. The question is not whether s
 
 This breed is not a casual backyard status symbol. A Kangal is first and foremost a working guardian, shaped to think independently, patrol territory, and bond deeply with the animals or family under its care. Owners who understand that heritage may admire the breed's steadiness. Owners who expect easy obedience or instant friendliness with strangers will struggle.
 
-![Adult Kangal Dog with fawn coat, dark mask, and curled tail standing alert outdoors]({{ site.url }}/assets/images/kangal-main.jpg)
+![Adult Kangal Dog with fawn coat, dark mask, and curled tail standing alert outdoors]({{ site.url }}/assets/images/kangal-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Kangal Dog Quick Facts
 
@@ -133,7 +133,7 @@ Basic care should include:
 - Brushing teeth regularly.
 - Bathing only as needed, since the coat naturally sheds dirt.
 
-![Kangal Dog moving across open pasture with a watchful livestock guardian posture]({{ site.url }}/assets/images/kangal-play.jpg)
+![Kangal Dog moving across open pasture with a watchful livestock guardian posture]({{ site.url }}/assets/images/kangal-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Kangal Dog Health Issues
 

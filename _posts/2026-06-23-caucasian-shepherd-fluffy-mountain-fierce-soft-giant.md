@@ -37,7 +37,7 @@ The Caucasian Shepherd Dog, also called the Caucasian Ovcharka, was shaped over 
 
 This is a massive animal, with males often weighing 110 to 170 pounds or more and standing well over two feet at the shoulder. Mountain types carry a thick, heavy coat against alpine cold. Behind that imposing exterior is an intelligent, fiercely loyal, and deeply independent guardian that thinks for itself, which is exactly what its work required.
 
-![Adult Caucasian Shepherd Dog, broad-headed and heavily coated, with a watchful gaze]({{ site.url }}/assets/images/caucasianshepherd-main.jpg)
+![Adult Caucasian Shepherd Dog, broad-headed and heavily coated, with a watchful gaze]({{ site.url }}/assets/images/caucasianshepherd-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Property, Visitors, and the Guardian Contract
@@ -99,7 +99,7 @@ Expect to handle:
 
 Start grooming handling in puppyhood. Teaching a 30-pound puppy to accept brushing, nail trims, and inspection is straightforward; trying to force grooming on a wary, fully grown guardian that was never conditioned to it is dangerous.
 
-![Caucasian Shepherd Dog moving across a large open yard, coat full and dense]({{ site.url }}/assets/images/caucasianshepherd-play.jpg)
+![Caucasian Shepherd Dog moving across a large open yard, coat full and dense]({{ site.url }}/assets/images/caucasianshepherd-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Caucasian Shepherd Dog Health Issues

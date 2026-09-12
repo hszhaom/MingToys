@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Page title -->
-  <title>{% if page.title %}{{ page.title | escape }} | PetStorie{% else %}PetStorie - Dog Breed Guides and Pet Care Tips{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }}{% unless page.layout == "post" %} | PetStorie{% endunless %}{% else %}PetStorie - Dog Breed Guides and Pet Care Tips{% endif %}</title>
 
   <!-- Page description -->
   <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
@@ -31,6 +31,11 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="{{ site.url }}/assets/images/petstorie-mark.svg">
 
+  {% if page.url == "/" %}
+  <!-- Prioritize the homepage LCP image before below-the-fold card images. -->
+  <link rel="preload" as="image" href="{{ site.url }}/assets/images/home-hero.jpg" fetchpriority="high">
+  {% endif %}
+
   <!-- Google AdSense Auto ads -->
   <meta name="google-adsense-account" content="ca-pub-1296126560310042">
   {% include adsense.html %}
@@ -51,12 +56,27 @@
         "name": "Home",
         "item": "{{ site.url }}/"
       },
+      {% if page.layout == "post" %}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dog Breeds",
+        "item": "{{ site.url }}/dog-breeds/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": {{ page.title | default: site.title | jsonify }},
+        "item": "{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
+      }
+      {% else %}
       {
         "@type": "ListItem",
         "position": 2,
         "name": {{ page.title | default: site.title | jsonify }},
         "item": "{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
       }
+      {% endif %}
     ]
   }
   </script>
@@ -127,17 +147,5 @@
     {% include faq.html %}
   {% endunless %}
   {% include site_footer.html %}
-  <script>
-  (function () {
-    document.querySelectorAll('img').forEach(function (img) {
-      if (!img.classList.contains('logo-img') && !img.hasAttribute('loading')) {
-        img.setAttribute('loading', 'lazy');
-      }
-      if (!img.hasAttribute('decoding')) {
-        img.setAttribute('decoding', 'async');
-      }
-    });
-  })();
-  </script>
 </body>
 </html>

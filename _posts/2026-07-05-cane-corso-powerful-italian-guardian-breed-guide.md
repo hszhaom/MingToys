@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cane Corso Breed Guide: Temperament, Training, Care and Owner Fit"
 description: "The Cane Corso is a powerful Italian guardian with deep loyalty, serious training needs, short-coat care, and major health risks to understand."
 cover: /assets/images/canecorso-cover.jpg
@@ -67,7 +67,7 @@ The Cane Corso is a large guardian breed whose first owner decision is usually l
 
 The breed needs a steady owner who can provide socialization, structure, exercise, and fair training from the beginning. In the right hands, it can be calm and affectionate. In an unprepared home, its size and guardian instinct become difficult to manage quickly.
 
-![Adult Cane Corso with a muscular build and alert guardian expression]({{ site.url }}/assets/images/canecorso-main.jpg)
+![Adult Cane Corso with a muscular build and alert guardian expression]({{ site.url }}/assets/images/canecorso-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Cane Corso Quick Facts
 
@@ -129,7 +129,7 @@ Expect more shedding during seasonal changes. The breed is not high-maintenance 
 - Brush teeth several times a week.
 - Wipe drool when necessary, since some Corsos are slobberier than others.
 
-![Cane Corso trotting outdoors with a powerful athletic body and focused expression]({{ site.url }}/assets/images/canecorso-play.jpg)
+![Cane Corso trotting outdoors with a powerful athletic body and focused expression]({{ site.url }}/assets/images/canecorso-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Cane Corso Health Issues
 

@@ -37,7 +37,7 @@ A Yorkshire Terrier can be easy to carry and difficult to ignore. The fine coat 
 
 The Yorkie can live well in an apartment, but a small floor plan does not remove its need for sniffing, training, and a clear response to wildlife or hallway noise. A practical pet trim often makes more sense than a floor-length coat for busy homes, yet grooming remains a scheduled expense rather than an optional extra.
 
-![Yorkshire Terrier with a long silky blue-and-tan coat and bright eyes]({{ site.url }}/assets/images/yorkie-main.jpg)
+![Yorkshire Terrier with a long silky blue-and-tan coat and bright eyes]({{ site.url }}/assets/images/yorkie-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## What a Yorkshire Terrier Asks of a Household
@@ -87,7 +87,7 @@ Most pet owners wisely choose a short "puppy cut," which cuts the grooming load 
 
 The other grooming priorities are the same toy-breed essentials: brush the teeth often (dental disease is a major Yorkie issue), trim nails regularly, and check the small ears. The coat may shed little, but it's the breed's biggest ongoing time-and-money commitment.
 
-![Yorkshire Terrier in a short puppy cut playing outdoors]({{ site.url }}/assets/images/yorkie-play.jpg)
+![Yorkshire Terrier in a short puppy cut playing outdoors]({{ site.url }}/assets/images/yorkie-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
 ## Common Yorkshire Terrier Health Issues

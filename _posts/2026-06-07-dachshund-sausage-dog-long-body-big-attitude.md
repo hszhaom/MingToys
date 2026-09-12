@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dachshund Owner's Handbook: The Long-Backed Hound With a Lion's Heart"
 description: "The Dachshund's long spine brings serious IVDD risk, while its loud bark, stubborn hound brain, food drive, and bold nature shape daily care."
 cover: /assets/images/dachshund-cover.jpg
@@ -73,7 +73,7 @@ A Dachshund makes people smile before they understand the daily setup it require
 
 This guide covers what it's really like to share your home with one, with special attention to the single most important thing every Dachshund owner must understand: that famous long back is also the breed's biggest vulnerability.
 
-![Adult Dachshund standing in profile, showing the breed's elongated body and short legs]({{ site.url }}/assets/images/dachshund-main.jpg)
+![Adult Dachshund standing in profile, showing the breed's elongated body and short legs]({{ site.url }}/assets/images/dachshund-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Dachshund Fit Starts With the Floor Plan
@@ -133,7 +133,7 @@ Across all three, a few care points stay constant:
 - Brush teeth often, as small breeds accumulate tartar quickly.
 - Wipe the long belly and chest, which sit close to the ground and collect dirt.
 
-![Longhaired Dachshund trotting through grass, ears and feathering in motion]({{ site.url }}/assets/images/dachshund-play.jpg)
+![Longhaired Dachshund trotting through grass, ears and feathering in motion]({{ site.url }}/assets/images/dachshund-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Dachshund Health Issues

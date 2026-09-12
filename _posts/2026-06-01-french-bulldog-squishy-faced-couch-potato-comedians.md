@@ -1,4 +1,4 @@
-﻿---
+---
 title: "French Bulldog Guide: The Charming, High-Maintenance Apartment Clown"
 description: "French Bulldogs are funny, low-energy companions, but their flat faces bring real breathing and heat risks. Here's the honest care, health, and cost picture."
 cover: /assets/images/frenchbulldog-cover.jpg
@@ -73,7 +73,7 @@ French Bulldogs make a fast first impression: small enough for city life, funny 
 
 Frenchies are the opposite of a rugged outdoor dog. They were bred down from English Bulldogs into a lap-sized companion, and that is exactly the role they want: indoor sidekick, couch buddy, and the comedian of the household. If you want a dog that fits a quiet, climate-controlled, people-centered home, the French Bulldog is a strong candidate, as long as you go in clear-eyed about the breed's vulnerabilities.
 
-![Adult French Bulldog with upright bat ears, a wrinkled flat face, and a stocky compact body]({{ site.url }}/assets/images/frenchbulldog-main.jpg)
+![Adult French Bulldog with upright bat ears, a wrinkled flat face, and a stocky compact body]({{ site.url }}/assets/images/frenchbulldog-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 ## French Bulldog Quick Facts
 
@@ -136,7 +136,7 @@ Build these habits:
 - Bathe occasionally with a gentle dog shampoo, drying thoroughly afterward.
 - Watch the skin generally, since the breed is prone to allergies and dermatitis.
 
-![French Bulldog trotting and play-bouncing indoors, ears up, clearly in a playful mood]({{ site.url }}/assets/images/frenchbulldog-play.jpg)
+![French Bulldog trotting and play-bouncing indoors, ears up, clearly in a playful mood]({{ site.url }}/assets/images/frenchbulldog-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 ## Common French Bulldog Health Issues
 

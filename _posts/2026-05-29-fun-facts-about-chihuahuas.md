@@ -37,7 +37,7 @@ The Chihuahua is small enough to disappear under a chair, but its needs are not 
 
 Good Chihuahua care is built around handling, teeth, warmth, and calm social exposure. A consistent routine can make this a devoted city companion. Skipping those basics can leave a dog that barks at every hallway sound, worries around visitors, or gets hurt because larger people and pets were not taught to move carefully around it.
 
-![Smooth-coat Chihuahua with large upright ears and an alert expression]({{ site.url }}/assets/images/chihuahua-main.jpg)
+![Smooth-coat Chihuahua with large upright ears and an alert expression]({{ site.url }}/assets/images/chihuahua-main.jpg){: width="1773" height="2092" loading="lazy" decoding="async" }
 
 
 ## Chihuahua Fit: Tiny Size Changes the House Rules
@@ -87,7 +87,7 @@ The real grooming priorities for this breed are not the coat - they are the teet
 
 Pay special attention to the mouth (more on that below) and check the large ears for wax. Because the eyes can be a touch prominent, a soft daily wipe to clear any discharge keeps the face clean and comfortable.
 
-![Long-coat Chihuahua playing on the floor with a bright, lively expression]({{ site.url }}/assets/images/chihuahua-play.jpg)
+![Long-coat Chihuahua playing on the floor with a bright, lively expression]({{ site.url }}/assets/images/chihuahua-play.jpg){: width="1773" height="2092" loading="lazy" decoding="async" }
 
 
 ## Common Chihuahua Health Issues
@@ -160,7 +160,7 @@ A Chihuahua suits someone who wants a devoted, low-exercise, apartment-friendly 
 
 It is a poor fit for homes with very young, rough children, given how easily the breed is injured, and for anyone hoping for a quiet, hands-off pet. The wariness, the barking, and the fragility all need active management. Decide honestly whether you'll do that work before falling for the tiny face.
 
-If you're cross-shopping small companions, it helps to compare the Chihuahua against the louder, primitive [Finnish Spitz]({{ site.url }}/posts/2026/06/26/finnish-spitz-flame-red-singing-fox-happy-spitz/), the herding-driven [Pembroke vs Cardigan Welsh Corgi comparison]({{ site.url }}/posts/2026/05/28/first-story/}), or the high-grooming [Maltese guide]({{ site.url }}/posts/2026/05/29/maltese-fluffy-white-princess-of-dogs/). Those three lead to very different daily lives despite all being small.
+If you're cross-shopping small companions, it helps to compare the Chihuahua against the louder, primitive [Finnish Spitz]({{ site.url }}/posts/2026/06/26/finnish-spitz-flame-red-singing-fox-happy-spitz/), the herding-driven [Pembroke vs Cardigan Welsh Corgi comparison]({{ site.url }}/posts/2026/05/28/first-story/), or the high-grooming [Maltese guide]({{ site.url }}/posts/2026/05/29/maltese-fluffy-white-princess-of-dogs/). Those three lead to very different daily lives despite all being small.
 
 ## The Chihuahua Decision
 The Chihuahua proves that personality has nothing to do with size. In a frame you can cup in two hands lives a bold, loyal, long-lived companion that will bond to you for well over a decade. The care load is light on grooming and feeding but real on a few specific fronts: dental health, warmth, gentle handling, and the training that keeps a confident dog from becoming a difficult one.

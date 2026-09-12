@@ -37,7 +37,7 @@ A Scottish Terrier is a compact dog with a working terrier's priorities. Its sho
 
 The Scottie is affectionate without being endlessly compliant. It often prefers a predictable relationship to constant handling and may negotiate a cue it finds uninteresting. Owners who enjoy an independent dog and can keep rules consistent usually get more from the breed than owners looking for a small, eager-to-please lapdog.
 
-![Black Scottish Terrier standing alert with its trademark long head and bushy eyebrows]({{ site.url }}/assets/images/scottie-main.jpg)
+![Black Scottish Terrier standing alert with its trademark long head and bushy eyebrows]({{ site.url }}/assets/images/scottie-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Scottish Terrier Asks of a Household
@@ -96,7 +96,7 @@ Between professional appointments, plan on:
 
 Budget for a groomer, or be ready to learn clipping and stripping yourself. The "wash and wear" Scottie is a myth.
 
-![Scottish Terrier trotting across grass with its wiry beard and furnishings visible]({{ site.url }}/assets/images/scottie-play.jpg)
+![Scottish Terrier trotting across grass with its wiry beard and furnishings visible]({{ site.url }}/assets/images/scottie-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Scottish Terrier Health Issues

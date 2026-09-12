@@ -37,7 +37,7 @@ The Miniature Schnauzer is small enough for city life but not naturally quiet or
 
 This can be a rewarding size for a household that wants a trainable watchdog and can keep up with grooming. It is less suitable for someone hoping a small dog will simply age out of barking. The useful question is whether the home can teach a reliable settle cue and budget for coat care before the puppy arrives.
 
-![Adult Miniature Schnauzer with bushy eyebrows and full beard, showing the breed's square terrier build]({{ site.url }}/assets/images/minischnauzer-main.jpg)
+![Adult Miniature Schnauzer with bushy eyebrows and full beard, showing the breed's square terrier build]({{ site.url }}/assets/images/minischnauzer-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## The Small-Dog Assumptions That Do Not Work Here
@@ -93,7 +93,7 @@ Between grooms, the famous beard and leg furnishings need constant attention. Th
 - Trim nails roughly every few weeks.
 - Brush teeth often, as small breeds are prone to dental tartar.
 
-![Miniature Schnauzer trotting outdoors, beard and eyebrows catching the light]({{ site.url }}/assets/images/minischnauzer-play.jpg)
+![Miniature Schnauzer trotting outdoors, beard and eyebrows catching the light]({{ site.url }}/assets/images/minischnauzer-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Miniature Schnauzer Health Issues

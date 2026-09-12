@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Border Collie Breed Guide: The Smartest Dog and What It Demands"
 description: "The Border Collie is widely called the smartest dog breed, with extreme exercise needs, intense mental demands, and a strong herding drive."
 cover: /assets/images/bordercollie-cover.jpg
@@ -71,7 +71,7 @@ A Border Collie is a rewarding match for someone who wants to plan activity, tra
 
 Bred along the rugged border between Scotland and England to gather and move sheep across vast hills, the Border Collie is a working dog first and a pet second, and its instincts run deep. The hallmark "eye," the crouch-and-stalk, the obsessive focus on movement, these are not quirks to train out but the core of the breed. Living happily with one means understanding that you are taking on a tireless, problem-solving athlete that was built to work all day.
 
-![Adult Border Collie crouched in the classic herding stance with an intense, focused gaze]({{ site.url }}/assets/images/bordercollie-main.jpg)
+![Adult Border Collie crouched in the classic herding stance with an intense, focused gaze]({{ site.url }}/assets/images/bordercollie-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Border Collie Fit Is About Off-Switch Training
@@ -136,7 +136,7 @@ A simple routine covers the essentials:
 
 Border Collies shed year-round and heavily during seasonal changes, so expect fur on floors and furniture. The coat is weatherproof and should never be shaved, since it insulates against both cold and heat.
 
-![Border Collie sprinting across an open field, ears back and fully extended in motion]({{ site.url }}/assets/images/bordercollie-play.jpg)
+![Border Collie sprinting across an open field, ears back and fully extended in motion]({{ site.url }}/assets/images/bordercollie-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Border Collie Health Issues

@@ -37,7 +37,7 @@ The Tibetan Mastiff looks like a creature out of legend, and in a sense it is. F
 
 This is a large to giant dog, with males commonly weighing 90 to 150 pounds and females somewhat less, built heavy-boned beneath an enormous double coat. It is calm and aloof rather than busy, content to survey its domain by day and patrol it by night. That ancient watchfulness, and the stubborn self-reliance behind it, defines what living with one is really like.
 
-![Adult Tibetan Mastiff with a thick lion-like mane and a calm, dignified expression]({{ site.url }}/assets/images/tibetanmastiff-main.jpg)
+![Adult Tibetan Mastiff with a thick lion-like mane and a calm, dignified expression]({{ site.url }}/assets/images/tibetanmastiff-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Night Noise, Boundaries, and Visitor Management
@@ -99,7 +99,7 @@ Your grooming plan:
 
 The single biggest grooming event is that yearly molt, and owners who are unprepared for the sheer quantity of undercoat that comes out are always startled the first time. Plan for it, and the breed is otherwise reasonably low-fuss between blows.
 
-![Tibetan Mastiff patrolling a snowy yard, full coat and mane on display]({{ site.url }}/assets/images/tibetanmastiff-play.jpg)
+![Tibetan Mastiff patrolling a snowy yard, full coat and mane on display]({{ site.url }}/assets/images/tibetanmastiff-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Tibetan Mastiff Health Issues

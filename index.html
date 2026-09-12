@@ -43,7 +43,7 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
       {% for post in reviewed_posts limit:9 %}
       <article class="post-card">
         {% if post.cover %}
-        <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
+        <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}" width="800" height="500" loading="lazy" decoding="async">
         {% endif %}
         <div class="card-content">
           <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>

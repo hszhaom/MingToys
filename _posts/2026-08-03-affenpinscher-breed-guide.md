@@ -34,7 +34,7 @@ faq_schema:
 
 An Affenpinscher can be an excellent small-home companion when you want a sturdy, funny little dog rather than a silent ornament. The breed is compact enough for an apartment, but its terrier confidence shows up in barking, alertness, and a willingness to investigate every noise. The practical question is not whether an Affenpinscher can fit in a small space; it is whether you can give a small dog clear boundaries, safe handling, and enough company to prevent nuisance habits.
 
-![Adult Affenpinscher with a wiry black coat and alert expression]({{ site.url }}/assets/images/affenpinscher-main.jpg)
+![Adult Affenpinscher with a wiry black coat and alert expression]({{ site.url }}/assets/images/affenpinscher-main.jpg){: width="1672" height="941" loading="lazy" decoding="async" }
 
 ## The Affenpinscher Household Test
 

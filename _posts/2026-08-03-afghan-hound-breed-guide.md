@@ -34,7 +34,7 @@ faq_schema:
 
 An Afghan Hound suits an owner who wants an elegant, independent sighthound and is prepared to manage two very different dogs: a quiet house companion and a fast, chase-driven athlete outdoors. The breed’s long coat is visible, but coat care is only one part of the decision. Secure exercise, reliable containment, and realistic expectations about obedience matter just as much.
 
-![Adult Afghan Hound with a long flowing coat standing in a secure outdoor field]({{ site.url }}/assets/images/afghan-hound-main.jpg)
+![Adult Afghan Hound with a long flowing coat standing in a secure outdoor field]({{ site.url }}/assets/images/afghan-hound-main.jpg){: width="1672" height="941" loading="lazy" decoding="async" }
 
 ## The Afghan Hound Lifestyle Split
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Great Pyrenees: Living With the White Mountain Guardian"
 description: "The Great Pyrenees is a massive white livestock guardian: calm and gentle at home, fiercely independent, a notorious night barker, and a heavy seasonal shedder."
 cover: /assets/images/greatpyrenees-cover.jpg
@@ -83,7 +83,7 @@ A Great Pyrenees can be quiet beside its family and very loud when it decides th
 
 This is not a dog you train so much as a dog you partner with. Understanding the livestock-guardian mindset is the key to a happy life together, because a Pyr does not think like a retriever or a herder. It thinks like a guardian who has made its own decisions for a very long time.
 
-![Adult Great Pyrenees, a large white guardian dog with a thick weatherproof coat]({{ site.url }}/assets/images/greatpyrenees-main.jpg)
+![Adult Great Pyrenees, a large white guardian dog with a thick weatherproof coat]({{ site.url }}/assets/images/greatpyrenees-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## Great Pyrenees Fit Starts With Neighbor Distance
@@ -145,7 +145,7 @@ A workable grooming routine looks like this:
 - Bathe occasionally; the coat stays cleaner than its color suggests.
 - Never shave the double coat, which protects against both cold and heat.
 
-![Great Pyrenees resting among sheep on an open mountain pasture]({{ site.url }}/assets/images/greatpyrenees-play.jpg)
+![Great Pyrenees resting among sheep on an open mountain pasture]({{ site.url }}/assets/images/greatpyrenees-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Great Pyrenees Health Issues

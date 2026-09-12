@@ -43,7 +43,7 @@ The Samoyed is a sociable Arctic working dog with a huge white coat, a strong vo
 
 That makes the breed a poor impulse choice for a hot apartment or a household away all day. It can be a deeply engaging companion in a prepared home, especially one that enjoys training and outdoor time, but the practical test is simple: can the household manage fur, noise, and heat without relying on improvisation?
 
-![Adult Samoyed with a thick pure-white double coat, upturned smiling mouth, and a tail curled over the back]({{ site.url }}/assets/images/samoyed-main.jpg)
+![Adult Samoyed with a thick pure-white double coat, upturned smiling mouth, and a tail curled over the back]({{ site.url }}/assets/images/samoyed-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## The Samoyed Test: Noise, Fur, and a Cool Place to Rest
@@ -105,7 +105,7 @@ Plan for serious grooming:
 
 A genuine perk: many people find Samoyed coat care meditative, and the shed undercoat can even be spun into yarn. But there is no version of this breed that is low-shedding or low-maintenance.
 
-![Samoyed running toward the camera on a shaded woodland trail]({{ site.url }}/assets/images/samoyed-play.jpg)
+![Samoyed running toward the camera on a shaded woodland trail]({{ site.url }}/assets/images/samoyed-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Samoyed Health Issues

@@ -33,7 +33,7 @@ faq_schema:
 
 The Kintamani-Bali Dog is an Indonesian spitz whose rarity outside its home region changes the ownership decision. Before thinking about coat color or a striking outline, research the source of the dog, the breeder's records, local import requirements, and what support exists if the placement does not work. The breed's alertness and independence can make it engaging, but they also mean that early socialization, secure boundaries, and calm routines matter more than a fashionable “rare breed” label.
 
-![Kintamani-Bali Dog with a spitz tail standing in a warm outdoor setting]({{ site.url }}/assets/images/anjing-kintamani-bali-main.jpg)
+![Kintamani-Bali Dog with a spitz tail standing in a warm outdoor setting]({{ site.url }}/assets/images/anjing-kintamani-bali-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Rarity Raises the Standard for Research
 

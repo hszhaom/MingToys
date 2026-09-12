@@ -37,7 +37,7 @@ A Bull Terrier is unmistakable in appearance, but the important ownership questi
 
 The breed can be affectionate and entertaining, yet those qualities do not make it a casual family dog. A large, excited adult can overwhelm a small child, a guest, or a quieter dog without intending harm. The best match is an owner who finds training and management satisfying rather than a burden.
 
-![White Bull Terrier showing its distinctive egg-shaped head and muscular build]({{ site.url }}/assets/images/bullterrier-main.jpg)
+![White Bull Terrier showing its distinctive egg-shaped head and muscular build]({{ site.url }}/assets/images/bullterrier-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Bull Terrier Asks of a Household
@@ -96,7 +96,7 @@ The simple grooming routine:
 
 White Bull Terriers also need sun protection, as their thin coat and pale skin make them susceptible to sunburn and skin damage. Apart from skin care, this is about as low-maintenance a coat as a dog can have.
 
-![White Bull Terrier running and playing on grass, showing its athletic, muscular movement]({{ site.url }}/assets/images/bullterrier-play.jpg)
+![White Bull Terrier running and playing on grass, showing its athletic, muscular movement]({{ site.url }}/assets/images/bullterrier-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Bull Terrier Health Issues

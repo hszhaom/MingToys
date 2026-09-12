@@ -37,7 +37,7 @@ A Havanese can fit many homes, but it is designed around companionship. The dog 
 
 The practical decision is whether the household can combine social contact with independence training. A Havanese should not be isolated all day, but constant carrying and attention can also make later separation harder. A balanced routine matters more than a large yard.
 
-![Adult Havanese with a long silky coat and a bright, friendly expression]({{ site.url }}/assets/images/havanese-main.jpg)
+![Adult Havanese with a long silky coat and a bright, friendly expression]({{ site.url }}/assets/images/havanese-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Havanese Asks of a Household
@@ -95,7 +95,7 @@ A realistic grooming routine looks like this:
 - Keep the hair around the eyes trimmed and the eye area clean.
 - Brush teeth regularly, as small breeds are prone to dental disease.
 
-![Havanese playing outdoors with a long silky coat in cheerful motion]({{ site.url }}/assets/images/havanese-play.jpg)
+![Havanese playing outdoors with a long silky coat in cheerful motion]({{ site.url }}/assets/images/havanese-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Havanese Health Issues

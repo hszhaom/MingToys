@@ -37,7 +37,7 @@ The Portuguese Water Dog, or Cao de Agua, earned its keep on the fishing boats o
 
 If you are comparing curly-coated water breeds, the Portie's defining traits are its devotion and its appetite for activity. They bond hard to their families, follow their people room to room, and need a genuine outlet for body and brain every single day. Give them that, and they are biddable, joyful, and famously good company.
 
-![Adult Portuguese Water Dog with a curly black coat standing alertly by the water]({{ site.url }}/assets/images/portuguesewaterdog-main.jpg)
+![Adult Portuguese Water Dog with a curly black coat standing alertly by the water]({{ site.url }}/assets/images/portuguesewaterdog-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## A Water Dog Schedule Beyond the Pool
@@ -97,7 +97,7 @@ Beyond coat care, stay on top of:
 - Teeth, brushed several times a week.
 - Skin folds and clip lines, watched for irritation after grooming.
 
-![Portuguese Water Dog splashing through shallow water, showing its athletic build]({{ site.url }}/assets/images/portuguesewaterdog-play.jpg)
+![Portuguese Water Dog splashing through shallow water, showing its athletic build]({{ site.url }}/assets/images/portuguesewaterdog-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Portuguese Water Dog Health Issues

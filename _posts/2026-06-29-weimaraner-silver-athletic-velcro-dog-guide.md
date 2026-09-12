@@ -37,7 +37,7 @@ The Weimaraner is impossible to mistake: a tall, sleek, silver-gray dog with str
 
 What sets this breed apart from other gundogs is the intensity of its attachment. Weimaraners are the original "velcro dogs," shadowing their people from room to room and struggling, sometimes severely, when left alone. Pair that with a very high energy level and a deep-chested frame at real risk of bloat, and you have a breed that is magnificent for the right owner and overwhelming for the wrong one.
 
-![Adult Weimaraner with a sleek silver-gray coat and amber eyes standing alertly outdoors]({{ site.url }}/assets/images/weimaraner-main.jpg)
+![Adult Weimaraner with a sleek silver-gray coat and amber eyes standing alertly outdoors]({{ site.url }}/assets/images/weimaraner-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## Building a Week Around Attachment and Drive
@@ -97,7 +97,7 @@ Keep up with these checks:
 - Brush teeth several times a week.
 - Inspect the eyes, as some Weimaraners are prone to entropion, an inward-rolling eyelid.
 
-![Weimaraner running at full stride showing its athletic, muscular build]({{ site.url }}/assets/images/weimaraner-play.jpg)
+![Weimaraner running at full stride showing its athletic, muscular build]({{ site.url }}/assets/images/weimaraner-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Weimaraner Health Issues

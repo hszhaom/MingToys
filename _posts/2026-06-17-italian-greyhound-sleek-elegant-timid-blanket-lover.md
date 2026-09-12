@@ -37,7 +37,7 @@ An Italian Greyhound is a small sighthound with a very specific safety profile. 
 
 The right protection is not constant carrying. An Italian Greyhound still needs to walk, explore, learn, and develop confidence. The owner has to control the environment while teaching the dog where it can move safely, especially during puppyhood and around children or larger dogs.
 
-![Adult Italian Greyhound with a slender build, arched back, and large eyes]({{ site.url }}/assets/images/italiangreyhound-main.jpg)
+![Adult Italian Greyhound with a slender build, arched back, and large eyes]({{ site.url }}/assets/images/italiangreyhound-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What an Italian Greyhound Asks of a Household
@@ -95,7 +95,7 @@ A simple care routine looks like this:
 - Provide warm sweaters and coats in cold weather, since the thin coat gives almost no insulation.
 - Offer soft bedding and warm spots, which they will hunt out instinctively.
 
-![Italian Greyhound sprinting outdoors, slender legs extended at full stretch]({{ site.url }}/assets/images/italiangreyhound-play.jpg)
+![Italian Greyhound sprinting outdoors, slender legs extended at full stretch]({{ site.url }}/assets/images/italiangreyhound-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Italian Greyhound Health Issues

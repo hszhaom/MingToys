@@ -37,7 +37,7 @@ The Central Asian Shepherd Dog is an ancient livestock guardian from the vast re
 
 This breed can be deeply loyal to its family, but it is not an easy companion dog. It was shaped by work, pressure, and survival rather than by a desire to please strangers. Anyone interested in a Central Asian Shepherd should think less about the impressive size and more about daily management, socialization, fencing, and long-term responsibility.
 
-![Adult Central Asian Shepherd Dog standing with a broad head and calm guardian expression]({{ site.url }}/assets/images/centralasianshepherd-main.jpg)
+![Adult Central Asian Shepherd Dog standing with a broad head and calm guardian expression]({{ site.url }}/assets/images/centralasianshepherd-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 ## Central Asian Shepherd Dog Quick Facts
 
@@ -98,7 +98,7 @@ During seasonal shedding, expect a much heavier coat blow. Basic care includes:
 
 Start handling exercises early. A fully grown Central Asian Shepherd that resists nail trims or vet exams is hard to manage safely.
 
-![Central Asian Shepherd Dog walking across open land with a powerful guardian stance]({{ site.url }}/assets/images/centralasianshepherd-play.jpg)
+![Central Asian Shepherd Dog walking across open land with a powerful guardian stance]({{ site.url }}/assets/images/centralasianshepherd-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 ## Common Central Asian Shepherd Dog Health Issues
 

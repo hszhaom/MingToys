@@ -37,7 +37,7 @@ A Brussels Griffon is a tiny dog with a large social presence. It may be smooth-
 
 The breed often wants to be close to its person, but companionship should include independence training rather than constant carrying. A suitable home offers gentle handling, short skill sessions, safe indoor movement, and a realistic plan for absences.
 
-![Adult Brussels Griffon with a human-like face, beard, and large dark eyes]({{ site.url }}/assets/images/brusselsgriffon-main.jpg)
+![Adult Brussels Griffon with a human-like face, beard, and large dark eyes]({{ site.url }}/assets/images/brusselsgriffon-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## What a Brussels Griffon Asks of a Household
@@ -95,7 +95,7 @@ A practical grooming routine looks like this:
 - Clean any facial wrinkles gently to prevent irritation.
 - Brush teeth often, as small breeds are prone to dental crowding and disease.
 
-![Brussels Griffon playing outdoors, beard and wiry coat visible]({{ site.url }}/assets/images/brusselsgriffon-play.jpg)
+![Brussels Griffon playing outdoors, beard and wiry coat visible]({{ site.url }}/assets/images/brusselsgriffon-play.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 
 
 ## Common Brussels Griffon Health Issues

@@ -37,7 +37,7 @@ A Maltese can fit comfortably into a small home, but it does not fit a casual ca
 
 The floor-length white coat is an optional show look, not a default lifestyle. A practical pet trim can make daily care much easier, but it still needs brushing, drying, and scheduled professional care. The better question is whether the household can do those small jobs consistently, not whether the dog needs a large yard.
 
-![White Maltese with a long silky coat and dark expressive eyes]({{ site.url }}/assets/images/maltese-main.jpg)
+![White Maltese with a long silky coat and dark expressive eyes]({{ site.url }}/assets/images/maltese-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
 ## What a Maltese Changes in a Household
@@ -87,7 +87,7 @@ Most pet owners take the sensible route and keep their Maltese in a short "puppy
 
 Two extras define Maltese grooming. First, tear stains: their watery eyes and white fur produce the reddish-brown streaks the breed is famous for, so daily face-wiping and keeping the hair trimmed around the eyes is part of the routine. Second, dental care — like most toy breeds, the Maltese needs frequent tooth brushing to fend off gum disease.
 
-![Maltese in a short puppy cut playing happily indoors]({{ site.url }}/assets/images/maltese-play.jpg)
+![Maltese in a short puppy cut playing happily indoors]({{ site.url }}/assets/images/maltese-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
 ## Common Maltese Health Issues

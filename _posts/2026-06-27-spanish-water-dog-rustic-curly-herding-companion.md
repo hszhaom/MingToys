@@ -37,7 +37,7 @@ The Spanish Water Dog, or Perro de Agua Espanol, is a true all-rounder from the 
 
 Among curly water breeds, the Spanish Water Dog stands apart for two reasons: it carries a genuine herding instinct, and its coat is managed completely differently from a Portuguese Water Dog's. Owners do not brush this breed. They let the wool felt into cords and trim it down once or twice a year. Understanding that, along with the dog's drive and reserve toward strangers, is the key to a good match.
 
-![Adult Spanish Water Dog with a corded woolly coat standing alert in a rural setting]({{ site.url }}/assets/images/spanishwaterdog-main.jpg)
+![Adult Spanish Water Dog with a corded woolly coat standing alert in a rural setting]({{ site.url }}/assets/images/spanishwaterdog-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
 
 ## Coat Rules and Stranger Awareness
@@ -98,7 +98,7 @@ Beyond the coat, keep up with:
 - Teeth, brushed several times a week.
 - Skin checks during baths, when you can finally see down to it.
 
-![Spanish Water Dog with a woolly corded coat running across a rural field]({{ site.url }}/assets/images/spanishwaterdog-play.jpg)
+![Spanish Water Dog with a woolly corded coat running across a rural field]({{ site.url }}/assets/images/spanishwaterdog-play.jpg){: width="1600" height="1200" loading="lazy" decoding="async" }
 
 
 ## Common Spanish Water Dog Health Issues
