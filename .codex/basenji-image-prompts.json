@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-13",
+  "method": "Built-in image_gen; visually reviewed, resized and compressed as progressive JPEG",
+  "assets": [
+    {
+      "path": "assets/images/basenji-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie Basenji breed guide cover, portrait aspect ratio 1600:1885. Create one vivid editorial photograph-style image of a healthy adult purebred chestnut red-and-white Basenji standing in a quiet garden, all four paws and tightly curled high-set white-tipped tail visible with comfortable cropping margin. Accurate breed: small lightly built square hunting hound, long fine legs, short fine sleek coat, white chest and feet, small upright slightly hooded ears, fine forehead wrinkles, almond dark brown eyes, black nose, tapered moderate muzzle, alert inquisitive expression. Three-quarter view, eye-level natural daylight, soft green background, crisp detailed natural fur. No text, logo, watermark, signature, tags, brands, human figures, medical setting, exaggerated wrinkles, thick spitz fur, distorted or extra limbs. Single photograph, no collage."
+    },
+    {
+      "path": "assets/images/basenji-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie Basenji breed guide main image. One high-resolution horizontal 16:9 editorial dog photograph. A healthy purebred adult chestnut-red and white Basenji standing side-on, head turned slightly toward camera, on short grass inside a secure garden. Entire body including all four feet, erect ears and tightly curled high-set white-tipped tail visible, generous space around dog for 1920x1080 output. Breed anatomy: compact square lightly built small African hunting hound, fine long legs, tucked waist, short sleek fine red coat with white chest and white socks, delicate forehead wrinkles, small forward-set upright slightly hooded ears, dark almond eyes, black nose, moderate tapered muzzle. Soft natural morning light, crisp fur and anatomy, realistic gentle green garden background. No text, logo, watermark, signature, brand tags, people, medical depictions, chunky spitz build, thick fur, extra or distorted limbs, collage."
+    },
+    {
+      "path": "assets/images/basenji-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie Basenji article play image. One horizontal 4:3 high resolution realistic editorial dog photograph for 1600x1200 display. Healthy adult purebred red-and-white Basenji trotting lightly on grass inside a visibly enclosed private garden, continuous tall solid wood fence softly focused behind dog, closed garden, no hazards. Capture a natural lively trot with accurate four-limb motion, full dog and all paws in frame with crop margin, alert ears, curled tail. Small square athletic lightly built African hunting hound, long slender legs, short fine sleek chestnut coat, white feet and chest and tail tip, small erect slightly hooded ears, fine forehead wrinkles, dark almond eyes, black nose, moderate tapered muzzle. Side three-quarter view, bright soft natural daylight, sharp face and body, joyful but natural expression. No person, prey animals, toys, collars with text, logos, watermarks, signatures, medical imagery, thick spitz coat, oversized tail plume, anatomical distortion, extra legs or motion smear. Single photograph, no collage."
+    }
+  ]
+}

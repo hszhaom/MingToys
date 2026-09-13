@@ -39,7 +39,7 @@ faq_schema:
 toc:
 - id: golden-retriever-quick-facts
   title: Golden Retriever Quick Facts
-- id: the-golden-retriever-s-weekly-workload
+- id: the-golden-retrievers-weekly-workload
   title: The Golden Retriever's Weekly Workload
 - id: golden-retriever-temperament
   title: Golden Retriever Temperament

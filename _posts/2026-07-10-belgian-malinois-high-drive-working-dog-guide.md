@@ -54,7 +54,7 @@ faq_schema:
 toc:
 - id: belgian-malinois-quick-facts
   title: Belgian Malinois Quick Facts
-- id: malinois-fit-depends-on-the-handler-s-calendar
+- id: malinois-fit-depends-on-the-handlers-calendar
   title: Malinois Fit Depends on the Handler's Calendar
 - id: belgian-malinois-temperament
   title: Belgian Malinois Temperament
