@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-14",
+  "method": "Built-in image_gen; visually reviewed, resized and compressed as progressive JPEG",
+  "assets": [
+    {
+      "path": "assets/images/australian-cattle-dog-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie Australian Cattle Dog breed guide cover. Create one high-resolution natural editorial photograph-style portrait with aspect ratio 1600:1885. Healthy adult purebred blue Australian Cattle Dog standing in a peaceful fenced garden, compact muscular slightly rectangular body, broad strong head, moderately small upright widely set ears, dark brown eyes, medium powerful muzzle, black nose. Breed-accurate short dense blue-speckled double coat with black head patches and tan cheeks and lower legs, natural long brush tail hanging low in a slight curve (not docked, not curled). Full dog and all four paws visible with generous crop margin. Eye level three-quarter view, soft morning light, green background, realistic detailed fur, attentive relaxed expression. No people, livestock, collars, text, logos, watermarks, signatures, merle patches, blue eyes, long fluffy shepherd coat, extra legs, distorted anatomy, collage or medical scenes."
+    },
+    {
+      "path": "assets/images/australian-cattle-dog-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie Australian Cattle Dog breed guide main image. Create a single high resolution horizontal 16:9 photograph-style editorial image for 1920x1080. An adult purebred blue Australian Cattle Dog standing side-on on short grass inside a secure garden, head turned slightly toward camera, whole body four paws and natural long low brush tail fully visible with generous margin. Strong compact muscular body slightly longer than tall, broad head, smallish upright widely set ears, dark brown eyes, black nose, medium powerful muzzle, short straight dense blue-speckled coat with tan cheeks and lower legs and dark head patches. True ticking, not merle. Tail low with gentle curve, not curled or docked. Soft even natural daylight, clear breed silhouette, realistic sharp fur and green background with softly visible fence. No people, livestock, text, logos, collars, watermark, signature, long shepherd fur, deformed or extra limbs. No collage."
+    },
+    {
+      "path": "assets/images/australian-cattle-dog-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie Australian Cattle Dog play image. One high resolution realistic editorial dog photograph, horizontal 4:3 for 1600x1200. Healthy adult red-speckled Australian Cattle Dog trotting naturally across a level grassy enclosed garden, continuous wood fence visible softly behind, full body all paws and natural long brush tail visible, ample crop space. Compact muscular slightly rectangular body, broad balanced head, upright moderately small ears set wide apart, dark brown eyes, black nose, medium powerful muzzle. Accurate short dense red-speckled double coat with darker red ears, even fine reddish ticking across light coat, no large body patches, not a fox or dingo. Alert relaxed face, natural four-limb gait, tail extended low slightly curved, no acrobatic jump. Bright soft daylight, sharp fur and anatomy, movement without blur. No other animals, people, medical imagery, balls, collars, text, brand marks, logos, signatures, watermark, curled tail, extra or deformed limbs, collage."
+    }
+  ]
+}
