@@ -4,7 +4,7 @@ seo_title: "Pug Breed Guide: Care, Health Risks and Owner Fit"
 description: "Pug breed guide covering temperament, exercise, grooming, breathing and heat risks, eye care, weight control, health costs, and realistic owner fit."
 cover: /assets/images/pug-cover.jpg
 layout: post
-updated: "2026-07-31"
+updated: "2026-09-14"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -73,6 +73,8 @@ toc:
 The Pug is often sold by its expression: large eyes, wrinkles, comic noises, and a compact body that wants to be close to its people. Those qualities do make it an engaging companion. They also mean the owner has to watch heat, body weight, eyes, skin folds, and breathing function with more care than the small size suggests.
 
 The single most important fact about the breed is that the Pug is brachycephalic, meaning its skull is short and its face is flat. That flat face creates the cute looks and the charming snore, but it also causes real breathing limitations and a dangerous sensitivity to heat that shape nearly every aspect of the dog's care.
+
+Compare these risks directly in [French Bulldog vs Pug]({{ site.url }}/french-bulldog-vs-pug/), then use the [apartment dog guide]({{ site.url }}/apartment-dog-breeds/) to separate floor-space needs from climate, noise, and healthcare needs. The [small dog breed guide]({{ site.url }}/small-dog-breeds/) gives lower-risk alternatives when compact size matters more than a particular flat-faced look.
 
 ![Fawn Pug with a wrinkled face, dark round eyes, and a curled tail looking up at the camera]({{ site.url }}/assets/images/pug-main.jpg){: width="2048" height="1812" loading="lazy" decoding="async" }
 

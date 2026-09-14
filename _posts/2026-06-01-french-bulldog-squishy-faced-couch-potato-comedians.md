@@ -4,7 +4,7 @@ seo_title: "French Bulldog Breed Guide: Care, Health and Owner Fit"
 description: "French Bulldogs are funny, low-energy companions, but their flat faces bring real breathing and heat risks. Here's the honest care, health, and cost picture."
 cover: /assets/images/frenchbulldog-cover.jpg
 layout: post
-updated: "2026-07-31"
+updated: "2026-09-14"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -73,6 +73,8 @@ toc:
 French Bulldogs make a fast first impression: small enough for city life, funny without trying, and determined to be in the middle of whatever their people are doing. The decision takes longer than the first impression. Their flat-faced build can affect breathing, heat tolerance, travel, sleep, and the size of the medical reserve a household needs to keep.
 
 Frenchies are the opposite of a rugged outdoor dog. They were bred down from English Bulldogs into a lap-sized companion, and that is exactly the role they want: indoor sidekick, couch buddy, and the comedian of the household. If you want a dog that fits a quiet, climate-controlled, people-centered home, the French Bulldog is a strong candidate, as long as you go in clear-eyed about the breed's vulnerabilities.
+
+Before deciding, compare the same flat-faced trade-offs in [French Bulldog vs Pug]({{ site.url }}/french-bulldog-vs-pug/) and the differences in build, energy, and health planning in [French Bulldog vs Boston Terrier]({{ site.url }}/french-bulldog-vs-boston-terrier/). The broader [apartment dog guide]({{ site.url }}/apartment-dog-breeds/) also explains why small size alone does not make a breed easy in a close-neighbor building.
 
 ![Adult French Bulldog with upright bat ears, a wrinkled flat face, and a stocky compact body]({{ site.url }}/assets/images/frenchbulldog-main.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
