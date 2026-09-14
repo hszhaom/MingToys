@@ -59,6 +59,15 @@ if (breedDirectory.includes('href="https://petstorie.com/posts/2026/08/03/akita-
   throw new Error("The complete breed archive must not link to a planned guide.");
 }
 
+const breedDataset = JSON.parse(read("breed-data.json"));
+const publishedBreedCount = count(fs.readFileSync(path.join(root, "_data", "breeds.yml"), "utf8"), "publication_status: published");
+if (breedDataset.recordCount !== publishedBreedCount || breedDataset.breeds.length !== publishedBreedCount) {
+  throw new Error(`Published breed dataset has ${breedDataset.breeds.length} records; expected ${publishedBreedCount}.`);
+}
+if (breedDataset.breeds.some((breed) => breed.publication_status !== "published")) {
+  throw new Error("Published breed dataset contains a record that is not published.");
+}
+
 const aboutPage = read("about/index.html");
 if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "ming.zhao"')) {
   throw new Error("The About page is missing the named Person schema for ming.zhao.");
