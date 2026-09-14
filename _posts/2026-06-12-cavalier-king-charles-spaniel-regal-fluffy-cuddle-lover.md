@@ -1,5 +1,6 @@
 ---
 title: "Cavalier King Charles Spaniel Breed Guide: Care, Traits, and Health"
+seo_title: "Cavalier King Charles Spaniel: Care and Health Guide"
 description: "The Cavalier King Charles Spaniel is a sweet, adaptable lap spaniel that loves people deeply but carries serious heart and neurological risks."
 cover: /assets/images/cavalier-cover.jpg
 layout: post

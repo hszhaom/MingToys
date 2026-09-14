@@ -1,5 +1,6 @@
 ---
 title: "Siberian Husky Guide: The Beautiful, Howling Escape Artist of the Sled Team"
+seo_title: "Siberian Husky Breed Guide: Care and Owner Fit"
 description: "Siberian Huskies are athletic, vocal, escape-prone sled dogs with huge exercise needs, heavy shedding, strong prey drive, and a stubborn streak."
 cover: /assets/images/husky-cover.jpg
 layout: post

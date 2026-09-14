@@ -1,5 +1,6 @@
 ---
 title: "Old English Sheepdog Breed Guide: Temperament, Grooming, Care and Family Fit"
+seo_title: "Old English Sheepdog Breed Guide: Care and Grooming"
 description: "The Old English Sheepdog is a large shaggy herder with comic charm, heavy grooming needs, moderate exercise, and a warm family nature."
 cover: /assets/images/oldenglishsheepdog-cover.jpg
 layout: post

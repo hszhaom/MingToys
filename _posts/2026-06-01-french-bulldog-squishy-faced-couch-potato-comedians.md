@@ -1,5 +1,6 @@
 ---
 title: "French Bulldog Guide: The Charming, High-Maintenance Apartment Clown"
+seo_title: "French Bulldog Breed Guide: Care, Health and Owner Fit"
 description: "French Bulldogs are funny, low-energy companions, but their flat faces bring real breathing and heat risks. Here's the honest care, health, and cost picture."
 cover: /assets/images/frenchbulldog-cover.jpg
 layout: post

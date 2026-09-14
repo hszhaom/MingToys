@@ -1,6 +1,7 @@
 ---
 title: "Shiba Inu Guide: Japan's Bold, Cat-Like Dog With a Mind of Its Own"
-description: "Shiba Inus are clean, foxy, fiercely independent dogs with a strong prey drive, dramatic scream, heavy shedding, and escape-risk habits."
+seo_title: "Shiba Inu Breed Guide: Care, Training and Owner Fit"
+description: "Shiba Inu breed guide covering temperament, prey drive, shedding, exercise, escape risk, training challenges, health concerns, and owner fit."
 cover: /assets/images/shiba-cover.jpg
 layout: post
 updated: "2026-07-31"

@@ -1,6 +1,7 @@
 ---
 title: "Pug Guide: The Wrinkly, Snoring Little Companion Clown"
-description: "The Pug is a charming brachycephalic companion with breathing and heat risks, prominent eyes, deep facial folds, and a serious appetite."
+seo_title: "Pug Breed Guide: Care, Health Risks and Owner Fit"
+description: "Pug breed guide covering temperament, exercise, grooming, breathing and heat risks, eye care, weight control, health costs, and realistic owner fit."
 cover: /assets/images/pug-cover.jpg
 layout: post
 updated: "2026-07-31"

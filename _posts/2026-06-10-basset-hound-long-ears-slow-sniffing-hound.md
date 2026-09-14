@@ -1,5 +1,6 @@
 ---
 title: "Basset Hound Owner Guide: The Low-Slung Scent Hound With a Big Voice"
+seo_title: "Basset Hound Breed Guide: Care, Health and Owner Fit"
 description: "Basset Hounds are gentle, stubborn scent hounds with droopy ears, a loud bay, and real risks of ear infections, obesity, and back strain. Here's the care reality."
 cover: /assets/images/bassethound-cover.jpg
 layout: post

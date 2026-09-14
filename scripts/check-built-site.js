@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.resolve(__dirname, "..");
-const site = path.join(root, "_site");
+const site = process.env.SITE_DIR ? path.resolve(root, process.env.SITE_DIR) : path.join(root, "_site");
 
 function read(relativePath) {
   const file = path.join(site, ...relativePath.split("/"));
@@ -35,6 +35,21 @@ checkPage("labrador-vs-golden-retriever/index.html", { ads: 0, faq: 1, sources: 
 checkPage("apartment-dog-breeds/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("dog-cost-calculator/index.html", { ads: 0, faq: 1, sources: 1 });
 
+const homepage = read("index.html");
+const homepageThumbnails = [...homepage.matchAll(/\/assets\/images\/thumbs\/([^"']+\.webp)/g)];
+if (homepageThumbnails.length !== 9) throw new Error(`Homepage has ${homepageThumbnails.length} card thumbnails; expected 9.`);
+for (const [, filename] of homepageThumbnails) {
+  if (!fs.existsSync(path.join(site, "assets", "images", "thumbs", filename))) {
+    throw new Error(`Homepage thumbnail is missing: ${filename}`);
+  }
+}
+if (!fs.existsSync(path.join(site, "assets", "images", "home-hero-1440.webp"))) {
+  throw new Error("Optimized homepage hero is missing.");
+}
+if (!homepage.includes('name="robots" content="index, follow, max-image-preview:large"')) {
+  throw new Error("Homepage must remain indexable and allow large image previews.");
+}
+
 const breedDirectory = read("dog-breeds/index.html");
 const researchRows = count(breedDirectory, 'class="breed-research-row"');
 if (researchRows !== 279) {
@@ -50,7 +65,7 @@ if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "mi
 }
 
 const reviewedPost = read("posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/index.html");
-if (!reviewedPost.includes('"author": {\n    "@type": "Person"') || !reviewedPost.includes('"name": "ming.zhao"')) {
+if (!/"author":\s*\{\s*"@type":\s*"Person"/.test(reviewedPost) || !reviewedPost.includes('"name": "ming.zhao"')) {
   throw new Error("Reviewed articles must retain the named ming.zhao author schema.");
 }
 
@@ -110,8 +125,8 @@ for (const postFile of postFiles) {
   if (expectsNoindex && html.includes("Published on:")) {
     throw new Error(`${relativePath} exposes a publication date before editorial release.`);
   }
-  if (!expectsNoindex && !html.includes('name="robots" content="index, follow"')) {
-    throw new Error(`${relativePath} should remain indexable after its source review.`);
+  if (!expectsNoindex && !html.includes('name="robots" content="index, follow, max-image-preview:large"')) {
+    throw new Error(`${relativePath} should remain indexable and allow large image previews after its source review.`);
   }
   if (!expectsNoindex && !html.includes("Published on:")) {
     throw new Error(`${relativePath} is indexable but does not expose its publication date.`);
@@ -135,7 +150,7 @@ for (const postFile of postFiles) {
   }
 }
 
-const sitemap = read("sitemap.xml");
+const sitemap = read("sitemap.xml").replace(/\r\n/g, "\n");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 if (new Set(urls).size !== urls.length) throw new Error("Sitemap contains duplicate URLs.");
 

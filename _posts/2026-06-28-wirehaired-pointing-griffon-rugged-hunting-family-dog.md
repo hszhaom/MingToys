@@ -1,5 +1,6 @@
 ---
 title: "Wirehaired Pointing Griffon Breed Guide: Temperament, Grooming and Care"
+seo_title: "Wirehaired Pointing Griffon: Care and Owner Fit"
 description: "The Wirehaired Pointing Griffon is a rugged bearded gundog with a harsh coat, sensitive temperament, steady hunting style, and close family bond."
 cover: /assets/images/wirehairedpointinggriffon-cover.jpg
 layout: post

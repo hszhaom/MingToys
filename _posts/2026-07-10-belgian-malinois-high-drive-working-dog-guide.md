@@ -1,5 +1,6 @@
 ---
 title: "Belgian Malinois Breed Guide: Temperament, Training, Care and Owner Fit"
+seo_title: "Belgian Malinois Breed Guide: Training and Owner Fit"
 description: "The Belgian Malinois is an intense working shepherd with elite trainability, high exercise needs, low coat care, and serious owner demands."
 cover: /assets/images/belgianmalinois-cover.jpg
 layout: post

@@ -1,5 +1,6 @@
 ---
 title: "Spanish Water Dog Breed Guide: Temperament, Corded Coat, Exercise and Care"
+seo_title: "Spanish Water Dog Breed Guide: Care and Owner Fit"
 description: "The Spanish Water Dog is a rustic herding and water breed with a woolly corded coat, wary loyalty, strong work drive, and unusual grooming needs."
 cover: /assets/images/spanishwaterdog-cover.jpg
 layout: post

@@ -1,4 +1,5 @@
 _site/
+.codex-build/
 .jekyll-cache/
 .sass-cache/
 .tmp/

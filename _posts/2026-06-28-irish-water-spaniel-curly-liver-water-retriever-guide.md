@@ -1,5 +1,6 @@
 ---
 title: "Irish Water Spaniel Breed Guide: Temperament, Grooming, Exercise and Care"
+seo_title: "Irish Water Spaniel Breed Guide: Care and Owner Fit"
 description: "The Irish Water Spaniel is a liver-curled water retriever with a topknot, rat tail, comic personality, high stamina, and serious coat and ear care."
 cover: /assets/images/irishwaterspaniel-cover.jpg
 layout: post

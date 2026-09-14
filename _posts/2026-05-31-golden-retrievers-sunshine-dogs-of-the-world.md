@@ -1,6 +1,7 @@
 ---
 title: "Golden Retriever Guide: Living With America's Favorite Family Dog"
-description: "What owning a Golden Retriever really means: relentless friendliness, heavy seasonal shedding, a swimmer's love of water, and real cancer and hip risks to plan for."
+seo_title: "Golden Retriever Breed Guide: Care and Owner Fit"
+description: "Golden Retriever breed guide covering temperament, exercise, shedding, training, health concerns, family life, cost, and realistic owner fit."
 cover: /assets/images/golden-cover.jpg
 layout: post
 updated: "2026-07-31"

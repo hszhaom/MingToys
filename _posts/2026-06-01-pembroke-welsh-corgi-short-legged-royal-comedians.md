@@ -1,5 +1,6 @@
 ---
 title: "Pembroke Welsh Corgi Guide: Big-Dog Brains on Short Cattle-Herding Legs"
+seo_title: "Pembroke Welsh Corgi Breed Guide: Care and Owner Fit"
 description: "Pembroke Welsh Corgis are clever, bossy herders in a small frame, with real exercise needs, heavy shedding, herding nips, and back risks to manage."
 cover: /assets/images/corgi-cover.jpg
 layout: post

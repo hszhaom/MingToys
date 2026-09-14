@@ -156,7 +156,7 @@ body {
 .home-hero {
   background:
     linear-gradient(90deg, rgba(245, 243, 239, 0.98), rgba(245, 243, 239, 0.72)),
-    url("/assets/images/home-hero.jpg");
+    url("/assets/images/home-hero-1440.webp");
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--line);

@@ -1,5 +1,6 @@
 ---
 title: "Portuguese Water Dog Breed Guide: Temperament, Grooming, Exercise and Care"
+seo_title: "Portuguese Water Dog Breed Guide: Care and Owner Fit"
 description: "The Portuguese Water Dog is an athletic curly-coated worker that thrives on swimming, training, family closeness, and regular coat care."
 cover: /assets/images/portuguesewaterdog-cover.jpg
 layout: post

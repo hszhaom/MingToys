@@ -1,5 +1,6 @@
 ---
 title: "Papillon Guide: The Butterfly-Eared Toy Dog With an Athlete's Brain"
+seo_title: "Papillon Breed Guide: Care, Training and Owner Fit"
 description: "Don't mistake the Papillon for a lap dog. This toy breed is an agility champion, brilliant and busy, with fragile bones and a need for real exercise."
 cover: /assets/images/papillon-cover.jpg
 layout: post

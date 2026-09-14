@@ -1,5 +1,6 @@
 ---
 title: "Labrador Retriever Guide: America's Water-Loving Family Favorite"
+seo_title: "Labrador Retriever Breed Guide: Care and Owner Fit"
 description: "The Labrador Retriever is a high-energy, food-driven water lover that sheds heavily and needs firm management around obesity and hip dysplasia."
 cover: /assets/images/labrador-cover.jpg
 layout: post

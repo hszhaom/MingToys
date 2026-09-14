@@ -1,5 +1,6 @@
 ---
 title: "Caucasian Shepherd Dog Breed Guide: What Owning a Livestock Guardian Means"
+seo_title: "Caucasian Shepherd Dog: Care, Training and Owner Fit"
 description: "The Caucasian Shepherd is a 100-170 lb livestock guardian with fierce territorial instinct, an independent mind, and demands suited to experienced owners."
 cover: /assets/images/caucasianshepherd-cover.jpg
 layout: post

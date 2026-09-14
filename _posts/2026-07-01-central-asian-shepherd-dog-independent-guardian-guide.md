@@ -1,5 +1,6 @@
 ---
 title: "Central Asian Shepherd Dog Breed Guide: Temperament, Care and Ownership"
+seo_title: "Central Asian Shepherd Breed Guide: Care and Owner Fit"
 description: "The Central Asian Shepherd Dog is a giant independent guardian with strong territory instincts, moderate exercise needs, and serious handling demands."
 cover: /assets/images/centralasianshepherd-cover.jpg
 layout: post

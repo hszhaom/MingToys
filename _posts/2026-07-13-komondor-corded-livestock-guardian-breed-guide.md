@@ -1,5 +1,6 @@
 ---
 title: "Komondor Breed Guide: Corded Livestock Guardian Temperament and Care"
+seo_title: "Komondor Breed Guide: Care, Coat and Owner Fit"
 description: "The Komondor is a large corded livestock guardian with strong territory instincts, unusual grooming needs, and serious owner responsibility."
 cover: /assets/images/komondor-cover.jpg
 layout: post

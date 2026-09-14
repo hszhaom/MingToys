@@ -1,5 +1,6 @@
 ---
 title: "Doberman Pinscher Guide: The Velcro Guardian Behind the Fierce Reputation"
+seo_title: "Doberman Pinscher Breed Guide: Care and Owner Fit"
 description: "Dobermans are brilliant, athletic guard dogs that bond deeply at home, demand steady training, and carry serious heart-health risks owners must plan for."
 cover: /assets/images/doberman-cover.jpg
 layout: post

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Dog Breed Guides for Real-Life Owners"
-description: "PetStorie helps first-time dog owners compare breeds by temperament, grooming, exercise, health concerns, training, cost, and owner fit."
+description: "PetStorie helps first-time dog owners compare breeds by temperament, grooming, exercise, health concerns, training, cost, and realistic owner fit."
 ---
 
 {% include header.html %}
@@ -43,7 +43,8 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
       {% for post in reviewed_posts limit:9 %}
       <article class="post-card">
         {% if post.cover %}
-        <img class="card-img" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}" width="800" height="500" loading="lazy" decoding="async">
+        {% assign cover_file = post.cover | split: "/" | last | replace: ".jpg", ".webp" %}
+        <img class="card-img" src="{{ site.url }}/assets/images/thumbs/{{ cover_file }}" alt="{{ post.title }}" width="640" height="400" loading="lazy" decoding="async">
         {% endif %}
         <div class="card-content">
           <div class="card-date">{{ post.date | date: "%B %d, %Y" }}</div>

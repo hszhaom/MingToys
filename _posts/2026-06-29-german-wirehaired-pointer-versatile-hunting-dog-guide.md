@@ -1,5 +1,6 @@
 ---
 title: "German Wirehaired Pointer Breed Guide: Temperament, Exercise and Care"
+seo_title: "German Wirehaired Pointer: Care and Owner Fit"
 description: "The German Wirehaired Pointer is a driven all-terrain gundog with a wiry coat, high exercise needs, loyal nature, and serious hunting instinct."
 cover: /assets/images/germanwirehairedpointer-cover.jpg
 layout: post

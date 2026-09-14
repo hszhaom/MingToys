@@ -1,5 +1,6 @@
 ---
 title: "Australian Shepherd Breed Guide: Brains, Energy, and the Aussie Life"
+seo_title: "Australian Shepherd Breed Guide: Care and Owner Fit"
 description: "The Australian Shepherd is a striking, high-drive herding dog with a merle coat, strong instincts, heavy exercise needs, and real health risks."
 cover: /assets/images/australianshepherd-cover.jpg
 layout: post

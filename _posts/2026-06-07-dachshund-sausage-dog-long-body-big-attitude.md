@@ -1,5 +1,6 @@
 ---
 title: "Dachshund Owner's Handbook: The Long-Backed Hound With a Lion's Heart"
+seo_title: "Dachshund Breed Guide: Care, Health and Owner Fit"
 description: "The Dachshund's long spine brings serious IVDD risk, while its loud bark, stubborn hound brain, food drive, and bold nature shape daily care."
 cover: /assets/images/dachshund-cover.jpg
 layout: post

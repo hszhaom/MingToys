@@ -1,5 +1,6 @@
 ---
 title: "German Shepherd Explained: Working Brains, Big Coat, and Real Health Risks"
+seo_title: "German Shepherd Breed Guide: Care, Training and Health"
 description: "German Shepherds are brilliant, loyal working dogs that shed constantly, need a job, and require planning around hip dysplasia and heavy exercise."
 cover: /assets/images/germanshepherd-cover.jpg
 layout: post

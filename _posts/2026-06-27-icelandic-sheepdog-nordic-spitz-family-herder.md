@@ -1,5 +1,6 @@
 ---
 title: "Icelandic Sheepdog Breed Guide: Temperament, Barking, Care and Exercise"
+seo_title: "Icelandic Sheepdog Breed Guide: Care and Owner Fit"
 description: "The Icelandic Sheepdog is a cheerful Nordic herder with a curled tail, vocal nature, thick double coat, and strong need for family activity."
 cover: /assets/images/icelandicsheepdog-cover.jpg
 layout: post

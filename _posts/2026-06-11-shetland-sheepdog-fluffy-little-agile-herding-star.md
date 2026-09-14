@@ -1,5 +1,6 @@
 ---
 title: "Shetland Sheepdog Breed Guide: Sheltie Personality, Care, and Health"
+seo_title: "Shetland Sheepdog Breed Guide: Care and Owner Fit"
 description: "The Shetland Sheepdog is a small, brilliant herder that's quick to learn, quick to bark, sensitive by nature, and serious about coat care."
 cover: /assets/images/shetland-cover.jpg
 layout: post

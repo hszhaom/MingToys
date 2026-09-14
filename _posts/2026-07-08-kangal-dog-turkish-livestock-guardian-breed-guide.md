@@ -1,5 +1,6 @@
 ---
 title: "Kangal Dog Breed Guide: Turkish Livestock Guardian Temperament and Care"
+seo_title: "Kangal Dog Breed Guide: Care, Training and Owner Fit"
 description: "The Kangal Dog is a large Turkish livestock guardian with calm confidence, territorial instincts, dense short coat, and serious owner demands."
 cover: /assets/images/kangal-cover.jpg
 layout: post
