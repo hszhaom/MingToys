@@ -163,6 +163,8 @@ Because they are so food- and toy-motivated, Border Collies make training easy t
 
 ## Teach Rest as Deliberately as Motion
 
+For step-by-step practice, use our [settle-on-a-mat training guide]({{ site.url }}/posts/2026/09/15/teach-dog-settle-on-mat/). Its household distraction ladder gives you a way to add movement gradually while watching whether your dog remains comfortable.
+
 Training a Border Collie is genuinely a pleasure, and also a responsibility, because this is a dog that will learn whether you intend to teach it or not. Skip deliberate training and it will draw its own conclusions about how the world works, often inconvenient ones. The breed thrives on reward-based methods, learns at remarkable speed, and never really wants to stop learning.
 
 Focus areas that matter most:

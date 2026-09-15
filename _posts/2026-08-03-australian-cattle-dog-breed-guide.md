@@ -128,6 +128,8 @@ Write names beside the first two rows. Then plan a version for a wet day and one
 
 The [AVSAB humane-training statement](https://avsab.org/wp-content/uploads/2021/08/AVSAB-Humane-Dog-Training-Position-Statement-2021.pdf) supports teaching with rewards and managing the environment. The cattle dog's determination does not justify painful corrections or a contest over dominance.
 
+For a practical starting sequence, see [how to teach your dog to settle on a mat]({{ site.url }}/posts/2026/09/15/teach-dog-settle-on-mat/). The household distraction ladder helps separate quiet practice from the harder task of resting around movement.
+
 Useful starting skills include coming toward you indoors, walking with a loose leash, going to a mat, and accepting gentle handling. Teach each in an easy setting, reward a successful response, and increase difficulty gradually. Going to a mat in an empty room is a different challenge from doing it while guests arrive.
 
 Choose a small set of cues everyone will use. Write down what each cue means so one person is not rewarding a behavior another person keeps changing. A shared vocabulary is free, and it gives your instructor a clearer picture when something needs adjusting. Seek professional support when safety or distress is involved.

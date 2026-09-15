@@ -1,0 +1,21 @@
+{
+  "method": "Built-in image_gen",
+  "date": "2026-09-15",
+  "assets": [
+    {
+      "path": "assets/images/dog-settle-on-mat-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Create one premium photorealistic editorial dog-care photo for PetStorie, vertical composition approx 1600x1885. A healthy adult black-and-white rough-coated Border Collie resting naturally on a generously sized plain sage-green fabric mat in a quiet warm living room. Head resting across front paws, gently relaxed ears and soft eyes, anatomically accurate medium athletic build, natural black nose and white blaze, textured real fur. Low dog-eye camera angle, soft window daylight, oak floor, blurred neutral sofa in background. Place full dog centrally with ample surrounding space so a horizontal 640x400 crop retains the face, paws and visible mat. Cozy understated home, candid real-photography aesthetic, no person touching dog, no leash or restraint. No text, logo, watermarks, signatures, brand marks, collars with writing, medical props, extra limbs or distorted anatomy."
+    },
+    {
+      "path": "assets/images/dog-settle-on-mat-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Create one photorealistic editorial training setup photo, wide landscape 16:9, approx 1920x1080. Healthy adult black-and-white rough-coated Border Collie lying comfortably fully visible on a plain sage-green rectangular fabric mat, in an uncluttered light-filled living room. An adult in plain beige clothing sits sideways on a chair at the right edge of frame, hands resting on lap, feet on floor clearly away from the mat, giving dog personal space. Dog body loose, head raised slightly and looking toward room, ears natural relaxed semi-erect tips, anatomically correct long feathered tail and all normal paws, white blaze and black nose, medium athletic proportions. Mat and dog on left-center with ample clearance, closed plain cupboard and oak floor, soft natural window light, detailed fur. Show safe calm quiet indoor practice, no leash, no collar, no touching or restraint. No writing, screens, text, watermark, logos, signatures, extra legs, distorted hands or faces."
+    },
+    {
+      "path": "assets/images/dog-settle-on-mat-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Create one natural photorealistic dog lifestyle photograph landscape 4:3 approx 1600x1200, for article about quiet mat training after daily activity. A healthy adult black-and-white rough-coated Border Collie resting on a plain sage-green travel mat on a sheltered private garden patio, a few autumn leaves at distant edge and a green garden behind. Full dog clearly visible in relaxed side-lying posture, head naturally resting on forepaws, accurate black and white fur and white facial blaze, natural folded-tipped ears, long tail relaxed alongside body. One plain closed book on a distant empty wooden chair suggests a peaceful break. Soft late afternoon daylight, crisp real fur, camera at dog height, comfortable ordinary home environment, spacious composition. No other animals, no people, no fence patrol or sports equipment, no medical implication, no text on book spine, no letters anywhere, no logos, watermark or signature, no leash, no restraint, no anatomical distortion."
+    }
+  ]
+}
