@@ -1,0 +1,20 @@
+{
+  "purpose": "Original illustrative photography for the September 16, 2026 dog bathing frequency guide.",
+  "assets": [
+    {
+      "path": "assets/images/dog-bathing-frequency-cover.jpg",
+      "size": "1600x1885",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie dog bathing guide cover photograph. Create one realistic high-resolution vertical editorial photograph, approximately 1600x1885. A healthy adult Golden Retriever with breed-correct golden feathered coat, broad gentle face, floppy ears, brown eyes and black nose is sitting comfortably on a large non-slip sage green bath mat beside a walk-in shower in a bright ordinary home bathroom. A neatly folded plain cream towel beside the dog. Dog is dry, relaxed, mouth slightly open, entire natural body visible, no restraint. Composition: central dog head and chest in the middle 60 percent of frame so a horizontal homepage crop retains the whole face; generous clean space above and below. Soft window daylight, lifelike fur, documentary lifestyle photography, no clinical setting or medical implication. No text, letters, logo, brand, watermark, signature, clothing, foam on face, collar labels, extra limbs or distorted anatomy."
+    },
+    {
+      "path": "assets/images/dog-bathing-frequency-main.jpg",
+      "size": "1920x1080",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie dog bathing article main photo. One photorealistic editorial lifestyle image in wide 16:9 composition, 1920x1080 target. A healthy adult Golden Retriever with correct golden feathered coat, floppy ears, broad natural muzzle and normal anatomy stands sideways with all four paws firmly on a large nonslip rubber mat in a low-threshold walk-in shower. An adult kneels beside the dog, one visible natural hand gently pours a small stream of lukewarm water from a plain unmarked plastic pitcher over the dog's middle back, away from the face and ears; no other hands touch or restrain the dog. Comfortable neutral dog posture, head lifted, eyes soft, no foam on face, coat partly wet and realistic. Ordinary light home bathroom, towel within reach on a dry stool, natural window light, candid believable composition. Full dog visible with safe roomy margins. No text, words, numbers, logo, watermark, signature, brand marks, medical equipment, leashes, restraints, distorted fingers, extra legs or limbs."
+    },
+    {
+      "path": "assets/images/dog-bathing-frequency-play.jpg",
+      "size": "1600x1200",
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie dog bathing guide secondary everyday-care photograph, play variant. Generate one natural editorial lifestyle photograph, horizontal 4:3, target 1600x1200. A healthy adult Golden Retriever with accurate golden feathered coat, floppy ears, natural broad face is standing in a home entryway on a large washable dark green mat after an ordinary garden walk. An adult crouches to one side and gently towels one front paw close to the floor, with realistic hands mostly enclosed by the plain cream towel; the other three paws naturally support the standing dog. A small amount of ordinary damp soil on the mat, dog's body coat otherwise clean and dry. Dog looks calmly sideways, no frightened posture, no tight gripping or restraint. Backdrop is a partly open garden doorway and simple shoe bench with no writing. Full dog visible in center and left, adult upper head may be out of frame. Soft morning daylight, sharp true-to-life fur and fabric textures, credible candid photography. No text, lettering, numbers, watermark, signature, logo, branding, medical props, extra limbs, malformed paws or hands."
+    }
+  ]
+}

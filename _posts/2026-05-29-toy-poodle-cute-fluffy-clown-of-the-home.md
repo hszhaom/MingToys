@@ -84,6 +84,8 @@ Because they're small, be sensible about conditions and impact: keep walks comfo
 ## Coat Care in a Toy Poodle Home
 The Toy Poodle's coat is its biggest practical commitment. It is dense, curly, and relatively low shedding; loose hair often stays caught in the curls. That can reduce visible shedding around the home, but it also means the coat mats easily and continues to grow. Without care, tangles can tighten against the skin and become painful.
 
+For help separating a professional coat-care appointment from an extra bath at home, see [how often to bathe your dog]({{ site.url }}/posts/2026/09/16/how-often-bathe-dog/). Its cleanup table and care record help you coordinate brushing, washing, and drying with your groomer.
+
 Plan to brush and comb thoroughly several times a week to stay ahead of mats, and budget for a professional groom every four to six weeks for a bath, trim, and tidy. This is a genuine ongoing cost; the low shedding comes at the price of regular grooming bills or learning to clip the dog yourself. Many owners keep a simple, short "puppy clip" that's far easier to maintain than the elaborate show trims.
 
 Don't overlook the details Poodles are prone to. The hair in their ears can trap moisture and lead to infections, so ears need regular checking and cleaning. Teeth need frequent brushing, and the hair around the eyes and feet usually needs trimming to keep the dog comfortable and clean.

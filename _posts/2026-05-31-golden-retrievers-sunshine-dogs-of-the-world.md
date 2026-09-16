@@ -24,6 +24,10 @@ sources:
     title: "General Dog Care"
     url: "https://www.aspca.org/pet-care/dog-care"
     accessed: "2026-07-18"
+  - organization: "VCA Animal Hospitals"
+    title: "Grooming and Coat Care for Your Dog"
+    url: "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog"
+    accessed: "2026-09-16"
 faq_schema:
   - question: "Are Golden Retrievers good with young children?"
     answer: "Yes, this is one of the breed's signature strengths. Goldens are famously patient and gentle, which is part of why they are such popular family dogs. Still, supervise interactions, teach kids to respect the dog, and remember that an excited 65-pound dog can knock a toddler over without any bad intent."
@@ -137,7 +141,7 @@ A workable grooming routine includes:
 - Brushing two to three times a week, daily during heavy shedding, with a slicker brush and an undercoat rake.
 - Cleaning and drying the ears regularly; those floppy, hairy ears trap moisture and are prone to infection, especially in a dog that swims.
 - Trimming nails every few weeks and the feathering on feet and legs as needed.
-- Bathing every month or two, no more, to protect the coat's natural oils.
+- Bathing according to dirt, coat condition, and veterinary advice; use our [dog bathing frequency guide]({{ site.url }}/posts/2026/09/16/how-often-bathe-dog/) to plan cleanup and drying instead of treating a fixed interval as a limit.
 - Never shaving a Golden down; the double coat insulates against both heat and cold and regrows poorly.
 
 ![Golden Retriever mid-stride outdoors, feathered tail flagging, clearly enjoying movement]({{ site.url }}/assets/images/golden-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
