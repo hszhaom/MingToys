@@ -95,6 +95,8 @@ Read [Labrador vs Golden Retriever]({{ site.url }}/labrador-vs-golden-retriever/
 
 ## Labrador Fit Changes During Adolescence
 
+Before deciding which age to bring home, use our [puppy or adult dog workday comparison]({{ site.url }}/posts/2026/09/17/puppy-or-adult-dog-working-week/) to check daytime supervision, care handoffs, and what you need to learn about an adult dog's existing routine.
+
 | Fit Factor | Score | What It Means |
 |---|---|---|
 | Apartment Fit | 3/5 | Possible with serious exercise, but easier with outdoor access. |

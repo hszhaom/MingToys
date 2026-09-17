@@ -1,0 +1,33 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "photorealistic-natural",
+  "assets": [
+    {
+      "path": "assets/images/puppy-or-adult-dog-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie article cover for Puppy or Adult Dog: Which Fits Your Working Week? Create a realistic editorial photograph in portrait 1600x1885 proportions. A healthy adult yellow Labrador Retriever with short pale-gold coat, drop ears, broad natural muzzle and brown eyes sits comfortably on a woven rug in a light, ordinary home, beside a plain dog bed. Natural window daylight, rich real fur texture, quiet alert expression. Full head, body and front paws visible, dog centered with generous surrounding room so a wide homepage crop can retain its face and paws. Modest background, no humans needed, no other animals. No text, no numbers, no logos, no watermark, no brand labels, no collar lettering, no deformed anatomy. This is a scene illustration, not an adoption listing.",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0ace1-09c1-7562-ae51-1b55bd8fe860/exec-35f1d9f8-7048-4126-90cf-9c29d1eb545d.png"
+    },
+    {
+      "path": "assets/images/puppy-or-adult-dog-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie main editorial photo, landscape 1920x1080 proportions. An adult human in casual plain clothes sitting on the floor of a bright ordinary living room, calmly supervising one young yellow Labrador Retriever puppy exploring a large plain rubber puppy toy on a non-slip rug. Puppy has true Labrador anatomy: short yellow fur, floppy ears, broad muzzle, naturally chunky young paws, four legs only. Human sits nearby relaxed with hands resting naturally on knees, no grabbing or restraint. Entire puppy visible, floor-level candid camera, daytime soft window light, detailed realistic textures, lots of horizontal breathing space. Room safely tidy, no wires, no hazardous objects or food. No other dogs. No text, logos, watermarks, signatures, branded collars or medical props. This scene illustrates the adult attention needed during puppy care, without implying any fixed training result.",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0ace1-09c1-7562-ae51-1b55bd8fe860/exec-5b03fe44-290c-42ed-81e2-13aef896f5d6.png"
+    },
+    {
+      "path": "assets/images/puppy-or-adult-dog-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie lifestyle play image for puppy versus adult dog working-week decision, landscape 1600x1200 proportions. A healthy adult yellow Labrador Retriever resting comfortably on a plain dog bed beside a home-office desk while an adult person works quietly in the background. Full dog visible horizontally, head raised in a relaxed attentive posture, short yellow coat, correct Labrador drop ears and broad muzzle. Person shown from side farther back, hands naturally near keyboard, laptop back toward camera and no screen text visible. Comfortable modest home, unobstructed floor, all cords tucked away, fresh water bowl placed away from electrical equipment. Window daylight, credible candid photograph, detailed natural fur and room texture. The dog is accompanied, not shown isolated; illustrate a supported work-from-home routine. No text, no lettering, logos, watermarks, medical props, distorted limbs or extra paws.",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0ace1-09c1-7562-ae51-1b55bd8fe860/exec-c4e75a66-9daf-4980-8412-6697aee39eed.png"
+    }
+  ]
+}

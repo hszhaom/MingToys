@@ -153,6 +153,8 @@ A Whippet can sleep through an afternoon and make a life-changing outdoor decisi
 
 #### A strong apartment fit with secure exits
 
+If a quiet adult appeals more than raising a puppy, our [puppy or adult dog decision guide]({{ site.url }}/posts/2026/09/17/puppy-or-adult-dog-working-week/) helps you check the individual dog's history and your workday care coverage before committing.
+
 Many adults settle quietly after walks and safe runs. Elevators and lobby doors need secure leash habits, and a warm soft bed is essential. Long isolation may be difficult for some individuals, so build it gradually.
 
 #### A yard must contain acceleration
