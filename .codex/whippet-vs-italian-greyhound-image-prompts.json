@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "reviewed": "2026-09-18",
+  "assets": [
+    {
+      "variant": "cover",
+      "size": [
+        1600,
+        1885
+      ],
+      "prompt": "Use case: photorealistic-natural. Editorial cover photograph for Whippet vs Italian Greyhound household comparison. Two adult dogs standing side by side on the SAME plane on a neutral living room rug: a medium adult fawn-and-white Whippet on left, shoulder about 51 cm, robust slim athletic sighthound; and a distinctly smaller adult solid blue-gray Italian Greyhound on right, shoulder about 35 cm, fine-boned toy sighthound. Correct folded rose ears, deep chests, tucked waists, long fine tails, realistic paws and musculature. Camera at dog height, natural window light, warm quiet uncluttered home, portrait composition approx 1600x1885. Both full bodies comfortably centered with substantial margin top and bottom; both heads at similar image height enough for wide homepage crop. Clear accurate size difference, not puppies. No text, numbers, labels, logos, brands, watermarks or collars.",
+      "path": "assets/images/whippet-vs-italian-greyhound-cover.jpg",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b207-bc29-7cb2-81ee-9882147745d3/exec-5dfb024c-2e4d-487f-8bfb-95f9d845aff7.png"
+    },
+    {
+      "variant": "main",
+      "size": [
+        1920,
+        1080
+      ],
+      "prompt": "Use case: photorealistic-natural. Wide editorial photograph for Whippet versus Italian Greyhound comparison. Adult medium fawn-and-white Whippet and much smaller adult solid blue-gray Italian Greyhound standing in profile side by side on the same plane on a pale nonslip rug in a calm airy home. Whippet shoulder about 51 cm, Italian Greyhound 35 cm, correct distinct breed anatomy, rose ears, deep chests, tucked waists, long fine tails, all four paws each naturally grounded. Both entire dogs visible with space between them, camera level with their bodies, realistic perspective to honestly show relative size. Natural window light, detailed short coats, neutral simple background, wide 16:9 composition. No text, logos, watermarks, extra limbs, labels or branded items.",
+      "path": "assets/images/whippet-vs-italian-greyhound-main.jpg",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b207-bc29-7cb2-81ee-9882147745d3/exec-36f80c07-f33d-49dd-8b09-fd3e3720fc1e.png"
+    },
+    {
+      "variant": "play",
+      "size": [
+        1600,
+        1200
+      ],
+      "prompt": "Use case: photorealistic-natural. Natural editorial lifestyle photo: one adult fawn-and-white Whippet trotting slowly with all anatomically correct legs visible in a secure grassy garden, continuous tall solid wooden fence and firmly closed gate visible in background. Healthy relaxed athletic adult sighthound, folded rose ears, deep chest, tucked waist, long fine tail. Moderate gentle motion, face and coat crisp. Bright soft daylight, realistic lawn, 4:3 landscape composition, full body with generous margin. No other dogs or people, no collars, no text, logos, watermarks or brands. Show safe enclosed exercise context, no jumps or fast collisions.",
+      "path": "assets/images/whippet-vs-italian-greyhound-play.jpg",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b207-bc29-7cb2-81ee-9882147745d3/exec-f6cea6a4-6c08-4d53-bbe0-799beb88a46d.png"
+    }
+  ]
+}

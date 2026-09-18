@@ -49,6 +49,8 @@ The right protection is not constant carrying. An Italian Greyhound still needs 
 | Dental routine | 4/5 | Daily tooth care and veterinary dental checks deserve a fixed place in the plan. |
 | First-dog margin | 3/5 | The coat is easy, but fragile bones and slow house training demand consistent management. |
 
+Choosing between two sighthounds? Our [Whippet vs Italian Greyhound comparison]({{ site.url }}/posts/2026/09/18/whippet-vs-italian-greyhound/) explains where the smaller dog changes handling, toilet routines, and household planning.
+
 ## Italian Greyhound Quick Facts
 
 | Trait | What to Expect |

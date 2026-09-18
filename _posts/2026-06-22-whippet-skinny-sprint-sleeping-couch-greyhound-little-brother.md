@@ -49,6 +49,8 @@ For the right home, that rhythm is appealing: a safe chance to sprint, a sensibl
 | Indoor fit | 4/5 | A quiet, settled adult can suit a smaller home when it still gets safe, regular outlets. |
 | Gentle handling | 3/5 | Thin skin and a sensitive temperament reward calm handling and a low-conflict training style. |
 
+If you are also considering a toy-sized sighthound, use our [Whippet vs Italian Greyhound home checklist]({{ site.url }}/posts/2026/09/18/whippet-vs-italian-greyhound/) to compare adult size, wet-weather routines, and safe exercise arrangements.
+
 ## Whippet Quick Facts
 
 | Trait | What to Expect |
