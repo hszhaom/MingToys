@@ -80,6 +80,8 @@ What the Maltese craves more than physical exertion is engagement. They are brig
 
 Because they are so small and have that long coat, be sensible about conditions. Keep walks short in cold or wet weather, where a tiny dog gets chilled and the coat gets filthy, and avoid the hottest part of the day in summer. Many Maltese owners do much of their dog's "exercise" indoors and simply add short outings for fresh air and sniffing.
 
+A long coat and a practical pet trim need different care plans. Our [dog grooming cost checklist]({{ site.url }}/posts/2026/09/19/dog-grooming-costs-yearly-budget/) helps you request comparable quotes and budget for a full year of maintenance.
+
 ## Coat Care in a Maltese Home
 This is where the Maltese earns its reputation as a high-maintenance breed. The coat is a single layer of long, silky, human-hair-like fur with no undercoat, which means the dog sheds very little — a real plus for allergy-sensitive homes — but the coat tangles and mats with astonishing speed if it isn't cared for. A full show coat requires daily, thorough brushing right down to the skin to prevent painful mats.
 

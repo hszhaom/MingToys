@@ -81,6 +81,8 @@ Many enjoy scaled dog sports such as agility, obedience, or rally. Ten focused m
 
 Because they're small, be sensible about conditions and impact: keep walks comfortable in heat and cold, and discourage repeated jumping from furniture to protect delicate joints. The combination of a daily walk plus daily brain work is the formula that keeps this breed happy.
 
+Before choosing a trim, use our [yearly dog grooming budget worksheet]({{ site.url }}/posts/2026/09/19/dog-grooming-costs-yearly-budget/) to compare the appointment schedule, home upkeep, and complete cost of maintaining it.
+
 ## Coat Care in a Toy Poodle Home
 The Toy Poodle's coat is its biggest practical commitment. It is dense, curly, and relatively low shedding; loose hair often stays caught in the curls. That can reduce visible shedding around the home, but it also means the coat mats easily and continues to grow. Without care, tangles can tighten against the skin and become painful.
 

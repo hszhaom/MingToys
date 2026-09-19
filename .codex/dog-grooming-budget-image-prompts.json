@@ -1,0 +1,33 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-09-19",
+  "assets": [
+    {
+      "path": "assets/images/dog-grooming-budget-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b72d-fa03-77f0-86f4-c8b382732111/exec-086f23c6-ffdc-4ab6-8ef8-cf0064fa6cd6.png",
+      "prompt": "Use case: photorealistic-natural. Asset: portrait editorial cover for an English article about planning yearly dog grooming costs. A healthy adult apricot Toy Poodle with accurate slender muzzle, dropped curly ears, square small body, neat practical short curly pet trim, sitting relaxed on a cream non-slip rug in a bright ordinary home. Beside the dog a small closed plain canvas grooming kit, folded towel and wooden brush lying flat, no scissors or powered tools. Natural window light, fine realistic curls and warm candid photography, no exaggerated teddy bear anatomy. Portrait 1600x1885 composition, dog full head and front paws in the upper-middle area, generous breathing room suitable for landscape thumbnail crop. One dog only. No text, numbers, logo, watermark, signatures, brands, medical treatment, or collars with lettering."
+    },
+    {
+      "path": "assets/images/dog-grooming-budget-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b72d-fa03-77f0-86f4-c8b382732111/exec-46de1dbd-d08f-48bc-81ab-e55c2e9eead5.png",
+      "prompt": "Use case: photorealistic-natural. Asset: 1920x1080 landscape editorial article main photo about an annual dog grooming budget. Healthy adult apricot Toy Poodle with correct small square proportions, dropped ears, moderate slender muzzle and a practical evenly trimmed curly coat, standing naturally with four anatomically correct paws on a non-slip light rug beside a low wooden bench. On the bench are a plain canvas grooming pouch, a folded towel, a wooden dog brush and metal comb lying flat. Bright lived-in home, realistic soft daylight, detailed natural curls, generous horizontal framing with full dog visible. No people, no text or numbers, no logo or watermark or signature, no scissors or medical props, no show-ring styling, no distorted limbs."
+    },
+    {
+      "path": "assets/images/dog-grooming-budget-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b72d-fa03-77f0-86f4-c8b382732111/exec-8fdc580f-f96c-49b4-b8b5-08c4bc83820c.png",
+      "prompt": "Use case: photorealistic-natural. Asset: 1600x1200 landscape editorial body photo about a manageable coat-care routine. One healthy adult apricot Toy Poodle, accurate slim muzzle and dropped ears with tidy curly pet trim, happily trotting across a small securely enclosed home garden lawn, tail naturally up, all four legs anatomically correct and clearly resolved, mouth slightly open, candid relaxed expression. Modest wooden fence and green shrubs softly blurred, late afternoon daylight, eye-level pet photography, realistic fur detail, full dog visible with generous framing, no people, no other dogs, no text, logos, watermarks, signatures, branding, medical equipment, or dramatic athletic jump."
+    }
+  ]
+}
