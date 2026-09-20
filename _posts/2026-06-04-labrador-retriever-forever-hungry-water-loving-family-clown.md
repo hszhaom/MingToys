@@ -178,6 +178,8 @@ What works with this breed:
 
 Because Labs mature slowly, patience through the long adolescence pays off. Keep training upbeat and consistent, and you will have a willing, capable partner.
 
+Make object release part of your play routine with our [step-by-step drop-it guide]({{ site.url }}/posts/2026/09/20/teach-dog-drop-it/). It separates an easy toy trade from collecting the toy and explains when home practice should stop.
+
 ## Pros and Cons of Labrador Retrievers
 
 | Pros | Cons |

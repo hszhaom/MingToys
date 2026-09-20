@@ -1,0 +1,33 @@
+{
+  "method": "built-in image_gen",
+  "date": "2026-09-20",
+  "assets": [
+    {
+      "path": "assets/images/dog-drop-it-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "prompt": "Use case: photorealistic-natural. Create one original editorial dog training article COVER photograph, vertical 1600x1885 composition. Adult yellow Labrador Retriever, breed accurate broad head, soft folded ears, short dense pale golden coat, black nose, relaxed mouth, sitting comfortably on an oatmeal living-room rug. A large plain teal rubber retrieving dummy with no cord lies on the floor beside front paws, visibly too big to swallow. No human in frame. Dog looking toward camera, full head and upper torso centered in upper-middle with generous margin for a wide homepage crop, warm window daylight, realistic fur and uncluttered domestic background. Peaceful voluntary play break, no guarding, no dangerous objects, no medical scene. Sharp high quality natural photography, no text, no logos, no watermark, no signature, no collar lettering, no deformed anatomy or extra limbs.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0bc55-2268-7211-9252-7fec49a30e5a\\exec-ee0eaf2d-6ab6-463b-94b6-a8794f00c34a.png"
+    },
+    {
+      "path": "assets/images/dog-drop-it-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "prompt": "Use case: photorealistic-natural. One original wide 1920x1080 editorial photograph for a humane dog drop-it training guide. A healthy adult yellow Labrador Retriever with accurate breed features, folded ears, short golden coat, complete body visible, stands relaxed on a plain living room rug. A large unbranded teal rubber retrieving dummy rests on the floor a foot away from its front paws, clearly already released. Adult woman seated sideways on a low sofa at a comfortable distance, her single visible hand offering a tiny dog treat on an open flat palm away from the toy; dog calmly looking toward her hand, no hand near dog's mouth or reaching for toy. Natural morning light, candid realistic domestic scene, detailed fur and fabric, wide breathing room. No restraint, no children, no guarding, no dangerous objects, no collar lettering, no text, watermark, logos or anatomy distortion. This is a calm staged illustrative learning moment, not a medical scene.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0bc55-2268-7211-9252-7fec49a30e5a\\exec-2aa45b58-1fcc-4b99-a44e-db7672619997.png"
+    },
+    {
+      "path": "assets/images/dog-drop-it-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "prompt": "Use case: photorealistic-natural. One original 4:3 landscape 1600x1200 editorial lifestyle photograph for a dog drop-it training guide. Healthy adult yellow Labrador Retriever, correct short dense golden coat, broad muzzle, folded ears, natural sturdy athletic proportions, standing full-body on grass in a securely fenced quiet garden. An adult owner stands a couple of steps away in a relaxed posture, holding a large plain orange retrieving dummy loosely at thigh level; a second large plain teal retrieving dummy lies on the grass between them. Dog's mouth empty, looking up at owner, relaxed anticipatory play pause. Toy exchange practice, not frantic chasing. Natural soft outdoor light, eye-level candid photograph, detailed fur and grass, all four paws anatomically plausible and in frame. No other dogs, no children, no dangerous objects, no medical scene, no words, watermarks, logos, signatures or branded gear.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0bc55-2268-7211-9252-7fec49a30e5a\\exec-b87728ed-c5a9-4fb6-b0cd-eac8db861a85.png"
+    }
+  ]
+}

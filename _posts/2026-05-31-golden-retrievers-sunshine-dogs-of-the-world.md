@@ -181,6 +181,8 @@ Useful starting points:
 
 The main "challenge" with Goldens is exuberance, not stubbornness. A young Golden's enthusiastic jumping and pulling is best managed by teaching polite greetings before the dog grows into its full size and strength.
 
+For the object-release part of training, use our [guide to teaching a dog to drop it]({{ site.url }}/posts/2026/09/20/teach-dog-drop-it/). Start with a safe toy exchange and a clear household plan for keeping unsuitable objects out of reach.
+
 ## Pros and Cons of Golden Retrievers
 
 | Pros | Cons |
