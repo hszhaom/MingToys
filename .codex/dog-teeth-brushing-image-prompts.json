@@ -1,0 +1,33 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-09-21",
+  "assets": [
+    {
+      "path": "assets/images/dog-teeth-brushing-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0c17a-75f6-7c60-a5e4-2dc7596245e2/exec-c69ff3f5-58bb-4d55-8bd4-34b4f25d7ef5.png",
+      "prompt": "Use case: photorealistic-natural. Asset: PetStorie article cover, portrait approximately 1600x1885. High-quality natural editorial photograph of a healthy adult red-and-white Pembroke Welsh Corgi sitting on a muted blue non-slip mat in a bright quiet home bathroom doorway. Correct breed: short sturdy legs, long low body, upright medium ears, foxlike muzzle, natural coat. Complete head and ears centered in upper-middle area with breathing room for landscape thumbnail crop. Closed relaxed mouth, no exposed teeth. A plain small soft-bristle dog toothbrush and a plain capped unmarked white pet toothpaste tube rest on a small shelf behind, out of reach, secondary to dog. Soft window light, detailed fur, believable home. No text, letters, logo, watermarks, signatures or branding anywhere. No medical procedure, no restraint, no human hands, no distorted anatomy. Single cohesive image."
+    },
+    {
+      "path": "assets/images/dog-teeth-brushing-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0c17a-75f6-7c60-a5e4-2dc7596245e2/exec-bdda81d8-e33e-47a0-88f5-fbcd6cd4d8bd.png",
+      "prompt": "Use case: photorealistic-natural. Asset: PetStorie main article image, wide 1920x1080 composition. Realistic editorial home photograph of healthy adult red-and-white Pembroke Welsh Corgi standing on a blue non-slip mat in a quiet well-lit room. One adult kneels beside at dog level and holds a small plain soft-bristle dog toothbrush well away from the muzzle, allowing the dog to look at it voluntarily. Dog mouth closed, ears upright, loose relaxed posture, space to step away; correct short legs and low sturdy body. Toothbrush is outside mouth and not touching dog. Adult hand has correct five-finger anatomy and natural gentle grip. No gripping muzzle, no forced mouth opening, no treatment or visible dental disease. Natural daylight, clear true fur texture, tasteful everyday candid photography. No text, logos, labels, watermark, brand markings or signatures. Single image."
+    },
+    {
+      "path": "assets/images/dog-teeth-brushing-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0c17a-75f6-7c60-a5e4-2dc7596245e2/exec-566f676a-20fb-4375-a34a-3f785aafbd93.png",
+      "prompt": "Use case: photorealistic-natural. Asset: PetStorie second body play image, landscape 1600x1200. Candid realistic photo of healthy adult red-and-white Pembroke Welsh Corgi strolling calmly on a securely enclosed garden lawn beside the lower legs of an adult wearing plain trousers, after a quiet home-care session. Correct breed anatomy, sturdy low body, short legs, upright ears, natural walking gait, full dog visible. Relaxed expression with mouth naturally closed, soft afternoon light, detailed fur and grass, no tooth-cleaning claims. No toothbrush in dog mouth, no dental chews, no medical equipment, no collars with text. No text, logos, watermark, signatures or anatomical distortions. Single cohesive editorial photograph."
+    }
+  ]
+}

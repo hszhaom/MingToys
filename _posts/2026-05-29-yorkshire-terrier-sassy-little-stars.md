@@ -90,6 +90,8 @@ The other grooming priorities are the same toy-breed essentials: brush the teeth
 ![Yorkshire Terrier in a short puppy cut playing outdoors]({{ site.url }}/assets/images/yorkie-play.jpg){: width="2730" height="1358" loading="lazy" decoding="async" }
 
 
+To make dental care a repeatable home routine, use our [guide to brushing a dog's teeth]({{ site.url }}/posts/2026/09/21/how-to-brush-dog-teeth/). It starts with equipment and handling practice, with clear limits for when home brushing is inappropriate.
+
 ## Common Yorkshire Terrier Health Issues
 
 Several conditions are characteristic of the breed. Dental disease tops the list — that tiny, crowded mouth traps plaque and leads to gum disease and tooth loss without diligent care. Collapsing trachea is common and produces a honking cough, which is why a harness beats a collar for this breed. Luxating patella (slipping kneecaps) is another frequent small-breed problem.

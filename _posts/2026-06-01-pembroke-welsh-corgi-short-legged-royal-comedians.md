@@ -142,6 +142,8 @@ A practical grooming plan:
 ![Pembroke Welsh Corgi running flat-out across grass, ears pinned and short legs blurring]({{ site.url }}/assets/images/corgi-play.jpg){: width="2508" height="1480" loading="lazy" decoding="async" }
 
 
+For the dental part of daily care, our [dog tooth-brushing introduction]({{ site.url }}/posts/2026/09/21/how-to-brush-dog-teeth/) explains how to build comfortable handling, record what was actually brushed, and recognize when to ask your veterinarian for help.
+
 ## Common Pembroke Welsh Corgi Health Issues
 
 The breed's most distinctive feature, that long-backed, short-legged dwarf build, is also its biggest health consideration. Corgis are prone to intervertebral disc disease (IVDD), where the spinal discs can rupture or herniate, sometimes causing pain or paralysis, which is why weight control and back protection matter so much. They are also predisposed to degenerative myelopathy, a progressive spinal-cord condition, and there is a DNA test breeders can use to reduce its incidence.
