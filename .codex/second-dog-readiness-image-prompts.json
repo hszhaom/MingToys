@@ -1,0 +1,41 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-09-22",
+  "assets": [
+    {
+      "path": "assets/images/second-dog-readiness-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "prompt": "Use case: photorealistic-natural. Create one high-resolution vertical editorial cover photograph for an article about deciding whether to get a second dog. Two healthy adult dogs, one golden-coated Golden Retriever with feathered fur and one black short-coated Labrador Retriever, resting calmly on separate plain dog beds in a spacious light-filled living room, clear floor space between them, no touching. Dogs fully anatomically correct, naturally relaxed, neither staring at the other. Composition roughly 1600x1885, both heads close to same height in upper-middle, ample margins suitable for a horizontal card crop. Natural window light, realistic fur, warm domestic photography. No humans, no text, logo, watermark, signature, branding, medical equipment, toys or food.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c6a1-284d-7ea3-8d84-3bc1ca1c8db6\\exec-4ca8f550-e305-422a-9013-279be5b8dc60.png"
+    },
+    {
+      "path": "assets/images/second-dog-readiness-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "prompt": "Use case: photorealistic-natural. Create one wide 16:9 high-resolution editorial photograph, intended 1920x1080, for an article about preparing for a second dog. An adult Golden Retriever with golden feathered coat rests on a plain bed in foreground left of a spacious home; an adult black Labrador Retriever rests on its own bed in adjoining room at right, separated by a clearly closed sturdy tall wooden baby gate. Several feet between dogs and barrier; both calm, full dogs visible, natural correct anatomy and paws, neither crowding gate. An adult caregiver is unobtrusively seated in background supervising. Warm natural window light, realistic ordinary home, not luxury advertising. No text, labels, logo, watermark, signature, brand marks, medical scene, collars with text, food or toys.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c6a1-284d-7ea3-8d84-3bc1ca1c8db6\\exec-a71cd2c8-4cab-4945-ad0a-9d8cd9e33c44.png"
+    },
+    {
+      "path": "assets/images/second-dog-readiness-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "prompt": "Use case: photorealistic-natural. One high-resolution horizontal 4:3 editorial dog photograph, intended 1600x1200, showing two adults each walking one dog on separate loose leads in the same direction across a wide grassy quiet park. Adult golden Golden Retriever with feathered coat on left and adult black short-coated Labrador Retriever on right, separated by at least three meters of open grass with each handler next to their own dog. Both dogs walking calmly and looking forward or sniffing, no forced nose contact, no play wrestling. Show full anatomically correct dogs, four natural legs per dog, each leash connects visibly and correctly to its own plain harness with no tangles. Soft morning natural light, vivid realistic grass and fur. No children, other animals, text, logos, brands, watermark, signature or medical equipment.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0c6a1-284d-7ea3-8d84-3bc1ca1c8db6\\exec-d3c5f1fe-ed32-47c7-adc1-7c59f1fa6d90.png"
+    }
+  ],
+  "thumbnail": {
+    "path": "assets/images/thumbs/second-dog-readiness-cover.webp",
+    "size": [
+      640,
+      400
+    ],
+    "source": "assets/images/second-dog-readiness-cover.jpg"
+  }
+}

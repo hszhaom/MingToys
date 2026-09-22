@@ -119,6 +119,8 @@ What surprises new owners is the mouthiness. Retrievers were built to carry thin
 
 They are also emotionally tuned-in to a fault. Goldens dislike being left alone for long stretches and can slide into boredom-driven mischief or separation anxiety if isolated all day. This is a velcro breed that wants to be wherever you are, including the bathroom.
 
+If you are considering a companion for your Golden, use our [second-dog household readiness guide]({{ site.url }}/posts/2026/09/22/getting-second-dog-household-ready/). It explains how to assess the individual match and plan separate care rather than relying on the breed's sociable reputation.
+
 ## Managing Golden Energy Through Adolescence
 
 Plan for serious activity. A young, healthy Golden needs an hour or more of real exercise every day, and the breed's history points to what it enjoys most: retrieving and water. A long game of fetch, a swim at a dog-friendly lake, a trail hike, or a session of dock diving will satisfy a Golden far more than a slow leash walk around the block.

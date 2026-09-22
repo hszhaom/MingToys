@@ -114,6 +114,8 @@ What new owners must reckon with is the energy and the slow maturity. Labs stay 
 
 With children, Labs are about as good as it gets: patient, gentle, sturdy, and playful. Their size and exuberance mean supervision with toddlers is wise, simply because a happy Lab can knock a small child over by accident.
 
+Before adding a dog to your Labrador's household, work through our [second-dog readiness checklist]({{ site.url }}/posts/2026/09/22/getting-second-dog-household-ready/). Check the space, individual care, and backup arrangements for both dogs before assuming they can share a routine.
+
 ## Retrieving, Swimming, and Joint-Safe Activity
 
 Make no mistake, the Labrador is a sporting dog bred for a full day's work, and it needs serious daily exercise: at least an hour, and considerably more for a young, fit dog. A Lab that gets only a short stroll around the block is an unhappy, often badly behaved Lab. Both body and mind need work, and this breed thrives when given a purpose.
