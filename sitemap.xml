@@ -7,18 +7,20 @@ sitemap: false
   {% assign content_pages = site.pages | where: "layout", "default" %}
   {% for item in content_pages %}
   {% unless item.sitemap == false or item.canonical_url or item.noindex %}
+  {% assign item_lastmod = item.updated | default: item.date %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
-    {% if item.updated %}<lastmod>{{ item.updated | date: '%Y-%m-%d' }}</lastmod>{% endif %}
+    {% if item_lastmod %}<lastmod>{{ item_lastmod | date: '%Y-%m-%d' }}</lastmod>{% endif %}
   </url>
   {% endunless %}
   {% endfor %}
 
   {% for post in site.posts %}
   {% unless post.sitemap == false or post.canonical_url or post.noindex %}
+  {% assign post_lastmod = post.updated | default: post.date %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    {% if post.updated %}<lastmod>{{ post.updated | date: '%Y-%m-%d' }}</lastmod>{% endif %}
+    <lastmod>{{ post_lastmod | date: '%Y-%m-%d' }}</lastmod>
   </url>
   {% endunless %}
   {% endfor %}

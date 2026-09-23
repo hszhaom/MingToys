@@ -44,6 +44,21 @@
   <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
 
   {% unless page.url == "/" %}
+  {% assign breadcrumb_name = "Dog Breeds" %}
+  {% assign breadcrumb_url = "/dog-breeds/" %}
+  {% if page.content_type == "breed-comparison" %}
+    {% assign breadcrumb_name = "Compare Breeds" %}
+    {% assign breadcrumb_url = "/dog-breed-comparisons/" %}
+  {% elsif page.content_type == "training-behavior" %}
+    {% assign breadcrumb_name = "Training & Behavior" %}
+    {% assign breadcrumb_url = "/training-behavior/" %}
+  {% elsif page.content_type == "care-question" or page.content_type == "scenario-decision" %}
+    {% assign breadcrumb_name = "Home & Routines" %}
+    {% assign breadcrumb_url = "/home-routines/" %}
+  {% elsif page.content_type == "cost-planning" %}
+    {% assign breadcrumb_name = "Costs & Research" %}
+    {% assign breadcrumb_url = "/dog-cost-calculator/" %}
+  {% endif %}
   <!-- Google structured data: Breadcrumbs -->
   <script type="application/ld+json">
   {
@@ -60,8 +75,8 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Dog Breeds",
-        "item": "{{ site.url }}/dog-breeds/"
+        "name": {{ breadcrumb_name | jsonify }},
+        "item": "{{ site.url }}{{ breadcrumb_url }}"
       },
       {
         "@type": "ListItem",

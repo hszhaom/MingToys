@@ -3,13 +3,28 @@ layout: default
 ---
 {% include header.html %}
 {% assign modified_date = page.updated | default: page.date %}
+{% assign breadcrumb_name = "Dog Breeds" %}
+{% assign breadcrumb_url = "/dog-breeds/" %}
+{% if page.content_type == "breed-comparison" %}
+  {% assign breadcrumb_name = "Compare Breeds" %}
+  {% assign breadcrumb_url = "/dog-breed-comparisons/" %}
+{% elsif page.content_type == "training-behavior" %}
+  {% assign breadcrumb_name = "Training & Behavior" %}
+  {% assign breadcrumb_url = "/training-behavior/" %}
+{% elsif page.content_type == "care-question" or page.content_type == "scenario-decision" %}
+  {% assign breadcrumb_name = "Home & Routines" %}
+  {% assign breadcrumb_url = "/home-routines/" %}
+{% elsif page.content_type == "cost-planning" %}
+  {% assign breadcrumb_name = "Costs & Research" %}
+  {% assign breadcrumb_url = "/dog-cost-calculator/" %}
+{% endif %}
 
 <div class="container">
   <div class="post-page">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ site.url }}/">Home</a>
       <span aria-hidden="true">/</span>
-      <a href="{{ site.url }}/dog-breeds/">Dog Breeds</a>
+      <a href="{{ site.url }}{{ breadcrumb_url }}">{{ breadcrumb_name }}</a>
       <span aria-hidden="true">/</span>
       <span aria-current="page">{{ page.title }}</span>
     </nav>
