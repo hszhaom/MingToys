@@ -1,0 +1,32 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "path": "assets/images/beagle-vs-dachshund-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical editorial cover for a Beagle versus Dachshund household comparison. Realistic high-resolution photograph of one adult tricolor Beagle and one adult red smooth-haired miniature Dachshund sitting calmly with space between them on a level lawn in a quiet garden. Beagle is visibly taller, sturdy square-bodied with natural floppy ears, white chest and tan face; Dachshund has accurate long low body, short legs, elongated muzzle and floppy ears, not exaggerated proportions. Portrait composition, both complete heads at approximately middle image height so a central horizontal homepage crop retains both faces; full bodies visible with generous space around dogs. Natural morning light, rich true fur texture, gentle alert expressions, credible anatomy. No text, logos, watermarks, signatures, brands, costumes, human hands, medical setting or extra animals.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cbc8-c4f3-7651-aab3-eb7555f643c1\\exec-2e9556e7-db3a-4c6d-bc65-28af13cd5b2a.png"
+    },
+    {
+      "path": "assets/images/beagle-vs-dachshund-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: wide 16:9 editorial comparison photograph. One adult tricolor Beagle and one adult red smooth-haired miniature Dachshund standing side by side but comfortably spaced on a flat garden path, three-quarter side views showing whole bodies and all paws. Beagle naturally taller and sturdy with white-tipped tail, floppy ears and tan head; Dachshund genuinely low and elongated with short strong legs, long muzzle and floppy ears, no extreme deformation. Both looking calmly toward camera. Detailed natural fur, soft green garden background, daylight. No text, logo, watermark, signature, collars with writing, stairs, jumping, medical procedures, duplicated limbs or additional dogs.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cbc8-c4f3-7651-aab3-eb7555f643c1\\exec-15550918-7a69-485f-aabe-e900697d33b9.png"
+    },
+    {
+      "path": "assets/images/beagle-vs-dachshund-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 4:3 editorial lifestyle photo for comparing Beagle and Dachshund walks. An adult tricolor Beagle and an adult red smooth-haired miniature Dachshund sniffing grass on a level park verge several feet apart, each wearing a simple well-fitting unbranded harness with a separate loose leash held by one of two adult walkers. Show walkers from waist down with anatomically normal legs; dogs whole bodies and paws in frame. Beagle visibly taller and square-bodied; Dachshund has accurate long low body, short sturdy legs, floppy ears, natural proportions. Relaxed exploratory activity without pulling, running, jumping or dog conflict. Soft outdoor daylight, crisp fur and grass textures, documentary photography. No text, branding, watermarks, extra limbs, duplicated leashes or medical depictions.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0cbc8-c4f3-7651-aab3-eb7555f643c1\\exec-210b6c4f-7765-4f06-8b14-8f17a5a5062f.png"
+    }
+  ]
+}

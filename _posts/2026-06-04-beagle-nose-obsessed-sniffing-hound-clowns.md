@@ -197,6 +197,8 @@ The [dog cost calculator]({{ site.url }}/dog-cost-calculator/) is most useful fo
 
 ## Is a Beagle Right for You?
 
+If a Dachshund is also on your shortlist, our [Beagle vs Dachshund comparison]({{ site.url }}/posts/2026/09/23/beagle-vs-dachshund/) helps you weigh scent-led walks, barking, coat care, and the access route from your home to the street.
+
 A Beagle is a superb choice for an active, sociable household that wants a friendly, kid-friendly dog and is realistic about the breed's hound nature. If you enjoy long sniffing walks, can secure your yard, will manage portions strictly, and can tolerate some vocalizing, a Beagle rewards you with affection, good humor, and a remarkably easy-care coat.
 
 It is the wrong dog for someone who needs reliable off-leash freedom, expects quick obedience, lives somewhere with strict noise rules and no patience for howling, or cannot resist overfeeding. Leaving a Beagle alone for long workdays is also a recipe for a noisy, unhappy dog.
