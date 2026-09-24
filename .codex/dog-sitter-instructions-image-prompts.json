@@ -1,0 +1,20 @@
+{
+  "purpose": "Original editorial images for dog sitter instructions; generated 2026-09-24",
+  "assets": [
+    {
+      "variant": "cover",
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical editorial cover for an article about dog sitter instructions. Create a realistic high-resolution photograph of one adult golden English Cocker Spaniel sitting comfortably on a neutral woven rug in a bright tidy home. Long feathered ears, proportionate spaniel muzzle, soft wavy golden coat, anatomically correct single dog. Full head and ears centered with generous space above and around, friendly relaxed expression, natural window light, visible real fur detail. Composition suitable for 1600x1885 portrait and a wide homepage crop. No paperwork, no text, no logos, no watermark, no signature, no brands, no collar lettering.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d0ee-8ed3-7dc2-bfed-327f96a90727\\exec-bf388c59-e0f8-4bad-9864-ff6849185dd3.png"
+    },
+    {
+      "variant": "main",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide editorial photo for a dog sitter handoff article, 1920x1080 composition. One adult golden English Cocker Spaniel stands in profile in a clean welcoming home beside a low shelf holding a plain folded walking leash and an unbranded closed pet food container; a stainless water bowl sits on the floor with water. Full dog body visible with four correct legs, naturally feathered ears, real wavy coat and normal proportions. Natural daylight, documentary-style professional pet photography. No other dogs, no food labels, no written notes, no text, no logos, no watermark, no signature, no medical procedure.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d0ee-8ed3-7dc2-bfed-327f96a90727\\exec-53a8ab57-dcad-4b90-9485-4df51efc12d4.png"
+    },
+    {
+      "variant": "play",
+      "prompt": "Use case: photorealistic-natural. Asset type: lifestyle editorial photograph for dog sitter instructions, 1600x1200 landscape composition. One adult golden English Cocker Spaniel calmly walking beside an adult caregiver on a quiet leafy park path. Dog shown full body in three-quarter side view with four anatomically correct legs and natural feathered ears, a simple well-fitted harness attached to one loose leash correctly held in caregiver hand. Caregiver body partly visible on the left, dressed casually without branding. Lush natural background, soft daylight, relaxed ordinary walk, detailed realistic fur and anatomy. No off-leash dogs, no text, no logos, no watermark, no signature, no brands.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d0ee-8ed3-7dc2-bfed-327f96a90727\\exec-9f3b2e49-05a7-4a1b-b6b3-43eb0d47f68f.png"
+    }
+  ]
+}

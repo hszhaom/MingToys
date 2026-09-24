@@ -155,6 +155,8 @@ Avoid punishment or taking valued items away to test a reaction. Give space, man
 
 This choice fits households that want two dogs and can support them separately. It is a poor next step when existing safety concerns remain unresolved, adults disagree about care, or the plan depends on the newcomer fixing a problem.
 
+If someone else will care for both dogs, prepare separate feeding and handling details in the [dog sitter handoff checklist]({{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/). Walk the sitter through each dog's routine and confirm who can provide backup care.
+
 ## Make the Decision Before Collection Day
 
 Keep three things together: the current dog's care record, the proposed match's known history, and your two-dog household worksheet. Take unanswered questions to the rescue, breeder, veterinarian, or qualified trainer. If the space, time, or support is missing, waiting protects the dog you have and the dog you might welcome later. A successful decision can be a carefully prepared yes or a well-considered not yet.

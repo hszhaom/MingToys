@@ -152,6 +152,8 @@ For a budget check, use the [Dog Cost Calculator]({{ site.url }}/dog-cost-calcul
 
 Use the [Dog Fit Score Cards]({{ site.url }}/dog-fit-score-cards/) to compare broader breed trade-offs, then return to the individual dog's records. The tools organize questions; they cannot certify a match.
 
+For travel coverage, turn those arrangements into written [dog sitter instructions]({{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/). The checklist includes a handoff record and a delayed-return plan so each caregiver knows which tasks remain due.
+
 ## Make the Decision From the Care You Can Provide
 
 A puppy may suit a household with responsive daytime coverage and a real interest in raising a young dog. An adult may suit someone who wants more information about existing habits and can support a transition. Either choice is premature when it relies on an unconfirmed sitter, uninterrupted sleep during meetings, or a dog learning to cope by a deadline.
