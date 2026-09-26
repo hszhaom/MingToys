@@ -35,6 +35,18 @@ checkPage("labrador-vs-golden-retriever/index.html", { ads: 0, faq: 1, sources: 
 checkPage("apartment-dog-breeds/index.html", { ads: 0, faq: 1, sources: 1 });
 checkPage("dog-cost-calculator/index.html", { ads: 0, faq: 1, sources: 1 });
 
+const sitterPage = read("posts/2026/09/24/dog-sitter-instructions-weekend-checklist/index.html");
+const sitterBreadcrumb = sitterPage.match(/<nav class="breadcrumb"[\s\S]*?<\/nav>/)?.[0] || "";
+const sitterSchemas = [...sitterPage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
+const sitterParent = sitterSchemas.find((schema) => schema["@type"] === "BreadcrumbList")?.itemListElement[1];
+if (!sitterBreadcrumb.includes('href="https://petstorie.com/home-routines/">Home & Routines</a>') ||
+    sitterParent?.item !== "https://petstorie.com/home-routines/" || sitterParent?.name !== "Home & Routines") {
+  throw new Error("The dog sitter checklist must belong to Home & Routines in both navigation and schema.");
+}
+if (!read("dog-breed-comparisons/index.html").includes('href="https://petstorie.com/posts/2026/09/18/whippet-vs-italian-greyhound/"')) {
+  throw new Error("The comparison hub must include the Whippet vs Italian Greyhound guide.");
+}
+
 const homepage = read("index.html");
 const homepageThumbnails = [...homepage.matchAll(/\/assets\/images\/thumbs\/([^"']+\.webp)/g)];
 if (homepageThumbnails.length !== 9) throw new Error(`Homepage has ${homepageThumbnails.length} card thumbnails; expected 9.`);
