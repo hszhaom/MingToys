@@ -167,4 +167,6 @@ Allow for classes or individual support in the [Dog Cost Calculator]({{ site.url
 
 ## Make the Next Exchange Easy
 
+For objects your dog has not picked up, practice [teaching leave it]({{ site.url }}/posts/2026/09/28/teach-dog-leave-it/) separately. Its home-to-walk record helps the household distinguish turning away from an item from releasing one already in the mouth.
+
 A useful drop-it habit starts with an easy exchange and a household that makes the same sensible choices around objects. Choose one safe toy, note what happens at release and collection, and put the laundry away. When discomfort or danger enters the picture, stop treating it as an ordinary training repetition and get the right help.

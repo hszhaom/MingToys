@@ -172,4 +172,6 @@ If you are still choosing a dog, use the [Dog Fit Score Cards]({{ site.url }}/do
 
 ## Start With One Quiet Moment
 
+Turning away from an interesting object is a separate lesson from resting on a mat. Our [leave-it training guide]({{ site.url }}/posts/2026/09/28/teach-dog-leave-it/) provides short practice steps and a home-to-walk record for that skill; keep it separate from quiet mat time.
+
 Choose a chair, a comfortable mat, and one everyday activity you would like to share peacefully. Begin with an easy version while you have time to watch the dog. Record what happened, then repeat or adjust it. The worthwhile result is a routine that makes rest easier for both of you, with enough flexibility to meet the dog's needs when the day changes.
