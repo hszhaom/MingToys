@@ -134,6 +134,8 @@ Useful training approaches for the breed:
 
 House-training can take a little patience, and like many companion breeds they can develop separation anxiety, so building gradual, positive alone time early pays off.
 
+Choosing between the two Cockers? Use our [English vs American Cocker Spaniel comparison]({{ site.url }}/posts/2026/10/01/english-vs-american-cocker-spaniel/) to compare working-line questions, coat maintenance and health records against your weekday routine.
+
 ## Pros and Cons of American Cocker Spaniels
 
 | Pros | Cons |

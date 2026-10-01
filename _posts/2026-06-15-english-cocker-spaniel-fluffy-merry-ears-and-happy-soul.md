@@ -132,6 +132,8 @@ Effective training approaches for the breed:
 
 Because they are so attached, teaching calm, gradual alone time early on heads off separation anxiety, a fairly common issue in this companionable breed.
 
+Choosing between the two Cockers? Use our [English vs American Cocker Spaniel comparison]({{ site.url }}/posts/2026/10/01/english-vs-american-cocker-spaniel/) to compare working-line questions, coat maintenance and health records against your weekday routine.
+
 ## Pros and Cons of English Cocker Spaniels
 
 | Pros | Cons |

@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "created": "2026-10-01",
+  "assets": [
+    {
+      "path": "assets/images/english-vs-american-cocker-cover.jpg",
+      "size": [
+        1600,
+        1885
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie comparison article cover. Create a high-resolution natural dog photograph, portrait ratio approximately 1600x1885. Two adult dogs sitting on a quiet garden lawn: on the left a blue roan English Cocker Spaniel with a longer balanced muzzle, slightly taller sporting build, long low-set feathered ears and moderate silky feathering; on the right a buff American Cocker Spaniel with a rounded skull, noticeably shorter but healthy muzzle, smaller compact body and fuller silky ear and leg coat. Clearly two distinct breed-accurate dogs, relaxed expressions, soft daylight, detailed realistic fur. Both heads near same height in central upper-middle frame, generous space above heads, no extreme show exaggeration. Include full bodies and paws with enough lawn for card cropping. No text, lettering, labels, watermark, logo, signature, collar branding, extra limbs or distorted anatomy.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0f4fa-b0a7-7d22-984e-ee816b1c18fe\\exec-68dfc365-a239-4491-805c-972f5ae477ad.png"
+    },
+    {
+      "path": "assets/images/english-vs-american-cocker-main.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie comparison article main photograph. Wide 16:9 composition for 1920x1080. A blue roan adult English Cocker Spaniel and a buff adult American Cocker Spaniel standing naturally in three-quarter side view on a garden path at the same distance from camera. The English dog is slightly taller and longer-muzzled with moderate silky feathering; the American dog is smaller, compact, rounded skull, shorter non-exaggerated muzzle and fuller feathered coat. Both healthy, naturally proportioned, relaxed, all paws visible; easy visual comparison of bodies and faces. Detailed silky fur, soft green background and overcast natural daylight, authentic professional dog photography. No people, text, labels, watermark, logos, signatures, collar lettering, extra limbs, distorted eyes or merged bodies.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0f4fa-b0a7-7d22-984e-ee816b1c18fe\\exec-3561a4b2-b0fd-45a8-8127-6057e4e17e1f.png"
+    },
+    {
+      "path": "assets/images/english-vs-american-cocker-play.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: PetStorie comparison article outdoor activity photo. Landscape 4:3 composition for 1600x1200. A blue roan adult English Cocker Spaniel with longer balanced muzzle and moderate feathering and a buff adult American Cocker Spaniel with compact body rounded skull shorter healthy muzzle and fuller silky coat, walking at an easy pace and sniffing a secure fenced garden lawn. Two separate anatomically accurate dogs in sharp focus, all bodies visible, English dog slightly taller. No strenuous jump, no chasing wildlife, no medical setting. Realistic soft morning light, lively natural moment, distinct paws and fur texture. No text, logo, watermark, signature, branded accessories or anatomical defects.",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0f4fa-b0a7-7d22-984e-ee816b1c18fe\\exec-add0ec4a-89d1-4bd7-b2dd-2b7380869300.png"
+    }
+  ]
+}
