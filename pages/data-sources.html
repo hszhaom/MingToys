@@ -3,7 +3,7 @@ layout: default
 title: "PetStorie Data Sources"
 description: "See how PetStorie checks breed standards, veterinary references, welfare guidance, cost ranges, and editorial dog-breed comparison labels."
 permalink: /data-sources/
-updated: "2026-09-14"
+updated: "2026-10-03"
 adsense: false
 ---
 
@@ -68,6 +68,48 @@ adsense: false
     </p>
 
     <h2>Tool Methodology</h2>
+    <h3 id="household-fit-data">Household Fit Data: From Labels to Decisions</h3>
+    <p>
+      The <a href="{{ site.url }}/breed-data.json">published breed data</a>,
+      <a href="{{ site.url }}/dog-breeds/">breed directory</a>, Finder, Selector, and calculator presets share the same
+      published breed records. These records are an editorial synthesis of public sources, not original experiments or an
+      owner survey. Sharing the labels does not make every tool's output the same kind of measurement.
+    </p>
+    <table style="table-layout: fixed;">
+      <caption>What each decision tool does with breed information</caption>
+      <thead>
+        <tr><th scope="col">Tool</th><th scope="col">How it uses the information</th><th scope="col">What to check next</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><a href="{{ site.url }}/dog-breed-finder/">Dog Breed Finder</a></th>
+          <td>Compares six answers with shared labels, using fixed editorial weights and additional training, size, and exercise penalties. Its score out of 100 is not a probability of a successful match.</td>
+          <td>Read the result's caution and full guide. The score does not assess your climate, time alone, access to care, or an individual dog's history.</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="{{ site.url }}/dog-breed-selector/">Dog Breed Selector</a></th>
+          <td>Displays two shared records and filters a shortlist by priority and grooming tolerance. The shortlist shows the first eight qualifying records in dataset order, not a best-to-worst ranking.</td>
+          <td>Compare the owner cautions and follow each guide's sources; a shared label can hide different daily care needs.</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="{{ site.url }}/dog-cost-calculator/">Dog Cost Calculator</a></th>
+          <td>Uses size, grooming, training, health-risk, and cost labels to set broad presets. Dollar ranges and preset rules are separate planning assumptions, not observed owner spending.</td>
+          <td>Check every preset and replace the estimate with local quotes for the individual dog.</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="{{ site.url }}/dog-fit-score-cards/">Dog Fit Score Cards</a></th>
+          <td>Uses separately maintained 1-to-5 editorial levels. These are not calculated from the shared low, medium, and high labels or the Finder score.</td>
+          <td>Read the card's rubric and guide; do not convert a Finder score into a score-card level.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>Evidence and review limits:</strong> the shared records do not yet provide a source, access date, scope, or
+      confidence note for each fit label. Each record links to its guide, where page-level sources can be checked, but a guide's
+      source list does not validate every tool rule. The shared labels and tool methods are <strong>not professionally reviewed</strong>.
+      Source checking is not veterinary or behavior-professional approval; see the
+      <a href="{{ site.url }}/editorial-policy/">editorial policy</a> for review and attribution standards.
+    </p>
     <p>
       The <a href="{{ site.url }}/dog-fit-score-cards/">Dog Fit Score Cards</a> use whole-number editorial levels from 1 to 5. They
       are not survey percentages or medical risk predictions. The page publishes the rubric and explains how the direction changes
