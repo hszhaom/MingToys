@@ -183,7 +183,8 @@
   training: moderate
   health_risk: high
   cost_level: high
-  caution: Avoid heat, long walks, and tight medical budgets.
+  caution: Plan short activity sessions in cool conditions, ask a veterinarian about
+    breathing and exercise tolerance, and check insurance exclusions and emergency care access.
   image: "/assets/images/frenchbulldog-cover.jpg"
   aliases:
   - Frenchie
@@ -192,6 +193,46 @@
   breed_standard_url: https://www.akc.org/dog-breeds/french-bulldog/
   publication_status: published
   image_prefix: frenchbulldog
+  evidence:
+    checked: "2026-10-05"
+    review_status: "not professionally reviewed"
+    scope: "Breed-level adult care planning; puppies, seniors, and dogs with symptoms need individual veterinary advice. Only the fields below have evidence notes."
+    mapping_note: "Sources support the care concerns, not a validated low/medium/high scale. Category boundaries remain editorial judgments."
+    sources:
+      pdsa:
+        title: "PDSA: French Bulldog breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/french-bulldog"
+        accessed: "2026-10-05"
+      cornell:
+        title: "Cornell: Brachycephalic Obstructive Airway Syndrome (BOAS)"
+        url: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
+        accessed: "2026-10-05"
+    fields:
+      exercise:
+        value: low
+        basis: "editorial synthesis"
+        note: "PDSA recommends shorter sessions and warns about overheating. Its summary says a one-hour minimum while its exercise section says up to an hour. The low label is provisional, not a daily minute target or permission to skip activity; ask a veterinarian about the individual dog's tolerance."
+        sources: [pdsa, cornell]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA describes weekly brushing plus keeping facial folds clean and dry. Medium includes fold care, not just coat brushing; it does not establish professional grooming frequency or a salon price."
+        sources: [pdsa]
+      health_risk:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA lists airway, eye, skin-fold, and spinal concerns; Cornell explains BOAS. High flags veterinary planning needs, not a disease probability or a prediction that every French Bulldog is affected."
+        sources: [pdsa, cornell]
+      cost_level:
+        value: high
+        basis: "unvalidated planning assumption"
+        note: "PDSA identifies ongoing care and potential veterinary bills, but its UK minimum is not evidence for a US dollar range or this high category. Obtain local care and insurance quotes; the calculator's reserve and food presets remain unvalidated."
+        sources: [pdsa]
+      caution:
+        value: "Plan short activity sessions in cool conditions, ask a veterinarian about breathing and exercise tolerance, and check insurance exclusions and emergency care access."
+        basis: "editorial synthesis"
+        note: "PDSA supports activity and coverage checks; Cornell describes variable airway impairment and respiratory emergencies. A breathing crisis requires immediate emergency veterinary care; this planning caution is not a treatment plan."
+        sources: [pdsa, cornell]
 - key: pembroke-welsh-corgi
   name: Pembroke Welsh Corgi
   url: "/posts/2026/06/01/pembroke-welsh-corgi-short-legged-royal-comedians/"
@@ -482,6 +523,46 @@
   breed_standard_url: https://www.akc.org/dog-breeds/pug/
   publication_status: published
   image_prefix: pug
+  evidence:
+    checked: "2026-10-05"
+    review_status: "not professionally reviewed"
+    scope: "Breed-level adult care planning; puppies, seniors, and dogs with symptoms need individual veterinary advice. Only the fields below have evidence notes."
+    mapping_note: "Sources support the care concerns, not a validated low/medium/high scale. Category boundaries remain editorial judgments."
+    sources:
+      pdsa:
+        title: "PDSA: Pug breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/pug"
+        accessed: "2026-10-05"
+      cornell:
+        title: "Cornell: Brachycephalic Obstructive Airway Syndrome (BOAS)"
+        url: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
+        accessed: "2026-10-05"
+    fields:
+      exercise:
+        value: low
+        basis: "editorial synthesis"
+        note: "PDSA advises shorter walks, play, and mental activity, with heat and breathing limits. Low describes an editorial activity category, not no exercise or a fixed safe duration; individual tolerance needs veterinary assessment."
+        sources: [pdsa, cornell]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA describes substantial shedding, at least weekly brushing, and careful drying of folds. Medium includes skin-fold care despite the short coat; it does not predict a monthly grooming bill."
+        sources: [pdsa]
+      health_risk:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA identifies breathing, eye, and skin concerns; Cornell includes Pugs among breeds affected by BOAS. High calls for veterinary planning, not a prevalence estimate or a diagnosis."
+        sources: [pdsa, cornell]
+      cost_level:
+        value: high
+        basis: "unvalidated planning assumption"
+        note: "PDSA's UK minimum and list of expenses do not validate a high US cost category or prove Pugs cost more than Boston Terriers. Price local care and policy exclusions before relying on a calculator preset."
+        sources: [pdsa]
+      caution:
+        value: "Needs weight control, heat avoidance, fold care, and veterinary attention for breathing or eye issues."
+        basis: "editorial synthesis"
+        note: "PDSA connects weight, heat, folds, and eye care with ownership needs. Cornell supports urgent escalation: a breathing crisis needs immediate emergency veterinary care, not a routine appointment."
+        sources: [pdsa, cornell]
 - key: miniature-schnauzer
   name: Miniature Schnauzer
   url: "/posts/2026/06/06/mini-schnauzer-bearded-little-gentleman-with-big-spirit/"
@@ -602,6 +683,46 @@
   publication_status: published
   review_batch: 1
   image_prefix: bostonterrier
+  evidence:
+    checked: "2026-10-05"
+    review_status: "not professionally reviewed"
+    scope: "Breed-level adult care planning; puppies, seniors, and dogs with symptoms need individual veterinary advice. Only the fields below have evidence notes."
+    mapping_note: "Sources support the care concerns, not a validated low/medium/high scale. Category boundaries remain editorial judgments."
+    sources:
+      pdsa:
+        title: "PDSA: Boston Terrier breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/boston-terrier"
+        accessed: "2026-10-05"
+      cornell:
+        title: "Cornell: Brachycephalic Obstructive Airway Syndrome (BOAS)"
+        url: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
+        accessed: "2026-10-05"
+    fields:
+      exercise:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA describes lively play and heat limits. Its summary says a one-hour minimum while the exercise text says up to an hour. Medium is provisional, not evidence of greater exercise tolerance than a Pug or French Bulldog; discuss the individual dog with a veterinarian."
+        sources: [pdsa, cornell]
+      grooming:
+        value: low
+        basis: "editorial synthesis"
+        note: "PDSA describes weekly coat grooming. Low refers to routine coat effort, not absence of eye, dental, nail, or other care; it is not a professional grooming quote."
+        sources: [pdsa]
+      health_risk:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA identifies airway and eye concerns; Cornell includes Boston Terriers in its BOAS guidance. High is a care-planning flag, not a numerical comparison with the other two breeds or a diagnosis."
+        sources: [pdsa, cornell]
+      cost_level:
+        value: medium
+        basis: "unvalidated planning assumption"
+        note: "PDSA's cost categories exclude illness or injury treatment from the stated estimate. They do not validate medium or establish lower US lifetime costs than a Pug or French Bulldog. Replace presets with local quotes and the dog's medical history."
+        sources: [pdsa]
+      caution:
+        value: "Avoid heat stress and watch breathing or eye issues with veterinary guidance."
+        basis: "editorial synthesis"
+        note: "PDSA supports heat and eye cautions. Cornell explains respiratory impairment and emergency escalation; a breathing crisis requires immediate emergency veterinary care. A short coat and medium cost label do not remove that risk."
+        sources: [pdsa, cornell]
 - key: basset-hound
   name: Basset Hound
   url: "/posts/2026/06/10/basset-hound-long-ears-slow-sniffing-hound/"

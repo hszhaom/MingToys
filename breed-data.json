@@ -5,8 +5,8 @@ sitemap: false
 ---
 {% assign published_breeds = site.data.breeds | where: "publication_status", "published" %}
 {
-  "name": "PetStorie Published Breed Dataset",
-  "updated": "2026-09-14",
+  "name": "PetStorie Household Fit Dataset",
+  "updated": "2026-10-05",
   "methodology": "{{ site.url }}/data-sources/",
   "recordCount": {{ published_breeds | size }},
   "notice": "Editorial planning labels are broad comparison aids, not medical predictions, guarantees, survey results, or recommendations for an individual dog. Linking and citation are encouraged; republication requires permission.",

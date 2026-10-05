@@ -80,6 +80,30 @@ if (breedDataset.breeds.some((breed) => breed.publication_status !== "published"
   throw new Error("Published breed dataset contains a record that is not published.");
 }
 
+const evidencePage = read("data-sources/index.html");
+for (const breed of breedDataset.breeds.filter((breed) => breed.evidence)) {
+  const evidence = breed.evidence;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(evidence.checked) || !evidence.scope || !evidence.mapping_note ||
+      evidence.review_status !== "not professionally reviewed" || !Object.keys(evidence.fields).length) {
+    throw new Error(`${breed.key}: evidence needs dated scope, mapping limits, and honest review status.`);
+  }
+  for (const [field, record] of Object.entries(evidence.fields)) {
+    if (record.value !== breed[field] || !record.note || !record.basis || !record.sources.length) {
+      throw new Error(`${breed.key}.${field}: evidence is incomplete or no longer matches the published value.`);
+    }
+    if (!evidencePage.includes(`id="evidence-${breed.key}-${field}"`)) {
+      throw new Error(`${breed.key}.${field}: field evidence is missing from the public methodology.`);
+    }
+    for (const sourceId of record.sources) {
+      const source = evidence.sources[sourceId];
+      if (!source?.title || !source.url.startsWith("https://") ||
+          !/^\d{4}-\d{2}-\d{2}$/.test(source.accessed)) {
+        throw new Error(`${breed.key}.${field}: unresolved or incomplete evidence source ${sourceId}.`);
+      }
+    }
+  }
+}
+
 const aboutPage = read("about/index.html");
 if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "ming.zhao"')) {
   throw new Error("The About page is missing the named Person schema for ming.zhao.");

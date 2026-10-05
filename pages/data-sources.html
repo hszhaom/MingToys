@@ -3,7 +3,7 @@ layout: default
 title: "PetStorie Data Sources"
 description: "See how PetStorie checks breed standards, veterinary references, welfare guidance, cost ranges, and editorial dog-breed comparison labels."
 permalink: /data-sources/
-updated: "2026-10-03"
+updated: "2026-10-05"
 adsense: false
 ---
 
@@ -104,8 +104,9 @@ adsense: false
       </tbody>
     </table>
     <p>
-      <strong>Evidence and review limits:</strong> the shared records do not yet provide a source, access date, scope, or
-      confidence note for each fit label. Each record links to its guide, where page-level sources can be checked, but a guide's
+      <strong>Evidence and review limits:</strong> field-level evidence coverage is partial. The
+      <a href="#field-evidence">evidence notes below</a> distinguish supported care facts from provisional category mappings
+      and unvalidated cost assumptions. Each record links to its guide, where page-level sources can be checked, but a guide's
       source list does not validate every tool rule. The shared labels and tool methods are <strong>not professionally reviewed</strong>.
       Source checking is not veterinary or behavior-professional approval; see the
       <a href="{{ site.url }}/editorial-policy/">editorial policy</a> for review and attribution standards.
@@ -120,6 +121,46 @@ adsense: false
       dollars. It shows the monthly categories included in the estimate and excludes purchase price, licensing, a specific emergency,
       and treatment of a diagnosed condition. Local quotes should replace every category before an owner makes a financial decision.
     </p>
+
+    <h2 id="field-evidence">Household Fit Dataset: Field Evidence</h2>
+    {% assign published_breeds = site.data.breeds | where: "publication_status", "published" %}
+    {% assign evidenced_breeds = published_breeds | where_exp: "breed", "breed.evidence" %}
+    <p>
+      {{ evidenced_breeds | size }} of {{ published_breeds | size }} published breed records have field evidence notes.
+      Coverage is limited to the fields shown, not the whole record. This is an <strong>editorial synthesis</strong> of public
+      guidance, not original research or an owner survey. The same notes are included in the
+      <a href="{{ site.url }}/breed-data.json">Household Fit Dataset download</a>.
+    </p>
+    <p>
+      A source can support a care concern without validating our category boundary. Exercise labels are not minute targets;
+      grooming labels do not set salon bills; health labels are not disease probabilities. Cost categories remain
+      <strong>unvalidated planning assumptions</strong>. A dataset update date does not mean every field was checked that day;
+      use the dated notes and source access dates for the individual record.
+    </p>
+    {% for breed in evidenced_breeds %}
+    <h3 id="evidence-{{ breed.key }}">{{ breed.name | escape }}</h3>
+    <p><a href="{{ site.url }}{{ breed.url }}">Read the {{ breed.name | escape }} guide</a></p>
+    <details>
+      <summary>Read {{ breed.name | escape }} field evidence and limits</summary>
+      <p>Source check: {{ breed.evidence.checked | escape }}. Review status: <strong>{{ breed.evidence.review_status | escape }}</strong>.</p>
+      <p><strong>Scope:</strong> {{ breed.evidence.scope | escape }}</p>
+      <p><strong>Confidence and mapping limits:</strong> {{ breed.evidence.mapping_note | escape }}</p>
+      <dl>
+        {% for field in breed.evidence.fields %}
+        <dt id="evidence-{{ breed.key }}-{{ field[0] }}"><strong>{{ field[0] | replace: "_", " " | capitalize | escape }}: {{ field[1].value | escape }}</strong></dt>
+        <dd>
+          <p><strong>{{ field[1].basis | capitalize | escape }}.</strong> {{ field[1].note | escape }}</p>
+          <ul>
+            {% for source_id in field[1].sources %}
+            {% assign evidence_source = breed.evidence.sources[source_id] %}
+            <li><a href="{{ evidence_source.url | escape }}" rel="noopener noreferrer">{{ evidence_source.title | escape }}</a> (accessed {{ evidence_source.accessed | escape }}).</li>
+            {% endfor %}
+          </ul>
+        </dd>
+        {% endfor %}
+      </dl>
+    </details>
+    {% endfor %}
 
     <h2>How We Use Data</h2>
     <p>
