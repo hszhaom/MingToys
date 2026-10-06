@@ -2,15 +2,15 @@
 layout: default
 title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Cost Calculator: Monthly and First-Year Costs"
-description: "Estimate dog ownership costs by breed size, grooming needs, insurance choice, food quality, training, and routine care before choosing a dog."
+description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-09-14"
+updated: "2026-10-06"
 adsense: false
 sources:
   - organization: "ASPCA"
     title: "Cutting Pet Care Costs"
     url: "https://www.aspca.org/pet-care/general-pet-care/cutting-pet-care-costs"
-    accessed: "2026-07-18"
+    accessed: "2026-10-06"
   - organization: "North American Pet Health Insurance Association"
     title: "Industry Data"
     url: "https://naphia.org/industry-data/"
@@ -101,10 +101,10 @@ faq_schema:
           </select>
         </label>
         <label class="finder-control">
-          <span>Food plan</span>
-          <select id="cost-food">
-            <option value="basic">Standard quality food</option>
-            <option value="premium">Premium food</option>
+          <span>Food spending allowance</span>
+          <select id="cost-food" aria-describedby="food-plan-note">
+            <option value="basic">Included in base care</option>
+            <option value="premium">Add $25–$75 per month</option>
           </select>
         </label>
         <label class="finder-control">
@@ -129,29 +129,45 @@ faq_schema:
           </select>
         </label>
       </div>
+      <p id="food-plan-note">The optional food allowance stays as you choose it when switching breeds. It is a spending choice, not a diet recommendation; ask your veterinarian about the individual dog's nutritional needs.</p>
     </form>
+    <noscript><p>The interactive estimate needs JavaScript. Use the cost categories and quote checklist below to plan your budget.</p></noscript>
 
     <section class="calculator-result" aria-live="polite">
       <h2>Estimated Budget</h2>
       <div class="cost-output">
         <div>
           <span>First-year estimate</span>
-          <strong id="first-year-cost">$0</strong>
+          <strong id="first-year-cost">Not calculated</strong>
         </div>
         <div>
           <span>Monthly ongoing estimate</span>
-          <strong id="monthly-cost">$0</strong>
+          <strong id="monthly-cost">Not calculated</strong>
         </div>
       </div>
       <p id="cost-note"></p>
       <h3>Estimated Monthly Breakdown</h3>
       <table>
+        <caption>Monthly planning allowances in US dollars</caption>
         <thead>
-          <tr><th>Category</th><th>Planning Range</th></tr>
+          <tr><th scope="col">Category</th><th scope="col">Planning Range</th></tr>
         </thead>
         <tbody id="cost-breakdown"></tbody>
       </table>
+      <h3>Why This Preset Changes the Budget</h3>
+      <p id="cost-preset-reason"></p>
+      <p id="cost-reserve-note"></p>
+      <p id="cost-evidence-note"></p>
+      <p><a id="cost-evidence-link" href="{{ site.url }}/data-sources/#household-fit-data">Check the shared data and evidence limits</a>. <a id="cost-guide-link" hidden>Read this breed's full guide</a></p>
     </section>
+
+    <h2>Before You Commit: Check the Budget's Biggest Gaps</h2>
+    <p>More room in the monthly plan means less money available elsewhere, but a smaller allowance does not reduce the dog's care needs. These dollar ranges and reserve rules are editorial assumptions, not measured owner spending, insurance quotes, or a professionally reviewed financial model.</p>
+    <ol class="guide-list">
+      <li><strong>Care and food:</strong> request routine-care prices from a local clinic and price the food amount appropriate for the dog's adult size and life stage. The optional food allowance does not mean a breed needs a more expensive diet.</li>
+      <li><strong>Grooming and training:</strong> ask a groomer about coat condition and appointment frequency, and a qualified trainer about support for the individual dog. Breed labels do not set those fees.</li>
+      <li><strong>Emergency access:</strong> check insurance exclusions, deductibles, reimbursement timing, and what you must pay upfront. Savings take time to build; neither the monthly allowance nor the extra planning buffer guarantees that an emergency bill is covered.</li>
+    </ol>
 
     <h2>Costs Owners Often Forget</h2>
     <ul class="guide-list">
@@ -226,7 +242,7 @@ faq_schema:
     <h2>How the Calculator Builds the Range</h2>
     <p>
       The base-care range combines food at the selected size, routine preventive care, and ordinary replacement supplies. Grooming,
-      food upgrades, insurance or emergency savings, and a breed-risk reserve are added as separate monthly categories. The
+      an optional food allowance, insurance or emergency savings, and an extra planning buffer are added as separate monthly categories. The
       first-year range adds equipment, training, and setup costs to twelve months of ongoing care.
     </p>
     <p>
@@ -266,6 +282,8 @@ faq_schema:
       training: {{ breed.training | jsonify }},
       healthRisk: {{ breed.health_risk | jsonify }},
       costLevel: {{ breed.cost_level | jsonify }},
+      url: {{ breed.url | absolute_url | jsonify }},
+      costEvidence: {{ breed.evidence.fields.cost_level.note | jsonify }},
       caution: {{ breed.caution | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endif %}
@@ -316,7 +334,7 @@ faq_schema:
 
   function renderBreakdown(parts) {
     document.getElementById("cost-breakdown").innerHTML = parts.map(function (part) {
-      return "<tr><td>" + part.label + "</td><td>" + formatRange(part.range) + "</td></tr>";
+      return '<tr><th scope="row">' + part.label + "</th><td>" + formatRange(part.range) + "</td></tr>";
     }).join("");
   }
 
@@ -329,10 +347,6 @@ faq_schema:
     document.getElementById("cost-training").value = breed.training === "hard" ? "extra" : "basic";
     document.getElementById("cost-insurance").value = breed.costLevel === "high" || breed.healthRisk === "high" ? "insurance" : "savings";
     document.getElementById("cost-setup").value = breed.costLevel === "high" || breed.healthRisk === "high" ? "full" : "lean";
-    document.getElementById("cost-food").value = breed.size === "large" || breed.size === "giant" ? "premium" : "basic";
-    if (breed.costLevel === "high" || breed.healthRisk === "high") {
-      document.getElementById("cost-food").value = "premium";
-    }
   }
 
   function calculate() {
@@ -343,13 +357,27 @@ faq_schema:
     var training = document.getElementById("cost-training").value;
     var setup = document.getElementById("cost-setup").value;
     var breed = getSelectedBreed();
+    if (!sizeMonthly[size] || !groomingMonthly[grooming] || !foodMonthly[food] ||
+        !insuranceMonthly[insurance] || !trainingFirstYear[training] || !setupExtra[setup] ||
+        (document.getElementById("cost-breed").value && !breed)) {
+      document.getElementById("monthly-cost").textContent = "Not calculated";
+      document.getElementById("first-year-cost").textContent = "Not calculated";
+      document.getElementById("cost-breakdown").innerHTML = "";
+      document.getElementById("cost-note").textContent = "A selection could not be read. Choose a listed breed or manual settings, then check each option.";
+      ["cost-preset-reason", "cost-reserve-note", "cost-evidence-note"].forEach(function (id) {
+        document.getElementById(id).textContent = "";
+      });
+      document.getElementById("cost-guide-link").hidden = true;
+      document.getElementById("cost-evidence-link").href = "{{ site.url }}/data-sources/#household-fit-data";
+      return;
+    }
     var riskLevel = getRiskLevel(breed);
     var monthlyParts = [
       { label: "Base care by size", range: sizeMonthly[size] },
       { label: "Grooming", range: groomingMonthly[grooming] },
-      { label: "Food-plan adjustment", range: foodMonthly[food] },
+      { label: "Optional food allowance", range: foodMonthly[food] },
       { label: "Insurance or emergency savings", range: insuranceMonthly[insurance] },
-      { label: "Breed-risk reserve", range: breedRiskMonthly[riskLevel] }
+      { label: "Extra planning buffer (assumption)", range: breedRiskMonthly[riskLevel] }
     ];
     var monthly = addRanges(monthlyParts.map(function (part) { return part.range; }));
     var firstYear = addRanges([
@@ -365,6 +393,23 @@ faq_schema:
     document.getElementById("cost-note").textContent = breed
       ? "Preset: " + breed.name + ". " + breed.caution + " Use this as a planning range; local prices and individual health can change the budget."
       : "Use this as a planning range. Prices vary by city, clinic, breed, age, health, and owner choices.";
+    document.getElementById("cost-preset-reason").textContent = breed
+      ? "Shared labels for " + breed.name + ": size " + breed.size + ", grooming " + breed.grooming +
+        ", training " + breed.training + ", health-risk flag " + breed.healthRisk + ", cost flag " + breed.costLevel +
+        ". Selecting the breed copies size and grooming, chooses extra training only for a hard training label, and selects insurance and full setup when either flag is high. You can change those settings; totals use the current controls. Food spending remains your choice."
+      : "Manual settings: no breed labels are applied. Switching back to manual keeps your current choices and uses the default planning buffer. Choose a breed to see its care caution and preset rules.";
+    document.getElementById("cost-reserve-note").textContent =
+      "Extra planning buffer: " + formatRange(breedRiskMonthly[riskLevel]) + " monthly plus " +
+      formatRange(breedRiskSetup[riskLevel]) + " in first-year setup. " +
+      (breed ? "This uses the higher of the breed's health-risk and cost flags (" + riskLevel + "). It stays tied to the selected breed even if you edit the controls. " : "This is the default allowance without a breed preset. ") +
+      "It is added on top of insurance or emergency savings; it is not a predicted vet bill or an evidence-based savings target.";
+    document.getElementById("cost-evidence-note").textContent = breed && breed.costEvidence
+      ? "Dataset cost evidence: " + breed.costEvidence
+      : "No field-level cost evidence note is available for this selection. The dollar ranges remain unvalidated planning assumptions.";
+    document.getElementById("cost-evidence-link").href = "{{ site.url }}/data-sources/#" +
+      (breed && breed.costEvidence ? "evidence-" + breed.key : "household-fit-data");
+    document.getElementById("cost-guide-link").hidden = !breed;
+    document.getElementById("cost-guide-link").href = breed ? breed.url : "";
   }
 
   document.getElementById("cost-breed").addEventListener("change", function () {
