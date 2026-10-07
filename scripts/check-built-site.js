@@ -72,6 +72,19 @@ if (breedDirectory.includes('href="https://petstorie.com/posts/2026/08/03/akita-
 }
 
 const breedDataset = JSON.parse(read("breed-data.json"));
+const shibaComparison = read("shiba-inu-vs-corgi/index.html");
+checkPage("shiba-inu-vs-corgi/index.html", { ads: 0, faq: 1, sources: 1 });
+for (const field of ["exercise", "shedding", "grooming", "training", "cost_level", "caution"]) {
+  const row = shibaComparison.match(new RegExp(`<tr data-fit-field="${field}">([\\s\\S]*?)</tr>`))?.[1] || "";
+  const cells = [...row.matchAll(/<td>([\s\S]*?)<\/td>/g)].map((match) => match[1]);
+  const expected = ["shiba-inu", "pembroke-welsh-corgi"].map((key) => {
+    const value = breedDataset.breeds.find((breed) => breed.key === key)?.[field];
+    if (!value) throw new Error(`Comparison data missing: ${key}.${field}`);
+    const label = field === "caution" ? value : value[0].toUpperCase() + value.slice(1).toLowerCase();
+    return label.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  });
+  if (JSON.stringify(cells) !== JSON.stringify(expected)) throw new Error(`Shiba/Corgi comparison differs from shared data: ${field}`);
+}
 const publishedBreedCount = count(fs.readFileSync(path.join(root, "_data", "breeds.yml"), "utf8"), "publication_status: published");
 if (breedDataset.recordCount !== publishedBreedCount || breedDataset.breeds.length !== publishedBreedCount) {
   throw new Error(`Published breed dataset has ${breedDataset.breeds.length} records; expected ${publishedBreedCount}.`);
