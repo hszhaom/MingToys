@@ -2,12 +2,24 @@
 layout: default
 title: "French Bulldog vs Boston Terrier: Which Small Dog Fits Your Home?"
 seo_title: "French Bulldog vs Boston Terrier: Key Differences"
-description: "Compare French Bulldogs and Boston Terriers by temperament, exercise, apartment fit, shedding, health planning, heat sensitivity, and owner fit."
+description: "Compare French Bulldogs and Boston Terriers with shared care data, a hot-weather workday checklist, budget questions, and reasons to pause before choosing."
 permalink: /french-bulldog-vs-boston-terrier/
 cover: /assets/images/frenchbulldog-cover.jpg
-updated: "2026-09-14"
+updated: "2026-10-08"
 adsense: true
 sources:
+  - organization: "Cornell University College of Veterinary Medicine"
+    title: "Brachycephalic Obstructive Airway Syndrome (BOAS)"
+    url: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
+    accessed: "2026-10-08"
+  - organization: "PDSA"
+    title: "French Bulldog breed information"
+    url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/french-bulldog"
+    accessed: "2026-10-08"
+  - organization: "PDSA"
+    title: "Boston Terrier breed information"
+    url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/boston-terrier"
+    accessed: "2026-10-08"
   - organization: "American Kennel Club"
     title: "French Bulldog Dog Breed Information"
     url: "https://www.akc.org/dog-breeds/french-bulldog/"
@@ -28,7 +40,7 @@ faq_schema:
   - question: "Which breed sheds more, a French Bulldog or Boston Terrier?"
     answer: "Both have short coats, but either can leave noticeable hair around the home. Regular brushing, washable bedding, and realistic expectations matter more than choosing based on a low-shedding label."
   - question: "Which breed needs more exercise?"
-    answer: "Boston Terriers often enjoy a little more playful activity, while French Bulldogs usually need shorter, carefully paced outings. Both need activity adjusted for weather, breathing comfort, age, and body condition."
+    answer: "Boston Terriers can be enthusiastic players, but that does not establish greater exercise tolerance than a French Bulldog. Our low and medium exercise labels are planning categories, not minute targets. Ask a veterinarian about activity suited to the individual dog's breathing, age, health, and weather conditions."
   - question: "Are French Bulldogs or Boston Terriers good first dogs?"
     answer: "A prepared first-time owner can succeed with either breed, but neither is a low-planning choice. Reliable cooling, gentle training, weight management, and a realistic veterinary budget are important from the start."
 ---
@@ -46,38 +58,53 @@ faq_schema:
       realistic expectations about a flat-faced dog. Neither breed is a shortcut to easy ownership.
     </p>
 
-    <h2>Quick Verdict</h2>
-    <table>
+    <p>
+      Start with the <a href="#weekday-plan">hot-weather workday plan</a> and
+      <a href="#before-choosing">questions to settle before choosing</a>. If you cannot arrange cooling, backup care, and
+      emergency transport, changing from a Frenchie to a Boston does not solve those gaps.
+    </p>
+
+    {% assign frenchie = site.data.breeds | where: "key", "french-bulldog" | first %}
+    {% assign boston = site.data.breeds | where: "key", "boston-terrier" | first %}
+    <h2>Quick Facts and Household Trade-offs</h2>
+    <table style="table-layout: fixed;">
+      <caption>Companion style and shared Household Fit Dataset labels</caption>
       <thead>
         <tr>
-          <th>Question</th>
-          <th>French Bulldog</th>
-          <th>Boston Terrier</th>
+          <th scope="col">Question</th>
+          <th scope="col">French Bulldog</th>
+          <th scope="col">Boston Terrier</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Best fit</td>
+          <th scope="row">Best fit</th>
           <td>Owners seeking a close indoor companion and prepared for serious health-cost planning.</td>
           <td>Owners wanting a small, social dog with moderate play needs and a consistent cooling plan.</td>
         </tr>
-        <tr>
-          <td>Daily energy</td>
-          <td>Low to moderate, with short and carefully paced activity.</td>
-          <td>Moderate, often with more enthusiasm for play and short training sessions.</td>
+        {% assign fit_fields = "exercise,grooming,health_risk,cost_level,caution" | split: "," %}
+        {% for field in fit_fields %}
+        <tr data-fit-field="{{ field }}">
+          <th scope="row">{{ field | replace: "_", " " | capitalize }}</th>
+          {% if field == "caution" %}
+          <td>{{ frenchie[field] | escape }}</td>
+          <td>{{ boston[field] | escape }}</td>
+          {% else %}
+          <td>{{ frenchie[field] | capitalize | escape }}</td>
+          <td>{{ boston[field] | capitalize | escape }}</td>
+          {% endif %}
         </tr>
-        <tr>
-          <td>Coat routine</td>
-          <td>Short coat, plus folds, ears, and skin awareness.</td>
-          <td>Short coat, routine brushing, and gentle eye awareness.</td>
-        </tr>
-        <tr>
-          <td>Main caution</td>
-          <td>Breathing, heat, spine, skin, and veterinary costs.</td>
-          <td>Breathing, heat, prominent eyes, and overdoing activity.</td>
-        </tr>
+        {% endfor %}
       </tbody>
     </table>
+    <p>
+      These five labels come from the same records used by the <a href="{{ site.url }}/dog-breed-selector/">Breed Selector</a>.
+      Read the dated <a href="{{ site.url }}/data-sources/#evidence-french-bulldog">French Bulldog evidence</a> and
+      <a href="{{ site.url }}/data-sources/#evidence-boston-terrier">Boston Terrier evidence</a> before interpreting them.
+      This is editorial synthesis, <strong>not professionally reviewed</strong>. Exercise labels do not measure safe endurance;
+      health labels are not disease probabilities. Cost labels are unvalidated planning assumptions, so Boston's medium label
+      does not establish a lower lifetime bill. Grooming labels describe routine effort, not all medical care.
+    </p>
 
     <h2>Temperament and Everyday Routine</h2>
     <p>
@@ -107,42 +134,52 @@ faq_schema:
       habit. In either case, an apartment is workable only when the care plan is workable.
     </p>
 
-    <h2>Exercise, Heat, and Travel</h2>
-    <table>
+    <h2 id="weekday-plan" style="scroll-margin-top: 5rem;">Plan a Hot Workday Before Bringing Either Dog Home</h2>
+    <p>
+      Use this hypothetical workday to assign care, not to set exercise minutes or a safe temperature. It assumes an adult dog;
+      puppies and dogs with health or separation concerns need an individual plan. Write a person's name beside each task.
+      PDSA's <a href="https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/french-bulldog" rel="noopener noreferrer">French Bulldog</a>
+      and <a href="https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/boston-terrier" rel="noopener noreferrer">Boston Terrier guidance</a>
+      both identify heat limits; playful energy does not remove them.
+    </p>
+    <table style="table-layout: fixed;">
+      <caption>A household planning exercise, not an observed owner routine or a veterinary protocol</caption>
       <thead>
         <tr>
-          <th>Routine question</th>
-          <th>French Bulldog</th>
-          <th>Boston Terrier</th>
+          <th scope="col">Point in the day</th>
+          <th scope="col">Arrange in advance</th>
+          <th scope="col">Question to resolve</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Typical activity style</td>
-          <td>Brief, calm walks and indoor play with generous rest.</td>
-          <td>Short walks, play, and training games with deliberate rest breaks.</td>
+          <th scope="row">Before leaving</th>
+          <td>Choose a cool outing window and allow time for an unhurried return. Check the indoor cooling arrangement.</td>
+          <td>Who can change the walk plan if conditions are unsuitable, instead of rushing to fit a commute?</td>
         </tr>
         <tr>
-          <td>Warm weather</td>
-          <td>Requires a conservative cooling plan and very careful activity limits.</td>
-          <td>Also needs cool walk times, shade, water, and close monitoring.</td>
+          <th scope="row">Midday care</th>
+          <td>Arrange company and toilet access suited to the individual dog. Check whether the lift, corridor, and outdoor route become hot.</td>
+          <td>Can the caregiver provide a suitable break without relying on a long group walk? Who covers a cancelled visit?</td>
         </tr>
         <tr>
-          <td>Running partner</td>
-          <td>Not a suitable choice for distance running or hot-weather exertion.</td>
-          <td>Not a reliable choice for distance running despite a lively personality.</td>
+          <th scope="row">Homecoming and play</th>
+          <td>Allow calm greetings and rest. Discuss activity limits with your veterinarian rather than using willingness to chase a toy as a fitness test.</td>
+          <td>Can the household stop an exciting game, including with an enthusiastic Boston, rather than waiting for exhaustion?</td>
         </tr>
         <tr>
-          <td>Travel planning</td>
-          <td>Confirm carrier, climate, and veterinary needs before any trip.</td>
-          <td>Plan for temperature control and protection from eye injury or overexcitement.</td>
+          <th scope="row">Cooling or transport fails</th>
+          <td>Name a reachable person, a cool backup location, and transport to an emergency veterinary service. Confirm the clinic's current access arrangements.</td>
+          <td>Can someone reach the dog while you are at work? A temperature alert is useful only if someone can act.</td>
         </tr>
       </tbody>
     </table>
     <p>
-      Loud or labored breathing, weakness, blue or pale gums, collapse, or difficulty recovering from mild activity are not normal
-      quirks to ignore. Stop activity and seek veterinary advice promptly. A responsible owner plans outings around the dog's
-      comfort rather than asking the dog to keep up with a human exercise routine.
+      <strong>Emergency signs:</strong> struggling to breathe, blue gums, or collapse require immediate emergency veterinary care.
+      Stop activity and go to the nearest available emergency veterinary service; do not wait for a routine appointment.
+      <a href="https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas" rel="noopener noreferrer">Cornell's BOAS guidance</a>
+      explains why a breathing crisis needs immediate care. Persistent noisy breathing or difficulty with ordinary activity also
+      warrants veterinary assessment, even without a crisis. Do not exercise a dog to reproduce symptoms.
     </p>
 
     <h2>Grooming, Shedding, and Home Cleanup</h2>
@@ -207,7 +244,12 @@ faq_schema:
       </tbody>
     </table>
 
-    <h2>Which One Should You Choose?</h2>
+    <h2 id="before-choosing" style="scroll-margin-top: 5rem;">Before Choosing: Three Gaps That Should Pause the Decision</h2>
+    <ol>
+      <li><strong>No reliable weekday cover:</strong> complete the care and cooling plan above with a primary person and a backup. If the only available service is an unsuitable exercise outing, find another arrangement before committing to either dog.</li>
+      <li><strong>A budget based only on the purchase price:</strong> select each breed in the <a href="{{ site.url }}/dog-cost-calculator/">cost calculator</a>, then replace its assumptions with local care quotes. Keep routine care, paid midday cover, and possible medical costs separate. Ask insurers in writing about exclusions and your share of a claim; the calculator cannot price treatment for this dog.</li>
+      <li><strong>Missing individual health information:</strong> ask the breeder or rescue for available veterinary records, previous breathing or eye concerns, and any surgery history. Have a licensed veterinarian explain what is known and what remains uncertain. A missing history is a reason to investigate, not proof of good health.</li>
+    </ol>
     <p>
       Choose a French Bulldog only if you want a close indoor companion and are comfortable making cooling, breathing awareness,
       and veterinary budgeting part of ordinary life. Choose a Boston Terrier if you want a small dog with a little more playful
@@ -215,9 +257,10 @@ faq_schema:
       a rugged walking partner, a hot-climate outdoor dog, or a low-budget pet with few health considerations.
     </p>
     <p>
-      When both breeds still seem possible, meet adult dogs, watch how they recover after calm activity, and ask direct questions
-      about health history. The better fit is the dog whose care requirements remain manageable on an ordinary busy weekday, not
-      the one that makes the stronger first impression.
+      When both breeds still seem possible, meet adult dogs in a calm setting and discuss their ordinary routine with the current
+      caregiver. Do not use a visit as a home breathing test. If flat-faced care demands do not fit your circumstances, widen the
+      search through the <a href="{{ site.url }}/apartment-dog-breeds/">apartment dog guide</a> and ask a rescue about adult dogs
+      with a documented care history. A different breed still needs its own health and household assessment.
     </p>
 
     <h2>Continue Your Research</h2>
