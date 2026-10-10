@@ -42,6 +42,7 @@ That changes the home routine. Reliable cooling, short walks at sensible times, 
 
 
 ## Boston Terrier Fit: Climate Is Part of the Floor Plan
+
 | Daily constraint | Score | What it changes |
 |---|---|---|
 | Cooling plan | 5/5 | Air conditioning, shade, and flexible walk times are basic equipment in a warm climate. |
@@ -186,6 +187,12 @@ For a practical planning check, use the [dog cost calculator]({{ site.url }}/dog
 A Boston Terrier is a great choice for city dwellers, families, and first-time owners who want a friendly, easygoing small dog without heavy grooming or exercise demands. If you can keep one cool, watch the breathing, protect those eyes, and offer plenty of companionship, you'll have a cheerful, devoted little gentleman that fits almost any living situation.
 
 It's less suitable if you live somewhere hot, want a jogging partner, or are away from home for long days. To weigh it against other small companions, look at the [athletic, sporty Papillon]({{ site.url }}/posts/2026/06/08/papillon-butterfly-eared-little-fluffy-acrobat/), the [working-minded German Shepherd]({{ site.url }}/posts/2026/06/08/german-shepherd-smart-loyal-protector-with-goofy-side/), or read about [living day-to-day with a Bull Terrier]({{ site.url }}/posts/2026/06/09/bull-terrier-unique-egg-head-playful-troublemaker/).
+
+### Before You Add a Boston to Your Shortlist
+
+1. Use the [French Bulldog vs Boston Terrier workday checklist]({{ site.url }}/french-bulldog-vs-boston-terrier/#weekday-plan) to name who will cover each part of the day and what happens if the usual arrangement fails.
+2. Read the [Boston Terrier field evidence and limits]({{ site.url }}/data-sources/#evidence-boston-terrier) before relying on its exercise, grooming, health, or cost labels. These are editorial planning categories and are **not professionally reviewed**.
+3. Select Boston Terrier and your other candidate in the [Dog Breed Selector]({{ site.url }}/dog-breed-selector/), compare their cautions, and take the unanswered questions to the breeder or rescue and a licensed veterinarian. Use local quotes to replace the cost calculator's assumptions.
 
 ## The Boston Terrier Decision
 The Boston Terrier is a charming, adaptable companion that earns its "American Gentleman" reputation: friendly, funny, low-shedding, and right at home in a city apartment or a family living room. For low grooming and moderate exercise, you get a genuinely delightful little dog.
