@@ -168,6 +168,56 @@
   breed_standard_url: https://www.akc.org/dog-breeds/golden-retriever/
   publication_status: published
   image_prefix: golden
+  evidence:
+    checked: "2026-10-12"
+    review_status: "not professionally reviewed"
+    scope: "Adult Golden Retriever household planning. Puppies, seniors, and dogs with symptoms need individual veterinary advice. Only the seven fields below were checked."
+    mapping_note: "Sources support care tasks and screening questions, not validated category boundaries. Health and training labels cannot rank individual dogs; cost remains an unvalidated assumption."
+    sources:
+      pdsa:
+        title: "PDSA: Golden Retriever breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/large-dogs/golden-retriever"
+        accessed: "2026-10-12"
+      grca:
+        title: "GRCA: Health Screenings for the Parents of a Litter"
+        url: "https://grca.org/about-the-breed/health-research/health-screenings-for-the-parents-of-a-litter/"
+        accessed: "2026-10-12"
+    fields:
+      exercise:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA describes substantial daily activity with play and training. High signals time to plan, not a compulsory duration or safe endurance target for every dog. Ask a veterinarian about limitations."
+        sources: [pdsa]
+      shedding:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA describes considerable shedding and extra brushing during coat changes. High is a cleaning expectation, not a measured quantity of hair."
+        sources: [pdsa]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA advises brushing several times weekly, increasing during coat changes. Medium represents recurring home coat care; it does not specify salon visits or prices."
+        sources: [pdsa]
+      training:
+        value: easy
+        basis: "editorial synthesis"
+        note: "PDSA describes responsiveness to reward-based teaching. Easy remains a provisional label, not a promise of reliable recall, calm behavior, or little training effort."
+        sources: [pdsa]
+      health_risk:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA describes joint and eye concerns; GRCA recommends parental hip, elbow, eye, and heart screening. High flags planning attention, not measured disease prevalence or proof that Goldens are less healthy than breeds labelled medium. Discuss the individual dog's records with a licensed veterinarian."
+        sources: [pdsa, grca]
+      cost_level:
+        value: medium
+        basis: "unvalidated planning assumption"
+        note: "PDSA lists food, preventive care, insurance, and paid support costs. Its UK estimates do not validate this category or the calculator's US ranges. Replace presets with local quotes; medium does not cap medical spending."
+        sources: [pdsa]
+      caution:
+        value: "Needs daily activity, brushing, weight control, and health screening awareness."
+        basis: "editorial synthesis"
+        note: "PDSA supports activity, coat care, and weight monitoring. GRCA explains how buyers can check parental screening records by registered name or number; clearances cannot exclude every future illness."
+        sources: [pdsa, grca]
 - key: french-bulldog
   name: French Bulldog
   url: "/posts/2026/06/01/french-bulldog-squishy-faced-couch-potato-comedians/"
@@ -258,6 +308,64 @@
   breed_standard_url: https://www.akc.org/dog-breeds/pembroke-welsh-corgi/
   publication_status: published
   image_prefix: corgi
+  evidence:
+    checked: "2026-10-12"
+    review_status: "not professionally reviewed"
+    scope: "Adult Pembroke Welsh Corgi household planning, not Cardigan-specific advice. PDSA's broader Welsh Corgi page is used only alongside Pembroke parent-club material. Only the seven fields below were checked."
+    mapping_note: "Care requirements have source support; category boundaries remain provisional editorial judgments. Health labels are not prevalence estimates. The club FAQ is used for shedding and barking context, not its punitive training suggestions."
+    sources:
+      pwcca_care:
+        title: "PWCCA: About Pembrokes (daily care and training)"
+        url: "https://pwcca.org/about-pembrokes"
+        accessed: "2026-10-12"
+      pwcca_faq:
+        title: "PWCCA: PWC FAQs (shedding and alert barking)"
+        url: "https://pwcca.org/PWC-FAQS"
+        accessed: "2026-10-12"
+      pwcca_health:
+        title: "PWCCA: Health and Genetics"
+        url: "https://pwcca.org/Genetics-and-Health"
+        accessed: "2026-10-12"
+      pdsa:
+        title: "PDSA: Welsh Corgi breed information (broader breed scope)"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/medium-dogs/welsh-corgi"
+        accessed: "2026-10-12"
+    fields:
+      exercise:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PWCCA describes an energetic herder needing regular outings; PDSA gives a broad daily exercise guide. Medium does not mean short legs need little activity or prescribe minutes. Adapt activity to age and health with a veterinarian."
+        sources: [pwcca_care, pdsa]
+      shedding:
+        value: high
+        basis: "editorial synthesis"
+        note: "PWCCA describes substantial seasonal undercoat loss. High signals household cleaning and brushing needs, not a quantified shedding rate."
+        sources: [pwcca_faq]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA describes several brushing sessions weekly; PWCCA notes extra work during undercoat shedding. Medium is a home-care allowance, not a professional grooming schedule or cost."
+        sources: [pdsa, pwcca_faq]
+      training:
+        value: easy
+        basis: "editorial synthesis"
+        note: "PWCCA describes responsiveness to gentle teaching and recommends basic training. Easy does not remove the need to teach settling or manage herding behavior; individual dogs differ."
+        sources: [pwcca_care, pdsa]
+      health_risk:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PWCCA discusses hip and eye screening and other inherited conditions; PDSA also flags spinal-disc concerns in Welsh Corgis. Medium is provisional, not a lower disease probability than a high-labelled breed. Ask a licensed veterinarian to interpret individual and family records."
+        sources: [pwcca_health, pdsa]
+      cost_level:
+        value: medium
+        basis: "unvalidated planning assumption"
+        note: "PDSA's UK cost categories include routine care but do not establish US bills or this medium category. Obtain local food, grooming, training, and insurance quotes; screening information from PWCCA cannot predict treatment spending."
+        sources: [pdsa, pwcca_health]
+      caution:
+        value: "Needs weight control, bark management, and mentally useful work."
+        basis: "editorial synthesis"
+        note: "PWCCA advises weight management and training and describes alert barking. Plan teaching and enrichment; persistent or changing behavior warrants individual assessment by a veterinarian or qualified behavior professional. This caution does not endorse punishment."
+        sources: [pwcca_care, pwcca_faq]
 - key: samoyed
   name: Samoyed
   url: "/posts/2026/06/01/samoyed-smiling-fluffy-snow-angels/"
@@ -306,6 +414,60 @@
   breed_standard_url: https://www.akc.org/dog-breeds/shiba-inu/
   publication_status: published
   image_prefix: shiba
+  evidence:
+    checked: "2026-10-12"
+    review_status: "not professionally reviewed"
+    scope: "Adult Shiba Inu household planning. Behavior, exercise tolerance, and care needs vary with the individual dog. Only the seven fields below were checked."
+    mapping_note: "Sources support activity, coat care, containment, and screening questions. The hard training and medium health labels remain provisional; they are not comparative research results. No source validates the cost category."
+    sources:
+      dogs_trust:
+        title: "Dogs Trust: Japanese Shiba Inu care and training"
+        url: "https://www.dogstrust.org.uk/dog-advice/getting-dog/breeds/japanese-shiba-inu"
+        accessed: "2026-10-12"
+      nsca_buyer:
+        title: "NSCA: How to Choose a Breeder (containment and owner expectations)"
+        url: "https://shibas.org/newstand/how_to_choose_breeder.html"
+        accessed: "2026-10-12"
+      nsca_screening:
+        title: "NSCA: Parent Club Health Testing Recommendations"
+        url: "https://www.shibas.org/docs/ParentClubHealthTestingRecommendations.pdf"
+        accessed: "2026-10-12"
+    fields:
+      exercise:
+        value: medium
+        basis: "editorial synthesis"
+        note: "Dogs Trust describes moderate activity with daily outings and enrichment. Medium is a planning category, not a minute target; adjust for age and health with veterinary advice."
+        sources: [dogs_trust]
+      shedding:
+        value: high
+        basis: "editorial synthesis"
+        note: "Dogs Trust describes heavy shedding. High means planning for loose hair; it is not a measurement or an allergy-safety claim."
+        sources: [dogs_trust]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "Dogs Trust highlights shedding and gradual, positive handling practice. Medium includes coat care and learning to tolerate grooming; the source does not establish a salon schedule or price."
+        sources: [dogs_trust]
+      training:
+        value: hard
+        basis: "editorial synthesis"
+        note: "NSCA stresses containment and realistic owner expectations; Dogs Trust recommends reward-based life skills. Hard is a provisional management label, not evidence of slower learning or an inability to train."
+        sources: [nsca_buyer, dogs_trust]
+      health_risk:
+        value: medium
+        basis: "editorial synthesis"
+        note: "NSCA recommends parental hip, eye, and patella checks. Dogs Trust recommends an individual veterinary discussion before purchase. Medium does not estimate disease probability or prove lower risk than a high-labelled breed; screening cannot guarantee future health."
+        sources: [nsca_screening, dogs_trust]
+      cost_level:
+        value: medium
+        basis: "unvalidated planning assumption"
+        note: "Dogs Trust recommends discussing potential care costs with a vet; NSCA identifies contract and ownership expenses. Neither provides representative US spending or validates medium. Price training, secure containment, insurance, and routine care locally before relying on calculator presets."
+        sources: [dogs_trust, nsca_buyer]
+      caution:
+        value: "Best for owners who accept independence, leash discipline, and secure fencing."
+        basis: "editorial synthesis"
+        note: "NSCA supports secure off-lead areas and leash management elsewhere. Independence is an editorial description, not evidence that a Shiba tolerates long absences. Check the individual dog's history and your daily supervision plan."
+        sources: [nsca_buyer, dogs_trust]
 - key: siberian-husky
   name: Siberian Husky
   url: "/posts/2026/06/01/siberian-husky-wolf-lookalike-talking-clowns/"
