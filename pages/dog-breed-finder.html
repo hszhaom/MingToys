@@ -3,7 +3,7 @@ layout: default
 title: "Dog Breed Finder: Match Breeds to Your Real Life"
 description: "Use the PetStorie dog breed finder to compare dog breeds by apartment fit, family life, exercise needs, shedding, grooming, and owner experience."
 permalink: /dog-breed-finder/
-updated: "2026-09-12"
+updated: "2026-10-13"
 adsense: false
 sources:
   - organization: "American Kennel Club"
@@ -12,8 +12,12 @@ sources:
     accessed: "2026-07-29"
   - organization: "ASPCA"
     title: "General Dog Care"
-    url: "https://www.aspca.org/pet-care/dog-care"
-    accessed: "2026-07-29"
+    url: "https://www.aspca.org/pet-care/dog-care/general-dog-care"
+    accessed: "2026-10-13"
+  - organization: "Cornell University College of Veterinary Medicine"
+    title: "Brachycephalic Obstructive Airway Syndrome (BOAS)"
+    url: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
+    accessed: "2026-10-13"
   - organization: "Orthopedic Foundation for Animals"
     title: "CHIC Browse by Breed"
     url: "https://ofa.org/chic-programs/browse-by-breed/"
@@ -23,7 +27,7 @@ web_application:
   category: "LifestyleApplication"
 faq_schema:
   - question: "How does the Dog Breed Finder choose matches?"
-    answer: "It compares your home, experience, children, exercise time, shedding tolerance, and grooming tolerance against PetStorie breed data. The score is a research starting point, not a guarantee."
+    answer: "It orders research candidates by six shared breed labels and editorial penalties, then explains matching labels and differences. Separate care checks highlight unresolved cooling, weekday care, and veterinary access; they do not validate suitability or change the order."
   - question: "Can a breed finder tell me the perfect dog?"
     answer: "No. A breed finder can narrow the list, but individual temperament, age, health, breeder or rescue history, training, and your daily routine still matter."
   - question: "Should first-time owners avoid high-drive breeds?"
@@ -50,15 +54,14 @@ faq_schema:
 
     <h2>Find Dog Breeds by Lifestyle, Not Just Looks</h2>
     <p>
-      This dog breed finder compares your answers with PetStorie's breed data and returns stronger and weaker matches. The score
-      favors dogs that fit your home type, experience level, children, exercise time, shedding tolerance, and grooming tolerance.
-      It also adds caution when a first-time owner chooses a harder training breed or when a giant dog is squeezed into apartment
-      life.
+      Compare six preferences with the shared breed labels, then check what the result leaves unresolved. Each card explains
+      matching labels, its largest ranking penalty, and the breed's care caution. The order uses editorial weights, not measured
+      adoption outcomes. A higher place does not establish that a dog suits your household.
     </p>
     <p>
-      The tool is intentionally conservative. A breed that scores lower may still be wonderful in the right home, but the lower
-      score is a prompt to read the full guide carefully. The best match is the breed whose needs you can meet consistently, not
-      just the breed whose personality sounds exciting.
+      Cooling, weekday care, and access to a veterinarian need a separate plan. Complete the care checks below before using the
+      candidates as a shortlist. Even three plans in place cannot assess an individual dog's health, behavior, or ability to cope
+      while you are away.
     </p>
 
     <form class="breed-finder-form" id="breed-finder-form">
@@ -87,11 +90,11 @@ faq_schema:
           </select>
         </label>
         <label class="finder-control">
-          <span>Daily exercise time</span>
+          <span>Daily activity routine</span>
           <select id="exercise">
-            <option value="low">About 30 minutes</option>
-            <option value="medium">Around 1 hour</option>
-            <option value="high">2 hours or more</option>
+            <option value="low">Lower activity</option>
+            <option value="medium">Moderate activity</option>
+            <option value="high">High activity</option>
           </select>
         </label>
         <label class="finder-control">
@@ -111,30 +114,70 @@ faq_schema:
           </select>
         </label>
       </div>
+      <p>Activity labels are broad planning categories, not exercise prescriptions. Confirm an individual routine with a veterinarian;
+        <a href="https://www.aspca.org/pet-care/dog-care/general-dog-care" rel="noopener noreferrer">exercise needs vary with age and health</a>.</p>
+      <h2 id="care-checks">Check the Care Plan Before Shortlisting</h2>
+      <p>These answers flag unfinished plans for every candidate. They do not add points or certify a safe match.</p>
+      <div class="filter-grid">
+        <label class="finder-control">
+          <span>Cooling at home and during travel, including a backup</span>
+          <select id="care-cooling">
+            <option value="unsure">Not checked yet</option>
+            <option value="planned">I have a plan to discuss</option>
+            <option value="missing">I cannot arrange this yet</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Weekday care and cover when I am away</span>
+          <select id="care-weekday">
+            <option value="unsure">Not checked yet</option>
+            <option value="planned">I have a plan to discuss</option>
+            <option value="missing">I cannot arrange this yet</option>
+          </select>
+        </label>
+        <label class="finder-control">
+          <span>Routine and emergency veterinary access, transport, and budget</span>
+          <select id="care-vet">
+            <option value="unsure">Not checked yet</option>
+            <option value="planned">I have a plan to discuss</option>
+            <option value="missing">I cannot arrange this yet</option>
+          </select>
+        </label>
+      </div>
+      <p>Cooling deserves particular attention for flat-faced breeds; see
+        <a href="https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas" rel="noopener noreferrer">Cornell's BOAS guidance</a>.
+        Ask a licensed veterinarian about the individual dog. The checklist is editorial planning support, not a clinical assessment.</p>
     </form>
 
-    <section class="finder-results" aria-live="polite">
-      <h2>Best Matches</h2>
+    <section class="finder-results" aria-labelledby="candidate-heading">
+      <h2 id="candidate-heading">Research Candidates</h2>
+      <p id="finder-status" role="status" aria-live="polite" aria-atomic="true">Interactive results require JavaScript. You can also use the <a href="{{ site.url }}/dog-breeds/">breed directory</a> and the care checklist below.</p>
+      <ul id="care-next-steps">
+        <li>Check cooling at home and during travel, including what happens if it fails.</li>
+        <li>Name a weekday caregiver and a backup; discuss time alone with the rescue or breeder.</li>
+        <li>Confirm routine and emergency clinics, transport, and local quotes.</li>
+      </ul>
       <div id="best-breed-results" class="result-grid"></div>
-      <h2>Possible Matches</h2>
+      <h2>More Candidates to Compare</h2>
       <div id="possible-breed-results" class="result-grid"></div>
     </section>
 
     <p class="method-note">
-      Scores use editorial weights, not measured success rates. Read
+      The order uses editorial weights, not measured success rates. Labels and methods are <strong>not professionally reviewed</strong>. Read
       <a href="{{ site.url }}/data-sources/#household-fit-data">how the shared breed labels, scoring limits, and review status work</a>
       before treating a result as a shortlist.
     </p>
 
     <h2>How to Read the Results</h2>
     <p>
-      The score is a practical starting point, not a guarantee. A good breeder, rescue match, training plan, health history, and
-      individual dog temperament still matter. Use the result cards to open full breed guides before making a decision.
+      Matching labels explain the ordering; they are not proof of compatibility. The largest ranking penalty shows one difference
+      or added caution in the formula, not the most serious risk for that dog. Read the care caution and field evidence, then
+      discuss individual temperament, health records, and your unfinished plans with the rescue, breeder, and qualified professionals.
     </p>
     <p>
       Look especially at the caution text on each card. That line usually names the issue owners underestimate: barking, heat,
       grooming, weight control, prey drive, strength, anxiety, or exercise. If the caution already sounds difficult, the breed may
-      be a poor fit even if the overall score looks high.
+      need more support than you can provide even if it appears near the top.
     </p>
 
     <h2>What Each Filter Really Means</h2>
@@ -211,7 +254,8 @@ faq_schema:
       training: {{ breed.training | jsonify }},
       healthRisk: {{ breed.health_risk | jsonify }},
       costLevel: {{ breed.cost_level | jsonify }},
-      caution: {{ breed.caution | jsonify }}
+      caution: {{ breed.caution | jsonify }},
+      hasEvidence: {% if breed.evidence %}true{% else %}false{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% endif %}
     {% endfor %}
@@ -248,18 +292,46 @@ faq_schema:
     return Math.abs(wantedIndex - actualIndex);
   }
 
-  function scoreBreed(breed, filters) {
+  var criteria = [
+    { key: "home", name: "Home", weight: 22 },
+    { key: "experience", name: "Experience", weight: 18 },
+    { key: "exercise", name: "Activity", weight: 15 },
+    { key: "shedding", name: "Shedding", weight: 10 },
+    { key: "grooming", name: "Grooming", weight: 8 },
+    { key: "kids", name: "Children", weight: 12 }
+  ];
+  var careSteps = [
+    { id: "care-cooling", next: "Check cooling at home and during travel, including what happens if it fails." },
+    { id: "care-weekday", next: "Name a weekday caregiver and a backup; discuss time alone with the rescue or breeder." },
+    { id: "care-vet", next: "Confirm routine and emergency clinics, transport, and local quotes." }
+  ];
+
+  function assessBreed(breed, filters) {
     var score = 100;
-    score -= valueDistance("home", filters.home, breed.home) * 22;
-    score -= valueDistance("experience", filters.experience, breed.experience) * 18;
-    score -= valueDistance("exercise", filters.exercise, breed.exercise) * 15;
-    score -= valueDistance("shedding", filters.shedding, breed.shedding) * 10;
-    score -= valueDistance("grooming", filters.grooming, breed.grooming) * 8;
-    if (filters.kids !== breed.kids) score -= 12;
-    if (filters.experience === "first" && breed.training === "hard") score -= 10;
-    if (filters.home === "apartment" && breed.size === "giant") score -= 12;
-    if (filters.exercise === "low" && breed.exercise === "high") score -= 10;
-    return Math.max(18, Math.min(100, score));
+    var matches = [];
+    var penalties = [];
+    function penalize(points, reason) {
+      score -= points;
+      penalties.push({ points: points, reason: reason });
+    }
+    criteria.forEach(function (criterion) {
+      var key = criterion.key;
+      if (filters[key] === breed[key]) {
+        matches.push(criterion.name + ": " + label(breed[key]));
+      } else {
+        var distance = key === "kids" ? 1 : valueDistance(key, filters[key], breed[key]);
+        penalize(distance * criterion.weight, criterion.name + " label: " + label(breed[key]) + "; your answer: " + label(filters[key]) + ".");
+      }
+    });
+    if (filters.experience === "first" && breed.training === "hard") penalize(10, "Hard training label with first-time experience.");
+    if (filters.home === "apartment" && breed.size === "giant") penalize(12, "Giant size label with an apartment home.");
+    if (filters.exercise === "low" && breed.exercise === "high") penalize(10, "High activity label with a lower-activity routine.");
+    penalties.sort(function (a, b) { return b.points - a.points; });
+    return {
+      score: Math.max(18, Math.min(100, score)),
+      matches: matches.join("; ") || "None of the six labels matches your answers exactly.",
+      difference: penalties.length ? penalties[0].reason : "No label difference in this formula. The care caution and individual-dog checks still apply."
+    };
   }
 
   function getFilters() {
@@ -283,35 +355,52 @@ faq_schema:
 
     return [
       '<article class="breed-result">',
-      '<div class="result-head"><h3>' + escapeHtml(breed.name) + '</h3><span>' + breed.score + '/100</span></div>',
-      '<div class="score-bar"><span style="width:' + breed.score + '%"></span></div>',
+      '<h3>' + escapeHtml(breed.name) + '</h3>',
       '<p class="result-meta">' + escapeHtml(meta) + '</p>',
       '<p>' + escapeHtml(breed.summary) + '</p>',
-      '<p class="result-caution">' + escapeHtml(breed.caution) + '</p>',
+      '<p><strong>Matching labels:</strong> ' + escapeHtml(breed.matches) + '</p>',
+      '<p><strong>Largest ranking penalty:</strong> ' + escapeHtml(breed.difference) + '</p>',
+      '<p class="result-caution"><strong>Main care trade-off to check:</strong> ' + escapeHtml(breed.caution) + '</p>',
+      '<p><strong>Next:</strong> Discuss this caution and your care plans with the rescue or breeder; ask a licensed veterinarian about health concerns.</p>',
+      '<p><a href="{{ site.url }}/data-sources/#' + (breed.hasEvidence ? 'evidence-' + escapeHtml(breed.key) : 'field-evidence') + '">' + (breed.hasEvidence ? 'Read ' + escapeHtml(breed.name) + ' field evidence and limits' : 'Field evidence is not yet available for this breed; read the limits') + '</a></p>',
       '<a href="' + escapeHtml(breed.url) + '">Read the full guide</a>',
       '</article>'
     ].join("");
   }
 
-  function renderEmpty() {
-    document.getElementById("best-breed-results").innerHTML = [
-      '<article class="breed-result">',
-      '<h3>No breed data found</h3>',
-      '<p>The finder needs the shared breed data file to build recommendations.</p>',
-      '</article>'
-    ].join("");
+  function renderEmpty(message) {
+    document.getElementById("finder-status").textContent = message;
+    document.getElementById("best-breed-results").innerHTML = '<p><a href="{{ site.url }}/dog-breeds/">Browse the breed directory</a> while results are unavailable.</p>';
     document.getElementById("possible-breed-results").innerHTML = "";
   }
 
   function render() {
-    if (!breeds.length) {
-      renderEmpty();
+    var filters = getFilters();
+    var validFilters = criteria.every(function (criterion) {
+      return (ranking[criterion.key] || ["yes", "no"]).indexOf(filters[criterion.key]) !== -1;
+    });
+    var validCare = careSteps.every(function (step) {
+      return ["unsure", "planned", "missing"].indexOf(document.getElementById(step.id).value) !== -1;
+    });
+    if (!validFilters || !validCare) {
+      document.getElementById("care-next-steps").innerHTML = "";
+      renderEmpty("Choose an available option in each field to restore the candidates.");
       return;
     }
-
-    var filters = getFilters();
+    var unresolved = careSteps.filter(function (step) { return document.getElementById(step.id).value !== "planned"; });
+    var missing = careSteps.some(function (step) { return document.getElementById(step.id).value === "missing"; });
+    document.getElementById("care-next-steps").innerHTML = unresolved.map(function (step) { return "<li>" + escapeHtml(step.next) + "</li>"; }).join("");
+    if (!breeds.length) {
+      renderEmpty("Breed results are unavailable. Use the directory and care checklist to continue your research.");
+      return;
+    }
+    document.getElementById("finder-status").textContent = missing
+      ? "Pause shortlisting: a care plan is missing. Candidates below are for research only."
+      : unresolved.length
+        ? unresolved.length + " care checks still need a plan. Candidates below are for research only."
+        : "You have plans to discuss for all three care checks. These are self-reported, not verified; discuss them for the individual dog before deciding.";
     var results = breeds.map(function (breed) {
-      return Object.assign({}, breed, { score: scoreBreed(breed, filters) });
+      return Object.assign({}, breed, assessBreed(breed, filters));
     }).sort(function (a, b) {
       return b.score - a.score;
     });

@@ -20,6 +20,11 @@ if ($LASTEXITCODE -ne 0) {
   exit $LASTEXITCODE
 }
 
+node (Join-Path $PSScriptRoot "check-breed-finder.js")
+if ($LASTEXITCODE -ne 0) {
+  exit $LASTEXITCODE
+}
+
 if (-not (Get-Command ruby -ErrorAction SilentlyContinue)) {
   Write-Host "Ruby is not installed. Install Ruby before running a local Jekyll build."
   exit 1
