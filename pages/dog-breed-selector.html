@@ -4,7 +4,7 @@ title: "Dog Breed Selector: Compare Breeds by Lifestyle, Cost and Care"
 seo_title: "Dog Breed Selector: Compare Your Top Matches"
 description: "Use the PetStorie dog breed selector to compare two dog breeds by size, exercise, grooming, shedding, training, health risk, cost, and owner fit."
 permalink: /dog-breed-selector/
-updated: "2026-09-14"
+updated: "2026-10-14"
 adsense: false
 sources:
   - organization: "American Kennel Club"
@@ -38,8 +38,9 @@ faq_schema:
     <p class="eyebrow">Breed decision workspace</p>
     <h1>Dog Breed Selector</h1>
     <p>
-      Use this page when you are choosing between two breeds or trying to narrow a long list. It compares practical owner-fit
-      signals from the PetStorie breed data set: size, exercise, grooming, shedding, training, health risk, cost, and home fit.
+      Compare two breeds using the same Household Fit Dataset, then check the care trade-offs and evidence behind each record.
+      Start with Labrador and Golden Retriever below, or choose your own pair. These editorial labels are research prompts,
+      not a prediction that either dog will suit your household.
     </p>
     <p>
       The selector is built for the moment when two breeds both look possible. Instead of asking which dog is "better," it pushes
@@ -47,15 +48,9 @@ faq_schema:
       health risk, cost, apartment fit, and household management.
     </p>
 
-    <h2>Compare Dog Breeds by the Traits Owners Actually Feel</h2>
     <p>
-      Breed descriptions can sound similar when they use broad words like loyal, smart, affectionate, or protective. A useful dog
-      breed selector should make the differences more concrete. One dog may be easier to train but harder to groom. Another may be
-      calm indoors but risky in heat. A guardian breed may be devoted to family while demanding stronger boundaries with visitors.
-    </p>
-    <p>
-      Choose two breeds in the tool below, then set your main priority. The comparison table gives a direct snapshot, while the
-      shortlist shows other breeds that may fit the same goal with different trade-offs.
+      The two breed controls change the comparison. Priority and maximum grooming filter the separate shortlist;
+      they do not approve or exclude the two breeds you selected.
     </p>
 
     <form class="calculator-form" id="breed-selector-form">
@@ -101,19 +96,60 @@ faq_schema:
         </label>
       </div>
     </form>
+    <noscript><p>JavaScript is off. The table stays on Labrador Retriever and Golden Retriever; changing these controls will not update it. Use the guide links below for other research.</p></noscript>
 
     <section class="selector-output" aria-live="polite">
       <h2>Side-by-Side Snapshot</h2>
-      <div id="selector-comparison"></div>
+      <div id="selector-comparison">
+        {% assign default_keys = "labrador-retriever,golden-retriever" | split: "," %}
+        {% assign traits = "Size:size,Home fit:home,Owner level:experience,Exercise:exercise,Shedding:shedding,Grooming:grooming,Training:training,Health planning flag:health_risk,Cost assumption:cost_level" | split: "," %}
+        <table class="selector-compare-table" style="table-layout: fixed;">
+          <caption>Shared editorial labels: Labrador Retriever and Golden Retriever</caption>
+          <thead><tr><th scope="col">Trait</th><th scope="col">Labrador Retriever</th><th scope="col">Golden Retriever</th></tr></thead>
+          <tbody>
+            {% for trait in traits %}{% assign field = trait | split: ":" %}{% assign field_key = field[1] %}
+            <tr><th scope="row">{{ field[0] }}</th>
+              {% for key in default_keys %}{% assign breed = site.data.breeds | where: "key", key | first %}
+              <td>{{ breed[field_key] | replace: "-", " " | capitalize | escape }}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+            <tr><th scope="row">Main care trade-off to check</th>
+              {% for key in default_keys %}{% assign breed = site.data.breeds | where: "key", key | first %}
+              <td>{{ breed.caution | escape }}</td>
+              {% endfor %}
+            </tr>
+            <tr><th scope="row">Evidence and next step</th>
+              {% for key in default_keys %}{% assign breed = site.data.breeds | where: "key", key | first %}
+              <td>
+                {% if breed.evidence %}<a href="{{ site.url }}/data-sources/#evidence-{{ breed.key }}">Read field evidence for {{ breed.name }}</a>
+                {% else %}Field evidence has not yet been recorded for this breed.{% endif %}
+                <p><a href="{{ site.url }}{{ breed.url }}">Read the {{ breed.name }} guide</a>, then ask about the individual dog's routine, behavior and health records.</p>
+              </td>
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <h2>Priority Shortlist</h2>
-      <div id="selector-shortlist" class="result-grid"></div>
+      <div id="selector-shortlist" class="result-grid"><p>The interactive shortlist needs JavaScript. You can still read the default comparison above or browse the <a href="{{ site.url }}/dog-breeds/">breed directory</a>.</p></div>
     </section>
 
     <p class="method-note">
+      Health flags are not disease probabilities; cost labels are unvalidated planning assumptions.
+      The labels and tool methods are <strong>not professionally reviewed</strong>.
       The shortlist shows up to eight qualifying breeds in dataset order. Read
       <a href="{{ site.url }}/data-sources/#household-fit-data">where the comparison labels come from and what has been reviewed</a>
       before choosing between them.
     </p>
+
+    <h2>Before Choosing Either Dog</h2>
+    <ol class="guide-list">
+      <li><strong>Test the least flexible part of your week.</strong> Read each care caution and write down who will cover it on a busy workday. Use the <a href="{{ site.url }}/dog-breed-finder/">Finder's care-plan checks</a> if cooling, weekday cover or veterinary access is still unresolved.</li>
+      <li><strong>Turn labels into questions.</strong> Open the available field evidence, note its date and scope, then ask a rescue or breeder for the individual dog's routine and observed behavior. Discuss health records and concerns with a licensed veterinarian.</li>
+      <li><strong>Price both plans.</strong> Select each breed in the <a href="{{ site.url }}/dog-cost-calculator/">cost calculator</a> and replace its assumptions with local quotes. If either care plan depends on help or money you cannot arrange, pause that choice.</li>
+    </ol>
+    <p>For the starting pair, the <a href="{{ site.url }}/labrador-vs-golden-retriever/">Labrador vs Golden Retriever guide</a> adds context to the shared labels.</p>
 
     <h2>Use This With the Deeper Tools</h2>
     <p>
@@ -201,7 +237,8 @@ faq_schema:
       training: {{ breed.training | jsonify }},
       healthRisk: {{ breed.health_risk | jsonify }},
       costLevel: {{ breed.cost_level | jsonify }},
-      caution: {{ breed.caution | jsonify }}
+      caution: {{ breed.caution | jsonify }},
+      hasEvidence: {% if breed.evidence %}true{% else %}false{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% endif %}
     {% endfor %}
@@ -220,7 +257,7 @@ faq_schema:
   function byKey(key) {
     return breeds.find(function (breed) {
       return breed.key === key;
-    }) || breeds[0];
+    });
   }
 
   function label(value) {
@@ -241,19 +278,32 @@ faq_schema:
   function row(labelText, aValue, bValue) {
     return [
       "<tr>",
-      "<th>" + escapeHtml(labelText) + "</th>",
+      '<th scope="row">' + escapeHtml(labelText) + "</th>",
       "<td>" + escapeHtml(label(aValue)) + "</td>",
       "<td>" + escapeHtml(label(bValue)) + "</td>",
       "</tr>"
     ].join("");
   }
 
+  function evidenceStep(breed) {
+    return (breed.hasEvidence
+      ? '<a href="{{ site.url }}/data-sources/#evidence-' + escapeHtml(breed.key) + '">Read field evidence for ' + escapeHtml(breed.name) + '</a>'
+      : 'Field evidence has not yet been recorded for this breed.') +
+      '<p><a href="' + escapeHtml(breed.url) + '">Read the ' + escapeHtml(breed.name) + ' guide</a>, then ask about the individual dog\'s routine, behavior and health records.</p>';
+  }
+
   function renderComparison() {
     var breedA = byKey(document.getElementById("breed-a").value);
     var breedB = byKey(document.getElementById("breed-b").value);
+    if (!breedA || !breedB) {
+      document.getElementById("selector-comparison").innerHTML = '<p>Choose two available breeds to compare. If no options appear, use the breed directory linked below.</p>';
+      return;
+    }
     document.getElementById("selector-comparison").innerHTML = [
-      '<table class="selector-compare-table">',
-      "<thead><tr><th>Trait</th><th>" + escapeHtml(breedA.name) + "</th><th>" + escapeHtml(breedB.name) + "</th></tr></thead>",
+      breedA.key === breedB.key ? '<p>You selected the same breed twice. Choose a different second breed to compare trade-offs.</p>' : '',
+      '<table class="selector-compare-table" style="table-layout: fixed;">',
+      '<caption>Shared editorial labels: ' + escapeHtml(breedA.name) + ' and ' + escapeHtml(breedB.name) + '</caption>',
+      '<thead><tr><th scope="col">Trait</th><th scope="col">' + escapeHtml(breedA.name) + '</th><th scope="col">' + escapeHtml(breedB.name) + '</th></tr></thead>',
       "<tbody>",
       row("Size", breedA.size, breedB.size),
       row("Home fit", breedA.home, breedB.home),
@@ -262,10 +312,10 @@ faq_schema:
       row("Shedding", breedA.shedding, breedB.shedding),
       row("Grooming", breedA.grooming, breedB.grooming),
       row("Training", breedA.training, breedB.training),
-      row("Health risk", breedA.healthRisk, breedB.healthRisk),
-      row("Cost level", breedA.costLevel, breedB.costLevel),
-      "<tr><th>Owner caution</th><td>" + escapeHtml(breedA.caution) + "</td><td>" + escapeHtml(breedB.caution) + "</td></tr>",
-      "<tr><th>Guide</th><td><a href=\"" + escapeHtml(breedA.url) + "\">Read guide</a></td><td><a href=\"" + escapeHtml(breedB.url) + "\">Read guide</a></td></tr>",
+      row("Health planning flag", breedA.healthRisk, breedB.healthRisk),
+      row("Cost assumption", breedA.costLevel, breedB.costLevel),
+      '<tr><th scope="row">Main care trade-off to check</th><td>' + escapeHtml(breedA.caution) + '</td><td>' + escapeHtml(breedB.caution) + '</td></tr>',
+      '<tr><th scope="row">Evidence and next step</th><td>' + evidenceStep(breedA) + '</td><td>' + evidenceStep(breedB) + '</td></tr>',
       "</tbody></table>"
     ].join("");
   }
