@@ -75,6 +75,7 @@ const breedDataset = JSON.parse(read("breed-data.json"));
 for (const [page, keys, fields] of [
   ["shiba-inu-vs-corgi", ["shiba-inu", "pembroke-welsh-corgi"], ["exercise", "shedding", "grooming", "training", "cost_level", "caution"]],
   ["french-bulldog-vs-boston-terrier", ["french-bulldog", "boston-terrier"], ["exercise", "grooming", "health_risk", "cost_level", "caution"]],
+  ["posts/2026/06/09/boston-terrier-tuxedo-clown-little-gentleman", ["boston-terrier"], ["exercise", "grooming", "health_risk", "cost_level", "caution"]],
 ]) {
   const comparison = read(`${page}/index.html`);
   checkPage(`${page}/index.html`, { ads: 0, faq: 1, sources: 1 });
