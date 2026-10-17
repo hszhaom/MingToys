@@ -5,7 +5,7 @@ seo_title: "Dog Breeds: Compare Care, Temperament and Owner Fit"
 description: "Browse dog breeds by size, temperament, energy, shedding, grooming, health concerns, family fit, apartment fit, and owner experience before choosing a dog."
 permalink: /dog-breeds/
 adsense: false
-updated: "2026-09-14"
+updated: "2026-10-17"
 sources:
   - organization: "American Kennel Club"
     title: "Dog Breeds"
@@ -166,8 +166,16 @@ faq_schema:
     <h2>Find a Source-Reviewed Breed Guide</h2>
     <p>
       Search by breed name or common alternative name, then narrow the published collection by the practical pressure points that
-      tend to decide a match. Results only include guides that have passed PetStorie's current source, FAQ, image, and internal-link
-      checks. Breeds still in editorial review are intentionally not shown here.
+      tend to decide a match. Source-reviewed means editorial source checking, not professional approval. The shared labels are
+      an <strong>editorial synthesis</strong> and are <strong>not professionally reviewed</strong>.
+      Each row links to available field evidence or identifies the gap; existing notes cover only the fields listed there.
+    </p>
+    <p>
+      After shortlisting, read each guide's care cautions and check its evidence. Use the
+      <a href="{{ site.url }}/dog-breed-selector/">Selector to compare two shared records</a> or the
+      <a href="{{ site.url }}/dog-breed-comparisons/">comparison guides for practical trade-offs</a>, then use the
+      <a href="{{ site.url }}/dog-cost-calculator/">cost calculator and local-quote checklist</a> to plan a budget.
+      Confirm the individual dog's records and your weekday care arrangements before deciding.
     </p>
     <form class="breed-directory-controls" id="breed-directory-controls">
       <label class="finder-control directory-search-control" for="breed-directory-search">
@@ -206,15 +214,18 @@ faq_schema:
       <button class="directory-reset" type="reset" aria-label="Clear breed directory filters" title="Clear filters">&times;</button>
     </form>
     <p class="directory-results" id="breed-directory-results" aria-live="polite"></p>
-    <table id="breed-directory-table">
+    <p id="breed-directory-scroll-hint">On a small screen, scroll the table sideways to see every label.</p>
+    <div role="region" aria-label="Published breed comparison" aria-describedby="breed-directory-scroll-hint" tabindex="0" style="overflow-x: auto;">
+    <table id="breed-directory-table" style="min-width: 720px;">
+      <caption>Published breed guides, planning labels, and field evidence availability</caption>
       <thead>
         <tr>
-          <th>Breed</th>
-          <th>Size</th>
-          <th>Home fit</th>
-          <th>Exercise</th>
-          <th>Grooming</th>
-          <th>Owner level</th>
+          <th scope="col" style="width: 25%;">Breed and evidence</th>
+          <th scope="col">Size</th>
+          <th scope="col">Home fit</th>
+          <th scope="col">Exercise</th>
+          <th scope="col">Grooming</th>
+          <th scope="col">Owner level</th>
         </tr>
       </thead>
       <tbody>
@@ -228,7 +239,14 @@ faq_schema:
         {% endif %}
         {% if breed_is_published %}
         <tr class="breed-directory-row" data-search="{{ breed.name }} {{ breed.aliases | join: ' ' }}" data-size="{{ breed.size }}" data-exercise="{{ breed.exercise }}" data-grooming="{{ breed.grooming }}">
-          <td><a href="{{ site.url }}{{ breed.url }}">{{ breed.name }}</a></td>
+          <td>
+            <a href="{{ site.url }}{{ breed.url }}">{{ breed.name | escape }}</a><br>
+            {% if breed.evidence %}
+            <small><a href="{{ site.url }}/data-sources/#evidence-{{ breed.key }}" aria-label="{{ breed.name | escape }} field evidence and limits">Field evidence and limits</a></small>
+            {% else %}
+            <small>Field evidence not yet recorded. Check the guide's sources.</small>
+            {% endif %}
+          </td>
           <td>{{ breed.size | replace: "-", " " | capitalize }}</td>
           <td>{{ breed.home | replace: "-", " " | capitalize }}</td>
           <td>{{ breed.exercise | capitalize }}</td>
@@ -239,6 +257,8 @@ faq_schema:
         {% endfor %}
       </tbody>
     </table>
+
+    </div>
 
     <h2>Complete {{ catalog_total }}-Breed Research Archive</h2>
     <p>

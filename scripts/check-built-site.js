@@ -100,6 +100,18 @@ if (breedDataset.breeds.some((breed) => breed.publication_status !== "published"
 }
 
 const evidencePage = read("data-sources/index.html");
+const directoryRows = [...breedDirectory.matchAll(/<tr class="breed-directory-row"[^>]*>([\s\S]*?)<\/tr>/g)].map((match) => match[1]);
+if (directoryRows.length !== breedDataset.breeds.length) throw new Error("Directory rows must match the published dataset.");
+for (const breed of breedDataset.breeds) {
+  const rows = directoryRows.filter((row) => row.includes(`href="https://petstorie.com${breed.url}"`));
+  if (rows.length !== 1) throw new Error(`${breed.key}: directory must link to exactly one guide.`);
+  const evidenceLink = `href="https://petstorie.com/data-sources/#evidence-${breed.key}"`;
+  const missingNotice = "Field evidence not yet recorded. Check the guide's sources.";
+  if (breed.evidence ? !rows[0].includes(evidenceLink) || rows[0].includes(missingNotice) || !evidencePage.includes(`id="evidence-${breed.key}"`)
+    : !rows[0].includes(missingNotice) || rows[0].includes('/data-sources/#evidence-')) {
+    throw new Error(`${breed.key}: directory evidence availability or destination is incorrect.`);
+  }
+}
 for (const breed of breedDataset.breeds.filter((breed) => breed.evidence)) {
   const evidence = breed.evidence;
   if (!/^\d{4}-\d{2}-\d{2}$/.test(evidence.checked) || !evidence.scope || !evidence.mapping_note ||
