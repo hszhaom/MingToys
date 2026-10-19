@@ -588,6 +588,56 @@
   breed_standard_url: https://www.akc.org/dog-breeds/beagle/
   publication_status: published
   image_prefix: beagle
+  evidence:
+    checked: "2026-10-19"
+    review_status: "not professionally reviewed"
+    scope: "Adult Beagle household planning. Only the seven fields below were checked; size, family fit, and owner-experience labels were not validated. Puppies, seniors, and dogs with symptoms need individual veterinary advice."
+    mapping_note: "Care tasks have source support, but category boundaries remain provisional. Exercise and brushing guidance varies between sources. Beagle Welfare is used for care context, not its diet, parasite-treatment, or neutering advice."
+    sources:
+      pdsa:
+        title: "PDSA: Beagle breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/medium-dogs/beagle"
+        accessed: "2026-10-19"
+      beagle_welfare:
+        title: "Beagle Welfare: Beagle Health (exercise, coat care, and veterinary contact)"
+        url: "https://www.beaglewelfare.org.uk/beagle-health/"
+        accessed: "2026-10-19"
+    fields:
+      exercise:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA's summary gives one hour daily, but its exercise section gives at least one and a half hours; Beagle Welfare gives an hour, adjusted for age and health. Medium remains provisional, not a minute target or an assurance that short walks suffice."
+        sources: [pdsa, beagle_welfare]
+      shedding:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA describes regular shedding; Beagle Welfare notes extra loose hair during moulting. Medium is a cleaning allowance, not measured hair loss."
+        sources: [pdsa, beagle_welfare]
+      grooming:
+        value: low
+        basis: "editorial synthesis"
+        note: "PDSA suggests weekly brushing; Beagle Welfare suggests a quick daily brush. Low refers to coat complexity, not absence of care or a salon price; ear, nail, and dental checks still need a plan."
+        sources: [pdsa, beagle_welfare]
+      training:
+        value: hard
+        basis: "editorial synthesis"
+        note: "PDSA recommends reward-based teaching and secure exercise because scent can distract recall. Hard flags a management challenge, not low intelligence or inability to learn. Ask a qualified trainer about the individual dog."
+        sources: [pdsa]
+      health_risk:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA lists ear inflammation, epilepsy, and disc disease; Beagle Welfare directs unwell dogs to a veterinarian. Medium is not disease prevalence or reassurance about a symptom. Ask a licensed veterinarian to interpret records and concerns."
+        sources: [pdsa, beagle_welfare]
+      cost_level:
+        value: medium
+        basis: "unvalidated planning assumption"
+        note: "PDSA outlines routine care and paid support expenses. Its UK estimates do not validate this category or US calculator ranges. Obtain local care, training, and insurance quotes; medium does not limit unexpected bills."
+        sources: [pdsa]
+      caution:
+        value: "Needs scent outlets, food control, and patient recall expectations."
+        basis: "editorial synthesis"
+        note: "PDSA supports scent games and secure walking; Beagle Welfare describes scavenging and weight concerns. Plan food storage and supervised outings, and ask a veterinarian about portions. This is household planning, not a diet prescription."
+        sources: [pdsa, beagle_welfare]
 - key: labrador-retriever
   name: Labrador Retriever
   url: "/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/"
@@ -613,6 +663,60 @@
   breed_standard_url: https://www.akc.org/dog-breeds/labrador-retriever/
   publication_status: published
   image_prefix: labrador
+  evidence:
+    checked: "2026-10-19"
+    review_status: "not professionally reviewed"
+    scope: "Adult Labrador Retriever household planning across working and companion homes. Only the seven fields below were checked. Individual activity tolerance, behavior, and health require assessment; no puppy exercise target is established."
+    mapping_note: "Sources support care tasks and screening questions, not calibrated categories. Trainability does not establish low handling effort. Health labels cannot compare disease probabilities, and cost remains an unvalidated assumption."
+    sources:
+      pdsa:
+        title: "PDSA: Labrador Retriever breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/large-dogs/labrador-retriever"
+        accessed: "2026-10-19"
+      akc_grooming:
+        title: "AKC: How to Groom a Labrador Retriever"
+        url: "https://www.akc.org/expert-advice/health/how-to-groom-a-labrador-retriever/"
+        accessed: "2026-10-19"
+      lrc:
+        title: "Labrador Retriever Club: FAQs for Puppy Buyers (health testing and daily care)"
+        url: "https://thelabradorclub.com/faqs-for-puppy-buyers/"
+        accessed: "2026-10-19"
+    fields:
+      exercise:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA describes daily physical activity and enrichment, tailored to the dog rather than a fixed minimum. High reserves time for both; it is not permission to push through discomfort. Ask a veterinarian about limitations."
+        sources: [pdsa]
+      shedding:
+        value: high
+        basis: "editorial synthesis"
+        note: "AKC's grooming article describes heavy seasonal shedding and more frequent combing then. High signals cleaning and coat-care work, not a measured volume or a guarantee of identical seasonal patterns."
+        sources: [akc_grooming]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA describes a weekly brush as usual care; AKC describes extra combing during heavy shedding. Medium accounts for recurring work despite the short coat. It does not establish salon frequency or a grooming bill."
+        sources: [pdsa, akc_grooming]
+      training:
+        value: easy
+        basis: "editorial synthesis"
+        note: "PDSA describes responsiveness to reward-based teaching and additional work for retrieving lines. Easy means potential to learn, not automatic manners or suitability for every first-time owner."
+        sources: [pdsa]
+      health_risk:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA flags joint, weight, and eye concerns; LRC describes parental hip, elbow, eye, and genetic testing. Medium does not establish lower disease risk than Golden Retrievers labelled high. Review actual results with a licensed veterinarian; screening cannot promise future health."
+        sources: [pdsa, lrc]
+      cost_level:
+        value: medium
+        basis: "unvalidated planning assumption"
+        note: "PDSA lists routine expenses but excludes illness and injury treatment from its lifetime estimate. UK figures do not validate US presets or this category. Replace food, care, training, and insurance assumptions with local quotes."
+        sources: [pdsa]
+      caution:
+        value: "Not low-effort during adolescence; portion control and daily exercise matter."
+        basis: "editorial synthesis"
+        note: "PDSA supports weight and activity planning; LRC emphasizes sustained training and companionship. The adolescence wording is an editorial prompt to ask about jumping, mouthing, and settling, not a source-derived age threshold or a claim about every young Lab."
+        sources: [pdsa, lrc]
 - key: alaskan-malamute
   name: Alaskan Malamute
   url: "/posts/2026/06/05/alaskan-malamute-gentle-arctic-giant-home-hippo/"
@@ -797,6 +901,56 @@
   breed_standard_url: https://www.akc.org/dog-breeds/german-shepherd-dog/
   publication_status: published
   image_prefix: germanshepherd
+  evidence:
+    checked: "2026-10-19"
+    review_status: "not professionally reviewed"
+    scope: "Adult German Shepherd household planning. Only the seven fields below were checked. Working line, coat length, age, health, and observed behavior can change care needs; the notes do not certify family or public-access suitability."
+    mapping_note: "Care and screening concerns have source support; low/medium/high boundaries are not validated. Easy training describes learning potential, not low management demands. Cost and comparative health rankings remain unvalidated."
+    sources:
+      pdsa:
+        title: "PDSA: German Shepherd breed information"
+        url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/large-dogs/german-shepherd"
+        accessed: "2026-10-19"
+      gsdca:
+        title: "German Shepherd Dog Club of America: Health & Genetics"
+        url: "https://gsdca.org/health-genetics/"
+        accessed: "2026-10-19"
+    fields:
+      exercise:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA describes substantial activity spread through the day plus play and training. High is a scheduling prompt, not a compulsory endurance target. A veterinarian should adapt activity for puppies, seniors, or dogs with joint concerns."
+        sources: [pdsa]
+      shedding:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA describes considerable shedding from a thick coat. High signals household cleaning needs, not a measured rate or a comparison of individual dogs."
+        sources: [pdsa]
+      grooming:
+        value: medium
+        basis: "editorial synthesis"
+        note: "PDSA suggests brushing several times weekly and notes extra attention for longer coats. Medium is a recurring home-care allowance; coat condition and handling needs can change the workload and any professional quote."
+        sources: [pdsa]
+      training:
+        value: easy
+        basis: "editorial synthesis"
+        note: "PDSA describes learning ability alongside the need for consistent training and socialization. Easy does not mean little effort or safe guarding behavior. Discuss visitor management and public handling with a qualified trainer."
+        sources: [pdsa]
+      health_risk:
+        value: high
+        basis: "editorial synthesis"
+        note: "PDSA flags joint and neurological concerns; GSDCA lists hip and elbow evaluations and distinguishes CHIC from its broader Health Award of Merit. High is not a disease probability. Ask a licensed veterinarian to interpret the actual results, not just an award or test label."
+        sources: [pdsa, gsdca]
+      cost_level:
+        value: high
+        basis: "unvalidated planning assumption"
+        note: "PDSA outlines routine care, insurance, training, and paid support. Its UK estimates do not validate high or the calculator's US ranges. Obtain local quotes and check coverage exclusions; this category does not prove higher lifetime spending than a Labrador."
+        sources: [pdsa]
+      caution:
+        value: "Needs a job, training, socialization, and hip or elbow health planning."
+        basis: "editorial synthesis"
+        note: "PDSA supports structured activity and socialization; GSDCA supports checking joint records. A job means appropriate enrichment here, not compulsory protection work. Ask about the individual dog's daily routine and actual screening results."
+        sources: [pdsa, gsdca]
 - key: papillon
   name: Papillon
   url: "/posts/2026/06/08/papillon-butterfly-eared-little-fluffy-acrobat/"
