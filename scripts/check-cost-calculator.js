@@ -32,18 +32,27 @@ const values = {
   "cost-food": "basic",
   "cost-insurance": "savings",
   "cost-training": "basic",
-  "cost-setup": "lean"
+  "cost-setup": "lean",
+  "cost-walks": "excluded"
 };
+const walkInputs = [...source.matchAll(/<input id="(cost-walk-[^"]+)"[^>]*>/g)];
+assert.equal(walkInputs.length, 4);
+const inputRules = Object.fromEntries(walkInputs.map(([tag, id]) => [id,
+  Object.fromEntries([...tag.matchAll(/(min|max|step|type)="([^"]*)"/g)].map(m => [m[1], m[2]]))]));
+for (const id of Object.keys(inputRules)) values[id] = "";
 
 const elements = {};
 function getElement(id) {
   if (!elements[id]) {
     elements[id] = {
       id,
+      ...inputRules[id],
       value: values[id] || "",
       textContent: "",
       innerHTML: "",
       listeners: {},
+      attributes: {},
+      setAttribute(name, value) { this.attributes[name] = value; },
       addEventListener(event, handler) {
         this.listeners[event] = handler;
       }
@@ -122,7 +131,7 @@ assert.ok(getElement("cost-preset-reason").textContent.startsWith("Manual settin
 assert.ok(getElement("cost-reserve-note").textContent.includes("$0–$20"));
 
 // Invalid selections must clear stale totals, notes and breed links, then recover.
-for (const id of Object.keys(values)) {
+for (const id of Object.keys(values).filter(id => !inputRules[id])) {
   const previous = getElement(id).value;
   change(id, "unrecognized");
   assert.equal(getElement("monthly-cost").textContent, "Not calculated");
@@ -136,3 +145,84 @@ assert.ok(source.includes("<noscript>"));
 assert.ok(source.includes('aria-describedby="food-plan-note"'));
 assert.ok(source.includes('scope="col"'));
 console.log(`Preset and recovery checks passed for all ${presets.length} published breeds${process.argv.includes("--built") ? " in rendered HTML" : ""}.`);
+
+// Local quotes: weeks, not four-week months; no intermediate money rounding.
+for (const [id, value] of Object.entries({ "cost-breed": "", "cost-size": "toy", "cost-grooming": "low",
+  "cost-food": "basic", "cost-insurance": "savings", "cost-training": "basic", "cost-setup": "lean" })) change(id, value);
+assert.equal(getElement("annual-cost").textContent, "$1,260–$3,060");
+assert.equal(getElement("setup-cost").textContent, "$400–$850");
+assert.equal(getElement("cost-walk-fields").hidden, true);
+change("cost-walks", "included");
+assert.equal(getElement("monthly-cost").textContent, "Not calculated", "Blank quote must not silently become free care");
+assert.equal(getElement("cost-walk-low").attributes["aria-invalid"], "true");
+function quote(low, high, visits, weeks) {
+  [low, high, visits, weeks].forEach((v, i) => change(Object.keys(inputRules)[i], String(v)));
+}
+quote(20, 30, 5, 48);
+assert.equal(getElement("monthly-cost").textContent, "$505–$855");
+assert.equal(getElement("annual-cost").textContent, "$6,060–$10,260");
+assert.equal(getElement("first-year-cost").textContent, "$6,460–$11,110");
+assert.equal(getElement("setup-cost").textContent, "$400–$850");
+assert.ok(getElement("cost-walk-note").textContent.includes("240 visits per year"));
+assert.equal((getElement("cost-breakdown").innerHTML.match(/<tr>/g) || []).length, 6);
+change("cost-breed", "labrador-retriever");
+assert.equal(getElement("cost-walk-low").value, "20", "Breed preset must preserve the local quote");
+assert.equal(getElement("cost-walk-weeks").value, "48");
+change("cost-breed", "");
+change("cost-size", "toy");
+change("cost-grooming", "low");
+quote(19.99, 19.99, 3, 50);
+assert.ok(getElement("cost-walk-note").textContent.includes("at $19.99 per visit"));
+assert.ok(getElement("cost-walk-note").textContent.includes("Added annual cost: $2,999; monthly average: $250"));
+assert.equal(getElement("annual-cost").textContent, "$4,259–$6,059");
+assert.equal(getElement("first-year-cost").textContent, "$4,659–$6,909");
+quote(0, 0, 0, 0);
+assert.equal(getElement("monthly-cost").textContent, "$105–$255");
+quote(1000, 1000, 21, 52);
+assert.ok(getElement("cost-walk-note").textContent.includes("Added annual cost: $1,092,000"));
+quote(20, 30, 5, 0);
+assert.equal(getElement("annual-cost").textContent, "$1,260–$3,060");
+for (const [id, bad] of [
+  ["cost-walk-low", ""], ["cost-walk-low", "-1"], ["cost-walk-low", "1001"],
+  ["cost-walk-low", "NaN"], ["cost-walk-low", "Infinity"], ["cost-walk-low", "20.001"],
+  ["cost-walk-high", "19"], ["cost-walk-high", ""], ["cost-walk-high", "1001"],
+  ["cost-walk-visits", ""], ["cost-walk-visits", "22"], ["cost-walk-visits", "1.5"],
+  ["cost-walk-weeks", ""], ["cost-walk-weeks", "53"], ["cost-walk-weeks", "-1"], ["cost-walk-weeks", "2.5"]
+]) {
+  quote(20, 30, 5, 48);
+  change(id, bad);
+  for (const total of ["monthly-cost", "annual-cost", "setup-cost", "first-year-cost"]) {
+    assert.equal(getElement(total).textContent, "Not calculated", `${id}=${bad} retained stale ${total}`);
+  }
+  assert.equal(getElement(id).attributes["aria-invalid"], "true");
+  assert.equal(getElement("cost-walk-note").textContent, "");
+  change("cost-walks", "excluded");
+  assert.equal(getElement("monthly-cost").textContent, "$105–$255");
+  assert.equal(getElement("cost-walk-error").textContent, "");
+  change("cost-walks", "included");
+}
+quote(20, 30, 5, 48);
+getElement("cost-walk-low").value = "25";
+getElement("cost-walk-low").listeners.input();
+assert.equal(getElement("monthly-cost").textContent, "$605–$855", "Typing must update the estimate");
+let prevented = false;
+getElement("dog-cost-form").listeners.submit({ preventDefault() { prevented = true; } });
+assert.ok(prevented, "Enter must not reload and discard quote inputs");
+assert.ok(source.includes("USD") && source.includes("No currency conversion"));
+const care = JSON.parse(execFileSync("ruby", ["-ryaml", "-rjson", "-e", "puts YAML.load_file(ARGV[0]).to_json",
+  path.join(root, "_data", "care_costs.yml")], { encoding: "utf8" }));
+const walk = care.items.paid_dog_walks;
+for (const key of ["name", "frequency", "region", "dog_scope", "qualitative_range", "currency", "baseline_year", "includes", "excludes", "calculation", "confidence", "editorial_note", "accessed"]) assert.ok(walk[key], key);
+assert.equal(walk.minimum, null);
+assert.equal(walk.maximum, null);
+assert.equal(walk.currency, "USD");
+assert.equal(care.review_status, "not professionally reviewed");
+assert.equal(walk.care_plan.length, 4);
+assert.equal(walk.sources.length, 2);
+if (process.argv.includes("--built")) {
+  const escapeHTML = text => text.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  for (const task of walk.care_plan) assert.ok(source.includes(escapeHTML(task.action)), "Rendered care plan must use shared data");
+  for (const reference of walk.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
+  assert.ok(source.includes(walk.confidence));
+}
+console.log("Paid-walk quote checks passed: missing/min/max/invalid inputs, USD, annual averaging, cents, optional exclusion, preserved quote, recovery and shared evidence.");

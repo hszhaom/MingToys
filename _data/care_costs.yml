@@ -1,0 +1,41 @@
+name: "PetStorie Care & Cost Dataset"
+updated: "2026-10-20"
+method: "editorial synthesis"
+review_status: "not professionally reviewed"
+items:
+  paid_dog_walks:
+    name: "Optional paid dog walks"
+    frequency: "Per visit, converted to annual cost and a monthly average"
+    region: "United States calculator; a local USD quote is required"
+    dog_scope: "Any size or life stage; suitability, visit length and frequency must be agreed for the individual dog"
+    minimum: null
+    maximum: null
+    qualitative_range: "No market price range established; the reader supplies lower and upper quotes for the same service"
+    currency: "USD"
+    baseline_year: 2026
+    includes: "Quoted visits at the entered weekly frequency and number of paid weeks"
+    excludes: "Daycare, boarding, extra travel, holiday surcharges, cancellation fees and other charges unless included in the quoted visit price"
+    calculation: "Annual = price per visit × visits per paid week × paid weeks per year; monthly average = annual ÷ 12"
+    confidence: "Moderate for general care-planning context; local prices and suitability are unverified"
+    editorial_note: "UK welfare guidance supports planning and handoff questions, not US prices or regulations. Zero cost does not establish adequate care. Input limits are calculator limits, not recommended prices or visit frequencies. Existing base-care allowances remain separate, unvalidated assumptions."
+    accessed: "2026-10-20"
+    sources:
+      - organization: "Dogs Trust"
+        title: "Getting a dog when working full time"
+        url: "https://www.dogstrust.org.uk/dog-advice/getting-dog/dog-ready/getting-a-dog-full-time-job"
+        accessed: "2026-10-20"
+        supports: "Budget for care while away and plan for changes in informal support"
+      - organization: "Dogs Trust"
+        title: "How to find a good dog walker"
+        url: "https://www.dogstrust.org.uk/dog-advice/life-with-your-dog/outdoors/find-dog-walker"
+        accessed: "2026-10-20"
+        supports: "Agree timing, equipment, emergency contacts, individual needs and cancellation arrangements"
+    care_plan:
+      - frequency: "Daily"
+        action: "Confirm today's handoff and return. Keep feeding, toilet breaks and other care assigned outside the paid visit."
+      - frequency: "Weekly"
+        action: "Match booked visits to the actual work calendar. Arrange backup cover for absences, delays or cancellations."
+      - frequency: "Monthly"
+        action: "Compare invoices with the monthly average and check extra charges; review whether the arrangement is working for the dog."
+      - frequency: "Annual or when circumstances change"
+        action: "Refresh quotes, paid weeks, provider details and emergency contacts. Revisit the arrangement when the dog's age, health or behavior changes."

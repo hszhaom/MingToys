@@ -4,7 +4,7 @@ title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Cost Calculator: Monthly and First-Year Costs"
 description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-10-06"
+updated: "2026-10-20"
 adsense: false
 sources:
   - organization: "ASPCA"
@@ -130,6 +130,22 @@ faq_schema:
         </label>
       </div>
       <p id="food-plan-note">The optional food allowance stays as you choose it when switching breeds. It is a spending choice, not a diet recommendation; ask your veterinarian about the individual dog's nutritional needs.</p>
+      <h3 id="paid-walks">Add a Local Dog-Walking Quote</h3>
+      <p id="walk-input-note">Optional paid walks are separate from base care. Enter USD quotes for the same visit length and service, including any regular tax or fee. Use the same lower and upper price for a single quote. No currency conversion is performed. These inputs stay in this page and reset on reload.</p>
+      <label class="finder-control">
+        <span>Paid dog walks</span>
+        <select id="cost-walks" aria-describedby="walk-input-note">
+          <option value="excluded">Not included</option>
+          <option value="included">Include my local quote</option>
+        </select>
+      </label>
+      <div id="cost-walk-fields" class="filter-grid" hidden>
+        <label class="finder-control"><span>Lower price per visit (USD)</span><input id="cost-walk-low" type="number" min="0" max="1000" step="0.01" inputmode="decimal" aria-describedby="walk-input-note cost-walk-error" disabled></label>
+        <label class="finder-control"><span>Upper price per visit (USD)</span><input id="cost-walk-high" type="number" min="0" max="1000" step="0.01" inputmode="decimal" aria-describedby="walk-input-note cost-walk-error" disabled></label>
+        <label class="finder-control"><span>Paid visits per week (0–21)</span><input id="cost-walk-visits" type="number" min="0" max="21" step="1" inputmode="numeric" aria-describedby="cost-walk-error" disabled></label>
+        <label class="finder-control"><span>Paid weeks per year (0–52)</span><input id="cost-walk-weeks" type="number" min="0" max="52" step="1" inputmode="numeric" aria-describedby="cost-walk-error" disabled></label>
+      </div>
+      <p id="cost-walk-error" aria-live="polite"></p>
     </form>
     <noscript><p>The interactive estimate needs JavaScript. Use the cost categories and quote checklist below to plan your budget.</p></noscript>
 
@@ -141,11 +157,20 @@ faq_schema:
           <strong id="first-year-cost">Not calculated</strong>
         </div>
         <div>
-          <span>Monthly ongoing estimate</span>
+          <span>Monthly ongoing average</span>
           <strong id="monthly-cost">Not calculated</strong>
+        </div>
+        <div>
+          <span>Initial setup allowance</span>
+          <strong id="setup-cost">Not calculated</strong>
+        </div>
+        <div>
+          <span>Annual ongoing estimate</span>
+          <strong id="annual-cost">Not calculated</strong>
         </div>
       </div>
       <p id="cost-note"></p>
+      <p id="cost-walk-note"></p>
       <h3>Estimated Monthly Breakdown</h3>
       <table>
         <caption>Monthly planning allowances in US dollars</caption>
@@ -160,6 +185,36 @@ faq_schema:
       <p id="cost-evidence-note"></p>
       <p><a id="cost-evidence-link" href="{{ site.url }}/data-sources/#household-fit-data">Check the shared data and evidence limits</a>. <a id="cost-guide-link" hidden>Read this breed's full guide</a></p>
     </section>
+
+    {% assign walks = site.data.care_costs.items.paid_dog_walks %}
+    <h2 id="walk-care-plan">Paid-Walk Care Handoff</h2>
+    <p>A paid visit covers only the agreed service. These editorial planning prompts do not set a safe time alone or a required exercise duration. Before booking, meet the walker, agree the individual dog's needs and emergency arrangements, and check local requirements. Ask a licensed veterinarian about health-related activity limits.</p>
+    <ul class="guide-list">
+      {% for task in walks.care_plan %}
+      <li><strong>{{ task.frequency | escape }}:</strong> {{ task.action | escape }}</li>
+      {% endfor %}
+    </ul>
+    <p>Build the rest of the schedule with <a href="{{ site.url }}/home-routines/">Home &amp; Routines</a>; use the <a href="{{ site.url }}/dog-breed-selector/">Selector</a> to compare shared breed care labels. A breed preset does not set or change your paid-walk quote.</p>
+    <details id="paid-walk-evidence">
+      <summary>Paid-walk calculation, sources and limits</summary>
+      <p>Part of the {{ site.data.care_costs.name | escape }}. This is an <strong>{{ site.data.care_costs.method | escape }}</strong>; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Source check: {{ walks.accessed | escape }}.</p>
+      <ul class="guide-list">
+        <li><strong>Frequency:</strong> {{ walks.frequency | escape }}.</li>
+        <li><strong>Region and currency:</strong> {{ walks.region | escape }}. {{ walks.currency | escape }}, {{ walks.baseline_year }} baseline.</li>
+        <li><strong>Dog scope:</strong> {{ walks.dog_scope | escape }}.</li>
+        <li><strong>Price evidence:</strong> {{ walks.qualitative_range | escape }}.</li>
+        <li><strong>Included:</strong> {{ walks.includes | escape }}.</li>
+        <li><strong>Excluded:</strong> {{ walks.excludes | escape }}.</li>
+        <li><strong>Formula:</strong> {{ walks.calculation | escape }}.</li>
+        <li><strong>Confidence:</strong> {{ walks.confidence | escape }}.</li>
+      </ul>
+      <p>{{ walks.editorial_note | escape }}</p>
+      <ul class="guide-list">
+        {% for source in walks.sources %}
+        <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed | escape }}). {{ source.supports | escape }}.</li>
+        {% endfor %}
+      </ul>
+    </details>
 
     <h2>Before You Commit: Check the Budget's Biggest Gaps</h2>
     <p>More room in the monthly plan means less money available elsewhere, but a smaller allowance does not reduce the dog's care needs. These dollar ranges and reserve rules are editorial assumptions, not measured owner spending, insurance quotes, or a professionally reviewed financial model.</p>
@@ -243,7 +298,7 @@ faq_schema:
     <p>
       The base-care range combines food at the selected size, routine preventive care, and ordinary replacement supplies. Grooming,
       an optional food allowance, insurance or emergency savings, and an extra planning buffer are added as separate monthly categories. The
-      first-year range adds equipment, training, and setup costs to twelve months of ongoing care.
+      first-year range adds equipment, training, and setup costs to annual ongoing care. If enabled, paid walks use your quote multiplied by visits per week and paid weeks per year. Their monthly figure is an annual average, not a monthly invoice. Totals are rounded only for display; twelve displayed monthly amounts can differ slightly from the annual total.
     </p>
     <p>
       The model does not include the purchase or adoption fee, licensing, travel, boarding, a specific emergency procedure, or the
@@ -307,8 +362,8 @@ faq_schema:
     });
   }
 
-  function money(value) {
-    return "$" + Math.round(value).toLocaleString("en-US");
+  function money(value, cents) {
+    return "$" + (cents ? value.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : Math.round(value).toLocaleString("en-US"));
   }
 
   function addRanges(ranges) {
@@ -321,8 +376,8 @@ faq_schema:
     return [range[0] * factor, range[1] * factor];
   }
 
-  function formatRange(range) {
-    return range[0] === range[1] ? money(range[0]) : money(range[0]) + "–" + money(range[1]);
+  function formatRange(range, cents) {
+    return range[0] === range[1] ? money(range[0], cents) : money(range[0], cents) + "–" + money(range[1], cents);
   }
 
   function getRiskLevel(breed) {
@@ -357,14 +412,16 @@ faq_schema:
     var training = document.getElementById("cost-training").value;
     var setup = document.getElementById("cost-setup").value;
     var breed = getSelectedBreed();
+    var walks = calculateWalks();
     if (!sizeMonthly[size] || !groomingMonthly[grooming] || !foodMonthly[food] ||
         !insuranceMonthly[insurance] || !trainingFirstYear[training] || !setupExtra[setup] ||
-        (document.getElementById("cost-breed").value && !breed)) {
-      document.getElementById("monthly-cost").textContent = "Not calculated";
-      document.getElementById("first-year-cost").textContent = "Not calculated";
+        (document.getElementById("cost-breed").value && !breed) || !walks) {
+      ["monthly-cost", "first-year-cost", "setup-cost", "annual-cost"].forEach(function (id) {
+        document.getElementById(id).textContent = "Not calculated";
+      });
       document.getElementById("cost-breakdown").innerHTML = "";
-      document.getElementById("cost-note").textContent = "A selection could not be read. Choose a listed breed or manual settings, then check each option.";
-      ["cost-preset-reason", "cost-reserve-note", "cost-evidence-note"].forEach(function (id) {
+      document.getElementById("cost-note").textContent = "Complete the paid-walk fields if enabled and check each selection. No total is shown while an input is missing or invalid.";
+      ["cost-preset-reason", "cost-reserve-note", "cost-evidence-note", "cost-walk-note"].forEach(function (id) {
         document.getElementById(id).textContent = "";
       });
       document.getElementById("cost-guide-link").hidden = true;
@@ -379,16 +436,24 @@ faq_schema:
       { label: "Insurance or emergency savings", range: insuranceMonthly[insurance] },
       { label: "Extra planning buffer (assumption)", range: breedRiskMonthly[riskLevel] }
     ];
-    var monthly = addRanges(monthlyParts.map(function (part) { return part.range; }));
-    var firstYear = addRanges([
-      multiplyRange(monthly, 12),
+    var baseMonthly = addRanges(monthlyParts.map(function (part) { return part.range; }));
+    var annual = addRanges([multiplyRange(baseMonthly, 12), walks.annual]);
+    if (walks.included) monthlyParts.push({ label: "Paid dog walks (annual average)", range: multiplyRange(walks.annual, 1 / 12) });
+    var monthly = multiplyRange(annual, 1 / 12);
+    var initial = addRanges([
       sizeSetup[size],
       trainingFirstYear[training],
       setupExtra[setup],
       breedRiskSetup[riskLevel]
     ]);
+    var firstYear = addRanges([annual, initial]);
     document.getElementById("monthly-cost").textContent = formatRange(monthly);
     document.getElementById("first-year-cost").textContent = formatRange(firstYear);
+    document.getElementById("setup-cost").textContent = formatRange(initial);
+    document.getElementById("annual-cost").textContent = formatRange(annual);
+    document.getElementById("cost-walk-note").textContent = walks.included
+      ? "Paid walks: " + walks.visits + " visits per paid week × " + walks.weeks + " paid weeks = " + (walks.visits * walks.weeks) + " visits per year at " + formatRange(walks.price, true) + " per visit. Added annual cost: " + formatRange(walks.annual) + "; monthly average: " + formatRange(multiplyRange(walks.annual, 1 / 12)) + ". Actual bills depend on booked visits and extra fees. This does not confirm that all care needs are covered."
+      : "Paid dog walks are not included. If you need them, add a local USD quote above. Daycare and boarding remain excluded; arrange a backup caregiver separately.";
     renderBreakdown(monthlyParts);
     document.getElementById("cost-note").textContent = breed
       ? "Preset: " + breed.name + ". " + breed.caution + " Use this as a planning range; local prices and individual health can change the budget."
@@ -412,15 +477,49 @@ faq_schema:
     document.getElementById("cost-guide-link").href = breed ? breed.url : "";
   }
 
+  function calculateWalks() {
+    var selection = document.getElementById("cost-walks").value;
+    var included = selection === "included";
+    var fields = ["cost-walk-low", "cost-walk-high", "cost-walk-visits", "cost-walk-weeks"];
+    document.getElementById("cost-walk-fields").hidden = !included;
+    var invalid = false;
+    var values = fields.map(function (id) {
+      var input = document.getElementById(id);
+      input.disabled = !included;
+      var value = Number(input.value);
+      var bad = included && (input.value.trim() === "" || !Number.isFinite(value) ||
+        value < Number(input.min) || value > Number(input.max) ||
+        Math.abs(value / Number(input.step) - Math.round(value / Number(input.step))) > 0.000001);
+      input.setAttribute("aria-invalid", String(bad));
+      invalid = invalid || bad;
+      return value;
+    });
+    if (included && values[1] < values[0]) {
+      invalid = true;
+      document.getElementById("cost-walk-high").setAttribute("aria-invalid", "true");
+    }
+    document.getElementById("cost-walk-error").textContent = invalid
+      ? "Enter both USD prices from 0 to 1,000 (up to two decimal places), with upper at least lower; use whole visits from 0 to 21 and paid weeks from 0 to 52. Blank fields are not zero."
+      : "";
+    if (invalid || (selection !== "included" && selection !== "excluded")) return null;
+    // Multiply integer cents so a half-dollar total cannot round down through floating-point drift.
+    var annual = included ? values.slice(0, 2).map(function (price) {
+      return Math.round(price * 100) * values[2] * values[3] / 100;
+    }) : [0, 0];
+    return { included: included, price: values.slice(0, 2), visits: values[2], weeks: values[3], annual: annual };
+  }
+
   document.getElementById("cost-breed").addEventListener("change", function () {
     applyBreedPreset();
     calculate();
   });
-  document.querySelectorAll("#dog-cost-form select").forEach(function (select) {
+  document.querySelectorAll("#dog-cost-form select, #dog-cost-form input").forEach(function (select) {
     if (select.id !== "cost-breed") {
       select.addEventListener("change", calculate);
+      if (select.type === "number") select.addEventListener("input", calculate);
     }
   });
+  document.getElementById("dog-cost-form").addEventListener("submit", function (event) { event.preventDefault(); });
   calculate();
 })();
 </script>

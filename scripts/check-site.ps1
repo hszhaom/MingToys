@@ -61,5 +61,10 @@ if ($LASTEXITCODE -ne 0) {
   exit $LASTEXITCODE
 }
 
+node (Join-Path $PSScriptRoot "check-cost-calculator.js") --built
+if ($LASTEXITCODE -ne 0) {
+  exit $LASTEXITCODE
+}
+
 node (Join-Path $PSScriptRoot "check-built-site.js")
 exit $LASTEXITCODE

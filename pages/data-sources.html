@@ -3,7 +3,7 @@ layout: default
 title: "PetStorie Data Sources"
 description: "See how PetStorie checks breed standards, veterinary references, welfare guidance, cost ranges, and editorial dog-breed comparison labels."
 permalink: /data-sources/
-updated: "2026-10-19"
+updated: "2026-10-20"
 adsense: false
 ---
 
@@ -121,6 +121,9 @@ adsense: false
       dollars. It shows the monthly categories included in the estimate and excludes purchase price, licensing, a specific emergency,
       and treatment of a diagnosed condition. Local quotes should replace every category before an owner makes a financial decision.
     </p>
+
+    <h3 id="care-cost-data">Care &amp; Cost Dataset</h3>
+    <p>The first Care &amp; Cost Dataset entry covers <a href="{{ site.url }}/dog-cost-calculator/#paid-walk-evidence">optional paid dog walks</a>: scope, currency, frequency, inclusions, exclusions, calculation, source access dates and evidence limits. It is editorial synthesis, not professionally reviewed. The calculator uses the reader's local USD quote; no market price range has been established. The entry also supplies a daily, weekly, monthly and annual handoff checklist. It does not validate the calculator's older base-care allowances or prescribe a care schedule for an individual dog.</p>
 
     <h2 id="field-evidence">Household Fit Dataset: Field Evidence</h2>
     {% assign published_breeds = site.data.breeds | where: "publication_status", "published" %}
