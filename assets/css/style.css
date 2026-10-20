@@ -455,10 +455,6 @@ body {
   margin: 1.5rem 0;
 }
 
-.calculator-form [hidden] {
-  display: none;
-}
-
 .cost-output {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -633,8 +629,7 @@ body {
   font-weight: 750;
 }
 
-.finder-control select,
-.calculator-form .finder-control input {
+.finder-control select {
   width: 100%;
   min-height: 44px;
   border: 1px solid var(--line);
@@ -665,8 +660,7 @@ body {
 }
 
 .directory-search-control input:focus,
-.finder-control select:focus,
-.calculator-form .finder-control input:focus {
+.finder-control select:focus {
   outline: 3px solid rgba(34, 111, 104, 0.18);
   border-color: var(--accent);
 }

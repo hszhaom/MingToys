@@ -39,6 +39,24 @@ faq_schema:
 
 {% include header.html %}
 
+<style>
+  .calculator-form [hidden] { display: none; }
+  .calculator-form .finder-control input {
+    width: 100%;
+    min-height: 44px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--ink);
+    padding: 0.65rem 0.75rem;
+    font: inherit;
+  }
+  .calculator-form .finder-control input:focus {
+    outline: 3px solid rgba(34, 111, 104, 0.18);
+    border-color: var(--accent);
+  }
+</style>
+
 <main class="container">
   <article class="topic-page tool-page">
     <p class="eyebrow">Budget planning tool</p>
