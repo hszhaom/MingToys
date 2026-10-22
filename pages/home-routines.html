@@ -5,7 +5,7 @@ seo_title: "Dog Home Routines: A Practical Daily Schedule"
 description: "Plan a practical dog home routine around space, workdays, visitors, children, grooming, travel, and the daily demands of different breeds."
 permalink: /home-routines/
 adsense: false
-updated: "2026-09-14"
+updated: "2026-10-22"
 sources:
   - organization: "American Society for the Prevention of Cruelty to Animals"
     title: "General Dog Care"
@@ -71,6 +71,32 @@ faq_schema:
       hourly rule online. It is to notice what this dog needs, adjust the routine, and use a veterinarian's advice when health,
       toileting, appetite, or behavior changes suddenly.
     </p>
+
+    {% assign walks = site.data.care_costs.items.paid_dog_walks %}
+    <section aria-labelledby="walker-cancellation">
+      <h2 id="walker-cancellation">When the Dog Walker Cancels on an Office Day</h2>
+      <p>Your usual midday walker cancels while you are at work, and you may also get home late. Use this hypothetical planning exercise before relying on paid visits. It does not set a safe time alone or assume one visit meets every dog's needs.</p>
+      <ol class="guide-list">
+        {% for check in walks.cancellation_checks %}
+        <li><strong>{{ check.question | escape }}</strong> {{ check.action | escape }}</li>
+        {% endfor %}
+      </ol>
+      <p><strong>Pause point:</strong> if nobody has confirmed suitable cover, the gap is unresolved. Change the work or travel plan, arrange suitable care, or postpone bringing a dog home until coverage is workable. A cheaper quote does not resolve an unfilled care slot.</p>
+      <h3>Keep Routine Visits and Disruption Costs Separate</h3>
+      <p>Use the <a href="{{ site.url }}/dog-cost-calculator/#paid-walks">calculator's local USD dog-walking quote inputs</a> for repeat bookings. Its annual formula is {{ walks.calculation | escape }}. The monthly result spreads that annual amount across 12 months; it is not the invoice for a particular month.</p>
+      <p>Keep a separate note of one-off replacement fees and any original charge that is not refunded. The calculator does not combine two providers or calculate cancellation credits. If comparing a different regular provider, save your first result separately before changing the inputs; those inputs reset on reload. Do not add a full replacement year's cost for a single disrupted day.</p>
+      <p>Carry the agreed cover into the <a href="{{ site.url }}/dog-cost-calculator/#walk-care-plan">daily, weekly, monthly and annual handoff checklist</a>, then use the <a href="{{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/">sitter instructions sheet</a> for the private details.</p>
+      <details>
+        <summary>Scenario evidence and limits</summary>
+        <p>From the {{ site.data.care_costs.name | escape }}: {{ site.data.care_costs.method | escape }}; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Checked {{ walks.accessed | escape }}. {{ walks.confidence | escape }}. {{ walks.editorial_note | escape }}</p>
+        <ul class="guide-list">
+          {% for source in walks.sources %}
+          <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed | escape }}). {{ source.supports | escape }}.</li>
+          {% endfor %}
+        </ul>
+        <p><a href="{{ site.url }}/dog-cost-calculator/#paid-walk-evidence">See the dataset's region, currency, inclusions and exclusions</a>.</p>
+      </details>
+    </section>
 
     <h2>Space Is Also Noise, Storage, and Safe Movement</h2>
     <p>

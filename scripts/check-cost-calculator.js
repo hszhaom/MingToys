@@ -218,11 +218,19 @@ assert.equal(walk.maximum, null);
 assert.equal(walk.currency, "USD");
 assert.equal(care.review_status, "not professionally reviewed");
 assert.equal(walk.care_plan.length, 4);
-assert.equal(walk.sources.length, 2);
+assert.ok(walk.sources.length >= 2);
+assert.equal(walk.cancellation_checks.length, 4);
+for (const check of walk.cancellation_checks) assert.ok(check.question && check.action);
 if (process.argv.includes("--built")) {
   const escapeHTML = text => text.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   for (const task of walk.care_plan) assert.ok(source.includes(escapeHTML(task.action)), "Rendered care plan must use shared data");
   for (const reference of walk.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
   assert.ok(source.includes(walk.confidence));
+  const routines = fs.readFileSync(path.join(root, "_site", "home-routines", "index.html"), "utf8");
+  for (const check of walk.cancellation_checks) {
+    assert.ok(routines.includes(escapeHTML(check.question)) && routines.includes(escapeHTML(check.action)), "Cancellation worksheet must render shared data");
+  }
+  assert.ok(source.includes('/home-routines/#walker-cancellation'));
+  assert.ok(routines.includes('/dog-cost-calculator/#paid-walks') && routines.includes('/dog-cost-calculator/#walk-care-plan'));
 }
 console.log("Paid-walk quote checks passed: missing/min/max/invalid inputs, USD, annual averaging, cents, optional exclusion, preserved quote, recovery and shared evidence.");
