@@ -68,7 +68,13 @@ const document = {
   }
 };
 
-new Function("document", calculator)(document);
+const window = {
+  listeners: {},
+  prints: 0,
+  addEventListener(event, handler) { this.listeners[event] = handler; },
+  print() { this.prints++; }
+};
+new Function("document", "window", calculator)(document, window);
 
 if (getElement("monthly-cost").textContent !== "$105–$255") {
   throw new Error(`Unexpected default monthly range: ${getElement("monthly-cost").textContent}`);
@@ -234,3 +240,25 @@ if (process.argv.includes("--built")) {
   assert.ok(routines.includes('/dog-cost-calculator/#paid-walks') && routines.includes('/dog-cost-calculator/#walk-care-plan'));
 }
 console.log("Paid-walk quote checks passed: missing/min/max/invalid inputs, USD, annual averaging, cents, optional exclusion, preserved quote, recovery and shared evidence.");
+
+// Browser-menu printing and the button must use current inputs and retain evidence.
+assert.equal(getElement("cost-print").hidden, false);
+getElement("cost-print").listeners.click();
+assert.equal(window.prints, 1);
+for (const open of [false, true]) {
+  getElement("paid-walk-evidence").open = open;
+  getElement("cost-walk-low").value = "20";
+  window.listeners.beforeprint();
+  assert.equal(getElement("monthly-cost").textContent, "$505–$855");
+  assert.equal(getElement("paid-walk-evidence").open, true);
+  window.listeners.beforeprint();
+  window.listeners.afterprint();
+  assert.equal(getElement("paid-walk-evidence").open, open, "Printing must restore the disclosure state");
+}
+getElement("cost-walk-low").value = "";
+window.listeners.beforeprint();
+assert.equal(getElement("monthly-cost").textContent, "Not calculated", "Printing cannot preserve an outdated valid total");
+assert.equal(getElement("cost-breakdown").innerHTML, "");
+window.listeners.afterprint();
+assert.ok(source.includes('@media print') && source.includes('Page version:'));
+console.log("Print checks passed: native print, latest inputs, invalid totals and evidence restoration.");

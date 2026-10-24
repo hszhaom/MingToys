@@ -4,7 +4,7 @@ title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Cost Calculator: Monthly and First-Year Costs"
 description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-10-22"
+updated: "2026-10-24"
 adsense: false
 sources:
   - organization: "ASPCA"
@@ -55,12 +55,29 @@ faq_schema:
     outline: 3px solid rgba(34, 111, 104, 0.18);
     border-color: var(--accent);
   }
+  .cost-print-note { display: none; }
+  .cost-print-controls button { min-height: 44px; padding: 0.6rem 1rem; font: inherit; cursor: pointer; }
+  @media print {
+    @page { margin: 15mm; }
+    body { background: white; color: black; }
+    .site-header, .site-footer, .cost-print-controls { display: none !important; }
+    .container { width: 100%; max-width: none; margin: 0; padding: 0; }
+    .topic-page { padding: 0; border: 0; box-shadow: none; }
+    .calculator-form .filter-grid, .cost-output { display: block; }
+    .calculator-form .finder-control { margin-bottom: 0.5rem; }
+    .calculator-form select, .calculator-form input { font-size: 11pt; min-height: 0; padding: 0.2rem; }
+    .cost-output > div, tr { break-inside: avoid; }
+    h2, h3 { break-after: avoid; }
+    .cost-print-note { display: block; }
+    #paid-walk-evidence { overflow-wrap: anywhere; }
+  }
 </style>
 
 <main class="container">
   <article class="topic-page tool-page">
     <p class="eyebrow">Budget planning tool</p>
     <h1>Dog Cost Calculator</h1>
+    <p class="cost-print-note">PetStorie budget and paid-walk care worksheet · https://petstorie.com/dog-cost-calculator/ · Page version: {{ page.updated }}. These are planning assumptions and user-entered quotes, not a confirmed care arrangement or a professionally reviewed budget.</p>
     <p>
       A dog can be affordable in daily life and still become expensive through grooming, food, training, insurance, or health
       surprises. Use this calculator as a conservative planning tool before choosing a breed.
@@ -165,6 +182,8 @@ faq_schema:
       </div>
       <p id="cost-walk-error" aria-live="polite"></p>
     </form>
+    <p class="cost-print-controls"><button id="cost-print" type="button" hidden>Print / save budget and care plan</button></p>
+    <p class="cost-print-controls">Keep a copy before leaving or reloading this page. Use your browser's Print command, or the button above, and choose Save as PDF if available. The copy includes current inputs, results, paid-walk care reminders and evidence limits. Check that it shows a calculated budget; incomplete inputs print as “Not calculated.” No account or personal contact details are needed.</p>
     <noscript><p>The interactive estimate needs JavaScript. Use the cost categories and quote checklist below to plan your budget.</p></noscript>
 
     <section class="calculator-result" aria-live="polite">
@@ -538,6 +557,19 @@ faq_schema:
     }
   });
   document.getElementById("dog-cost-form").addEventListener("submit", function (event) { event.preventDefault(); });
+  var evidence = document.getElementById("paid-walk-evidence");
+  var evidenceWasOpen;
+  window.addEventListener("beforeprint", function () {
+    calculate();
+    if (evidenceWasOpen === undefined) evidenceWasOpen = evidence.open;
+    evidence.open = true;
+  });
+  window.addEventListener("afterprint", function () {
+    if (evidenceWasOpen !== undefined) evidence.open = evidenceWasOpen;
+    evidenceWasOpen = undefined;
+  });
+  document.getElementById("cost-print").hidden = false;
+  document.getElementById("cost-print").addEventListener("click", function () { window.print(); });
   calculate();
 })();
 </script>
