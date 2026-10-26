@@ -85,6 +85,10 @@ if (getElement("first-year-cost").textContent !== "$1,660–$3,910") {
 if ((getElement("cost-breakdown").innerHTML.match(/<tr>/g) || []).length !== 5) {
   throw new Error("Monthly breakdown does not contain five categories.");
 }
+assert.ok(getElement("cost-breakdown").innerHTML.includes("Emergency savings contribution (assumption)"));
+change("cost-insurance", "insurance");
+assert.ok(getElement("cost-breakdown").innerHTML.includes("Pet-insurance premium (assumption)"));
+change("cost-insurance", "savings");
 
 getElement("cost-size").value = "giant";
 getElement("cost-grooming").value = "high";
@@ -149,6 +153,9 @@ for (const id of Object.keys(values).filter(id => !inputRules[id])) {
 }
 assert.ok(source.includes("<noscript>"));
 assert.ok(source.includes('aria-describedby="food-plan-note"'));
+assert.ok(source.includes('aria-describedby="financial-plan-note"'));
+assert.ok(source.includes("Emergency savings contribution (assumption)"));
+assert.ok(source.includes("Pet-insurance premium (assumption)"));
 assert.ok(source.includes('scope="col"'));
 console.log(`Preset and recovery checks passed for all ${presets.length} published breeds${process.argv.includes("--built") ? " in rendered HTML" : ""}.`);
 
@@ -223,6 +230,11 @@ assert.equal(walk.minimum, null);
 assert.equal(walk.maximum, null);
 assert.equal(walk.currency, "USD");
 assert.equal(care.review_status, "not professionally reviewed");
+const protection = care.items.financial_protection;
+for (const key of ["name", "frequency", "region", "dog_scope", "qualitative_range", "currency", "baseline_year", "includes", "excludes", "calculation", "confidence", "editorial_note", "accessed"]) assert.ok(protection[key], key);
+assert.equal(protection.minimum, null);
+assert.equal(protection.maximum, null);
+assert.equal(protection.sources.length, 2);
 assert.equal(walk.care_plan.length, 4);
 assert.ok(walk.sources.length >= 2);
 assert.equal(walk.cancellation_checks.length, 4);
@@ -231,6 +243,7 @@ if (process.argv.includes("--built")) {
   const escapeHTML = text => text.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   for (const task of walk.care_plan) assert.ok(source.includes(escapeHTML(task.action)), "Rendered care plan must use shared data");
   for (const reference of walk.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
+  for (const reference of protection.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
   assert.ok(source.includes(walk.confidence));
   const routines = fs.readFileSync(path.join(root, "_site", "home-routines", "index.html"), "utf8");
   for (const check of walk.cancellation_checks) {

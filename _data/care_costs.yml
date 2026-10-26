@@ -1,8 +1,35 @@
 name: "PetStorie Care & Cost Dataset"
-updated: "2026-10-22"
+updated: "2026-10-26"
 method: "editorial synthesis"
 review_status: "not professionally reviewed"
 items:
+  financial_protection:
+    name: "Pet-insurance premiums or emergency savings contributions"
+    frequency: "Monthly planning choice"
+    region: "United States planning context; policy terms, quotes and savings goals are local and individual"
+    dog_scope: "Any size or life stage; premiums and coverage can vary with the dog, location and policy"
+    minimum: null
+    maximum: null
+    qualitative_range: "No universal premium or savings-target range established; the calculator's existing ranges are editorial assumptions, not quotes or coverage promises"
+    currency: "USD"
+    baseline_year: 2026
+    includes: "Either an estimated insurance premium or a household contribution set aside for unexpected veterinary costs"
+    excludes: "Claim payments, deductibles, coinsurance, reimbursement, policy limits, actual treatment costs and a promise that savings cover an event"
+    calculation: "Choose one primary monthly planning path. A premium is billed spending; a savings contribution remains the owner's money and is not an invoice. The calculator does not estimate claim reimbursement or actual out-of-pocket care."
+    confidence: "Moderate for questions to ask; low for dollar assumptions because no local quote dataset is available"
+    editorial_note: "This is an editorial synthesis, not insurance advice or a policy comparison. Read the exact policy and obtain a quote for the individual dog. The two choices must not be added together as though both are recurring service charges."
+    accessed: "2026-10-26"
+    sources:
+      - organization: "Maryland Insurance Administration"
+        title: "Pet Insurance"
+        url: "https://insurance.maryland.gov/Consumer/Pages/pet-insurance.aspx"
+        accessed: "2026-10-26"
+        supports: "Policies can have deductibles, reimbursement limits, exclusions and premiums that vary by coverage, breed and deductible; owners commonly pay the clinic before seeking reimbursement."
+      - organization: "California Department of Insurance"
+        title: "Questions to Consider When Purchasing Pet Insurance"
+        url: "https://www.insurance.ca.gov/01-consumers/105-type/8-pet/pet-qa.cfm"
+        accessed: "2026-10-26"
+        supports: "Compare waiting periods, exclusions, deductibles, coinsurance, limits, renewal pricing and the reimbursement basis before relying on a policy."
   paid_dog_walks:
     name: "Optional paid dog walks"
     frequency: "Per visit, converted to annual cost and a monthly average"

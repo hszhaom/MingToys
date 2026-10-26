@@ -4,7 +4,7 @@ title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Cost Calculator: Monthly and First-Year Costs"
 description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-10-24"
+updated: "2026-10-26"
 adsense: false
 sources:
   - organization: "ASPCA"
@@ -19,6 +19,14 @@ sources:
     title: "CHIC Browse by Breed"
     url: "https://ofa.org/chic-programs/browse-by-breed/"
     accessed: "2026-07-18"
+  - organization: "Maryland Insurance Administration"
+    title: "Pet Insurance"
+    url: "https://insurance.maryland.gov/Consumer/Pages/pet-insurance.aspx"
+    accessed: "2026-10-26"
+  - organization: "California Department of Insurance"
+    title: "Questions to Consider When Purchasing Pet Insurance"
+    url: "https://www.insurance.ca.gov/01-consumers/105-type/8-pet/pet-qa.cfm"
+    accessed: "2026-10-26"
 web_application:
   name: "Dog Cost Calculator"
   category: "FinanceApplication"
@@ -143,10 +151,10 @@ faq_schema:
           </select>
         </label>
         <label class="finder-control">
-          <span>Insurance / emergency plan</span>
-          <select id="cost-insurance">
-            <option value="savings">Emergency savings only</option>
-            <option value="insurance">Pet insurance estimate</option>
+          <span>Financial-protection plan</span>
+          <select id="cost-insurance" aria-describedby="financial-plan-note">
+            <option value="savings">Emergency-savings contribution</option>
+            <option value="insurance">Pet-insurance premium estimate</option>
           </select>
         </label>
         <label class="finder-control">
@@ -165,6 +173,7 @@ faq_schema:
         </label>
       </div>
       <p id="food-plan-note">The optional food allowance stays as you choose it when switching breeds. It is a spending choice, not a diet recommendation; ask your veterinarian about the individual dog's nutritional needs.</p>
+      <p id="financial-plan-note">Choose one primary path. An insurance premium is billed spending; an emergency-savings contribution remains your money. The monthly plan total includes either choice, but it does not estimate reimbursement, deductibles, coinsurance, or actual treatment costs.</p>
       <h3 id="paid-walks">Add a Local Dog-Walking Quote</h3>
       <p id="walk-input-note">Optional paid walks are separate from base care. Enter USD quotes for the same visit length and service, including any regular tax or fee. Use the same lower and upper price for a single quote. No currency conversion is performed. These inputs stay in this page and reset on reload.</p>
       <label class="finder-control">
@@ -224,6 +233,17 @@ faq_schema:
     </section>
 
     {% assign walks = site.data.care_costs.items.paid_dog_walks %}
+    {% assign protection = site.data.care_costs.items.financial_protection %}
+    <details id="financial-protection-evidence">
+      <summary>Insurance and emergency-savings limits</summary>
+      <p>Part of the {{ site.data.care_costs.name | escape }}. This is an <strong>{{ site.data.care_costs.method | escape }}</strong>; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Source check: {{ protection.accessed | escape }}.</p>
+      <p>{{ protection.calculation | escape }} {{ protection.editorial_note | escape }}</p>
+      <ul class="guide-list">
+        {% for source in protection.sources %}
+        <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed | escape }}). {{ source.supports | escape }}</li>
+        {% endfor %}
+      </ul>
+    </details>
     <h2 id="walk-care-plan">Paid-Walk Care Handoff</h2>
     <p>A paid visit covers only the agreed service. These editorial planning prompts do not set a safe time alone or a required exercise duration. Before booking, meet the walker, agree the individual dog's needs and emergency arrangements, and check local requirements. Ask a licensed veterinarian about health-related activity limits.</p>
     <ul class="guide-list">
@@ -334,7 +354,7 @@ faq_schema:
     <h2>How the Calculator Builds the Range</h2>
     <p>
       The base-care range combines food at the selected size, routine preventive care, and ordinary replacement supplies. Grooming,
-      an optional food allowance, insurance or emergency savings, and an extra planning buffer are added as separate monthly categories. The
+      an optional food allowance, either an insurance premium or an emergency-savings contribution, and an extra planning buffer are added as separate monthly categories. The
       first-year range adds equipment, training, and setup costs to annual ongoing care. If enabled, paid walks use your quote multiplied by visits per week and paid weeks per year. Their monthly figure is an annual average, not a monthly invoice. Totals are rounded only for display; twelve displayed monthly amounts can differ slightly from the annual total.
     </p>
     <p>
@@ -386,7 +406,7 @@ faq_schema:
   var sizeSetup = { toy: [250, 500], small: [300, 600], medium: [400, 750], large: [550, 1000], giant: [750, 1400] };
   var groomingMonthly = { low: [10, 30], medium: [35, 80], high: [80, 160] };
   var foodMonthly = { basic: [0, 0], premium: [25, 75] };
-  var insuranceMonthly = { savings: [40, 100], insurance: [55, 150] };
+  var financialProtectionMonthly = { savings: [40, 100], insurance: [55, 150] };
   var trainingFirstYear = { basic: [150, 350], extra: [400, 900] };
   var setupExtra = { lean: [0, 0], full: [150, 400] };
   var breedRiskMonthly = { low: [0, 20], medium: [15, 50], high: [40, 110] };
@@ -451,7 +471,7 @@ faq_schema:
     var breed = getSelectedBreed();
     var walks = calculateWalks();
     if (!sizeMonthly[size] || !groomingMonthly[grooming] || !foodMonthly[food] ||
-        !insuranceMonthly[insurance] || !trainingFirstYear[training] || !setupExtra[setup] ||
+        !financialProtectionMonthly[insurance] || !trainingFirstYear[training] || !setupExtra[setup] ||
         (document.getElementById("cost-breed").value && !breed) || !walks) {
       ["monthly-cost", "first-year-cost", "setup-cost", "annual-cost"].forEach(function (id) {
         document.getElementById(id).textContent = "Not calculated";
@@ -470,7 +490,7 @@ faq_schema:
       { label: "Base care by size", range: sizeMonthly[size] },
       { label: "Grooming", range: groomingMonthly[grooming] },
       { label: "Optional food allowance", range: foodMonthly[food] },
-      { label: "Insurance or emergency savings", range: insuranceMonthly[insurance] },
+      { label: insurance === "insurance" ? "Pet-insurance premium (assumption)" : "Emergency savings contribution (assumption)", range: financialProtectionMonthly[insurance] },
       { label: "Extra planning buffer (assumption)", range: breedRiskMonthly[riskLevel] }
     ];
     var baseMonthly = addRanges(monthlyParts.map(function (part) { return part.range; }));
@@ -504,7 +524,7 @@ faq_schema:
       "Extra planning buffer: " + formatRange(breedRiskMonthly[riskLevel]) + " monthly plus " +
       formatRange(breedRiskSetup[riskLevel]) + " in first-year setup. " +
       (breed ? "This uses the higher of the breed's health-risk and cost flags (" + riskLevel + "). It stays tied to the selected breed even if you edit the controls. " : "This is the default allowance without a breed preset. ") +
-      "It is added on top of insurance or emergency savings; it is not a predicted vet bill or an evidence-based savings target.";
+      "It is separate from the selected premium or savings contribution; it is not a predicted vet bill or an evidence-based savings target.";
     document.getElementById("cost-evidence-note").textContent = breed && breed.costEvidence
       ? "Dataset cost evidence: " + breed.costEvidence
       : "No field-level cost evidence note is available for this selection. The dollar ranges remain unvalidated planning assumptions.";
