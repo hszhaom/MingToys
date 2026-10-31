@@ -1,8 +1,30 @@
 name: "PetStorie Care & Cost Dataset"
-updated: "2026-10-26"
+updated: "2026-10-27"
 method: "editorial synthesis"
 review_status: "not professionally reviewed"
 items:
+  local_base_care_quotes:
+    name: "Local food, routine veterinary and preventive-care quotes"
+    frequency: "Monthly food and supplies plus annual routine veterinary and preventive care, converted to a monthly average"
+    region: "United States calculator; local USD quotes are required"
+    dog_scope: "Any size or life stage; food amount and veterinary recommendations must match the individual dog"
+    minimum: null
+    maximum: null
+    qualitative_range: "No market price range established; the reader supplies comparable lower and upper local quotes"
+    currency: "USD"
+    baseline_year: 2026
+    includes: "A monthly food-and-supplies quote plus an annual routine veterinary-and-preventive-care quote"
+    excludes: "Emergency or diagnosed-condition treatment, grooming, training, insurance premiums, savings contributions, licensing, boarding, paid walks, taxes or fees not included in the quoted amount, and a veterinary recommendation"
+    calculation: "Monthly replacement base care = monthly food and supplies quote + (annual routine veterinary and preventive-care quote ÷ 12)"
+    confidence: "Moderate for separating planning categories; local prices and the appropriate preventive-care plan are unverified"
+    editorial_note: "This replaces only the calculator's broad base-care-by-size assumption when all four quote bounds are entered. Use like-for-like quotes for the individual dog. Ask a local licensed veterinarian which routine services and preventives apply; this tool does not choose vaccines, medications or doses."
+    accessed: "2026-10-27"
+    sources:
+      - organization: "ASPCA"
+        title: "Cutting Pet Care Costs"
+        url: "https://www.aspca.org/pet-care/general-pet-care/cutting-pet-care-costs"
+        accessed: "2026-10-27"
+        supports: "Food, routine medical care and preventive medication are distinct planning categories, and owners can compare local preventive-care fees. The page's 2021 dollar examples are not used as current price quotes."
   financial_protection:
     name: "Pet-insurance premiums or emergency savings contributions"
     frequency: "Monthly planning choice"

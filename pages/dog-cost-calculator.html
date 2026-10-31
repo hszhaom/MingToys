@@ -4,13 +4,13 @@ title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Cost Calculator: Monthly and First-Year Costs"
 description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-10-26"
+updated: "2026-10-31"
 adsense: false
 sources:
   - organization: "ASPCA"
     title: "Cutting Pet Care Costs"
     url: "https://www.aspca.org/pet-care/general-pet-care/cutting-pet-care-costs"
-    accessed: "2026-10-06"
+    accessed: "2026-10-27"
   - organization: "North American Pet Health Insurance Association"
     title: "Industry Data"
     url: "https://naphia.org/industry-data/"
@@ -174,6 +174,22 @@ faq_schema:
       </div>
       <p id="food-plan-note">The optional food allowance stays as you choose it when switching breeds. It is a spending choice, not a diet recommendation; ask your veterinarian about the individual dog's nutritional needs.</p>
       <p id="financial-plan-note">Choose one primary path. An insurance premium is billed spending; an emergency-savings contribution remains your money. The monthly plan total includes either choice, but it does not estimate reimbursement, deductibles, coinsurance, or actual treatment costs.</p>
+      <h3 id="base-care-quotes">Replace the Base-Care Assumption With Local Quotes</h3>
+      <p id="base-care-input-note">Optional. Enter comparable USD lower and upper quotes for both categories to replace the broad base-care-by-size assumption. The food-and-supplies quote is monthly; routine veterinary and preventive care is annual and divided by 12. Include only regular fees already included in each quote. No currency conversion is performed. If your food quote already includes the optional food allowance, leave that allowance at Basic to avoid counting it twice. These inputs stay in this page and reset on reload.</p>
+      <label class="finder-control">
+        <span>Local base-care quotes</span>
+        <select id="cost-base-care" aria-describedby="base-care-input-note">
+          <option value="assumption">Use the base-care-by-size assumption</option>
+          <option value="local">Use my local quotes instead</option>
+        </select>
+      </label>
+      <div id="cost-base-care-fields" class="filter-grid" hidden>
+        <label class="finder-control"><span>Lower monthly food and supplies (USD)</span><input id="cost-base-food-low" type="number" min="0" max="5000" step="0.01" inputmode="decimal" aria-describedby="base-care-input-note cost-base-care-error" disabled></label>
+        <label class="finder-control"><span>Upper monthly food and supplies (USD)</span><input id="cost-base-food-high" type="number" min="0" max="5000" step="0.01" inputmode="decimal" aria-describedby="base-care-input-note cost-base-care-error" disabled></label>
+        <label class="finder-control"><span>Lower annual routine veterinary and preventive care (USD)</span><input id="cost-base-vet-low" type="number" min="0" max="10000" step="0.01" inputmode="decimal" aria-describedby="base-care-input-note cost-base-care-error" disabled></label>
+        <label class="finder-control"><span>Upper annual routine veterinary and preventive care (USD)</span><input id="cost-base-vet-high" type="number" min="0" max="10000" step="0.01" inputmode="decimal" aria-describedby="base-care-input-note cost-base-care-error" disabled></label>
+      </div>
+      <p id="cost-base-care-error" aria-live="polite"></p>
       <h3 id="paid-walks">Add a Local Dog-Walking Quote</h3>
       <p id="walk-input-note">Optional paid walks are separate from base care. Enter USD quotes for the same visit length and service, including any regular tax or fee. Use the same lower and upper price for a single quote. No currency conversion is performed. These inputs stay in this page and reset on reload.</p>
       <label class="finder-control">
@@ -233,7 +249,18 @@ faq_schema:
     </section>
 
     {% assign walks = site.data.care_costs.items.paid_dog_walks %}
+    {% assign base_quotes = site.data.care_costs.items.local_base_care_quotes %}
     {% assign protection = site.data.care_costs.items.financial_protection %}
+    <details id="base-care-evidence">
+      <summary>Local base-care quote limits</summary>
+      <p>Part of the {{ site.data.care_costs.name | escape }}. This is an <strong>{{ site.data.care_costs.method | escape }}</strong>; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Source check: {{ base_quotes.accessed | escape }}.</p>
+      <p>{{ base_quotes.calculation | escape }} {{ base_quotes.editorial_note | escape }}</p>
+      <ul class="guide-list">
+        {% for source in base_quotes.sources %}
+        <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed | escape }}). {{ source.supports | escape }}</li>
+        {% endfor %}
+      </ul>
+    </details>
     <details id="financial-protection-evidence">
       <summary>Insurance and emergency-savings limits</summary>
       <p>Part of the {{ site.data.care_costs.name | escape }}. This is an <strong>{{ site.data.care_costs.method | escape }}</strong>; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Source check: {{ protection.accessed | escape }}.</p>
@@ -469,10 +496,11 @@ faq_schema:
     var training = document.getElementById("cost-training").value;
     var setup = document.getElementById("cost-setup").value;
     var breed = getSelectedBreed();
+    var baseCare = calculateBaseCare();
     var walks = calculateWalks();
     if (!sizeMonthly[size] || !groomingMonthly[grooming] || !foodMonthly[food] ||
         !financialProtectionMonthly[insurance] || !trainingFirstYear[training] || !setupExtra[setup] ||
-        (document.getElementById("cost-breed").value && !breed) || !walks) {
+        (document.getElementById("cost-breed").value && !breed) || !baseCare || !walks) {
       ["monthly-cost", "first-year-cost", "setup-cost", "annual-cost"].forEach(function (id) {
         document.getElementById(id).textContent = "Not calculated";
       });
@@ -487,7 +515,7 @@ faq_schema:
     }
     var riskLevel = getRiskLevel(breed);
     var monthlyParts = [
-      { label: "Base care by size", range: sizeMonthly[size] },
+      { label: baseCare.local ? "Local base care (your quotes)" : "Base care by size (assumption)", range: baseCare.range },
       { label: "Grooming", range: groomingMonthly[grooming] },
       { label: "Optional food allowance", range: foodMonthly[food] },
       { label: insurance === "insurance" ? "Pet-insurance premium (assumption)" : "Emergency savings contribution (assumption)", range: financialProtectionMonthly[insurance] },
@@ -534,6 +562,35 @@ faq_schema:
     document.getElementById("cost-guide-link").href = breed ? breed.url : "";
   }
 
+  function calculateBaseCare() {
+    var selection = document.getElementById("cost-base-care").value;
+    var local = selection === "local";
+    var fields = ["cost-base-food-low", "cost-base-food-high", "cost-base-vet-low", "cost-base-vet-high"];
+    document.getElementById("cost-base-care-fields").hidden = !local;
+    var invalid = false;
+    var values = fields.map(function (id) {
+      var input = document.getElementById(id);
+      input.disabled = !local;
+      var value = Number(input.value);
+      var bad = local && (input.value.trim() === "" || !Number.isFinite(value) ||
+        value < Number(input.min) || value > Number(input.max) ||
+        Math.abs(value / Number(input.step) - Math.round(value / Number(input.step))) > 0.000001);
+      input.setAttribute("aria-invalid", String(bad));
+      invalid = invalid || bad;
+      return value;
+    });
+    if (local && (values[1] < values[0] || values[3] < values[2])) {
+      invalid = true;
+      if (values[1] < values[0]) document.getElementById("cost-base-food-high").setAttribute("aria-invalid", "true");
+      if (values[3] < values[2]) document.getElementById("cost-base-vet-high").setAttribute("aria-invalid", "true");
+    }
+    document.getElementById("cost-base-care-error").textContent = invalid
+      ? "Enter both USD quote ranges with upper at least lower. Food and supplies allow 0 to 5,000 per month; routine veterinary and preventive care allow 0 to 10,000 per year. Blank fields are not zero."
+      : "";
+    if (invalid || (selection !== "local" && selection !== "assumption")) return null;
+    return { local: local, range: local ? [values[0] + values[2] / 12, values[1] + values[3] / 12] : sizeMonthly[document.getElementById("cost-size").value] };
+  }
+
   function calculateWalks() {
     var selection = document.getElementById("cost-walks").value;
     var included = selection === "included";
@@ -577,15 +634,15 @@ faq_schema:
     }
   });
   document.getElementById("dog-cost-form").addEventListener("submit", function (event) { event.preventDefault(); });
-  var evidence = document.getElementById("paid-walk-evidence");
+  var evidence = ["paid-walk-evidence", "base-care-evidence", "financial-protection-evidence"].map(function (id) { return document.getElementById(id); });
   var evidenceWasOpen;
   window.addEventListener("beforeprint", function () {
     calculate();
-    if (evidenceWasOpen === undefined) evidenceWasOpen = evidence.open;
-    evidence.open = true;
+    if (evidenceWasOpen === undefined) evidenceWasOpen = evidence.map(function (item) { return item.open; });
+    evidence.forEach(function (item) { item.open = true; });
   });
   window.addEventListener("afterprint", function () {
-    if (evidenceWasOpen !== undefined) evidence.open = evidenceWasOpen;
+    if (evidenceWasOpen !== undefined) evidence.forEach(function (item, index) { item.open = evidenceWasOpen[index]; });
     evidenceWasOpen = undefined;
   });
   document.getElementById("cost-print").hidden = false;

@@ -33,12 +33,18 @@ const values = {
   "cost-insurance": "savings",
   "cost-training": "basic",
   "cost-setup": "lean",
+  "cost-base-care": "assumption",
   "cost-walks": "excluded"
 };
+const baseInputs = [...source.matchAll(/<input id="(cost-base-[^"]+)"[^>]*>/g)];
+assert.equal(baseInputs.length, 4);
+const baseRules = Object.fromEntries(baseInputs.map(([tag, id]) => [id,
+  Object.fromEntries([...tag.matchAll(/(min|max|step|type)="([^"]*)"/g)].map(m => [m[1], m[2]]))]));
 const walkInputs = [...source.matchAll(/<input id="(cost-walk-[^"]+)"[^>]*>/g)];
 assert.equal(walkInputs.length, 4);
 const inputRules = Object.fromEntries(walkInputs.map(([tag, id]) => [id,
   Object.fromEntries([...tag.matchAll(/(min|max|step|type)="([^"]*)"/g)].map(m => [m[1], m[2]]))]));
+Object.assign(inputRules, baseRules);
 for (const id of Object.keys(inputRules)) values[id] = "";
 
 const elements = {};
@@ -85,6 +91,7 @@ if (getElement("first-year-cost").textContent !== "$1,660–$3,910") {
 if ((getElement("cost-breakdown").innerHTML.match(/<tr>/g) || []).length !== 5) {
   throw new Error("Monthly breakdown does not contain five categories.");
 }
+assert.ok(getElement("cost-breakdown").innerHTML.includes("Base care by size (assumption)"));
 assert.ok(getElement("cost-breakdown").innerHTML.includes("Emergency savings contribution (assumption)"));
 change("cost-insurance", "insurance");
 assert.ok(getElement("cost-breakdown").innerHTML.includes("Pet-insurance premium (assumption)"));
@@ -154,14 +161,65 @@ for (const id of Object.keys(values).filter(id => !inputRules[id])) {
 assert.ok(source.includes("<noscript>"));
 assert.ok(source.includes('aria-describedby="food-plan-note"'));
 assert.ok(source.includes('aria-describedby="financial-plan-note"'));
+assert.ok(source.includes('aria-describedby="base-care-input-note"'));
 assert.ok(source.includes("Emergency savings contribution (assumption)"));
 assert.ok(source.includes("Pet-insurance premium (assumption)"));
 assert.ok(source.includes('scope="col"'));
 console.log(`Preset and recovery checks passed for all ${presets.length} published breeds${process.argv.includes("--built") ? " in rendered HTML" : ""}.`);
 
-// Local quotes: weeks, not four-week months; no intermediate money rounding.
+// Local base-care quotes replace, rather than add to, the broad size assumption.
 for (const [id, value] of Object.entries({ "cost-breed": "", "cost-size": "toy", "cost-grooming": "low",
-  "cost-food": "basic", "cost-insurance": "savings", "cost-training": "basic", "cost-setup": "lean" })) change(id, value);
+  "cost-food": "basic", "cost-insurance": "savings", "cost-training": "basic", "cost-setup": "lean", "cost-walks": "excluded" })) change(id, value);
+change("cost-base-care", "local");
+assert.equal(getElement("monthly-cost").textContent, "Not calculated", "Blank local base quotes must not silently become free care");
+function baseQuote(foodLow, foodHigh, vetLow, vetHigh) {
+  [foodLow, foodHigh, vetLow, vetHigh].forEach((v, i) => change(Object.keys(baseRules)[i], String(v)));
+}
+baseQuote(50, 70, 240, 360);
+assert.equal(getElement("monthly-cost").textContent, "$120–$250", "Local base quotes must replace the toy size assumption");
+assert.equal(getElement("annual-cost").textContent, "$1,440–$3,000");
+assert.equal(getElement("first-year-cost").textContent, "$1,840–$3,850");
+assert.ok(getElement("cost-breakdown").innerHTML.includes("Local base care (your quotes)"));
+for (const [id, bad] of [["cost-base-food-low", ""], ["cost-base-food-low", "-1"], ["cost-base-food-high", "49"], ["cost-base-vet-low", "10000.001"], ["cost-base-vet-high", "239"]]) {
+  baseQuote(50, 70, 240, 360);
+  change(id, bad);
+  assert.equal(getElement("monthly-cost").textContent, "Not calculated", `${id}=${bad} retained stale total`);
+  assert.equal(getElement(id).attributes["aria-invalid"], "true");
+}
+for (const id of Object.keys(baseRules)) {
+  for (const bad of ["", "NaN", "Infinity", "-0.01", String(Number(baseRules[id].max) + 0.01), "50.001"]) {
+    baseQuote(50, 70, 240, 360);
+    change(id, bad);
+    for (const total of ["monthly-cost", "annual-cost", "setup-cost", "first-year-cost"]) {
+      assert.equal(getElement(total).textContent, "Not calculated", `${id}=${bad}: stale ${total}`);
+    }
+    assert.equal(getElement(id).attributes["aria-invalid"], "true");
+  }
+}
+baseQuote(0, 0, 0, 0);
+assert.equal(getElement("annual-cost").textContent, "$600–$1,800");
+baseQuote(5000, 5000, 10000, 10000);
+assert.equal(getElement("annual-cost").textContent, "$70,600–$71,800");
+baseQuote(19.99, 19.99, 100.01, 100.01);
+assert.equal(getElement("annual-cost").textContent, "$940–$2,140");
+baseQuote(50, 70, 240, 360);
+change("cost-walks", "included");
+for (const [id, value] of Object.entries({"cost-walk-low":"20", "cost-walk-high":"30", "cost-walk-visits":"5", "cost-walk-weeks":"48"})) change(id, value);
+assert.equal(getElement("annual-cost").textContent, "$6,240–$10,200", "Local base and optional walks must each count once");
+change("cost-walks", "excluded");
+change("cost-breed", "labrador-retriever");
+assert.equal(getElement("cost-base-food-low").value, "50", "Breed changes must preserve local quotes");
+change("cost-breed", "");
+change("cost-size", "toy");
+change("cost-grooming", "low");
+baseQuote(50, 70, 240, 360);
+change("cost-base-care", "assumption");
+assert.equal(getElement("monthly-cost").textContent, "$105–$255", "Returning to the assumption must recover defaults");
+
+// Local quotes: weeks, not four-week months; no intermediate money rounding.
+for (const [, id] of walkInputs) change(id, "");
+for (const [id, value] of Object.entries({ "cost-breed": "", "cost-size": "toy", "cost-grooming": "low",
+  "cost-food": "basic", "cost-insurance": "savings", "cost-training": "basic", "cost-setup": "lean", "cost-base-care": "assumption" })) change(id, value);
 assert.equal(getElement("annual-cost").textContent, "$1,260–$3,060");
 assert.equal(getElement("setup-cost").textContent, "$400–$850");
 assert.equal(getElement("cost-walk-fields").hidden, true);
@@ -235,6 +293,11 @@ for (const key of ["name", "frequency", "region", "dog_scope", "qualitative_rang
 assert.equal(protection.minimum, null);
 assert.equal(protection.maximum, null);
 assert.equal(protection.sources.length, 2);
+const baseCare = care.items.local_base_care_quotes;
+for (const key of ["name", "frequency", "region", "dog_scope", "qualitative_range", "currency", "baseline_year", "includes", "excludes", "calculation", "confidence", "editorial_note", "accessed"]) assert.ok(baseCare[key], key);
+assert.equal(baseCare.minimum, null);
+assert.equal(baseCare.maximum, null);
+assert.equal(baseCare.sources.length, 1);
 assert.equal(walk.care_plan.length, 4);
 assert.ok(walk.sources.length >= 2);
 assert.equal(walk.cancellation_checks.length, 4);
@@ -244,6 +307,7 @@ if (process.argv.includes("--built")) {
   for (const task of walk.care_plan) assert.ok(source.includes(escapeHTML(task.action)), "Rendered care plan must use shared data");
   for (const reference of walk.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
   for (const reference of protection.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
+  for (const reference of baseCare.sources) assert.ok(source.includes(reference.url) && source.includes(reference.accessed));
   assert.ok(source.includes(walk.confidence));
   const routines = fs.readFileSync(path.join(root, "_site", "home-routines", "index.html"), "utf8");
   for (const check of walk.cancellation_checks) {
@@ -260,13 +324,19 @@ getElement("cost-print").listeners.click();
 assert.equal(window.prints, 1);
 for (const open of [false, true]) {
   getElement("paid-walk-evidence").open = open;
+  getElement("base-care-evidence").open = open;
+  getElement("financial-protection-evidence").open = !open;
   getElement("cost-walk-low").value = "20";
   window.listeners.beforeprint();
   assert.equal(getElement("monthly-cost").textContent, "$505–$855");
   assert.equal(getElement("paid-walk-evidence").open, true);
+  assert.equal(getElement("base-care-evidence").open, true);
+  assert.equal(getElement("financial-protection-evidence").open, true);
   window.listeners.beforeprint();
   window.listeners.afterprint();
   assert.equal(getElement("paid-walk-evidence").open, open, "Printing must restore the disclosure state");
+  assert.equal(getElement("base-care-evidence").open, open);
+  assert.equal(getElement("financial-protection-evidence").open, !open);
 }
 getElement("cost-walk-low").value = "";
 window.listeners.beforeprint();

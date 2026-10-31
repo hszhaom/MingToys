@@ -48,6 +48,21 @@ if (!read("dog-breed-comparisons/index.html").includes('href="https://petstorie.
 }
 
 const homepage = read("index.html");
+const featuredUrls = [...fs.readFileSync(path.join(root, "index.html"), "utf8")
+  .matchAll(/^  - (\/posts\/[^\r\n]+)\s*$/gm)].map(match => match[1].trim());
+const homepageCards = [...homepage.matchAll(/class="card-title">\s*<a href="https:\/\/petstorie.com([^"]+)"/g)].map(match => match[1]);
+if (featuredUrls.length !== 9 || new Set(featuredUrls).size !== 9 || JSON.stringify(featuredUrls) !== JSON.stringify(homepageCards)) {
+  throw new Error("Homepage must render exactly the nine selected guides in editorial order.");
+}
+for (const url of featuredUrls) {
+  if (read(`${url.slice(1)}index.html`).includes('content="noindex, follow"')) throw new Error(`Noindex guide promoted: ${url}`);
+}
+if (homepage.indexOf('id="finder-title"') > homepage.indexOf('id="selected-title"') || homepage.includes("Latest Source-Reviewed")) {
+  throw new Error("Homepage must prioritize decision tools over an article feed.");
+}
+for (const url of ["/dog-cost-calculator/", "/dog-breed-finder/", "/dog-breed-selector/", "/dog-fit-score-cards/", "/data-sources/", "/puppy-checklist/"]) {
+  if (!homepage.includes(`href="https://petstorie.com${url}"`)) throw new Error(`Missing homepage decision path: ${url}`);
+}
 const homepageThumbnails = [...homepage.matchAll(/\/assets\/images\/thumbs\/([^"']+\.webp)/g)];
 if (homepageThumbnails.length !== 9) throw new Error(`Homepage has ${homepageThumbnails.length} card thumbnails; expected 9.`);
 for (const [, filename] of homepageThumbnails) {

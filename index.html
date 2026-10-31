@@ -1,7 +1,19 @@
 ---
 layout: default
-title: "Dog Breed Guides for Real-Life Owners"
-description: "PetStorie helps first-time dog owners compare breeds by temperament, grooming, exercise, health concerns, training, cost, and realistic owner fit."
+title: "Dog Budget, Care Planning and Breed Decision Tools"
+description: "Compare dog care needs, build a budget with local quotes, and prepare a care handoff. Explore PetStorie tools, owner-context guides, and transparent data limits."
+updated: "2026-10-31"
+adsense: false
+featured_posts:
+  - /posts/2026/05/29/toy-poodle-cute-fluffy-clown-of-the-home/
+  - /posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/
+  - /posts/2026/06/01/pembroke-welsh-corgi-short-legged-royal-comedians/
+  - /posts/2026/06/01/shiba-inu-japanese-smirking-meme-dogs/
+  - /posts/2026/06/09/boston-terrier-tuxedo-clown-little-gentleman/
+  - /posts/2026/07/13/komondor-corded-livestock-guardian-breed-guide/
+  - /posts/2026/09/24/dog-sitter-instructions-weekend-checklist/
+  - /posts/2026/09/19/dog-grooming-costs-yearly-budget/
+  - /posts/2026/09/17/puppy-or-adult-dog-working-week/
 ---
 
 {% include header.html %}
@@ -10,37 +22,64 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
   <section class="home-hero" aria-labelledby="home-title">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">Independent dog breed publishing</p>
-        <h1 id="home-title">Dog Breed Guides for Real-Life Decisions</h1>
+        <p class="eyebrow">Budget, care and breed decisions</p>
+        <h1 id="home-title">Plan the Budget. Check the Care. Choose the Dog.</h1>
         <p>
-          Read practical breed guides before choosing a dog. Each guide focuses on the day-to-day trade-offs that shape a home:
-          temperament, exercise, grooming, health planning, training, cost, and owner fit.
+          Turn a shortlist into a plan you can check: compare care needs, replace broad cost assumptions with local USD quotes,
+          and prepare a printable budget and care handoff. Our shared breed data shows its evidence and gaps.
         </p>
         <div class="hero-actions">
-          <a class="primary-link" href="{{ site.url }}/dog-breeds/">Browse breed guides</a>
-          <a class="secondary-link" href="{{ site.url }}/dog-breed-comparisons/">Compare two breeds</a>
+          <a class="primary-link" href="{{ site.url }}/dog-cost-calculator/">Build a dog budget</a>
+          <a class="secondary-link" href="{{ site.url }}/dog-breed-finder/">Check your breed shortlist</a>
         </div>
       </div>
       <div class="hero-panel" aria-label="Popular starting points">
-        <span class="panel-label">Start reading</span>
-        <a href="{{ site.url }}/best-dogs-for-first-time-owners/">Best dogs for first-time owners</a>
-        <a href="{{ site.url }}/best-family-dogs/">Family dog research</a>
-        <a href="{{ site.url }}/apartment-dog-breeds/">Apartment dog research</a>
-        <a href="{{ site.url }}/dog-breed-comparisons/">Side-by-side breed comparisons</a>
+        <span class="panel-label">Plan your next step</span>
+        <a href="{{ site.url }}/dog-breed-selector/">Compare two shared breed records</a>
+        <a href="{{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/">Prepare dog sitter instructions</a>
+        <a href="{{ site.url }}/puppy-checklist/">Check your first-week setup</a>
+        <a href="{{ site.url }}/data-sources/">Inspect the data and its limits</a>
       </div>
     </div>
   </section>
 
   <div class="container">
-  <section class="latest-section" aria-labelledby="latest-title">
+  <section class="finder-section" aria-labelledby="finder-title">
     <div class="section-heading">
-      <p class="eyebrow">Latest editorial guides</p>
-      <h2 id="latest-title">Latest Source-Reviewed Dog Guides</h2>
-      <p>Explore new breed comparisons, training steps, care routines, cost planning, and practical guides to choosing a dog that fits your home.</p>
+      <p class="eyebrow">Planning tools</p>
+      <h2 id="finder-title">Choose a Tool for the Decision in Front of You</h2>
+      <p>Build a shortlist, compare two breeds, then test the money and care commitments. These are editorial planning tools, not predictions about an individual dog.</p>
+    </div>
+    <div class="decision-grid">
+      <a class="decision-card" href="{{ site.url }}/dog-breed-finder/">
+        <span>Dog Breed Finder</span>
+        <p>Filter by your household constraints and check the care gaps behind a shortlist.</p>
+      </a>
+      <a class="decision-card decision-card-featured" href="{{ site.url }}/dog-breed-selector/">
+        <span>Dog Breed Selector</span>
+        <p>Compare two breeds after you have read their full guides and identified the trade-offs that matter at home.</p>
+      </a>
+      <a class="decision-card" href="{{ site.url }}/dog-cost-calculator/">
+        <span>Dog Cost Calculator</span>
+        <p>Use local food, routine-care and paid-walk quotes alongside labeled US assumptions; print the budget and care checklist.</p>
+      </a>
+      <a class="decision-card" href="{{ site.url }}/dog-fit-score-cards/">
+        <span>Fit Score Cards</span>
+        <p>Review the editorial 1-5 planning levels and their limitations before treating a breed as a personal match.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="latest-section" aria-labelledby="selected-title">
+    <div class="section-heading">
+      <p class="eyebrow">Selected decision guides</p>
+      <h2 id="selected-title">Owner Context and Practical Care Worksheets</h2>
+      <p>Start with five guides that disclose the editor's dog-care background, a specialist guardian guide, and care-planning worksheets. Owner context is not professional review; illustrations and source limits are disclosed on each page.</p>
     </div>
     <div class="card-grid">
-      {% assign reviewed_posts = site.posts | where_exp: "post", "post.noindex != true" %}
-      {% for post in reviewed_posts limit:9 %}
+      {% for featured_url in page.featured_posts %}
+      {% assign post = site.posts | where: "url", featured_url | first %}
+      {% if post and post.noindex != true %}
       <article class="post-card">
         {% if post.cover %}
         {% assign cover_file = post.cover | split: "/" | last | replace: ".jpg", ".webp" %}
@@ -56,29 +95,8 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
           </div>
         </div>
       </article>
+      {% endif %}
       {% endfor %}
-    </div>
-  </section>
-
-  <section class="finder-section" aria-labelledby="finder-title">
-    <div class="section-heading">
-      <p class="eyebrow">Planning tools</p>
-      <h2 id="finder-title">Use Tools to Test a Shortlist, Not to Replace Research</h2>
-      <p>After reading the relevant guides, use these ad-free tools to pressure-test your choice against home size, exercise time, grooming tolerance, cost pressure, and owner experience.</p>
-    </div>
-    <div class="decision-grid">
-      <a class="decision-card decision-card-featured" href="{{ site.url }}/dog-breed-selector/">
-        <span>Dog Breed Selector</span>
-        <p>Compare two breeds after you have read their full guides and identified the trade-offs that matter at home.</p>
-      </a>
-      <a class="decision-card" href="{{ site.url }}/dog-cost-calculator/">
-        <span>Dog Cost Calculator</span>
-        <p>Build a United States planning range for food, grooming, training, insurance, and a veterinary reserve.</p>
-      </a>
-      <a class="decision-card" href="{{ site.url }}/dog-fit-score-cards/">
-        <span>Fit Score Cards</span>
-        <p>Review the editorial 1-5 planning levels and their limitations before treating a breed as a personal match.</p>
-      </a>
     </div>
   </section>
 
@@ -106,46 +124,14 @@ description: "PetStorie helps first-time dog owners compare breeds by temperamen
 
   <section class="topic-section" aria-labelledby="topic-title">
     <div class="section-heading">
-      <h2 id="topic-title">Browse by Owner Need</h2>
-      <p>Start with the situation you are trying to solve, then compare the individual breed guides.</p>
+      <h2 id="topic-title">Compare Trade-offs, Then Arrange the Care</h2>
+      <p>Use a specific household question to choose your next page.</p>
     </div>
     <div class="topic-grid">
-      <a class="topic-card" href="{{ site.url }}/dog-breeds/">
-        <span>Dog Breeds Data Center</span>
-        <p>Browse breed groups by size, shedding, energy, family fit, apartment fit, and owner experience.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/best-dogs-for-first-time-owners/">
-        <span>First-Time Owner Dogs</span>
-        <p>Compare forgiving, trainable breeds and the care trade-offs new owners should know first.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/small-dog-breeds/">
-        <span>Small Dog Breeds</span>
-        <p>Toy and small companions with big personalities, grooming needs, and fragility risks.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/best-family-dogs/">
-        <span>Best Family Dogs</span>
-        <p>Friendly breeds for active homes, children, and owners who want a steady companion.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/apartment-dog-breeds/">
-        <span>Apartment Dog Breeds</span>
-        <p>Dogs that can suit smaller spaces when their exercise, barking, and heat limits are managed.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/low-shedding-dog-breeds/">
-        <span>Low-Shedding Dog Breeds</span>
-        <p>Lower-shedding choices, plus the grooming trade-offs that often come with them.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/calm-dog-breeds-for-busy-owners/">
-        <span>Calm Dogs for Busy Owners</span>
-        <p>Lower-drama breeds for owners who still plan for walks, companionship, training, and care.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/high-energy-working-dogs/">
-        <span>High-Energy Working Dogs</span>
-        <p>Smart, athletic breeds that need serious exercise, training, and mental work.</p>
-      </a>
-      <a class="topic-card" href="{{ site.url }}/large-dog-breeds/">
-        <span>Large Dog Breeds</span>
-        <p>Giant and powerful breeds with big costs, space needs, and health considerations.</p>
-      </a>
+      <a class="topic-card" href="{{ site.url }}/dog-breeds/"><span>Dog Breeds and Field Evidence</span><p>Search published records and see which planning labels have supporting notes.</p></a>
+      <a class="topic-card" href="{{ site.url }}/dog-breed-comparisons/"><span>Breed Comparisons</span><p>Start with Shiba vs Corgi or Cane Corso vs Rottweiler to examine different household demands.</p></a>
+      <a class="topic-card" href="{{ site.url }}/home-routines/"><span>Care and Backup Arrangements</span><p>Work through a cancelled dog-walker visit and confirm who covers the gap.</p></a>
+      <a class="topic-card" href="{{ site.url }}/puppy-checklist/"><span>Puppy Checklist</span><p>Check supplies, safe space, veterinary records and first-week responsibilities.</p></a>
     </div>
   </section>
 
