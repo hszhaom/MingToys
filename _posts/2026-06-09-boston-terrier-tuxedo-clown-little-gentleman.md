@@ -4,8 +4,8 @@ description: "Is a Boston Terrier right for your home? Check apartment routines,
 cover: /assets/images/bostonterrier-cover.jpg
 layout: post
 adsense: false
-owner_context: "ming.zhao has personally cared for Boston Terriers for around three years."
-updated: "2026-10-15"
+owner_context: "Ming Zhao has personally cared for Boston Terriers for around three years."
+updated: "2026-11-01"
 toc:
   - title: "Quick facts and shared care labels"
     id: "boston-terrier-quick-facts"
@@ -15,31 +15,33 @@ toc:
     id: "common-boston-terrier-health-issues"
   - title: "Price the care gaps"
     id: "boston-budget"
+  - title: "Confirm the cooling handover"
+    id: "boston-cooling-backup-confirm-the-handover"
 sources:
   - organization: "American Kennel Club"
     title: "Boston Terrier Dog Breed Information"
     url: "https://www.akc.org/dog-breeds/boston-terrier/"
-    accessed: "2026-10-15"
+    accessed: "2026-11-01"
   - organization: "Cornell Richard P. Riney Canine Health Center"
     title: "Brachycephalic Obstructive Airway Syndrome (BOAS)"
     url: "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
-    accessed: "2026-10-15"
+    accessed: "2026-11-01"
   - organization: "Orthopedic Foundation for Animals"
     title: "Canine Health Information Center Program Overview"
     url: "https://ofa.org/chic-programs/"
-    accessed: "2026-10-15"
+    accessed: "2026-11-01"
   - organization: "PDSA"
     title: "Boston Terrier breed information"
     url: "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/small-dogs/boston-terrier"
-    accessed: "2026-10-15"
+    accessed: "2026-11-01"
   - organization: "VCA Animal Hospitals"
     title: "Corneal Ulcers in Dogs"
     url: "https://vcahospitals.com/know-your-pet/corneal-ulcers-in-dogs"
-    accessed: "2026-10-15"
+    accessed: "2026-11-01"
   - organization: "ASPCA"
     title: "General Dog Care"
     url: "https://www.aspca.org/pet-care/dog-care/general-dog-care"
-    accessed: "2026-10-15"
+    accessed: "2026-11-01"
 faq_schema:
   - question: "Do Boston Terriers have breathing problems?"
     answer: "Boston Terriers can develop brachycephalic obstructive airway syndrome. Severity varies; noisy breathing or difficulty with ordinary activity deserves veterinary assessment. Breathing distress, blue gums, or collapse requires immediate emergency veterinary care."
@@ -53,11 +55,14 @@ faq_schema:
     answer: "Contact a veterinarian promptly for sudden squinting, rubbing, redness, or an eye injury. Eye pain can require examination even when the damage is not obvious. Do not assume wiping the face will solve it."
   - question: "Can Boston Terriers handle hot weather?"
     answer: "Heat and humidity can make breathing harder for flat-faced dogs. Plan reliable cooling and a backup caregiver or location; ask a veterinarian about activity for the individual dog. A playful mood is not proof that conditions are safe."
+ai_images: true
 ---
 
 A Boston Terrier can suit an apartment household that wants a compact, lively companion and can provide reliable daily care. The harder decision is whether you can manage cooling, veterinary access, and weekday support. A short coat may simplify brushing, while a flat face can make health and travel planning more demanding.
 
 Start with the [apartment care plan](#apartment-care-plan) and [budget worksheet](#boston-budget). If either leaves an essential task without a person or a workable backup, resolve that gap before choosing a dog. This guide is an **editorial synthesis, not professionally reviewed**; the planning examples are not owner-survey findings.
+
+**Experience boundary:** [Ming Zhao's author profile]({{ site.url }}/about/#ming-zhao) records around three years caring for Boston Terriers. That is self-reported background, not a documented cooling failure or medical case. The plans below are editorial exercises informed by the linked sources; individual medical decisions belong with your veterinarian. Images are AI-assisted illustrations, not photographs of the editor's dogs.
 
 ![Adult Boston Terrier with black-and-white tuxedo markings and large round eyes]({{ site.url }}/assets/images/bostonterrier-main.jpg){: width="1600" height="1416" loading="lazy" decoding="async" }
 
@@ -117,6 +122,24 @@ Use this hypothetical apartment workday to check your own arrangements. It is a 
 **Pause the shortlist** if nobody can reach the dog during your workday, cooling has no workable backup, or emergency care depends on transport you have not checked. A smaller crate or a different flat-faced breed does not fill those gaps.
 
 Walk the route yourself without the dog: front door, corridor, lift or stairs, outdoor area, and return. Note where you would wait if a door were locked or a lift out of service. Ask the landlord about cooling equipment and pet access where relevant. This checks logistics without putting a dog through heat or an endurance test.
+
+## Boston Cooling Backup: Confirm the Handover
+
+The apartment worksheet identifies what you need. This next step checks whether another person can actually carry it out. It is an editorial planning exercise, not an account of an incident involving the editor's dogs or a clinical safety test. Cornell's BOAS information supports taking breathing and heat concerns seriously; it does not validate a household temperature threshold or this checklist.
+
+Before relying on a backup, ask the person to confirm these arrangements without putting the dog through heat or exertion:
+
+| Handover detail | What a usable answer contains |
+|---|---|
+| Getting inside | The agreed key or access method, building restrictions, and who can resolve a locked entrance |
+| Going somewhere cooled | A specific dog-permitted destination, its opening/access arrangements, and the person who has agreed to receive you |
+| Moving the dog | Transport that accepts the dog and a route the carer can use; ask the vet about individual travel limitations |
+| Changing the normal walk | Permission to follow the dog's veterinary care plan when conditions make the usual outing unsuitable |
+| Getting medical help | Routine and emergency clinic details, authorization arrangements, and how to reach you |
+
+If the named destination is unavailable or the carer cannot enter, write down the unresolved gap instead of marking the plan complete. A fan, a monitoring app, or a person who has not agreed to help should not silently stand in for a workable arrangement. For breathing distress or collapse, contact emergency veterinary care immediately; do not spend that time completing a worksheet.
+
+Transfer the agreed details to the existing [dog sitter instructions]({{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/) and have the carer read them back. Record a real contact date when that conversation happens. There is no readiness score here: the useful result is an accepted handover or a specific task still needing an owner.
 
 ## How a Boston Terrier Uses Its Energy
 

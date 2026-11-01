@@ -151,13 +151,13 @@ for (const breed of breedDataset.breeds.filter((breed) => breed.evidence)) {
 }
 
 const aboutPage = read("about/index.html");
-if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "ming.zhao"')) {
-  throw new Error("The About page is missing the named Person schema for ming.zhao.");
+if (!aboutPage.includes('"@type": "Person"') || !aboutPage.includes('"name": "Ming Zhao"')) {
+  throw new Error("The About page is missing the named Person schema for Ming Zhao.");
 }
 
 const reviewedPost = read("posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/index.html");
-if (!/"author":\s*\{\s*"@type":\s*"Person"/.test(reviewedPost) || !reviewedPost.includes('"name": "ming.zhao"')) {
-  throw new Error("Reviewed articles must retain the named ming.zhao author schema.");
+if (!/"author":\s*\{\s*"@type":\s*"Person"/.test(reviewedPost) || !reviewedPost.includes('"name": "Ming Zhao"')) {
+  throw new Error("Reviewed articles must retain the named Ming Zhao author schema.");
 }
 
 function walk(directory) {
@@ -174,7 +174,12 @@ for (const file of walk(site).filter((item) => item.endsWith(".html"))) {
   }
   for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     try {
-      JSON.parse(match[1]);
+      const schema = JSON.parse(match[1]);
+      if (schema["@type"] === "Article" &&
+          (schema.author?.name !== "Ming Zhao" || schema.author?.["@id"] !== "https://petstorie.com/about/#ming-zhao" ||
+           !html.includes('By <a href="https://petstorie.com/about/#ming-zhao">Ming Zhao</a>'))) {
+        throw new Error("Article author and visible byline must match the existing Ming Zhao profile.");
+      }
     } catch (error) {
       throw new Error(`Invalid JSON-LD in ${path.relative(site, file)}: ${error.message}`);
     }
@@ -204,6 +209,15 @@ for (const postFile of postFiles) {
   const updatedMatch = source.match(/^updated:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m);
   const hasSources = /^sources:\s*$/m.test(source);
   const expectsNoindex = /^noindex:\s*true\s*$/m.test(source);
+
+  if (/^owner_context:/m.test(source)) {
+    const ownerContext = source.match(/^owner_context: "(.+)"\s*$/m)?.[1];
+    if (!ownerContext?.startsWith("Ming Zhao has personally cared for ") || !html.includes(ownerContext) ||
+        !html.includes("Experience boundary:") || !html.includes("not professionally reviewed") ||
+        !html.includes('aria-label="Image disclosure"') || (!html.includes("not photographs") && !html.includes("not owner photographs"))) {
+      throw new Error(`${postFile}: owner-context guides need consistent identity, experience limits, review status, and image disclosure.`);
+    }
+  }
 
   if (moduleCount !== 0) throw new Error(`${relativePath} still renders centralized owner guidance.`);
   if (adCount !== expectedAds) throw new Error(`${relativePath} has ${adCount} AdSense scripts; expected ${expectedAds}.`);
