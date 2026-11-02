@@ -4,7 +4,7 @@ title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Cost Calculator: Monthly and First-Year Costs"
 description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-10-31"
+updated: "2026-11-02"
 adsense: false
 sources:
   - organization: "ASPCA"
@@ -86,32 +86,11 @@ faq_schema:
     <p class="eyebrow">Budget planning tool</p>
     <h1>Dog Cost Calculator</h1>
     <p class="cost-print-note">PetStorie budget and paid-walk care worksheet · https://petstorie.com/dog-cost-calculator/ · Page version: {{ page.updated }}. These are planning assumptions and user-entered quotes, not a confirmed care arrangement or a professionally reviewed budget.</p>
-    <p>
-      A dog can be affordable in daily life and still become expensive through grooming, food, training, insurance, or health
-      surprises. Use this calculator as a conservative planning tool before choosing a breed.
-    </p>
-    <p>
-      The numbers are not meant to sell you a specific breed. They are meant to make the quiet costs visible before they become
-      stressful: larger food bills, professional grooming, puppy classes, replacement gear, preventive care, emergency savings, and
-      the extra margin that high-risk breeds may need.
-    </p>
-    <p class="method-note">
-      <strong>Baseline:</strong> United States planning ranges in 2026 US dollars. Results are broad estimates, not local quotes.
-    </p>
+    <p>Build a first-year budget and a care-time worksheet for one dog. Choose size, coat care and life stage, replace the US base-care illustration with local USD quotes, and add paid walks if needed. Print the current inputs, totals and assumptions for a household discussion.</p>
+    <p class="method-note"><strong>Illustration, not a quote:</strong> all preset amounts are unvalidated editorial allowances in 2026 US dollars. There is no city-price database or currency conversion. Local quotes replace only the selected categories; <a href="#calculator-assumptions">see every amount and its evidence limits</a>. Not professionally reviewed.</p>
+    <p>Monthly and annual totals are <strong>budget allocations</strong>, including savings or insurance and an unallocated buffer. They are not predicted spending. Setup is additional; an existing owner may already have some equipment. Life stage changes the planning questions, not the dollar amounts, because no reliable age multiplier is available.</p>
 
-    <h2>Estimate Dog Ownership Costs Before You Choose a Breed</h2>
-    <p>
-      Many owners compare dogs by temperament first and budget second. That order can backfire. A calm-looking dog may need
-      frequent grooming, a low-exercise companion may carry expensive health risks, and a large family dog may turn ordinary food
-      and medication into a much bigger monthly line item. This dog cost calculator starts with the care pattern, not just the
-      purchase price.
-    </p>
-    <p>
-      Use the breed preset if you already have a shortlist. If you are still researching, choose manual settings that match the dog
-      you imagine. The estimate combines first-year setup costs with recurring monthly care so you can compare a lean plan against
-      a more cautious one.
-    </p>
-
+    <h2>Build Your Budget and Care Plan</h2>
     <form class="calculator-form" id="dog-cost-form">
       <div class="filter-grid">
         <label class="finder-control">
@@ -126,6 +105,14 @@ faq_schema:
           </select>
         </label>
         <label class="finder-control">
+          <span>Life stage</span>
+          <select id="cost-stage" aria-describedby="cost-stage-note">
+            <option value="adult">Adult</option>
+            <option value="puppy">Puppy</option>
+            <option value="senior">Senior (confirm with your veterinarian)</option>
+          </select>
+        </label>
+        <label class="finder-control">
           <span>Dog size</span>
           <select id="cost-size">
             <option value="toy">Toy dog</option>
@@ -136,7 +123,7 @@ faq_schema:
           </select>
         </label>
         <label class="finder-control">
-          <span>Grooming level</span>
+          <span>Coat-care level</span>
           <select id="cost-grooming">
             <option value="low">Low grooming</option>
             <option value="medium">Moderate grooming</option>
@@ -177,10 +164,10 @@ faq_schema:
       <h3 id="base-care-quotes">Replace the Base-Care Assumption With Local Quotes</h3>
       <p id="base-care-input-note">Optional. Enter comparable USD lower and upper quotes for both categories to replace the broad base-care-by-size assumption. The food-and-supplies quote is monthly; routine veterinary and preventive care is annual and divided by 12. Include only regular fees already included in each quote. No currency conversion is performed. If your food quote already includes the optional food allowance, leave that allowance at Basic to avoid counting it twice. These inputs stay in this page and reset on reload.</p>
       <label class="finder-control">
-        <span>Local base-care quotes</span>
+        <span>Region / base-care benchmark (USD only)</span>
         <select id="cost-base-care" aria-describedby="base-care-input-note">
-          <option value="assumption">Use the base-care-by-size assumption</option>
-          <option value="local">Use my local quotes instead</option>
+          <option value="assumption">US illustration — no city adjustment</option>
+          <option value="local">My local USD base-care quotes</option>
         </select>
       </label>
       <div id="cost-base-care-fields" class="filter-grid" hidden>
@@ -206,6 +193,14 @@ faq_schema:
         <label class="finder-control"><span>Paid weeks per year (0–52)</span><input id="cost-walk-weeks" type="number" min="0" max="52" step="1" inputmode="numeric" aria-describedby="cost-walk-error" disabled></label>
       </div>
       <p id="cost-walk-error" aria-live="polite"></p>
+      <h3 id="care-time-inputs">Your Hands-On Care Time</h3>
+      <p id="care-time-help">Optional: enter all three amounts in whole minutes, or leave all blank for “Not estimated.” Count each task once, using time assigned to you rather than a paid caregiver. These are your planned minutes, not recommended care durations. Zero does not establish adequate care.</p>
+      <div class="filter-grid">
+        <label class="finder-control"><span>Daily feeding, toilet breaks and cleanup (minutes)</span><input id="cost-time-routine" type="number" min="0" max="1440" step="1" inputmode="numeric" aria-describedby="care-time-help care-time-error"></label>
+        <label class="finder-control"><span>Daily activity and training (minutes)</span><input id="cost-time-activity" type="number" min="0" max="1440" step="1" inputmode="numeric" aria-describedby="care-time-help care-time-error"></label>
+        <label class="finder-control"><span>Weekly coat care (minutes)</span><input id="cost-time-coat" type="number" min="0" max="10080" step="1" inputmode="numeric" aria-describedby="care-time-help care-time-error"></label>
+      </div>
+      <p id="care-time-error" aria-live="polite"></p>
     </form>
     <p class="cost-print-controls"><button id="cost-print" type="button" hidden>Print / save budget and care plan</button></p>
     <p class="cost-print-controls">Keep a copy before leaving or reloading this page. Use your browser's Print command, or the button above, and choose Save as PDF if available. The copy includes current inputs, results, paid-walk care reminders and evidence limits. Check that it shows a calculated budget; incomplete inputs print as “Not calculated.” No account or personal contact details are needed.</p>
@@ -219,7 +214,7 @@ faq_schema:
           <strong id="first-year-cost">Not calculated</strong>
         </div>
         <div>
-          <span>Monthly ongoing average</span>
+          <span>Monthly ongoing allocation</span>
           <strong id="monthly-cost">Not calculated</strong>
         </div>
         <div>
@@ -227,11 +222,19 @@ faq_schema:
           <strong id="setup-cost">Not calculated</strong>
         </div>
         <div>
-          <span>Annual ongoing estimate</span>
+          <span>Annual ongoing allocation</span>
           <strong id="annual-cost">Not calculated</strong>
         </div>
       </div>
+      <p id="cost-stage-note"></p>
+      <p id="cost-region-note"></p>
       <p id="cost-note"></p>
+      <h3>Emergency Preparation</h3>
+      <p id="cost-emergency-note"></p>
+      <p>Record a reachable emergency clinic, check upfront payment arrangements and read the exact policy terms if insured. Keep contacts in your private handoff sheet. These allocations are not recommended savings targets or a promise to cover treatment.</p>
+      <h3>Care-Time Result</h3>
+      <p id="care-time-result">Not estimated</p>
+      <p>Supervision, companionship, travel, appointments, night waking and paid-care time are excluded. A weekly total does not prove that care is covered at the times the dog needs it. Use the <a href="#walk-care-plan">care handoff checklist</a> to assign cover and backup.</p>
       <p id="cost-walk-note"></p>
       <h3>Estimated Monthly Breakdown</h3>
       <table>
@@ -254,6 +257,9 @@ faq_schema:
     <details id="base-care-evidence">
       <summary>Local base-care quote limits</summary>
       <p>Part of the {{ site.data.care_costs.name | escape }}. This is an <strong>{{ site.data.care_costs.method | escape }}</strong>; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Source check: {{ base_quotes.accessed | escape }}.</p>
+      <p><strong>Scope:</strong> {{ base_quotes.region | escape }}; {{ base_quotes.currency }}, {{ base_quotes.baseline_year }}. {{ base_quotes.dog_scope | escape }}</p>
+      <p><strong>Included:</strong> {{ base_quotes.includes | escape }}. <strong>Excluded:</strong> {{ base_quotes.excludes | escape }}.</p>
+      <p><strong>Confidence:</strong> {{ base_quotes.confidence | escape }}.</p>
       <p>{{ base_quotes.calculation | escape }} {{ base_quotes.editorial_note | escape }}</p>
       <ul class="guide-list">
         {% for source in base_quotes.sources %}
@@ -264,6 +270,9 @@ faq_schema:
     <details id="financial-protection-evidence">
       <summary>Insurance and emergency-savings limits</summary>
       <p>Part of the {{ site.data.care_costs.name | escape }}. This is an <strong>{{ site.data.care_costs.method | escape }}</strong>; <strong>{{ site.data.care_costs.review_status | escape }}</strong>. Source check: {{ protection.accessed | escape }}.</p>
+      <p><strong>Scope:</strong> {{ protection.region | escape }}; {{ protection.currency }}, {{ protection.baseline_year }}. {{ protection.dog_scope | escape }}</p>
+      <p><strong>Included:</strong> {{ protection.includes | escape }}. <strong>Excluded:</strong> {{ protection.excludes | escape }}.</p>
+      <p><strong>Confidence:</strong> {{ protection.confidence | escape }}.</p>
       <p>{{ protection.calculation | escape }} {{ protection.editorial_note | escape }}</p>
       <ul class="guide-list">
         {% for source in protection.sources %}
@@ -296,6 +305,39 @@ faq_schema:
       <ul class="guide-list">
         {% for source in walks.sources %}
         <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed | escape }}). {{ source.supports | escape }}.</li>
+        {% endfor %}
+      </ul>
+    </details>
+
+    {% assign assumptions = site.data.care_costs.items.calculator_assumptions %}
+    {% assign care_time = site.data.care_costs.items.care_time_plan %}
+    <details id="calculator-assumptions">
+      <summary>Every preset amount: provenance and limits</summary>
+      <p>{{ assumptions.region | escape }}. Currency: {{ assumptions.currency }}. Planning baseline: {{ assumptions.baseline_year }}. Source access: {{ assumptions.accessed }}. {{ assumptions.confidence | escape }}.</p>
+      <p><strong>Included:</strong> {{ assumptions.includes | escape }}. <strong>Excluded:</strong> {{ assumptions.excludes | escape }}.</p>
+      <p>{{ assumptions.editorial_note | escape }}</p>
+      <table>
+        <caption>Unvalidated editorial allowances — all rows share the scope and source limits above</caption>
+        <thead><tr><th scope="col">Category / frequency</th><th scope="col">Setting</th><th scope="col">USD range</th></tr></thead>
+        <tbody>
+          {% for category in assumptions.ranges %}{% for setting in category[1].values %}
+          <tr><th scope="row">{{ category[1].name | escape }} ({{ category[1].frequency | escape }})</th><td>{{ setting[0] | escape }}</td><td>${{ setting[1][0] }}–${{ setting[1][1] }}</td></tr>
+          {% endfor %}{% endfor %}
+        </tbody>
+      </table>
+      <ul class="guide-list">
+        {% for source in assumptions.sources %}
+        <li><a href="{{ source.url | escape }}">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed }}). {{ source.supports | escape }}</li>
+        {% endfor %}
+      </ul>
+    </details>
+    <details id="care-time-evidence">
+      <summary>Life-stage and care-time method</summary>
+      <p>{{ care_time.region | escape }}. {{ care_time.confidence | escape }}. {{ care_time.calculation | escape }}.</p>
+      <p><strong>Included:</strong> {{ care_time.includes | escape }}. <strong>Excluded:</strong> {{ care_time.excludes | escape }}.</p>
+      <ul class="guide-list">
+        {% for source in care_time.sources %}
+        <li><a href="{{ source.url | escape }}">{{ source.organization | escape }}: {{ source.title | escape }}</a> (accessed {{ source.accessed }}). {{ source.supports | escape }}</li>
         {% endfor %}
       </ul>
     </details>
@@ -429,15 +471,17 @@ faq_schema:
     {% endfor %}
   ];
 
-  var sizeMonthly = { toy: [55, 105], small: [70, 130], medium: [95, 175], large: [130, 240], giant: [180, 330] };
-  var sizeSetup = { toy: [250, 500], small: [300, 600], medium: [400, 750], large: [550, 1000], giant: [750, 1400] };
-  var groomingMonthly = { low: [10, 30], medium: [35, 80], high: [80, 160] };
-  var foodMonthly = { basic: [0, 0], premium: [25, 75] };
-  var financialProtectionMonthly = { savings: [40, 100], insurance: [55, 150] };
-  var trainingFirstYear = { basic: [150, 350], extra: [400, 900] };
-  var setupExtra = { lean: [0, 0], full: [150, 400] };
-  var breedRiskMonthly = { low: [0, 20], medium: [15, 50], high: [40, 110] };
-  var breedRiskSetup = { low: [0, 0], medium: [75, 250], high: [200, 600] };
+  var planningAssumptions = {{ site.data.care_costs.items.calculator_assumptions.ranges | jsonify }};
+  var lifeStages = {{ site.data.care_costs.items.care_time_plan.life_stages | jsonify }};
+  var sizeMonthly = planningAssumptions.sizeMonthly.values;
+  var sizeSetup = planningAssumptions.sizeSetup.values;
+  var groomingMonthly = planningAssumptions.groomingMonthly.values;
+  var foodMonthly = planningAssumptions.foodMonthly.values;
+  var financialProtectionMonthly = planningAssumptions.financialProtectionMonthly.values;
+  var trainingFirstYear = planningAssumptions.trainingFirstYear.values;
+  var setupExtra = planningAssumptions.setupExtra.values;
+  var breedRiskMonthly = planningAssumptions.breedRiskMonthly.values;
+  var breedRiskSetup = planningAssumptions.breedRiskSetup.values;
 
   function getSelectedBreed() {
     var key = document.getElementById("cost-breed").value;
@@ -489,6 +533,9 @@ faq_schema:
   }
 
   function calculate() {
+    calculateCareTime();
+    var stage = document.getElementById("cost-stage").value;
+    document.getElementById("cost-stage-note").textContent = lifeStages[stage] || "Choose a valid life stage.";
     var size = document.getElementById("cost-size").value;
     var grooming = document.getElementById("cost-grooming").value;
     var food = document.getElementById("cost-food").value;
@@ -498,15 +545,15 @@ faq_schema:
     var breed = getSelectedBreed();
     var baseCare = calculateBaseCare();
     var walks = calculateWalks();
-    if (!sizeMonthly[size] || !groomingMonthly[grooming] || !foodMonthly[food] ||
+    if (!Object.hasOwn(lifeStages, stage) || !sizeMonthly[size] || !groomingMonthly[grooming] || !foodMonthly[food] ||
         !financialProtectionMonthly[insurance] || !trainingFirstYear[training] || !setupExtra[setup] ||
         (document.getElementById("cost-breed").value && !breed) || !baseCare || !walks) {
       ["monthly-cost", "first-year-cost", "setup-cost", "annual-cost"].forEach(function (id) {
         document.getElementById(id).textContent = "Not calculated";
       });
       document.getElementById("cost-breakdown").innerHTML = "";
-      document.getElementById("cost-note").textContent = "Complete the paid-walk fields if enabled and check each selection. No total is shown while an input is missing or invalid.";
-      ["cost-preset-reason", "cost-reserve-note", "cost-evidence-note", "cost-walk-note"].forEach(function (id) {
+      document.getElementById("cost-note").textContent = "Complete enabled local-quote fields and check each selection. No total is shown while an input is missing or invalid.";
+      ["cost-preset-reason", "cost-reserve-note", "cost-evidence-note", "cost-walk-note", "cost-region-note", "cost-emergency-note"].forEach(function (id) {
         document.getElementById(id).textContent = "";
       });
       document.getElementById("cost-guide-link").hidden = true;
@@ -539,6 +586,12 @@ faq_schema:
     document.getElementById("cost-walk-note").textContent = walks.included
       ? "Paid walks: " + walks.visits + " visits per paid week × " + walks.weeks + " paid weeks = " + (walks.visits * walks.weeks) + " visits per year at " + formatRange(walks.price, true) + " per visit. Added annual cost: " + formatRange(walks.annual) + "; monthly average: " + formatRange(multiplyRange(walks.annual, 1 / 12)) + ". Actual bills depend on booked visits and extra fees. This does not confirm that all care needs are covered."
       : "Paid dog walks are not included. If you need them, add a local USD quote above. Daycare and boarding remain excluded; arrange a backup caregiver separately.";
+    document.getElementById("cost-region-note").textContent = baseCare.local
+      ? "Local USD base quotes replace food, routine care and supplies only. All other categories still use US editorial allowances unless marked as your quote. No currency conversion or city multiplier."
+      : "US illustrative baseline in USD (2026 planning year), not a city quote. No regional or life-stage price adjustment is applied.";
+    document.getElementById("cost-emergency-note").textContent = insurance === "savings"
+      ? "Savings allocation: " + formatRange(financialProtectionMonthly[insurance]) + " per month, or " + formatRange(multiplyRange(financialProtectionMonthly[insurance], 12)) + " contributed over 12 months. This remains your money; current savings and withdrawals are unknown. The extra buffer is shown separately below."
+      : "Insurance premium allocation: " + formatRange(financialProtectionMonthly[insurance]) + " per month. No dedicated emergency-savings contribution is included. Deductibles, coinsurance and funds needed before reimbursement are unknown; the extra buffer is not a validated reserve.";
     renderBreakdown(monthlyParts);
     document.getElementById("cost-note").textContent = breed
       ? "Preset: " + breed.name + ". " + breed.caution + " Use this as a planning range; local prices and individual health can change the budget."
@@ -560,6 +613,28 @@ faq_schema:
       (breed && breed.costEvidence ? "evidence-" + breed.key : "household-fit-data");
     document.getElementById("cost-guide-link").hidden = !breed;
     document.getElementById("cost-guide-link").href = breed ? breed.url : "";
+  }
+
+  function calculateCareTime() {
+    var fields = ["cost-time-routine", "cost-time-activity", "cost-time-coat"].map(function (id) { return document.getElementById(id); });
+    var blank = fields.every(function (input) { return input.value.trim() === ""; });
+    var invalid = false;
+    var values = fields.map(function (input) {
+      var value = Number(input.value);
+      var bad = !blank && (input.value.trim() === "" || !Number.isInteger(value) || value < 0 || value > Number(input.max));
+      input.setAttribute("aria-invalid", String(bad));
+      invalid = invalid || bad;
+      return value;
+    });
+    var minutes = (values[0] + values[1]) * 7 + values[2];
+    var overWeek = !invalid && minutes > 10080;
+    if (overWeek) fields.forEach(function (input) { input.setAttribute("aria-invalid", "true"); });
+    document.getElementById("care-time-error").textContent = invalid || overWeek
+      ? "Enter all three non-negative whole-minute amounts. Combined time cannot exceed 10,080 minutes in a week; count overlapping tasks only once. Budget totals are independent of this time worksheet."
+      : "";
+    document.getElementById("care-time-result").textContent = blank ? "Not estimated — enter your own care-time plan above."
+      : invalid || overWeek ? "Not calculated — complete or correct the care-time inputs."
+      : minutes + " minutes per week (" + Math.floor(minutes / 60) + " hours " + (minutes % 60) + " minutes), from your inputs. This is a time allocation, not a care recommendation.";
   }
 
   function calculateBaseCare() {
@@ -634,7 +709,7 @@ faq_schema:
     }
   });
   document.getElementById("dog-cost-form").addEventListener("submit", function (event) { event.preventDefault(); });
-  var evidence = ["paid-walk-evidence", "base-care-evidence", "financial-protection-evidence"].map(function (id) { return document.getElementById(id); });
+  var evidence = ["paid-walk-evidence", "base-care-evidence", "financial-protection-evidence", "calculator-assumptions", "care-time-evidence"].map(function (id) { return document.getElementById(id); });
   var evidenceWasOpen;
   window.addEventListener("beforeprint", function () {
     calculate();

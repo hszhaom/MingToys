@@ -3,7 +3,7 @@ layout: default
 title: "PetStorie Data Sources"
 description: "See how PetStorie checks breed standards, veterinary references, welfare guidance, cost ranges, and editorial dog-breed comparison labels."
 permalink: /data-sources/
-updated: "2026-10-20"
+updated: "2026-11-02"
 adsense: false
 ---
 
@@ -123,7 +123,7 @@ adsense: false
     </p>
 
     <h3 id="care-cost-data">Care &amp; Cost Dataset</h3>
-    <p>The first Care &amp; Cost Dataset entry covers <a href="{{ site.url }}/dog-cost-calculator/#paid-walk-evidence">optional paid dog walks</a>: scope, currency, frequency, inclusions, exclusions, calculation, source access dates and evidence limits. It is editorial synthesis, not professionally reviewed. The calculator uses the reader's local USD quote; no market price range has been established. The entry also supplies a daily, weekly, monthly and annual handoff checklist. It does not validate the calculator's older base-care allowances or prescribe a care schedule for an individual dog.</p>
+    <p>The Care &amp; Cost Dataset supplies <a href="{{ site.url }}/dog-cost-calculator/#calculator-assumptions">every calculator allowance and its provenance</a>, local base-care quote rules, insurance and savings boundaries, paid-walk quotes and handoff prompts, plus the <a href="{{ site.url }}/dog-cost-calculator/#care-time-evidence">life-stage and owner-entered care-time method</a>. Amounts and displayed evidence share one data file. Each monetary record states its region, currency, planning year, inclusions, exclusions, confidence and source access dates. The inherited amounts remain unvalidated editorial assumptions: linked sources support categories, not market prices. The tool has no city-price database or age multiplier. No professional review or recommended care duration is implied.</p>
 
     <h2 id="field-evidence">Household Fit Dataset: Field Evidence</h2>
     {% assign published_breeds = site.data.breeds | where: "publication_status", "published" %}

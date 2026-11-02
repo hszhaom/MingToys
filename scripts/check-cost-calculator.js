@@ -5,6 +5,8 @@ const { execFileSync } = require("child_process");
 
 const root = path.resolve(__dirname, "..");
 const source = fs.readFileSync(path.join(root, process.argv.includes("--built") ? "_site/dog-cost-calculator/index.html" : "pages/dog-cost-calculator.html"), "utf8");
+const care = JSON.parse(execFileSync("ruby", ["-ryaml", "-rjson", "-e", "puts YAML.load_file(ARGV[0]).to_json",
+  path.join(root, "_data", "care_costs.yml")], { encoding: "utf8" }));
 const breeds = JSON.parse(execFileSync("ruby", ["-ryaml", "-rjson", "-e",
   "puts YAML.load_file(ARGV[0]).select { |b| b['publication_status'] == 'published' }.to_json",
   path.join(root, "_data", "breeds.yml")], { encoding: "utf8" }));
@@ -22,10 +24,16 @@ if (!calculator) {
 }
 
 calculator = calculator.replace(/{% for breed in site\.data\.breeds %}[\s\S]*?{% endfor %}/, presets.map(b => JSON.stringify(b)).join(","));
+calculator = calculator
+  .replace("{{ site.data.care_costs.items.calculator_assumptions.ranges | jsonify }}", JSON.stringify(care.items.calculator_assumptions.ranges))
+  .replace("{{ site.data.care_costs.items.care_time_plan.life_stages | jsonify }}", JSON.stringify(care.items.care_time_plan.life_stages));
+assert.deepEqual(new Function("return " + calculator.match(/var planningAssumptions = (.*);/)[1])(), care.items.calculator_assumptions.ranges);
+assert.deepEqual(new Function("return " + calculator.match(/var lifeStages = (.*);/)[1])(), care.items.care_time_plan.life_stages);
 assert.deepEqual(new Function("return " + calculator.match(/var breedPresets = (\[[\s\S]*?\]);/)[1])(), presets,
   "Calculator presets must match the shared dataset, including evidence notes");
 
 const values = {
+  "cost-stage": "adult",
   "cost-breed": "",
   "cost-size": "toy",
   "cost-grooming": "low",
@@ -45,6 +53,11 @@ assert.equal(walkInputs.length, 4);
 const inputRules = Object.fromEntries(walkInputs.map(([tag, id]) => [id,
   Object.fromEntries([...tag.matchAll(/(min|max|step|type)="([^"]*)"/g)].map(m => [m[1], m[2]]))]));
 Object.assign(inputRules, baseRules);
+const timeInputs = [...source.matchAll(/<input id="(cost-time-[^"]+)"[^>]*>/g)];
+assert.equal(timeInputs.length, 3);
+const timeRules = Object.fromEntries(timeInputs.map(([tag, id]) => [id,
+  Object.fromEntries([...tag.matchAll(/(min|max|step|type)="([^"]*)"/g)].map(m => [m[1], m[2]]))]));
+Object.assign(inputRules, timeRules);
 for (const id of Object.keys(inputRules)) values[id] = "";
 
 const elements = {};
@@ -280,8 +293,6 @@ let prevented = false;
 getElement("dog-cost-form").listeners.submit({ preventDefault() { prevented = true; } });
 assert.ok(prevented, "Enter must not reload and discard quote inputs");
 assert.ok(source.includes("USD") && source.includes("No currency conversion"));
-const care = JSON.parse(execFileSync("ruby", ["-ryaml", "-rjson", "-e", "puts YAML.load_file(ARGV[0]).to_json",
-  path.join(root, "_data", "care_costs.yml")], { encoding: "utf8" }));
 const walk = care.items.paid_dog_walks;
 for (const key of ["name", "frequency", "region", "dog_scope", "qualitative_range", "currency", "baseline_year", "includes", "excludes", "calculation", "confidence", "editorial_note", "accessed"]) assert.ok(walk[key], key);
 assert.equal(walk.minimum, null);
@@ -345,3 +356,90 @@ assert.equal(getElement("cost-breakdown").innerHTML, "");
 window.listeners.afterprint();
 assert.ok(source.includes('@media print') && source.includes('Page version:'));
 console.log("Print checks passed: native print, latest inputs, invalid totals and evidence restoration.");
+
+// Life stage changes questions, not unsupported prices or the owner's entered quotes.
+change("cost-walks", "excluded");
+const adultBudget = getElement("first-year-cost").textContent;
+for (const stage of ["puppy", "adult", "senior"]) {
+  change("cost-stage", stage);
+  assert.equal(getElement("cost-stage-note").textContent, care.items.care_time_plan.life_stages[stage]);
+  assert.equal(getElement("first-year-cost").textContent, adultBudget);
+}
+for (const stage of ["", "unknown", "__proto__", "constructor"]) {
+  change("cost-stage", stage);
+  assert.equal(getElement("first-year-cost").textContent, "Not calculated");
+  assert.equal(getElement("cost-emergency-note").textContent, "");
+}
+change("cost-stage", "adult");
+assert.ok(getElement("cost-region-note").textContent.includes("No regional or life-stage price adjustment"));
+change("cost-base-care", "local");
+assert.ok(getElement("cost-region-note").textContent.includes("replace food, routine care and supplies only"));
+change("cost-base-care", "assumption");
+change("cost-insurance", "savings");
+assert.ok(getElement("cost-emergency-note").textContent.includes("$480–$1,200 contributed over 12 months"));
+change("cost-insurance", "insurance");
+assert.ok(getElement("cost-emergency-note").textContent.includes("No dedicated emergency-savings contribution"));
+
+function timePlan(routine, activity, coat) {
+  [routine, activity, coat].forEach((v, i) => change(Object.keys(timeRules)[i], String(v)));
+}
+timePlan("", "", "");
+assert.ok(getElement("care-time-result").textContent.startsWith("Not estimated"));
+timePlan(30, 60, 45);
+assert.ok(getElement("care-time-result").textContent.startsWith("675 minutes per week (11 hours 15 minutes)"));
+const validBudget = getElement("annual-cost").textContent;
+for (const id of Object.keys(timeRules)) {
+  for (const bad of ["", "NaN", "Infinity", "-1", "1.5", String(Number(timeRules[id].max) + 1)]) {
+    timePlan(30, 60, 45);
+    change(id, bad);
+    assert.ok(getElement("care-time-result").textContent.startsWith("Not calculated"), `${id}=${bad}`);
+    assert.equal(getElement(id).attributes["aria-invalid"], "true");
+    assert.equal(getElement("annual-cost").textContent, validBudget, "Independent time worksheet must not erase a valid money plan");
+  }
+}
+timePlan(0, 0, 0);
+assert.ok(getElement("care-time-result").textContent.startsWith("0 minutes"));
+for (const input of [[1440, 0, 0], [0, 1440, 0], [0, 0, 10080]]) {
+  timePlan(...input);
+  assert.ok(getElement("care-time-result").textContent.startsWith("10080 minutes"));
+}
+timePlan(1440, 1, 0);
+assert.ok(getElement("care-time-result").textContent.startsWith("Not calculated"));
+for (const id of Object.keys(timeRules)) assert.equal(getElement(id).attributes["aria-invalid"], "true");
+timePlan(30, 60, 45);
+getElement("cost-time-coat").value = "60";
+getElement("cost-time-coat").listeners.input();
+assert.ok(getElement("care-time-result").textContent.startsWith("690 minutes"));
+getElement("cost-time-coat").value = "";
+window.listeners.beforeprint();
+assert.ok(getElement("care-time-result").textContent.startsWith("Not calculated"));
+for (const id of ["calculator-assumptions", "care-time-evidence"]) assert.equal(getElement(id).open, true);
+window.listeners.afterprint();
+timePlan("", "", "");
+assert.equal(getElement("care-time-error").textContent, "");
+
+const assumptions = care.items.calculator_assumptions;
+for (const key of ["region", "currency", "baseline_year", "accessed", "includes", "excludes", "confidence", "editorial_note"]) assert.ok(assumptions[key], key);
+assert.equal(Object.keys(assumptions.ranges).length, 9);
+let allowanceCount = 0;
+for (const [name, category] of Object.entries(assumptions.ranges)) {
+  assert.ok(category.name && category.frequency);
+  assert.ok(source.includes(`var ${name} = planningAssumptions.${name}.values;`));
+  for (const bounds of Object.values(category.values)) {
+    assert.equal(bounds.length, 2);
+    assert.ok(bounds.every(Number.isFinite) && bounds[0] >= 0 && bounds[1] >= bounds[0]);
+    allowanceCount++;
+  }
+}
+if (process.argv.includes("--built")) {
+  const ledger = source.match(/<details id="calculator-assumptions">([\s\S]*?)<\/details>/)[1];
+  assert.equal((ledger.match(/<th scope="row">/g) || []).length, allowanceCount);
+  for (const category of Object.values(assumptions.ranges)) {
+    for (const bounds of Object.values(category.values)) assert.ok(ledger.includes(`$${bounds[0]}–$${bounds[1]}`));
+  }
+  for (const record of [assumptions, care.items.care_time_plan]) {
+    assert.ok(source.includes(record.confidence.replace(/'/g, "&#39;")));
+    for (const ref of record.sources) assert.ok(source.includes(ref.url) && source.includes(ref.accessed));
+  }
+}
+console.log(`Day 4 checks passed: three life stages, USD scope, emergency allocation, care-time min/max/missing/invalid/recovery/print and ${allowanceCount} shared allowances.`);
