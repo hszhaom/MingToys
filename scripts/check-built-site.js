@@ -292,3 +292,16 @@ for (const postFile of postFiles) {
 }
 
 console.log(`Built-site checks passed for ${urls.length} sitemap URLs and ${postFiles.length} direct article updates.`);
+const puppyChecklist = read("puppy-checklist/index.html");
+if (count(puppyChecklist, '<label><input type="checkbox">') !== 10) {
+  throw new Error("Every puppy checklist checkbox needs its visible text as a native label.");
+}
+for (const page of ["dog-cost-calculator", "dog-breed-finder", "dog-breed-selector", "dog-fit-score-cards", "dog-breeds", "dog-breed-comparisons", "puppy-checklist"]) {
+  const html = read(`${page}/index.html`);
+  if (!html.includes('href="https://petstorie.com/about/#ming-zhao">Ming Zhao</a>') || !/Page updated: <time datetime="\d{4}-\d{2}-\d{2}">/.test(html)) {
+    throw new Error(`${page} needs a visible editor and page date.`);
+  }
+}
+for (const internalPath of ["AGENTS/index.html", "AGENTS.md", "scripts", "Gemfile", "Gemfile.lock", "image-generation-prompts.json", "image-generation-prompts-new-breeds.json", "tools_inpaint_watermark.ps1", "watermark-preview.jpg"]) {
+  if (fs.existsSync(path.join(site, internalPath))) throw new Error(`Internal project file leaked into the site: ${internalPath}`);
+}

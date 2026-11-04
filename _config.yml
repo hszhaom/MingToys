@@ -41,3 +41,11 @@ defaults:
 
 exclude:
   - README.md
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - image-generation-prompts.json
+  - image-generation-prompts-new-breeds.json
+  - tools_inpaint_watermark.ps1
+  - watermark-preview.jpg
