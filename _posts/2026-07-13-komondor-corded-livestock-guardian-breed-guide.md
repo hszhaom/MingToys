@@ -1,10 +1,10 @@
 ---
 title: "Komondor Breed Guide: Corded Livestock Guardian Temperament and Care"
-seo_title: "Komondor Breed Guide: Care, Coat and Owner Fit"
-description: "Komondor breed guide to cord care, health concerns, territorial behavior and owner fit, with a practical drying, visitor and veterinary-access checklist."
+seo_title: "Komondor Health Issues, Coat Care and Temperament"
+description: "Learn about common Komondor health issues, corded-coat care, temperament and owner fit, with practical veterinary-access, visitor and drying checklists."
 cover: /assets/images/komondor-cover.jpg
 layout: post
-updated: "2026-11-03"
+updated: "2026-11-04"
 adsense: true
 image_credits:
   - asset: "komondor-cover.jpg"
@@ -56,6 +56,8 @@ faq_schema:
     answer: "Some do, according to the breed club, but noise, shared entrances, secure separation and coat-drying space can make it a difficult match. Evaluate the individual dog and the building rather than treating floor area as approval."
   - question: "Are Komondors aggressive?"
     answer: "Territorial behavior can create serious risks around unfamiliar people or animals. Breed identity does not predict an individual incident. Use secure management and seek qualified reward-based help for concerning behavior; consult a veterinarian for sudden changes."
+  - question: "What health issues are common in Komondors?"
+    answer: "The Komondor Club of America identifies hip dysplasia and bloat as concerns to discuss. Ask for screening records and consult a veterinarian about the individual dog's risks and emergency plan; this is not a prevalence estimate or diagnosis."
 toc:
 - id: komondor-quick-facts
   title: "Komondor Quick Facts"
@@ -86,9 +88,9 @@ toc:
 
 ---
 
-A Komondor is a guardian first and an unusual-looking dog second. Its cords need specialized maintenance, yet the larger issue is an adult that was developed to assess territory and strangers independently. A buyer has to solve for secure property, visitor protocols, drying space, and experienced support before the coat becomes a conversation piece.
+A Komondor is a livestock guardian whose health, corded coat, and territorial behavior all affect owner fit. A prospective owner needs a plan for hip-screening records and bloat emergencies, skin checks beneath the cords, all-day drying, secure visitor separation, and veterinary handling before focusing on the breed's unusual appearance.
 
-A Komondor is not an easy large companion for ordinary suburban life. It needs secure space, careful socialization, visitor management, and owners who understand guardian instincts. The coat also requires a type of care that is completely different from ordinary brushing.
+Temperament is the larger commitment: the Komondor was developed to assess territory and strangers independently. It is not an easy large companion for ordinary suburban life, and the coat is not low maintenance simply because it is not brushed like an ordinary long coat.
 
 ![Adult Komondor standing outdoors with a white corded coat and calm livestock guardian posture]({{ site.url }}/assets/images/komondor-main.jpg){: width="1920" height="1080" loading="lazy" decoding="async" }
 
