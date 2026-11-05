@@ -8,7 +8,7 @@ permalink: /posts/2026/09/19/dog-grooming-costs-yearly-budget/
 content_type: cost-planning
 adsense: false
 ai_images: true
-updated: "2026-09-19"
+updated: "2026-11-05"
 sources:
   - organization: "VCA Animal Hospitals"
     title: "Grooming and Coat Care for Your Dog"
@@ -152,7 +152,7 @@ The [ASPCA's grooming handout](https://www.aspca.org/sites/default/files/upload/
 
 ## Put Grooming Into the Whole-Dog Budget
 
-Add your local figures to the [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/), checking what its grooming field already includes before adding anything separately. Count each expense once. Keep food, veterinary care, daytime help, and boarding visible so an appealing grooming quote does not obscure a larger care commitment.
+Use the [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/) for the broader plan, then keep your local grooming worksheet beside its results. The calculator's grooming selector uses illustrative allowances; it does not accept a custom grooming quote. In your own budget, replace its grooming allowance with your worksheet total rather than adding both. Keep food, veterinary care, daytime help, and boarding visible so an appealing grooming quote does not obscure a larger care commitment.
 
 Then use the [Dog Fit Score Cards]({{ site.url }}/dog-fit-score-cards/) to consider the time side of the decision. A household that dislikes brushing needs to acknowledge that preference before choosing a coat that requires it. Professional appointments cannot fill every gap in daily care.
 

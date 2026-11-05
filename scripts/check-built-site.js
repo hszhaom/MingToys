@@ -60,7 +60,7 @@ for (const url of featuredUrls) {
 if (homepage.indexOf('id="finder-title"') > homepage.indexOf('id="selected-title"') || homepage.includes("Latest Source-Reviewed")) {
   throw new Error("Homepage must prioritize decision tools over an article feed.");
 }
-for (const url of ["/dog-cost-calculator/", "/dog-breed-finder/", "/dog-breed-selector/", "/dog-fit-score-cards/", "/data-sources/", "/puppy-checklist/"]) {
+for (const url of ["/dog-cost-calculator/", "/dog-breed-finder/", "/dog-breed-selector/", "/posts/2026/09/19/dog-grooming-costs-yearly-budget/", "/data-sources/", "/puppy-checklist/"]) {
   if (!homepage.includes(`href="https://petstorie.com${url}"`)) throw new Error(`Missing homepage decision path: ${url}`);
 }
 const homepageThumbnails = [...homepage.matchAll(/\/assets\/images\/thumbs\/([^"']+\.webp)/g)];
@@ -296,7 +296,7 @@ const puppyChecklist = read("puppy-checklist/index.html");
 if (count(puppyChecklist, '<label><input type="checkbox">') !== 10) {
   throw new Error("Every puppy checklist checkbox needs its visible text as a native label.");
 }
-for (const page of ["dog-cost-calculator", "dog-breed-finder", "dog-breed-selector", "dog-fit-score-cards", "dog-breeds", "dog-breed-comparisons", "puppy-checklist"]) {
+for (const page of ["dog-cost-calculator", "dog-breed-finder", "dog-breed-selector", "dog-fit-score-cards", "dog-breeds", "dog-breed-comparisons", "puppy-checklist", "home-routines", "data-sources"]) {
   const html = read(`${page}/index.html`);
   if (!html.includes('href="https://petstorie.com/about/#ming-zhao">Ming Zhao</a>') || !/Page updated: <time datetime="\d{4}-\d{2}-\d{2}">/.test(html)) {
     throw new Error(`${page} needs a visible editor and page date.`);
