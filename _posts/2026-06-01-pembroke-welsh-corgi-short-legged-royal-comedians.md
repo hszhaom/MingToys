@@ -187,4 +187,4 @@ Keep a Corgi on the shortlist when the movement plan, noise expectations, and ca
 
 Compare [Shiba Inu vs Corgi]({{ site.url }}/shiba-inu-vs-corgi/) for the broader choice, then read the [Shiba entrance protocol]({{ site.url }}/posts/2026/06/01/shiba-inu-japanese-smirking-meme-dogs/) or [Golden Retriever workload plan]({{ site.url }}/posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/). The next useful step is a conversation about a particular dog and the unresolved items in your plan, not a higher breed-fit score.
 
-For a separate comparison prompt, use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/). Their editorial scores are not owner-research findings or professional assessments; keep unresolved care tasks alongside them.
+Use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) to compare the Pembroke’s exercise and shedding demands with those of another breed on your shortlist.

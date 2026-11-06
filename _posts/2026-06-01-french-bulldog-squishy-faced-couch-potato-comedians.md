@@ -211,7 +211,7 @@ Separate routine spending from unexpected care. Use the [dog cost calculator]({{
 
 A workable home can provide comfortable indoor conditions, attentive daily care and support when health needs change. A person wanting an endurance running partner or a dog for frequent swimming should reconsider this match.
 
-Complete the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) with the people sharing care duties. Treat them as conversation prompts. An attractive overall result cannot compensate for an unresolved cooling or emergency-access problem.
+Read the French Bulldog’s [fit card]({{ site.url }}/dog-fit-score-cards/) with the people sharing care duties. Agree separately on who can keep the dog cool and reach a veterinarian in an emergency.
 
 ## The First Month With a Frenchie
 

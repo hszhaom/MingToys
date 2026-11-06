@@ -209,12 +209,6 @@ if ($sitemap -match 'site\.time') { $issues.Add('sitemap.xml still uses site.tim
 $firstStory = [System.IO.File]::ReadAllText((Join-Path $root '_posts\2026-05-28-first-story.md'))
 if ($firstStory -notmatch '(?m)^noindex:\s*true\s*$') { $issues.Add('The unverified Corgi comparison must remain noindex until it is upgraded.') }
 
-$fitCards = [System.IO.File]::ReadAllText((Join-Path $root 'pages\dog-fit-score-cards.html'))
-$nonDiscreteWidths = [regex]::Matches($fitCards, 'style="width:\s*(\d+)%"') | Where-Object {
-  ([int]$_.Groups[1].Value % 20) -ne 0
-}
-if ($nonDiscreteWidths.Count -gt 0) { $issues.Add('Fit Score Cards still contain non-discrete percentage widths.') }
-
 $postFiles = Get-ChildItem (Join-Path $root '_posts') -Filter '*.md'
 $postByUrl = @{}
 foreach ($file in $postFiles) {

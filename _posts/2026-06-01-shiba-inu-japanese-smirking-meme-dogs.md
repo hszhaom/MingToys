@@ -181,4 +181,4 @@ Use [Shiba Inu vs Corgi]({{ site.url }}/shiba-inu-vs-corgi/) for the direct comp
 
 The useful outcome is a shared entrance protocol, a walker who accepts it, and a handling plan for the actual dog. Price any equipment or professional support using local quotes in the [dog cost calculator]({{ site.url }}/dog-cost-calculator/), keeping its assumptions separate from confirmed costs. If the plan depends on one person's vigilance while everyone else improvises, address that before bringing the dog home.
 
-For a separate comparison prompt, use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/). Their editorial scores are not owner-research findings or professional assessments; keep unresolved care tasks alongside them.
+Compare the Shiba’s exercise and grooming labels in the breed table on the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/). Ask separately how the individual dog handles brushing.

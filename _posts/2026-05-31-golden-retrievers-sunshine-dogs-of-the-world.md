@@ -179,4 +179,4 @@ If comparing retrievers, use [Labrador vs Golden Retriever]({{ site.url }}/labra
 
 Keep a Golden on the shortlist when the household wants shared activity and has accepted the less visible work: handling, supervision, coat care, and cover for absences. If that plan depends on one person doing everything, resolve the dependency before committing. The useful next step is an agreed care schedule and a conversation about the actual dog.
 
-For a separate comparison prompt, use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/). Their editorial scores are not owner-research findings or professional assessments; keep unresolved care tasks alongside them.
+Compare the grooming and shedding labels on the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/), then decide who can brush your Golden during heavy sheds.

@@ -1,225 +1,60 @@
 ---
 layout: default
-title: "Dog Breed Fit Score Cards: Shareable Owner-Fit Snapshots"
+title: "Dog Breed Fit Score Cards: Compare Everyday Care"
 seo_title: "Dog Breed Fit Score Cards for Real-Life Decisions"
-description: "Compare visual dog breed fit score cards for apartment fit, first-time owner fit, family fit, grooming effort, exercise demand, and risk level."
+description: "Compare exercise, grooming and shedding for six breeds. Follow each card to its care guide and check the evidence behind the labels before planning your week."
 permalink: /dog-fit-score-cards/
-updated: "2026-11-04"
+updated: "2026-11-06"
 adsense: false
+image_disclosure: ai-assisted-editorial
 sources:
-  - organization: "American Kennel Club"
-    title: "Best Dogs for Apartments"
-    url: "https://www.akc.org/expert-advice/home-living/best-dogs-for-apartments/"
-    accessed: "2026-07-18"
-  - organization: "American Kennel Club"
-    title: "Best Family Dogs"
-    url: "https://www.akc.org/expert-advice/lifestyle/best-family-dogs/"
-    accessed: "2026-07-18"
-  - organization: "Orthopedic Foundation for Animals"
-    title: "CHIC Browse by Breed"
-    url: "https://ofa.org/chic-programs/browse-by-breed/"
-    accessed: "2026-07-18"
-  - organization: "ASPCA"
-    title: "General Dog Care"
-    url: "https://www.aspca.org/pet-care/dog-care"
-    accessed: "2026-07-18"
+  - organization: "Golden Retriever Club of America"
+    title: "Is a Golden Retriever Right for You?"
+    url: "https://grca.org/find-a-golden/begin-the-search/is-a-golden-retriever-right-for-you/"
+    accessed: "2026-11-06"
 faq_schema:
-  - question: "What is a dog breed fit score card?"
-    answer: "A fit score card is a quick visual summary of how a breed may fit common owner situations such as apartments, family homes, grooming tolerance, and first-time ownership."
-  - question: "Can a score card replace a full breed guide?"
-    answer: "No. Score cards are quick snapshots. Always read the full guide and consider individual dog temperament, health history, training, and your home routine."
-  - question: "Are the 1-to-5 scores scientific ratings?"
-    answer: "No. They are editorial planning levels based on the published rubric, breed references, and the care trade-offs described in each full guide."
+  - question: "How do I compare two cards?"
+    answer: "Look at the same care task on both cards. For exercise, decide who could provide activity on your busiest weekday. For grooming, ask which tasks you can do at home and which would need a groomer."
+  - question: "Where do the labels come from?"
+    answer: "The cards display PetStorie's editorial categories from its Household Fit Dataset. Field notes, where available, explain the supporting care information and how the editor interpreted it."
 ---
 
 {% include header.html %}
 
 <main class="container">
   <article class="topic-page">
-    <p class="eyebrow">Shareable breed snapshots</p>
     <h1>Dog Breed Fit Score Cards</h1>
     <p class="post-meta">By <a href="{{ site.url }}/about/#ming-zhao">{{ site.author }}</a> · Page updated: <time datetime="{{ page.updated }}">{{ page.updated }}</time>. See <a href="{{ site.url }}/data-sources/">sources and method limits</a>.</p>
-    <p>
-      These cards turn long breed guides into quick owner-fit snapshots. They are built for scanning, comparing, and sharing, but
-      they should point you back to the full guide before any real decision.
-    </p>
+    <p>Compare the exercise, brushing and cleanup six breeds may bring to your week. Pick the task you have the least time for, then open the guide to see what that task involves for the breed.</p>
+    <p class="method-note">The labels are editorial estimates and are not professionally reviewed. Field notes explain which care facts have been checked. <a href="#score-method">How to read a card</a></p>
 
-    <p class="method-note">These 1–5 scores are unvalidated editorial judgments, not measured family safety, disease probabilities, or the shared dataset’s labels. They are not professionally reviewed. Read the <a href="#score-method">scoring limits</a> and each full guide before shortlisting an individual dog. Images illustrate breed appearance; they do not document the editor’s care history.</p>
-
+    {% assign card_keys = "golden-retriever,labrador-retriever,french-bulldog,pembroke-welsh-corgi,cane-corso,kangal-dog" | split: "," %}
+    {% assign care_fields = "exercise,grooming,shedding" | split: "," %}
     <div class="fit-card-grid">
+      {% for key in card_keys %}
+      {% assign breed = site.data.breeds | where: "key", key | first %}
       <article class="fit-score-card">
-        <img src="{{ site.url }}/assets/images/golden-cover.jpg" alt="Golden Retriever portrait" width="1773" height="2092" loading="lazy" decoding="async">
+        <img src="{{ site.url }}{{ breed.image }}" alt="{{ breed.name | escape }} portrait" loading="lazy" decoding="async">
         <div class="fit-card-body">
-          <p class="eyebrow">Family favorite</p>
-          <h2>Golden Retriever</h2>
-          <div class="metric"><span>Family Fit <small>5/5</small></span><b style="width: 100%"></b></div>
-          <div class="metric"><span>First-Time Fit <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Exercise Demand <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Grooming Effort <small>3/5</small></span><b style="width: 60%"></b></div>
-          <a href="{{ site.url }}/posts/2026/05/31/golden-retrievers-sunshine-dogs-of-the-world/">Read the full guide</a>
+          <h2>{{ breed.name | escape }}</h2>
+          <dl>
+            {% for field in care_fields %}
+            <dt>{{ field | capitalize }}</dt>
+            <dd>{{ breed[field] | capitalize }} &middot; {% if breed.evidence.fields[field] %}<a href="{{ site.url }}/data-sources/#evidence-{{ key }}-{{ field }}">Field note</a>{% else %}Field note unavailable{% endif %}</dd>
+            {% endfor %}
+          </dl>
+          <p>{{ breed.caution | escape }}</p>
+          <a href="{{ site.url }}{{ breed.url }}">Read the {{ breed.name | escape }} guide</a>
         </div>
       </article>
-
-      <article class="fit-score-card">
-        <img src="{{ site.url }}/assets/images/labrador-cover.jpg" alt="Labrador Retriever portrait" width="2048" height="1812" loading="lazy" decoding="async">
-        <div class="fit-card-body">
-          <p class="eyebrow">Active companion</p>
-          <h2>Labrador Retriever</h2>
-          <div class="metric"><span>Family Fit <small>5/5</small></span><b style="width: 100%"></b></div>
-          <div class="metric"><span>Training Ease <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Exercise Demand <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Weight-Control Need <small>4/5</small></span><b style="width: 80%"></b></div>
-          <a href="{{ site.url }}/posts/2026/06/04/labrador-retriever-forever-hungry-water-loving-family-clown/">Read the full guide</a>
-        </div>
-      </article>
-
-      <article class="fit-score-card">
-        <img src="{{ site.url }}/assets/images/frenchbulldog-cover.jpg" alt="French Bulldog portrait" width="1773" height="2092" loading="lazy" decoding="async">
-        <div class="fit-card-body">
-          <p class="eyebrow">Apartment companion</p>
-          <h2>French Bulldog</h2>
-          <div class="metric"><span>Apartment Fit <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Exercise Demand <small>2/5</small></span><b style="width: 40%"></b></div>
-          <div class="metric"><span>Grooming Effort <small>2/5</small></span><b style="width: 40%"></b></div>
-          <div class="metric metric-warn"><span>Health Risk <small>5/5</small></span><b style="width: 100%"></b></div>
-          <a href="{{ site.url }}/posts/2026/06/01/french-bulldog-squishy-faced-couch-potato-comedians/">Read the full guide</a>
-        </div>
-      </article>
-
-      <article class="fit-score-card">
-        <img src="{{ site.url }}/assets/images/corgi-cover.jpg" alt="Pembroke Welsh Corgi portrait" width="2508" height="1480" loading="lazy" decoding="async">
-        <div class="fit-card-body">
-          <p class="eyebrow">Small herder</p>
-          <h2>Pembroke Welsh Corgi</h2>
-          <div class="metric"><span>Family Fit <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Training Interest <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Shedding Level <small>4/5</small></span><b style="width: 80%"></b></div>
-          <div class="metric"><span>Barking Tendency <small>4/5</small></span><b style="width: 80%"></b></div>
-          <a href="{{ site.url }}/posts/2026/06/01/pembroke-welsh-corgi-short-legged-royal-comedians/">Read the full guide</a>
-        </div>
-      </article>
-
-      <article class="fit-score-card">
-        <img src="{{ site.url }}/assets/images/canecorso-cover.jpg" alt="Cane Corso portrait" width="1600" height="1885" loading="lazy" decoding="async">
-        <div class="fit-card-body">
-          <p class="eyebrow">Serious guardian</p>
-          <h2>Cane Corso</h2>
-          <div class="metric"><span>Owner Experience Need <small>5/5</small></span><b style="width: 100%"></b></div>
-          <div class="metric"><span>Training Structure <small>5/5</small></span><b style="width: 100%"></b></div>
-          <div class="metric"><span>Grooming Effort <small>2/5</small></span><b style="width: 40%"></b></div>
-          <div class="metric metric-warn"><span>Management Risk <small>4/5</small></span><b style="width: 80%"></b></div>
-          <a href="{{ site.url }}/posts/2026/07/05/cane-corso-powerful-italian-guardian-breed-guide/">Read the full guide</a>
-        </div>
-      </article>
-
-      <article class="fit-score-card">
-        <img src="{{ site.url }}/assets/images/kangal-cover.jpg" alt="Kangal Dog portrait" width="1600" height="1885" loading="lazy" decoding="async">
-        <div class="fit-card-body">
-          <p class="eyebrow">Rural guardian</p>
-          <h2>Kangal Dog</h2>
-          <div class="metric"><span>Rural Property Fit <small>5/5</small></span><b style="width: 100%"></b></div>
-          <div class="metric"><span>Apartment Fit <small>1/5</small></span><b style="width: 20%"></b></div>
-          <div class="metric"><span>Owner Experience Need <small>5/5</small></span><b style="width: 100%"></b></div>
-          <div class="metric metric-warn"><span>Management Risk <small>5/5</small></span><b style="width: 100%"></b></div>
-          <a href="{{ site.url }}/posts/2026/07/08/kangal-dog-turkish-livestock-guardian-breed-guide/">Read the full guide</a>
-        </div>
-      </article>
+      {% endfor %}
     </div>
 
-    <h2>All Score Card Source Profiles</h2>
-    <p>
-      The full data set behind PetStorie's fit tools is broader than the sample cards above. Use this table to jump from a quick
-      snapshot into the full breed profile before making a decision.
-    </p>
+    <h2 id="score-method">What a grooming label means in practice</h2>
+    <p>A Golden Retriever has a medium grooming label and a high shedding label. The first describes time spent on the dog’s coat. The second helps you plan for loose hair at home. The Golden Retriever Club of America describes weekly brushing for much of the year and daily brushing during heavy sheds. Could someone take over the extra brushing on the weeks you travel? <a href="{{ page.sources[0].url }}">Read the club’s coat-care guidance</a>.</p>
+    <p>Low, medium and high are broad categories. They do not predict an individual dog’s health, a child’s safety or a grooming bill. For a budget, ask a local groomer which services a quote includes, then compare it with the allowance in the <a href="{{ site.url }}/dog-cost-calculator/">Dog Cost Calculator</a>.</p>
+
+    <h2>Compare more breed profiles</h2>
     {% include breed-data-table.html %}
-
-    <h2>How to Share a Card</h2>
-    <p>
-      Open this page on desktop or mobile, take a screenshot of the card you want, and share it with the full guide link. The card
-      is a conversation starter, not a final recommendation.
-    </p>
-
-    <h2>How the Scores Should Be Read</h2>
-    <p>
-      A high score means the breed is often easier to fit into that specific owner situation, not that the dog is automatically
-      easy. For example, a Golden Retriever can score well for families and first-time owners while still needing daily exercise,
-      brushing, training, and careful weight control. A French Bulldog can score well for apartment living while carrying serious
-      heat and breathing considerations. The card is meant to slow down impulsive decisions, not replace the full guide.
-    </p>
-    <p>
-      The most useful score is usually the one that makes you uncomfortable. If a breed has a low apartment score, ask whether your
-      building, neighbors, and schedule can handle the noise or exercise. If grooming effort is high, price local groomers before
-      falling in love with the coat. If health risk is high, ask a veterinarian what routine care, emergency planning, insurance,
-      and breed-specific screening may look like in your area.
-    </p>
-
-    <h2>Owner-Fit Signals Behind Each Card</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Card Signal</th>
-          <th>What It Includes</th>
-          <th>How to Use It</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Family Fit</td>
-          <td>Temperament, sturdiness, patience, trainability, and supervision needs.</td>
-          <td>Compare against your children's ages and household rules.</td>
-        </tr>
-        <tr>
-          <td>First-Time Fit</td>
-          <td>Forgiveness, training difficulty, size, health risk, and management load.</td>
-          <td>Choose the dog you can handle on a bad week, not only a good one.</td>
-        </tr>
-        <tr>
-          <td>Exercise Demand</td>
-          <td>Walks, play, mental work, adolescence, and recovery after busy days.</td>
-          <td>Match the score to your normal weekday routine.</td>
-        </tr>
-        <tr>
-          <td>Risk Level</td>
-          <td>Strength, guarding instincts, public handling, heat risk, or health cost.</td>
-          <td>Read the full guide before treating the breed as a casual choice.</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Best Way to Use This Page</h2>
-    <p>
-      Pick three breeds that look realistic, then read their full guides back to back. Write down the hardest part of each one:
-      fur, barking, vet cost, training, exercise, grooming, or public handling. The breed with the prettiest card is not always
-      the best match. The better choice is the breed whose hardest part you are willing to manage for years.
-    </p>
-    <p>
-      Scores may also change by life stage. A puppy can be far more demanding than an adult dog of the same breed, and a senior dog
-      may need different exercise, diet, and veterinary planning. Use the card as a first screen, then judge the individual dog in
-      front of you.
-    </p>
-
-    <h2 id="score-method">PetStorie 1-to-5 Scoring Method</h2>
-    <p>
-      These are editorial planning levels, not survey results or veterinary risk predictions. PetStorie compares the breed profile,
-      parent-club and health-screening context, and the ownership demands explained in the full guide. Scores use whole numbers so
-      the cards do not imply precision the source material cannot support.
-    </p>
-    <table>
-      <thead>
-        <tr><th>Level</th><th>Fit Metric</th><th>Demand or Risk Metric</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>1/5</td><td>Poor match for this setting in most homes.</td><td>Low routine demand or lower relative concern.</td></tr>
-        <tr><td>2/5</td><td>Possible only with meaningful adjustments.</td><td>Some extra planning beyond ordinary care.</td></tr>
-        <tr><td>3/5</td><td>Conditional fit that depends on the household.</td><td>Moderate time, cost, or management pressure.</td></tr>
-        <tr><td>4/5</td><td>Often a workable fit for prepared owners.</td><td>High demand that shapes the weekly routine.</td></tr>
-        <tr><td>5/5</td><td>Strong fit when the individual dog also matches.</td><td>Very high demand or concern requiring a firm plan.</td></tr>
-      </tbody>
-    </table>
-    <p>
-      Read the metric name before reading the number. A high Family Fit score is favorable. A high Health Risk, Exercise Demand, or
-      Management Risk score warns that the owner carries more work or uncertainty. Individual dogs can fall outside the breed-level
-      estimate because of age, line, health, training, and prior experience.
-    </p>
   </article>
 </main>

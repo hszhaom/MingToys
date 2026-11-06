@@ -87,6 +87,22 @@ if (breedDirectory.includes('href="https://petstorie.com/posts/2026/08/03/akita-
 }
 
 const breedDataset = JSON.parse(read("breed-data.json"));
+const cardPage = read("dog-fit-score-cards/index.html");
+const cards = [...cardPage.matchAll(/<article class="fit-score-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
+const featuredBreeds = ["golden-retriever", "labrador-retriever", "french-bulldog", "pembroke-welsh-corgi", "cane-corso", "kangal-dog"];
+if (cards.length !== featuredBreeds.length || /\b[1-5]\/5\b/.test(cardPage)) throw new Error("Unexpected card inventory or numeric rating.");
+for (const [i, key] of featuredBreeds.entries()) {
+  const breed = breedDataset.breeds.find(record => record.key === key);
+  if (!cards[i].includes(`<h2>${breed.name}</h2>`)) throw new Error(`Missing card: ${key}`);
+  for (const field of ["exercise", "grooming", "shedding"]) {
+    const note = breed.evidence?.fields[field] ? `<a href="https://petstorie.com/data-sources/#evidence-${key}-${field}">Field note</a>` : "Field note unavailable";
+    const label = breed[field][0].toUpperCase() + breed[field].slice(1);
+    const heading = field[0].toUpperCase() + field.slice(1);
+    if (!cards[i].replace(/>\s+</g, "><").includes(`<dt>${heading}</dt><dd>${label} &middot; ${note}</dd>`)) {
+      throw new Error(`Card differs from dataset: ${key}.${field}`);
+    }
+  }
+}
 for (const [page, keys, fields] of [
   ["shiba-inu-vs-corgi", ["shiba-inu", "pembroke-welsh-corgi"], ["exercise", "shedding", "grooming", "training", "cost_level", "caution"]],
   ["french-bulldog-vs-boston-terrier", ["french-bulldog", "boston-terrier"], ["exercise", "grooming", "health_risk", "cost_level", "caution"]],

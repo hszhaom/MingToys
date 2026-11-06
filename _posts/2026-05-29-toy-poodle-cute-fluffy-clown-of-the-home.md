@@ -175,4 +175,4 @@ Keep a Toy on the shortlist when the grooming agreement and handling plan feel s
 
 Use local quotes in the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) and read its assumptions before relying on totals. The next step is a real conversation with a groomer and the dog's current carer. If the required home care remains unassigned, settle that before choosing the appealing trim or the dog.
 
-For a separate comparison prompt, use the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/). Their editorial scores are not owner-research findings or professional assessments; keep unresolved care tasks alongside them.
+Use the breed table on the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) to compare the Toy Poodle’s home grooming needs with those of another small breed.

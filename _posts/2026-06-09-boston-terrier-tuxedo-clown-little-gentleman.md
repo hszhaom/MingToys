@@ -215,7 +215,7 @@ If flat-faced health concerns are a deal breaker, widen the search. PDSA explici
 2. Read the [Boston Terrier field evidence and limits]({{ site.url }}/data-sources/#evidence-boston-terrier) and keep unresolved individual questions alongside the labels.
 3. Select Boston Terrier and your other candidate in the [Dog Breed Selector]({{ site.url }}/dog-breed-selector/). Bring their cautions, the care worksheet, and local quotes to your next conversation.
 
-The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) offer a separate editorial rubric. Their numbers are not clinical assessments and cannot replace these checks.
+Use the breed table on the [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) to compare daily care tasks. Ask your veterinarian about the individual Boston’s breathing and activity limits.
 
 ## The Boston Terrier Decision
 
