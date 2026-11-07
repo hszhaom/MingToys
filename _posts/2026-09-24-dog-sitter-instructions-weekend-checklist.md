@@ -8,12 +8,12 @@ permalink: /posts/2026/09/24/dog-sitter-instructions-weekend-checklist/
 content_type: care-checklist
 adsense: false
 ai_images: true
-updated: "2026-11-05"
+updated: "2026-11-07"
 sources:
   - organization: "American Animal Hospital Association"
     title: "Preparing for the Unexpected: Essential Pet Sitter Instructions"
     url: "https://www.aaha.org/resources/preparing-for-the-unexpected-essential-pet-sitter-instructions/"
-    accessed: "2026-09-24"
+    accessed: "2026-11-07"
   - organization: "American Kennel Club"
     title: "How to Prep Your House for a Pet Sitter"
     url: "https://www.akc.org/expert-advice/home-living/how-to-prep-house-for-pet-sitter/"
@@ -142,7 +142,7 @@ Leave the regular veterinarian and an appropriate emergency clinic's current con
 
 Place the contact information at the front of the care notes. Test the phone numbers and identify a backup decision-maker who has agreed to the role. If your dog has a diagnosed condition, ask the veterinarian for an individual action plan and review it with the sitter.
 
-Before agreeing to paid cover, record the sitter's actual quote and possible extra visits separately alongside your [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/) results. The calculator accepts local base-care and paid-walk quotes, not overnight sitting or boarding quotes. Do not enter a weekend booking as a recurring weekly walk. Check whether the sitting quote already includes walks before combining costs. If you are still choosing a dog, the [Dog Fit Score Cards]({{ site.url }}/dog-fit-score-cards/) can organize breed-level questions; confirm handling and care needs for the individual dog with the sitter.
+Before agreeing to paid cover, record the sitter's actual quote and possible extra visits separately alongside your [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/) results. The calculator accepts local base-care and paid-walk quotes, not overnight sitting or boarding quotes. Do not enter a weekend booking as a recurring weekly walk. Check whether the sitting quote already includes walks before combining costs.
 
 ## Pros and Cons of a Written Handoff
 

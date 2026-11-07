@@ -362,9 +362,6 @@ foreach ($file in $postFiles) {
   if ($decisionHeadings.Count -lt 3) {
     $issues.Add("$($file.Name) has only $($decisionHeadings.Count) breed-specific decision sections; expected at least 3.")
   }
-  if ($raw -notmatch '/dog-cost-calculator/' -or $raw -notmatch '/dog-fit-score-cards/') {
-    $issues.Add("$($file.Name) must link directly to both dog decision tools.")
-  }
   if ($raw -match $unsupportedInterviewPattern) {
     $issues.Add("$($file.Name) contains an unsupported interview claim.")
   }

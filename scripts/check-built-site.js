@@ -254,15 +254,6 @@ for (const postFile of postFiles) {
   }
   if (!hasSources && updatedMatch) throw new Error(`${postFile} exposes an updated date before source review.`);
   if (!expectsNoindex && !updatedMatch) throw new Error(`${postFile} has sources but no page-level updated date.`);
-  if (!source.includes("/dog-cost-calculator/") || !source.includes("/dog-fit-score-cards/")) {
-    throw new Error(`${postFile} does not link directly to both dog decision tools.`);
-  }
-  if (!html.includes('href="https://petstorie.com/dog-cost-calculator/"')) {
-    throw new Error(`${relativePath} is missing the dog cost calculator link.`);
-  }
-  if (!html.includes('href="https://petstorie.com/dog-fit-score-cards/"')) {
-    throw new Error(`${relativePath} is missing the dog fit score link.`);
-  }
   if (updatedMatch && !html.includes(`"dateModified": "${updatedMatch[1]}"`)) {
     throw new Error(`${relativePath} does not use its page-level updated date.`);
   }

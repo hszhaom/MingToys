@@ -8,7 +8,7 @@ permalink: /posts/2026/09/19/dog-grooming-costs-yearly-budget/
 content_type: cost-planning
 adsense: false
 ai_images: true
-updated: "2026-11-05"
+updated: "2026-11-07"
 sources:
   - organization: "VCA Animal Hospitals"
     title: "Grooming and Coat Care for Your Dog"
@@ -154,7 +154,7 @@ The [ASPCA's grooming handout](https://www.aspca.org/sites/default/files/upload/
 
 Use the [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/) for the broader plan, then keep your local grooming worksheet beside its results. The calculator's grooming selector uses illustrative allowances; it does not accept a custom grooming quote. In your own budget, replace its grooming allowance with your worksheet total rather than adding both. Keep food, veterinary care, daytime help, and boarding visible so an appealing grooming quote does not obscure a larger care commitment.
 
-Then use the [Dog Fit Score Cards]({{ site.url }}/dog-fit-score-cards/) to consider the time side of the decision. A household that dislikes brushing needs to acknowledge that preference before choosing a coat that requires it. Professional appointments cannot fill every gap in daily care.
+If someone else will cover home maintenance while you are away, use the [dog sitter handoff checklist]({{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/) to record the agreed tasks, equipment, and professional contact. Confirm what that person can do before treating the gap as covered; a grooming budget alone does not assign the work.
 
 This worksheet suits prospective owners comparing care routines and current owners reviewing actual bills. It is not a medical grooming plan for a dog with a skin condition. For ordinary washing decisions between appointments, our [dog bathing frequency guide]({{ site.url }}/posts/2026/09/16/how-often-bathe-dog/) covers a different question: when a bath, a smaller cleanup, or veterinary advice is appropriate.
 

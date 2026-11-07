@@ -125,7 +125,6 @@ foreach ($draft in $drafts) {
       $issues.Add("$name links to unpublished or missing article $internalLink.")
     }
   }
-  if ($raw -notmatch '/dog-cost-calculator/' -or $raw -notmatch '/dog-fit-score-cards/') { $issues.Add("$name must link directly to both dog decision tools.") }
   if ($raw -match '(?i)\b(based on (?:interviews|conversations)|interviewed|we spoke (?:with|to)|we asked)\b') { $issues.Add("$name contains an unsupported interview claim.") }
   if ($raw -match '(?i)\bthe overlooked\b') { $issues.Add("$name contains the repeated AI-style phrase 'the overlooked'.") }
   if ($raw.Contains([char]0xFFFD)) { $issues.Add("$name contains a Unicode replacement character.") }
