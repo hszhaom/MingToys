@@ -1789,6 +1789,36 @@
   breed_standard_url: https://www.akc.org/dog-breeds/cane-corso/
   publication_status: published
   image_prefix: canecorso
+  evidence:
+    checked: "2026-11-09"
+    review_status: "not professionally reviewed"
+    scope: "Daily activity and coat care for an adult Cane Corso. These three notes cover the household routine."
+    mapping_note: "The Cane Corso Association of America describes care tasks. PetStorie assigns the categories. Individual exercise needs, time spent brushing and local service prices vary."
+    sources:
+      ccaa_household:
+        title: "Cane Corso Association of America: Is the Cane Corso Right for Me?"
+        url: "https://www.canecorso.org/is-the-cane-corso-right-for-me.html"
+        accessed: "2026-11-09"
+      ccaa_coat:
+        title: "Cane Corso Association of America: Grooming Your Cane Corso"
+        url: "https://www.canecorso.org/grooming.html"
+        accessed: "2026-11-09"
+    fields:
+      exercise:
+        value: medium
+        basis: "editorial synthesis"
+        note: "Plan daily outings with someone who can handle the dog, plus activities that give the dog a job, such as scent games. Use the individual dog's usual routine to estimate care time."
+        sources: [ccaa_household]
+      grooming:
+        value: low
+        basis: "editorial synthesis"
+        note: "The club recommends weekly brushing for the short coat. Put brushing on the sitter's schedule if you will be away and show them which brush the dog accepts."
+        sources: [ccaa_coat]
+      shedding:
+        value: medium
+        basis: "editorial synthesis"
+        note: "The undercoat sheds year-round and can be denser in colder climates. Allow extra time to clear loose hair in spring, even if weekly brushing is usually enough."
+        sources: [ccaa_coat]
 - key: kangal-dog
   name: Kangal Dog
   url: "/posts/2026/07/08/kangal-dog-turkish-livestock-guardian-breed-guide/"

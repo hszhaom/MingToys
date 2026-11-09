@@ -13,7 +13,7 @@ const breeds = JSON.parse(execFileSync("ruby", ["-ryaml", "-rjson", "-e",
 const presets = breeds.map(breed => ({
   key: breed.key, name: breed.name, size: breed.size, grooming: breed.grooming,
   training: breed.training, healthRisk: breed.health_risk, costLevel: breed.cost_level,
-  url: "https://petstorie.com" + breed.url, costEvidence: breed.evidence?.fields.cost_level.note || null,
+  url: "https://petstorie.com" + breed.url, costEvidence: breed.evidence?.fields.cost_level?.note || null,
   caution: breed.caution
 }));
 const scripts = [...source.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
