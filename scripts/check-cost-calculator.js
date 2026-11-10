@@ -71,6 +71,7 @@ function getElement(id) {
       innerHTML: "",
       listeners: {},
       attributes: {},
+      validity: { badInput: false },
       setAttribute(name, value) { this.attributes[name] = value; },
       addEventListener(event, handler) {
         this.listeners[event] = handler;
@@ -385,6 +386,15 @@ function timePlan(routine, activity, coat) {
 }
 timePlan("", "", "");
 assert.ok(getElement("care-time-result").textContent.startsWith("Not estimated"));
+const routineInput = getElement("cost-time-routine");
+routineInput.validity.badInput = true; // Browsers expose an unfinished number as an empty value.
+routineInput.listeners.input();
+assert.ok(getElement("care-time-result").textContent.startsWith("Not calculated"));
+assert.equal(routineInput.attributes["aria-invalid"], "true");
+routineInput.validity.badInput = false;
+routineInput.listeners.input();
+assert.ok(getElement("care-time-result").textContent.startsWith("Not estimated"));
+assert.equal(routineInput.attributes["aria-invalid"], "false");
 timePlan(30, 60, 45);
 assert.ok(getElement("care-time-result").textContent.startsWith("675 minutes per week (11 hours 15 minutes)"));
 const validBudget = getElement("annual-cost").textContent;

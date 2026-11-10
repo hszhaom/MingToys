@@ -4,7 +4,7 @@ title: "Dog Cost Calculator: Estimate First-Year and Monthly Dog Expenses"
 seo_title: "Dog Expense Calculator: Monthly and First-Year Costs"
 description: "Estimate monthly and first-year dog costs, see why a breed preset changes your budget, and check its assumptions before collecting local care quotes."
 permalink: /dog-cost-calculator/
-updated: "2026-11-05"
+updated: "2026-11-10"
 adsense: false
 sources:
   - organization: "ASPCA"
@@ -618,7 +618,7 @@ faq_schema:
 
   function calculateCareTime() {
     var fields = ["cost-time-routine", "cost-time-activity", "cost-time-coat"].map(function (id) { return document.getElementById(id); });
-    var blank = fields.every(function (input) { return input.value.trim() === ""; });
+    var blank = fields.every(function (input) { return input.value.trim() === "" && !input.validity.badInput; });
     var invalid = false;
     var values = fields.map(function (input) {
       var value = Number(input.value);
