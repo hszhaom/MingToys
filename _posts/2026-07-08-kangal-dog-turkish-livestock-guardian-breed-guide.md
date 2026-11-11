@@ -4,13 +4,13 @@ seo_title: "Kangal Dog Temperament, Family Fit and Care"
 description: "Understand Kangal Dog temperament, family fit, care and ownership demands, including fencing, exercise, training and health questions for rural homes."
 cover: /assets/images/kangal-cover.jpg
 layout: post
-updated: "2026-11-04"
+updated: "2026-11-11"
 adsense: true
 sources:
   - organization: "United Kennel Club"
     title: "Kangal Dog"
     url: "https://www.ukcdogs.com/kangal-dog"
-    accessed: "2026-07-18"
+    accessed: "2026-11-11"
   - organization: "Kangal Dog Club of America"
     title: "Breed and Ownership Resources"
     url: "https://www.kangaldogclubofamerica.com/"
@@ -91,14 +91,15 @@ Choose another breed if you need easy obedience, casual public greetings, weak b
 
 ## Kangal Fit Is a Property Question
 
-| Fit Factor | Score | What It Means |
+| Before committing | What to check | Pause the decision if... |
 |---|---|---|
-| Apartment Fit | 1/5 | Needs secure outdoor space and a setting where guardian instincts can be managed. |
-| First-Time Owner Fit | 1/5 | Too independent, powerful, and territorial for casual beginners. |
-| Family Fit | 3/5 | Can be devoted in experienced homes, but visitor and child management matter. |
-| Exercise Demand | 3/5 | Moderate stamina, but needs patrol space and purposeful daily movement. |
-| Grooming Difficulty | 2/5 | Coat care is manageable, with heavier seasonal shedding. |
-| Training Difficulty | 5/5 | Cooperation depends on guardian-breed experience, consistency, and containment. |
+| Boundaries and gates | Walk the perimeter; obtain a site-specific repair or installation quote and write a delivery-gate routine. | Containment depends on recall or an open vehicle gate. |
+| Visitors and children | Identify a secure separation area and the adult responsible before guests arrive. | The plan assumes friendliness toward family extends to every visitor. |
+| Daily care and absence | Name a primary and backup handler for checks, feeding, controlled exercise and veterinary visits. | Nobody suitable has agreed to cover illness or travel. |
+| Transport and veterinary access | Confirm a clinic can accommodate the dog and plan how to transport it with help if needed. | Transport or emergency access is still an unanswered question. |
+| Coat and cleanup | Allow for brushing and extra loose-hair cleanup during undercoat shedding. | The household can only accommodate a low-shedding dog. |
+
+These are PetStorie editorial planning questions, not validated suitability scores or a professional safety assessment. The [UKC Kangal Dog standard](https://www.ukcdogs.com/kangal-dog) describes territorial livestock-guardian behavior, reserve toward strangers and seasonal undercoat loss. It does not prescribe a safe property size, a care-time allowance or a budget. Discuss the individual dog and property with an experienced guardian-dog professional before committing.
 
 ## Kangal Dog Temperament and Family Fit
 
@@ -192,7 +193,9 @@ Viral numbers are often poorly sourced and say little about stability, livestock
 
 Attachment to family can coexist with territory, barking, roaming, and suspicion of unfamiliar animals. Socialization does not remove the working purpose or need for suitable land.
 
-In the [dog cost calculator]({{ site.url }}/dog-cost-calculator/), start with secure acreage fencing, gates, shelter, giant-dog food and medication, livestock integration, transport, insurance, training support, and a serious medical reserve. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) can then test the non-negotiables: livestock purpose, acreage, predator context, neighbor distance, guardian experience, local rules, and access to veterinary and backup care that can actually handle the dog.
+Use the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) for a starting household budget, then replace its base-care allowance with local USD food-and-supplies and routine-veterinary quotes. Its preset amounts are unvalidated planning allowances, not Kangal prices. Keep a separate worksheet for fencing, gates, shelter, livestock integration, transport, specialist training and backup care; the calculator has no dedicated inputs for these costs. Record each quote's date, currency, scope and whether it is one-time or recurring. If a quote replaces an allowance already in the total, subtract that allowance before adding the quote.
+
+The [care comparison cards]({{ site.url }}/dog-fit-score-cards/) compare exercise, grooming and shedding labels; they do not assess acreage, predators, local rules, liability coverage or whether a property is safe. Before travel, use the [dog sitter instructions]({{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/) to write down the agreed gate routine, handling limits and veterinary contacts with the person who will provide care.
 
 ## Is a Kangal Dog Right for You?
 
