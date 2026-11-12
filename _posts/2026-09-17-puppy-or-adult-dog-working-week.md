@@ -8,7 +8,7 @@ permalink: /posts/2026/09/17/puppy-or-adult-dog-working-week/
 content_type: scenario-decision
 adsense: false
 ai_images: true
-updated: "2026-09-17"
+updated: "2026-11-12"
 sources:
   - organization: "Blue Cross"
     title: "Choosing the Right Dog (PDF)"
@@ -21,7 +21,7 @@ sources:
   - organization: "RSPCA"
     title: "Training Your Dog to Be Left Alone"
     url: "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/leftalone"
-    accessed: "2026-09-17"
+    accessed: "2026-11-12"
   - organization: "Dogs Trust"
     title: "Getting a Dog When You Have Children"
     url: "https://www.dogstrust.org.uk/dog-advice/getting-dog/dog-ready/when-you-have-children"
@@ -48,6 +48,8 @@ toc:
     title: "Quick comparison"
   - id: the-workday-handoff-audit
     title: "Workday care audit"
+  - id: turn-care-gaps-into-a-workweek-budget
+    title: "Workweek care budget"
   - id: ask-for-observations-not-labels
     title: "Questions before choosing"
   - id: pros-and-cons-of-each-starting-point
@@ -148,9 +150,25 @@ Compare breed demands separately from age. Our [Labrador Retriever guide]({{ sit
 | Adult with limited history | A careful matching process can still identify possibilities | More questions may remain open at collection | Your schedule has no flexibility for uncertainty |
 | Wait and prepare | You can secure care, money, and household agreement first | You postpone bringing a dog home | There is pressure to decide before the care gaps are resolved |
 
-For a budget check, use the [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/) and add local quotes for the help your audit requires. Count recurring care separately from initial supplies. Ask what happens to the bill when a workday runs late or additional visits are needed; do not assume adult adoption removes care costs.
+## Turn Care Gaps Into a Workweek Budget
 
-Use the [Dog Fit Score Cards]({{ site.url }}/dog-fit-score-cards/) to compare broader breed trade-offs, then return to the individual dog's records. The tools organize questions; they cannot certify a match.
+Start with the uncovered periods in your handoff audit, then ask a provider what they can actually cover. The RSPCA guidance above supports planning around the individual dog's comfort; it does not validate a service price or establish that a booked walk covers a whole workday. The scenarios below are editorial planning examples, not observed households or recommended care schedules.
+
+| Situation to test | Confirm the care arrangement | Record the cost and the unresolved gap |
+|---|---|---|
+| Office days with a commute | Write departure and return times, the caregiver's arrival and departure, and who covers either side | Obtain a quote for the actual service and count paid bookings; a short walk leaves the rest of the absence to assess |
+| Working at home with uninterrupted meetings | Name someone who can respond to waking, toileting, or distress while you cannot | Record any sitter's minimum booking and availability; being home does not make responsive care free or available |
+| A late finish or cancelled caregiver | Confirm a backup who has access and has agreed to care for this dog | Ask about extension charges, cancellation terms, and how payment works; an unconfirmed backup remains a care gap even if you have money set aside |
+
+For each quote, save the provider, location, currency, date, service duration, included tasks, and extra fees. Keep the initial transition period separate from the continuing work pattern: taking leave at arrival does not fund or provide care after you return to work.
+
+Use the [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/) for its US illustrative baseline and supported local USD quote fields. Its paid-walk option calculates **price per visit × visits per paid week × paid weeks per year**. For example, two visits per paid week over 46 paid weeks means 92 visits to price; those numbers demonstrate arithmetic only, not adequate care. Dividing the annual amount by 12 gives a monthly saving target, while actual invoices follow bookings. Confirm holiday and cancellation charges before reducing paid weeks.
+
+Keep daycare, sitting, minimum booking charges, and backup fees in a separate worksheet; the calculator does not accept those quotes. For an irregular rota, count actual bookings there instead of forcing them into a fixed weekly pattern. Add only costs missing from the calculator total, and do not count the same walk again if it is included in a sitter's package. Keep all amounts in one currency; the tool does not convert currencies. An unknown price stays marked **quote needed**, not zero.
+
+Before deciding, check both an ordinary workweek and one disrupted day. If either has an uncovered care period, resolve the arrangement first. If the required quote exceeds what the household can sustain, change the work or care arrangement, or wait; choosing an adult dog alone does not close that gap.
+
+Use the [Dog Fit Score Cards]({{ site.url }}/dog-fit-score-cards/) to compare exercise, grooming, and shedding labels with their evidence notes, then return to the individual dog's records. The tools organize questions; they cannot certify a match.
 
 For travel coverage, turn those arrangements into written [dog sitter instructions]({{ site.url }}/posts/2026/09/24/dog-sitter-instructions-weekend-checklist/). The checklist includes a handoff record and a delayed-return plan so each caregiver knows which tasks remain due.
 
