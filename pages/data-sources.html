@@ -3,7 +3,7 @@ layout: default
 title: "PetStorie Data Sources"
 description: "See how PetStorie checks breed standards, veterinary references, welfare guidance, cost ranges, and editorial dog-breed comparison labels."
 permalink: /data-sources/
-updated: "2026-11-09"
+updated: "2026-11-13"
 adsense: false
 ---
 
@@ -120,6 +120,22 @@ adsense: false
 
     <h3 id="care-cost-data">Care &amp; Cost Dataset</h3>
     <p>The Care &amp; Cost Dataset supplies <a href="{{ site.url }}/dog-cost-calculator/#calculator-assumptions">every calculator allowance and its provenance</a>, local base-care quote rules, insurance and savings boundaries, paid-walk quotes and handoff prompts, plus the <a href="{{ site.url }}/dog-cost-calculator/#care-time-evidence">life-stage and owner-entered care-time method</a>. Amounts and displayed evidence share one data file. Each monetary record states its region, currency, planning year, inclusions, exclusions, confidence and source access dates. The inherited amounts remain unvalidated editorial assumptions: linked sources support categories, not market prices. The tool has no city-price database or age multiplier. No professional review or recommended care duration is implied.</p>
+
+    <h3 id="cost-claim-map">Budget Claims: What the Sources Actually Support</h3>
+    <p>These two source briefs were checked on November 13, 2026. This check covers the claims below, not every dataset field or source. Both concern United States planning; neither supplies a current local quote for your dog.</p>
+    <dl>
+      <dt><strong>Food, routine care and setup belong in separate budget categories.</strong></dt>
+      <dd>
+        <p><a href="https://www.aspca.org/pet-care/general-pet-care/cutting-pet-care-costs" rel="noopener noreferrer">ASPCA: Cutting Pet Care Costs</a> separates recurring, initial and special expenses. Its dollar examples are explicitly labelled 2021. We use the categories, not those historical amounts as 2026 prices.</p>
+        <p><strong>Still unverified:</strong> the calculator's size-based dollar ranges and their suitability for an individual household. Collect monthly food-and-supplies and annual routine-care quotes for the same dog, confirming the care plan with your veterinarian. The <a href="{{ site.url }}/dog-cost-calculator/#base-care-quotes">local base-care inputs</a> replace that category only; grooming, training and other allowances still need separate checks.</p>
+      </dd>
+      <dt><strong>An insurance premium does not tell you the cash needed for treatment.</strong></dt>
+      <dd>
+        <p><a href="https://insurance.maryland.gov/Consumer/Pages/pet-insurance.aspx" rel="noopener noreferrer">Maryland Insurance Administration: Pet Insurance</a> explains deductibles, reimbursement restrictions and the common need to pay the veterinarian before claiming. This supports questions about payment timing and policy terms, not a premium estimate or a savings target. Check the actual contract and insurer for your location.</p>
+        <p><strong>Still unverified:</strong> the calculator's premium and savings ranges, any claim payout and whether a household could fund an emergency. Obtain an individual quote and ask about exclusions, limits, reimbursement and payment timing. Keep available cash separate from a monthly savings contribution; neither proves that a future bill is covered.</p>
+      </dd>
+    </dl>
+    <p><strong>Before treating an allowance as a price:</strong> record the provider or published price page, location, currency, quote date, service scope, taxes and fees, and exclusions. A single quote describes that offer, not a regional market range. Until comparable evidence is available, the <a href="{{ site.url }}/dog-cost-calculator/#calculator-assumptions">published allowances</a> remain unvalidated assumptions and the dataset remains <strong>not professionally reviewed</strong>.</p>
 
     <h2 id="field-evidence">Household Fit Dataset: Field Evidence</h2>
     {% assign published_breeds = site.data.breeds | where: "publication_status", "published" %}
