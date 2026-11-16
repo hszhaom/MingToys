@@ -1843,6 +1843,22 @@
   breed_standard_url: https://www.ukcdogs.com/kangal-dog
   publication_status: published
   image_prefix: kangal
+  evidence:
+    checked: "2026-11-16"
+    review_status: "not professionally reviewed"
+    scope: "Coat and seasonal shedding only. Activity, grooming frequency, health and cost labels have not been checked in this review."
+    mapping_note: "The breed standard describes coat changes, not a validated shedding scale. Medium remains an editorial category and can hide heavier seasonal cleanup."
+    sources:
+      ukc_coat:
+        title: "United Kennel Club: Kangal Dog breed standard, Coat"
+        url: "https://www.ukcdogs.com/kangal-dog"
+        accessed: "2026-11-16"
+    fields:
+      shedding:
+        value: medium
+        basis: "editorial synthesis"
+        note: "UKC describes a short double coat that becomes dense in cold weather and loses much of its undercoat in warm weather. Plan for seasonal loose hair; the medium label is not a promise of steady year-round cleanup. The source does not establish brushing minutes, salon frequency or a grooming price."
+        sources: [ukc_coat]
 - key: belgian-malinois
   name: Belgian Malinois
   url: "/posts/2026/07/10/belgian-malinois-high-drive-working-dog-guide/"
