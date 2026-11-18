@@ -4,7 +4,7 @@ seo_title: "Cane Corso Exercise Needs, Temperament and Care"
 description: "Learn how much exercise a Cane Corso needs, how guardian temperament affects training, and why experienced owners need a clear visitor and care plan."
 cover: /assets/images/canecorso-cover.jpg
 layout: post
-updated: "2026-11-05"
+updated: "2026-11-18"
 adsense: true
 sources:
   - organization: "American Kennel Club"
@@ -22,7 +22,7 @@ sources:
   - organization: "Cane Corso Association of America"
     title: "Owner fit: companionship and workload; not dominance advice"
     url: "https://www.canecorso.org/is-the-cane-corso-right-for-me.html"
-    accessed: "2026-11-03"
+    accessed: "2026-11-18"
   - organization: "Cane Corso Association of America"
     title: "Health concerns; not treatment recommendations"
     url: "https://www.canecorso.org/health.html"
@@ -133,6 +133,16 @@ Build a routine around movement, learning and recovery rather than an unsupporte
 
 These are scheduling prompts, not a minimum welfare allowance or a prescription. Do not add forced running, jumping or weighted work to tire a young dog. A yard provides space but does not provide interaction, training or a safe public-handling routine by itself.
 
+### Turn the routine into a care budget
+
+The [breed club's owner-fit guidance](https://www.canecorso.org/is-the-cane-corso-right-for-me.html) emphasizes companionship and mental stimulation alongside exercise. It does not establish a paid-walk price or a universal number of minutes. Use this editorial planning sequence for the dog and household in front of you:
+
+1. **Assign the work:** write down who handles each outing, training practice and handover on your busiest weekday. Keep feeding, cleanup and visitor management in the schedule too; walk time is not total care time.
+2. **Check uncovered visits:** ask a potential caregiver whether they can accept this individual dog, follow the entry/barrier routine and provide the agreed service. Record visit length, included tasks, fees and cancellation cover before treating a quote as a workable arrangement.
+3. **Price only confirmed scope:** enter comparable USD paid-walk quotes, visits per week and paid weeks per year in the [Dog Cost Calculator]({{ site.url }}/dog-cost-calculator/). Its care-time worksheet records your own daily minutes; neither output establishes that exercise or supervision is sufficient.
+
+Keep fencing, gate work, liability cover and boarding quotes in a separate household budget: the calculator has no dedicated inputs for them. Its training option is an illustrative allowance, not a trainer's quote. When replacing an allowance with a real cost outside the tool, remove that allowance from your combined total to avoid double counting. Leave an unavailable quote marked unknown, not zero.
+
 ## Low Coat Work, High Body-Handling Need
 
 The Cane Corso has a short, dense coat that is easier to maintain than the coats of many giant guardians. Weekly brushing with a rubber curry brush or grooming mitt removes loose hair, spreads skin oils, and gives you a chance to check for lumps, irritation, or small injuries.
@@ -203,7 +213,7 @@ Dogs do not make reliable legal judgments. Stable genetics, management, neutrali
 
 Corsos need daily physical and mental work, especially through adolescence. Exercise should protect growing joints, but inactivity and yard isolation are not suitable plans.
 
-Set up the [dog cost calculator]({{ site.url }}/dog-cost-calculator/) with ongoing training, secure fencing and gates, insurance research, large-dog food, capable boarding, muzzle-conditioning equipment, and medical savings. The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) are useful before purchase because they force a direct look at housing rules, visitors, public handling, children, other dogs, guardian experience, and qualified local support.
+The [dog fit score cards]({{ site.url }}/dog-fit-score-cards/) compare broad exercise, grooming and shedding labels and link to their evidence. Use the housing, visitor and handling checks in this guide separately; the cards do not assess household safety or permission to keep a Cane Corso.
 
 ## Is a Cane Corso Right for You?
 
